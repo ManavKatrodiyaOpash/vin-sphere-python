@@ -1,0 +1,45 @@
+Nissan :-
+    pos_4 :- Vehicle Series / Model Family
+    pos_5 :- Body Type
+    pos_6 :- Engine Type
+    pos_7 :- Trim Level / Grade
+    pos_8 :- Transmission / Drivetrain
+
+Toyota :-
+    pos_1_2 :- Country of origin
+    pos_2 :- Manufacturer
+    pos_3 :- Vehicle Type
+    pos_4 :- Model Series
+    pos_5 :- Body Type
+    pos_6 :- Engine Type
+    pos_7 :- Trim Level
+    pos_8 :- Safety System / Transmission
+    pos_9 :- Check digit
+    pos_10 :- Model year
+    pos_11 :- Plant
+
+Honda :- 
+    pos_1 :- Nation of Origin
+    pos_2 :- Manufacturer
+    pos_3 :- Vehicle Type
+    pos_4 :- Vehicle Line / Platform
+    pos_5 :- Body Type & Drivetrain
+    pos_6 :- Engine Type / Displacement
+    pos_7 :- Transmission Type & Body Configuration
+    pos_8 :- Equipment Grade / Trim Level
+    pos_9 :- Check digit
+    pos_10 :- Model year
+    pos_11 :- Assembly plant
+
+Hyundai :- 
+    pos_1 :- WMI Geographic zone
+    pos_2 :- Manufacturer
+    pos_3 :- Vehicle Type
+    pos_4 :- VDS	Model Line and Drive Type
+    pos_5 :- Body Type or Trim Level
+    pos_6 :- Trim Level or Body Type
+    pos_7 :- Restraint System or GVWR
+    pos_8 :- Engine Type
+    pos_9 :- Check Digit
+    pos_10 :- VIS	Model Year
+    pos_11 :- Manufacturing Plant Code

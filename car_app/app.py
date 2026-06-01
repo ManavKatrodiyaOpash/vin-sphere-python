@@ -283,7 +283,6 @@ def validate_vin_chars(vin):
 
 def get_manufacturer_file(vin):
     vin = vin.upper()
-
     if len(vin) < 3:
         return None, None
 
@@ -291,12 +290,17 @@ def get_manufacturer_file(vin):
 
     nissan_rules = load_rules("nissan.json")
     toyota_rules = load_rules("toyota.json")
+    honda_rules = load_rules("honda.json")
 
     if nissan_rules and wmi in nissan_rules.get("wmi", {}):
         return "nissan.json", "Nissan"
 
     if toyota_rules and wmi in toyota_rules.get("wmi", {}):
         return "toyota.json", "Toyota"
+
+    # Added Honda Routing
+    if honda_rules and wmi in honda_rules.get("wmi", {}):
+        return "honda.json", "Honda"
 
     return None, None
 
@@ -323,6 +327,96 @@ def load_rules(filename):
 # =====================================================
 
 def decode_vin(vin):
+    vin = vin.upper().strip()
+
+    valid_chars, bad_chars = validate_vin_chars(vin)
+    check_ok, expected_check = validate_check_digit(vin)
+
+    filename, mfr_name = get_manufacturer_file(vin)
+    rules = load_rules(filename) if filename else None
+
+    # Extraction
+    wmi = vin[:3]
+    vds = vin[3:9]
+    vis = vin[9:]
+
+    pos4 = vin[3]
+    pos5 = vin[4]
+    pos5_6 = vin[4:6]
+    pos6 = vin[5]
+    pos7 = vin[6]
+    pos8 = vin[7]
+    pos9 = vin[8]
+    pos10 = vin[9]
+    pos11 = vin[10]
+    serial = vin[11:]
+
+    result = {
+        "vin": vin, "wmi": wmi, "vds": vds, "vis": vis,
+        "check_digit": pos9, "check_digit_valid": check_ok,
+        "check_digit_expected": expected_check,
+        "valid_chars": valid_chars, "invalid_chars_found": bad_chars,
+        "manufacturer": mfr_name or "Unknown",
+        "country": "Unknown", "vehicle_type": "Unknown",
+        "wmi_description": "Unknown", "body_type": "Unknown",
+        "engine": "Unknown", "restraint_system": "Unknown",
+        "model_platform": "Unknown", "series_line": "Unknown",
+        "model_generation": "Unknown", "model_year": "Unknown",
+        "plant": "Unknown", "serial_number": serial,
+        "pos4": pos4, "pos5": pos5, "pos5_6": pos5_6, "pos6": pos6,
+        "pos7": pos7, "pos8": pos8, "pos9": pos9, "pos10": pos10,
+        "pos11": pos11, "notes": [],
+    }
+
+    if not rules:
+        result["notes"].append("Unable to identify manufacturer from WMI.")
+        return result
+
+    # ── WMI ─────────────────────────────────────────
+    wmi_data = rules.get("wmi", {})
+    wmi_info = wmi_data.get(wmi, {})
+    result["country"] = wmi_info.get("country", "Unknown")
+    result["vehicle_type"] = wmi_info.get("vehicle_type", "Unknown")
+    result["wmi_description"] = wmi_info.get("manufacturer", mfr_name or "Unknown")
+
+    # ── POSITION 4 (Series/Line) ────────────────────
+    p4_map = rules.get("position_4", {})
+    val4 = p4_map.get(pos4)
+    if val4:
+        result["series_line"] = val4
+
+    # ── POSITION 5+6 (Honda Chassis/Engine) ─────────
+    # Many Honda JSONs use 5+6 for the specific model code (e.g., 'EJ' for Civic)
+    p56_map = rules.get("position_5_and_6", {})
+    if p56_map:
+        val56 = p56_map.get(pos5_6)
+        if val56:
+            result["model_platform"] = val56
+
+    # ── POSITION 7 (Body/Transmission) ──────────────
+    p7_map = rules.get("position_7", {})
+    val7 = p7_map.get(pos7)
+    if val7:
+        result["body_type"] = val7
+
+    # ── POSITION 8 (Grade/Equipment) ────────────────
+    p8_map = rules.get("position_8", {})
+    val8 = p8_map.get(pos8)
+    if val8:
+        result["restraint_system"] = val8
+
+    # ── POSITION 10 — MODEL YEAR ─────────────────────
+    year_map = rules.get("position_10_model_year", rules.get("year_codes", {}))
+    year_val = year_map.get(pos10)
+    if year_val:
+        result["model_year"] = str(year_val)
+
+    # ── POSITION 11 — PLANT ──────────────────────────
+    plant_map = rules.get("position_11_plant", {})
+    plant_val = plant_map.get(pos11)
+    result["plant"] = plant_val if plant_val else f"Code '{pos11}'"
+
+    return result
     vin = vin.upper().strip()
 
     # Basic validation

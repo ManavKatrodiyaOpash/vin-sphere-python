@@ -9,7 +9,7 @@
         "JN1": {
             "manufacturer": "Nissan Motor Co. Ltd.",
             "country": "Japan",
-            "vehicle_type": "Passenger Car (Complete)"
+            "vehicle_type": "Passenger Car"
         },
         "JN2": {
             "manufacturer": "Nissan Motor Co. Ltd.",
@@ -47,128 +47,168 @@
             "vehicle_type": "Multi-Purpose Vehicle / SUV"
         },
         "JNA": {
-            "manufacturer": "Nissan Diesel Motor Co. Ltd.",
+            "manufacturer": "UD Trucks / Nissan Diesel Motor Co.",
             "country": "Japan",
-            "vehicle_type": "Commercial"
+            "vehicle_type": "Commercial Vehicle"
         },
         "JNB": {
-            "manufacturer": "Nissan Diesel Motor Co. Ltd.",
+            "manufacturer": "UD Trucks / Nissan Diesel Motor Co.",
             "country": "Japan",
-            "vehicle_type": "Commercial"
+            "vehicle_type": "Commercial Vehicle"
         },
         "JNK": {
-            "manufacturer": "Nissan Motor Co. Ltd.",
+            "manufacturer": "Nissan Motor Co. Ltd. (Infiniti)",
             "country": "Japan",
-            "vehicle_type": "Infiniti Passenger Car (Complete)"
+            "vehicle_type": "Passenger Car"
         },
         "JNR": {
-            "manufacturer": "Nissan Motor Co. Ltd.",
+            "manufacturer": "Nissan Motor Co. Ltd. (Infiniti)",
             "country": "Japan",
-            "vehicle_type": "Infiniti Multi-Purpose Vehicle"
+            "vehicle_type": "Multi-Purpose Vehicle"
         },
         "JNX": {
-            "manufacturer": "Nissan Motor Co. Ltd.",
+            "manufacturer": "Nissan Motor Co. Ltd. (Infiniti)",
             "country": "Japan",
-            "vehicle_type": "Infiniti Passenger Car (Incomplete)"
+            "vehicle_type": "Passenger Car (Incomplete)"
         },
         "1N4": {
-            "manufacturer": "Nissan Motor Mfg. Corp. USA",
+            "manufacturer": "Nissan North America Inc.",
             "country": "USA",
             "vehicle_type": "Passenger Car"
         },
         "1N6": {
-            "manufacturer": "Nissan Motor Mfg. Corp. USA",
+            "manufacturer": "Nissan North America Inc.",
             "country": "USA",
             "vehicle_type": "Truck"
         },
         "1PJ": {
-            "manufacturer": "Nissan Motor Mfg. Corp. USA",
+            "manufacturer": "Nissan North America Inc.",
             "country": "USA",
             "vehicle_type": "Passenger Car"
         },
         "3N1": {
-            "manufacturer": "Nissan Mexicana SA de CV",
+            "manufacturer": "Nissan Mexicana S.A. de C.V.",
             "country": "Mexico",
             "vehicle_type": "Passenger Car"
         },
         "3N2": {
-            "manufacturer": "Nissan Mexicana SA de CV",
+            "manufacturer": "Nissan Mexicana S.A. de C.V.",
             "country": "Mexico",
             "vehicle_type": "Passenger Car"
         },
         "3N3": {
-            "manufacturer": "Nissan Mexicana SA de CV",
+            "manufacturer": "Nissan Mexicana S.A. de C.V.",
             "country": "Mexico",
             "vehicle_type": "Passenger Car"
         },
         "3N4": {
-            "manufacturer": "Nissan Mexicana SA de CV",
+            "manufacturer": "Nissan Mexicana S.A. de C.V.",
             "country": "Mexico",
             "vehicle_type": "Passenger Car"
         },
         "3N5": {
-            "manufacturer": "Nissan Mexicana SA de CV",
+            "manufacturer": "Nissan Mexicana S.A. de C.V.",
             "country": "Mexico",
             "vehicle_type": "Passenger Car"
         },
         "3N6": {
-            "manufacturer": "Nissan Mexicana SA de CV",
+            "manufacturer": "Nissan Mexicana S.A. de C.V.",
             "country": "Mexico",
             "vehicle_type": "Truck"
         },
         "3N7": {
-            "manufacturer": "Nissan Mexicana SA de CV",
+            "manufacturer": "Nissan Mexicana S.A. de C.V.",
             "country": "Mexico",
             "vehicle_type": "Truck"
         },
         "3N8": {
-            "manufacturer": "Nissan Mexicana SA de CV",
+            "manufacturer": "Nissan Mexicana S.A. de C.V.",
             "country": "Mexico",
             "vehicle_type": "Passenger Car"
         },
+        "3G2": {
+            "manufacturer": "General Motors Mexico (Nissan Build Agreement)",
+            "country": "Mexico",
+            "vehicle_type": "Passenger Wagon"
+        },
+        "4M2": {
+            "manufacturer": "Ford Motor Company (Nissan Joint Venture)",
+            "country": "USA",
+            "vehicle_type": "Multi-Purpose Vehicle (Quest)"
+        },
         "4N2": {
-            "manufacturer": "Nissan (Canada/USA)",
+            "manufacturer": "Nissan Canada / USA Inc.",
             "country": "Canada",
             "vehicle_type": "Multi-Purpose Vehicle"
         },
-        "5BZ": {
-            "manufacturer": "Nissan Motor Mfg. Corp. USA",
+        "4R4": {
+            "manufacturer": "Nissan North America Inc.",
             "country": "USA",
-            "vehicle_type": "Bus / Van (3+ row seating)"
+            "vehicle_type": "Truck"
+        },
+        "4R6": {
+            "manufacturer": "Nissan North America Inc.",
+            "country": "USA",
+            "vehicle_type": "Truck"
+        },
+        "5BZ": {
+            "manufacturer": "Nissan North America Inc.",
+            "country": "USA",
+            "vehicle_type": "Bus / Large Van"
         },
         "5N1": {
-            "manufacturer": "Nissan Motor Mfg. Corp. USA",
+            "manufacturer": "Nissan North America Inc.",
             "country": "USA",
             "vehicle_type": "Multi-Purpose Vehicle / SUV"
         },
         "5N2": {
-            "manufacturer": "Nissan Motor Mfg. Corp. USA",
+            "manufacturer": "Nissan North America Inc.",
             "country": "USA",
             "vehicle_type": "SUV"
         },
         "5N3": {
-            "manufacturer": "Nissan Motor Mfg. Corp. USA",
+            "manufacturer": "Nissan North America Inc.",
             "country": "USA",
             "vehicle_type": "SUV"
         },
         "6F4": {
-            "manufacturer": "Nissan Motor Co. Australia Pty Ltd",
+            "manufacturer": "Nissan Motor Co. Australia Pty. Ltd.",
             "country": "Australia",
             "vehicle_type": "Passenger Car"
         },
+        "7NA": {
+            "manufacturer": "Nissan New Zealand Ltd.",
+            "country": "New Zealand",
+            "vehicle_type": "Commercial Vehicle"
+        },
         "93B": {
-            "manufacturer": "Nissan (Brazil)",
+            "manufacturer": "Nissan do Brasil Automóveis Ltda",
             "country": "Brazil",
-            "vehicle_type": "Commercial"
+            "vehicle_type": "Commercial Vehicle"
         },
         "94D": {
-            "manufacturer": "Nissan do Brasil Automoveis Ltda",
+            "manufacturer": "Nissan do Brasil Automóveis Ltda",
             "country": "Brazil",
             "vehicle_type": "Passenger Car"
         },
         "ADN": {
-            "manufacturer": "Nissan SA (Pty) Ltd",
+            "manufacturer": "Nissan South Africa (Pty) Ltd.",
             "country": "South Africa",
+            "vehicle_type": "Passenger Car"
+        },
+        "ADR": {
+            "manufacturer": "Nissan South Africa (Renault Sandero Build)",
+            "country": "South Africa",
+            "vehicle_type": "Passenger Car"
+        },
+        "Z8N": {
+            "manufacturer": "Nissan South Africa (Pty) Ltd.",
+            "country": "South Africa",
+            "vehicle_type": "Commercial / Truck"
+        },
+        "KNM": {
+            "manufacturer": "Nissan Motor Manufacturing Korea",
+            "country": "South Korea",
             "vehicle_type": "Passenger Car"
         },
         "MDH": {
@@ -181,19 +221,34 @@
             "country": "Thailand",
             "vehicle_type": "Passenger Car"
         },
+        "LNJ": {
+            "manufacturer": "Dongfeng Yulon Motor Co. (Nissan Line)",
+            "country": "China",
+            "vehicle_type": "Passenger Car / Crossover"
+        },
+        "LC0": {
+            "manufacturer": "Zhengzhou Nissan Automobile Co. Ltd.",
+            "country": "China",
+            "vehicle_type": "Multi-Purpose Vehicle / SUV"
+        },
         "SJN": {
-            "manufacturer": "Nissan Motor Mfg. (UK) Ltd.",
+            "manufacturer": "Nissan Motor Manufacturing UK Ltd.",
             "country": "United Kingdom",
             "vehicle_type": "Passenger Car"
         },
-        "VSK": {
-            "manufacturer": "Nissan Motor Iberica SA",
-            "country": "Spain",
-            "vehicle_type": "Commercial Vehicle"
+        "SJK": {
+            "manufacturer": "Nissan Motor Manufacturing UK Ltd. (Infiniti Build)",
+            "country": "United Kingdom",
+            "vehicle_type": "Passenger Car (QX30)"
         },
-        "KNM": {
-            "manufacturer": "Nissan Motor Manufacturing Korea",
-            "country": "South Korea",
+        "VSK": {
+            "manufacturer": "Nissan Motor Ibérica S.A.",
+            "country": "Spain",
+            "vehicle_type": "Commercial Vehicle / SUV"
+        },
+        "XTA": {
+            "manufacturer": "AvtoVAZ (Nissan-Datsun Assembly)",
+            "country": "Russia",
             "vehicle_type": "Passenger Car"
         }
     },
