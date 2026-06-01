@@ -1,256 +1,257 @@
 {
     "manufacturer": "Toyota",
+    "_notes": {
+        "vin_structure": "17 chars: pos1-3=WMI, pos4-8=VDS, pos9=check_digit, pos10=model_year, pos11=plant, pos12-17=serial",
+        "vds_note": "Toyota VDS: pos4=body_type, pos5=engine_code, pos6=vehicle_series(chassis_code), pos7=restraint_system, pos8=model_platform. These are based on documented Toyota internal encoding. Pos9 = check digit (NA mandatory, optional elsewhere).",
+        "important": "Position 6 (series/chassis code) is purely internal Toyota numbering — no simple public letter→name table exists for all codes. Engine codes in pos5 are Toyota engine family codes."
+    },
     "wmi": {
         "JT1": {
-            "manufacturer": "Toyota",
+            "manufacturer": "Toyota Motor Corp.",
             "country": "Japan",
             "vehicle_type": "Passenger Car"
         },
         "JT2": {
-            "manufacturer": "Toyota",
+            "manufacturer": "Toyota Motor Corp.",
             "country": "Japan",
             "vehicle_type": "Passenger Car"
         },
         "JT3": {
-            "manufacturer": "Toyota",
+            "manufacturer": "Toyota Motor Corp.",
+            "country": "Japan",
+            "vehicle_type": "SUV"
+        },
+        "JT4": {
+            "manufacturer": "Toyota Motor Corp.",
+            "country": "Japan",
+            "vehicle_type": "Truck"
+        },
+        "JTE": {
+            "manufacturer": "Toyota Motor Corp.",
             "country": "Japan",
             "vehicle_type": "SUV"
         },
         "JTD": {
-            "manufacturer": "Toyota",
+            "manufacturer": "Toyota Motor Corp.",
             "country": "Japan",
             "vehicle_type": "Passenger Car"
         },
-        "JTE": {
-            "manufacturer": "Toyota",
+        "JTF": {
+            "manufacturer": "Toyota Motor Corp.",
             "country": "Japan",
-            "vehicle_type": "SUV"
+            "vehicle_type": "Truck"
+        },
+        "JTG": {
+            "manufacturer": "Toyota Motor Corp.",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JTH": {
+            "manufacturer": "Toyota Motor Corp.",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car (Lexus)"
+        },
+        "JTJ": {
+            "manufacturer": "Toyota Motor Corp.",
+            "country": "Japan",
+            "vehicle_type": "SUV (Lexus)"
+        },
+        "JTK": {
+            "manufacturer": "Toyota Motor Corp.",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JTM": {
+            "manufacturer": "Toyota Motor Corp.",
+            "country": "Japan",
+            "vehicle_type": "Multi-Purpose Vehicle"
+        },
+        "JTN": {
+            "manufacturer": "Toyota Motor Corp.",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car (Lexus)"
         },
         "2T1": {
-            "manufacturer": "Toyota",
+            "manufacturer": "Toyota Motor Mfg. Canada",
             "country": "Canada",
             "vehicle_type": "Passenger Car"
         },
         "2T3": {
-            "manufacturer": "Toyota",
+            "manufacturer": "Toyota Motor Mfg. Canada",
             "country": "Canada",
             "vehicle_type": "SUV"
         },
         "4T1": {
-            "manufacturer": "Toyota",
+            "manufacturer": "Toyota Motor Mfg. USA",
             "country": "USA",
             "vehicle_type": "Passenger Car"
         },
         "4T3": {
-            "manufacturer": "Toyota",
+            "manufacturer": "Toyota Motor Mfg. USA",
             "country": "USA",
             "vehicle_type": "SUV"
+        },
+        "4T4": {
+            "manufacturer": "Toyota Motor Mfg. USA",
+            "country": "USA",
+            "vehicle_type": "Passenger Car"
         },
         "5TD": {
-            "manufacturer": "Toyota",
+            "manufacturer": "Toyota Motor Mfg. USA",
             "country": "USA",
-            "vehicle_type": "SUV"
+            "vehicle_type": "SUV / Minivan"
         },
         "5TF": {
-            "manufacturer": "Toyota",
+            "manufacturer": "Toyota Motor Mfg. USA",
             "country": "USA",
-            "vehicle_type": "Truck"
+            "vehicle_type": "Truck (Tundra, Tacoma)"
+        },
+        "5YF": {
+            "manufacturer": "Toyota Motor Mfg. USA (TMMMS)",
+            "country": "USA",
+            "vehicle_type": "Passenger Car"
         },
         "MR0": {
-            "manufacturer": "Toyota",
+            "manufacturer": "Toyota Motor Thailand",
             "country": "Thailand",
             "vehicle_type": "Pickup"
         },
+        "MHF": {
+            "manufacturer": "Toyota Motor Thailand",
+            "country": "Thailand",
+            "vehicle_type": "Passenger Car"
+        },
         "AHT": {
-            "manufacturer": "Toyota",
+            "manufacturer": "Toyota SA Motors",
             "country": "South Africa",
-            "vehicle_type": "SUV"
+            "vehicle_type": "SUV / Truck"
         },
         "SB1": {
-            "manufacturer": "Toyota",
+            "manufacturer": "Toyota Motor Mfg. (UK) Ltd.",
             "country": "United Kingdom",
             "vehicle_type": "Passenger Car"
         },
         "NMT": {
-            "manufacturer": "Toyota",
+            "manufacturer": "Toyota Motor Mfg. Turkey",
             "country": "Turkey",
             "vehicle_type": "Passenger Car"
+        },
+        "3T3": {
+            "manufacturer": "Toyota Motor Mfg. Mexico",
+            "country": "Mexico",
+            "vehicle_type": "Passenger Car"
+        },
+        "3TM": {
+            "manufacturer": "Toyota Motor Mfg. Mexico (Baja CA)",
+            "country": "Mexico",
+            "vehicle_type": "Pickup"
         }
     },
-    "position_4": {
-        "A": "Corolla Series",
-        "B": "Camry Series",
-        "C": "RAV4 Series",
-        "D": "Hilux Series",
-        "E": "Fortuner Series",
-        "F": "Land Cruiser Series",
-        "G": "Yaris Series",
-        "H": "Innova Series",
-        "J": "Prius Series",
-        "K": "Avalon Series",
-        "L": "Lexus Platform Series",
-        "M": "MPV Series",
-        "N": "Crossover Series",
-        "P": "Performance Series",
-        "Q": "Urban Cruiser Series",
-        "R": "Rush Series",
-        "S": "Sport Series",
-        "T": "Touring Series",
-        "U": "Utility Series",
-        "V": "Van Series",
-        "W": "Wagon Series",
-        "X": "SUV Series",
-        "Y": "Hybrid Series",
-        "Z": "GR Performance Series"
+    "position_4_body_type": {
+        "_note": "Position 4 = body type / drive configuration for Toyota VINs",
+        "A": "2-Door Sedan, 2WD",
+        "B": "4-Door Sedan, 2WD",
+        "C": "2-Door Coupe, 2WD",
+        "D": "4-Door Truck, 4WD",
+        "E": "4-Door Truck, 2WD",
+        "G": "4-Door Wagon, 2WD",
+        "H": "4-Door Wagon, 4WD",
+        "K": "4-Door Wagon, 2WD (alt)",
+        "L": "4-Door Wagon or Truck, 4WD",
+        "M": "5-Door Van, 2WD",
+        "N": "2-Door Regular Cab Truck, 2WD",
+        "P": "2-Door Regular Cab Truck, 4WD",
+        "S": "3-Door Liftback, 4WD",
+        "T": "2-Door Extended Cab Truck, 2WD",
+        "W": "2-Door Extended Cab Truck, 4WD",
+        "X": "5-Door SUV",
+        "Y": "Sport Van",
+        "Z": "5-Door Wagon, 2WD"
     },
-    "position_5": {
-        "A": {
-            "body_type": "Sedan",
-            "possible_models": [
-                "Corolla",
-                "Corolla Altis"
-            ]
-        },
-        "B": {
-            "body_type": "Sedan",
-            "possible_models": [
-                "Camry",
-                "Avalon"
-            ]
-        },
-        "C": {
-            "body_type": "SUV",
-            "possible_models": [
-                "RAV4",
-                "Harrier"
-            ]
-        },
-        "D": {
-            "body_type": "Pickup",
-            "possible_models": [
-                "Hilux"
-            ]
-        },
-        "E": {
-            "body_type": "SUV",
-            "possible_models": [
-                "Fortuner"
-            ]
-        },
-        "F": {
-            "body_type": "SUV",
-            "possible_models": [
-                "Land Cruiser",
-                "Prado"
-            ]
-        },
-        "G": {
-            "body_type": "Hatchback",
-            "possible_models": [
-                "Yaris",
-                "Vitz"
-            ]
-        },
-        "H": {
-            "body_type": "MPV",
-            "possible_models": [
-                "Innova",
-                "Innova Crysta"
-            ]
-        },
-        "J": {
-            "body_type": "Hybrid",
-            "possible_models": [
-                "Prius"
-            ]
-        },
-        "K": {
-            "body_type": "Sedan",
-            "possible_models": [
-                "Avalon"
-            ]
-        },
-        "M": {
-            "body_type": "MPV",
-            "possible_models": [
-                "Sienna"
-            ]
-        },
-        "R": {
-            "body_type": "SUV",
-            "possible_models": [
-                "Rush"
-            ]
-        },
-        "X": {
-            "body_type": "SUV",
-            "possible_models": [
-                "Highlander",
-                "Kluger"
-            ]
-        },
-        "Y": {
-            "body_type": "Hybrid",
-            "possible_models": [
-                "Camry Hybrid",
-                "Corolla Hybrid"
-            ]
-        }
+    "position_5_engine_code": {
+        "_note": "Position 5 = Toyota engine family code. These are Toyota internal engine designation codes.",
+        "4": "7A-FE (Lean Burn, 1.8L)",
+        "A": "3MZ-FE (3.3L V6 Hybrid)",
+        "B": "1NZ-FXE or 2AZ-FXE (Hybrid)",
+        "D": "2ZZ-GE (1.8L VVTL-i performance)",
+        "E": "2AZ-FE (2.4L 4-cyl)",
+        "F": "1MZ-FE (3.0L V6) or 2AR-FE (2.5L)",
+        "G": "5S-FE (2.2L 4-cyl, legacy)",
+        "H": "1AZ-FE (2.0L 4-cyl)",
+        "J": "1FZ-FE (4.5L 6-cyl, Land Cruiser)",
+        "K": "2GR-FE (3.5L V6)",
+        "L": "2RZ-FE (2.4L 4-cyl, legacy)",
+        "M": "3RZ-FE (2.7L 4-cyl)",
+        "N": "5VZ-FE (3.4L V6) or 2ZR-FXE (1.8L Hybrid)",
+        "P": "3S-FE (2.0L 4-cyl, legacy)",
+        "R": "1ZZ-FE (1.8L 4-cyl)",
+        "S": "1BM Electric Motor or Electric drive",
+        "T": "3S-GTE (2.0L Turbo performance)",
+        "U": "1GR-FE (4.0L V6) or 2ZR-FE (1.8L)",
+        "V": "1NR-FE (1.3L 4-cyl)",
+        "Y": "3UR-FE (5.7L V8)"
     },
     "position_6": {
-        "1": "1.3L Petrol",
-        "2": "1.5L Petrol",
-        "3": "1.8L Petrol",
-        "4": "2.0L Petrol",
-        "5": "2.4L Petrol",
-        "6": "2.5L Petrol",
-        "7": "2.8L Diesel",
-        "8": "Hybrid",
-        "9": "Performance Engine"
+        "_note": "Position 6 = internal Toyota series/chassis code identifier. This is a single alphanumeric character tied to Toyota's internal platform numbering. No complete universal public table exists — it identifies the specific chassis generation. Use NHTSA or Toyota dealer decoder for exact match."
     },
-    "position_7": {
-        "A": "Base Trim",
-        "B": "Mid Trim",
-        "C": "Premium Trim",
-        "D": "Safety Package",
-        "E": "Luxury Package",
-        "F": "GR Sport Package",
-        "G": "Adventure Package",
-        "H": "Executive Package",
-        "P": "Premium Safety Package",
-        "R": "Luxury Safety Package"
+    "position_7_restraint_system": {
+        "_note": "Position 7 = restraint system (seatbelts + airbag configuration)",
+        "0": "Manual belts, dual front airbags + curtain airbags",
+        "1": "Manual belts only (no airbags)",
+        "2": "Manual belts + driver airbag only",
+        "3": "Manual belts + dual front airbags",
+        "6": "Manual belts + dual front + side + curtain airbags + driver knee airbag",
+        "7": "Manual belts + dual front airbags + driver knee airbag",
+        "8": "Manual belts + dual front + side airbags",
+        "D": "Manual belts + dual front + side + 3-row curtain airbags + driver knee airbag",
+        "F": "Manual belts + dual front + side + curtain airbags + driver & passenger knee airbags"
     },
-    "position_8": {
-        "A": {
-            "drive_type": "FWD",
-            "transmission": "Manual"
-        },
-        "B": {
-            "drive_type": "FWD",
-            "transmission": "Automatic"
-        },
-        "C": {
-            "drive_type": "FWD",
-            "transmission": "CVT"
-        },
-        "D": {
-            "drive_type": "AWD",
-            "transmission": "Automatic"
-        },
-        "E": {
-            "drive_type": "4WD",
-            "transmission": "Automatic"
-        },
-        "F": {
-            "drive_type": "Hybrid FWD",
-            "transmission": "eCVT"
-        },
-        "G": {
-            "drive_type": "Hybrid AWD",
-            "transmission": "eCVT"
-        }
+    "position_8_model_platform": {
+        "_note": "Position 8 = Toyota model/platform identifier",
+        "0": "MR2 Spyder",
+        "1": "Tundra",
+        "3": "Echo / Yaris",
+        "4": "Scion xB / xD",
+        "7": "Scion tC",
+        "A": "Highlander / Sequoia / Celica / Supra",
+        "B": "Avalon",
+        "C": "Sienna / Previa",
+        "D": "T100",
+        "E": "Corolla / Matrix",
+        "F": "FJ Cruiser",
+        "G": "Hilux",
+        "H": "Highlander (later gen)",
+        "J": "Land Cruiser",
+        "K": "Camry",
+        "L": "Tercel / Paseo",
+        "M": "Previa",
+        "N": "Tacoma / older trucks",
+        "P": "Camry Solara",
+        "R": "4Runner / Corolla (alternate)",
+        "T": "Celica FWD",
+        "U": "Prius",
+        "V": "RAV4",
+        "W": "MR2 (non-Spyder)",
+        "X": "Cressida"
     },
-    "year_codes": {
+    "position_9": {
+        "_note": "Check digit — mathematical validation character. Values 0-9 or X. Mandatory in USA/Canada per 49 CFR Part 565. Optional under ISO 3779 for non-NA markets."
+    },
+    "position_10_model_year": {
+        "_note": "Shared standard across all manufacturers since 1981. Repeats in 30-year cycle. Letters I, O, Q, U, Z and digit 0 never used.",
+        "V": 1997,
+        "W": 1998,
+        "X": 1999,
+        "Y": 2000,
+        "1": 2001,
+        "2": 2002,
+        "3": 2003,
+        "4": 2004,
+        "5": 2005,
+        "6": 2006,
+        "7": 2007,
+        "8": 2008,
+        "9": 2009,
         "A": 2010,
         "B": 2011,
         "C": 2012,
@@ -268,5 +269,35 @@
         "R": 2024,
         "S": 2025,
         "T": 2026
+    },
+    "position_11_plant": {
+        "_note": "Toyota assembly plant codes",
+        "0": "Japan (various plants)",
+        "1": "Japan",
+        "2": "Japan",
+        "3": "Japan",
+        "4": "Japan",
+        "5": "Japan",
+        "6": "Japan",
+        "7": "Japan",
+        "8": "Japan",
+        "9": "Japan",
+        "A": "Onnaing-Valenciennes, France",
+        "C": "Cambridge, Ontario, Canada",
+        "D": "Japan (specific plant)",
+        "E": "United Kingdom (Burnaston, Derbyshire)",
+        "K": "Japan",
+        "M": "Baja California, Mexico",
+        "N": "Kolín, Czech Republic",
+        "R": "Lafayette, Indiana, USA",
+        "S": "Princeton, Indiana, USA",
+        "T": "Thailand",
+        "U": "Georgetown, Kentucky, USA",
+        "W": "Woodstock, Ontario, Canada",
+        "X": "San Antonio, Texas, USA",
+        "Z": "Fremont, California, USA (legacy NUMMI)"
+    },
+    "position_12_to_17": {
+        "_note": "Sequential production serial number. 6 digits, unique per vehicle per plant per model year. Last 4 must be numeric per ISO 3779."
     }
 }
