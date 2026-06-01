@@ -1,283 +1,284 @@
 {
     "manufacturer": "Nissan",
+    "_notes": {
+        "vin_structure": "17 chars: pos1-3=WMI, pos4-8=VDS, pos9=check_digit, pos10=model_year, pos11=plant, pos12-17=serial",
+        "vds_note": "Nissan VDS encoding differs by market. North America: pos4=line/series, pos5+6=model+generation, pos7=body_type, pos8=restraint_system. European market uses pos7-9 for platform+model code. Position 9 is always check digit for NA.",
+        "important": "Positions 4-8 are manufacturer-specific and vary by model year and market. No single universal public table exists. Use NHTSA VIN decoder for exact lookup."
+    },
     "wmi": {
         "JN1": {
-            "manufacturer": "Nissan",
+            "manufacturer": "Nissan Motor Co. Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car (Complete)"
+        },
+        "JN2": {
+            "manufacturer": "Nissan Motor Co. Ltd.",
             "country": "Japan",
             "vehicle_type": "Passenger Car"
         },
         "JN3": {
-            "manufacturer": "Nissan",
+            "manufacturer": "Nissan Motor Co. Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car (Incomplete/Convertible)"
+        },
+        "JN4": {
+            "manufacturer": "Nissan Motor Co. Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JN5": {
+            "manufacturer": "Nissan Motor Co. Ltd.",
             "country": "Japan",
             "vehicle_type": "Passenger Car"
         },
         "JN6": {
-            "manufacturer": "Nissan",
+            "manufacturer": "Nissan Motor Co. Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Truck / Cargo Van"
+        },
+        "JN7": {
+            "manufacturer": "Nissan Motor Co. Ltd.",
             "country": "Japan",
             "vehicle_type": "Truck"
         },
         "JN8": {
-            "manufacturer": "Nissan",
+            "manufacturer": "Nissan Motor Co. Ltd.",
             "country": "Japan",
-            "vehicle_type": "SUV"
+            "vehicle_type": "Multi-Purpose Vehicle / SUV"
+        },
+        "JNA": {
+            "manufacturer": "Nissan Diesel Motor Co. Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Commercial"
+        },
+        "JNB": {
+            "manufacturer": "Nissan Diesel Motor Co. Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Commercial"
+        },
+        "JNK": {
+            "manufacturer": "Nissan Motor Co. Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Infiniti Passenger Car (Complete)"
+        },
+        "JNR": {
+            "manufacturer": "Nissan Motor Co. Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Infiniti Multi-Purpose Vehicle"
+        },
+        "JNX": {
+            "manufacturer": "Nissan Motor Co. Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Infiniti Passenger Car (Incomplete)"
         },
         "1N4": {
-            "manufacturer": "Nissan",
+            "manufacturer": "Nissan Motor Mfg. Corp. USA",
             "country": "USA",
             "vehicle_type": "Passenger Car"
         },
         "1N6": {
-            "manufacturer": "Nissan",
+            "manufacturer": "Nissan Motor Mfg. Corp. USA",
             "country": "USA",
             "vehicle_type": "Truck"
         },
-        "1N8": {
-            "manufacturer": "Nissan",
+        "1PJ": {
+            "manufacturer": "Nissan Motor Mfg. Corp. USA",
             "country": "USA",
             "vehicle_type": "Passenger Car"
         },
         "3N1": {
-            "manufacturer": "Nissan",
+            "manufacturer": "Nissan Mexicana SA de CV",
+            "country": "Mexico",
+            "vehicle_type": "Passenger Car"
+        },
+        "3N2": {
+            "manufacturer": "Nissan Mexicana SA de CV",
+            "country": "Mexico",
+            "vehicle_type": "Passenger Car"
+        },
+        "3N3": {
+            "manufacturer": "Nissan Mexicana SA de CV",
+            "country": "Mexico",
+            "vehicle_type": "Passenger Car"
+        },
+        "3N4": {
+            "manufacturer": "Nissan Mexicana SA de CV",
+            "country": "Mexico",
+            "vehicle_type": "Passenger Car"
+        },
+        "3N5": {
+            "manufacturer": "Nissan Mexicana SA de CV",
             "country": "Mexico",
             "vehicle_type": "Passenger Car"
         },
         "3N6": {
-            "manufacturer": "Nissan",
+            "manufacturer": "Nissan Mexicana SA de CV",
             "country": "Mexico",
             "vehicle_type": "Truck"
         },
+        "3N7": {
+            "manufacturer": "Nissan Mexicana SA de CV",
+            "country": "Mexico",
+            "vehicle_type": "Truck"
+        },
+        "3N8": {
+            "manufacturer": "Nissan Mexicana SA de CV",
+            "country": "Mexico",
+            "vehicle_type": "Passenger Car"
+        },
+        "4N2": {
+            "manufacturer": "Nissan (Canada/USA)",
+            "country": "Canada",
+            "vehicle_type": "Multi-Purpose Vehicle"
+        },
+        "5BZ": {
+            "manufacturer": "Nissan Motor Mfg. Corp. USA",
+            "country": "USA",
+            "vehicle_type": "Bus / Van (3+ row seating)"
+        },
         "5N1": {
-            "manufacturer": "Nissan",
+            "manufacturer": "Nissan Motor Mfg. Corp. USA",
+            "country": "USA",
+            "vehicle_type": "Multi-Purpose Vehicle / SUV"
+        },
+        "5N2": {
+            "manufacturer": "Nissan Motor Mfg. Corp. USA",
             "country": "USA",
             "vehicle_type": "SUV"
         },
         "5N3": {
-            "manufacturer": "Nissan",
+            "manufacturer": "Nissan Motor Mfg. Corp. USA",
             "country": "USA",
             "vehicle_type": "SUV"
         },
-        "VSK": {
-            "manufacturer": "Nissan",
-            "country": "Spain",
+        "6F4": {
+            "manufacturer": "Nissan Motor Co. Australia Pty Ltd",
+            "country": "Australia",
+            "vehicle_type": "Passenger Car"
+        },
+        "93B": {
+            "manufacturer": "Nissan (Brazil)",
+            "country": "Brazil",
             "vehicle_type": "Commercial"
         },
-        "MNT": {
-            "manufacturer": "Nissan",
-            "country": "Thailand",
+        "94D": {
+            "manufacturer": "Nissan do Brasil Automoveis Ltda",
+            "country": "Brazil",
+            "vehicle_type": "Passenger Car"
+        },
+        "ADN": {
+            "manufacturer": "Nissan SA (Pty) Ltd",
+            "country": "South Africa",
             "vehicle_type": "Passenger Car"
         },
         "MDH": {
-            "manufacturer": "Nissan",
+            "manufacturer": "Nissan Motor India Pvt. Ltd.",
             "country": "India",
             "vehicle_type": "Passenger Car"
         },
+        "MNT": {
+            "manufacturer": "Nissan Motor Thailand",
+            "country": "Thailand",
+            "vehicle_type": "Passenger Car"
+        },
         "SJN": {
-            "manufacturer": "Nissan",
+            "manufacturer": "Nissan Motor Mfg. (UK) Ltd.",
             "country": "United Kingdom",
             "vehicle_type": "Passenger Car"
         },
+        "VSK": {
+            "manufacturer": "Nissan Motor Iberica SA",
+            "country": "Spain",
+            "vehicle_type": "Commercial Vehicle"
+        },
         "KNM": {
-            "manufacturer": "Nissan",
-            "country": "Korea",
+            "manufacturer": "Nissan Motor Manufacturing Korea",
+            "country": "South Korea",
             "vehicle_type": "Passenger Car"
         }
     },
     "position_4": {
-        "A": "Passenger Vehicle Series",
-        "B": "Compact Vehicle Series",
-        "C": "Performance Series",
-        "D": "Commercial Series",
-        "E": "Electric Vehicle Series",
-        "F": "Luxury Series",
-        "G": "Global Series",
-        "H": "Hybrid Series",
-        "J": "SUV Series",
-        "K": "Truck Series",
-        "L": "Sedan Series",
-        "M": "MPV Series",
-        "N": "Crossover Series",
-        "P": "Patrol Series",
-        "Q": "Qashqai Series",
-        "R": "Navara Series",
-        "S": "Sport Series",
-        "T": "Touring Series",
-        "U": "Utility Series",
-        "V": "Van Series",
-        "W": "Wagon Series",
-        "X": "X-Trail Series",
-        "Y": "SUV Series",
-        "Z": "Z Performance Series"
+        "_note": "North America: indicates line/series. Nissan does NOT publish a universal pos4 letter→series mapping. These are approximate common patterns.",
+        "A": "Altima / Passenger series",
+        "B": "Sentra / Compact series",
+        "C": "Frontier / Compact pickup",
+        "D": "Pathfinder / SUV",
+        "E": "Armada / Large SUV",
+        "F": "Frontier full-size",
+        "J": "Rogue Sport / Small crossover",
+        "K": "Leaf / Electric",
+        "L": "Murano",
+        "M": "Maxima",
+        "N": "NV / Van series",
+        "P": "Pathfinder",
+        "R": "Rogue",
+        "S": "Sentra",
+        "T": "Titan",
+        "U": "NV Cargo",
+        "V": "Versa",
+        "X": "Xterra / X-Trail",
+        "Y": "Rogue / X-Trail alternate",
+        "Z": "Z performance series (370Z, 400Z)"
     },
-    "position_5": {
-        "A": {
-            "body_type": "Sedan",
-            "possible_models": [
-                "Sunny",
-                "Sentra",
-                "Altima"
-            ]
-        },
-        "B": {
-            "body_type": "Hatchback",
-            "possible_models": [
-                "Micra",
-                "Tiida",
-                "Note"
-            ]
-        },
-        "C": {
-            "body_type": "Coupe",
-            "possible_models": [
-                "370Z",
-                "350Z",
-                "GT-R"
-            ]
-        },
-        "D": {
-            "body_type": "Pickup",
-            "possible_models": [
-                "Frontier",
-                "Navara"
-            ]
-        },
-        "E": {
-            "body_type": "Electric",
-            "possible_models": [
-                "Leaf"
-            ]
-        },
-        "F": {
-            "body_type": "SUV",
-            "possible_models": [
-                "Murano"
-            ]
-        },
-        "G": {
-            "body_type": "MPV",
-            "possible_models": [
-                "Quest"
-            ]
-        },
-        "H": {
-            "body_type": "MPV",
-            "possible_models": [
-                "Serena"
-            ]
-        },
-        "L": {
-            "body_type": "Sedan",
-            "possible_models": [
-                "Altima",
-                "Sentra",
-                "Maxima"
-            ]
-        },
-        "P": {
-            "body_type": "SUV",
-            "possible_models": [
-                "Patrol",
-                "Armada"
-            ]
-        },
-        "Q": {
-            "body_type": "SUV",
-            "possible_models": [
-                "Qashqai"
-            ]
-        },
-        "R": {
-            "body_type": "Pickup",
-            "possible_models": [
-                "Navara",
-                "NP300",
-                "Frontier"
-            ]
-        },
-        "S": {
-            "body_type": "SUV",
-            "possible_models": [
-                "Rogue Sport"
-            ]
-        },
-        "X": {
-            "body_type": "SUV",
-            "possible_models": [
-                "X-Trail"
-            ]
-        },
-        "Y": {
-            "body_type": "SUV",
-            "possible_models": [
-                "Rogue",
-                "X-Trail",
-                "Pathfinder",
-                "Murano"
-            ]
-        }
+    "position_5_and_6": {
+        "_note": "For North America, positions 5+6 TOGETHER identify model and generation/platform. They cannot be split. Examples below from documented real VINs.",
+        "AB": "Altima (B17 gen)",
+        "AF": "Altima (L34 gen, 2019+)",
+        "AP": "Altima (older L32/L33)",
+        "AR": "Altima Sedan",
+        "AZ": "Altima alternate",
+        "CV": "Murano (Z52)",
+        "DH": "Pathfinder (R52)",
+        "DL": "Pathfinder (R51)",
+        "ED": "Armada (Y62)",
+        "EL": "Armada (TA60)",
+        "JA": "Rogue Sport (P32L)",
+        "KA": "Leaf (ZE0)",
+        "KB": "Leaf (ZE1, 40kWh)",
+        "KC": "Leaf Plus (ZE1, 62kWh)",
+        "LB": "Murano (Z51)",
+        "MA": "Maxima (A36)",
+        "RF": "Rogue (T32)",
+        "RG": "Rogue (T33, 2021+)",
+        "SA": "Sentra (B18)",
+        "SB": "Sentra (B17/B16)",
+        "TA": "Titan XD (A61)",
+        "TB": "Titan (A61)",
+        "VA": "Versa Sedan (N18)",
+        "VB": "Versa Note (E12)",
+        "CA": "Frontier (D41, 2022+)",
+        "CB": "Frontier (D40 gen)"
     },
-    "position_6": {
-        "1": "1.2L Petrol",
-        "2": "1.5L Petrol",
-        "3": "2.0L Petrol",
-        "4": "2.5L Petrol",
-        "5": "3.5L V6",
-        "6": "5.6L V8",
-        "7": "1.5L Diesel",
-        "8": "2.5L Diesel",
-        "9": "Hybrid / Electric"
-    },
-    "position_7": {
-        "1": "4 Door Sedan",
-        "2": "2 Door Sedan",
+    "position_7_north_america": {
+        "_note": "Position 7 = body type for North American Nissan VINs",
+        "1": "4-Door Sedan",
+        "2": "2-Door Sedan / Coupe",
         "3": "Coupe",
-        "4": "2 Door Wagon",
-        "5": "4 Door Wagon",
+        "4": "2-Door Wagon / Hatchback",
+        "5": "4-Door Wagon / Hatchback",
         "6": "Van",
-        "7": "SUV",
-        "A": "Base Trim",
-        "B": "S Trim",
-        "C": "SV Trim",
-        "D": "SL Trim",
-        "E": "Platinum Trim",
-        "N": "Advanced Safety Package",
-        "P": "Premium Safety Package",
-        "R": "Luxury Package"
+        "7": "SUV / Crossover",
+        "8": "Pickup Truck",
+        "9": "Extended Cab / Crew Cab Pickup"
     },
-    "position_8": {
-        "A": {
-            "drive_type": "2WD",
-            "transmission": "Manual"
-        },
-        "B": {
-            "drive_type": "2WD",
-            "transmission": "Automatic"
-        },
-        "C": {
-            "drive_type": "FWD",
-            "transmission": "CVT"
-        },
-        "D": {
-            "drive_type": "AWD",
-            "transmission": "CVT"
-        },
-        "E": {
-            "drive_type": "4WD",
-            "transmission": "Automatic"
-        },
-        "P": {
-            "drive_type": "FWD",
-            "transmission": "CVT"
-        },
-        "V": {
-            "drive_type": "4WD",
-            "transmission": "Automatic"
-        },
-        "Y": {
-            "drive_type": "AWD",
-            "transmission": "CVT"
-        }
+    "position_8_north_america": {
+        "_note": "Position 8 = restraint system (airbag/seatbelt config) for North American Nissan VINs. NOT engine/transmission.",
+        "0": "Manual belts, no airbags",
+        "1": "Manual belts, driver airbag only",
+        "2": "Manual belts, dual front airbags",
+        "3": "Manual belts, dual front + side airbags",
+        "4": "Manual belts, dual front + side + curtain airbags",
+        "5": "Manual belts, dual front + side + curtain + knee airbag (driver)",
+        "6": "Manual belts, dual front + side + curtain airbags (full)",
+        "7": "Automatic belts, dual front airbags",
+        "8": "Manual belts, dual front + side airbags + knee airbag",
+        "9": "Advanced restraint system (full airbag suite)"
     },
-    "year_codes": {
+    "position_9": {
+        "_note": "Check digit — mathematical validation character. Values 0-9 or X. Calculated from all other VIN positions using NHTSA weighted formula."
+    },
+    "position_10_model_year": {
+        "_note": "Shared standard across all manufacturers since 1981. Repeats in 30-year cycle. Letters I, O, Q, U, Z and digit 0 never used.",
         "A": 2010,
         "B": 2011,
         "C": 2012,
@@ -294,6 +295,38 @@
         "P": 2023,
         "R": 2024,
         "S": 2025,
-        "T": 2026
+        "T": 2026,
+        "1": 2001,
+        "2": 2002,
+        "3": 2003,
+        "4": 2004,
+        "5": 2005,
+        "6": 2006,
+        "7": 2007,
+        "8": 2008,
+        "9": 2009,
+        "V": 1997,
+        "W": 1998,
+        "X": 1999,
+        "Y": 2000
+    },
+    "position_11_plant_north_america": {
+        "_note": "Assembly plant code. Nissan-assigned, not universal.",
+        "A": "Smyrna, Tennessee, USA",
+        "B": "Smyrna, Tennessee, USA (alternate line)",
+        "C": "Canton, Mississippi, USA",
+        "D": "Oppama, Kanagawa, Japan",
+        "E": "Yokohama, Japan",
+        "F": "Kyushu, Japan",
+        "K": "Cuernavaca, Mexico",
+        "L": "Aguascalientes, Mexico",
+        "M": "Sunderland, UK",
+        "N": "Barcelona, Spain",
+        "P": "Renault-Nissan Chennai, India",
+        "T": "Samut Prakan, Thailand",
+        "Z": "Zama, Japan (legacy)"
+    },
+    "position_12_to_17": {
+        "_note": "Sequential production serial number. 6 digits, unique per vehicle per plant per model year. Not standardized — manufacturer-defined."
     }
 }
