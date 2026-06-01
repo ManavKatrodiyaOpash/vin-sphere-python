@@ -1,193 +1,338 @@
 {
     "manufacturer": "Honda",
     "wmi": {
-        "JH4": {
-            "manufacturer": "Honda Motor Co. Ltd. (Acura)",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JHL": {
-            "manufacturer": "Honda Motor Co. Ltd.",
-            "country": "Japan",
-            "vehicle_type": "Multi-Purpose Vehicle / SUV"
-        },
-        "JHM": {
-            "manufacturer": "Honda Motor Co. Ltd.",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JHZ": {
-            "manufacturer": "Honda Motor Co. Ltd.",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JH1": {
-            "manufacturer": "Honda Motor Co. Ltd.",
-            "country": "Japan",
-            "vehicle_type": "Motorcycle / ATV"
-        },
-        "JH2": {
-            "manufacturer": "Honda Motor Co. Ltd.",
-            "country": "Japan",
-            "vehicle_type": "Motorcycle"
-        },
         "1HF": {
-            "manufacturer": "Honda America Mfg. Inc.",
+            "manufacturer": "Honda of America Mfg., Inc.",
             "country": "USA",
-            "vehicle_type": "Motorcycle / ATV"
+            "vehicle_type": "Motorcycle / ATV / UTV"
         },
         "1HG": {
-            "manufacturer": "Honda of America Mfg. Inc.",
+            "manufacturer": "Honda of America Mfg., Inc.",
             "country": "USA",
             "vehicle_type": "Passenger Car"
         },
-        "1H6": {
-            "manufacturer": "Honda of America Mfg. Inc.",
-            "country": "USA",
-            "vehicle_type": "Commercial Truck / Complete Chassis"
-        },
-        "47A": {
-            "manufacturer": "Honda of America Mfg. Inc.",
+        "19U": {
+            "manufacturer": "Honda of America Mfg., Inc. (Acura)",
             "country": "USA",
             "vehicle_type": "Passenger Car"
         },
-        "5FA": {
-            "manufacturer": "Honda Manufacturing of Alabama LLC",
-            "country": "USA",
-            "vehicle_type": "Multi-Purpose Vehicle / SUV"
-        },
-        "5FN": {
-            "manufacturer": "Honda Manufacturing of Alabama LLC",
-            "country": "USA",
-            "vehicle_type": "Multi-Purpose Vehicle / SUV"
-        },
-        "5FP": {
-            "manufacturer": "Honda Manufacturing of Alabama LLC",
-            "country": "USA",
-            "vehicle_type": "Truck"
-        },
-        "5GA": {
-            "manufacturer": "Honda Manufacturing of Alabama LLC (Acura Build)",
-            "country": "USA",
-            "vehicle_type": "Multi-Purpose Vehicle / SUV"
-        },
-        "5J6": {
-            "manufacturer": "Honda of America Mfg. Inc. / Honda Transmission",
-            "country": "USA",
-            "vehicle_type": "Multi-Purpose Vehicle / SUV"
-        },
-        "5J7": {
-            "manufacturer": "Honda of America Mfg. Inc.",
+        "19V": {
+            "manufacturer": "Honda Manufacturing of Indiana, LLC (Acura)",
             "country": "USA",
             "vehicle_type": "Passenger Car"
         },
-        "5J8": {
-            "manufacturer": "Honda of America Mfg. Inc. (Acura Build)",
-            "country": "USA",
-            "vehicle_type": "Multi-Purpose Vehicle / SUV"
-        },
-        "5YF": {
-            "manufacturer": "Honda Manufacturing of Indiana LLC",
+        "19X": {
+            "manufacturer": "Honda Manufacturing of Indiana, LLC",
             "country": "USA",
             "vehicle_type": "Passenger Car"
         },
         "2HG": {
-            "manufacturer": "Honda of Canada Manufacturing",
+            "manufacturer": "Honda of Canada Mfg., Inc.",
             "country": "Canada",
             "vehicle_type": "Passenger Car"
         },
-        "2HK": {
-            "manufacturer": "Honda of Canada Manufacturing",
+        "2HH": {
+            "manufacturer": "Honda of Canada Mfg., Inc. (Acura)",
             "country": "Canada",
-            "vehicle_type": "Multi-Purpose Vehicle / SUV"
+            "vehicle_type": "Passenger Car"
         },
         "2HJ": {
-            "manufacturer": "Honda of Canada Manufacturing",
+            "manufacturer": "Honda of Canada Mfg., Inc.",
             "country": "Canada",
-            "vehicle_type": "Multi-Purpose Vehicle / SUV"
+            "vehicle_type": "Truck"
+        },
+        "2HK": {
+            "manufacturer": "Honda of Canada Mfg., Inc.",
+            "country": "Canada",
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
         },
         "2HN": {
-            "manufacturer": "Honda of Canada Manufacturing (Acura Build)",
+            "manufacturer": "Honda of Canada Mfg., Inc. (Acura)",
             "country": "Canada",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
+        },
+        "3CZ": {
+            "manufacturer": "Honda de México S.A. de C.V.",
+            "country": "Mexico",
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
+        },
+        "3GP": {
+            "manufacturer": "G.M. de México (Honda Prologue EV)",
+            "country": "Mexico",
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
+        },
+        "3HD": {
+            "manufacturer": "Honda de México S.A. de C.V. (Acura)",
+            "country": "Mexico",
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
         },
         "3HG": {
-            "manufacturer": "Honda de Mexico S.A. de C.V.",
+            "manufacturer": "Honda de México S.A. de C.V.",
             "country": "Mexico",
-            "vehicle_type": "Passenger Car / SUV"
+            "vehicle_type": "Passenger Car"
         },
         "3H1": {
-            "manufacturer": "Honda de Mexico S.A. de C.V.",
+            "manufacturer": "Honda de México S.A. de C.V.",
             "country": "Mexico",
+            "vehicle_type": "Motorcycle / UTV"
+        },
+        "4S6": {
+            "manufacturer": "Subaru Isuzu Automotive (Honda Passport)",
+            "country": "USA",
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
+        },
+        "4W5": {
+            "manufacturer": "General Motors Co. (Acura ZDX EV)",
+            "country": "USA",
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
+        },
+        "478": {
+            "manufacturer": "Honda of America Mfg., Inc.",
+            "country": "USA",
+            "vehicle_type": "All-Terrain Vehicle (ATV)"
+        },
+        "5FN": {
+            "manufacturer": "Honda Manufacturing of Alabama, LLC",
+            "country": "USA",
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
+        },
+        "5FP": {
+            "manufacturer": "Honda Manufacturing of Alabama, LLC",
+            "country": "USA",
+            "vehicle_type": "Truck"
+        },
+        "5FR": {
+            "manufacturer": "Honda Manufacturing of Alabama, LLC (Acura)",
+            "country": "USA",
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
+        },
+        "5J6": {
+            "manufacturer": "Honda of America Mfg., Inc.",
+            "country": "USA",
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
+        },
+        "5J8": {
+            "manufacturer": "Honda of America Mfg., Inc. (Acura)",
+            "country": "USA",
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
+        },
+        "5KB": {
+            "manufacturer": "Honda Manufacturing of Alabama, LLC",
+            "country": "USA",
+            "vehicle_type": "Passenger Car"
+        },
+        "7FA": {
+            "manufacturer": "Honda Manufacturing of Indiana, LLC",
+            "country": "USA",
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
+        },
+        "8CH": {
+            "manufacturer": "Honda Motor de Argentina S.A.",
+            "country": "Argentina",
             "vehicle_type": "Motorcycle"
         },
-        "SHS": {
-            "manufacturer": "Honda of the UK Manufacturing Ltd.",
-            "country": "United Kingdom",
-            "vehicle_type": "Passenger Car / Hatchback"
-        },
-        "SHH": {
-            "manufacturer": "Honda of the UK Manufacturing Ltd.",
-            "country": "United Kingdom",
+        "8C3": {
+            "manufacturer": "Honda Motor de Argentina S.A.",
+            "country": "Argentina",
             "vehicle_type": "Passenger Car"
         },
-        "NLA": {
-            "manufacturer": "Honda Turkey A.S.",
-            "country": "Turkey",
+        "93H": {
+            "manufacturer": "Honda Automoveis do Brasil Ltda.",
+            "country": "Brazil",
             "vehicle_type": "Passenger Car"
         },
-        "MRH": {
-            "manufacturer": "Honda Automobile Thailand Co. Ltd.",
-            "country": "Thailand",
+        "9C2": {
+            "manufacturer": "Moto Honda da Amazônia Ltda.",
+            "country": "Brazil",
+            "vehicle_type": "Motorcycle"
+        },
+        "7A3": {
+            "manufacturer": "Honda New Zealand",
+            "country": "New Zealand",
             "vehicle_type": "Passenger Car"
         },
-        "MHR": {
-            "manufacturer": "PT Honda Prospect Motor",
-            "country": "Indonesia",
+        "AHM": {
+            "manufacturer": "Mercedes-Benz South Africa (Honda Ballade)",
+            "country": "South Africa",
             "vehicle_type": "Passenger Car"
         },
-        "PM1": {
-            "manufacturer": "Honda Malaysia Sdn. Bhd.",
-            "country": "Malaysia",
+        "JAE": {
+            "manufacturer": "Isuzu Motors, Ltd. (Acura SLX)",
+            "country": "Japan",
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
+        },
+        "JHF": {
+            "manufacturer": "Honda Motor Co., Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Manufacturer"
+        },
+        "JHG": {
+            "manufacturer": "Honda Motor Co., Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Manufacturer"
+        },
+        "JHM": {
+            "manufacturer": "Honda Motor Co., Ltd.",
+            "country": "Japan",
             "vehicle_type": "Passenger Car"
+        },
+        "JHL": {
+            "manufacturer": "Honda Motor Co., Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
+        },
+        "JH1": {
+            "manufacturer": "Honda Motor Co., Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Truck"
+        },
+        "JH2": {
+            "manufacturer": "Honda Motor Co., Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Motorcycle / ATV"
+        },
+        "JH3": {
+            "manufacturer": "Honda Motor Co., Ltd.",
+            "country": "Japan",
+            "vehicle_type": "ATV"
+        },
+        "JH4": {
+            "manufacturer": "Honda Motor Co., Ltd. (Acura)",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JR2": {
+            "manufacturer": "Honda Motor Co., Ltd. (Isuzu Oasis)",
+            "country": "Japan",
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
+        },
+        "LAL": {
+            "manufacturer": "Sundiro Honda Motorcycle Co., Ltd.",
+            "country": "China",
+            "vehicle_type": "Motorcycle"
+        },
+        "LHG": {
+            "manufacturer": "GAC Honda Automobile Co., Ltd.",
+            "country": "China",
+            "vehicle_type": "Passenger Car"
+        },
+        "LUC": {
+            "manufacturer": "Honda Automobile (China) Co., Ltd.",
+            "country": "China",
+            "vehicle_type": "Passenger Car"
+        },
+        "LVH": {
+            "manufacturer": "Dongfeng Honda Automobile Co., Ltd.",
+            "country": "China",
+            "vehicle_type": "Passenger Car"
+        },
+        "LWB": {
+            "manufacturer": "Wuyang Honda Motors (Guangzhou) Co., Ltd.",
+            "country": "China",
+            "vehicle_type": "Motorcycle"
         },
         "MAK": {
             "manufacturer": "Honda Cars India Ltd.",
             "country": "India",
             "vehicle_type": "Passenger Car"
         },
-        "93H": {
-            "manufacturer": "Honda da Amazonia Ltda. (Motorcycles)",
-            "country": "Brazil",
+        "ME4": {
+            "manufacturer": "Honda Motorcycle and Scooter India Pvt. Ltd.",
+            "country": "India",
             "vehicle_type": "Motorcycle"
         },
-        "9C2": {
-            "manufacturer": "Honda Automoveis do Brasil Ltda.",
-            "country": "Brazil",
+        "MHR": {
+            "manufacturer": "P.T. Honda Prospect Motor Indonesia",
+            "country": "Indonesia",
             "vehicle_type": "Passenger Car"
         },
-        "8A1": {
-            "manufacturer": "Honda Motor de Argentina S.A.",
-            "country": "Argentina",
-            "vehicle_type": "Passenger Car / Motorcycle"
+        "MH1": {
+            "manufacturer": "P.T. Astra Honda Motor",
+            "country": "Indonesia",
+            "vehicle_type": "Motorcycle"
         },
-        "LUC": {
-            "manufacturer": "GAC Honda Motor Co. Ltd.",
-            "country": "China",
+        "MLH": {
+            "manufacturer": "Thai Honda Manufacturing Co., Ltd.",
+            "country": "Thailand",
+            "vehicle_type": "Motorcycle"
+        },
+        "MRH": {
+            "manufacturer": "Honda Automobile (Thailand) Co., Ltd.",
+            "country": "Thailand",
             "vehicle_type": "Passenger Car"
         },
-        "LHG": {
-            "manufacturer": "Dongfeng Honda Automobile Co. Ltd.",
-            "country": "China",
+        "MRJ": {
+            "manufacturer": "Honda Automobile (Thailand) Co., Ltd.",
+            "country": "Thailand",
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
+        },
+        "NFB": {
+            "manufacturer": "Honda Atlas Cars Pakistan Ltd.",
+            "country": "Pakistan",
             "vehicle_type": "Passenger Car"
+        },
+        "PAD": {
+            "manufacturer": "Honda Cars Philippines Inc.",
+            "country": "Philippines",
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
+        },
+        "PMH": {
+            "manufacturer": "Honda Malaysia Sdn. Bhd.",
+            "country": "Malaysia",
+            "vehicle_type": "Passenger Car"
+        },
+        "PMK": {
+            "manufacturer": "Boon Siew Honda Sdn. Bhd",
+            "country": "Malaysia",
+            "vehicle_type": "Motorcycle"
+        },
+        "RKT": {
+            "manufacturer": "Honda Taiwan Motor Co., Ltd.",
+            "country": "Taiwan",
+            "vehicle_type": "Passenger Car"
+        },
+        "RLH": {
+            "manufacturer": "Honda Vietnam Co. Ltd.",
+            "country": "Vietnam",
+            "vehicle_type": "Motorcycle"
+        },
+        "NLA": {
+            "manufacturer": "Honda Türkiye A.Ş.",
+            "country": "Turkey",
+            "vehicle_type": "Passenger Car"
+        },
+        "SAH": {
+            "manufacturer": "Austin Rover Group (Honda Ballade/Concerto)",
+            "country": "United Kingdom",
+            "vehicle_type": "Passenger Car"
+        },
+        "SHH": {
+            "manufacturer": "Honda of the UK Mfg., Ltd.",
+            "country": "United Kingdom",
+            "vehicle_type": "Passenger Car"
+        },
+        "SHS": {
+            "manufacturer": "Honda of the UK Mfg., Ltd.",
+            "country": "United Kingdom",
+            "vehicle_type": "Multi-Purpose Passenger Vehicle"
+        },
+        "VTD": {
+            "manufacturer": "Montesa Honda S.A.",
+            "country": "Spain",
+            "vehicle_type": "Motorcycle"
         },
         "VTM": {
             "manufacturer": "Montesa Honda S.A.",
             "country": "Spain",
             "vehicle_type": "Motorcycle"
         },
-        "ZC2": {
-            "manufacturer": "Honda Italia Industriale S.p.A.",
+        "YC1": {
+            "manufacturer": "Honda Belgium NV",
+            "country": "Belgium",
+            "vehicle_type": "Motorcycle"
+        },
+        "ZDC": {
+            "manufacturer": "Honda Italia Industriale SpA",
             "country": "Italy",
             "vehicle_type": "Motorcycle"
         }
