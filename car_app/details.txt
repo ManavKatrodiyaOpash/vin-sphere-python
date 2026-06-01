@@ -1,0 +1,20 @@
+Nissan :-
+    pos_4 :- Vehicle Series / Model Family
+    pos_5 :- Body Type
+    pos_6 :- Engine Type
+    pos_7 :- Trim Level / Grade
+    pos_8 :- Transmission / Drivetrain
+
+Toyota :-
+    pos_4 :- Model Series
+    pos_5 :- Body Type
+    pos_6 :- Engine Type
+    pos_7 :- Trim Level
+    pos_8 :- Safety System / Transmission
+
+Honda :- 
+    pos_4 :- Vehicle Line / Platform
+    pos_5 :- Body Type & Drivetrain
+    pos_6 :- Engine Type / Displacement
+    pos_7 :- Transmission Type & Body Configuration
+    pos_8 :- Equipment Grade / Trim Level
