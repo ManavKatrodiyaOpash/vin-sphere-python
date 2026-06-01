@@ -6,145 +6,245 @@
         "important": "Position 6 (series/chassis code) is purely internal Toyota numbering — no simple public letter→name table exists for all codes. Engine codes in pos5 are Toyota engine family codes."
     },
     "wmi": {
-        "JT1": {
-            "manufacturer": "Toyota Motor Corp.",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JT2": {
-            "manufacturer": "Toyota Motor Corp.",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JT3": {
-            "manufacturer": "Toyota Motor Corp.",
-            "country": "Japan",
-            "vehicle_type": "SUV"
-        },
-        "JT4": {
-            "manufacturer": "Toyota Motor Corp.",
-            "country": "Japan",
-            "vehicle_type": "Truck"
-        },
-        "JTE": {
-            "manufacturer": "Toyota Motor Corp.",
-            "country": "Japan",
-            "vehicle_type": "SUV"
-        },
         "JTD": {
-            "manufacturer": "Toyota Motor Corp.",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JTF": {
-            "manufacturer": "Toyota Motor Corp.",
-            "country": "Japan",
-            "vehicle_type": "Truck"
-        },
-        "JTG": {
-            "manufacturer": "Toyota Motor Corp.",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JTH": {
-            "manufacturer": "Toyota Motor Corp.",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car (Lexus)"
-        },
-        "JTJ": {
-            "manufacturer": "Toyota Motor Corp.",
-            "country": "Japan",
-            "vehicle_type": "SUV (Lexus)"
-        },
-        "JTK": {
-            "manufacturer": "Toyota Motor Corp.",
+            "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
             "vehicle_type": "Passenger Car"
         },
         "JTM": {
-            "manufacturer": "Toyota Motor Corp.",
+            "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "Multi-Purpose Vehicle"
-        },
-        "JTN": {
-            "manufacturer": "Toyota Motor Corp.",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car (Lexus)"
-        },
-        "2T1": {
-            "manufacturer": "Toyota Motor Mfg. Canada",
-            "country": "Canada",
             "vehicle_type": "Passenger Car"
         },
-        "2T3": {
-            "manufacturer": "Toyota Motor Mfg. Canada",
-            "country": "Canada",
-            "vehicle_type": "SUV"
+        "JTN": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JT1": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JT2": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JT3": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JT4": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JT5": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JT7": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Truck / Commercial"
+        },
+        "JT6": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Infiniti/Specialty (Alternative Mapping)"
+        },
+        "JT8": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Multi-Purpose Vehicle / SUV"
+        },
+        "JTH": {
+            "manufacturer": "Toyota Motor Corporation (Lexus)",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JTL": {
+            "manufacturer": "Toyota Motor Corporation (Lexus)",
+            "country": "Japan",
+            "vehicle_type": "Multi-Purpose Vehicle / SUV"
+        },
+        "JHA": {
+            "manufacturer": "Hino Motors Ltd. (Toyota Group)",
+            "country": "Japan",
+            "vehicle_type": "Truck / Commercial"
+        },
+        "JHB": {
+            "manufacturer": "Hino Motors Ltd. (Toyota Group)",
+            "country": "Japan",
+            "vehicle_type": "Truck / Commercial"
+        },
+        "JHC": {
+            "manufacturer": "Hino Motors Ltd. (Toyota Group)",
+            "country": "Japan",
+            "vehicle_type": "Truck / Commercial"
+        },
+        "JHD": {
+            "manufacturer": "Hino Motors Ltd. (Toyota Group)",
+            "country": "Japan",
+            "vehicle_type": "Truck / Commercial"
+        },
+        "1NX": {
+            "manufacturer": "NUMMI (Toyota/GM Joint Venture)",
+            "country": "USA",
+            "vehicle_type": "Passenger Car"
+        },
+        "4TA": {
+            "manufacturer": "Toyota Motor Manufacturing Indiana Inc.",
+            "country": "USA",
+            "vehicle_type": "Passenger Car"
         },
         "4T1": {
-            "manufacturer": "Toyota Motor Mfg. USA",
+            "manufacturer": "Toyota Motor Manufacturing Kentucky Inc.",
             "country": "USA",
             "vehicle_type": "Passenger Car"
         },
         "4T3": {
-            "manufacturer": "Toyota Motor Mfg. USA",
+            "manufacturer": "Toyota Motor Manufacturing Kentucky Inc.",
             "country": "USA",
-            "vehicle_type": "SUV"
+            "vehicle_type": "Passenger Car"
         },
         "4T4": {
-            "manufacturer": "Toyota Motor Mfg. USA",
+            "manufacturer": "Toyota Motor Manufacturing Kentucky Inc.",
             "country": "USA",
             "vehicle_type": "Passenger Car"
         },
-        "5TD": {
-            "manufacturer": "Toyota Motor Mfg. USA",
+        "4RK": {
+            "manufacturer": "Toyota Motor Manufacturing Indiana Inc.",
             "country": "USA",
-            "vehicle_type": "SUV / Minivan"
-        },
-        "5TF": {
-            "manufacturer": "Toyota Motor Mfg. USA",
-            "country": "USA",
-            "vehicle_type": "Truck (Tundra, Tacoma)"
+            "vehicle_type": "Truck / SUV"
         },
         "5YF": {
-            "manufacturer": "Toyota Motor Mfg. USA (TMMMS)",
+            "manufacturer": "Toyota Motor Manufacturing Mississippi Inc.",
             "country": "USA",
             "vehicle_type": "Passenger Car"
         },
-        "MR0": {
-            "manufacturer": "Toyota Motor Thailand",
-            "country": "Thailand",
-            "vehicle_type": "Pickup"
-        },
-        "MHF": {
-            "manufacturer": "Toyota Motor Thailand",
-            "country": "Thailand",
+        "5XF": {
+            "manufacturer": "Toyota Motor Manufacturing Alabama Inc.",
+            "country": "USA",
             "vehicle_type": "Passenger Car"
         },
-        "AHT": {
-            "manufacturer": "Toyota SA Motors",
-            "country": "South Africa",
-            "vehicle_type": "SUV / Truck"
+        "5TB": {
+            "manufacturer": "Toyota Motor Manufacturing Texas Inc.",
+            "country": "USA",
+            "vehicle_type": "Truck"
+        },
+        "5TF": {
+            "manufacturer": "Toyota Motor Manufacturing Texas Inc.",
+            "country": "USA",
+            "vehicle_type": "Truck"
+        },
+        "2T1": {
+            "manufacturer": "Toyota Motor Manufacturing Canada Inc.",
+            "country": "Canada",
+            "vehicle_type": "Passenger Car"
+        },
+        "2T2": {
+            "manufacturer": "Toyota Motor Manufacturing Canada Inc. (Lexus Build)",
+            "country": "Canada",
+            "vehicle_type": "Multi-Purpose Vehicle / SUV"
+        },
+        "2T3": {
+            "manufacturer": "Toyota Motor Manufacturing Canada Inc.",
+            "country": "Canada",
+            "vehicle_type": "Multi-Purpose Vehicle / SUV"
+        },
+        "3TA": {
+            "manufacturer": "Toyota Motor Manufacturing de Baja California",
+            "country": "Mexico",
+            "vehicle_type": "Truck"
+        },
+        "3TM": {
+            "manufacturer": "Toyota Motor Manufacturing de Guanajuato",
+            "country": "Mexico",
+            "vehicle_type": "Truck"
         },
         "SB1": {
-            "manufacturer": "Toyota Motor Mfg. (UK) Ltd.",
+            "manufacturer": "Toyota Motor Manufacturing UK Ltd.",
             "country": "United Kingdom",
             "vehicle_type": "Passenger Car"
         },
+        "VNK": {
+            "manufacturer": "Toyota Motor Manufacturing France (TMMF)",
+            "country": "France",
+            "vehicle_type": "Passenger Car"
+        },
         "NMT": {
-            "manufacturer": "Toyota Motor Mfg. Turkey",
+            "manufacturer": "Toyota Motor Manufacturing Turkey (TMMT)",
             "country": "Turkey",
+            "vehicle_type": "Passenger Car / Crossover"
+        },
+        "MR0": {
+            "manufacturer": "Toyota Motor Thailand Co. Ltd.",
+            "country": "Thailand",
+            "vehicle_type": "Passenger Car / Truck"
+        },
+        "MHF": {
+            "manufacturer": "Toyota Motor Indonesia",
+            "country": "Indonesia",
             "vehicle_type": "Passenger Car"
         },
-        "3T3": {
-            "manufacturer": "Toyota Motor Mfg. Mexico",
-            "country": "Mexico",
+        "ADD": {
+            "manufacturer": "Toyota South Africa Motors (Pty) Ltd.",
+            "country": "South Africa",
+            "vehicle_type": "Passenger Car / SUV"
+        },
+        "AHT": {
+            "manufacturer": "Toyota South Africa Motors (Pty) Ltd.",
+            "country": "South Africa",
+            "vehicle_type": "Truck / Commercial"
+        },
+        "6T1": {
+            "manufacturer": "Toyota Motor Corporation Australia Ltd.",
+            "country": "Australia",
             "vehicle_type": "Passenger Car"
         },
-        "3TM": {
-            "manufacturer": "Toyota Motor Mfg. Mexico (Baja CA)",
-            "country": "Mexico",
-            "vehicle_type": "Pickup"
+        "8AJ": {
+            "manufacturer": "Toyota Argentina S.A.",
+            "country": "Argentina",
+            "vehicle_type": "Passenger Car"
+        },
+        "8AST": {
+            "manufacturer": "Toyota Argentina S.A. (Alternative Frame)",
+            "country": "Argentina",
+            "vehicle_type": "Truck / SUV"
+        },
+        "9BR": {
+            "manufacturer": "Toyota do Brasil Ltda.",
+            "country": "Brazil",
+            "vehicle_type": "Passenger Car"
+        },
+        "MBH": {
+            "manufacturer": "Toyota Kirloskar Motor Pvt. Ltd.",
+            "country": "India",
+            "vehicle_type": "Passenger Car"
+        },
+        "LTV": {
+            "manufacturer": "GAC Toyota Motor Co. Ltd.",
+            "country": "China",
+            "vehicle_type": "Passenger Car"
+        },
+        "LFV": {
+            "manufacturer": "FAW Toyota Motor Co. Ltd.",
+            "country": "China",
+            "vehicle_type": "Passenger Car"
+        },
+        "XW7": {
+            "manufacturer": "TOYOTA-CAOA (Joint Venture)",
+            "country": "Russia",
+            "vehicle_type": "Passenger Car / SUV"
+        },
+        "PL1": {
+            "manufacturer": "Toyota Motor Manufacturing Czech Republic",
+            "country": "Czech Republic",
+            "vehicle_type": "Passenger Car (Yaris/Aygo)"
         }
     },
     "position_4_body_type": {
