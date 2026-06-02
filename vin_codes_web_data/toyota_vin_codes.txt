@@ -1,0 +1,6961 @@
+Vehicle Identification Numbers (VIN codes)/Toyota/VIN Codes - Wikibooks, open books for an open world
+Jump to content
+Main menu
+Main menu
+move to sidebar
+hide
+Navigation
+Main Page
+Help
+Browse
+Cookbook
+Wikijunior
+Featured books
+Recent changes
+Special pages
+Random book
+Using Wikibooks
+Community
+Reading room forum
+Community portal
+Help out!
+Policies and guidelines
+Contact us
+Search
+Search
+Appearance
+Donations
+Create account
+Log in
+Personal tools
+Donations
+Create account
+Log in
+Contents
+move to sidebar
+hide
+Beginning
+1
+VIN Format 2010-
+Toggle VIN Format 2010- subsection
+1.1
+Body Type & Drive Wheels
+1.2
+Body Type, Drive Wheels, & Grade
+1.3
+Grade
+1.4
+Engine Type 2010-
+1.4.1
+Motor Type for Electric Vehicles 2010-
+1.4.2
+Motor Type for Fuel Cell Vehicles 2016-
+1.5
+Restraint System
+1.6
+Series
+1.7
+Series & Drive Wheels
+1.8
+Vehicle Line & Make
+1.9
+Vehicle Line, Make, & Body Style
+2
+VIN Format 1996-2009
+Toggle VIN Format 1996-2009 subsection
+2.1
+Body Type & Drive Wheels
+2.2
+Cab, Chassis, Drive Wheels & Brake System
+2.3
+Engine Type 1996-2009
+2.3.1
+Motor Type for Electric Vehicles 1996-2009
+2.4
+Series 1996-2009
+2.5
+Restraint System
+2.6
+Grade
+2.7
+Vehicle Line
+3
+VIN Format 1981-1995
+Toggle VIN Format 1981-1995 subsection
+3.1
+Engine Type 1981-1995
+3.2
+Vehicle Line 1981-1995
+3.3
+Model Designation
+3.4
+Drivetrain Type
+3.5
+Series (Grade)
+3.6
+Cab Type & Chassis
+3.7
+Body Type, Drive Wheels, & Restraint System
+3.8
+Body Type & Drive Wheels 1981-1995
+3.9
+Series (Grade) & Brake System
+4
+VIN positions
+Toggle VIN positions subsection
+4.1
+Country of origin
+4.2
+Manufacturer (Japan/North America)
+4.3
+Vehicle Type
+4.4
+Body
+4.5
+Engine
+4.6
+Series
+4.7
+Restraint
+4.8
+Model/Platform
+4.9
+Check-digit
+[
+1
+]
+4.10
+Model year
+4.11
+Plant
+5
+Toyota WMIs
+6
+External links
+Toggle the table of contents
+Vehicle Identification Numbers (VIN codes)/Toyota/VIN Codes
+Add languages
+Add links
+Book
+Discussion
+English
+Read
+Edit
+Edit source
+View history
+Tools
+Tools
+move to sidebar
+hide
+Actions
+Read
+Edit
+Edit source
+View history
+General
+What links here
+Related changes
+Upload file
+Permanent link
+Page information
+Cite this page
+Get shortened URL
+Sister projects
+Wikipedia
+Wikiversity
+Wiktionary
+Wikiquote
+Wikisource
+Wikinews
+Wikivoyage
+Commons
+Wikidata
+MediaWiki
+Meta-Wiki
+Print/export
+Create a collection
+Download as PDF
+Printable version
+In other projects
+Appearance
+move to sidebar
+hide
+From Wikibooks, open books for an open world
+<
+Vehicle Identification Numbers (VIN codes)
+VIN Format 2010-
+[
+edit
+|
+edit source
+]
+Toyota has used the following VIN format since 2010 for North America:
+Position
+Sample
+Description
+1
+2
+Country of origin
+2
+T
+Manufacturer
+3
+1
+Vehicle Type
+4
+B
+Body Type & Drive Wheels
+4
+B
+Body Type, Drive Wheels, & Grade
+4
+K
+Grade
+5
+E
+Engine Type
+6
+4
+Restraint System
+7
+E
+Series
+7
+E
+Series & Drive Wheels
+8
+K
+Vehicle Line & Make
+8
+A
+Vehicle Line, Make, & Body Style
+9
+8
+Check digit
+10
+9
+Model year
+11
+U
+Plant
+12
+8
+Sequential number
+13
+6
+14
+6
+15
+8
+16
+5
+17
+0
+Body Type & Drive Wheels
+[
+edit
+|
+edit source
+]
+Passenger Cars
+Position 4 (2010- for North America)
+Code
+Description
+B
+4DR Sedan 2WD (Yaris ['10-'12], Corolla ['10-'19], Camry ['10-'19], Avalon ['10-'19], Mirai ['16-'20], Lexus HS ['10-'12], ES ['10-'19], IS ['10-'19],
+GS ['10-'11, '13-'19], GS F ['16-'20], LS ['10-'19])
+C
+4DR Sedan 4WD (Lexus IS250 AWD '10-'15, IS300 AWD '16-'19, IS350 AWD '11-'19, GS350 AWD '10-'11, '13-'19, LS460 AWD '10-'17, LS500 AWD '18-'19, LS500h AWD '18-'19)
+D
+3DR Liftback Coupe 2WD (Scion tC '10)
+D
+4DR Sedan LWB 4WD (Lexus LS460L AWD '10-'17, LS600hL '10-'16)
+F
+2DR Convertible 2WD (Lexus SC430 '10, IS250C/IS350C '10-'15)
+G
+4DR Sedan LWB 2WD (Lexus LS460L '10-'17)
+H
+2DR Coupe 2WD (Lexus LFA '12, RC200t '16-'17, RC300 RWD '18-'19, RC350 '15-'19, RC F '15-'19, LC500 '18-'19, LC500h '18-'19)
+J
+3DR Liftback 2WD (Yaris 3-door '10-'18 & '19 in Canada, Scion tC '11-'16, Scion iQ '12-'15, Scion iQ EV '13)
+K
+5DR Liftback or Hatchback 2WD (Yaris 5-door '10-'18 & '19 in Canada, Lexus CT200h '11-'17, Prius C '12-'19, Scion iM '16, Corolla iM '17-'18,
+Corolla Hatchback '19) /
+5DR Sedan 2WD (Prius '10-'22, Scion xD '10-'14, C-HR '18-'22) /
+5DR Sedan 2WD w/torsion beam rear suspension (Matrix Base model & S 2wd '10-'11, Matrix L & S 2wd '12-'13, Canada: Matrix '14)
+L
+5DR Sedan 4WD (Prius AWD-e '19-'22)
+L
+5DR Sedan 4WD w/IRS (Matrix S 4wd '10-'13)
+M
+5DR Sedan 2WD w/IRS (Matrix XRS - US: '10, Canada: '10-'13)
+S
+2DR Coupe 4WD (Lexus RC300 AWD '16-'19, RC350 AWD '15-'19)
+U
+5DR Wagon 4WD (Lexus UX250h '19)
+Y
+5DR Wagon 2WD (Lexus UX200 '19)
+Z
+5DR Wagon 2WD (Prius V 2012-2017 & 2018 in Canada)
+A
+4DR Sedan (Mirai '21-'26, Crown '23-'25)
+A
+5DR Hatchback (GR Corolla '23-'25, Prius '23-'25, Prius Prime '23-'24, Prius Plug-in Hybrid '25-)
+A
+Wagon (Crown Signia '25-)
+D
+4DR Sedan (Camry '25-)
+Y
+Wagon (Lexus UX300h 2wd '25-)
+U
+Wagon (Lexus UX300h Awd '25-)
+LWB=Long Wheelbase, IRS=Independent Rear Suspension
+Multi-Purpose Passenger Vehicles
+Position 4 (2010- for North America)
+Code
+Description
+B
+5DR Wagon 4WD (Venza '10-'15 & '16 in Canada, FJ Cruiser '10-'14, 4Runner '10-'20, Lexus RX350 '10-'19, RX450h '10-'19, NX200t '15-'17, NX300 '18-'19,
+NX300h '15-'19)
+C
+4DR Wagon 4WD (Land Cruiser '16-'21)
+D
+5DR Wagon extended length 4WD w/3rd row seat (Lexus RX350L '18-'19, RX450hL '18-'19)
+G
+5DR Wagon extended length 2WD w/3rd row seat (Lexus RX350L '18-'19)
+H
+4DR Wagon 4WD (Land Cruiser '10-'11, '13-'15, Lexus LX570 '10-'11, '13-'19)
+Y
+5DR Wagon 2WD (Lexus NX200t '15-'17, NX300 '18-'19, NX300h '15-'16)
+Z
+5DR Wagon 2WD (Scion xB '10-'15, Venza '10-'15 & '16 in Canada, FJ Cruiser '10-'14, 4Runner '10-'20, Lexus RX350 '10-'19, RX450h '10-'16)
+A
+5DR Wagon (Toyota Venza '21-'24, Sequoia '23-'25, bZ4X '23-'25, Grand Highlander '24-'25, Land Cruiser '24-'25, Subaru Solterra '23-'25,
+Lexus RZ450e '23-'25, RZ300e '24-'25, TX350 '24-'25, TX500h '24-'25, TX550h+ '24-'25)
+B
+5DR Wagon (Canadian-built Lexus RX350 '23-'25, RX350h '23-'25, RX500h '23-'25)
+C
+5DR Wagon (Japanese-built Lexus RX350 '23-'25, RX450h+ '24-'25)
+V
+5DR Wagon (4Runner '25-)
+Light Duty Trucks
+Position 4 (2010- for North America)
+Code
+Description
+N
+Tacoma Regular Cab SWB 2wd ('10-'14)
+P
+Tacoma Regular Cab SWB 4wd ('10-'14)
+T
+Tacoma Access Cab LWB 2wd ('10-'15)
+U
+Tacoma Access Cab LWB 4wd ('10-'15)
+J
+Tacoma Double Cab LWB 2wd ('10-'15)
+L
+Tacoma Double Cab LWB 4wd ('10-'15)
+K
+Tacoma PreRunner Double Cab Super LWB 2wd ('10-'15)
+M
+Tacoma Double Cab Super LWB 4wd ('10-'15)
+J
+Tacoma XtraCab ('24-'25) [Class D GVWR]
+K
+Tacoma Double Cab ('24-'25) [Class D GVWR]
+L
+Tacoma Double Cab ('24-'25) [Class E GVWR]
+SWB=Short Wheelbase, LWB=Long Wheelbase
+Body Type, Drive Wheels, & Grade
+[
+edit
+|
+edit source
+]
+Passenger Cars
+Position 4 (2020- for North America)
+Code
+Description
+D
+4DR Sedan (Corolla L '20-'22)
+E
+4DR Sedan (Corolla LE '20-'22, LE Hybrid '20-'22)
+V
+4DR Sedan (Corolla LE w/Convenience Package '20-'22)
+H
+4DR Sedan (Corolla LE w/Premium Package '20-'22)
+F
+4DR Sedan (Corolla XLE '20-'22)
+B
+4DR Sedan (Corolla LE '23-'25, SE Nightshade '24, FX Edition '25, LE Hybrid '23-'25, XLE Hybrid '23-'25, SE Hybrid '23-'25, SE Nightshade Hybrid '24)
+M
+4DR Sedan (Corolla SE w/man. trans. '20-'22)
+S
+4DR Sedan (Corolla SE w/auto. trans. '20-'25)
+P
+4DR Sedan (Corolla SE w/auto. trans. & Premium Package '20-'25)
+T
+4DR Sedan (Corolla XSE w/auto. trans. '20-'25)
+B
+5DR Liftback (Corolla Hatchback SE w/man. trans. '20-'22)
+D
+5DR Liftback (Corolla Hatchback SE w/auto. trans. '20-'25)
+A
+5DR Liftback (Corolla Hatchback XSE w/man. trans. '20-'22)
+C
+5DR Liftback (Corolla Hatchback XSE w/auto. trans. '20-'25)
+A
+4DR Sedan (Camry L '20)
+C
+4DR Sedan (Camry LE '20-'24)
+L
+4DR Sedan (Camry LE w/Convenience Pkg. & Blind-Spot Monitoring '20)
+E
+4DR Sedan (Camry LE w/Audio Upgrade Pkg. & Blind-Spot Monitoring '20)
+R
+4DR Sedan (Camry LE w/Convenience Pkg. '21-'24)
+H
+4DR Sedan (Camry LE w/Convenience Pkg. & Audio Upgrade Pkg. '21-'24)
+F
+4DR Sedan (Camry XLE '20-'24)
+G
+4DR Sedan (Camry SE '20-'24)
+M
+4DR Sedan (Camry SE w/Convenience Pkg. & Blind-Spot Monitoring '20)
+J
+4DR Sedan (Camry SE w/Audio Upgrade Pkg. & Blind-Spot Monitoring '20)
+T
+4DR Sedan (Camry SE w/Convenience Pkg. '21-'24)
+S
+4DR Sedan (Camry SE w/Convenience Pkg. & Audio Upgrade Pkg. '21-'24)
+N
+4DR Sedan (Camry TRD '20)
+K
+4DR Sedan (Camry XSE '20-'24, Camry TRD '21-'24)
+A
+4DR Sedan (Avalon XLE '20-'22, XLE Hybrid '20-'22)
+J
+4DR Sedan (Avalon XLE [decontent package] '20-'22, XLE Hybrid [decontent package] '20-'22)
+L
+4DR Sedan (Avalon XLE AWD '21)
+K
+4DR Sedan (Avalon XLE AWD [decontent package] '21)
+E
+4DR Sedan (Avalon XSE '20, XSE Nightshade '21, XSE Hybrid '20-'21, XSE Nightshade Hybrid '22)
+F
+4DR Sedan (Avalon TRD '20-'21)
+G
+4DR Sedan (Avalon Touring '20-'22)
+H
+4DR Sedan (Avalon Touring w/Advanced Safety Package '20-'22)
+C
+4DR Sedan (Avalon Limited '20-'22, Limited Hybrid '20-'22)
+D
+4DR Sedan (Avalon Limited w/Advanced Safety Package '20-'22, Limited Hybrid w/Advanced Safety Package '20-'22)
+M
+4DR Sedan (Avalon Limited AWD '21)
+N
+4DR Sedan (Avalon Limited AWD w/Advanced Safety Package '21)
+C
+4DR Sedan (Lexus ES350 [base model], ES300h [base model] '20-'25, ES250 AWD [base model] '21-'24)
+D
+4DR Sedan (Lexus ES350 [base model w/Premium Package], ES300h [base model w/Premium Package] '20-'25,
+ES250 AWD [base model w/Premium Package] '21-'25, ES350, ES300h, ES250 AWD F Sport Design '23-'25)
+G
+4DR Sedan (Lexus ES350 F Sport '20-'22, ES250 AWD F Sport '21-'22, ES300h F Sport '22)
+H
+4DR Sedan (Lexus ES350 F Sport Black Line Special Edition '21)
+J
+4DR Sedan (Lexus ES350 F Sport w/Dynamic Handling package '22, ES350 F Sport Handling '23-'25)
+E
+4DR Sedan (Lexus ES350 Luxury, ES300h Luxury '20-'25, ES250 AWD Luxury '21-'24)
+F
+4DR Sedan (Lexus ES350 Ultra Luxury, ES300h Ultra Luxury '20-'25, ES250 AWD Ultra Luxury '21)
+B
+4DR Sedan (Lexus ES250 AWD Ultra Luxury '22-'25, ES300h F Sport Handling '23-25)
+D
+4DR Sedan (Lexus GS350 AWD [base model] '20)
+E
+4DR Sedan (Lexus GS350 F Sport '20)
+F
+4DR Sedan (Lexus GS350 RWD [base model], GS350 AWD [base model w/Premium Package] '20)
+G
+4DR Sedan (Lexus GS350 F Sport Black Line '20)
+X
+5DR Wagon (Lexus UX200 [base model] '20-'22, UX250h [base model] '20-'24)
+P
+5DR Wagon (Lexus UX200 [base model w/Premium Package] '20-'22, UX250h [base model w/Premium Package] '20-'22, UX250h Premium '23-'24)
+L
+5DR Wagon (Lexus UX200 Luxury '20-'22, UX250h Luxury '20-'22)
+E
+5DR Wagon (Lexus UX200 F Sport '20-'22, UX250h F Sport '20-'22)
+B
+5DR Wagon (Lexus UX250h F Sport Design '23-'24)
+R
+5DR Wagon (Lexus UX200 F Sport w/Premium Package '20-'22, UX250h F Sport w/Premium Package '20-'22, UX250h F Sport Handling '23-'24)
+Multi-Purpose Passenger Vehicles
+Position 4 (2010- for North America)
+Code
+Description
+Z
+5DR Wagon 2WD (RAV4 [base model, 2-row] '10-'12, RAV4 LE '13-'18, Highlander [base model] '10-'13, Highlander SE '11-'13, Highlander Plus '13,
+Highlander LE, LE Plus '14-'19, Sequoia SR5 '10-'20, Sequoia TRD Sport '18-'20, Sienna [base model V6] '11-'12, Sienna L '13-'20)
+B
+5DR Wagon 4WD (RAV4 [base model, 2-row] '10-'12, RAV4 LE '13-'18, Highlander [base model] '10-'13, Highlander SE '11-'13, Highlander Plus '13,
+Highlander LE, LE Plus '14-'19, Sequoia SR5 '10-'20, Sequoia TRD Sport '18-'20, Sequoia TRD Pro '20, Lexus GX460 [base model] '10-'19)
+W
+5DR Wagon 2WD (RAV4 Sport 2-row '10-'12, RAV4 XLE '13-'18, RAV4 Adventure '18)
+R
+5DR Wagon 4WD (RAV4 Sport 2-row '10-'12, RAV4 XLE '13-'18, RAV4 Adventure '18)
+X
+5DR Wagon 2WD (RAV4 Limited 3-row '10-'12, Highlander Sport '10, Sienna SE '11-'20, SE Premium '15-'20)
+E
+5DR Wagon 4WD (RAV4 Limited 3-row '10-'12, Highlander Sport '10, Sienna SE '19-'20, SE Premium '19-'20)
+K
+5DR Wagon 2WD (RAV4 [base model, 3-row] '10-'12, Highlander SE '10, '17-'19, Highlander XLE '14-'19, Sequoia Limited '10-'20, Sienna CE, LE '10,
+Sienna [base model I4] '11-'12, Sienna LE '11-'20)
+N
+5DR Wagon 2WD (RAV4 SE '16-'18)
+J
+5DR Wagon 4WD (RAV4 [base model, 3-row] '10-'12, RAV4 SE '16-'18, Highlander SE '10, '17-'19, Highlander XLE '14-'19, Sequoia Limited '10-'20,
+Sienna LE '10-'20, Lexus GX460 Premium '10-'13, GX460 Luxury '14-'19)
+Y
+5DR Wagon 2WD (RAV4 Limited 2-row '10-'12, RAV4 EV '12-'14, RAV4 Limited '13-'18, RAV4 Platinum '17-'18, Highlander Limited '10-'19,
+Highlander Limited Platinum '14-'19, Sequoia Platinum '10-'20, Sienna XLE, Limited '10-'20, XLE Premium, Limited Premium '15-'20)
+D
+5DR Wagon 4WD (RAV4 Limited 2-row '10-'12, RAV4 Limited '13-'18, RAV4 Platinum '17-'18, Highlander Limited '10-'19, Highlander Limited Platinum '14-'19,
+Sequoia Platinum '10-'20, Sienna XLE, Limited '10-'20, XLE Premium, Limited Premium '15-'20)
+Z
+5DR Wagon 2WD (Sienna CE [Canadian market] '10)
+B
+5DR Wagon 4WD (Sienna CE [Canadian market] '10)
+K
+5DR Wagon (Sienna LE '21-'25)
+B
+5DR Wagon (Sienna LE w/Plus Package '21-'25)
+Y
+5DR Wagon (Sienna XLE '21-'25)
+J
+5DR Wagon (Sienna XLE w/Plus Package '21-'25)
+A
+5DR Wagon (Sienna XLE Woodland Edition '22)
+C
+5DR Wagon (Sienna XLE Woodland Edition '23-'25, Sienna XSE 25th Anniversary Edition '23, Sienna XSE w/Premium Package '25)
+X
+5DR Wagon (Sienna XSE '21-'25)
+D
+5DR Wagon (Sienna XSE w/Plus Package '21-'25)
+Z
+5DR Wagon (Sienna Limited '21-'25)
+E
+5DR Wagon (Sienna Platinum '21-'25)
+A
+5DR Wagon (Corolla Cross L '22-'25)
+C
+5DR Wagon (Corolla Cross LE '22-'25)
+B
+5DR Wagon (Corolla Cross LE w/Moonroof Package '22-'25)
+E
+5DR Wagon (Corolla Cross XLE '22-'25)
+D
+5DR Wagon (Corolla Cross XLE w/Convenience Package '22-'25)
+F
+5DR Wagon (Corolla Cross Hybrid S, SE, XSE '23-'25, Hybrid SE Nightshade '24-'25)
+H
+5DR Wagon (RAV4 LE 2wd '19-'25)
+K
+5DR Wagon (RAV4 LE 2wd w/Blind Spot Monitor '19-'25)
+F
+5DR Wagon (RAV4 LE 4wd '19-'25)
+G
+5DR Wagon (RAV4 LE 4wd w/Blind Spot Monitor '19-'25)
+L
+5DR Wagon (RAV4 LE Hybrid 4wd '19-'25)
+M
+5DR Wagon (RAV4 LE Hybrid 4wd w/Blind Spot Monitor '19-'25)
+W
+5DR Wagon (RAV4 XLE 2wd '19-'25)
+P
+5DR Wagon (RAV4 XLE 4wd '19-'25)
+R
+5DR Wagon (RAV4 XLE Hybrid 4wd '19-'25)
+U
+5DR Wagon (RAV4 Woodland Edition Hybrid 4wd '23-'25)
+C
+5DR Wagon (RAV4 XLE Premium 2wd '19-'25)
+A
+5DR Wagon (RAV4 XLE Premium 4wd '19-'25)
+B
+5DR Wagon (RAV4 XLE Premium Hybrid 4wd '21-'25)
+J
+5DR Wagon (RAV4 Adventure 4wd '19-'24, RAV4 TRD Off-Road 4wd '20)
+S
+5DR Wagon (RAV4 TRD Off-Road 4wd '21-'24)
+T
+5DR Wagon (RAV4 SE Hybrid 4wd '22-'25) [US- & Canadian-built]
+1
+5DR Wagon (RAV4 SE Hybrid 4wd '22-'25) [Japanese-built]
+E
+5DR Wagon (RAV4 XSE Hybrid 4wd '19-'25)
+Y
+5DR Wagon (RAV4 Limited 2wd '19-'25)
+N
+5DR Wagon (RAV4 Limited 4wd '19-'25)
+D
+5DR Wagon (RAV4 Limited Hybrid 4wd '19-'25)
+C
+5DR Wagon (RAV4 Prime SE 4wd '21-'24, RAV4 Plug-in Hybrid SE 4wd '25)
+A
+5DR Wagon (RAV4 Prime SE w/Weather & Moonroof Package 4wd '21-'24, RAV4 Plug-in Hybrid SE w/Weather & Moonroof Package 4wd '25)
+E
+5DR Wagon (RAV4 Prime XSE 4wd '21-'24, RAV4 Plug-in Hybrid XSE 4wd '25)
+F
+5DR Wagon (RAV4 Prime XSE w/Premium Package 4wd '21-'24, RAV4 Plug-in Hybrid XSE w/Premium Package 4wd '25)
+C
+5DR Wagon (Highlander L 2wd & Awd '20-'22)
+Z
+5DR Wagon (Highlander LE, Hybrid LE 2wd '20-'22)
+B
+5DR Wagon (Highlander LE, Hybrid LE Awd '20-'22)
+G
+5DR Wagon (Highlander XLE, Hybrid XLE '20-'22)
+H
+5DR Wagon (Highlander XLE w/Navigation, Hybrid XLE w/Navigation '20-'22)
+A
+5DR Wagon (Highlander Hybrid Bronze Edition '22-'23)
+Y
+5DR Wagon (Highlander Limited, Hybrid Limited 2wd '20-'22)
+D
+5DR Wagon (Highlander Limited Awd '20-'22, Hybrid Limited Awd '20-'21)
+X
+5DR Wagon (Highlander Hybrid Limited Awd '20-'22)
+F
+5DR Wagon (Highlander Platinum 2wd & Awd, Hybrid Platinum 2wd '20-'22)
+E
+5DR Wagon (Highlander Hybrid Platinum Awd '20-'22)
+L
+5DR Wagon (Highlander XSE '21-'22)
+J
+5DR Wagon (Highlander XSE w/Navigation & JBL Audio '21-'22)
+K
+5DR Wagon (Highlander L, LE, XLE, XSE, Limited, Platinum 2wd & Awd, Hybrid XLE 2wd & Awd '23)
+K
+5DR Wagon (Highlander LE, XLE, XSE, Limited, Platinum 2wd & Awd, Hybrid LE Nightshade, Hybrid XLE, Hybrid XLE Nightshade 2wd & Awd '24)
+K
+5DR Wagon (Highlander LE, XLE, XSE, Limited, Platinum 2wd & Awd, Hybrid XLE, Hybrid XLE Nightshade, Hybrid Limited 25th Anniversary Edition Awd '25)
+Z
+5DR Wagon (Highlander Hybrid LE 2wd '23-'24)
+B
+5DR Wagon (Highlander Hybrid LE Awd '23-'24)
+Y
+5DR Wagon (Highlander Hybrid Limited 2wd '23-'24)
+X
+5DR Wagon (Highlander Hybrid Limited Awd '23-'25)
+F
+5DR Wagon (Highlander Hybrid Platinum 2wd '23-'24)
+E
+5DR Wagon (Highlander Hybrid Platinum Awd '23-'25)
+E
+5DR Wagon (4Runner SR5 2wd '21-'24)
+M
+5DR Wagon (4Runner SR5 4wd '21-'24)
+Z
+5DR Wagon (4Runner Trail Special Edition 2wd '21)
+B
+5DR Wagon (4Runner Trail Special Edition 4wd '21)
+G
+5DR Wagon (4Runner Trail Special Edition 2wd '22)
+T
+5DR Wagon (4Runner Trail Special Edition 4wd '22)
+A
+5DR Wagon (4Runner TRD Sport 2wd '22-'24)
+S
+5DR Wagon (4Runner TRD Sport 4wd '22-'24)
+F
+5DR Wagon (4Runner SR5 Premium 2wd '21-'24)
+N
+5DR Wagon (4Runner SR5 Premium 4wd '21-'24)
+U
+5DR Wagon (4Runner 40th Anniversary Special Edition 4wd '23)
+P
+5DR Wagon (4Runner TRD Off-Road 4wd '21-'24)
+R
+5DR Wagon (4Runner TRD Off-Road Premium 4wd '21-'24)
+H
+5DR Wagon (4Runner Venture Special Edition 4wd '21)
+D
+5DR Wagon (4Runner Limited 2wd '21-'24)
+K
+5DR Wagon (4Runner Limited 4wd '21-'24)
+C
+5DR Wagon (4Runner Nightshade Special Edition 2wd '21)
+J
+5DR Wagon (4Runner Nightshade Special Edition 4wd '21)
+L
+5DR Wagon (4Runner TRD Pro 4wd '21-'24)
+A
+5DR Wagon (Sequoia SR5 '21-'22)
+C
+5DR Wagon (Sequoia TRD Sport '21-'22)
+F
+5DR Wagon (Sequoia Limited '21-'22)
+H
+5DR Wagon (Sequoia Nightshade Special Edition '21-'22)
+G
+5DR Wagon (Sequoia Platinum '21-'22)
+E
+5DR Wagon (Sequoia TRD Pro '21-'22)
+A
+5DR Wagon (Lexus NX300 [base model] '20-'21, NX300h [base model] '20-'21, NX250 [base model] '22-'25, NX350 [base model] '22-'25,
+NX350h [base model] '22-'25)
+D
+5DR Wagon (Lexus NX300 [base model w/Comfort package] '20, NX300h [base model w/Comfort package] '20)
+D
+5DR Wagon (Lexus NX300 [base model w/heated and ventilated front seats (?)] '21, NX300h [base model w/heated and ventilated front seats (?)] '21)
+G
+5DR Wagon (Lexus NX300 [base model w/Premium package] '20-'21, NX300h [base model w/Premium package] '20-'21, NX250 Premium '22-'25, NX350 Premium '22-'25, NX350h Premium '22-'25)
+H
+5DR Wagon (Lexus NX300 Luxury '20-'21, NX300h Luxury '20-'21, NX250 Luxury '22-'23, NX350 Luxury '22-'25, NX350h Luxury '22-'25, NX450h+ [base model] '22-'25)
+J
+5DR Wagon (Lexus NX300 F Sport '20-'21)
+S
+5DR Wagon (Lexus NX300 F Sport w/Comfort package '20, NX300 F Sport w/Premium package '21, NX300h F Sport Black Line '21)
+K
+5DR Wagon (Lexus NX350 F Sport '22-'25, NX450h+ F Sport '22-'25)
+A
+5DR Wagon (Lexus RX350 [base model] '20-'22, RX350L [base model] '20-'22, RX450h [base model] '20-'22, RX450hL [base model] '20-'22)
+H
+5DR Wagon (Lexus RX350 [base model w/Premium package] '20-'22, RX350L [base model w/Premium package] '20-'22,
+RX450h [base model w/Premium package] '20-'22, RX450hL [base model w/Premium package] '20-'22)
+J
+5DR Wagon (Lexus RX350 [base model w/Luxury package] '20-'22, RX350L [base model w/Luxury package] '20-'22, RX450h [base model w/Luxury package] '20-'22, RX450hL [base model w/Luxury package] '20-'22)
+S
+5DR Wagon (Lexus RX350 F Sport '20-'22, RX450h F Sport '20-'22)
+Y
+5DR Wagon (Lexus RX350 F Sport w/Performance package '20, RX450h F Sport w/Performance package '20, RX350 F Sport w/Handling package '21-'22, RX450h F Sport w/Handling package '21-'22)
+B
+5DR Wagon (Lexus GX460 [base model] '20-'23)
+A
+5DR Wagon (Lexus GX460 [base model w/Premium package] '20-'23)
+G
+5DR Wagon (Lexus GX460 Luxury '20-'23)
+K
+5DR Wagon (Lexus GX460 [base model w/Premium package & Black Line Special Edition package] '22)
+S
+5DR Wagon (Lexus GX460 [base model w/Premium package & Black Line Special Edition package] '23)
+V
+5DR Wagon (Lexus GX550 [Luxury/Luxury+] '24-'25) [Class E GVWR]
+T
+5DR Wagon (Lexus GX550 [Premium/Premium+, Overtrail/Overtrail+] '24-'25) [Class F GVWR]
+C
+4DR Wagon (Lexus LX570 [3-row base model] '20-'21)
+D
+4DR Wagon (Lexus LX570 [3-row base model w/Luxury package] '20-'21)
+E
+4DR Wagon (Lexus LX570 [2-row base model] '20-'21)
+F
+4DR Wagon (Lexus LX570 [2-row base model w/Luxury package] '20-'21)
+N
+5DR Wagon (Lexus LX600 [2-row base model] '22-'24)
+A
+5DR Wagon (Lexus LX600 Premium [3-row] '22-'25)
+M
+5DR Wagon (Lexus LX600 F Sport [3-row] '22-'25, LX700h F Sport [3-row] '25-)
+G
+5DR Wagon (Lexus LX600 Luxury [3-row] '22-'25, LX700h Luxury [3-row] '25-)
+L
+5DR Wagon (Lexus LX600 Ultra Luxury [2-row] '22-'24)
+W
+5DR Wagon (Lexus LX700h Overtrail [2/3-row] '25-)
+U
+5DR Wagon (Lexus LX700h Ultra Luxury [2-row] '25-)
+Light Duty Trucks
+Position 4 (2010- for North America)
+Code
+Description
+R
+Tacoma SR, SR5, TRD Sport Access Cab LWB 2wd ('16-'23)
+S
+Tacoma SR, SR5, TRD Sport, TRD Off-Road Access Cab LWB 4wd ('16-'23)
+A
+Tacoma SR, SR5, TRD Sport, TRD Off-Road Double Cab LWB 2wd ('16-'23)
+C
+Tacoma SR, SR5, TRD Sport, TRD Off-Road Double Cab LWB 4wd ('16-'23)
+C
+Tacoma TRD Pro Double Cab LWB 4wd ('17-'23)
+E
+Tacoma Limited Double Cab LWB 2wd ('16-'23)
+G
+Tacoma Limited Double Cab LWB 4wd ('16-'23)
+B
+Tacoma SR5, TRD Sport Double Cab Super LWB 2wd ('16-'23)
+D
+Tacoma SR5, TRD Sport, TRD Off-Road Double Cab Super LWB 4wd ('16-'23)
+H
+Tacoma Limited Double Cab Super LWB 4wd (Canada only: '16-'17)
+H
+Tacoma Limited Double Cab Super LWB 4wd ('21-'23)
+LWB=Long Wheelbase
+Code
+Description
+J
+Tundra [base model] Regular Cab SWB 2wd ('10-'13)
+K
+Tundra [base model] Regular Cab SWB 4wd ('10-'13)
+L
+Tundra [base model] Regular Cab LWB 2wd ('10-'13)
+M
+Tundra [base model] Regular Cab LWB 4wd ('10-'13)
+R
+Tundra [base model] Double Cab LWB 2wd ('10-'13)
+U
+Tundra [base model] Double Cab LWB 4wd ('10-'13)
+T
+Tundra [base model] Double Cab ELWB 2wd ('10-'13)
+C
+Tundra [base model] Double Cab ELWB 4wd ('10-'13)
+S
+Tundra Limited Double Cab LWB 2wd ('10-'13)
+B
+Tundra Limited Double Cab LWB 4wd ('10-'13)
+E
+Tundra [base model] CrewMax LWB 2wd ('10-'13)
+D
+Tundra [base model] CrewMax LWB 4wd ('10-'13)
+F
+Tundra Limited CrewMax LWB 2wd ('10-'13)
+H
+Tundra Limited CrewMax LWB 4wd ('10-'13)
+N
+Tundra SR Regular Cab LWB 2wd ('14-'17)
+P
+Tundra SR Regular Cab LWB 4wd ('14-'17)
+R
+Tundra SR, SR5 Double Cab LWB 2wd ('14-'21)
+U
+Tundra SR, SR5 Double Cab LWB 4wd ('14-'21)
+U
+Tundra TRD Pro Double Cab LWB 4wd ('15-'17, '20-'21)
+T
+Tundra SR, SR5 Double Cab ELWB 2wd ('14-'21)
+C
+Tundra SR, SR5 Double Cab ELWB 4wd ('14-'21)
+S
+Tundra Limited Double Cab LWB 2wd ('14-'21)
+B
+Tundra Limited Double Cab LWB 4wd ('14-'21)
+E
+Tundra SR5 CrewMax LWB 2wd ('14-'21)
+D
+Tundra SR5 CrewMax LWB 4wd ('14-'21)
+D
+Tundra TRD Pro CrewMax LWB 4wd ('15-'17, '19-'21)
+F
+Tundra Limited CrewMax LWB 2wd ('14-'21)
+H
+Tundra Limited CrewMax LWB 4wd ('14-'21)
+G
+Tundra Platinum, 1794 Edition CrewMax LWB 2wd ('14-'21)
+A
+Tundra Platinum, 1794 Edition CrewMax LWB 4wd ('14-'21)
+SWB=Short Wheelbase, LWB=Long Wheelbase, ELWB=Extra Long Wheelbase
+Grade
+[
+edit
+|
+edit source
+]
+Position 4 (2022- for North America)
+Code
+Description
+K
+Tundra SR ('22-'25)
+L
+Tundra SR5 ('22-'25)
+J
+Tundra Limited ('22-'25)
+N
+Tundra Platinum ('22-'25)
+M
+Tundra 1794 Edition ('22-'25)
+P
+Tundra TRD Pro ('22-'25)
+V
+Tundra Capstone ('22-'25)
+W
+Tundra Limited w/Nightshade Package or TRD Off-Road Package, Platinum w/TRD Off-Road Package ('24-'25), SR5 w/TRD Rally Package ('25)
+Engine Type 2010-
+[
+edit
+|
+edit source
+]
+Position 5
+VIN
+Size
+Type
+Fuel
+Valvetrain
+Engine Family/Notes/Applications
+A
+2.7L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT-i. Toyota 1AR-FE engine.
+Toyota Venza ('10-'15 & '16 in Canada), Highlander ('10-'19), Sienna ('11-'12 & '13 in Canada).
+A
+2.0L
+I4 Turbo
+IC
+Gas
+DOHC,
+16 valve
+D-4ST Direct/Port injection. Dual VVT-i w/intake VVT-iW. Otto/Atkinson cycles. Toyota 8AR-FTS engine.
+Lexus NX200t ('15-'17), NX300 ('18-'21), IS200t ('16-'17), IS300 RWD ('18-'19), RC200t ('16-'17),
+RC300 RWD ('18-'19), GS200t ('16-'17), GS300 ('18-'19).
+A
+1.8L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Valvematic. Toyota 2ZR-FAE engine. Scion iM ('16), Toyota Corolla iM ('17-'18).
+A
+1.8L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. VVT-i. Atkinson cycle. Toyota 2ZR-FXE engine + 1NM (2 Front motors). Lithium-ion Battery Pack.
+Toyota Prius (Two Eco, Three, Three Touring, Four, Four Touring trim levels) ('16-'18), Prius 2wd ('19-'22),
+Corolla Hybrid ('21-'22).
+A
+1.8L
+I4
+Gas-Electric
+PHEV
+DOHC,
+16 valve
+MPI. VVT-i. Atkinson cycle. Toyota 2ZR-FXE engine + 2 Front motors: 1NM (MG2), 1SM (MG1).
+Lithium-ion Battery Pack. Toyota Prius Prime ('17-'22).
+A
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 5NM (2 Front motors). Nickel-metal hydride Battery Pack. Toyota Highlander Hybrid 2wd ('20-'24).
+A
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 3NM (2 Front motors). Lithium-ion Battery Pack. Toyota Avalon Hybrid ('21-'22), Lexus ES300h ('21-'25).
+A
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 3NM (2 Front motors), 4NM (1 Rear motor). Lithium-ion Battery Pack. Toyota Venza Hybrid ('21-'24).
+A
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Toyota M20A-FKS Dynamic Force engine.
+Toyota Corolla Cross ('22-'25).
+A
+3.4L
+V6 Twin Turbo
+IC
+Gas
+DOHC,
+24 valve
+D-4ST Direct/Port injection. Dual VVT-i w/intake VVT-iE. Toyota V35A-FTS Dynamic Force engine (3445 cc).
+Toyota Tundra SR5, Limited, Platinum, 1794 Edition ('22-'25).
+A
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 3NM (2 Front motors), 4NM (1 Rear motor). Nickel-metal hydride Battery Pack.
+Toyota Crown XLE, Limited Hybrid ('23-'25), Crown Nightshade Hybrid ('25).
+A
+2.4L
+I4 Turbo
+IC
+Gas
+DOHC,
+16 valve
+D-4ST Direct/Port injection. Dual VVT-i. Toyota T24A-FTS Dynamic Force engine.
+Lexus RX350 [Canadian-built] ('23-'25), Toyota Grand Highlander ('24-'25), Lexus TX350 ('24-'25), 4Runner ('25-).
+A
+3.4L
+V6 Twin Turbo
+IC
+Gas-Electric Hybrid
+DOHC,
+24 valve
+D-4ST Direct/Port injection. Dual VVT-i w/intake VVT-iE. Toyota V35A-FTS Dynamic Force engine (3445 cc) + 1TM (1 Front motor). Nickel-metal hydride Battery Pack.
+Toyota Sequoia ('23-'25).
+A
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 1VM (2 Front motors). Lithium-ion Battery Pack. Toyota Camry Hybrid 2wd ('25-).
+A
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 5NM (2 Front motors), 4NM (1 Rear motor). Nickel-metal hydride Battery Pack.
+Toyota Crown Signia Hybrid Awd ('25-).
+B
+2.4L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. VVT-i. Atkinson cycle. Toyota 2AZ-FXE engine + 2JM (2 Front motors). Nickel-metal hydride Battery Pack. Toyota Camry Hybrid ('10-'11), Lexus HS250h ('10-'12).
+B
+3.5L
+V6
+Gas-Electric Hybrid
+DOHC,
+24 valve
+MPI. VVT-i. Atkinson cycle. Toyota 2GR-FXE engine + 4JM (2 Front motors). Nickel-metal hydride Battery Pack. Lexus RX450h 2wd ('10-'15).
+B
+1.8L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. VVT-i. Atkinson cycle. Toyota 2ZR-FXE engine + 1NM (2 Front motors). Nickel-metal hydride Battery Pack. Toyota Prius (Two trim level: '16-'18), (One trim level: '17-'18), Corolla Hybrid ('20).
+B
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 5NM (2 Front motors), 4NM (1 Rear motor). Nickel-metal hydride Battery Pack.
+Toyota Highlander Hybrid Awd ('20-'25), Lexus RX350h Awd ('23-'25).
+B
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i. Toyota A25A-FKS Dynamic Force engine (205 hp).
+Toyota Avalon Awd ('21).
+B
+2.5L
+I4
+Gas-Electric
+PHEV
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 5NM (2 Front motors), 4NM (1 Rear motor). Lithium-ion Battery Pack. Toyota RAV4 Prime ('21-'24), RAV4 Plug-In Hybrid ('25).
+B
+3.4L
+V6 Twin Turbo
+IC
+Gas
+DOHC,
+24 valve
+D-4ST Direct/Port injection. Dual VVT-i w/intake VVT-iE. Toyota V35A-FTS Dynamic Force engine (3445 cc) (detuned version - 348 or 358 hp). Toyota Tundra SR ('22-'25).
+B
+3.4L
+V6 Twin Turbo
+IC
+Gas
+DOHC,
+24 valve
+D-4ST Direct/Port injection. Dual VVT-i w/intake VVT-iE. Toyota V35A-FTS Dynamic Force engine (3445 cc).
+Lexus LX600 ('22-'25), GX550 ('24-'25).
+B
+1.6L
+I3 Turbo
+IC
+Gas
+DOHC,
+12 valve
+D-4ST Direct/Port injection. Dual VVT-i w/intake VVT-iW. Toyota G16E-GTS Dynamic Force engine.
+Toyota GR Corolla ('23-'25).
+B
+2.0L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota M20A-FXS Dynamic Force engine + 1VM (2 Front motors), 1WM (1 Rear motor). Lithium-ion Battery Pack.
+Toyota Corolla Cross Hybrid ('23-'25).
+B
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 5NM (2 Front motors). Nickel-metal hydride Battery Pack. Toyota Grand Highlander Hybrid 2wd ('24-'25).
+B
+2.4L
+I4 Turbo
+IC
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4ST Direct/Port injection. Dual VVT-i. Toyota T24A-FTS Dynamic Force engine + 1ZM (2 Front motors), 1YM (1 Rear motor). Nickel-metal hydride Battery Pack. Lexus TX500h Awd ('24-'25).
+B
+2.4L
+I4 Turbo
+IC
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4ST Direct/Port injection. Dual VVT-i. Toyota T24A-FTS Dynamic Force engine + 1TM (1 Front motor).
+Nickel-metal hydride Battery Pack. Toyota Land Cruiser ('24-'25), 4Runner i-Force Max 4wd ('25-).
+B
+2.4L
+I4 Turbo
+IC
+Gas
+DOHC,
+16 valve
+D-4ST Direct/Port injection. Dual VVT-i. Toyota T24A-FTS Dynamic Force engine (278 hp).
+Toyota Tacoma SR5, TRD PreRunner, TRD Sport, TRD Off-Road, & Limited w/auto. trans. ('24-'25).
+B
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 1VM (2 Front motors), 1WM (1 Rear motor). Lithium-ion Battery Pack. Toyota Camry Hybrid Awd ('25-).
+B
+2.0L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota M20A-FXS Dynamic Force engine + 1VM (2 Front motors). Lithium-ion Battery Pack. Lexus UX300h 2wd ('25-).
+C
+3.5L
+V6
+Gas-Electric Hybrid
+DOHC,
+24 valve
+MPI. VVT-i. Atkinson cycle. Toyota 2GR-FXE engine + 4JM (2 Front motors), 2FM (1 Rear motor).
+Nickel-metal hydride Battery Pack. Lexus RX450h Awd ('10-'15), Toyota Highlander Hybrid Awd ('11-'16).
+C
+3.5L
+V6
+Gas-Electric Hybrid
+DOHC,
+24 valve
+D-4S Direct/Port injection. Dual VVT-i. Toyota 2GR-FSE engine + 1KM (2 Front motors).
+Nickel-metal hydride Battery Pack. Lexus GS450h ('10-'11).
+C
+3.4L
+V6 Twin Turbo
+IC
+Gas-Electric Hybrid
+DOHC,
+24 valve
+D-4ST Direct/Port injection. Dual VVT-i w/intake VVT-iE. Toyota V35A-FTS Dynamic Force engine (3445 cc) + 1TM (1 Front motor). Nickel-metal hydride Battery Pack.
+Toyota Tundra i-Force Max ('22-'25).
+C
+1.8L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. VVT-i. Atkinson cycle. Toyota 2ZR-FXE engine + 1VM (2 Front motors). Lithium-ion Battery Pack.
+Toyota Corolla Hybrid 2wd ('23-'25).
+C
+2.0L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota M20A-FXS Dynamic Force engine + 1VM (2 Front motors). Lithium-ion Battery Pack. Toyota Prius 2wd ('23-'25).
+C
+2.0L
+I4
+Gas-Electric
+PHEV
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota M20A-FXS Dynamic Force engine + 1VM (2 Front motors). Lithium-ion Battery Pack. Toyota Prius Prime ('23-'24), Prius Plug-in Hybrid ('25-).
+C
+2.4L
+I4 Turbo
+IC
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4ST Direct/Port injection. Dual VVT-i. Toyota T24A-FTS Dynamic Force engine + 1ZM (2 Front motors), 1YM (1 Rear motor). Nickel-metal hydride Battery Pack. Lexus RX500h Awd ('23-'25).
+C
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 5NM (2 Front motors), 4NM (1 Rear motor). Nickel-metal hydride Battery Pack.
+Toyota Grand Highlander Hybrid Awd ('24-'25).
+C
+3.5L
+V6
+Gas-Electric
+PHEV
+DOHC,
+24 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iW. Otto/Atkinson cycles. Toyota 2GR-FXS engine + 5NM (2 Front motors), 1YM (1 Rear motor). Lithium-ion Battery Pack.
+Lexus TX550h+ Awd ('24-'25).
+C
+2.4L
+I4 Turbo
+IC
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4ST Direct/Port injection. Dual VVT-i. Toyota T24A-FTS Dynamic Force engine + 1TM (1 Front motor) [326 total system hp]. Nickel-metal hydride Battery Pack.
+Toyota Tacoma i-Force Max 4wd [TRD Sport, TRD Off-Road, Limited, & TRD Pro] ('24).
+C
+2.4L
+I4 Turbo
+IC
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4ST Direct/Port injection. Dual VVT-i. Toyota T24A-FTS Dynamic Force engine + 1TM (1 Front motor). Nickel-metal hydride Battery Pack.
+Toyota Tacoma i-Force Max 4wd [TRD Sport, TRD Off-Road, Limited, Trailhunter, & TRD Pro] ('25-).
+C
+2.0L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota M20A-FXS Dynamic Force engine + 1VM (2 Front motors), 1WM (1 Rear motor). Lithium-ion Battery Pack. Lexus UX300h Awd ('25-).
+D
+1.8L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. VVT-i. Atkinson cycle. Toyota 2ZR-FXE engine + 3JM (2 Front motors). Nickel-metal hydride Battery Pack. Lexus CT200h ('11-'17).
+D
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. Intake VVT-i. Atkinson cycle. Toyota 2AR-FXE engine + 2JM (2 Front motors).
+Nickel-metal hydride Battery Pack. Toyota Camry Hybrid ('12-'17), Avalon Hybrid ('13-'18).
+D
+1.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. VVT-i. Atkinson cycle. Toyota 1NZ-FXE engine + 1LM (2 Front motors). Nickel-metal hydride Battery Pack. Toyota Prius C ('12-'19).
+D
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Toyota A25A-FKS Dynamic Force engine (203 hp).
+Lexus NX250 ('22-'25).
+D
+1.8L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. VVT-i. Atkinson cycle. Toyota 2ZR-FXE engine + 1VM (2 Front motors), 1WM (1 Rear motor). Lithium-ion Battery Pack. Toyota Corolla Hybrid Awd ('23-'25).
+D
+2.0L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota M20A-FXS Dynamic Force engine + 1VM (2 Front motors), 1WM (1 Rear motor). Lithium-ion Battery Pack. Toyota Prius Awd ('23-'25).
+D
+2.4L
+I4 Turbo
+IC
+Gas
+DOHC,
+16 valve
+D-4ST Direct/Port injection. Dual VVT-i. Toyota T24A-FTS Dynamic Force engine. Toyota Highlander ('23-'25).
+D
+2.4L
+I4 Turbo
+IC
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4ST Direct/Port injection. Dual VVT-i. Toyota T24A-FTS Dynamic Force engine + 1ZM (2 Front motors), 1YM (1 Rear motor). Nickel-metal hydride Battery Pack. Toyota Grand Highlander Hybrid Max Awd ('24-'25).
+D
+2.4L
+I4 Turbo
+IC
+Gas
+DOHC,
+16 valve
+D-4ST Direct/Port injection. Dual VVT-i. Toyota T24A-FTS Dynamic Force engine (228 hp).
+Toyota Tacoma SR w/auto. trans. ('24-'25).
+D
+3.4L
+V6 Twin Turbo
+IC
+Gas-Electric Hybrid
+DOHC,
+24 valve
+D-4ST Direct/Port injection. Dual VVT-i w/intake VVT-iE. Toyota V35A-FTS Dynamic Force engine (3445 cc) + 1TM (1 Front motor). Nickel-metal hydride Battery Pack.
+Lexus LX700h ('25-).
+E
+2.4L
+I4
+Gas
+DOHC,
+16 valve
+MPI. VVT-i. Toyota 2AZ-FE engine. Toyota Corolla XRS (US: '10, Canada: '10-'12), Matrix S, XRS ('10-'13),
+Scion tC ('10), Scion xB ('10-'15).
+E
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+D-4S Direct/Port injection. Dual VVT-i. Toyota 2GR-FSE engine. Lexus IS350 ('10-'17), IS350C ('10-'15),
+GS350 ('10-'11, '13-'15), RC350 ('15-'17).
+E
+2.4L
+I4 Turbo
+IC
+Gas
+DOHC,
+16 valve
+D-4ST Direct/Port injection. Dual VVT-i. Toyota T24A-FTS Dynamic Force engine (270 hp).
+Toyota Tacoma SR, TRD Sport, & TRD Off-Road w/man. trans. ('24-'25).
+F
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT-i. Toyota 2AR-FE engine. Toyota Camry ('10-'17), Scion tC ('11-'16), RAV4 ('10-'18).
+F
+2.5L
+V6
+Gas
+DOHC,
+24 valve
+D-4 Direct injection. Dual VVT-i. Toyota 4GR-FSE engine. Lexus IS250 ('10-'15), IS250C ('10-'15).
+F
+3.5L
+V6
+Gas-Electric Hybrid
+DOHC,
+24 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iW. Otto/Atkinson cycles. Toyota 2GR-FXS engine + 6JM (2 Front motors). Nickel-metal hydride Battery Pack. Lexus RX450h 2wd ('16).
+F
+2.4L
+I4 Turbo
+IC
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4ST Direct/Port injection. Dual VVT-i. Toyota T24A-FTS Dynamic Force engine + 1ZM (2 Front motors), 1YM (1 Rear motor). Nickel-metal hydride Battery Pack. Toyota Crown Platinum Hybrid Max Awd ('23-'25).
+F
+2.4L
+I4 Turbo
+IC
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4ST Direct/Port injection. Dual VVT-i. Toyota T24A-FTS Dynamic Force engine + 1TM (1 Front motor) [323 total system hp]. Nickel-metal hydride Battery Pack.
+Toyota Tacoma i-Force Max 4wd [Trailhunter] ('24).
+G
+3.5L
+V6
+Gas-Electric Hybrid
+DOHC,
+24 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iW. Otto/Atkinson cycles. Toyota 2GR-FXS engine + 6JM (2 Front motors), 2FM (1 Rear motor). Nickel-metal hydride Battery Pack.
+Lexus RX450h Awd ('16-'22), RX450hL Awd ('18-'22).
+G
+3.5L
+V6
+Gas-Electric Hybrid
+DOHC,
+24 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iW. Otto/Atkinson cycles. Toyota 2GR-FXS engine + 4JM (2 Front motors), 2FM (1 Rear motor). Nickel-metal hydride Battery Pack. Toyota Highlander Hybrid Awd ('17-'19).
+G
+2.4L
+I4 Turbo
+IC
+Gas
+DOHC,
+16 valve
+D-4ST Direct/Port injection. Dual VVT-i. Toyota T24A-FTS Dynamic Force engine.
+Lexus NX350 ('22-'25).
+H
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Valvematic. Toyota 3ZR-FAE engine. Toyota C-HR ('18-'22).
+H
+2.4L
+I4 Turbo
+IC
+Gas
+DOHC,
+16 valve
+D-4ST Direct/Port injection. Dual VVT-i. Toyota T24A-FTS Dynamic Force engine.
+Lexus RX350 [Japanese-built] ('23-'25).
+J
+1.3L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT-i. Toyota 1NR-FE engine. Scion iQ ('12-'15).
+J
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. Intake VVT-i. Atkinson cycle. Toyota 2AR-FXE engine + 2JM (2 Front motors), 2FM (1 Rear motor).
+Nickel-metal hydride Battery Pack. Lexus NX300h Awd ('15-'21), RAV4 Hybrid Awd ('16-'18).
+J
+2.5L
+I4
+Gas-Electric
+PHEV
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 5NM (2 Front motors), 4NM (1 Rear motor). Lithium-ion Battery Pack. Lexus RX450h+ ('24-'25).
+K
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Dual VVT-i. Toyota 2GR-FE engine. Toyota Avalon ('10-'18), Camry V6 ('10-'17), Highlander ('10-'16),
+RAV4 ('10-'12), Sienna ('10-'16), Venza ('10-'15 & '16 in Canada), Lexus ES350 ('10-'18), RX350 ('10-'15).
+K
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 5NM (2 Front motors), 4NM (1 Rear motor). Lithium-ion Battery Pack. Lexus NX350h Awd ('22-'25).
+K
+2.5L
+I4
+Gas-Electric
+PHEV
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 5NM (2 Front motors), 4NM (1 Rear motor). Lithium-ion Battery Pack. Lexus NX450h+ Awd ('22-'25).
+L
+4.6L
+V8
+Gas
+DOHC,
+32 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Toyota 1UR-FSE engine.
+Lexus LS460 ('10-'17), GS460 ('10-'11).
+M
+4.6L
+V8
+Gas
+DOHC,
+32 valve
+MPI. Dual VVT-i. Toyota 1UR-FE engine. Toyota Sequoia ('10-'12), Tundra ('10-'19), Lexus GX460 ('10-'23).
+M
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+D-4S Direct/Port injection. Dual VVT-i. Toyota 2GR-FSE engine (detuned version - 255 hp).
+Lexus IS300 AWD ('16-'17), RC300 AWD ('16-'17).
+N
+1.8L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. VVT-i. Atkinson cycle. Toyota 2ZR-FXE engine + 3JM (2 Front motors). Nickel-metal hydride Battery Pack. Toyota Prius ('10-'15).
+N
+1.8L
+I4
+Gas-Electric
+PHEV
+DOHC,
+16 valve
+MPI. VVT-i. Atkinson cycle. Toyota 2ZR-FXE engine + 3JM (2 Front motors).  Lithium-ion Battery Pack.
+Toyota Prius Plug-in Hybrid ('12-'15).
+N
+1.8L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. VVT-i. Atkinson cycle. Toyota 2ZR-FXE engine + 5JM (2 Front motors). Nickel-metal hydride Battery Pack. Toyota Prius V ('12-'17 & '18 in Canada).
+N
+4.3L
+V8
+Gas
+DOHC,
+32 valve
+MPI. VVT-i. Toyota 3UZ-FE engine. Lexus SC430 ('10).
+P
+5.0L
+V8
+Gas
+DOHC,
+32 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. High-performance cylinder head developed by Yamaha. Toyota 2UR-GSE engine. Lexus IS F ('10-'14), RC F ('15-'19), GS F ('16-'20), LC500 ('18-'19).
+P
+1.8L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Valvematic. Toyota 2ZR-FAE engine.
+Toyota Corolla sedan LE Eco ('14-'19), Corolla sedan L, LE, XLE ('20-'22).
+R
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 5NM (2 Front motors). Nickel-metal hydride Battery Pack. Toyota Sienna Hybrid 2wd ('21-'25).
+S
+3.5L
+V6
+Gas-Electric Hybrid
+DOHC,
+24 valve
+D-4S Direct/Port injection. Dual VVT-i. Atkinson cycle. Toyota 2GR-FXE engine + 1KM (2 Front motors).
+Nickel-metal hydride Battery Pack. Lexus GS450h ('13-'18).
+S
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 5NM (2 Front motors), 4NM (1 Rear motor). Nickel-metal hydride Battery Pack.
+Toyota Sienna Hybrid Awd ('21-'25).
+T
+1.5L
+I4
+Gas
+DOHC,
+16 valve
+MPI. VVT-i. Toyota 1NZ-FE engine. Toyota Yaris hatchback ('10-'18 & '19 in Canada), Yaris sedan ('10-'12).
+U
+4.0L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT-i. Toyota 1GR-FE engine.
+Toyota Tacoma ('10-'15), Tundra ('10).
+U
+4.0L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Dual VVT-i. Toyota 1GR-FE engine.
+Toyota 4Runner ('10-'24), FJ Cruiser ('10-'14), Tundra ('11-'14).
+U
+1.8L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT-i. Toyota 2ZR-FE engine. Toyota Corolla sedan [except XRS & LE Eco] ('10-'19),
+Matrix [base model] ('10-'13 & in Canada '14), Scion xD ('10-'14).
+U
+5.0L
+V8
+Gas-Electric Hybrid
+DOHC,
+32 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Toyota 2UR-FSE engine + 1KM (2 Front motors).
+Nickel-metal hydride Battery Pack. Lexus LS600hL ('10-'16).
+W
+3.3L
+V6
+Gas-Electric Hybrid
+DOHC,
+24 valve
+MPI. VVT-i. Toyota 3MZ-FE engine + 1JM (2 Front motors), 2FM (1 Rear motor on AWD models).
+Nickel-metal hydride Battery Pack. Toyota Highlander Hybrid Awd ('10).
+W
+5.7L
+V8
+Gas/E85
+DOHC,
+32 valve
+Flex-Fuel. MPI. Dual VVT-i. Toyota 3UR-FBE engine. Toyota Sequoia ('10-'18), Tundra ('10-'19).
+W
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. Intake VVT-i. Atkinson cycle. Toyota 2AR-FXE engine + 2JM (2 Front motors).
+Nickel-metal hydride Battery Pack. Lexus ES300h ('13-'18), NX300h 2wd ('15-'16).
+W
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 3NM (2 Front motors), 4NM (1 Rear motor). Nickel-metal hydride Battery Pack. Toyota RAV4 Hybrid [all] ('19-'20), RAV4 Hybrid LE, XLE ('21-'25), RAV4 Hybrid Woodland Edition ('23-'25).
+X
+2.7L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Intake VVT-i. Toyota 2TR-FE engine. Toyota Tacoma ('10-'23), 4Runner 2wd ('10).
+X
+4.8L
+72° V10
+Gas
+DOHC,
+40 valve
+MPI. Dual VVT-i. Engine co-developed by Yamaha. Toyota 1LR-GUE engine. Lexus LFA ('12).
+Y
+5.7L
+V8
+Gas
+DOHC,
+32 valve
+MPI. Dual VVT-i. Toyota 3UR-FE engine. Toyota Sequoia ('10-'22), Tundra ('10-'21),
+Land Cruiser ('10-'11, '13-'21), Lexus LX570 ('10-'11, '13-'21).
+Y
+3.5L
+V6
+Gas-Electric Hybrid
+DOHC,
+24 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iW. Otto/Atkinson cycles.
+Toyota 8GR-FXS engine + 2NM (2 Front motors). Lithium-ion Battery Pack.
+Lexus LC500h ('18-'19), LS500h ('18-'19).
+Z
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iW. Otto/Atkinson cycles. Toyota 2GR-FKS engine.
+Lexus GS350 ('16-'20), RX350 ('16-'22), RX350L ('18-'22), IS350 ('18-'19), RC350 ('18-'19), ES350 ('19-'25),
+Toyota Tacoma ('16-'23), Highlander ('17-'22), Sienna ('17-'20), Camry ('18-'24), Avalon ('19-'22).
+1
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Toyota A25A-FKS Dynamic Force engine (203 hp or
+202 hp in Camry AWD). Toyota Camry (L, LE, XLE, SE trim levels) ('18-'20),
+Camry (LE, XLE, SE trim levels) ('21-'24), RAV4 ('19-'25), Lexus ES250 AWD ('21-'25).
+2
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 3NM (2 Front motors). Nickel-metal hydride Battery Pack. Toyota Camry Hybrid (SE, XLE trim levels) ('18-'19),
+Avalon Hybrid ('19-'20), Lexus ES300h ('19-'20).
+3
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 3NM (2 Front motors). Lithium-ion Battery Pack. Toyota Camry Hybrid (LE trim level) ('18-'19),
+Camry Hybrid [all models] ('20-'24).
+3
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Toyota M20A-FKS Dynamic Force engine.
+Lexus UX200 2wd ('19-'22).
+4
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Toyota M20A-FKS Dynamic Force engine.
+Toyota Corolla Hatchback ('19-'25), Corolla sedan SE, XSE ('20-'22), Corolla sedan ('23-'25).
+5
+3.4L
+V6 Twin Turbo
+IC
+Gas
+DOHC,
+24 valve
+D-4ST Direct/Port injection. Dual VVT-i w/intake VVT-iE. Toyota V35A-FTS Dynamic Force engine (3445 cc).
+Lexus LS500 ('18-'19).
+6
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Toyota A25A-FKS Dynamic Force engine (206 hp or
+205 hp in Camry AWD). Toyota Camry (XSE trim level) ('18-'24).
+6
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota A25A-FXS Dynamic Force engine + 3NM (2 Front motors), 4NM (1 Rear motor). Lithium-ion Battery Pack.
+Toyota RAV4 Hybrid XLE Premium, XSE, Limited ('21-'25), RAV4 Hybrid SE ('22-'25).
+6
+2.0L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota M20A-FXS Dynamic Force engine + 3NM (2 Front motors). Nickel-metal hydride Battery Pack. Lexus UX250h 2wd ('23-'24).
+8
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iW. Otto/Atkinson cycles. Toyota 2GR-FKS engine (detuned version - 260 hp). Lexus IS300 AWD ('18-'19), RC300 AWD ('18-'19).
+9
+1.8L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. VVT-i. Atkinson cycle. Toyota 2ZR-FXE engine + 1NM (2 Front motors), 1MM (1 Rear motor).
+Nickel-metal hydride Battery Pack. Toyota Prius AWD-e ('19-'22).
+9
+2.0L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Atkinson cycle. Toyota M20A-FXS Dynamic Force engine + 3NM (2 Front motors), 1MM (1 Rear motor). Nickel-metal hydride Battery Pack. Lexus UX250h Awd ('19-'24).
+VVT-i=Variable Valve Timing w/Intelligence
+Motor Type for Electric Vehicles 2010-
+[
+edit
+|
+edit source
+]
+Position 5
+VIN
+Battery Size
+Battery Type
+Fuel
+Drive Wheels
+Notes/Applications
+L
+41.8 Kwh
+Lithium-ion
+Electricity
+Front
+M7M5 motor made by Tesla. Toyota RAV4 EV ('12-'14).
+V
+12 Kwh
+Lithium-ion
+Electricity
+Front
+2KM motor. Scion iQ EV ('13).
+A
+71.4 Kwh
+Lithium-ion
+Electricity
+Front
+1XM motor. Toyota bZ4X FWD ('23-'25).
+A
+71.4 Kwh
+Lithium-ion
+Electricity
+All
+1XM motor (front), 1YM motor (rear). Lexus RZ450e AWD ('23-'25).
+B
+72.8 Kwh
+Lithium-ion
+Electricity
+All
+1YM motor (front), 1YM motor (rear). Toyota bZ4X AWD ('23-'25), Subaru Solterra AWD ('23-'25).
+B
+72.8 Kwh
+Lithium-ion
+Electricity
+Front
+1XM motor. Lexus RZ300e FWD ('24-'25).
+Motor Type for Fuel Cell Vehicles 2016-
+[
+edit
+|
+edit source
+]
+Position 5
+VIN
+Battery Size
+Battery Type
+Fuel
+Drive Wheels
+Notes/Applications
+V
+1.6 Kwh
+Nickel-metal hydride
+Hydrogen
+Front
+4JM motor. Toyota Mirai ('16-'20).
+A
+1.24 Kwh
+Lithium-ion
+Hydrogen
+Rear
+3KM motor. Toyota Mirai ('21-'26).
+Restraint System
+[
+edit
+|
+edit source
+]
+Position 6
+(2010- for North America)
+Code
+Description
+Application
+1
+Manual Belts w/Dual Front Airbags, Front- & Rear-seat Side Airbags, Front to Rear Side Curtain Airbags, and Driver & Front Passenger Knee Airbags
+Lexus HS250h '10-'12, ES350 '10-'25,
+ES250 AWD '21-'25, ES300h '13-'25,
+GS200t '16-'17, GS300 '18-'19,
+GS350 '10-'11, '13-'20, GS460 '10-'11,
+GS450h '10-'11, '13-'18, GS F '16-'20,
+LS460 '10-'17 (Opt.), LS600hL '10-'12 (Opt.), LS600hL '13-'16, LS500 '18-'19, LS500h '18-'19,
+RX350 '10-'15, RX450h '10-'15, IS250 '14-'15,
+IS200t '16-'17, IS300 RWD '18-'19,
+IS300 AWD '16-'19, IS350 '14-'19, Camry '12-'24, Avalon '13-'22
+2
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, and Driver & Front Passenger Knee Airbags
+Lexus SC430 '10, IS250C, IS350C '10-'15
+3
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, Side Curtain Airbags for all rows, and Driver's Knee Airbag
+Avalon '10-'12, Camry '10-'11, Prius '10-'15,
+Prius V '12-'17 & '18 in Canada,
+Scion tC '10,
+Venza '10-'15 & '16 in Canada,
+Highlander '10-'13, Sienna '11-'14
+3
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, Side Curtain Airbags for all rows, and Driver's Knee Airbag (Though not reflected in the VIN, a Front passenger seat cushion airbag is also standard.)
+Sienna '15-'20
+3
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, Side Curtain Airbags for all rows, Driver's Knee Airbag, and Front passenger seat cushion airbag
+RAV4 Prime '21-'24, RAV4 Plug-In Hybrid '25
+4
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, and Side Curtain Airbags for all rows
+Corolla '10-'13,
+Matrix '10-'13 & in Canada '14,
+Yaris hatchback '10-'11, Yaris sedan '10-'12,
+Scion xD '10-'12, Scion xB '10-'15,
+Sienna '10, FJ Cruiser '10-'14,
+Tacoma '10-'15
+4
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, and Side Curtain Airbags for 1st 2 rows
+RAV4 '10-'12, RAV4 EV '12-'14
+5
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, Side Curtain Airbags for all rows, and Driver & Front Passenger Knee Airbags
+4Runner '10-'25, Sequoia '10-'22,
+Tundra '10-'25, Scion tC '11-'16,
+Tacoma '16-'23, Tacoma Double Cab '24-'25,
+Lexus LS460 '10-'17, LS600hL '10-'12, IS250/IS350 '10-'13, IS F '10-'14,
+CT200h '11-'17, RC200t '16-'17,
+RC300 RWD '18-'19, RC300 AWD '16-'19,
+RC350 '15-'19, RC F '15-'19,
+LC500 '18-'19, LC500h '18-'19
+7
+Manual Belts w/Dual Front Airbags, First & Second Row Side Airbags, Side Curtain Airbags for all 3 rows, and Driver & Front Passenger Knee Airbags
+Land Cruiser '10-'11, '13-'21,
+Lexus GX460 '10-'23, LX570 '10-'11, '13-'21, LX600 '22-'25, LX700h '25-
+8
+Manual Belts w/Dual Front Airbags and Driver's Knee Airbag
+Lexus LFA '12
+A
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, Side Curtain Airbags for all rows, and Driver & Front Passenger Knee Airbags
+Mirai '21-'26, Crown '23-'25, Camry '25-,
+Crown Signia '25-, Sequoia '23-'25, bZ4X '23-'25,
+Subaru Solterra '23-'25, Lexus RZ450e '23-'25, RZ300e '24-'25
+A
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, Side Curtain Airbags for all rows, Driver's Knee Airbag, and Front passenger seat cushion airbag
+Venza '21-'24, Grand Highlander '24-'25,
+Lexus TX350 '24-'25, TX500h '24-'25,
+TX550h+ '24-'25
+A
+Manual Belts w/Dual Front Airbags, Front- & Rear-seat Side Airbags, Side Curtain Airbags for all rows, and Driver's Knee Airbag
+Corolla Cross '22-'25
+A
+Manual Belts w/Dual Front Airbags, Front- & Rear-seat Side Airbags, Side Curtain Airbags for all 3 rows, Driver & Front Passenger Knee Airbags, and Outboard Rear seat cushion airbags
+Lexus LX600 Ultra Luxury '22-'24,
+LX700h Ultra Luxury '25-
+A
+Manual Belts w/Dual Front Airbags, Front- & Rear-seat Side Airbags, Side Curtain Airbags for all rows, Driver's Knee Airbag, and Front passenger seat cushion airbag
+GR Corolla '23-'25
+A
+Manual Belts w/Dual Front Airbags, Front- & Rear-seat Side Airbags, and Front to Rear Side Curtain Airbags
+Prius '23-'25, Prius Prime '23-'24,
+Prius Plug-in Hybrid '25-
+A
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, Side Curtain Airbags for 1st row, and Driver & Front Passenger Knee Airbags
+Tacoma XtraCab '24-'25
+C
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, Side Curtain Airbags for all rows, Driver's Knee Airbag, and Front passenger seat cushion airbag
+Lexus NX250 '22-'25, NX350 '22-'25,
+NX350h '22-'25, NX450h+ '22-'25
+C
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, Side Curtain Airbags for all rows, Driver & Front Passenger Knee Airbags, and Front passenger seat cushion airbag
+Lexus GX550 '24-'25
+F
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, Side Curtain Airbags for all rows, Driver & Front Passenger Knee Airbags, and Front passenger seat cushion airbag
+Land Cruiser '24-'25
+J
+Manual Belts w/Dual Front Airbags, Front- & Rear-seat Side Airbags, Front to Rear Side Curtain Airbags, and Driver & Front Passenger Knee Airbags
+Lexus UX200 '19-'22, UX250h '19-'24,
+UX300h '25-
+K
+Manual Belts w/Dual Front Airbags, First & Second Row Side Airbags, Side Curtain Airbags for all 3 rows, Driver's Knee Airbag, and Front passenger seat cushion airbag
+Lexus RX350L '18-'22, RX450hL '18-'22,
+Sienna '21-'25
+L
+Manual Belts w/Dual Front Airbags, Front- & Rear-seat Side Airbags, Side Curtain Airbags for all rows, Driver & Front Passenger Knee Airbags,  and Outboard Rear seat cushion airbags
+Lexus LS500 '18-'19 (Opt.), LS500h '18-'19 (Opt.)
+M
+Manual Belts w/Dual Front Airbags, Front- & Rear-seat Side Airbags, Side Curtain Airbags for all rows, Driver's Knee Airbag, and Front passenger seat cushion airbag
+Lexus RX350 '16-'25, RX450h '16-'22,
+RX350h '23-'25, RX500h '23-'25,
+RX450h+ '24-'25, C-HR '18-'22, Corolla '21-'25, Prius '21-'22, Prius Prime '21-'22
+P
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, Side Curtain Airbags for all rows, and Driver & Front passenger seat cushion airbags
+Scion xD '13-'14
+R
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, Side Curtain Airbags for all rows, Driver's Knee Airbag, and Front passenger seat cushion airbag
+RAV4 '13-'25, RAV4 Hybrid '16-'25,
+Corolla '14-'20, Scion iM '16, Corolla iM '17-'18,
+Highlander '14-'25, Prius '16-'20,
+Prius Prime '17-'20, Mirai '16-'20,
+Lexus NX200t '15-'17, NX300 '18-'21,
+NX300h '15-'21
+T
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, Side Curtain Airbags for all rows, Driver's Knee Airbag, and Driver & Front passenger seat cushion airbags
+Prius C '12-'19
+U
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, Side Curtain Airbags for all rows, Driver's Knee Airbag, and Driver & Front passenger seat cushion airbags
+Yaris hatchback '12-'18 & '19 in Canada
+X
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, Side Curtain Airbags for all rows, Driver & Front Passenger Knee Airbags, Driver & Front passenger seat cushion airbags, and Rear Window airbag
+Scion iQ '12-'15, Scion iQ EV '13
+Series
+[
+edit
+|
+edit source
+]
+Passenger Cars:
+Position 7
+(2010- for North America)
+Assigned according to the Chassis Code given for the car.
+Based on the 1st digit in 2-digit numbers or the 2nd digit in 3-digit numbers, which corresponds to the letter assigned.
+For example, 0=A, 1=B, 2=C, 3=D, 4=E, 5=F, 6=G, 7=H, 8=J, 9=K
+Code
+Description
+A
+Lexus LC500 ('18-'19) URZ100L, LC500h ('18-'19) GWZ100L
+B
+Scion TC ('10) ANT10L
+B
+Scion XD ('10-'14) ZSP110L
+B
+Lexus HS250h ('10-'12) ANF10L
+B
+Lexus CT200h ('11-'17) ZWA10L
+B
+Lexus LFA ('12) LFA10L
+B
+Scion iQ ('12-'15) NGJ10L, Scion iQ EV ('13) KPJ10L
+B
+Toyota Prius C ('12-'19) NHP10L
+B
+Lexus GS350 2wd ('13-'15) GRL10L, GS350 4wd ('13-'15) GRL15L
+B
+Lexus GS200t 2wd ('16-'17) & GS300 2wd ('18-'19) ARL10L, GS350 2wd ('16-'19) GRL12L, GS350 4wd ('16-'19) GRL16L, GS F ('16-'20) URL10L
+B
+Lexus GS450h ('13-'18) GWL10L
+B
+Lexus RC350 2wd ('15-'19) GSC10L, RC350 4wd ('15-'19) GSC15L, RC F ('15-'19) USC10L
+B
+Lexus RC200t 2wd ('16-'17) & RC300 2wd ('18-'19) ASC10L, RC300 4wd ('16-'19) GSC16L
+B
+Toyota Mirai ('16-'20) JPD10L
+B
+Toyota C-HR ('18-'22) ZGX10L
+B
+Toyota Corolla hatchback ('19-'25) MZEA12L, 2wd
+B
+Lexus ES350 ('19-'25) GSZ10L, 2wd
+B
+Lexus ES300h ('19-'20) AXZH10L, 2wd (Nickel-metal hydride Battery)
+B
+Lexus UX200 ('19-'22) MZAA10L, 2wd
+B
+Lexus UX250h ('23-'24) MZAH10L, 2wd
+B
+Lexus UX250h ('19-'24) MZAH15L, Awd
+C
+Lexus IS250 2wd ('10-'13) GSE20L, IS250 4wd ('10-'13) GSE25L, IS350 2wd ('10-'13) GSE21L, IS350 4wd ('11-'13) GSE26L, IS F ('10-'14) USE20L
+C
+Lexus IS250C ('10-'15) GSE20L, IS350C ('10-'15) GSE21L
+C
+Scion TC ('11-'16) AGT20L
+D
+Toyota Avalon ('10-'12) GSX30L
+D
+Toyota Prius ('10-'15) ZVW30L
+D
+Toyota Prius Plug-in Hybrid ('12-'15) ZVW35L
+D
+Toyota Yaris hatchback: NCP131L ('12-'18 & '19 in Canada)
+D
+Lexus IS250 2wd ('14-'15) GSE30L, IS250 4wd ('14-'15) GSE35L
+D
+Lexus IS200t 2wd ('16-'17) & IS300 2wd ('18-'19) ASE30L, IS300 4wd ('16-'19) GSE37L
+D
+Lexus IS350 2wd ('14-'19) GSE31L, IS350 4wd ('14-'19) GSE36L
+E
+Toyota Corolla w/1.8L 2ZR-FE engine ('10-'13) ZRE142L, Corolla XRS w/2.4L 2AZ-FE engine (US: '10, Canada: '10-'12) AZE141L
+E
+Toyota Matrix w/1.8L 2ZR-FE engine ('10-'13 & in Canada '14) ZRE142L,
+Matrix S w/2.4L 2AZ-FE engine, 2wd, & torsion beam rear suspension ('10-'13) AZE141L,
+Matrix S AWD w/2.4L 2AZ-FE engine, 4wd, & IRS ('10-'13) AZE144L, Matrix XRS w/2.4L 2AZ-FE engine, 2wd, & IRS (US: '10, Canada: '10-'13) AZE146L
+E
+Toyota Camry ('10-'11) I4: ASV40L, V6: GSV40L, Hybrid: AHV40L
+E
+Lexus ES350 ('10-'12) GSV40L
+E
+Lexus LS460 2wd ('10-'17) USF40L, LS460L 2wd ('10-'17) USF41L, LS460 4wd ('10-'17) USF45L, LS460L 4wd ('10-'17) USF46L
+E
+Lexus LS600hL ('10-'16) UVF46L
+E
+Lexus SC430 ('10) UZZ40L
+E
+Toyota Prius V ('12-'17 & '18 in Canada) ZVW41L
+E
+Toyota Avalon ('13-'18) V6: GSX40L, Hybrid: AVX40L
+F
+Toyota Camry ('12-'17) I4: ASV50L, V6: GSV50L, Hybrid: AVV50L
+F
+Toyota Prius ('16-'18) ZVW50L (Nickel-metal hydride Battery, 2wd), ZVW51L (Lithium-ion Battery, 2wd)
+F
+Toyota Prius ('19-'22) ZVW51L (Lithium-ion Battery, 2wd), ZVW55L (Nickel-metal hydride Battery, Awd)
+F
+Toyota Prius Prime ('17-'22) ZVW52L (Lithium-ion Battery, PHEV, 2wd)
+F
+Lexus LS500 2wd ('18-'19) VXFA50L, LS500 4wd ('18-'19) VXFA55L
+F
+Lexus LS500h 2wd ('18-'19) GVF50L, LS500h 4wd ('18-'19) GVF55L
+F
+Toyota Avalon ('19-'22) V6: GSX50L (2wd)
+F
+Toyota Avalon ('19-'20) Hybrid: AXXH50L (2wd) (Nickel-metal hydride Battery)
+G
+Lexus ES350 ('13-'18) GSV60L
+G
+Lexus ES300h ('13-'18) AVV60L
+H
+Toyota Corolla sedan ('14-'19) ZRE172L
+H
+Toyota Camry ('18-'19) I4: AXVA70L, V6: GSV70L, Hybrid: AXVH70L (Lithium-ion Battery), AXVH71L (Nickel-metal hydride Battery)
+J
+Scion iM ('16), Toyota Corolla iM ('17-'18) ZRE186L
+K
+Toyota Yaris - Hatchback: NCP91L ('10-'11), 4-d sedan: NCP93L ('10-'12)
+K
+Lexus GS350 2wd ('10-'11) GRS191L, GS350 4wd ('10-'11) GRS196L
+K
+Lexus GS460 ('10-'11) URS190L
+K
+Lexus GS450h ('10-'11) GWS191L
+IRS=Independent Rear Suspension
+Multi-Purpose Passenger Vehicles & Light Duty Trucks:
+Position 7
+(2010- for North America)
+Assigned according to the Chassis Code given for the car.
+Based on the 1st digit in 2-digit numbers or the 2nd digit in 3-digit numbers, which corresponds to the letter assigned.
+For example, 0=A, 1=B, 2=C, 3=D, 4=E, 5=F, 6=G, 7=H, 8=J, 9=K
+Code
+Description
+A
+Toyota Land Cruiser ('10-'11, '13-'21) URJ200L
+A
+Lexus LX570 ('10-'11, '13-'21) URJ201L. In '20-'21, also denotes 4wd.
+A
+Toyota Tacoma Access Cab LWB 4wd ('16-'23) GRN305L (V6)
+A
+Toyota Tacoma Double Cab LWB 4wd ('16-'23) GRN305L (V6)
+B
+Toyota FJ Cruiser ('10-'14) GSJ10L (2wd), GSJ15L (4wd)
+B
+Toyota Venza ('10-'15) I4: AGV10L (2wd), AGV15L (4wd), V6: GGV10L (2wd), GGV15L (4wd)
+B
+Toyota Venza ('16 [Canada only]) I4: AGV10L (2wd), AGV15L (4wd), V6: GGV15L (4wd)
+B
+Lexus RX350 ('10-'15) GGL10L (2wd), GGL15L (4wd)
+B
+Lexus RX450h ('10-'15) GYL10L (2wd), GYL15L (4wd)
+B
+Lexus NX200t ('15-'17) AGZ10L (2wd), AGZ15L (4wd)
+B
+Lexus NX300 ('18-'19) AGZ10L (2wd), AGZ15L (4wd)
+B
+Lexus NX300h - 2wd: AYZ10L ('15-'16), 4wd: AYZ15L ('15-'19)
+B
+Toyota Tacoma Double Cab ELWB [4wd] ('16-'23) GRN310L (V6)
+C
+Toyota Sienna ('10) 2wd: GSL20L, 4wd: GSL25L
+C
+Toyota Tacoma Reg. Cab SWB 2wd ('10-'14) TRN220L (I4)
+C
+Toyota Tacoma Access Cab LWB 2wd ('10-'15) TRN225L (I4)
+C
+Toyota Tacoma X-Runner Access Cab LWB 2wd ('10-'13 & '14 in Canada & '14-'15 in HI) GRN225L (V6)
+C
+Toyota Tacoma Double Cab LWB [2wd] ('11-'15) TRN225L (I4)
+C
+Lexus RX350 ('16-'19) GGL20L (2wd), GGL25L (4wd)
+C
+Lexus RX350L ('18-'19) GGL21L (2wd), GGL26L (4wd)
+C
+Lexus RX450h - 2wd: GYL20L ('16), 4wd: GYL25L ('16-'19)
+C
+Lexus RX450hL 4wd: GYL26L ('18-'19)
+C
+Toyota Tacoma Access Cab LWB [2wd] ('16-'23) GRN325L (V6)
+C
+Toyota Tacoma Double Cab LWB [2wd] ('16-'23) GRN325L (V6)
+D
+Toyota Sienna ('11-'12 & '13 in Canada) I4: ASL30L (2wd)
+D
+Toyota Sienna ('11-'20) V6: GSL30L (2wd), GSL35L (4wd)
+D
+Toyota RAV4 ('10-'12) I4: ASA38L (2wd), ASA33L (4wd), V6: GSA38L (2wd), GSA33L (4wd)
+D
+Toyota RAV4 EV ('12-'14) QEA38L (2wd)
+D
+Toyota Tacoma Double Cab ELWB [2wd] ('16-'23) GRN330L (V6)
+E
+Toyota Highlander ('10) I4: ASU40L (2wd), V6: GSU40L (2wd), GSU45L (4wd), Hybrid: MHU48L (4wd)
+E
+Toyota Highlander ('11-'13) I4: ASU40L (2wd), V6: GSU40L (2wd), GSU45L (4wd), Hybrid: GVU48L (4wd)
+E
+Toyota Tacoma Reg. Cab SWB 4wd ('10-'14) TRN240L (I4)
+E
+Toyota Tacoma Access Cab LWB 4wd ('10-'15) TRN245L (I4), GRN245L (V6)
+E
+Toyota Tacoma Double Cab LWB 4wd ('10-'15) GRN245L (V6)
+E
+Toyota RAV4 ('13-'18) I4: ASA42L (2wd), ASA44L (4wd)
+E
+Toyota RAV4 Hybrid ('16-'18) AVA44L (Awd)
+E
+Toyota Tacoma Access Cab LWB 4wd ('16-'23) TRN245L (I4)
+F
+Scion XB ('10-'15) AZE151L
+F
+Toyota Tacoma Double Cab ELWB [4wd] ('10-'15) GRN250L (V6)
+F
+Toyota Tundra V6 2wd ('10-'13) GSK50L (Reg. Cab, SWB), GSK51L (Reg. Cab/Double Cab, LWB)
+F
+Toyota Tundra V6 2wd ('14) GSK51L (Reg. Cab/Double Cab, LWB)
+F
+Toyota Tundra 4.6L V8 2wd ('10) UPK50L (Reg. Cab, SWB), UPK51L (Reg. Cab/Double Cab/CrewMax, LWB), UPK52L (Double Cab, ELWB)
+F
+Toyota Tundra 4.6L V8 2wd ('11-'13) UPK50L (Reg. Cab, SWB), UPK51L (Double Cab/CrewMax, LWB)
+F
+Toyota Tundra 4.6L V8 2wd ('14-'19) UPK51L (Double Cab/CrewMax, LWB)
+F
+Toyota Tundra 5.7L V8 2wd ('10) USK50L (Reg. Cab, SWB), USK51L (Reg. Cab/Double Cab/CrewMax, LWB), USK52L (Double Cab, ELWB)
+F
+Toyota Tundra 5.7L V8 2wd ('11-'17) USK51L (Reg. Cab/Double Cab/CrewMax, LWB), USK52L (Double Cab, ELWB)
+F
+Toyota Tundra 5.7L V8 2wd ('18-'21) USK51L (Double Cab/CrewMax, LWB), USK52L (Double Cab, ELWB)
+F
+Toyota Tundra 4.6L V8 4wd ('10) UPK55L (Reg. Cab, SWB), UPK56L (Reg. Cab/Double Cab/CrewMax, LWB), UPK57L (Double Cab, ELWB)
+F
+Toyota Tundra 4.6L V8 4wd ('11-'19) UPK56L (Double Cab/CrewMax, LWB)
+F
+Toyota Tundra 5.7L V8 4wd ('10-'13) USK55L (Reg. Cab, SWB), USK56L (Reg. Cab/Double Cab/CrewMax, LWB), USK57L (Double Cab, ELWB)
+F
+Toyota Tundra 5.7L V8 4wd ('14-'17) USK56L (Reg. Cab/Double Cab/CrewMax, LWB), USK57L (Double Cab, ELWB)
+F
+Toyota Tundra 5.7L V8 4wd ('18-'21) USK56L (Double Cab/CrewMax, LWB), USK57L (Double Cab, ELWB)
+F
+Lexus GX460 ('10-'19) URJ150L
+F
+Toyota Highlander ('14-'19) I4: ASU50L (2wd), V6: GSU50L (2wd), GSU55L (4wd), Hybrid: GVU58L (4wd)
+F
+Toyota RAV4 ('19-'25) I4: AXAA52L (2wd), AXAA54L (4wd)
+F
+Toyota RAV4 Hybrid: ('19-'25) AXAH54L (Nickel-metal hydride Battery, Awd), ('21-'25) AXAL54L (Lithium-ion Battery, Awd)
+F
+Toyota RAV4 Prime ('21-'24) & RAV4 Plug-In Hybrid ('25) AXAP54L (Lithium-ion Battery, Awd)
+G
+Toyota Sequoia ('10-'12) 4.6L V8: UPK60L (2wd), UPK65L (4wd), 5.7L V8: USK60L (2wd), USK65L (4wd)
+G
+Toyota Sequoia ('13-'20) 5.7L V8: USK60L (2wd), USK65L (4wd)
+G
+Toyota Tacoma PreRunner Reg. Cab SWB [2wd] ('10) TRN260L (I4)
+G
+Toyota Tacoma PreRunner Access Cab LWB [2wd] ('10-'15) TRN265L (I4), GRN265L (V6)
+G
+Toyota Tacoma PreRunner Double Cab LWB [2wd] ('11-'15) TRN265L (I4)
+G
+Toyota Tacoma PreRunner Double Cab LWB [2wd] ('10-'15) GRN265L (V6)
+G
+Toyota Tacoma Access Cab LWB [2wd] ('16-'23) TRN265L (I4)
+G
+Toyota Tacoma Double Cab LWB [2wd] ('16-'23) TRN265L (I4)
+H
+Toyota Tacoma PreRunner Double Cab ELWB [2wd] ('10-'15) GRN270L (V6)
+J
+Toyota 4Runner ('10) I4: TRN280L (2wd)
+J
+Toyota 4Runner ('10-'24) V6: GRN280L (2wd), GRN285L (4wd)
+SWB=Short Wheelbase, LWB=Long Wheelbase, ELWB=Extra Long Wheelbase
+Series & Drive Wheels
+[
+edit
+|
+edit source
+]
+Passenger Cars:
+Position 7
+(2020- for North America)
+Code
+Description
+A
+Toyota Corolla sedan L, LE, XLE ('20-'22) w/1.8L 2ZR-FAE engine: ZRE212L, 2wd
+A
+Toyota Camry ('20-'24) I4 2wd: AXVA70L, V6 2wd: GSV70L, Hybrid 2wd: AXVH70L (Lithium-ion Battery)
+A
+Toyota Avalon ('21-'22) Hybrid: AXXH51L (2wd) (Lithium-ion Battery)
+A
+Toyota Mirai ('21-'26) JPD20L, 2wd
+A
+Toyota GR Corolla ('23-'25) GZEA14L, 4wd
+A
+Toyota Crown ('23-'25) 2.5L Hybrid Awd: AZSH35L, 2.4L Turbo Hybrid Max Awd: TZSH35L
+A
+Toyota Prius ('23-'25) MXWH60L, 2wd
+A
+Toyota Crown Signia ('25-) AZSH38L, Awd
+A
+Lexus UX300h ('25-) MZAH11L, 2wd
+B
+Toyota Corolla Hybrid sedan ('20) ZWE211L, 2wd (Nickel-metal hydride Battery)
+B
+Toyota Camry ('20-'24) I4 Awd: AXVA75L
+B
+Lexus GS350 2wd ('20) GRL12L
+B
+Toyota Avalon ('21) I4 AWD: AXXA55L
+B
+Toyota Prius ('23-'25) MXWH65L, Awd
+C
+Toyota Corolla sedan SE, XSE ('20-'25), FX Edition ('25) w/2.0L M20A-FKS engine: MZEA12L, 2wd
+C
+Lexus GS350 4wd ('20) GRL16L
+C
+Lexus ES300h ('21-'25) AXZH11L, 2wd (Lithium-ion Battery)
+C
+Toyota Prius Prime ('23-'24) & Prius Plug-in Hybrid ('25-) MXWH61L, 2wd
+C
+Toyota Camry ('25-) Hybrid 2wd: AXVH80L
+D
+Toyota Corolla Hybrid sedan ('21-'22) ZWE213L, 2wd (Lithium-ion Battery)
+D
+Lexus ES250 AWD ('21-'25) AXZA15L, Awd
+D
+Toyota Corolla sedan LE ('23-'25) w/2.0L M20A-FKS engine: MZEA18L, 2wd (US-built)
+D
+Toyota Camry ('25-) Hybrid Awd: AXVH85L
+D
+Lexus UX300h ('25-) MZAH16L, Awd
+E
+Toyota Corolla sedan LE ('23-'25) w/2.0L M20A-FKS engine: MZEA18L, 2wd (Japan-built)
+F
+Toyota Corolla Hybrid sedan ('23-'25) ZWE219L, 2wd (Lithium-ion Battery)
+H
+Toyota Corolla Hybrid sedan ('23-'25) ZWE215L, Awd (Lithium-ion Battery)
+Multi-Purpose Passenger Vehicles & Light Duty Trucks:
+Position 7
+(2020- for North America)
+Code
+Description
+A
+Toyota Highlander ('20-'22) V6 2wd: GSU70L
+A
+Toyota Highlander ('23-'25) I4 Turbo 2wd: TXUA70L
+A
+Toyota Highlander ('20-'24) Hybrid 2wd: AXUH70L
+A
+Lexus RX350 ('20-'22) GGL20L (2wd)
+A
+Lexus RX350 [Japanese-built] ('23-'25) TALA10L (2wd)
+A
+Toyota Venza ('21-'24) AXUH85L, Awd
+A
+Toyota Sequoia ('21-'22) USK60L, 2wd
+A
+Toyota Sequoia ('23-'25) VXKH80L, 2wd
+A
+Toyota Corolla Cross ('22-'25) MXGA10L, 2wd
+A
+Toyota Tundra ('22-'25) i-Force 2wd: VXKA70L (Double Cab/CrewMax, SWB), i-Force Max Hybrid 2wd: VXKH70L (Double Cab/CrewMax, SWB)
+A
+Lexus NX250 ('22-'25) AAZA20L (2wd)
+A
+Toyota bZ4X ('23-'25) XEAM10L, 2wd
+A
+Lexus RZ450e ('23-'25) XEBM15L, Awd
+A
+Toyota Grand Highlander ('24-'25) I4 Turbo 2wd: TASA10L, Hybrid 2wd: AASH10L
+A
+Lexus TX350 ('24-'25) TAUA10L, 2wd
+A
+Toyota Land Cruiser ('24-'25) I4 Turbo 4wd: TJH250L
+A
+Toyota 4Runner ('25-) I4 Turbo 2wd: TZNA50L
+B
+Toyota Highlander ('20-'22) V6 4wd: GSU75L
+B
+Toyota Highlander ('23-'25) I4 Turbo 4wd: TXUA75L
+B
+Lexus NX300 ('20-'21) AGZ10L (2wd)
+B
+Lexus GX460 ('20-'23) URJ150L, 4wd
+B
+Toyota Sequoia ('21-'22) USK65L, 4wd
+B
+Toyota Sequoia ('23-'25) VXKH85L, 4wd
+B
+Toyota Corolla Cross ('22-'25) MXGA15L, Awd
+B
+Toyota Corolla Cross Hybrid ('23-'25) MXGH15L, Awd
+B
+Toyota Tundra ('22-'25) i-Force 2wd: VXKA71L (CrewMax, LWB), i-Force Max Hybrid 2wd: VXKH71L (CrewMax, LWB)
+B
+Toyota bZ4X (Early '23), Subaru Solterra ('23-'25) YEAM15L, Awd
+B
+Lexus RX350 [Canadian-built] ('23-'25) TALA10L (2wd)
+B
+Lexus RZ300e ('24-'25) XEBM10L, 2wd
+B
+Toyota Grand Highlander ('24-'25) I4 Turbo Awd: TASA15L, Hybrid Awd: AASH15L, Hybrid Max Awd: TASH15L
+B
+Lexus TX350 ('24-'25) TAUA15L (Awd), TX500h ('24-'25) TAUH15L (Awd)
+B
+Toyota 4Runner ('25-) I4 Turbo 4wd: TZNA55L, i-Force MAX Hybrid 4wd: TZNH55L
+C
+Toyota Highlander ('20-'25) Hybrid 4wd: AXUH78L
+C
+Toyota Tundra ('22-'25) i-Force 2wd: VXKA72L (Double Cab, ELWB)
+C
+Lexus LX600 ('22-'25) VJA310L (4wd), LX700h ('25-) VJH310L (4wd)
+C
+Toyota bZ4X ('23-'25) YEAM15L, Awd
+C
+Lexus RX350 ('23-'25) TALA15L (Awd), RX350h ('23-'25) AALH15L (Awd)
+C
+Lexus TX550h+ ('24-'25) GYU15L (Awd)
+D
+Lexus NX300 ('20-'21) AGZ15L (Awd), NX300h ('20-'21) AYZ15L (Awd)
+D
+Lexus RX350 ('20-'22) GGL25L (Awd), RX450h ('20-'22) GYL25L (Awd)
+D
+Toyota Tundra ('22-'25) i-Force 4wd: VXKA75L (Double Cab/CrewMax, SWB), i-Force Max Hybrid 4wd: VXKH75L (Double Cab/CrewMax, SWB)
+D
+Lexus GX550 ('24-'25) VJA252L, 4wd
+E
+Lexus RX350L ('20-'22) GGL21L (2wd)
+E
+Toyota Sienna ('21-'25) Hybrid 2wd: AXLH40L
+E
+Toyota Tundra ('22-'25) i-Force 4wd: VXKA76L (CrewMax, LWB), i-Force Max Hybrid 4wd: VXKH76L (CrewMax, LWB)
+E
+Lexus NX250 ('22-'25) AAZA25L (Awd), NX350 ('22-'25) TAZA25L (Awd), NX350h ('22-'25) AAZH25L (Awd)
+E
+Lexus RX500h ('23-'25) TALH17L (Awd)
+F
+Lexus RX350L ('20-'22) GGL26L (Awd), RX450hL ('20-'22) GYL26L (Awd)
+F
+Toyota Sienna ('21-'25) Hybrid Awd: AXLH45L
+F
+Lexus NX450h+ ('22-'25) AAZH26L (Awd)
+F
+Toyota Tacoma ('24-'25) SR5, TRD PreRunner XtraCab 2wd, SR5, TRD Sport Double Cab 2wd: TZNA40L (278 hp)
+G
+Toyota Tundra ('22-'25) i-Force 4wd: VXKA77L (Double Cab, ELWB)
+G
+Lexus RX450h+ ('24-'25) AALH16L (Awd)
+H
+Toyota Tacoma ('24-'25) SR XtraCab 2wd, SR Double Cab 2wd w/auto. trans.: TZNA41L (228 hp)
+J
+Toyota Tacoma ('24-'25) SR5 XtraCab 4wd, SR Double Cab 4wd w/man. trans., SR5, TRD Sport, TRD Off-Road, Limited Double Cab 4wd: TZNA45L (278 hp w/auto. trans., 270 hp w/man. trans.)
+K
+Toyota Tacoma ('24-'25) SR XtraCab 4wd, SR Double Cab 4wd w/auto. trans.: TZNA46L (228 hp)
+L
+Toyota Tacoma i-Force Max Hybrid ('24-'25) TRD Sport, TRD Off-Road, Limited, Trailhunter, TRD Pro Double Cab 4wd: TZNH47L (326 total system hp [all except Trailhunter], 323 total system hp on Trailhunter)
+SWB=Short Wheelbase, LWB=Long Wheelbase, ELWB=Extra Long Wheelbase
+Vehicle Line & Make
+[
+edit
+|
+edit source
+]
+Position 8
+(2010- for North America)
+Code
+Description
+0
+Toyota Scion iQ, Toyota Scion iQ EV ('13)
+1
+Toyota Tundra ('10-'21)
+1
+Toyota Sequoia ('10-'22)
+1
+Lexus ES350 ('19-'25), ES250 AWD ('21-'25), ES300h ('19-'25)
+2
+Lexus IS250, IS200t, IS300 RWD, IS300 AWD, IS350, IS F, IS250C, IS350C
+3
+Toyota Yaris hatchback ('10-'18 & '19 in Canada), Yaris sedan ('10-'12)
+3
+Toyota Prius C
+4
+Toyota Scion xD
+5
+Toyota Grand Highlander, Grand Highlander Hybrid
+6
+Lexus TX350, TX500h, TX550h+
+7
+Toyota Scion tC
+A
+Lexus HS250h
+A
+Lexus RX350, RX350L, RX450h, RX450hL
+A
+Lexus RX350, RX350h, RX500h, RX450h+
+A
+Toyota Mirai ('21-'26)
+A
+Toyota bZ4X, Subaru Solterra
+A
+Toyota Sequoia ('23-'25)
+B
+Toyota Avalon, Avalon Hybrid
+B
+Toyota Venza ('10-'15 & '16 in Canada)
+B
+Lexus RZ300e, RZ450e
+C
+Toyota Sienna, Sienna Hybrid
+C
+Lexus RC200t, RC300 RWD, RC300 AWD, RC350, RC F
+D
+Toyota Mirai ('16-'20)
+E
+Toyota Corolla, GR Corolla
+E
+Toyota Scion iM, Corolla iM
+E
+Toyota Matrix
+E
+Toyota Scion xB
+F
+Toyota FJ Cruiser
+F
+Lexus LS460, LS460L, LS600hL
+F
+Lexus LS500, LS500h
+F
+Toyota Crown
+G
+Lexus ES350 ('10-'18), ES300h ('13-'18)
+G
+Toyota Corolla Cross, Corolla Cross Hybrid
+H
+Toyota Highlander, Highlander Hybrid
+H
+Lexus CT200h
+H
+Lexus LFA
+H
+Lexus UX200, UX250h, UX300h
+H
+Toyota Venza ('21-'24)
+J
+Toyota Land Cruiser (Full-size: '10-'11, '13-'21)
+J
+Toyota Land Cruiser (Mid-size: '24-'25)
+J
+Toyota Crown Signia
+K
+Toyota Camry, Camry Hybrid
+L
+Lexus GS350, GS450h ('13-'15)
+L
+Lexus GS200t, GS350, GS450h, GS F ('16-'17)
+L
+Lexus GS300, GS350, GS450h, GS F ('18)
+L
+Lexus GS300, GS350, GS F ('19)
+L
+Lexus GS350, GS F ('20)
+N
+Toyota Tacoma
+P
+Toyota Prius Plug-in Hybrid ('12-'15), Prius Prime ('17-'22)
+R
+Toyota 4Runner
+S
+Lexus GS350, GS460, GS450h ('10-'11)
+U
+Toyota Prius, Prius V
+U
+Toyota Prius Prime ('23-'24), Prius Plug-in Hybrid ('25-)
+V
+Toyota RAV4, RAV4 Hybrid, RAV4 Prime ('21-'24), RAV4 Plug-in Hybrid ('25), RAV4 EV
+X
+Lexus GX460, GX550
+X
+Lexus LX570, LX600, LX700h
+X
+Toyota C-HR
+Y
+Lexus SC430
+Y
+Lexus LC500, LC500h
+Z
+Lexus NX200t, NX300, NX300h
+Z
+Lexus NX250, NX350, NX350h, NX450h+
+Vehicle Line, Make, & Body Style
+[
+edit
+|
+edit source
+]
+Position 8
+(2022- for North America)
+Code
+Description
+A
+Toyota Tundra, Double Cab, 6.5 ft. Bed
+B
+Toyota Tundra, CrewMax, 5.5 ft. Bed
+C
+Toyota Tundra, CrewMax, 6.5 ft. Bed
+D
+Toyota Tundra, Double Cab, 8.1 ft. Bed
+VIN Format 1996-2009
+[
+edit
+|
+edit source
+]
+Toyota has used the following VIN format from 1996-2009 for North America and since 2002 for the rest of the world:
+Passenger Cars:
+Position
+Sample
+Description
+1
+2
+Country of origin
+2
+T
+Manufacturer
+3
+1
+Vehicle Type
+4
+B
+Body Type & Drive Wheels
+5
+E
+Engine Type
+6
+4
+Series
+7
+6
+Restraint System
+8
+K
+Vehicle Line
+9
+8
+Check digit
+10
+9
+Model year
+11
+U
+Plant
+12
+8
+Sequential number
+13
+6
+14
+6
+15
+8
+16
+5
+17
+0
+Multi-Purpose Passenger Vehicles & Light Duty Trucks:
+Position
+Sample
+Description
+1
+5
+Country of origin
+2
+T
+Manufacturer
+3
+D
+Vehicle Type
+4
+H
+MPV:
+Body Type & Drive Wheels
+4
+B
+Truck:
+Cab, Chassis, Drive Wheels & Brake System
+5
+F
+Engine Type
+6
+4
+Series
+7
+6
+Grade
+8
+C
+Vehicle Line
+9
+8
+Check digit
+10
+9
+Model year
+11
+S
+Plant
+12
+8
+Sequential number
+13
+6
+14
+6
+15
+8
+16
+5
+17
+0
+Body Type & Drive Wheels
+[
+edit
+|
+edit source
+]
+Passenger Cars
+Position 4 (1996-2009 for North America)
+Code
+Description
+A
+2DR Sedan 2WD (Tercel, Echo)
+B
+4DR Sedan 2WD (Tercel, Echo, Yaris, Corolla, Camry, Avalon, '01-'03 Prius, Lexus ES, IS, GS, LS)
+C
+2DR Coupe 2WD ('96-'97 Paseo, '96-'98 Celica, '96 Camry coupe, '99-'08 Camry Solara, '96-'00 Lexus SC300/SC400)
+C
+4DR Sedan 4WD (Lexus GS300 AWD '06, GS350 AWD '07-'09, LS460 AWD '09)
+D
+3DR Liftback Coupe 2WD ('96-'05 Celica, '96-'98 Supra, '05-'09 Scion tC)
+D
+4DR Sedan LWB 4WD ('09 Lexus LS460L AWD, '08-'09 LS600hL)
+E
+4DR Station Wagon 2WD ('96 Corolla wagon, '96 Camry wagon, '02-'05 Lexus IS300 SportCross)
+F
+2DR Convertible 2WD ('97 Paseo conv., '96-'99 Celica conv., '00-'08 Camry Solara conv., '00-'05 MR2 Spyder, '02-'09 Lexus SC430)
+G
+5DR Sedan 2WD w/IRS ('09 Matrix XRS)
+G
+4DR Sedan LWB 2WD ('07-'09 Lexus LS460L)
+J
+3DR Liftback 2WD ('07-'09 Yaris 3-door)
+K
+4DR Hatchback or 5DR Liftback 2WD ('04-'09 Prius, '09 Yaris 5-door) / 5DR Sedan 2WD ('03-'08 Matrix 2wd, Scion xA, xD) /
+5DR Sedan 2WD w/torsion beam rear suspension ('09 Matrix Base model & S 2wd)
+L
+5DR Sedan 4WD ('03-'06, '09 Matrix 4wd)
+LWB=Long Wheelbase
+Multi-Purpose Passenger Vehicles
+Position 4 (1996-2009 for North America)
+Code
+Description
+B
+5DR Wagon 4WD ('04-'09 Sienna, '06-'09 RAV4, '09 Venza, '07-'09 FJ Cruiser, '03-'09 4Runner, '01-'09 Sequoia, '03-'09 Lexus GX470)
+D
+5DR Wagon 2WD ('04-'09 Highlander)
+E
+5DR Wagon 4WD ('04-'09 Highlander)
+G
+4DR Wagon 2WD ('96-'97 Previa, '98-'00 Sienna, '96-'05 RAV4, '99-'03 Lexus RX300, '04-'06 RX330, '07-'09 RX350, '06-'08 RX400h, '01-'07 Highlander,
+'96-'02 4Runner)
+H
+4DR Wagon 4WD ('96-'97 Previa All-Trac, '96-'05 RAV4, '01-'07 Highlander, '96-'02 4Runner, '96-'09 Land Cruiser, '99-'03 Lexus RX300,
+'04-'06 RX330, '07-'09 RX350, '06-'08 RX400h, '96-'97 Lexus LX450, '98-'07 LX470, '08-'09 LX570)
+K
+5DR Wagon 2WD ('04-'06, '08-'09 Scion xB)
+X
+2DR Wagon 2WD ('96-'99 RAV4)
+Y
+2DR Wagon 4WD ('96-'99 RAV4)
+Z
+5DR Wagon 2WD ('98-'09 Sienna, '06-'09 RAV4, '09 Venza, '07-'09 FJ Cruiser, '03-'09 4Runner, '01-'09 Sequoia)
+Cab, Chassis, Drive Wheels & Brake System
+[
+edit
+|
+edit source
+]
+Light Duty Trucks
+Position 4 (1996-2009 for North America)
+All have hydraulic brakes.
+Code
+Description
+B
+Tundra Access Cab 4wd 1/2 Ton ('00-'06)
+D
+Tundra Double Cab 4wd 1/2 Ton ('04-'06)
+E
+Tundra Double Cab 2wd 1/2 Ton ('04-'06)
+G
+Tacoma PreRunner Double Cab 2wd 1/2 Ton ('01-'04)
+H
+Tacoma Double Cab 4wd 1/2 Ton ('01-'04)
+J
+T100 Regular Cab 2wd 1/2 Ton ('96-'98), Tundra Regular Cab 2wd 1/2 Ton ('00-'06)
+K
+Tundra Regular Cab 4wd 1/2 Ton ('00-'06)
+N
+Tacoma Regular Cab 2wd 1/2 Ton ('96-'04)
+P
+Tacoma Regular Cab 4wd 1/2 Ton ('96-'04)
+R
+Tundra Access Cab 2wd 1/2 Ton ('00-'06)
+S
+Tacoma PreRunner XtraCab 2wd 1/2 Ton ('98-'04)
+T
+T100 XtraCab 2wd 1/2 Ton ('96-'98)
+U
+T100 XtraCab 4wd 1/2 Ton ('96-'98)
+V
+Tacoma XtraCab 2wd 1/2 Ton ('96-'04)
+W
+Tacoma XtraCab 4wd 1/2 Ton ('96-'04)
+N
+Tacoma Regular Cab SWB 2wd 1/2 Ton ('05-'09)
+P
+Tacoma Regular Cab SWB 4wd 1/2 Ton ('05-'09)
+T
+Tacoma Access Cab LWB 2wd 1/2 Ton ('05-'09)
+U
+Tacoma Access Cab LWB 4wd 1/2 Ton ('05-'09)
+J
+Tacoma PreRunner Double Cab LWB 2wd 1/2 Ton ('05-'09)
+L
+Tacoma Double Cab LWB 4wd 1/2 Ton ('05-'09)
+K
+Tacoma PreRunner Double Cab Super LWB 2wd 1/2 Ton ('05-'09)
+M
+Tacoma Double Cab Super LWB 4wd 1/2 Ton ('05-'09)
+J
+Tundra Regular Cab SWB 2wd 1/2 Ton ('07-'09)
+K
+Tundra Regular Cab SWB 4wd 1/2 Ton ('07-'09)
+L
+Tundra Regular Cab LWB 2wd 1/2 Ton ('07-'09)
+M
+Tundra Regular Cab LWB 4wd 1/2 Ton ('07-'09)
+R
+Tundra Double Cab LWB 2wd 1/2 Ton ('07-'09)
+B
+Tundra Double Cab LWB 4wd 1/2 Ton ('07-'09)
+S
+Tundra Double Cab ELWB 2wd 1/2 Ton ('07-'09)
+C
+Tundra Double Cab ELWB 4wd 1/2 Ton ('07-'09)
+E
+Tundra CrewMax LWB 2wd 1/2 Ton ('07-'09)
+D
+Tundra CrewMax LWB 4wd 1/2 Ton ('07-'09)
+SWB=Short Wheelbase, LWB=Long Wheelbase, ELWB=Extra Long Wheelbase
+Engine Type 1996-2009
+[
+edit
+|
+edit source
+]
+Position 5
+VIN
+Size
+Type
+Fuel
+Valvetrain
+Engine Family/Notes/Applications
+A
+1.6L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 4A-FE engine. Toyota Corolla ('96-'97).
+A
+3.3L
+V6
+Gas
+DOHC,
+24 valve
+MPI. VVT-i. Toyota 3MZ-FE engine. Toyota Camry SE V6, Sienna, Lexus ES330, RX330 ('04-'06),
+Camry Solara ('04-'08).
+B
+1.8L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 7A-FE engine. Toyota Corolla, Celica ST ('96-'97).
+B
+1.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. VVT-i. Atkinson cycle. Toyota 1NZ-FXE engine + 3CM (2 Front motors). Nickel-metal hydride Battery Pack. Toyota Prius ('04-'09).
+B
+2.4L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. VVT-i. Atkinson cycle. Toyota 2AZ-FXE engine + 2JM (2 Front motors). Nickel-metal hydride Battery Pack. Toyota Camry Hybrid ('07-'09).
+C
+1.5L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 5E-FE engine. Toyota Tercel ('96-'98 & '99 in Canada), Paseo ('96-'97 & '98-'99 in Canada).
+C
+3.5L
+V6
+Gas-Electric Hybrid
+DOHC,
+24 valve
+D-4S Direct/Port injection. Dual VVT-i. Toyota 2GR-FSE engine + 1KM (2 Front motors).
+Nickel-metal hydride Battery Pack. Lexus GS450h ('07-'09).
+D
+3.0L
+I6
+Gas
+DOHC,
+24 valve
+MPI. VVT-i ('98 & later). Toyota 2JZ-GE engine.
+Toyota Supra ('96-'98), Lexus GS300 ('96-'05), SC300 ('96-'00), IS300 ('01-'05).
+D
+2.4L
+I4
+Gas
+DOHC,
+16 valve
+MPI. VVT-i. Toyota 2AZ-FE engine. Toyota Highlander ('01-'07), RAV4 ('04-'08).
+E
+3.0L
+I6 Twin Turbo
+IC
+Gas
+DOHC,
+24 valve
+MPI. Sequential twin turbo. Toyota 2JZ-GTE engine. Toyota Supra Turbo ('96-'98).
+E
+2.4L
+I4
+Gas
+DOHC,
+16 valve
+MPI. VVT-i. Toyota 2AZ-FE engine. Toyota Camry ('02-'09), Camry Solara ('02-'08), Scion tC ('05-'09),
+Scion xB ('08-'09), Corolla XRS, Matrix S, XRS ('09).
+E
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+D-4S Direct/Port injection. Dual VVT-i. Toyota 2GR-FSE engine. Lexus IS350 ('06-'09), GS350 ('07-'09).
+E
+2.7L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT-i. Toyota 1AR-FE engine. Toyota Venza, Highlander ('09).
+F
+3.0L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Toyota 1MZ-FE engine. Toyota Camry V6 ('96-'03), Avalon ('96-'99), Sienna ('98-'00),
+Lexus ES300 ('96-'98), Camry Solara ('99-'03).
+F
+3.0L
+V6
+Gas
+DOHC,
+24 valve
+MPI. VVT-i. Toyota 1MZ-FE engine. Toyota Camry LE V6, XLE V6 ('04-'06), Avalon ('00-'04),
+Highlander ('01-'03), Sienna ('01-'03), Lexus ES300 ('99-'03), RX300 ('99-'03).
+F
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT-i. Toyota 2AR-FE engine. Toyota RAV4 ('09).
+G
+2.2L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 5S-FE engine. Toyota Celica GT ('96-'99), Camry ('96-'01), Camry Solara ('99-'01).
+H
+4.0L
+V8
+Gas
+DOHC,
+32 valve
+MPI. VVT-i ('98 & later). Toyota 1UZ-FE engine. Lexus LS400, SC400 ('96-'00), GS400 ('98-'00).
+H
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+MPI. VVT-i. Toyota 1AZ-FE engine. Toyota RAV4 ('01-'03).
+H
+3.0L
+V6
+Gas
+DOHC,
+24 valve
+D-4 Direct injection. Dual VVT-i. Toyota 3GR-FSE engine. Lexus GS300 ('06).
+J
+4.5L
+I6
+Gas
+DOHC,
+24 valve
+MPI. Toyota 1FZ-FE engine. Toyota Land Cruiser, Lexus LX450 ('96-'97).
+J
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Dual VVT-i. Toyota 2GR-FE engine. Lexus ES350 ('07-'09).
+K
+2.4L
+I4
+SC
+IC
+Gas
+DOHC,
+16 valve
+MPI. Toyota 2TZ-FZE engine. Toyota Previa S/C ('96-'97).
+K
+1.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. VVT-i. Atkinson cycle. Toyota 1NZ-FXE engine + 2CM (2 Front motors). Nickel-metal hydride Battery Pack. Toyota Prius ('01-'03).
+K
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Dual VVT-i. Toyota 2GR-FE engine. Toyota Avalon ('05-'09), RAV4 ('06-'09), Camry V6, Sienna,
+Lexus RX350 ('07-'09), Venza ('09).
+K
+2.5L
+V6
+Gas
+DOHC,
+24 valve
+D-4 Direct injection. Dual VVT-i. Toyota 4GR-FSE engine. Lexus IS250 ('06-'09).
+L
+2.4L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 2RZ-FE engine. Toyota Tacoma 2wd ('96-'04).
+L
+4.3L
+V8
+Gas
+DOHC,
+32 valve
+MPI. VVT-i. Toyota 3UZ-FE engine. Lexus GS430 ('01-'05).
+L
+4.6L
+V8
+Gas
+DOHC,
+32 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Toyota 1UR-FSE engine.
+Lexus LS460 ('07-'09), GS460 ('08-'09).
+L
+1.8L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT-i. Toyota 2ZR-FE engine. Japanese-built Toyota Corolla ('09).
+M
+2.7L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 3RZ-FE engine. Toyota Tacoma ('96-'04), 4Runner ('96-'00), T100 ('96-'98).
+N
+3.4L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Toyota 5VZ-FE engine. Toyota Tacoma ('96-'04), 4Runner ('96-'02), T100 ('96-'98), Tundra ('00-'04).
+N
+2.2L
+I4
+CNG
+DOHC,
+16 valve
+MPI. Toyota 5S-FNE engine. Toyota Camry ('00-'01).
+N
+4.3L
+V8
+Gas
+DOHC,
+32 valve
+MPI. VVT-i. Toyota 3UZ-FE engine. Lexus LS430 ('01-'06), SC430 ('02-'09), GS430 ('06-'07).
+P
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 3S-FE engine. Toyota RAV4 ('96-'00).
+P
+3.3L
+V6
+Gas
+DOHC,
+24 valve
+MPI. VVT-i. Toyota 3MZ-FE engine. Toyota Highlander ('04-'07).
+P
+5.0L
+V8
+Gas
+DOHC,
+32 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. High-performance cylinder head developed by Yamaha. Toyota 2UR-GSE engine. Lexus IS F ('08-'09).
+R
+1.8L
+I4
+Gas
+DOHC,
+16 valve
+MPI. VVT-i ('00 & later). Toyota 1ZZ-FE engine. Toyota Corolla ('98-'08), Celica GT, MR2 Spyder ('00-'05),
+Matrix ('03-'08).
+S
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Dual VVT-i. Toyota 2GR-FE engine. Toyota Highlander ('08-'09).
+T
+4.7L
+V8
+Gas
+DOHC,
+32 valve
+MPI. Toyota 2UZ-FE engine. Toyota Land Cruiser, Lexus LX470 ('98-'05), Toyota Tundra ('00-'04),
+Sequoia ('01-'04), 4Runner, Lexus GX470 ('03-'04).
+T
+4.7L
+V8
+Gas
+DOHC,
+32 valve
+MPI. VVT-i. Toyota 2UZ-FE engine. Toyota Land Cruiser, Lexus LX470 ('06-'07), Toyota 4Runner, Sequoia, Tundra, Lexus GX470 ('05-'09).
+T
+1.5L
+I4
+Gas
+DOHC,
+16 valve
+MPI. VVT-i. Toyota 1NZ-FE engine. Toyota Echo ('00-'05), Yaris ('07-'09), Scion xA, xB ('04-'06).
+U
+4.0L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT-i. Toyota 1GR-FE engine.
+Toyota 4Runner ('03-'09), Tacoma, Tundra ('05-'09), FJ Cruiser ('07-'09).
+U
+1.8L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT-i. Toyota 2ZR-FE engine. Scion xD ('08-'09), US- & Canadian-built Toyota Corolla ('09),
+Matrix ('09).
+U
+5.0L
+V8
+Gas-Electric Hybrid
+DOHC,
+32 valve
+D-4S Direct/Port injection. Dual VVT-i w/intake VVT-iE. Toyota 2UR-FSE engine + 1KM (2 Front motors). Nickel-metal hydride Battery Pack. Lexus LS600hL ('08-'09).
+V
+5.7L
+V8
+Gas
+DOHC,
+32 valve
+MPI. Dual VVT-i. Toyota 3UR-FE engine. Toyota Tundra ('07-'09).
+W
+3.3L
+V6
+Gas-Electric Hybrid
+DOHC,
+24 valve
+MPI. VVT-i. Toyota 3MZ-FE engine + 1JM (2 Front motors), 2FM (1 Rear motor on AWD models). Nickel-metal hydride Battery Pack. Toyota Highlander Hybrid ('06-'09), Lexus RX400h ('06-'08).
+W
+5.7L
+V8
+Gas/E85
+DOHC,
+32 valve
+Flex-Fuel. MPI. Dual VVT-i. Toyota 3UR-FBE engine. Toyota Tundra ('09).
+X
+2.7L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Intake VVT-i. Toyota 2TR-FE engine. Toyota Tacoma ('05-'09).
+Y
+1.8L
+I4
+Gas
+DOHC,
+16 valve
+MPI. VVTL-i. High-performance cylinder head developed by Yamaha. Toyota 2ZZ-GE engine.
+Toyota Celica GT-S ('00-'05), Matrix XRS ('03-'06), Corolla XRS ('05-'06).
+Y
+5.7L
+V8
+Gas
+DOHC,
+32 valve
+MPI. Dual VVT-i. Toyota 3UR-FE engine. Toyota Sequoia, Land Cruiser, Lexus LX570 ('08-'09).
+VVT-i=Variable Valve Timing w/Intelligence, VVTL-i= Variable Valve Timing and Lift w/Intelligence, CNG=Compressed Natural Gas
+Motor Type for Electric Vehicles 1996-2009
+[
+edit
+|
+edit source
+]
+Position 5
+VIN
+Battery Size
+Battery Type
+Fuel
+Drive Wheels
+Notes/Applications
+S
+27.4 Kwh
+Nickel-metal hydride
+Electricity
+Front
+1BM motor. Toyota RAV4 EV ('98-'03).
+Series 1996-2009
+[
+edit
+|
+edit source
+]
+Passenger Cars:
+Position 6
+(1996-2009 for North America)
+Based on the Chassis code given for the car
+Code
+Description
+0
+Toyota Corolla - 4-door w/1.6L engine ('96-'97): AE1
+0
+1L, 4-door ('96-'97) or wagon ('96) w/1.8L engine: AE1
+0
+2L
+0
+Toyota Celica - ST w/1.8L 7A-FE engine ('96-'97): AT2
+0
+0L, GT w/2.2L 5S-FE engine ('96-'99): ST2
+0
+4L
+1
+Toyota Camry ('96) I4: SXV
+1
+0L, V6: MCV
+1
+0L
+1
+Lexus ES300 ('96) MCV
+1
+0L
+1
+Toyota Avalon ('96-'99) MCX
+1
+0L
+1
+Toyota Corolla ('98-'02) ZZE1
+1
+0L
+1
+Toyota Echo ('00-'05) NCP
+1
+2L
+1
+Toyota Prius ('01-'03) NHW
+1
+1L
+1
+Lexus IS300 ('01-'05) JCE
+1
+0L
+1
+Scion TC ('05-'09) ANT1
+0
+L
+1
+Scion XD ('08-'09) ZSP1
+1
+0L
+2
+Lexus LS400 ('96-'00) UCF
+2
+0L
+2
+Toyota Camry ('97-'01) I4: SXV
+2
+0L, V6: MCV
+2
+0L, CNG I4 ('00-'01): SXV
+2
+3L
+2
+Toyota Camry Solara - 2.2L I4 ('99-'01): SXV
+2
+0L, 2.4L I4 ('02-'03): ACV
+2
+0L, V6 ('99-'03): MCV
+2
+0L
+2
+Lexus ES300 ('97-'01) MCV
+2
+0L
+2
+Toyota Avalon ('00-'04) MCX
+2
+0L
+2
+Toyota Prius ('04-'09) NHW
+2
+0L
+2
+Lexus IS250 2wd ('06-'09) GSE
+2
+0L, IS250 4wd ('06-'09) GSE
+2
+5L, IS350 ('06-'09) GSE
+2
+1L, IS F ('08-'09) USE
+2
+0L
+3
+Lexus SC300 ('96-'00) JZZ
+3
+1L, SC400 ('96-'00) UZZ
+3
+0L
+3
+Toyota Celica - GT w/1ZZ-FE engine ('00-'05): ZZT2
+3
+0L, GT-S w/2ZZ-GE engine ('00-'05): ZZT2
+3
+1L
+3
+Toyota MR2 Spyder ('00-'05) ZZW
+3
+0L
+3
+Lexus LS430 ('01-'06) UCF
+3
+0L
+3
+Toyota Camry ('02-'06) I4: ACV
+3
+0L, 3.0L V6: MCV
+3
+0L, 3.3L V6 ('04-'06 SE V6): MCV
+3
+1L
+3
+Toyota Camry Solara ('04-'08) I4 : ACV
+3
+0L, 3.3L V6: MCV
+3
+1L
+3
+Lexus ES300 ('02-'03) MCV
+3
+0L, ES330 ('04-'06) MCV
+3
+1L
+3
+Toyota Corolla w/1ZZ-FE engine ('03-'08) ZZE1
+3
+0L, Corolla XRS w/2ZZ-GE engine ('05-'06) ZZE1
+3
+1L
+3
+Toyota Matrix w/1ZZ-FE engine & 2wd ('03-'08) ZZE1
+3
+2L, Matrix w/1ZZ-FE engine & 4wd ('03-'06) ZZE1
+3
+4L, Matrix XRS w/2ZZ-GE engine ('03-'06) ZZE1
+3
+3L
+3
+Toyota Avalon ('05-'09) GSX
+3
+0L
+4
+Lexus GS300 ('96-'97) JZS1
+4
+7L
+4
+Lexus SC430 ('02-'09) UZZ
+4
+0L
+4
+Toyota Camry ('07-'09) I4: ACV
+4
+0L, V6: GSV
+4
+0L, Hybrid: AHV
+4
+0L
+4
+Lexus ES350 ('07-'09) GSV
+4
+0L
+4
+Lexus LS460 2wd ('07-'09) USF
+4
+0L, LS460L 2wd ('07-'09) USF
+4
+1L
+4
+Lexus LS600hL ('08-'09) UVF
+4
+6L
+4
+Lexus LS460 4wd ('09) USF
+4
+5L, LS460L 4wd ('09) USF
+4
+6L
+4
+Toyota Corolla w/1.8L 2ZR-FE engine ('09) ZRE1
+4
+2L, Corolla XRS w/2.4L 2AZ-FE engine ('09) AZE1
+4
+1L
+4
+Toyota Matrix w/1.8L 2ZR-FE engine ('09) ZRE1
+4
+2L, Matrix S w/2.4L 2AZ-FE engine, 2wd, & torsion beam rear suspension ('09) AZE1
+4
+1L,
+Matrix S AWD w/2.4L 2AZ-FE engine, 4wd, & IRS ('09) AZE1
+4
+4L, Matrix XRS w/2.4L 2AZ-FE engine, 2wd, & IRS ('09) AZE1
+4
+6L
+5
+Toyota Tercel (US: '96-'98, Canada: '96-'99) EL
+5
+3L
+5
+Toyota Paseo (US: '96-'97, Canada: '96-'99) EL
+5
+4L
+6
+Lexus GS300 ('98-'05) JZS1
+6
+0L, GS400 ('98-'00) UZS1
+6
+0L, GS430 ('01-'05) UZS1
+6
+1L
+6
+Scion XA ('04-'06) NCP
+6
+1L
+8
+Toyota Supra ('96-'98) JZA
+8
+0L
+9
+Toyota Yaris ('07-'09) Hatchback: NCP
+9
+1L, 4-d sedan: NCP
+9
+3L
+9
+Lexus GS300 2wd ('06) GRS1
+9
+0L, GS300 4wd ('06) GRS1
+9
+5L
+9
+Lexus GS350 2wd ('07-'09) GRS1
+9
+1L, GS350 4wd ('07-'09) GRS1
+9
+6L
+9
+Lexus GS430 ('06-'07) UZS1
+9
+0L
+9
+Lexus GS460 ('08-'09) URS1
+9
+0L
+9
+Lexus GS450h ('07-'09) GWS1
+9
+1L
+CNG=Compressed Natural Gas, IRS=Independent Rear Suspension
+Multi-Purpose Passenger Vehicles & Light Duty Trucks:
+Position 6
+(1996-2009 for North America)
+Based on the Chassis code given for the car
+Code
+Description
+0
+Toyota Land Cruiser ('98-'07), Lexus LX470 ('98-'07) UZJ1
+0
+0L
+0
+Toyota Land Cruiser ('08-'09) URJ2
+0
+0L
+0
+Lexus LX570 ('08-'09) URJ2
+0
+1L
+1
+Toyota Previa 2wd ('96-'97) TCR
+1
+0L
+1
+Toyota RAV4 2wd ('96-'00) 2-door: SXA
+1
+5L, 4-door: SXA
+1
+6L
+1
+Toyota RAV4 4wd ('96-'00) 2-door: SXA
+1
+0L, 4-door: SXA
+1
+1L
+1
+Toyota RAV4 EV 2wd ('98-'03) 4-door: BEA
+1
+1L
+1
+Toyota Sienna ('98-'03) MCL
+1
+0L
+1
+Lexus RX300 ('99-'03) MCU
+1
+0L (2wd), MCU
+1
+5L (4wd)
+1
+Toyota 4Runner ('03-'09) V6: GRN2
+1
+0L (2wd), GRN2
+1
+5L (4wd), V8: UZN2
+1
+0L (2wd), UZN2
+1
+5L (4wd)
+1
+Toyota FJ Cruiser ('07-'09) GSJ
+1
+0L (2wd), GSJ
+1
+5L (4wd)
+1
+Toyota Venza 2wd ('09) I4: AGV
+1
+0L, V6: GGV
+1
+0L
+1
+Toyota Venza 4wd ('09) I4: AGV
+1
+5L, V6: GGV
+1
+5L
+1
+Toyota T100 I4 2wd ('96-'98) RCK
+1
+0L
+1
+Toyota T100 V6 2wd ('96-'98) VCK
+1
+1L
+2
+Toyota T100 V6 4wd ('96-'98) VCK
+2
+1L
+2
+Toyota Previa All-Trac 4wd ('96-'97) TCR
+2
+0L
+2
+Toyota RAV4 ('01-'03) ACA
+2
+6L (2wd), ACA
+2
+1L (4wd)
+2
+Toyota RAV4 ('04-'05) ACA
+2
+8L (2wd), ACA
+2
+3L (4wd)
+2
+Toyota Sienna ('04-'06) 2wd: MCL
+2
+0L, 4wd: MCL
+2
+5L
+2
+Toyota Sienna ('07-'09) 2wd: GSL
+2
+0L, 4wd: GSL
+2
+5L
+2
+Toyota Highlander 2wd - '01-'07 I4: ACU
+2
+0L, '01-'03 3.0L V6: MCU
+2
+0L, '04-'07 3.3L V6: MCU
+2
+3L, '06-'07 Hybrid: MHU
+2
+3L
+2
+Toyota Highlander 4wd - '01-'07 I4: ACU
+2
+5L, '01-'03 3.0L V6: MCU
+2
+5L, '04-'07 3.3L V6: MCU
+2
+8L, '06-'07 Hybrid: MHU
+2
+8L
+2
+Lexus GX470 ('03-'09) UZJ1
+2
+0L
+2
+Toyota Tacoma Reg. Cab SWB 2wd ('05-'09) TRN2
+2
+0L (I4)
+2
+Toyota Tacoma Access Cab LWB 2wd ('05-'09) TRN2
+2
+5L (I4), GRN2
+2
+5L (V6)
+3
+Toyota Tundra Reg. Cab/Access Cab 2wd - '00-'04 3.4L V6: VCK
+3
+0L, '05-'06 4.0L V6: GSK
+3
+0L, '00-'06 V8: UCK
+3
+0L
+3
+Toyota Tundra Double Cab V8 2wd ('04-'06) UCK
+3
+1L
+3
+Toyota Sequoia ('01-'07) UCK
+3
+5L (2wd), UCK
+4
+5L (4wd)
+3
+Scion XB ('04-'06) NCP
+3
+1L
+3
+Lexus RX330 ('04-'06) MCU
+3
+3L (2wd), MCU
+3
+8L (4wd)
+3
+Lexus RX350 ('07-'09) GSU
+3
+0L (2wd), GSU
+3
+5L (4wd)
+3
+Lexus RX400h ('06-'08) MHU
+3
+3L (2wd), MHU
+3
+8L (4wd)
+3
+Toyota RAV4 ('06-'08) I4: ACA
+3
+8L (2wd), ACA
+3
+3L (4wd), V6: GSA
+3
+8L (2wd), GSA
+3
+3L (4wd)
+3
+Toyota RAV4 ('09) I4: ASA
+3
+8L (2wd), ASA
+3
+3L (4wd), V6: GSA
+3
+8L (2wd), GSA
+3
+3L (4wd)
+4
+Toyota Tacoma Reg. Cab 2wd ('96-'04) RZN1
+4
+0L (I4)
+4
+Toyota Tacoma Reg. Cab SWB 4wd ('05-'09) TRN2
+4
+0L (I4)
+4
+Toyota Tacoma Access Cab LWB 4wd ('05-'09) TRN2
+4
+5L (I4), GRN2
+4
+5L (V6)
+4
+Toyota Tacoma Double Cab LWB 4wd ('05-'09) GRN2
+4
+5L (V6)
+4
+Toyota Tundra Reg. Cab/Access Cab 4wd - '00-'04 3.4L V6: VCK
+4
+0L, '00-'06 V8: UCK
+4
+0L
+4
+Toyota Tundra Double Cab V8 4wd ('04-'06) UCK
+4
+1L
+4
+Toyota Highlander ('08) 2wd: GSU
+4
+0L, 4wd: GSU
+4
+5L, Hybrid 4wd: MHU
+4
+8L
+4
+Toyota Highlander ('09) I4: ASU
+4
+0L (2wd), V6: GSU
+4
+0L (2wd), GSU
+4
+5L (4wd), Hybrid: MHU
+4
+8L (4wd)
+5
+Toyota Tacoma XtraCab 2wd ('96-'04) RZN1
+5
+0L (2.4L I4), VZN1
+5
+0L (V6)
+5
+Toyota Tacoma Double Cab ELWB [4wd] ('05-'09) GRN2
+5
+0L (V6)
+5
+Toyota Tundra V6 2wd ('07-'09) GSK
+5
+0L (Reg. Cab, SWB), GSK
+5
+1L (Reg. Cab/Double Cab, LWB)
+5
+Toyota Tundra 4.7L V8 2wd ('07-'09) UCK
+5
+0L (Reg. Cab, SWB), UCK
+5
+1L (Reg. Cab/Double Cab/CrewMax, LWB), UCK
+5
+2L (Double Cab, ELWB)
+5
+Toyota Tundra 5.7L V8 2wd ('07-'09) USK
+5
+0L (Reg. Cab, SWB), USK
+5
+1L (Reg. Cab/Double Cab/CrewMax, LWB), USK
+5
+2L (Double Cab, ELWB)
+5
+Toyota Tundra 4.7L V8 4wd ('07-'09) UCK
+5
+5L (Reg. Cab, SWB), UCK
+5
+6L (Reg. Cab/Double Cab/CrewMax, LWB), UCK
+5
+7L (Double Cab, ELWB)
+5
+Toyota Tundra 5.7L V8 4wd ('07-'09) USK
+5
+5L (Reg. Cab, SWB), USK
+5
+6L (Reg. Cab/Double Cab/CrewMax, LWB), USK
+5
+7L (Double Cab, ELWB)
+5
+Scion XB ('08-'09) AZE1
+5
+1L
+6
+Toyota Tacoma Reg. Cab 4wd ('96-'04) RZN1
+6
+1L (2.7L I4)
+6
+Toyota Tacoma PreRunner Reg. Cab SWB [2wd] ('05-'09) TRN2
+6
+0L (I4)
+6
+Toyota Tacoma PreRunner Access Cab LWB [2wd] ('05-'09) TRN2
+6
+5L (I4), GRN2
+6
+5L (V6)
+6
+Toyota Tacoma PreRunner Double Cab LWB [2wd] ('05-'09) GRN2
+6
+5L (V6)
+6
+Toyota Sequoia ('08-'09) 4.7L V8: UCK
+6
+0L (2wd), UCK
+6
+5L (4wd), 5.7L V8: USK
+6
+0L (2wd), USK
+6
+5L (4wd)
+7
+Toyota Tacoma XtraCab 4wd ('96-'04) RZN1
+7
+1L (2.7L I4), VZN1
+7
+0L (V6)
+7
+Toyota Tacoma Double Cab 4wd ('01-'04) VZN1
+7
+0L (V6)
+7
+Toyota Tacoma PreRunner Double Cab ELWB [2wd] ('05-'09) GRN2
+7
+0L (V6)
+8
+Toyota 4Runner - '96-'00 I4: RZN1
+8
+0L (2wd), RZN1
+8
+5L (4wd), '96-'02 V6: VZN1
+8
+0L (2wd), VZN1
+8
+5L (4wd)
+8
+Toyota Land Cruiser ('96-'97), Lexus LX450 ('96-'97) FZJ
+8
+0L
+9
+Toyota Tacoma PreRunner Reg. Cab [2wd] ('99-'04) RZN1
+9
+1L (2.7L I4)
+9
+Toyota Tacoma PreRunner XtraCab [2wd] ('98-'04) RZN1
+9
+6L (2.7L I4), VZN1
+9
+5L (V6)
+9
+Toyota Tacoma PreRunner Double Cab [2wd] ('01-'04) RZN1
+9
+6L (2.7L I4), VZN1
+9
+5L (V6)
+SWB=Short Wheelbase, LWB=Long Wheelbase, ELWB=Extra Long Wheelbase
+Restraint System
+[
+edit
+|
+edit source
+]
+Passenger Cars
+Position 7
+(1996-2009 for North America)
+Note: Toyota/Lexus VINs before 2010 do not reflect if the vehicle has rear-seat side airbags. Some Lexus ES, GS, & LS models are so equipped.
+Code
+Description
+Application
+2
+Manual Belts w/Dual Front Airbags
+Tercel '96-'98, Corolla '96-'08, Camry '96-'06, Avalon '96-'97, Paseo '96-'97, Celica '96-'05,
+Supra '96-'98, Camry Solara '99-'03, Echo '00-'05, MR2 Spyder '00-'05, Prius '01-'06,
+Matrix '03-'08, Yaris '07-'08, Scion xA '04-'06, Lexus ES300 '96-'97, GS300 '96-'97, LS400 '96,
+SC300/SC400 '96-'00
+5
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, and Driver & Front Passenger Knee Airbags
+Lexus SC430 '07-'09
+6
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, Front to Rear Side Curtain Airbags, and Driver's Knee Airbag
+Avalon '05-'09, Camry '07-'09, Scion tC '05-'07 (Opt.), Scion tC '08-'09
+6
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, Front to Rear Side Curtain Airbags, and Driver & Front Passenger Knee Airbags
+Lexus LS430 '04-'06, LS460 '07-'09, LS600hL '08-'09, GS300 '06, GS350 '07-'09,
+GS430 '06-'07, GS460 '08-'09, GS450h '07-'09, IS250/IS350 '06-'09, IS F '08-'09,
+ES350 '07-'09
+7
+Manual Belts w/Dual Front Airbags and Driver's Knee Airbag
+Scion tC '05-'07
+8
+Manual Belts w/Dual Front Airbags and Side Airbags
+Corolla '98-'04 (Opt.), Camry '98-'01 (Opt.), Avalon '98-'04, Camry Solara '99-'03 (Opt.),
+Camry Solara coupe '04-'06, Camry Solara convertible '04-'08, Celica '00-'05 (Opt.),
+Echo '01-'05 (Opt.), Prius '01-'03 (Opt.), Matrix '03-'04 (Opt.), Lexus LS400 '97-'00,
+ES300 '98-'01, GS300/GS400 '98-'00, IS300 '01, SC430 '02-'06
+9
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, and Front-seat Side Curtain Airbags
+Lexus GS300/GS430 '01-'05, IS300 '02-'05
+0
+Manual Belts w/Dual Front Airbags, Front-seat Side Airbags, and Front to Rear Side Curtain Airbags
+Camry '02-'06 (Opt.), Camry Solara coupe '04-'06 (Opt.), Camry Solara coupe '07-'08,
+Prius '04-'06 (Opt.), Prius '07-'09, Corolla '05-'08 (Opt.), Corolla '09, Matrix '05-'08 (Opt.), Matrix '09, Yaris '07-'08 (Opt.), Yaris '09, Scion xA '04-'06 (Opt.), Scion xD '08-'09, Lexus LS430 '01-'03, ES300 '02-'03, ES330 '04-'06
+Grade
+[
+edit
+|
+edit source
+]
+Multi-Purpose Passenger Vehicles & Light Duty Trucks:
+Position 7
+(1996-2009 for North America)
+Code
+Description
+0
+RAV4 ('96-'05), Lexus RX300 ('99-'03), GX470 ('03-'09), LX470 ('98-'07), LX570 ('08-'09), Scion xB ('08-'09)
+1
+T100 [Base model] ('96-'98), Highlander ('01-'07), Highlander/Highlander Hybrid [Base model] ('08-'09), RAV4 Limited 2-row ('06-'09), FJ Cruiser ('07-'09), Venza ('09), Lexus RX330 ('04-'06), RX350 ('07-'09), RX400h ('06-'08)
+2
+Previa DX ('96-'97), Tacoma [Base model] ('96-'00), Tacoma SR5 ('98-'00), Tacoma ('01-'09), T100 DX ('96-'98), Tundra [Base model] ('00-'09),
+Sienna XLE ('04-'09), Sienna XLE Limited ('04-'05), Sienna Limited ('06-'09), Scion xB w/auto. trans. ('04-'06), RAV4 Sport 2-row ('06-'09),
+Highlander Limited ('08-'09)
+3
+Previa LE ('96-'97), Sienna LE, XLE ('98-'03), Sienna CE [US market] ('04-'09), Sienna LE ('04-'09), Scion xB w/man. trans. ('04-'06),
+RAV4 [Base model, 2-row] ('06-'09), Highlander Sport ('08-'09)
+4
+4Runner [Base model] ('96-'00), Tacoma SR5 ('96-'97), Tacoma Limited ('98-'00), T100 SR5 ('96-'98), Tundra SR5 ('00-'09), Sequoia SR5 ('01-'09),
+4Runner SR5, Sport ('03-'09), RAV4 Limited 3-row ('06-'09), Highlander Hybrid Limited ('08-'09)
+5
+Land Cruiser ('96-'09), RAV4 [Base model, 3-row] ('06-'09)
+6
+4Runner SR5 ('96-'02)
+7
+4Runner Limited ('96-'09), Sequoia Platinum ('08-'09)
+8
+Lexus LX450 ('96-'97), Tundra Limited ('00-'09), Sequoia Limited ('01-'09)
+9
+Sienna CE ('98-'03), Sienna CE [Canadian market] ('04-'09)
+Vehicle Line
+[
+edit
+|
+edit source
+]
+Position 8
+(1996-2009 for North America)
+Code
+Description
+0
+MR2 Spyder
+1
+Tundra
+2
+Lexus IS300
+2
+Lexus IS250, IS350, IS F
+3
+Echo / Yaris
+4
+Scion xA / Scion xD
+4
+Scion xB ('04-'06)
+7
+Scion tC
+A
+Supra
+A
+Highlander
+A
+Sequoia
+A
+Venza
+B
+Avalon
+C
+Sienna
+D
+T100
+E
+Corolla / Matrix
+E
+Scion xB ('08-'09)
+F
+FJ Cruiser
+F
+Lexus LS400
+F
+Lexus LS430
+F
+Lexus LS460, LS460L, LS600hL
+G
+Lexus ES300, ES330, ES350
+H
+Paseo
+J
+Land Cruiser
+J
+Lexus LX450
+K
+Camry
+L
+Tercel
+M
+Previa
+N
+Tacoma
+P
+Camry Solara
+R
+4Runner
+S
+Lexus GS300, GS350
+S
+Lexus GS430, GS460
+S
+Lexus GS450h
+T
+Celica
+U
+Prius
+U
+Lexus RX300
+U
+Lexus RX330, RX350, RX400h
+V
+RAV4
+W
+Lexus LX470, LX570
+X
+Lexus GS400
+X
+Lexus GX470
+Y
+RAV4 EV  ('98-'03)
+Y
+Lexus SC400
+Y
+Lexus SC430
+Z
+Lexus SC300
+VIN Format 1981-1995
+[
+edit
+|
+edit source
+]
+For vehicles prior to model year 1996 for North America and 2002 for the rest of the world:
+Passenger Cars:
+1
+J
+Country of origin
+2
+T
+Manufacturer
+3
+4
+Vehicle Type
+4
+V
+Engine Type
+5
+N
+Vehicle Line
+6
+1
+Model Designation
+7
+3
+Series (Grade)
+8
+G
+Body Type, Drive Wheels, & Restraint System
+9
+3
+Check digit
+10
+R
+Model year
+11
+5
+Plant
+12
+6
+Sequential number
+13
+2
+14
+2
+15
+2
+16
+1
+17
+7
+Multi-Purpose Passenger Vehicles:
+1
+J
+Country of origin
+2
+T
+Manufacturer
+3
+3
+Vehicle Type
+4
+R
+Engine Type
+5
+J
+Vehicle Line
+6
+8
+Model Designation
+7
+4
+Series (Grade)
+8
+V
+Body Type & Drive Wheels
+9
+X
+Check digit
+10
+P
+Model year
+11
+0
+Plant
+12
+1
+Sequential number
+13
+0
+14
+8
+15
+3
+16
+8
+17
+5
+Light Duty Trucks & Incomplete Vehicles:
+1
+J
+Country of origin
+2
+T
+Manufacturer
+3
+4
+Vehicle Type
+4
+R
+Engine Type
+5
+D
+Vehicle Line
+6
+8
+Drivetrain Type
+7
+2
+Cab Type & Chassis
+8
+P
+Series (Grade) & Brake System
+9
+X
+Check digit
+10
+P
+Model year
+11
+0
+Plant
+12
+1
+Sequential number
+13
+0
+14
+8
+15
+3
+16
+8
+17
+5
+Engine Type 1981-1995
+[
+edit
+|
+edit source
+]
+Position 4
+VIN
+Size
+Type
+Fuel
+Valvetrain
+Engine Family/Notes/Applications
+A
+1.5L
+I4
+Gas
+SOHC,
+8 valve
+2-bbl carb. Toyota 3A-C engine. Toyota Corolla Tercel ('81-'82), Tercel ('83-'86), Tercel wagon ('87-'88).
+A
+1.6L
+I4
+Gas
+SOHC,
+8 valve
+2-bbl carb. Toyota 4A-C engine. Toyota Corolla ('83), Corolla Sport DX, SR5 ('84-'87).
+A
+1.6L
+I4
+Gas
+SOHC,
+8 valve
+2-bbl carb. Toyota 4A-LC engine. Toyota Corolla ('84-'87), Corolla FX ('87-'88).
+A
+1.6L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 4A-GELC engine. High-performance cylinder head developed by Yamaha.
+Toyota MR2 ('85-'89), Corolla FX-16 ('87-'88).
+A
+1.6L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 4A-GEC engine. High-performance cylinder head developed by Yamaha.
+Toyota Corolla Sport GT-S ('85-'87).
+A
+1.6L
+I4
+SC
+IC
+Gas
+DOHC,
+16 valve
+MPI. Toyota 4A-GZE engine. High-performance cylinder head developed by Yamaha.
+Toyota MR2 Supercharged ('88-'89)
+A
+1.6L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 4A-GE engine. High-performance cylinder head developed by Yamaha.
+Toyota Corolla GT-S ('88-'91).
+A
+1.6L
+I4
+Gas
+DOHC,
+16 valve
+2-bbl carb. Toyota 4A-F engine. Toyota Corolla ('88-'89).
+A
+1.6L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 4A-FE engine. Toyota Corolla ('88-'95), Celica ST ('90-'93).
+A
+1.8L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 7A-FE engine. Toyota Corolla ('93-'95), Celica ST ('94-'95).
+A
+2.4L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 2TZ-FE engine. Toyota Previa ('91-'95).
+A
+2.4L
+I4
+SC
+IC
+Gas
+DOHC,
+16 valve
+MPI. Toyota 2TZ-FZE engine. Toyota Previa S/C ('94-'95).
+C
+1.8L
+I4
+Diesel
+SOHC,
+8 valve
+Indirect injection. Toyota 1C-LC engine. Toyota Corolla ('84-'85).
+C
+1.8L
+I4 Turbo
+Diesel
+SOHC,
+8 valve
+Indirect injection. Toyota 1C-TLC engine. Toyota Camry ('84-'85).
+C
+2.0L
+I4 Turbo
+Diesel
+SOHC,
+8 valve
+Indirect injection. Toyota 2C-TLC engine. Toyota Camry ('86).
+D
+4.5L
+I6
+Gas
+DOHC,
+24 valve
+MPI. Toyota 1FZ-FE engine. Toyota Land Cruiser ('93-'95).
+E
+1.5L
+I4
+Gas
+SOHC,
+12 valve
+1-bbl carb. Toyota 3E engine. Toyota Tercel ('87-'90).
+E
+1.5L
+I4
+Gas
+SOHC,
+12 valve
+MPI. Toyota 3E-E engine. Toyota Tercel ('90-'94).
+E
+1.5L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 5E-FE engine. Toyota Tercel ('95), Paseo ('92-'95).
+F
+4.2L
+I6
+Gas
+OHV,
+12 valve
+2-bbl. Carb. Toyota 2F engine. Toyota Land Cruiser ('81-'87).
+F
+4.0L
+I6
+Gas
+OHV,
+12 valve
+MPI. Toyota 3F-E engine. Toyota Land Cruiser ('88-'92).
+G
+3.0L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Toyota 1MZ-FE engine. Toyota Camry V6, Lexus ES300 ('94-'95), Avalon ('95).
+J
+3.0L
+I6
+Gas
+DOHC,
+24 valve
+MPI. Toyota 2JZ-GE engine. Toyota Supra ('93-'95), Lexus SC300 ('92-'95), GS300 ('93-'95).
+J
+3.0L
+I6 Twin Turbo
+IC
+Gas
+DOHC,
+24 valve
+MPI. Sequential twin turbo. Toyota 2JZ-GTE engine. Toyota Supra Turbo ('93-'95).
+K
+1.3L
+I4
+Gas
+OHV,
+8 valve
+2-bbl carb. Toyota 4K-C engine. Toyota Starlet ('81-'82).
+K
+1.3L
+I4
+Gas
+OHV,
+8 valve
+MPI. Toyota 4K-E engine. Toyota Starlet ('83-'84).
+L
+2.2L
+I4
+Diesel
+SOHC,
+8 valve
+Indirect injection. Toyota L engine. Toyota Pickup ('81-'83).
+L
+2.4L
+I4
+Diesel
+SOHC,
+8 valve
+Indirect injection. Toyota 2L engine. Toyota Pickup ('84-'85).
+L
+2.4L
+I4 Turbo
+Diesel
+SOHC,
+8 valve
+Indirect injection. Toyota 2L-T engine. Toyota Pickup ('85).
+M
+2.8L
+I6
+Gas
+SOHC,
+12 valve
+MPI. Toyota 5M-E engine. Toyota Celica Supra ('81), Cressida ('81-'82).
+M
+2.8L
+I6
+Gas
+DOHC,
+12 valve
+MPI. Toyota 5M-GE engine. Toyota Celica Supra ('82-'86), Cressida ('83-'88).
+M
+3.0L
+I6
+Gas
+DOHC,
+24 valve
+MPI. Toyota 7M-GE engine. Toyota Supra ('86 1/2-'92), Cressida ('89-'92).
+M
+3.0L
+I6 Turbo
+IC
+Gas
+DOHC,
+24 valve
+MPI. Toyota 7M-GTE engine. Toyota Supra Turbo ('87-'92).
+R
+2.4L
+I4
+Gas
+SOHC,
+8 valve
+2-bbl carb. Toyota 22R engine. Toyota Celica, Corona ('81-'82), Pickup ('81-'90), 4Runner ('84).
+R
+2.4L
+I4
+Gas
+SOHC,
+8 valve
+MPI. Toyota 22R-E (EC for CA emissions version) engine.
+Toyota Celica ('83-'85), Pickup ('84-'95), 4Runner ('85-'95).
+R
+2.4L
+I4 Turbo
+Gas
+SOHC,
+8 valve
+MPI. Toyota 22R-TE (TEC for CA emissions version) engine. Toyota Pickup ('85-'88), 4Runner ('86-'87).
+S
+2.0L
+I4
+Gas
+SOHC,
+8 valve
+MPI. Toyota 2S-ELC engine. Toyota Camry ('83-'86), Celica ST/GT ('86).
+S
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+MPI. High-performance cylinder head developed by Yamaha. Toyota 3S-GELC engine.
+Toyota Celica GT-S ('86-'89).
+S
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 3S-FE engine. Toyota Celica ST/GT ('87-'89), Camry ('87-'91).
+S
+2.0L
+I4 Turbo
+IC
+Gas
+DOHC,
+16 valve
+MPI. High-performance cylinder head developed by Yamaha. Toyota 3S-GTE engine.
+Toyota Celica All-Trac Turbo ('88, '90-'93), MR2 Turbo ('91-'95).
+S
+2.2L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 5S-FE engine. Toyota Celica GT/GT-S ('90-'93), Celica GT ('94-'95), MR2 ('91-'95), Camry ('92-'95).
+T
+1.8L
+I4
+Gas
+OHV,
+8 valve
+2-bbl carb. Toyota 3T-C engine. Toyota Corolla ('81-'82).
+U
+4.0L
+V8
+Gas
+DOHC,
+32 valve
+MPI. Toyota 1UZ-FE engine. Lexus LS400 ('90-'95), SC400 ('92-'95).
+U
+2.4L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 2RZ-FE engine. Toyota Tacoma 2wd ('95).
+U
+2.7L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Toyota 3RZ-FE engine. Toyota Tacoma ('95), T100 ('94-'95).
+V
+2.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Toyota 2VZ-FE engine. Toyota Camry V6 ('88-'91), Lexus ES250 ('90-'91).
+V
+3.0L
+V6
+Gas
+SOHC,
+12 valve
+MPI. Toyota 3VZ-E engine. Toyota 4Runner, Pickup ('88-'95), T100 ('93-'94).
+V
+3.0L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Toyota 3VZ-FE engine. Toyota Camry V6, Lexus ES300 ('92-'93).
+V
+3.4L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Toyota 5VZ-FE engine. Toyota Tacoma ('95), T100 ('95).
+Y
+2.0L
+I4
+Gas
+OHV,
+8 valve
+MPI. Toyota 3Y-EC engine. Toyota Van ('84-'85).
+Y
+2.2L
+I4
+Gas
+OHV,
+8 valve
+MPI. Toyota 4Y-EC engine. Toyota Van ('86-'89).
+Vehicle Line 1981-1995
+[
+edit
+|
+edit source
+]
+Position 5
+(1981-1995 for North America)
+Code
+Description
+A
+Celica rwd ('81-'85)
+A
+Celica Supra ('81-'86)
+A
+Supra ('86 1/2-'95)
+B
+Avalon ('95)
+C
+Previa ('91-'95)
+D
+T100 ('93-'95)
+E
+Corolla ('81-'95)
+F
+Lexus LS400 ('90-'95)
+J
+Land Cruiser ('81-'95)
+K
+Camry ('92-'95)
+K
+Lexus ES300 ('92-'95)
+L
+Corolla Tercel ('81-'82)
+L
+Tercel ('83-'95)
+L
+Paseo ('92-'95)
+N
+Pickup (compact pickup & chassis cab '81-'95)
+N
+Tacoma ('95 1/2)
+N
+4Runner ('84-'95)
+P
+Starlet ('81-'84)
+R
+Van ('84-'89)
+S
+Lexus GS300 ('93-'95)
+T
+Corona ('81-'82)
+T
+Celica fwd or awd ('86-'95)
+V
+Camry ('83-'91)
+V
+Lexus ES250 ('90-'91)
+W
+MR2 ('85-'89, '91-'95)
+X
+Cressida ('81-'92)
+Z
+Lexus SC300, SC400 ('92-'95)
+Model Designation
+[
+edit
+|
+edit source
+]
+Passenger Cars:
+Position 6
+(1981-1995 for North America)
+Based on the Chassis code given for the car
+Code
+Description
+0
+Toyota Corolla - 4-door w/1.6L engine ('93-'95): AE1
+0
+1L, 4-door or wagon w/1.8L engine ('93-'95): AE1
+0
+2L
+0
+Toyota Celica - ST w/1.8L 7A-FE engine ('94-'95): AT2
+0
+0L, GT w/2.2L 5S-FE engine ('94-'95): ST2
+0
+4L
+1
+Toyota Camry - Gas I4 ('83-'86): SV
+1
+1L, 1.8L Turbodiesel I4 [1C-TLC] ('84-'85): CV
+1
+0L, 2.0L Turbodiesel I4 [2C-TLC] ('86): CV
+1
+1L
+1
+Toyota MR2 ('85-'89) AW
+1
+1L
+1
+Lexus LS400 ('90-'94) UCF
+1
+0L
+1
+Toyota Camry - I4 ('92-'95): SXV
+1
+0L, V6 w/3VZ-FE engine ('92-'93): VCV
+1
+0L, V6 w/1MZ-FE engine ('94-'95): MCV
+1
+0L
+1
+Lexus ES300 - w/3VZ-FE engine ('92-'93): VCV
+1
+0L, w/1MZ-FE engine ('94-'95): MCV
+1
+0L
+1
+Toyota Avalon ('95) MCX
+1
+0L
+2
+Toyota Corolla Tercel ('81-'82) AL12L (does not follow the system used by all other models)
+2
+Toyota Camry sedan - I4 2WD ('87-'91): SV
+2
+1L, I4 All-Trac 4WD ('88-'91): SV
+2
+5L, V6 ('88-'91): VZV
+2
+1L
+2
+Toyota Camry wagon - I4 2WD ('87-'91): SV
+2
+1LG, V6 ('88-'91): VZV
+2
+1LG
+2
+Lexus ES250 ('90-'91) VZV
+2
+1L
+2
+Toyota MR2 ('91-'95) Base model w/2.2L 5S-FE engine: SW
+2
+1L, Turbo w/2.0L 3S-GTE engine: SW
+2
+0L
+2
+Lexus LS400 ('95) UCF
+2
+0L
+3
+Toyota Corona ('81-'82) RT1
+3
+5L
+3
+Toyota Tercel hatchback ('83-'86) AL21L (does not follow the system used by all other models)
+3
+Toyota Tercel wagon - 2wd: ('84-'87) AL21LG, 4wd: ('83-'88) AL25LG (does not follow the system used by all other models)
+3
+Toyota Tercel coupe & hatchback ('87-'90) EL
+3
+1L
+3
+Lexus SC300 ('92-'95) JZZ
+3
+1L, SC400 ('92-'95) UZZ
+3
+0L
+4
+Toyota Celica ('81) RA
+4
+3L
+4
+Toyota Celica Supra ('81) MA
+4
+7L
+4
+Toyota Tercel ('91-'94) EL
+4
+2L
+4
+Toyota Paseo ('92-'95) EL
+4
+4L
+4
+Lexus GS300 ('93-'95) JZS1
+4
+7L
+5
+Toyota Tercel ('95) EL
+5
+3L
+6
+Toyota Starlet ('81-'84) KP
+6
+1L
+6
+Toyota Cressida - sedan w/solid (live) rear axle ('81-'82): MX
+6
+2L, sedan w/IRS ('83-'84): MX
+6
+3L, wagon ('81-'84): MX
+6
+2LG
+6
+Toyota Celica - ST & GT w/22R engine ('82): RA
+6
+4L, ST & GT w/22R-E/EC engine & solid (live) rear axle ('83-'85): RA
+6
+4L,
+GT-S w/22R-E/EC engine & IRS ('83-'85): RA
+6
+5L
+6
+Toyota Celica Supra ('82-'86) MA
+6
+1L
+6
+Toyota Celica - ST & GT w/2S-ELC engine ('86): ST1
+6
+1L, ST & GT w/3S-FE engine ('87-'89): ST1
+6
+2L, GT-S w/3S-GELC engine ('86-'89): ST1
+6
+2L,
+All-Trac Turbo w/3S-GTE engine ('88): ST1
+6
+5L
+7
+Toyota Corolla - w/1.8L OHV 3T-C engine ('81-'82): TE
+7
+2L, w/1.6L SOHC 4A-C engine ('83): AE
+7
+1L
+7
+Toyota Cressida - sedan ('85-'88): MX
+7
+3L, wagon ('85-'87): MX
+7
+2LG
+7
+Toyota Supra ('86 1/2-'92) MA
+7
+0L
+8
+Toyota Corolla - Fwd, gas-powered 4-door sedan & 5-door hatchback ('84-'87): AE
+8
+2L,
+Fwd, diesel-powered 4-door sedan & 5-door hatchback ('84-'85): CE
+8
+0L, Corolla FX/FX-16 Fwd 3-door hatchback ('87-'88): AE
+8
+2L,
+Corolla Sport - Rwd, gas-powered 2-door coupe & 3-door hatchback ('84-'87): AE
+8
+6L
+8
+Toyota Cressida ('89-'92) MX
+8
+3L
+8
+Toyota Celica ('90-'93) - ST w/1.6L 4A-FE engine: AT1
+8
+0L, GT & GT-S w/2.2L 5S-FE engine: ST1
+8
+4L, All-Trac Turbo w/2.0L 3S-GTE engine: ST1
+8
+5L
+8
+Toyota Supra ('93-'95) JZA
+8
+0L
+9
+Toyota Corolla - Fwd 2-door coupe, 4-door sedan, & wagon ('88-'92): AE
+9
+2L, All-Trac 4wd 4-door sedan ('89-'90) & wagon ('88-'92): AE
+9
+5L
+IRS=Independent Rear Suspension
+Multi-Purpose Passenger Vehicles:
+Position 6
+(1981-1995 for North America)
+Based on the Chassis code given for the car
+Code
+Description
+1
+Toyota Previa 2wd ('91-'95) TCR
+1
+0L
+2
+Toyota Van - w/2.0L 3Y-EC engine ('84-'85): YR
+2
+1LG, w/2.2L 4Y-EC engine & 2wd ('86-'89): YR
+2
+2LG
+2
+Toyota 4Runner - w/2.4L 22R-E I4 & 2wd ('90-'91): RN1
+2
+0L, w/3.0L 3VZ-E V6 & 2wd ('90-'95): VZN1
+2
+0L
+2
+Toyota Previa All-Trac 4wd ('91-'95) TCR
+2
+0L
+3
+Toyota Van w/2.2L 4Y-EC engine & 4wd ('87-'89): YR
+3
+1LG
+3
+Toyota 4Runner - w/2.4L 22R-E I4 & 4wd ('90-'95): RN1
+3
+0L, w/3.0L 3VZ-E V6 & 4wd ('90-'95): VZN1
+3
+0L
+4
+Toyota Land Cruiser 40 Series 2-door Hardtop ('81-'83) FJ
+4
+0LV
+6
+Toyota Land Cruiser 60 Series 4-door Wagon - w/2F engine: FJ
+6
+0LG ('81-'87), w/3F-E engine ('88-'90): FJ
+6
+2LG
+6
+Toyota 4Runner 4wd - I4: RN
+6
+0LG ('84-'85), RN
+6
+1LG ('86-'89), V6 ('88-'89): VZN
+6
+1LG
+8
+Toyota Land Cruiser - w/3F-E engine ('91-'92): FJ
+8
+0L, w/1FZ-FE engine ('93-'95) FZJ
+8
+0L
+Drivetrain Type
+[
+edit
+|
+edit source
+]
+Light Duty Trucks & Incomplete Vehicles:
+Position 6
+(1984-1995 for North America)
+Code
+Description
+0
+4wd (Pickup Regular Cab '89-'95)
+0
+2wd (Celica convertible) [incomplete vehicle] '95
+1
+4wd (Pickup Xtracab '89-'95)
+1
+2wd (T100 '93-'95)
+2
+4wd (T100 '93-'95)
+2
+2wd (Cargo Van) '84-'89
+3
+4wd (Cargo Van) '87-'89
+4
+2wd (Tacoma Regular Cab '95)
+5
+2wd (Pickup, Chassis Cab Pickup - LWB version) '84-'88
+5
+2wd (Tacoma Xtracab '95)
+6
+4wd (Pickup '84-'88, 4Runner - truck version '84-'89, Land Cruiser - truck version '87)
+6
+4wd (Tacoma Regular Cab '95)
+6
+2wd (Celica convertible) [incomplete vehicle] '84-'85, '87-'89
+7
+2wd (Pickup Xtracab - Extra LWB version '86-'88)
+7
+2wd (Chassis Cab Pickup - Super LWB version '86-'88)
+7
+4wd (Tacoma Xtracab '95)
+8
+2wd (Celica convertible) [incomplete vehicle] '91-'93
+8
+2wd (Pickup Regular Cab '89-'95, Chassis Cab Pickup - LWB version '89-'93)
+9
+2wd (Pickup Xtracab '89-'95, Chassis Cab Pickup - Super LWB version '89-'93)
+LWB=Long Wheelbase
+Series (Grade)
+[
+edit
+|
+edit source
+]
+Passenger Cars:
+Position 7
+(1981-1995 for North America)
+Code
+Description
+0
+Supra [base model] ('86 1/2-'92), Corolla LE ('93-'95), Celica ST ('94-'95), Avalon XL ('95) Lexus SC400 ('92-'95)
+1
+Starlet ('81-'84), Corolla Tercel [base model] ('81-'82), Corolla Tercel Deluxe 2-d/4-d ('82), Tercel [base model] ('83-'89), Tercel EZ ('87),
+Tercel [base model w/carbureted engine] ('90), Corolla [base model] ('81-'83), Camry [base model] ('87), Camry DX ('87-'95), Supra Turbo ('87-'92),
+Corolla [base model] ('90-'92), MR2 [base model] ('91-'95), Supra [base model] ('93-'95), Avalon XLS ('95), Lexus LS400 ('90-'94), SC300 ('92-'95)
+2
+Corolla Tercel Deluxe 2-d ('81), Corolla Tercel Deluxe 3-d ('81-'82), Tercel Deluxe ('83-'89), Tercel Deluxe w/carbureted engine ('90),  Corolla DX ('81-'83),
+Corolla SR5 ('83), Corolla DX 4-d sedan/5-d hatch ('84-'87), Corolla FX ('87-'88), Corolla DX fwd 4-d sedan/wagon ('88-'89), Corona Deluxe ('81-'82),
+Cressida ('81-'82), Cressida wagon ('83-'87), Camry DX ('83-'85), Camry DX w/gasoline engine ('86), Camry LE ('87-'95), Celica GT convertible ('87-'89),
+MR2 Turbo ('91-'95), Supra Turbo ('93-'95), Lexus ES250 ('90-'91), LS400 ('95)
+3
+Celica ST ('81-'86), Cressida sedan ('83-'92), Corolla LE ('84-'89), Camry DX turbodiesel ('86), Tercel [base model w/fuel injected engine] ('90),
+Tercel DX ('91-'94), Camry XLE ('92-'95), Lexus ES300 ('92-'95)
+4
+Celica GT ('81-'86), Corolla LE Limited ('85-'86), Camry [base model] ('88-'91), Corolla DX All-Trac wagon ('88-'92), Corolla DX All-Trac sedan ('89-'90), Corolla DX fwd 4-d sedan/wagon ('90-'92), Tercel Deluxe w/fuel injected engine ('90), Tercel LE ('91-'93), Camry SE ('92-'95), Corolla [base model] ('93-'95)
+5
+Corolla SR5 ('81-'82), Corolla Sport [DX] ('84-'87), Corolla SR5 Coupe ('88-'89), Celica GT-S ('83-'93), Tercel SR5 ('83-'88), MR2 [base model] ('85-'89),
+Paseo ('92-'95), Tercel [base model] ('95)
+6
+Corona Luxury Edition ('81-'82), Camry LE ('83-'86), Corolla Sport SR5 ('84-'87), Corolla SR5 All-Trac wagon ('88-'90), Corolla SR5 Coupe ('90-'91),
+Celica ST ('87-'93), MR2 Supercharged ('88-'89), Tercel EZ ('88-'90), Tercel [base model] ('91-'94), Tercel DX ('95)
+7
+Celica Supra ('81-'86), Corolla FX16 ('87-'88), Celica GT coupe/liftback ('87-'95), Celica GT convertible ('91-'93, '95), Corolla LE ('90-'92),
+Lexus GS300 ('93-'95)
+8
+Corolla Sport GT-S ('85-'87), Corolla GT-S Coupe ('88-'91), Celica All-Trac Turbo ('88, '90-'93)
+9
+Corolla FX16 GT-S ('87-'88), Corolla DX ('93-'95)
+Multi-Purpose Passenger Vehicles:
+Position 7
+(1981-1995 for North America)
+Code
+Description
+0
+Land Cruiser 40 Series ('81-'83), Land Cruiser 60 Series ('81-'87), Land Cruiser 80 Series ('91-'92)
+1
+Previa DX ('91-'95), Land Cruiser 80 Series ('93-'95)
+2
+Van Deluxe ('84-'89), 4Runner Deluxe ('85), Land Cruiser 60 Series ('88-'90), Previa LE ('91-'95)
+3
+4Runner Deluxe ('86, '88-'89), Previa DX S/C ('95)
+4
+4Runner SR5 [4-cyl.] ('86-'87, '89), Previa LE S/C ('94-'95)
+5
+4Runner SR5 ('84-'85)
+6
+Van LE ('84-'89), 4Runner SR5 V6 ('88-'89)
+7
+4Runner SR5 Turbo ('86-'87), 4Runner SR5 [4-cyl.] ('90-'95)
+9
+4Runner SR5 V6 ('90-'95)
+Cab Type & Chassis
+[
+edit
+|
+edit source
+]
+Light Duty Trucks & Incomplete Vehicles:
+Position 7
+(1984-1995 for North America)
+Code
+Description
+0 (when following 5 or 6 in 6th pos. of VIN)
+2DR pickup, regular cab, short wheelbase [103 in.] (Pickup '84-'88)
+0 (when following 7 in 6th pos. of VIN)
+2DR pickup, extended cab, extra long wheelbase [121.5 in.] (Pickup '86-'88)
+0
+Wagon [4DR], long wheelbase (Land Cruiser - truck version '87)
+0
+2DR pickup, regular cab, IFS (T100 '93-'94)
+0
+2DR pickup, regular cab, IFS, 4-cyl. (T100 '95)
+1
+Wagon [2DR], short wheelbase (4Runner - truck version '84-'85)
+1
+2DR pickup, regular cab, short wheelbase [103 in.], IFS (Pickup '89-'95)
+1
+2DR pickup, regular cab, IFS (Tacoma '95)
+1
+2DR pickup, regular cab, IFS, V6 (T100 '95)
+2
+Wagon [2DR], short wheelbase (4Runner - truck version '86-'89)
+2
+2DR pickup, regular cab, long wheelbase [112.2 in.], IFS (Pickup '89-'93)
+2
+2DR pickup, regular cab, long wheelbase [112.2 in.], IFS (Chassis Cab Pickup '89-'93)
+2
+2DR pickup, extended cab, IFS, V6 (T100 '95)
+3
+2DR pickup, regular cab, short wheelbase, IFS (Pickup '86-'88)
+3
+2DR pickup, extended cab, extra long wheelbase [121.5 in. for 4x2, 121.9 in. for 4x4], IFS (Pickup '89-'95)
+3
+2DR pickup, extended cab, IFS (Tacoma '95)
+4
+2DR pickup, regular cab, long wheelbase, IFS (Pickup '86-'88)
+4
+Panel van, 4-link rear suspension (Cargo Panel Van 4wd '87-'89)
+4
+2DR pickup, regular cab, super long wheelbase [137 in.], IFS (Chassis Cab Pickup '89-'93)
+5
+2DR pickup, regular cab, long wheelbase [112.2 in.] (Pickup '84-'88)
+5 (when following 5 in 6th pos. of VIN)
+2DR pickup, regular cab, long wheelbase [112.2 in.] (Chassis Cab Pickup '84-'88)
+5 (when following 7 in 6th pos. of VIN)
+2DR pickup, regular cab, super long wheelbase [137 in.] (Chassis Cab Pickup '86-'88)
+6
+2DR pickup, extended cab, long wheelbase [112.2 in.] (Pickup '84-'88)
+7
+Van (Cargo Van '84-'85)
+7
+2DR pickup, extended cab, long wheelbase, IFS (Pickup '86-'88)
+8
+2DR pickup, regular cab, long wheelbase, turbodiesel engine (Pickup '85)
+8
+Panel van, leaf spring rear suspension (Cargo Panel Van 2wd '86-'89)
+9 (4th position of VIN is R)
+2DR pickup, extended cab, long wheelbase, turbo gas engine (Pickup '85-'86)
+9 (4th position of VIN is L)
+2DR pickup, extended cab, long wheelbase, turbodiesel engine (Pickup '85)
+9
+Glass van, leaf spring rear suspension (Cargo Window Van '86-'89)
+IFS= Independent Front Suspension
+Body Type, Drive Wheels, & Restraint System
+[
+edit
+|
+edit source
+]
+Passenger Cars
+Position 8 (1981-1995 for North America)
+Code
+Body Type, Drive Wheels, & Application
+Restraint System
+C
+2DR coupe 2wd (Celica '81-'89, MR2 '85-'89)
+Manual Belts
+C
+3DR hatchback 2wd (Corolla Sport Coupe '81-'83)
+Manual Belts
+C
+3DR hatchback (Corolla Sport '84-'86 & in Canada '87)
+Manual Belts
+C
+2DR Sport Coupe 2wd (Corolla '88-'89)
+Manual Belts
+D
+2DR sedan (Corolla Tercel '81-'82, Corolla '81-'83)
+Manual Belts
+D
+2DR coupe (Tercel '87-'89)
+Manual Belts
+E
+4DR sedan 2wd (Corolla Tercel '81-'82, Corolla '81-'89, Corona '81-'82, Camry '83-'86)
+Manual Belts
+F
+4DR sedan 4wd (Corolla All-Trac '89)
+Manual Belts
+G
+3DR hatchback (liftback) 2wd
+(Starlet '81-'84, Corolla Tercel '81-'82, Tercel '83-'89, Tercel EZ '89 [some],
+Corolla FX/FX16 '87-'88)
+Manual Belts
+H
+5DR hatchback (liftback) 2wd (Camry '83-'86, Tercel '83-'89)
+Manual Belts
+J
+3DR liftback w/Sport roof [lift-out roof panel] 2wd (Supra '86 1/2-'89)
+Manual Belts
+J
+2DR coupe w/T-bar roof [T-top] (MR2 '87-'89)
+Manual Belts
+L
+3DR liftback 2wd (Celica '81-'89, Celica Supra '81-'86, Supra '86 1/2-'89)
+Manual Belts
+L
+3DR hatchback 2wd (Corolla Liftback '81-'83)
+Manual Belts
+L
+5DR hatchback 2wd (Corona '81-'82, Corolla '84-'87)
+Manual Belts
+M
+3DR liftback 4wd (Celica All-Trac Turbo '88)
+Manual Belts
+S
+2DR hardtop (Corolla [Sports] Hardtop '81-'83)
+Manual Belts
+S
+2DR coupe (Corolla Sport '84-'87)
+Manual Belts
+V
+5DR wagon 2wd (Tercel '84-'87)
+Manual Belts
+V
+5DR wagon 4wd (Corolla All-Trac '88-'89)
+Manual Belts
+W
+5DR wagon 2wd (Corona '81-'82, Corolla '81-'83, '88-'89)
+Manual Belts
+W
+5DR wagon 4wd (Tercel '83-'88)
+Manual Belts
+Z
+3DR hatchback (liftback) 2wd (Tercel EZ '88 [all], '89 [some])
+Manual Belts
+A
+4DR sedan 2wd (Corolla '90-'92, Tercel '91-'92)
+Automatic Belts
+B
+2DR sedan (Tercel '91-'92)
+Automatic Belts
+E
+4DR sedan 2wd (Cressida '81-'92, Camry '87-'91)
+Automatic Belts
+F
+2DR coupe (Tercel '90, Paseo '92)
+Automatic Belts
+F
+4DR sedan 4wd (Corolla All-Trac '90)
+Automatic Belts
+J
+4DR sedan 4wd (Camry All-Trac '88-'91)
+Automatic Belts
+J
+2DR Sport Coupe 2wd (Corolla '90-'91)
+Automatic Belts
+K
+5DR wagon 2wd (Corolla '90-'92)
+Automatic Belts
+M
+3DR liftback (Tercel '90)
+Automatic Belts
+V
+5DR wagon 4wd (Corolla All-Trac '90-'92)
+Automatic Belts
+W
+5DR wagon 2wd (Cressida '81-'87, Camry '87-'91)
+Automatic Belts
+S
+2DR sedan (Tercel '93-'94)
+Driver-side airbag & Manual Belt,
+Front Passenger: Automatic Shoulder Belt, Manual Lap Belt
+T
+4DR sedan 2wd (Tercel '93-'94)
+Driver-side airbag & Manual Belt,
+Front Passenger: Automatic Shoulder Belt, Manual Lap Belt
+U
+2DR coupe (Paseo '93-'95)
+Driver-side airbag & Manual Belt,
+Front Passenger: Automatic Shoulder Belt, Manual Lap Belt
+C
+2DR coupe (Lexus SC300/SC400 '92)
+Driver-side airbag, Manual Belts
+E
+4DR sedan 2wd (Lexus LS400 '90-'92, Camry '92-'93, Corolla '93)
+Driver-side airbag, Manual Belts
+F
+2DR coupe 2wd (Celica '90-'93)
+Driver-side airbag, Manual Belts
+M
+2DR coupe 2wd (MR2 '91-'93)
+Driver-side airbag, Manual Belts
+M
+3DR liftback 2wd (Supra '90-'92)
+Driver-side airbag, Manual Belts
+N
+3DR liftback 2wd (Celica '90-'93)
+Driver-side airbag, Manual Belts
+N
+2DR coupe w/T-bar roof [T-top] 2wd (MR2 '91-'93)
+Driver-side airbag, Manual Belts
+N
+3DR liftback w/Sport roof [lift-out roof panel] 2wd (Supra '90-'92)
+Driver-side airbag, Manual Belts
+P
+3DR liftback 4wd (Celica All-Trac Turbo '90-'93)
+Driver-side airbag, Manual Belts
+T
+4DR hardtop 2wd (Lexus ES250 '90-'91, ES300 '92-'93)
+Driver-side airbag, Manual Belts
+W
+5DR wagon 2wd (Camry '92-'93, Corolla '93)
+Driver-side airbag, Manual Belts
+B
+4DR sedan 2wd (Corolla '94-'95)
+Dual front airbags, Manual Belts
+C
+2DR coupe 2wd (Lexus SC300/SC400 '93-'95, Camry '94-'95)
+Dual front airbags, Manual Belts
+D
+2DR sedan 2wd (Tercel '95)
+Dual front airbags, Manual Belts
+E
+4DR sedan 2wd (Lexus LS400 '93-'95, GS300 '93-'95, Camry '94-'95, Avalon '95, Tercel '95)
+Dual front airbags, Manual Belts
+F
+2DR coupe 2wd (Celica '94-'95)
+Dual front airbags, Manual Belts
+J
+3DR liftback w/Sport roof [lift-out roof panel] 2wd (Supra '93-'95)
+Dual front airbags, Manual Belts
+L
+3DR liftback 2wd (Supra '93-'95)
+Dual front airbags, Manual Belts
+M
+2DR coupe 2wd (MR2 '94-'95)
+Dual front airbags, Manual Belts
+N
+3DR liftback 2wd (Celica '94-'95)
+Dual front airbags, Manual Belts
+N
+2DR coupe w/T-bar roof [T-top] 2wd (MR2 '94-'95)
+Dual front airbags, Manual Belts
+T
+4DR hardtop 2wd (Lexus ES300 '94-'95)
+Dual front airbags, Manual Belts
+V
+5DR wagon 2wd (Corolla '94-'95)
+Dual front airbags, Manual Belts
+W
+5DR wagon 2wd (Camry '94-'95)
+Dual front airbags, Manual Belts
+Incomplete Passenger Cars - Body Type & Brake System
+Position 8 (1981-1995 for North America)
+Code
+Body Type & Application
+Brake System
+K
+2DR convertible (Celica '84-'85, '87-'89, '91-'93, '95)
+Hydraulic Brakes
+Body Type & Drive Wheels 1981-1995
+[
+edit
+|
+edit source
+]
+Multi-Purpose Passenger Vehicles
+Position 8 (1981-1995 for North America)
+VIN Code
+Description
+C
+Hardtop [2DR] ('81-'83 Land Cruiser 40 Series)
+G
+Wagon [4DR] ('81-'90 Land Cruiser 60 Series)
+J
+2DR Wagon 4WD ('90-'91 4Runner)
+R
+4DR Wagon 2WD ('91-'95 Previa)
+S
+4DR Wagon 4WD ('91-'95 Previa All-Trac)
+V
+Van ('84-'85 Van)
+V
+4DR Wagon 2WD ('90-'95 4Runner)
+W
+Wagon ('84-'89 4Runner, '86-'89 Van)
+W
+4DR Wagon 4WD ('90-'95 4Runner, '91-'95 Land Cruiser)
+Series (Grade) & Brake System
+[
+edit
+|
+edit source
+]
+Light Duty Trucks & Incomplete Vehicles:
+Position 8
+(1981-1995 for North America)
+All have hydraulic brakes.
+VIN Code
+Description
+A
+Pickup 1/2 Ton [base model] [fuel injection] ('88, '90-'95), T100 [base model] 1/2 Ton V6 ('93), T100 DX 1/2 Ton ('94)
+B
+Pickup 1/2 Ton [base model] Turbo ('86-'87), T100 [base model] One Ton ('93), T100 DX One Ton ('94), Tacoma [base model] 2.4L 2wd ('95)
+C
+Pickup 1/2 Ton [base model] V6 ('88), T100 SR5 1/2 Ton ('93-'94), Tacoma [base model] 2.7L 4wd ('95)
+D
+Pickup 1/2 Ton Deluxe ('81-'83), Pickup 1/2 Ton Deluxe w/carbureted gas engine ('84-'90), Pickup 1/2 Ton Deluxe w/diesel engine ('84-'85),
+Pickup - Camper Chassis Cab w/single rear wheels [carburetor] ('81-'84), Pickup - Camper Chassis Cab w/single rear wheels [fuel injection] ('85),
+Pickup 1/2 Ton Deluxe V6 ('91-'95), 4Runner - truck version [base model] ('84-'86), 4Runner - truck version Deluxe ('87-'89),
+T100 [base model] 1/2 Ton 4-cyl. ('94-'95)
+E
+Pickup 3/4 Ton [base model] [carburetor] ('81-'84), Pickup 1 Ton [base model] [fuel injection] ('85-'88), T100 DX 1/2 Ton ('95)
+F
+Tacoma V6 [base model] ('95), T100 SR5 1/2 Ton ('95)
+G
+Pickup 1/2 Ton SR5 Turbo ('85-'88), Pickup 1/2 Ton SR5 V6 ('89-'95), T100 DX One Ton ('95)
+H
+T100 [base model] 1/2 Ton V6 ('95)
+K
+Tacoma SR5 V6 ('95)
+M
+Pickup 1/2 Ton SR5 V6 ('88), 4Runner - truck version SR5 V6 ('88)
+N
+Pickup 1/2 Ton Deluxe V6 ('88), Pickup 1 Ton [base model] [V6] ('89-'92), 4Runner - truck version Deluxe V6 ('89)
+P
+Pickup 1/2 Ton Deluxe w/fuel injected engine ('85-'90), Pickup 1/2 Ton Deluxe 4-cyl. ('91-'95)
+R
+Pickup 1/2 Ton [base model] [carburetor] ('81-'90), Pickup - Commercial Chassis Cab w/single rear wheels [carburetor] ('81-'84),
+Pickup - Commercial Chassis Cab w/single rear wheels [fuel injection] ('85-'90)
+S
+Pickup 1/2 Ton SR5 ('81-'83), Pickup 1/2 Ton SR5 2wd w/fuel injected engine ('84), Pickup 1/2 Ton SR5 4wd w/carbureted engine ('84),
+Pickup 1/2 Ton SR5 w/fuel injected engine ('85-'90), 4Runner - truck version SR5 [4-cyl.] ('87-'88)
+T
+Pickup - Commercial Chassis Cab w/dual rear wheels [fuel injection] ('86-'93)
+U
+Pickup - Camper Chassis Cab w/dual rear wheels [fuel injection] ('86-'88)
+V
+Van [Cargo van version] ('84-'89), Land Cruiser 60 Series 4-door Wagon - truck version ('87)
+VIN positions
+[
+edit
+|
+edit source
+]
+Country of origin
+[
+edit
+|
+edit source
+]
+Position 1
+Code
+Description
+1
+USA
+2
+Canada
+3
+Mexico
+4
+USA
+5
+USA
+6
+Australia
+7 (7A-7E)
+New Zealand
+7 (7F-70)
+USA
+8 (8A-8E)
+Argentina
+9 (9A-9E, 93-99)
+Brazil
+A (AA-AH)
+South Africa
+J
+Japan
+K
+South Korea
+L
+China
+M (MA-ME, MY-M0)
+India
+M (MF-MK)
+Indonesia
+M (ML-MR)
+Thailand
+N (NL-NR)
+Turkey
+P (PA-PE)
+Philippines
+P (PL-PR)
+Malaysia
+R (RF-RK)
+Taiwan
+R (RL-RP)
+Vietnam
+S (SA-SM)
+United Kingdom
+T (TW-T2)
+Portugal
+V (VF-VR)
+France
+W
+Germany
+X (XS-XW, XZ-X0)
+Russia
+Y (YA-YE)
+Belgium
+Second letter or number in parentheses is from position 2 of VIN. The characters in parentheses represent the range assigned to that particular country.
+Manufacturer (Japan/North America)
+[
+edit
+|
+edit source
+]
+Position 2
+Code
+Description
+F
+Fuji Heavy Industries LTD
+G
+GM
+M
+Mazda (Mexico)
+M
+Mazda Toyota Manufacturing USA
+N
+NUMMI (Toyota car)
+T
+NUMMI (Toyota truck)
+T
+Toyota
+Y
+Toyota (Mississippi, USA)
+8
+Toyota (Lexus - Kentucky, USA)
+Vehicle Type
+[
+edit
+|
+edit source
+]
+Position 3-Japan built models
+Code
+Description
+D,K,N,X,1,2,7
+Passenger Car
+A,B,F,4
+Truck
+G
+Bus
+E,L,M,3
+Multipurpose Passenger Vehicle (SUV)
+5
+Incomplete Vehicle (typically a convertible)
+Body
+[
+edit
+|
+edit source
+]
+Position 4 (1996-present for North America, 2002-present for the rest of the world, may be incorrect for most recent ones)
+Code
+Description
+A
+2DR Sedan 2WD
+B
+4DR Sedan 2WD / Standard Cab Truck, 4WD, Standard Bed, Full-Size Frame
+C
+2DR Coupe 2WD
+D
+3DR Liftback Coupe 2WD (Celica, Supra) / Double Cab Truck, 4WD, Extra Long Bed, Full-Size Frame
+E
+4DR Station Wagon 2WD (Corolla, Camry) / MPV, Double Cab Truck, 2WD, Extra Long Bed, Full-Size Frame
+F
+2DR Convertible 2WD
+G
+4DR Wagon 2WD
+H
+4DR Wagon 4WD
+J
+3DR Liftback 2WD (Yaris) / 5DR Van AWD / Double Cab Truck, 2WD, Long Bed, Small Frame
+K
+5DR Liftback 2WD (Yaris, Prius) / 5DR Wagon 2WD (Matrix) / Double Cab Truck, 2WD, Extra Long Bed, Small Frame
+L
+5DR Wagon 4WD (Matrix) / Double Cab Truck, 4WD, Long Bed, Small Frame
+M
+5DR Door Van 2WD / Double Cab Truck, 4WD, Extra Long Bed, Small Frame
+N
+Standard Cab 1/2 Ton Truck, 2WD, Short Bed, Full-Size Frame
+P
+Standard Cab 1/2 Ton Truck, 4WD, Short Bed, Full-Size Frame
+R
+Standard Cab Truck, 4WD, Standard Bed, Full-Size Frame
+S
+3DR Liftback 4WD
+T
+Extra Cab/Access Pickup, 2WD, Long Bed Small Frame
+U
+Extra Cab/Access Pickup, 4WD, Long Bed Small Frame
+W
+Extra Cab/Access Pickup, 4WD, Long Bed Small Frame TRD
+X
+5DR Sport Utility Wagon
+Y
+Sport Van
+Z
+5DR Wagon 2WD
+Engine
+[
+edit
+|
+edit source
+]
+Position 4
+(before 1996 for North America)
+Code
+Description
+A
+3A-C 1.5L SOHC, 8V Carb. I4 ('81-'82 Corolla Tercel, '83-'86 Tercel, '87-'88 Tercel wagon)
+A
+4A-C 1.6L SOHC, 8V Carb. I4 ('83 Corolla, '84-'87 Corolla Sport DX, SR5)
+A
+4A-LC 1.6L SOHC, 8V Carb. I4 ('84-'87 Corolla, '87-'88 Corolla FX)
+A
+4A-GEC 1.6L DOHC, 16V EFI I4 w/high-performance cylinder head developed by Yamaha ('85-'87 Corolla Sport GT-S)
+A
+4A-GE 1.6L DOHC, 16V EFI I4 w/high-performance cylinder head developed by Yamaha ('88-'91 Corolla GT-S)
+A
+4A-F 1.6L DOHC, 16V carb. I4 ('88-'89 Corolla)
+A
+4A-FE 1.6L DOHC, 16V EFI I4 ('88-'95 Corolla, '90-'93 Celica ST)
+A
+4A-GELC 1.6L DOHC, 16V I4 w/high-performance cylinder head developed by Yamaha ('85-'89 MR2, '87-'88 Corolla FX16)
+A
+4A-GZE 1.6L DOHC, 16V Supercharged, IC I4 w/high-performance cylinder head developed by Yamaha ('88-'89 MR2 Supercharged)
+A
+7A-FE 1.8L DOHC, 16V I4 ('93-'95 Corolla, '94-'95 Celica ST)
+A
+2TZ-FE 2.4L I4 ('91-'95 Previa)
+A
+2TZ-FZE 2.4L Supercharged, IC I4 ('94-'95 Previa S/C)
+C
+1C-LC 1.8L diesel indirect injection I4 ('84-'85 Corolla)
+C
+1C-TLC 1.8L turbodiesel Indirect injection I4 ('84-'85 Camry)
+C
+2C-TLC 2.0L turbodiesel Indirect injection I4 ('86 Camry)
+D
+1FZ-FE 4.5L I6 ('93-'95 Land Cruiser)
+E
+3E 1.5L SOHC, 12V carb. I4 ('87-'90 Tercel)
+E
+3E-E 1.5L SOHC, 12V EFI I4 ('90-'94 Tercel)
+E
+5E-FE 1.5L DOHC, 16V I4 ('95 Tercel, '92-'95 Paseo)
+F
+2F 4.2L 2-bbl. Carb. OHV I6 ('81-'87 Land Cruiser)
+F
+3F-E 4.0L EFI OHV I6 ('88-'92 Land Cruiser)
+G
+1MZ-FE 3.0L V6 ('94-'95 Camry V6, Lexus ES300, '95 Avalon)
+J
+2JZ-GE 3.0L I6 ('93-'95 Supra, '93-'95 Lexus GS300, '92-'95 SC300)
+J
+2JZ-GTE 3.0L Twin Turbo, IC I6 ('93-'95 Supra Turbo)
+K
+4K-C 1.3L Carb. OHV I4 ('81-'82 Starlet)
+K
+4K-E 1.3L EFI OHV I4 ('83-'84 Starlet)
+L
+L 2.2L diesel Indirect injection I4 ('81-'83 Pickup)
+L
+2L 2.4L diesel Indirect injection I4 ('84-'85 Pickup)
+L
+2L-T 2.4L turbodiesel Indirect injection I4 ('85 Pickup)
+M
+5M-E 2.8L SOHC, 12V I6 ('81 Celica Supra, '81-'82 Cressida)
+M
+5M-GE 2.8L DOHC, 12V I6 ('82-'86 Celica Supra, '83-'88 Cressida)
+M
+7M-GE 3.0L DOHC, 24V I6 ('86 1/2-'92 Supra, '89-'92 Cressida)
+M
+7M-GTE 3.0L DOHC, 24V turbo IC I6 ('87-'92 Supra Turbo)
+R
+22R 2.4L 2-bbl SOHC, 8V Carb. I4 ('81-'82 Celica, Corona, '81-'90 Pickup, '84 4Runner)
+R
+22R-E/EC 2.4L SOHC, 8V EFI I4 (EC has CA emissions) ('83-'85 Celica, '84-'95 Pickup, '85-'95 4Runner)
+R
+22R-TE/EC 2.4L SOHC, 8V EFI Turbo I4 (EC has CA emissions) ('85-'88 Pickup, '86-'87 4Runner)
+S
+2S-ELC 2.0L I4 ('83-'86 Camry, '86 Celica ST/GT)
+S
+3S-GELC 2.0L I4 w/high-performance cylinder head developed by Yamaha ('86-'89 Celica GT-S)
+S
+3S-FE 2.0L I4 ('87-'89 Celica ST/GT, '87-'91 Camry)
+S
+5S-FE 2.2L I4 ('90-'93 Celica GT/GT-S, '94-'95 Celica GT, '91-'95 MR2, '92-'95 Camry)
+S
+3S-GTE 2.0L Turbo, IC I4 ('88, '90-'93 Celica All-Trac Turbo, '91-'95 MR2 Turbo)
+T
+3T-C 1.8L OHV Carb. I4 ('81-'82 Corolla)
+U
+1UZ-FE 4.0L V8 ('90-'95 LS400, '92-'95 SC400)
+U
+2RZ-FE 2.4L I4 ('95 Tacoma)
+U
+3RZ-FE 2.7L I4 ('94-'95 T100, '95 Tacoma)
+V
+2VZ-FE 2.5L DOHC, 24V V6 ('88-'91 Camry V6, '90-'91 Lexus ES250)
+V
+3VZ-E 3.0L SOHC, 12V V6 ('88-'95 4Runner, Pickup, '93-'94 T100)
+V
+3VZ-FE 3.0L DOHC, 24V V6 ('92-'93 Camry V6, Lexus ES300)
+V
+5VZ-FE 3.4L DOHC, 24V V6 ('95 T100, '95 Tacoma)
+Y
+3Y-EC 2.0L EFI OHV I4 ('84-'85 Van)
+Y
+4Y-EC 2.2L EFI OHV I4 ('86-'89 Van)
+Position 5
+(1996-present for North America, 2002-present for the rest of the world)
+Code
+Description
+A
+4A-FE 1.6L I4 ('96-'97 Corolla)
+A
+3MZ-FE 3.3L V6 ('04-'06 Camry SE V6, Sienna, Lexus ES330, RX330, '04-'08 Camry Solara)
+A
+2ZR-FXE + 1NM (Prius 2wd) 1.8L Atkinson cycle VVT-i I4 Hybrid ('16 Prius)
+B
+7A-FE 1.8L I4 ('96-'97 Corolla, Celica ST)
+B
+1NZ-FXE 1.5L Atkinson cycle VVT-i I4 Hybrid ('04-'09 Prius)
+B
+2AZ-FXE + 2JM 2.4L Atkinson cycle I4 Hybrid ('07-'09 Camry Hybrid)
+C
+5E-FE 1.5L I4 ('96-'98 & '99 in Canada Tercel, '96-'97 & '98-'99 in Canada Paseo)
+C
+2GR-FSE + 1KM 3.5L Dual VVT-i D-4S V6 Hybrid ('07-'09 Lexus GS450h)
+D
+2JZ-GE 3.0L I6 ('96-'98 Supra, '96-'05 Lexus GS300, '96-'00 SC300, '01-'05 IS300)
+D
+2AZ-FE 2.4L I4 ('01-'07 Highlander, '04-'08 RAV4)
+E
+2JZ-GTE 3.0L Twin Turbo, IC I6 ('96-'98 Supra Turbo)
+E
+2AZ-FE 2.4L I4 ('02-'09 Camry, '02-'08 Camry Solara, '05-'09 Scion tC, '08-'09 Scion xB, '09 Corolla XRS, Matrix S, XRS)
+E
+2GR-FSE 3.5L Dual VVT-i D-4S V6 ('06-'09 IS350, '07-'09 Lexus GS350)
+E
+1AR-FE 2.7L I4 ('09 Venza, Highlander)
+F
+1MZ-FE 3.0L V6 ('96-'04 Camry V6, '96-'04 Avalon, '96-'03 Lexus ES300, '98-'03 Sienna, '99-'03 Camry Solara, '99-'03 Lexus RX300, '01-'03 Highlander)
+F
+2AR-FE 2.5L I4 ('09 RAV4)
+G
+5S-FE 2.2L I4 ('96-'99 Celica GT, '96-'01 Camry, '99-'01 Camry Solara)
+H
+1AZ-FE 2.0L I4 ('01-'03 RAV4)
+H
+3GR-FSE 3.0L Dual VVT-i Direct Inj. V6 ('06 Lexus GS300)
+H
+1UZ-FE 4.0L V8 ('98-'00 GS400, '96-'00 LS400, '96-'00 SC400)
+J
+1NR-FE 1.3L I4 ('12-'15 Scion iQ)
+J
+1FZ-FE 4.5L I6 ('96-'97 Land Cruiser, '96-'97 LX450)
+J
+2GR-FE 3.5L Dual VVT-i V6 ('07-'09 Lexus ES350)
+K
+2TZ-FZE 2.4L Supercharged, IC I4 ('96-'97 Previa S/C)
+K
+1NZ-FXE 1.5L Atkinson cycle VVT-i I4 Hybrid ('01-'03 Prius)
+K
+4GR-FSE 2.5L Dual VVT-i Direct Inj. V6 ('06-'09 IS250)
+K
+2GR-FE 3.5L Dual VVT-i V6 ('05-'09 Avalon, '06-'09 RAV4, '07-'09 Camry V6, Sienna, Lexus RX350, '09 Venza)
+L
+2RZ-FE 2.4L I4 ('96-'04 Tacoma)
+L
+3UZ-FE 4.3L V8 ('01-'05 GS430)
+L
+1UR-FSE 4.6L VVT-iE V8 ('08-'09 GS460, '07-'09 LS460)
+L
+2ZR-FE 1.8L Dual VVT-i I4 (For Japanese-built '09 Corolla)
+M
+3RZ-FE 2.7L I4 ('96-'98 T100, '96-'04 Tacoma, '96-'00 4Runner)
+N
+5S-FNE (CNG 2.2L I4) ('00-'01 Camry)
+N
+3UZ-FE 4.3L V8 ('06-'07 GS430, '01-'06 LS430, '02-'09 SC430)
+N
+5VZ-FE 3.4L V6 ('96-'02 4Runner, '96-'04 Tacoma, '96-'98 T100, '00-'04 Tundra)
+N
+2ZR-FXE Hybrid 1.8L Atkinson cycle VVT-i I4 Hybrid ('10-'15 Prius)
+P
+3S-FE 2.0L I4 ('96-'00 RAV4)
+P
+3MZ-FE 3.3L V6 ('04-'07 Highlander)
+P
+2UR-GSE 5.0L V8 ('08-'09 Lexus IS F)
+R
+1ZZ-FE 1.8L VVT-i I4 ('98-'08 Corolla, '00-'05 Celica GT, '00-'05 MR2 Spyder, '03-'08 Matrix)
+S
+2GR-FE 3.5L Dual VVT-i V6 ('08-'09 Highlander)
+T
+1NZ-FE 1.5L I4 ('00-'05 Echo, '04-'06 Scion xA, xB, '07-'09 Yaris)
+T
+2UZ-FE 4.7L V8 ('98-'07 Land Cruiser, '00-'09 Tundra, '01-'09 Sequoia, '03-'09 4Runner, '03-'09 Lexus GX470, '98-'07 LX470)
+U
+1GR-FE 4.0L VVT-i V6 ('03-'09 4Runner, '05-'09 Tacoma, '05-'09 Tundra, '07-'09 FJ Cruiser)
+U
+2ZR-FE 1.8L Dual VVT-i I4 (For US- & Canadian-built '09 Corolla, Matrix but also for '08-'09 Scion XD)
+U
+2UR-FSE + 1KM 5.0L VVT-iE D4S V8 Hybrid ('08-'09 LS600hL)
+V
+3UR-FE 5.7L Dual VVT-i V8 ('07-'09 Tundra)
+W
+3MZ-FE + 1JM, 2FM 3.3L V6 Hybrid ('06-'09 Highlander Hybrid, '06-'08 RX400h)
+W
+3UR-FBE 5.7L Dual VVT-i Flex-Fuel V8 Gas/E85 ('09 Tundra)
+X
+2TR-FE 2.7L I4 ('05-'09 Tacoma)
+Y
+2ZZ-GE 1.8L VVTL-i I4 ('00-'05 Celica GT-S, '03-'06 Matrix XRS, '05-'06 Corolla XRS)
+Y
+3UR-FE 5.7L Dual VVT-i V8 ('08-'09 Land Cruiser, Sequoia, '08-'09 LX570)
+Z
+2GR-FKS 3.5L V6 '15+
+9
+2ZR-FXE + 1NM + 1MM (Prius Awd) 1.8L Atkinson cycle VVT-i I4 Hybrid
+L
+Electric M7M5 -- RAV4 EV '12-'14
+S
+Electric 1BM -- RAV4 EV ('98-'03)
+Non-North American Engines
+Position 5
+(2002-present for the rest of the world)
+Code
+Description
+A
+2AD-FTV (2005+)
+B
+1HZ, 1HD
+B
+2AD-FHV (2005+)
+C
+2C, 2CT, 2CT-E
+J
+1AZ-FSE
+L
+2SZ-FE
+P
+2AZ-FSE
+V
+1VD-FTV
+W
+1CD-FTV
+W
+2NZ-FE
+Z
+1ZZ-FE
+Z
+3ZZ-FE
+Series
+[
+edit
+|
+edit source
+]
+Position 6
+(1996-present for North America, 2002-present for the rest of the world)
+Based on the Chassis code given for the car.
+Code
+Description
+0
+Toyota Land Cruiser J1
+0
+0/J1
+0
+5
+2
+Toyota Land Cruiser Prado J1
+2
+0
+Restraint
+[
+edit
+|
+edit source
+]
+Position 7
+(1996-present for North America, 2002-present for the rest of the world)
+Code
+Description
+0
+Manual Belts w/2 Airbags and Side Curtain Airbags
+1
+Manual Belt / 1 STD (North America), No Airbags (International)
+2
+Manual Belts w/2 Airbags (North America), 1 Airbag (Driver Seat) (International)
+3
+Manual Belts w/2 Airbags (North America), 2 Front Airbags (International)
+6
+Manual Belts w/2 Airbags, Side Airbags, Side Curtain Shield Airbags, and Knee Airbag (Driver Seat)
+7
+Manual Belts w/2 Airbags and Knee Airbag (Driver Seat)
+8
+Manual Belts w/2 Airbags and Side Airbags
+9
+Manual Belts w/2 Airbags, Side Airbags, and Front Curtain Airbags.
+D
+Manual Belts w/2 Airbags, Side Airbags, Three-Row Curtain Shield Airbags, and Knee Airbag
+F
+Manual Belts w/2 Airbags, Side Airbags, and Knee Airbag
+F
+Manual Belts w/2 Airbags, Side Airbags, Side Curtain Shield Airbags, and Knee Airbag (Driver Seat)
+Model/Platform
+[
+edit
+|
+edit source
+]
+Position 8
+(1996-present for North America, 2002-present for the rest of the world)
+Code
+Description
+0
+MR2 / MR2 Spyder
+1
+Tundra / Tundra
+3
+Echo / Yaris Verso
+4
+Yaris / Scion xA / Scion xB / Scion xD / Urban Cruiser
+6
+Hilux
+7
+Scion tC
+A
+Highlander / Sequoia / Celica RWD / Supra
+B
+Avalon / Avensis Verso / Ipsum?
+C
+Sienna / Previa / Aygo
+D
+T100
+E
+Corolla / Matrix / Auris
+F
+FJ Cruiser
+G
+Hilux / Fortuner
+H
+Highlander
+J
+Land Cruiser / Land Cruiser Prado
+K
+Camry / Aurion (TRD)
+L
+Tercel / Paseo / Avensis
+M
+Previa
+N
+Tacoma and older trucks as well
+P
+Camry Solara
+R
+4Runner / Corolla Verso
+S
+Fortuner
+T
+Celica FWD
+U
+Prius
+V
+RAV4
+W
+MR2 (non-spyder models)
+X
+Cressida
+Check-digit
+[
+1
+]
+[
+edit
+|
+edit source
+]
+Position 9 (Check-digit that identifies the VIN as being authorized by the manufacturer).
+Model year
+[
+edit
+|
+edit source
+]
+Position 10
+(International-market vehicles may have a 0 in this position)
+Code
+Year
+L
+1990
+M
+1991
+N
+1992
+P
+1993
+R
+1994
+S
+1995
+T
+1996
+V
+1997
+W
+1998
+X
+1999
+Y
+2000
+1
+2001
+2
+2002
+3
+2003
+4
+2004
+5
+2005
+6
+2006
+7
+2007
+8
+2008
+9
+2009
+A
+2010
+B
+2011
+C
+2012
+D
+2013
+E
+2014
+F
+2015
+G
+2016
+H
+2017
+J
+2018
+K
+2019
+L
+2020
+M
+2021
+N
+2022
+P
+2023
+R
+2024
+S
+2025
+Plant
+[
+edit
+|
+edit source
+]
+Position 11
+VIN Code
+Description
+0-9 (All numeric)
+Japan
+7
+Lordstown, OH, US (GM plant) (Toyota Cavalier)
+A
+Motomachi plant, Toyota City, Japan
+A
+Onnaing-Valenciennes, France (
+TMMF
+) (Yaris hatch - US: '14-'18, Canada: '14-'19)
+C
+Cambridge, ON, Canada (TMMC)
+D
+Nagakusa plant, Obu, Japan (Toyota Industries plant)
+E
+Burnaston, Derbyshire, England, United Kingdom (TMMUK)
+J
+Takaoka plant, Toyota City, Japan
+J
+Vigo, Spain (PSA/Stellantis plant) (ProAce City)
+K
+Hamura, Japan (Hino Motors plant)
+L
+Miyagi plant, Ohira, Miyagi pref., Japan (Central Motor Co./Toyota Motor East Japan plant)
+M
+Tijuana, Baja CA, Mexico (TMMBC)
+M
+Atessa, Italy (PSA/Stellantis plant) (ProAce Max diesel)
+N
+Kolín, Czech Republic (
+TPCA/TMMCZ
+)
+P
+Blue Springs, MS, US (TMMMS)
+R
+Lafayette, IN, US (Subaru of Indiana Automotive) (Camry '07-'16)
+R
+Adapazari, Sakarya province, Turkey (TMMT) (US/Canada: C-HR '18-'22)
+S
+Princeton, IN, US (TMMI)
+T
+Apaseo el Grande, Guanajuato, Mexico (TMMGT)
+U
+Georgetown, KY, US (TMMK)
+V
+Huntsville, AL, US (MTM USA)
+W
+Woodstock, ON, Canada (TMMC)
+W
+Graz, Austria (Magna Steyr) (GR Supra '20-)
+X
+San Antonio, TX, US (TMMTX)
+X
+Altona, Victoria, Australia (Toyota Australia)
+Y
+Salamanca, Guanajuato, Mexico (Mazda de Mexico Vehicle Operation)
+(Scion iA '16, Yaris iA '17-'18, Yaris sedan '19-'20, Yaris hatch '20)
+Z
+Fremont, CA, US (NUMMI)
+Z
+Lieu-Saint-Amand, France (Sevel Nord - PSA/Stellantis plant) (ProAce)
+Japanese Plants
+Plant owner/operator
+Name & Location of plant
+Vehicles produced
+VIN Code used
+(Pos. 11)
+Toyota Motor Corp.
+Takaoka plant. Toyota City, Aichi prefecture, Japan
+Tercel ('85-'86)
+0-9
+Toyota Motor Corp.
+Takaoka plant. Toyota City, Aichi prefecture, Japan
+Tercel ('87-'90)
+0-6
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+Tercel ('87-'89)
+7-9
+Toyota Motor Corp.
+Takaoka plant. Toyota City, Aichi prefecture, Japan
+Tercel ('91-'95), Paseo ('92-'99), Echo ('00-'05),
+Scion xA ('04-'06), xB ('04)
+0-9
+Toyota Motor Corp.
+Takaoka plant. Toyota City, Aichi prefecture, Japan
+Tercel ('96-'99)
+0-8
+Toyota Motor Corp.
+Takaoka plant. Toyota City, Aichi prefecture, Japan
+Scion xD ('08-'10), Scion iQ ('12-'15),
+Scion iQ EV ('13), Scion xB ('12-'15)
+J
+Kanto Auto Works, Ltd. (merged into Toyota Motor East Japan, Inc. in '12)
+Iwate plant. Kanegasaki, Iwate prefecture, Japan
+Yaris sedan ('07-'12), Scion xB ('08-'12),
+Scion xD ('10-'14), Prius C ('12-'19), C-HR ('18-'22)
+1
+Central Motor Co., Ltd. (merged into Toyota Motor East Japan, Inc. in '12)
+Sagamihara plant. Sagamihara, Kanagawa prefecture, Japan
+Yaris sedan ('07-'11)
+4
+Toyota Industries Corp.
+Nagakusa plant. Obu, Aichi prefecture, Japan
+Yaris hatchback ('07-'11)
+5-8
+Central Motor Co., Ltd. (merged into Toyota Motor East Japan, Inc. in '12)
+Miyagi plant. Ohira, Miyagi prefecture, Japan
+Yaris sedan ('11-'12)
+L
+Toyota Industries Corp.
+Nagakusa plant. Obu, Aichi prefecture, Japan
+Yaris hatchback ('12-'14)
+D
+Toyota Motor Corp.
+Takaoka plant. Toyota City, Aichi prefecture, Japan
+Scion xB ('05)
+0-3
+Central Motor Co., Ltd. (merged into Toyota Motor East Japan, Inc. in '12)
+Sagamihara plant. Sagamihara, Kanagawa prefecture, Japan
+Scion xB ('05-'06)
+4-9
+Toyota Motor Corp.
+Takaoka plant. Toyota City, Aichi prefecture, Japan
+Corolla [fwd 4-d/5-d] ('84-'87)
+0-5
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Corolla Sport [rwd 2-d/3-d coupe] ('84-'87)
+0-4
+Toyota Motor Corp.
+Takaoka plant. Toyota City, Aichi prefecture, Japan
+Corolla ('88-'90), Corolla coupe ('91),
+Corolla sedan & 2wd wagon ('91-'92)
+0-4
+Toyoda Automatic Loom Works, Ltd. (renamed Toyota Industries Corp. in '01)
+Nagakusa plant. Obu, Aichi prefecture, Japan
+Corolla All-Trac 4wd wagon ('91-'92)
+3
+Toyota Motor Corp.
+Takaoka plant. Toyota City, Aichi prefecture, Japan
+Corolla ('93-'96)
+0-2
+Toyota Motor Corp.
+Takaoka plant. Toyota City, Aichi prefecture, Japan
+Corolla ('03-'08)
+0-1
+Toyota Industries Corp.
+Nagakusa plant. Obu, Aichi prefecture, Japan
+Corolla ('03-'06) [No '06 found in US]
+2-9
+Toyota Motor Corp.
+Takaoka plant. Toyota City, Aichi prefecture, Japan
+Corolla ('09)
+2, J
+Toyota Motor Corp.
+Takaoka plant. Toyota City, Aichi prefecture, Japan
+Corolla sedan ('10-'11, '13, '20-'25), Scion iM ('16), Corolla iM ('17-'18)
+J
+Kanto Auto Works, Ltd. (merged into Toyota Motor East Japan, Inc. in '12)
+Higashi-Fuji plant. Susono, Shizuoka prefecture, Japan
+Corolla ('09-'12)
+9
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Corolla hatchback ('19-'25), Corolla sedan ('22-'25)
+3
+Toyota Motor Corp.
+Motomachi plant. Toyota City, Aichi prefecture, Japan
+GR Corolla ('23-'25)
+A
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Celica ('85)
+0-3
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Celica ('86-'87)
+7-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Celica ('88-'89)
+7-8 (ST, GT, GT-S)
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Celica ('88)
+0-9 (All-Trac Turbo)
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Celica ('90-'99)
+0-9
+Kanto Auto Works, Ltd. (merged into Toyota Motor East Japan, Inc. in '12)
+Higashi-Fuji plant. Susono, Shizuoka prefecture, Japan
+Celica ('00-'05)
+0-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Celica Supra ('85-'86), Supra ('86 1/2-'92)
+0-9
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Celica ('85)
+4-9
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Celica ('86-'87)
+0-6 (ST, GT),
+0-3 (GT-S)
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Celica ('88-'89)
+0-3 (ST, GT, GT-S)
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Scion tC ('05-'10)
+0-9
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Camry ('85-'87), Camry V6 ('88-'91),
+Camry 4-cyl. All-Trac 4wd ('89-'91),
+Lexus ES250 ('90-'91)
+0-9
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Camry 4-cyl. 2wd ('88-'91)
+0-8
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Camry ('92-'93), Camry 4-cyl. ('94), Camry ('95-'96),
+Lexus ES300 ('92-'93, '95-'96)
+0-6
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Camry V6 ('94), Lexus ES300 ('94)
+0-9
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Camry ('97), Camry 4-cyl. ('98-'01), Lexus ES300 ('97)
+0-5
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Camry 4-cyl. ('02)
+0-9
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Camry 4-cyl. ('03-'06)
+0-3
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Camry V6 ('98-'06), Lexus ES300 ('98-'03),
+ES330 ('04-'05)
+0-4
+Toyota Motor Kyushu, Inc.
+Miyata plant. Miyawaka, Fukuoka prefecture, Japan
+Lexus ES300 ('98-'01)
+5
+Toyota Motor Kyushu, Inc.
+Miyata plant. Miyawaka, Fukuoka prefecture, Japan
+Lexus ES300 ('02)
+5-9
+Toyota Motor Kyushu, Inc.
+Miyata plant. Miyawaka, Fukuoka prefecture, Japan
+Lexus ES300 ('03)
+5-6
+Kanto Auto Works, Ltd. (merged into Toyota Motor East Japan, Inc. in '12)
+Iwate plant. Kanegasaki, Iwate prefecture, Japan
+Lexus ES330 ('04-'06), Camry SE V6 [3.3L] ('05)
+5-6
+Toyota Motor Kyushu, Inc.
+Miyata plant. Miyawaka, Fukuoka prefecture, Japan
+Camry LE V6, XLE V6 [3.0L] ('05)
+5
+Kanto Auto Works, Ltd. (merged into Toyota Motor East Japan, Inc. in '12)
+Iwate plant. Kanegasaki, Iwate prefecture, Japan
+Camry LE V6, XLE V6 [3.0L] ('05)
+6
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Camry ('07-'11, '18-'19), Scion tC ('11-'15),
+Crown ('23-'25), Crown Signia ('25-)
+3
+Toyota Motor Corp.
+Takaoka plant. Toyota City, Aichi prefecture, Japan
+Scion tC ('15-'16)
+J
+Toyota Motor Kyushu, Inc.
+Miyata plant. Miyawaka, Fukuoka prefecture, Japan
+Lexus ES350 ('07-'21), ES300h ('13-'20),
+HS250h ('10-'12), CT200h ('11-'17), UX200 ('19-'22), UX250h ('19-'24), UX300h ('25-)
+2
+Kanto Auto Works, Ltd. (merged into Toyota Motor East Japan, Inc. in '12)
+Iwate plant. Kanegasaki, Iwate prefecture, Japan
+Lexus IS300 ('01-'05)
+0-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Lexus IS250 ('06-'15), IS200t ('16-'17),
+IS300 RWD ('18-'19), IS300 AWD ('16-'19),
+IS350 ('06-'19), IS F ('08-'14), RC200t ('16-'17),
+RC300 RWD ('18-'19), RC300 AWD ('16-'19),
+RC350 ('15-'19), RC F ('15-'19)
+5
+Toyota Motor Kyushu, Inc.
+Miyata plant. Miyawaka, Fukuoka prefecture, Japan
+Lexus IS250, IS350 ('06-'13), IS250C/IS350C ('10-'15)
+2
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Lexus LS400 ('90-'00), LS430 ('01-'05),
+GS300 ('93-'05), GS400 ('98-'00), GS430 ('01-'05),
+GS300 Awd ('06), GS350 ('07-'11)
+0-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Lexus GS300 2wd ('06), GS430 ('06-'07),
+GS460 ('08-'11), GS450h ('07-'11, '13-'14),
+GS350 ('13-'14), LS430 ('06), LS460 ('07-'17),
+LS600hL ('08-'16), LS500 ('18-'19), LS500h ('18-'19)
+5
+Toyota Motor Corp.
+Motomachi plant. Toyota City, Aichi prefecture, Japan
+Lexus GS200t ('16-'17), GS300 ('18-'19),
+GS350 ('15-'20), GS450h ('15-'18), GS F ('16-'20),
+LC500 ('18-'19), LC500h ('18-'19), Mirai ('16-'26),
+Toyota bZ4X ('23-'25), Subaru Solterra ('23-'25),
+Lexus RZ450e ('23-'25), RZ300e ('24-'25)
+A
+Toyota Motor Corp.
+Motomachi plant. Toyota City, Aichi prefecture, Japan
+Cressida sedan ('85-'88), Cressida wagon ('85-'87)
+0-5 (sedan),
+0-9 (wagon)
+Toyota Motor Corp.
+Motomachi plant. Toyota City, Aichi prefecture, Japan
+Cressida ('89)
+0-9
+Toyota Motor Corp.
+Motomachi plant. Toyota City, Aichi prefecture, Japan
+Cressida ('90-'92)
+0-4
+Toyota Motor Corp.
+Motomachi plant. Toyota City, Aichi prefecture, Japan
+Supra ('93-'96), Lexus SC300/SC400 ('92-'96)
+0-9
+Toyota Motor Corp.
+Motomachi plant. Toyota City, Aichi prefecture, Japan
+Supra, Lexus SC300/SC400 ('97)
+0
+Kanto Auto Works, Ltd. (merged into Toyota Motor East Japan, Inc. in '12)
+Higashi-Fuji plant. Susono, Shizuoka prefecture, Japan
+Supra ('97-'98), Lexus SC300/SC400 ('97-'00)
+1-9
+Kanto Auto Works, Ltd. (merged into Toyota Motor East Japan, Inc. in '12)
+Higashi-Fuji plant. Susono, Shizuoka prefecture, Japan
+Lexus SC430 ('02-'05)
+0-9
+Kanto Auto Works, Ltd. (merged into Toyota Motor East Japan, Inc. in '12)
+Higashi-Fuji plant. Susono, Shizuoka prefecture, Japan
+Lexus SC430 ('06-'10)
+9
+Toyota Motor Corp.
+Motomachi plant. Toyota City, Aichi prefecture, Japan
+Lexus LFA ('12)
+1
+Central Motor Co., Ltd. (merged into Toyota Motor East Japan, Inc. in '12)
+Sagamihara plant. Sagamihara, Kanagawa prefecture, Japan
+MR2 ('85-'89, '91-'95), MR2 Spyder ('00-'05)
+0-9
+Toyota Motor Corp.
+Motomachi plant. Toyota City, Aichi prefecture, Japan
+Prius ('01-'03)
+0-9
+Toyota Motor Corp.
+Takaoka plant. Toyota City, Aichi prefecture, Japan
+Prius w/pos. 14-17 of VIN from 1001-2000 ('01)
+0
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Prius ('04-'05)
+0-9
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Prius ('06-'09, '16-'25)
+3
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Prius ('10-'15)
+0-2
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Prius Plug-in Hybrid ('12-'15, '25-), Prius Prime ('17-'24)
+3
+Toyota Auto Body Co., Ltd.
+Fujimatsu plant. Kariya, Aichi prefecture, Japan
+Prius ('06-'09)
+7
+Toyota Auto Body Co., Ltd.
+Fujimatsu plant. Kariya, Aichi prefecture, Japan
+Prius ('10-'13) [No '14 found in US]
+4-6
+Toyota Motor Corp.
+Tsutsumi plant. Toyota City, Aichi prefecture, Japan
+Prius V ('12-'14)
+3
+Toyota Motor Corp.
+Takaoka plant. Toyota City, Aichi prefecture, Japan
+Prius V ('14-'17 & '18 in Canada)
+J
+Toyota Auto Body Co., Ltd.
+Fujimatsu plant. Kariya, Aichi prefecture, Japan
+Van ('84-'86)
+5-9 (psgr. van),
+0-9 (cargo van)
+Toyota Auto Body Co., Ltd.
+Fujimatsu plant. Kariya, Aichi prefecture, Japan
+Van ('87-'89)
+5-9 (2wd),
+0-9 (4wd)
+Toyota Auto Body Co., Ltd.
+Fujimatsu plant. Kariya, Aichi prefecture, Japan
+Previa ('91-'97)
+0-9
+Toyota Motor Corp.
+Motomachi plant. Toyota City, Aichi prefecture, Japan
+RAV4 4-d ('96), RAV4 2-d ('96-'98, '00),
+RAV4 4wd ('99), RAV4 EV ('98-'03)
+0-9
+Toyota Motor Corp.
+Motomachi plant. Toyota City, Aichi prefecture, Japan
+RAV4 4-d ('97-'98, '00), RAV4 2wd ('99)
+0-6
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+RAV4 4-d ('97-'98, '00), RAV4 2wd ('99)
+7-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+RAV4 [2nd gen.] ('01)
+0-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+RAV4 [2nd/3rd gen.] ('02-'06)
+0-5
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+RAV4 ('07-'14)
+5
+Toyoda Automatic Loom Works, Ltd. (renamed Toyota Industries Corp. in '01)
+Nagakusa plant. Obu, Aichi prefecture, Japan
+RAV4 [2nd/3rd gen.] ('02-'08)
+6-9
+Toyota Industries Corp.
+Nagakusa plant. Obu, Aichi prefecture, Japan
+RAV4 ('09)
+6 (until 7/31/08),
+D (from 8/1/08)
+Toyota Industries Corp.
+Nagakusa plant. Obu, Aichi prefecture, Japan
+RAV4 ('10-'25), RAV4 Hybrid ('16-'25),
+RAV4 Prime ('21-'24), RAV4 Plug-in Hybrid ('25)
+D
+Toyota Motor Corp.
+Takaoka plant. Toyota City, Aichi prefecture, Japan
+RAV4 ('14-'25), RAV4 Hybrid ('19-'25), Venza ('21-'24)
+J
+Toyota Motor Kyushu, Inc.
+Miyata plant. Miyawaka, Fukuoka prefecture, Japan
+Lexus RX300 ('99-'03), RX330 ('04-'06),
+RX350 ('07-'09), RX400h ('06), Highlander ('01-'07), Highlander Hybrid ('06-'07)
+0-9
+Toyota Motor Kyushu, Inc.
+Miyata plant. Miyawaka, Fukuoka prefecture, Japan
+Lexus RX400h ('07-'08), RX350 ('10-'19, '21-'25),
+RX350L ('18-'22), RX450h ('10-'15), RX450hL ('18-'22),
+RX450h+ ('24-'25), NX200t ('15-'17), NX300 ('18-'21),
+NX300h ('15-'21), NX250 ('22-'25), NX350 ('22-'25),
+NX350h ('22-'25), NX450h+ ('22-'25),
+Highlander ('08-'10), Highlander Hybrid ('08-'13)
+2
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Lexus NX300 ('20-'21), NX300h ('20-'21),
+NX250 ('22-'25), NX350 ('22-'25), NX350h ('22-'25)
+5
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+4Runner ('84-'85)
+5-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+4Runner ('86-'88)
+0-4
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+4Runner ('89)
+0-3 (4-cyl.),
+0-4 (V6)
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+4Runner 2wd ('90-'95)
+0-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+4Runner 4-cyl. 4wd ('90-'94)
+0-6
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+4Runner 4-cyl. 4wd ('95)
+0-4, 6
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+4Runner V6 4wd ('90)
+0-8
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+4Runner V6 4wd ('91-'92)
+0-6, 8
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+4Runner V6 4wd ('93-'94)
+0-5, 8
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+4Runner V6 4wd ('95)
+0-4, 8
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+4Runner ('96-'97)
+0-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+4Runner 2wd ('98-'02)
+0-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+4Runner 4wd ('98-'02)
+0-8
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+4Runner 4wd ('98-'02)
+9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+4Runner ('03-'08)
+0-7
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+4Runner ('03-'07)
+8-9
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+4Runner ('08-'09)
+8-9, K
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+FJ Cruiser ('07)
+0-9
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+FJ Cruiser ('08-'09)
+0-9, K
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+FJ Cruiser ('10-'14), Land Cruiser ('24-'25)
+K
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Lexus GX470 ('03-'09)
+0-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+4Runner ('10-'21, '25-), Land Cruiser ('24-'25),
+Lexus GX460 ('10-'23), GX550 ('24-'25)
+5
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+4Runner ('22-'24)
+5, 6
+Toyota Motor Corp.
+Honsha plant. Toyota City, Aichi prefecture, Japan
+Land Cruiser ('84-'86, '88-'89)
+0-8
+Toyota Motor Corp.
+Honsha plant. Toyota City, Aichi prefecture, Japan
+Land Cruiser ('87)
+0-9
+Toyota Motor Corp.
+Honsha plant. Toyota City, Aichi prefecture, Japan
+Land Cruiser ('90-'97), Lexus LX450 ('96-'97)
+0-6
+Toyota Motor Corp.
+Honsha plant. Toyota City, Aichi prefecture, Japan
+Land Cruiser, Lexus LX470 ('98-'00)
+0-4
+Toyota Motor Corp.
+Honsha plant. Toyota City, Aichi prefecture, Japan
+Land Cruiser ('01-'07)
+2-3
+Toyota Motor Corp.
+Honsha plant. Toyota City, Aichi prefecture, Japan
+Lexus LX470 ('01-'06)
+3-4
+Toyota Motor Corp.
+Honsha plant. Toyota City, Aichi prefecture, Japan
+Lexus LX470 ('07)
+4
+Toyota Auto Body Co., Ltd.
+Yoshiwara plant. Toyota City, Aichi prefecture, Japan
+Land Cruiser ('08-'11, '13-'21),
+Lexus LX570 ('08-'11, '13-'21), LX600 ('22-'25),
+LX700h ('25-)
+4
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Land Cruiser ('08-'11, '13) [No '14-'20 found in US]
+5
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Pickup ('84-'85),
+Pickup w/RN5 in pos. 4-6 of VIN ('86-'88)
+5-9
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+Pickup or Chassis Cab ('84-'85), Pickup/Chassis Cab w/RN5 in pos. 4-6 of VIN ('86-'88)
+0-4
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Chassis Cab Pickup w/RN5 in pos. 4-6 of VIN ('87-'88)
+7-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Pickup w/RN6 or RN7 or Chassis Cab w/RN7
+in pos. 4-6 of VIN ('86-'87)
+0-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Pickup w/RN6 in pos. 4-6 of VIN ('88)
+0-7
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+Pickup w/RN6 in pos. 4-6 of VIN ('88)
+8-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Pickup w/VN6 or RN7 or Chassis Cab w/RN7
+in pos. 4-6 of VIN ('88)
+0-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Pickup w/RN81, VN93, or VN13 in pos. 4-7 of VIN ('89-'93)
+0-4
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+Pickup w/RN81, VN93, or VN13 in pos. 4-7 of VIN ('89-'95)
+5-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Pickup or Chassis Cab w/VN82 in pos. 4-7 of VIN ('89-'93)
+0-4
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+Pickup or Chassis Cab w/VN82 in pos. 4-7 of VIN ('89-'93)
+5-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Pickup w/RN82 or RN93 in pos. 4-7 of VIN ('89-'93)
+0-4
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+Pickup w/RN82 in pos. 4-7 of VIN ('89-'93) or
+RN93 in pos. 4-7 of VIN ('89-'95)
+5-8
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Pickup w/RN01 in pos. 4-7 of VIN ('89-'93)
+0-6
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+Pickup w/RN01 in pos. 4-7 of VIN ('89-'95)
+7-9
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Pickup w/RN02 in pos. 4-7 of VIN ('89-'92)
+0-6
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Pickup w/RN02 in pos. 4-7 of VIN ('93)
+0-5
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+Pickup w/RN02 in pos. 4-7 of VIN ('89)
+7-9
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+Pickup w/RN02 in pos. 4-7 of VIN ('90-'93)
+7-8
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Pickup w/RN13 in pos. 4-7 of VIN ('89-'93)
+0-5
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+Pickup w/RN13 in pos. 4-7 of VIN ('89-'95)
+6-7
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Pickup w/VN01 in pos. 4-7 of VIN ('89-'93) or
+VN02 in pos. 4-7 of VIN ('89-'92)
+0-1, 6-9
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+Pickup w/VN01 in pos. 4-7 of VIN ('89-'95) or
+VN02 in pos. 4-7 of VIN ('89-'92)
+2-5
+Toyota Motor Corp.
+Tahara plant. Tahara, Aichi prefecture, Japan
+Chassis Cab w/VN94 in pos. 4-7 of VIN ('89-'93)
+0-9
+Hino Motors, Ltd.
+Hamura plant. Hamura, Tokyo prefecture, Japan
+T100 ('93-'98)
+0-9
+Toyota WMIs
+[
+edit
+|
+edit source
+]
+There are partial list of WMIs which are used by Toyota as well as the broader Toyota Group, including all divisions and subsidiaries:
+Japan:
+JTD - Toyota Motor Corporation, Toyota Passenger Car
+JTK - Toyota Motor Corporation, Toyota Passenger Car
+JTN - Toyota Motor Corporation, Toyota Passenger Car
+JTX - Toyota Motor Corporation, Toyota Passenger Car
+JT1 - Toyota Motor Corporation, Toyota Passenger Car (European market)
+JT2 - Toyota Motor Corporation, Toyota Passenger Car (North American market)
+JT7 - Toyota Motor Corporation, Toyota Passenger Car (Asia-Pacific market)
+JTA - Toyota Motor Corporation, Toyota Truck
+JTB - Toyota Motor Corporation, Toyota Truck
+JTF - Toyota Motor Corporation, Toyota Truck
+JT4 - Toyota Motor Corporation, Toyota Truck
+JTG - Toyota Motor Corporation, Toyota Bus
+JTE - Toyota Motor Corporation, Toyota Multipurpose Passenger Vehicle (SUV)
+JTL - Toyota Motor Corporation, Toyota Multipurpose Passenger Vehicle (SUV/Minivan)
+JTM - Toyota Motor Corporation, Toyota Multipurpose Passenger Vehicle (SUV)
+JT3 - Toyota Motor Corporation, Toyota Multipurpose Passenger Vehicle (SUV/Minivan)
+JT5 - Toyota Motor Corporation, Toyota Incomplete Vehicle (Celica convertible, Paseo convertible, Chassis Cab pickup trucks)
+JTH - Toyota Motor Corporation, Lexus Passenger Car
+JTJ - Toyota Motor Corporation, Lexus Multipurpose Passenger Vehicle (SUV)
+JT6 - Toyota Motor Corporation, Lexus Multipurpose Passenger Vehicle (SUV)
+JT8 - Toyota Motor Corporation, Lexus Passenger Car
+JAL - Isuzu Motors Ltd., Hino Incomplete Vehicle (S-Series)
+JDA - Daihatsu Motor Company Ltd., Daihatsu Passenger Car
+JD1 - Daihatsu Motor Company Ltd., Daihatsu Passenger Car
+JD2 - Daihatsu Motor Company Ltd., Daihatsu Multipurpose Passenger Vehicle (SUV)
+JD4 - Daihatsu Motor Company Ltd., Daihatsu Truck
+JF1 - Subaru Corp., Toyota Passenger Car (86/GR86/Scion FR-S)
+JHA - Hino Motors Ltd., Hino Truck
+JHB - Hino Motors Ltd., Hino Incomplete Vehicle
+JHC - Hino Motors Ltd., Hino Truck
+JHD - Hino Motors Ltd., Hino Truck
+JHE - Hino Motors Ltd., Hino Truck
+JHH - Hino Motors Ltd., Hino Incomplete Vehicle
+JH6 - Hino Motors Ltd., Hino Incomplete Vehicle
+North America:
+1NX - NUMMI, Toyota Passenger Car ('87-'10)
+2AY - Hino Motors Canada, Ltd., Hino Incomplete Vehicle
+2AZ - Hino Motors Canada, Ltd., Hino Truck
+2T1 - TMMC, Toyota Passenger Car
+2T2 - TMMC, Lexus Multipurpose Passenger Vehicle (SUV)
+2T3 - TMMC, Toyota Multipurpose Passenger Vehicle (SUV)
+3MY - Mazda de Mexico Vehicle Operation, Toyota Passenger Car ('16-'20)
+3TM - TMMBC, Toyota Truck
+3TY - TMMGT, Toyota Truck
+4G3 - GM Lordstown Assembly, Toyota Passenger Car (Cavalier) ('96-'00)
+4T1 - TMMK, Toyota Passenger Car
+4T3 - TMMK, Toyota Multipurpose Passenger Vehicle (Minivan/SUV)
+4T4 - Subaru of Indiana Automotive, Toyota Passenger Car ('07-'16)
+4TA - NUMMI, Toyota Truck ('92-'00)
+5PV - Hino Motors Manufacturing USA, Hino Incomplete Vehicle
+5TB - TMMI, Toyota Truck
+5TD - TMMI, Toyota Multipurpose Passenger Vehicle (Minivan/SUV), Lexus Multipurpose Passenger Vehicle (SUV)
+5TE - NUMMI, Toyota Truck ('00-'10)
+5TF - TMMTX, Toyota Truck
+5YF - TMMMS, Toyota Passenger Car
+58A - TMMK, Lexus Passenger Car
+7H4 - Hino Motors Manufacturing USA, Hino Truck
+7MU - Mazda Toyota Manufacturing USA, Toyota Multipurpose Passenger Vehicle (SUV)
+7SV - TMMTX, Toyota Multipurpose Passenger Vehicle (SUV)
+Other countries:
+AHH - Hino South Africa, Hino vehicles
+AHT - Toyota South Africa, Toyota vehicles
+LFM - FAW Toyota (China), Toyota and Ranz vehicles
+LVG - GAC Toyota (China), Toyota vehicles
+MBJ - Toyota Kirloskar Motor (India), Toyota vehicles
+MHF - PT Toyota Motor Manufacturing Indonesia, Toyota vehicles
+MHK - PT Astra Daihatsu Motor (Indonesia), Daihatsu and Toyota vehicles
+MJE - PT Hino Motors Manufacturing Indonesia, Hino vehicles
+MMK - Toyota Auto Works Co., Ltd. (Thailand), Toyota vehicles
+MNK - Hino Motors Manufacturing Thailand, Hino Vehicles
+MR0 - Toyota Motor Thailand - Ban Pho and Samrong plants, Toyota vehicles
+MR1 - Toyota Motor Thailand - Samrong plant (Fortuner), Toyota vehicles
+MR2 - Toyota Motor Thailand - Gateway plant, Toyota vehicles
+NMT - Toyota Motor Manufacturing Turkey (TMMT), Toyota vehicles
+PN1 - Assembly Services Sdn. Bhd. (ASSB) (Malaysia), Toyota vehicles
+PN2 - Assembly Services Sdn. Bhd. (ASSB) (Malaysia), Toyota vehicles
+RKL - Kuozui Motors (Taiwan), Toyota vehicles
+RL4 - Toyota Motor Vietnam, Toyota vehicles
+SB1 - Toyota Motor Manufacturing UK (TMMUK), Toyota vehicles
+TW1 - Toyota Caetano Portugal, Toyota vehicles
+VNK - Toyota Motor Manufacturing France (TMMF), Toyota vehicles
+WZ1 - Magna Steyr, Toyota Passenger Car (GR Supra)
+XW7 - Toyota Motor Manufacturing Russia (TMMR), Toyota vehicles
+YAR - PSA/Stellantis, Toyota Van (ProAce, ProAce City, & ProAce Max)
+YBC - Magna Steyr, Toyota Passenger Car (GR Supra - some European-market models)
+6T1 - Toyota Australia, Toyota Passenger Car
+7A4 - Toyota New Zealand, Toyota vehicles
+8AJ - Toyota Argentina, Toyota vehicles
+9BR - Toyota Brazil, Toyota vehicles
+Plant Abbreviation
+Plant Name
+Notes
+NUMMI
+New United Motor Manufacturing, Inc.
+Joint venture between GM and Toyota
+TMMBC
+Toyota Motor Manufacturing Baja California
+TMMC
+Toyota Motor Manufacturing Canada
+TMMGT
+Toyota Motor Manufacturing Guanajuato
+TMMI
+Toyota Motor Manufacturing Indiana
+TMMK
+Toyota Motor Manufacturing Kentucky
+TMMMS
+Toyota Motor Manufacturing Mississippi
+TMMTX
+Toyota Motor Manufacturing Texas
+External links
+[
+edit
+|
+edit source
+]
+Online
+Toyota VIN decoder
+↑
+https://vincheck.info/free-vin-decoder/free-toyota-vin-decoder
+Online
+Toyota Vin Lookup
+[
+1
+]
+↑
+"Toyota Car model, Toyota Vehicles- VinCheckUp"
+.
+www.vincheckup.com
+. Retrieved
+2024-01-12
+.
+Retrieved from "
+https://en.wikibooks.org/w/index.php?title=Vehicle_Identification_Numbers_(VIN_codes)/Toyota/VIN_Codes&oldid=4629269
+"
+Category
+:
+Book:Vehicle Identification Numbers (VIN codes)
+This page was last edited on 5 April 2026, at 14:15.
+Text is available under the
+Creative Commons Attribution-ShareAlike License
+; additional terms may apply. By using this site, you agree to the
+Terms of Use
+and
+Privacy Policy.
+Privacy policy
+About Wikibooks
+Disclaimers
+Code of Conduct
+Developers
+Statistics
+Cookie statement
+Mobile view
+Search
+Search
+Toggle the table of contents
+Vehicle Identification Numbers (VIN codes)/Toyota/VIN Codes
+Add languages
+Add topic

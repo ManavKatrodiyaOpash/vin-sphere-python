@@ -2,343 +2,14 @@
     "manufacturer": "Toyota",
     "_notes": {
         "vin_structure": "17 chars: pos1-3=WMI, pos4-8=VDS, pos9=check_digit, pos10=model_year, pos11=plant, pos12-17=serial",
-        "vds_note": "Toyota VDS: pos4=body_type, pos5=engine_code, pos6=vehicle_series(chassis_code), pos7=restraint_system, pos8=model_platform. These are based on documented Toyota internal encoding. Pos9 = check digit (NA mandatory, optional elsewhere).",
-        "important": "Position 6 (series/chassis code) is purely internal Toyota numbering — no simple public letter→name table exists for all codes. Engine codes in pos5 are Toyota engine family codes."
+        "how_to_use": "1) Decode pos10 using model_year_codes. 2) Find year_range matching that year. 3) Look up pos4-pos8 tables inside that era block. Different eras use positions DIFFERENTLY — always check era first.",
+        "year_ranges": [
+            "2010_present",
+            "1996_2009"
+        ],
+        "excluded": "Pre-1996 (1981-1995) excluded — model years not in active 30-year VIN cycle"
     },
-    "wmi": {
-        "JTD": {
-            "manufacturer": "Toyota Motor Corporation",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JTM": {
-            "manufacturer": "Toyota Motor Corporation",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JTN": {
-            "manufacturer": "Toyota Motor Corporation",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JT1": {
-            "manufacturer": "Toyota Motor Corporation",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JT2": {
-            "manufacturer": "Toyota Motor Corporation",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JT3": {
-            "manufacturer": "Toyota Motor Corporation",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JT4": {
-            "manufacturer": "Toyota Motor Corporation",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JT5": {
-            "manufacturer": "Toyota Motor Corporation",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JT7": {
-            "manufacturer": "Toyota Motor Corporation",
-            "country": "Japan",
-            "vehicle_type": "Truck / Commercial"
-        },
-        "JT6": {
-            "manufacturer": "Toyota Motor Corporation",
-            "country": "Japan",
-            "vehicle_type": "Infiniti/Specialty (Alternative Mapping)"
-        },
-        "JT8": {
-            "manufacturer": "Toyota Motor Corporation",
-            "country": "Japan",
-            "vehicle_type": "Multi-Purpose Vehicle / SUV"
-        },
-        "JTH": {
-            "manufacturer": "Toyota Motor Corporation (Lexus)",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JTL": {
-            "manufacturer": "Toyota Motor Corporation (Lexus)",
-            "country": "Japan",
-            "vehicle_type": "Multi-Purpose Vehicle / SUV"
-        },
-        "JHA": {
-            "manufacturer": "Hino Motors Ltd. (Toyota Group)",
-            "country": "Japan",
-            "vehicle_type": "Truck / Commercial"
-        },
-        "JHB": {
-            "manufacturer": "Hino Motors Ltd. (Toyota Group)",
-            "country": "Japan",
-            "vehicle_type": "Truck / Commercial"
-        },
-        "JHC": {
-            "manufacturer": "Hino Motors Ltd. (Toyota Group)",
-            "country": "Japan",
-            "vehicle_type": "Truck / Commercial"
-        },
-        "JHD": {
-            "manufacturer": "Hino Motors Ltd. (Toyota Group)",
-            "country": "Japan",
-            "vehicle_type": "Truck / Commercial"
-        },
-        "1NX": {
-            "manufacturer": "NUMMI (Toyota/GM Joint Venture)",
-            "country": "USA",
-            "vehicle_type": "Passenger Car"
-        },
-        "4TA": {
-            "manufacturer": "Toyota Motor Manufacturing Indiana Inc.",
-            "country": "USA",
-            "vehicle_type": "Passenger Car"
-        },
-        "4T1": {
-            "manufacturer": "Toyota Motor Manufacturing Kentucky Inc.",
-            "country": "USA",
-            "vehicle_type": "Passenger Car"
-        },
-        "4T3": {
-            "manufacturer": "Toyota Motor Manufacturing Kentucky Inc.",
-            "country": "USA",
-            "vehicle_type": "Passenger Car"
-        },
-        "4T4": {
-            "manufacturer": "Toyota Motor Manufacturing Kentucky Inc.",
-            "country": "USA",
-            "vehicle_type": "Passenger Car"
-        },
-        "4RK": {
-            "manufacturer": "Toyota Motor Manufacturing Indiana Inc.",
-            "country": "USA",
-            "vehicle_type": "Truck / SUV"
-        },
-        "5YF": {
-            "manufacturer": "Toyota Motor Manufacturing Mississippi Inc.",
-            "country": "USA",
-            "vehicle_type": "Passenger Car"
-        },
-        "5XF": {
-            "manufacturer": "Toyota Motor Manufacturing Alabama Inc.",
-            "country": "USA",
-            "vehicle_type": "Passenger Car"
-        },
-        "5TB": {
-            "manufacturer": "Toyota Motor Manufacturing Texas Inc.",
-            "country": "USA",
-            "vehicle_type": "Truck"
-        },
-        "5TF": {
-            "manufacturer": "Toyota Motor Manufacturing Texas Inc.",
-            "country": "USA",
-            "vehicle_type": "Truck"
-        },
-        "2T1": {
-            "manufacturer": "Toyota Motor Manufacturing Canada Inc.",
-            "country": "Canada",
-            "vehicle_type": "Passenger Car"
-        },
-        "2T2": {
-            "manufacturer": "Toyota Motor Manufacturing Canada Inc. (Lexus Build)",
-            "country": "Canada",
-            "vehicle_type": "Multi-Purpose Vehicle / SUV"
-        },
-        "2T3": {
-            "manufacturer": "Toyota Motor Manufacturing Canada Inc.",
-            "country": "Canada",
-            "vehicle_type": "Multi-Purpose Vehicle / SUV"
-        },
-        "3TA": {
-            "manufacturer": "Toyota Motor Manufacturing de Baja California",
-            "country": "Mexico",
-            "vehicle_type": "Truck"
-        },
-        "3TM": {
-            "manufacturer": "Toyota Motor Manufacturing de Guanajuato",
-            "country": "Mexico",
-            "vehicle_type": "Truck"
-        },
-        "SB1": {
-            "manufacturer": "Toyota Motor Manufacturing UK Ltd.",
-            "country": "United Kingdom",
-            "vehicle_type": "Passenger Car"
-        },
-        "VNK": {
-            "manufacturer": "Toyota Motor Manufacturing France (TMMF)",
-            "country": "France",
-            "vehicle_type": "Passenger Car"
-        },
-        "NMT": {
-            "manufacturer": "Toyota Motor Manufacturing Turkey (TMMT)",
-            "country": "Turkey",
-            "vehicle_type": "Passenger Car / Crossover"
-        },
-        "MR0": {
-            "manufacturer": "Toyota Motor Thailand Co. Ltd.",
-            "country": "Thailand",
-            "vehicle_type": "Passenger Car / Truck"
-        },
-        "MHF": {
-            "manufacturer": "Toyota Motor Indonesia",
-            "country": "Indonesia",
-            "vehicle_type": "Passenger Car"
-        },
-        "ADD": {
-            "manufacturer": "Toyota South Africa Motors (Pty) Ltd.",
-            "country": "South Africa",
-            "vehicle_type": "Passenger Car / SUV"
-        },
-        "AHT": {
-            "manufacturer": "Toyota South Africa Motors (Pty) Ltd.",
-            "country": "South Africa",
-            "vehicle_type": "Truck / Commercial"
-        },
-        "6T1": {
-            "manufacturer": "Toyota Motor Corporation Australia Ltd.",
-            "country": "Australia",
-            "vehicle_type": "Passenger Car"
-        },
-        "8AJ": {
-            "manufacturer": "Toyota Argentina S.A.",
-            "country": "Argentina",
-            "vehicle_type": "Passenger Car"
-        },
-        "8AST": {
-            "manufacturer": "Toyota Argentina S.A. (Alternative Frame)",
-            "country": "Argentina",
-            "vehicle_type": "Truck / SUV"
-        },
-        "9BR": {
-            "manufacturer": "Toyota do Brasil Ltda.",
-            "country": "Brazil",
-            "vehicle_type": "Passenger Car"
-        },
-        "MBH": {
-            "manufacturer": "Toyota Kirloskar Motor Pvt. Ltd.",
-            "country": "India",
-            "vehicle_type": "Passenger Car"
-        },
-        "LTV": {
-            "manufacturer": "GAC Toyota Motor Co. Ltd.",
-            "country": "China",
-            "vehicle_type": "Passenger Car"
-        },
-        "LFV": {
-            "manufacturer": "FAW Toyota Motor Co. Ltd.",
-            "country": "China",
-            "vehicle_type": "Passenger Car"
-        },
-        "XW7": {
-            "manufacturer": "TOYOTA-CAOA (Joint Venture)",
-            "country": "Russia",
-            "vehicle_type": "Passenger Car / SUV"
-        },
-        "PL1": {
-            "manufacturer": "Toyota Motor Manufacturing Czech Republic",
-            "country": "Czech Republic",
-            "vehicle_type": "Passenger Car (Yaris/Aygo)"
-        }
-    },
-    "position_4_body_type": {
-        "_note": "Position 4 = body type / drive configuration for Toyota VINs",
-        "A": "2-Door Sedan, 2WD",
-        "B": "4-Door Sedan, 2WD",
-        "C": "2-Door Coupe, 2WD",
-        "D": "4-Door Truck, 4WD",
-        "E": "4-Door Truck, 2WD",
-        "G": "4-Door Wagon, 2WD",
-        "H": "4-Door Wagon, 4WD",
-        "K": "4-Door Wagon, 2WD (alt)",
-        "L": "4-Door Wagon or Truck, 4WD",
-        "M": "5-Door Van, 2WD",
-        "N": "2-Door Regular Cab Truck, 2WD",
-        "P": "2-Door Regular Cab Truck, 4WD",
-        "S": "3-Door Liftback, 4WD",
-        "T": "2-Door Extended Cab Truck, 2WD",
-        "W": "2-Door Extended Cab Truck, 4WD",
-        "X": "5-Door SUV",
-        "Y": "Sport Van",
-        "Z": "5-Door Wagon, 2WD"
-    },
-    "position_5_engine_code": {
-        "_note": "Position 5 = Toyota engine family code. These are Toyota internal engine designation codes.",
-        "4": "7A-FE (Lean Burn, 1.8L)",
-        "A": "3MZ-FE (3.3L V6 Hybrid)",
-        "B": "1NZ-FXE or 2AZ-FXE (Hybrid)",
-        "D": "2ZZ-GE (1.8L VVTL-i performance)",
-        "E": "2AZ-FE (2.4L 4-cyl)",
-        "F": "1MZ-FE (3.0L V6) or 2AR-FE (2.5L)",
-        "G": "5S-FE (2.2L 4-cyl, legacy)",
-        "H": "1AZ-FE (2.0L 4-cyl)",
-        "J": "1FZ-FE (4.5L 6-cyl, Land Cruiser)",
-        "K": "2GR-FE (3.5L V6)",
-        "L": "2RZ-FE (2.4L 4-cyl, legacy)",
-        "M": "3RZ-FE (2.7L 4-cyl)",
-        "N": "5VZ-FE (3.4L V6) or 2ZR-FXE (1.8L Hybrid)",
-        "P": "3S-FE (2.0L 4-cyl, legacy)",
-        "R": "1ZZ-FE (1.8L 4-cyl)",
-        "S": "1BM Electric Motor or Electric drive",
-        "T": "3S-GTE (2.0L Turbo performance)",
-        "U": "1GR-FE (4.0L V6) or 2ZR-FE (1.8L)",
-        "V": "1NR-FE (1.3L 4-cyl)",
-        "Y": "3UR-FE (5.7L V8)"
-    },
-    "position_6": {
-        "_note": "Position 6 = internal Toyota series/chassis code identifier. This is a single alphanumeric character tied to Toyota's internal platform numbering. No complete universal public table exists — it identifies the specific chassis generation. Use NHTSA or Toyota dealer decoder for exact match."
-    },
-    "position_7_restraint_system": {
-        "_note": "Position 7 = restraint system (seatbelts + airbag configuration)",
-        "0": "Manual belts, dual front airbags + curtain airbags",
-        "1": "Manual belts only (no airbags)",
-        "2": "Manual belts + driver airbag only",
-        "3": "Manual belts + dual front airbags",
-        "6": "Manual belts + dual front + side + curtain airbags + driver knee airbag",
-        "7": "Manual belts + dual front airbags + driver knee airbag",
-        "8": "Manual belts + dual front + side airbags",
-        "D": "Manual belts + dual front + side + 3-row curtain airbags + driver knee airbag",
-        "F": "Manual belts + dual front + side + curtain airbags + driver & passenger knee airbags"
-    },
-    "position_8_model_platform": {
-        "_note": "Position 8 = Toyota model/platform identifier",
-        "0": "MR2 Spyder",
-        "1": "Tundra",
-        "3": "Echo / Yaris",
-        "4": "Scion xB / xD",
-        "7": "Scion tC",
-        "A": "Highlander / Sequoia / Celica / Supra",
-        "B": "Avalon",
-        "C": "Sienna / Previa",
-        "D": "T100",
-        "E": "Corolla / Matrix",
-        "F": "FJ Cruiser",
-        "G": "Hilux",
-        "H": "Highlander (later gen)",
-        "J": "Land Cruiser",
-        "K": "Camry",
-        "L": "Tercel / Paseo",
-        "M": "Previa",
-        "N": "Tacoma / older trucks",
-        "P": "Camry Solara",
-        "R": "4Runner / Corolla (alternate)",
-        "T": "Celica FWD",
-        "U": "Prius",
-        "V": "RAV4",
-        "W": "MR2 (non-Spyder)",
-        "X": "Cressida"
-    },
-    "position_9": {
-        "_note": "Check digit — mathematical validation character. Values 0-9 or X. Mandatory in USA/Canada per 49 CFR Part 565. Optional under ISO 3779 for non-NA markets."
-    },
-    "position_10_model_year": {
-        "_note": "Shared standard across all manufacturers since 1981. Repeats in 30-year cycle. Letters I, O, Q, U, Z and digit 0 never used.",
+    "model_year_codes": {
         "V": 1997,
         "W": 1998,
         "X": 1999,
@@ -370,8 +41,408 @@
         "S": 2025,
         "T": 2026
     },
+    "wmi": {
+        "JTD": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JTK": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JTN": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JTX": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JT1": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car (European market)"
+        },
+        "JT2": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car (North American market)"
+        },
+        "JT7": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car (Asia-Pacific market)"
+        },
+        "JTA": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Truck"
+        },
+        "JTB": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Truck"
+        },
+        "JTF": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Truck"
+        },
+        "JT4": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Truck"
+        },
+        "JTG": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Bus"
+        },
+        "JTE": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "SUV/MPV"
+        },
+        "JTL": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "SUV/Minivan"
+        },
+        "JTM": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "SUV"
+        },
+        "JT3": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "SUV/Minivan"
+        },
+        "JT5": {
+            "manufacturer": "Toyota Motor Corporation",
+            "country": "Japan",
+            "vehicle_type": "Incomplete Vehicle (convertible/chassis cab)"
+        },
+        "JTH": {
+            "manufacturer": "Toyota Motor Corporation (Lexus)",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JTJ": {
+            "manufacturer": "Toyota Motor Corporation (Lexus)",
+            "country": "Japan",
+            "vehicle_type": "SUV"
+        },
+        "JT6": {
+            "manufacturer": "Toyota Motor Corporation (Lexus)",
+            "country": "Japan",
+            "vehicle_type": "SUV"
+        },
+        "JT8": {
+            "manufacturer": "Toyota Motor Corporation (Lexus)",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JF1": {
+            "manufacturer": "Subaru Corp. (Toyota GR86/86/Scion FR-S)",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JHA": {
+            "manufacturer": "Hino Motors Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Truck"
+        },
+        "JHB": {
+            "manufacturer": "Hino Motors Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Incomplete Vehicle"
+        },
+        "JHC": {
+            "manufacturer": "Hino Motors Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Truck"
+        },
+        "JHD": {
+            "manufacturer": "Hino Motors Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Truck"
+        },
+        "JHE": {
+            "manufacturer": "Hino Motors Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Truck"
+        },
+        "JHH": {
+            "manufacturer": "Hino Motors Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Incomplete Vehicle"
+        },
+        "JH6": {
+            "manufacturer": "Hino Motors Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Incomplete Vehicle"
+        },
+        "JDA": {
+            "manufacturer": "Daihatsu Motor Company Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JD1": {
+            "manufacturer": "Daihatsu Motor Company Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Passenger Car"
+        },
+        "JD2": {
+            "manufacturer": "Daihatsu Motor Company Ltd.",
+            "country": "Japan",
+            "vehicle_type": "SUV"
+        },
+        "JD4": {
+            "manufacturer": "Daihatsu Motor Company Ltd.",
+            "country": "Japan",
+            "vehicle_type": "Truck"
+        },
+        "1NX": {
+            "manufacturer": "NUMMI (Toyota/GM Joint Venture)",
+            "country": "USA",
+            "vehicle_type": "Passenger Car ('87-'10)"
+        },
+        "4T1": {
+            "manufacturer": "Toyota Motor Manufacturing Kentucky (TMMK)",
+            "country": "USA",
+            "vehicle_type": "Passenger Car"
+        },
+        "4T3": {
+            "manufacturer": "Toyota Motor Manufacturing Kentucky (TMMK)",
+            "country": "USA",
+            "vehicle_type": "SUV/Minivan"
+        },
+        "4T4": {
+            "manufacturer": "Subaru of Indiana Automotive",
+            "country": "USA",
+            "vehicle_type": "Passenger Car ('07-'16)"
+        },
+        "4TA": {
+            "manufacturer": "NUMMI",
+            "country": "USA",
+            "vehicle_type": "Truck ('92-'00)"
+        },
+        "5TB": {
+            "manufacturer": "Toyota Motor Manufacturing Indiana (TMMI)",
+            "country": "USA",
+            "vehicle_type": "Truck"
+        },
+        "5TD": {
+            "manufacturer": "Toyota Motor Manufacturing Indiana (TMMI)",
+            "country": "USA",
+            "vehicle_type": "Minivan/SUV (Lexus SUV)"
+        },
+        "5TE": {
+            "manufacturer": "NUMMI",
+            "country": "USA",
+            "vehicle_type": "Truck ('00-'10)"
+        },
+        "5TF": {
+            "manufacturer": "Toyota Motor Manufacturing Texas (TMMTX)",
+            "country": "USA",
+            "vehicle_type": "Truck"
+        },
+        "5YF": {
+            "manufacturer": "Toyota Motor Manufacturing Mississippi (TMMMS)",
+            "country": "USA",
+            "vehicle_type": "Passenger Car"
+        },
+        "58A": {
+            "manufacturer": "Toyota Motor Manufacturing Kentucky (TMMK)",
+            "country": "USA",
+            "vehicle_type": "Lexus Passenger Car"
+        },
+        "7MU": {
+            "manufacturer": "Mazda Toyota Manufacturing USA",
+            "country": "USA",
+            "vehicle_type": "SUV"
+        },
+        "7SV": {
+            "manufacturer": "Toyota Motor Manufacturing Texas (TMMTX)",
+            "country": "USA",
+            "vehicle_type": "SUV"
+        },
+        "2T1": {
+            "manufacturer": "Toyota Motor Manufacturing Canada (TMMC)",
+            "country": "Canada",
+            "vehicle_type": "Passenger Car"
+        },
+        "2T2": {
+            "manufacturer": "Toyota Motor Manufacturing Canada (TMMC)",
+            "country": "Canada",
+            "vehicle_type": "Lexus SUV"
+        },
+        "2T3": {
+            "manufacturer": "Toyota Motor Manufacturing Canada (TMMC)",
+            "country": "Canada",
+            "vehicle_type": "SUV"
+        },
+        "3MY": {
+            "manufacturer": "Mazda de Mexico Vehicle Operation",
+            "country": "Mexico",
+            "vehicle_type": "Passenger Car ('16-'20)"
+        },
+        "3TM": {
+            "manufacturer": "Toyota Motor Manufacturing Baja California (TMMBC)",
+            "country": "Mexico",
+            "vehicle_type": "Truck"
+        },
+        "3TY": {
+            "manufacturer": "Toyota Motor Manufacturing Guanajuato (TMMGT)",
+            "country": "Mexico",
+            "vehicle_type": "Truck"
+        },
+        "4G3": {
+            "manufacturer": "GM Lordstown Assembly",
+            "country": "USA",
+            "vehicle_type": "Passenger Car (Cavalier '96-'00)"
+        },
+        "SB1": {
+            "manufacturer": "Toyota Motor Manufacturing UK (TMMUK)",
+            "country": "United Kingdom",
+            "vehicle_type": "Passenger Car"
+        },
+        "VNK": {
+            "manufacturer": "Toyota Motor Manufacturing France (TMMF)",
+            "country": "France",
+            "vehicle_type": "Passenger Car"
+        },
+        "NMT": {
+            "manufacturer": "Toyota Motor Manufacturing Turkey (TMMT)",
+            "country": "Turkey",
+            "vehicle_type": "Passenger Car/Crossover"
+        },
+        "MR0": {
+            "manufacturer": "Toyota Motor Thailand",
+            "country": "Thailand",
+            "vehicle_type": "Passenger Car/Truck"
+        },
+        "MR1": {
+            "manufacturer": "Toyota Motor Thailand (Samrong plant)",
+            "country": "Thailand",
+            "vehicle_type": "Truck (Fortuner)"
+        },
+        "MR2": {
+            "manufacturer": "Toyota Motor Thailand (Gateway plant)",
+            "country": "Thailand",
+            "vehicle_type": "Passenger Car/Truck"
+        },
+        "MHF": {
+            "manufacturer": "PT Toyota Motor Manufacturing Indonesia",
+            "country": "Indonesia",
+            "vehicle_type": "Passenger Car"
+        },
+        "MHK": {
+            "manufacturer": "PT Astra Daihatsu Motor",
+            "country": "Indonesia",
+            "vehicle_type": "Daihatsu/Toyota"
+        },
+        "MMK": {
+            "manufacturer": "Toyota Auto Works Co. Ltd.",
+            "country": "Thailand",
+            "vehicle_type": "Passenger Car"
+        },
+        "MBJ": {
+            "manufacturer": "Toyota Kirloskar Motor",
+            "country": "India",
+            "vehicle_type": "Passenger Car"
+        },
+        "LFM": {
+            "manufacturer": "FAW Toyota",
+            "country": "China",
+            "vehicle_type": "Passenger Car"
+        },
+        "LVG": {
+            "manufacturer": "GAC Toyota",
+            "country": "China",
+            "vehicle_type": "Passenger Car"
+        },
+        "AHT": {
+            "manufacturer": "Toyota South Africa",
+            "country": "South Africa",
+            "vehicle_type": "Passenger Car/Truck"
+        },
+        "6T1": {
+            "manufacturer": "Toyota Australia",
+            "country": "Australia",
+            "vehicle_type": "Passenger Car"
+        },
+        "7A4": {
+            "manufacturer": "Toyota New Zealand",
+            "country": "New Zealand",
+            "vehicle_type": "Passenger Car/Truck"
+        },
+        "8AJ": {
+            "manufacturer": "Toyota Argentina",
+            "country": "Argentina",
+            "vehicle_type": "Passenger Car"
+        },
+        "9BR": {
+            "manufacturer": "Toyota Brazil",
+            "country": "Brazil",
+            "vehicle_type": "Passenger Car"
+        },
+        "PL1": {
+            "manufacturer": "Toyota Motor Manufacturing Czech Republic",
+            "country": "Czech Republic",
+            "vehicle_type": "Passenger Car"
+        },
+        "RKL": {
+            "manufacturer": "Kuozui Motors (Taiwan)",
+            "country": "Taiwan",
+            "vehicle_type": "Passenger Car"
+        },
+        "RL4": {
+            "manufacturer": "Toyota Motor Vietnam",
+            "country": "Vietnam",
+            "vehicle_type": "Passenger Car"
+        },
+        "WZ1": {
+            "manufacturer": "Magna Steyr",
+            "country": "Austria",
+            "vehicle_type": "Passenger Car (GR Supra)"
+        },
+        "YBC": {
+            "manufacturer": "Magna Steyr",
+            "country": "Austria",
+            "vehicle_type": "Passenger Car (GR Supra European)"
+        },
+        "YAR": {
+            "manufacturer": "PSA/Stellantis",
+            "country": "France",
+            "vehicle_type": "Van (ProAce/ProAce City/ProAce Max)"
+        },
+        "XW7": {
+            "manufacturer": "Toyota Motor Manufacturing Russia (TMMR)",
+            "country": "Russia",
+            "vehicle_type": "Passenger Car/SUV"
+        },
+        "PN1": {
+            "manufacturer": "Assembly Services Sdn. Bhd. (ASSB)",
+            "country": "Malaysia",
+            "vehicle_type": "Passenger Car"
+        },
+        "PN2": {
+            "manufacturer": "Assembly Services Sdn. Bhd. (ASSB)",
+            "country": "Malaysia",
+            "vehicle_type": "Passenger Car"
+        }
+    },
+    "position_9": {
+        "_note": "Check digit. Values 0-9 or X. Mandatory in USA/Canada per 49 CFR Part 565. Calculated via NHTSA weighted formula from all other VIN positions."
+    },
     "position_11_plant": {
-        "_note": "Toyota assembly plant codes",
+        "_note": "Assembly plant code. Numeric 0-9 = Japan. Letters = specific plants worldwide.",
         "0": "Japan (various plants)",
         "1": "Japan",
         "2": "Japan",
@@ -382,22 +453,349 @@
         "7": "Japan",
         "8": "Japan",
         "9": "Japan",
-        "A": "Onnaing-Valenciennes, France",
-        "C": "Cambridge, Ontario, Canada",
-        "D": "Japan (specific plant)",
-        "E": "United Kingdom (Burnaston, Derbyshire)",
-        "K": "Japan",
-        "M": "Baja California, Mexico",
-        "N": "Kolín, Czech Republic",
-        "R": "Lafayette, Indiana, USA",
-        "S": "Princeton, Indiana, USA",
-        "T": "Thailand",
-        "U": "Georgetown, Kentucky, USA",
-        "W": "Woodstock, Ontario, Canada",
-        "X": "San Antonio, Texas, USA",
-        "Z": "Fremont, California, USA (legacy NUMMI)"
+        "A": "Motomachi plant, Toyota City, Japan / Onnaing-Valenciennes, France (TMMF) [Yaris '14-'19]",
+        "C": "Cambridge, ON, Canada (TMMC)",
+        "D": "Nagakusa plant, Obu, Japan (Toyota Industries)",
+        "E": "Burnaston, Derbyshire, UK (TMMUK)",
+        "J": "Takaoka plant, Toyota City, Japan / Vigo, Spain (ProAce City)",
+        "K": "Hamura, Japan (Hino Motors plant)",
+        "L": "Miyagi plant, Ohira, Japan (Toyota Motor East Japan)",
+        "M": "Tijuana, Baja CA, Mexico (TMMBC) / Atessa, Italy (ProAce Max diesel)",
+        "N": "Kolín, Czech Republic (TMMCZ)",
+        "P": "Blue Springs, MS, USA (TMMMS)",
+        "R": "Lafayette, IN, USA (Subaru of Indiana) [Camry '07-'16] / Adapazari, Turkey (TMMT) [C-HR '18-'22]",
+        "S": "Princeton, IN, USA (TMMI)",
+        "T": "Apaseo el Grande, Guanajuato, Mexico (TMMGT)",
+        "U": "Georgetown, KY, USA (TMMK)",
+        "V": "Huntsville, AL, USA (MTM USA)",
+        "W": "Woodstock, ON, Canada (TMMC) / Graz, Austria (Magna Steyr) [GR Supra '20-]",
+        "X": "San Antonio, TX, USA (TMMTX) / Altona, Victoria, Australia",
+        "Y": "Salamanca, Mexico (Mazda de Mexico) [Yaris '16-'20]",
+        "Z": "Fremont, CA, USA (NUMMI) / Lieu-Saint-Amand, France (ProAce)"
     },
     "position_12_to_17": {
-        "_note": "Sequential production serial number. 6 digits, unique per vehicle per plant per model year. Last 4 must be numeric per ISO 3779."
+        "_note": "Sequential production serial number. 6 digits unique per plant/model year. Last 4 must be numeric per ISO 3779."
+    },
+    "era_2010_present": {
+        "_note": "Use for model years 2010+ (pos10 codes A through T and beyond). Toyota VIN format for North America from 2010 onward.",
+        "_pos_layout": {
+            "pos4": "Body Type & Drive Wheels (or Body+Grade for some models from 2020+)",
+            "pos5": "Engine Type",
+            "pos6": "Restraint System",
+            "pos7": "Series (chassis code / platform)",
+            "pos8": "Vehicle Line & Make"
+        },
+        "position_4_body_type": {
+            "_note": "Position 4 = body type & drive wheels. Passenger cars and MPVs listed separately (same codes may mean different things by vehicle class). From 2020 some models use pos4 to also encode grade.",
+            "passenger_cars": {
+                "A": "4DR Sedan (Mirai '21-'26, Crown '23-'25, GR Corolla '23-'25 hatch, Prius '23-'25 hatch, Crown Signia wagon '25-)",
+                "B": "4DR Sedan 2WD (Yaris '10-'12, Corolla '10-'19, Camry '10-'19, Avalon '10-'19, Mirai '16-'20, Lexus HS '10-'12, ES '10-'19, IS '10-'19, GS '10-'11/'13-'19, GS F '16-'20, LS '10-'19) / Lexus RX350 Canadian-built '23-'25 / Corolla grades '23-'25",
+                "C": "4DR Sedan 4WD (Lexus IS250 AWD '10-'15, IS300 AWD '16-'19, IS350 AWD '11-'19, GS350 AWD '10-'11/'13-'19, LS460 AWD '10-'17, LS500 AWD '18-'19) / Lexus RX350 Japanese-built '23-'25",
+                "D": "3DR Liftback Coupe 2WD (Scion tC '10) / 4DR Sedan LWB 4WD (Lexus LS460L AWD '10-'17, LS600hL '10-'16) / 4DR Sedan (Camry '25-) / 5DR Liftback Corolla Hatchback auto '20-'25",
+                "E": "4DR Sedan Corolla LE grades '20-'22",
+                "F": "2DR Convertible 2WD (Lexus SC430 '10, IS250C/IS350C '10-'15)",
+                "G": "4DR Sedan LWB 2WD (Lexus LS460L '10-'17)",
+                "H": "2DR Coupe 2WD (Lexus LFA '12, RC200t '16-'17, RC300 RWD '18-'19, RC350 '15-'19, RC F '15-'19, LC500 '18-'19, LC500h '18-'19) / Corolla LE w/Premium Package '20-'22",
+                "J": "3DR Liftback 2WD (Yaris 3-door '10-'18, Scion tC '11-'16, Scion iQ '12-'15, Scion iQ EV '13)",
+                "K": "5DR Liftback/Hatchback 2WD (Yaris 5-door '10-'18, Lexus CT200h '11-'17, Prius C '12-'19, Scion iM '16, Corolla iM '17-'18, Corolla Hatchback '19) / 5DR Sedan 2WD (Prius '10-'22, Scion xD '10-'14, C-HR '18-'22) / Corolla grades '23-'25",
+                "L": "5DR Sedan 4WD (Prius AWD-e '19-'22, Matrix S 4wd '10-'13) / Corolla grades '20-'22 / Avalon XLE AWD '21",
+                "M": "5DR Sedan 2WD w/IRS (Matrix XRS '10, Canada '10-'13) / Corolla SE w/man. trans. '20-'22",
+                "P": "Corolla SE w/auto & Premium Package '20-'25 / Lexus UX200 premium grades '20-'22",
+                "S": "2DR Coupe 4WD (Lexus RC300 AWD '16-'19, RC350 AWD '15-'19) / Corolla SE auto '20-'25",
+                "T": "Corolla XSE '20-'25",
+                "U": "5DR Wagon 4WD (Lexus UX250h '19) / Lexus UX300h AWD '25- / Tacoma Access Cab LWB 4wd '10-'15",
+                "V": "Corolla LE w/Convenience Package '20-'22 / 4Runner '25-",
+                "Y": "5DR Wagon 2WD (Lexus UX200 '19) / Lexus UX300h 2wd '25-",
+                "Z": "5DR Wagon 2WD (Prius V '12-'17, Canada '18)"
+            },
+            "mpv_suv": {
+                "A": "5DR Wagon (Venza '21-'24, Sequoia '23-'25, bZ4X '23-'25, Grand Highlander '24-'25, Land Cruiser '24-'25, Subaru Solterra '23-'25, Lexus RZ450e '23-'25, RZ300e '24-'25, TX '24-'25) / Sienna XLE Woodland '22",
+                "B": "5DR Wagon 4WD (RAV4 LE '13-'18, Highlander '10-'13, Sequoia SR5 '10-'20, Sienna '21-'25 LE w/Plus / Lexus RX350 Canadian-built '23-'25 2wd) / FJ Cruiser '10-'14 4wd, 4Runner '10-'20 4wd, Lexus RX350 '10-'19 4wd, NX '15-'19 4wd",
+                "C": "4DR Wagon 4WD (Land Cruiser '16-'21) / Sienna XLE Woodland '23-'25 / Lexus RX350 Japanese-built '23-'25 AWD",
+                "D": "5DR Wagon extended 4WD w/3rd row (Lexus RX350L '18-'19, RX450hL '18-'19) / Sienna XSE w/Plus '21-'25",
+                "E": "5DR Wagon 4WD (RAV4 Limited '10-'12, Highlander Sport '10, Sienna SE '19-'20) / Sienna Platinum '21-'25",
+                "G": "5DR Wagon extended 2WD w/3rd row (Lexus RX350L '18-'19)",
+                "H": "4DR Wagon 4WD (Land Cruiser '10-'11/'13-'15, Lexus LX570 '10-'11/'13-'19)",
+                "J": "5DR Wagon 4WD (RAV4 base 3-row '10-'12, RAV4 SE '16-'18, Highlander SE '10/'17-'19, XLE '14-'19, Sequoia Limited '10-'20, Sienna LE '10-'20, Sienna XLE w/Plus '21-'25, Lexus GX460 Premium '10-'13)",
+                "K": "5DR Wagon 2WD (RAV4 base 3-row '10-'12, Highlander SE '10/'17-'19, XLE '14-'19, Sequoia Limited '10-'20, Sienna CE/LE '10-'20, Sienna LE '21-'25) / Tacoma PreRunner Double Cab Super LWB '10-'15",
+                "L": "Tacoma Double Cab LWB 4wd '10-'15 / '24-'25 Class E / Sienna '21-'25",
+                "M": "Tacoma Double Cab Super LWB 4wd '10-'15",
+                "N": "Tacoma Regular Cab SWB 2wd '10-'14 / RAV4 SE '16-'18 2wd",
+                "P": "Tacoma Regular Cab SWB 4wd '10-'14",
+                "R": "5DR Wagon 4WD (RAV4 Sport '10-'12, XLE '13-'18, Adventure '18)",
+                "T": "Tacoma Access Cab LWB 2wd '10-'15",
+                "U": "Tacoma Access Cab LWB 4wd '10-'15",
+                "V": "4Runner '25-",
+                "W": "5DR Wagon 2WD (RAV4 Sport '10-'12, XLE '13-'18, Adventure '18)",
+                "X": "5DR Wagon 2WD (RAV4 Limited 3-row '10-'12, Highlander Sport '10, Sienna SE '11-'20, Sienna XSE '21-'25)",
+                "Y": "5DR Wagon 2WD (RAV4 Limited '10-'12/'13-'18, Sienna XLE/Limited '10-'20, Lexus NX200t/NX300 '15-'19) / Sienna XLE '21-'25",
+                "Z": "5DR Wagon 2WD (Scion xB '10-'15, Venza '10-'15, FJ Cruiser '10-'14, 4Runner '10-'20, RAV4 LE '13-'18, Sequoia SR5 '10-'20, Lexus RX350 '10-'19) / Sienna Limited '21-'25"
+            },
+            "trucks_2022_tundra": {
+                "_note": "2022+ Tundra uses pos4 for cab/bed combo",
+                "A": "Tundra Double Cab 6.5 ft. Bed",
+                "B": "Tundra CrewMax 5.5 ft. Bed",
+                "C": "Tundra CrewMax 6.5 ft. Bed",
+                "D": "Tundra Double Cab 8.1 ft. Bed"
+            }
+        },
+        "position_5_engine": {
+            "_note": "Position 5 = engine type. Same code can appear across years with different engines. Check vehicle model column.",
+            "A": "2ZR-FXE 1.8L Hybrid (Prius '16) / 2.5L A25A-FXS Hybrid (Venza '21-'24, Crown XLE/Limited '23-'25) / 2.0L M20A-FKS Gas (Corolla Cross '22-'25) / 3.4L V35A-FTS V6 TT Gas (Tundra SR5/Limited/Platinum '22-'25) / 2.5L Hybrid (Camry Hybrid 2wd '25-) / 2.4L T24A-FTS Turbo (Lexus RX350 Canadian '23-'25, Grand Highlander '24-'25, 4Runner '25-)",
+            "B": "2AZ-FXE + 2JM 2.4L Hybrid (Camry Hybrid '10-'11, Lexus HS250h '10-'12) / 3.5L 2GR-FXE Hybrid 2wd (Lexus RX450h '10-'15) / 1.8L 2ZR-FXE Hybrid (Prius Two '16-'18, Corolla Hybrid '20) / 2.5L A25A-FXS Hybrid (Highlander Hybrid AWD '20-'25) / 2.5L A25A-FKS 2.5L Gas (Avalon AWD '21) / 2.5L RAV4 Prime PHEV '21-'24 / 3.4L V35A-FTS Tundra SR '22-'25 / 1.6L G16E-GTS GR Corolla '23-'25 / 1.6L GR Corolla '23-'25 / Lexus LX600/GX550 '22-'25 / various hybrid models",
+            "C": "3.5L 2GR-FXE AWD Hybrid (Lexus RX450h AWD '10-'15, Highlander Hybrid AWD '11-'16) / 3.5L 2GR-FSE+1KM Hybrid (Lexus GS450h '10-'11) / 3.4L V35A-FTS Tundra i-Force Max '22-'25 / 1.8L 2ZR-FXE Corolla Hybrid 2wd '23-'25 / 2.0L M20A-FXS Hybrid (Prius 2wd '23-'25) / Tacoma i-Force Max 4wd '24",
+            "D": "1.8L 2ZR-FXE Hybrid (Lexus CT200h '11-'17) / 2.5L 2AR-FXE Hybrid (Camry Hybrid '12-'17, Avalon Hybrid '13-'18) / 1.5L 1NZ-FXE Hybrid (Prius C '12-'19) / 2.5L A25A-FKS Gas (Lexus NX250 '22-'25) / 1.8L 2ZR-FXE AWD Corolla Hybrid '23-'25 / 2.4L T24A-FTS Gas (Highlander '23-'25) / 2.4L T24A-FTS Hybrid (Grand Highlander Hybrid Max '24-'25) / 3.4L V35A-FTS Lexus LX700h '25- / Tacoma SR auto '24-'25",
+            "E": "2.4L 2AZ-FE Gas (Corolla XRS '10, Matrix S/XRS '10-'13, Scion tC '10, Scion xB '10-'15) / 3.5L 2GR-FSE D4S (Lexus IS350 '10-'17, IS350C '10-'15, GS350 '10-'11/'13-'15, RC350 '15-'17) / 2.4L T24A-FTS Turbo (Tacoma SR/TRD Sport/TRD Off-Road w/man '24-'25)",
+            "F": "2.5L 2AR-FE Gas (Camry '10-'17, Scion tC '11-'16, RAV4 '10-'18) / 2.5L 4GR-FSE V6 (Lexus IS250 '10-'15, IS250C '10-'15) / 3.5L 2GR-FXS Hybrid 2wd (Lexus RX450h '16) / 2.4L T24A-FTS Hybrid Max (Crown Platinum '23-'25, Tacoma i-Force Max Trailhunter '24)",
+            "G": "3.5L 2GR-FXS AWD Hybrid (Lexus RX450h/RX450hL AWD '16-'22, Highlander Hybrid AWD '17-'19) / 2.4L T24A-FTS Gas (Lexus NX350 '22-'25)",
+            "H": "2.0L 3ZR-FAE Gas (Toyota C-HR '18-'22) / 2.4L T24A-FTS (Lexus RX350 Japanese '23-'25)",
+            "J": "1.3L 1NR-FE Gas (Scion iQ '12-'15) / 2.5L 2AR-FXE+2JM, 2FM Hybrid (Lexus NX300h AWD '15-'21, RAV4 Hybrid AWD '16-'18) / 2.5L A25A-FXS+5NM,4NM PHEV (Lexus RX450h+ '24-'25)",
+            "K": "3.5L 2GR-FE V6 Gas (Avalon '10-'18, Camry V6 '10-'17, Highlander '10-'16, RAV4 '10-'12, Sienna '10-'16, Venza '10-'15, Lexus ES350 '10-'18, RX350 '10-'15) / 2.5L A25A-FXS Hybrid (Lexus NX350h AWD '22-'25) / 2.5L A25A-FXS PHEV (Lexus NX450h+ '22-'25)",
+            "L": "4.6L 1UR-FSE V8 (Lexus LS460 '10-'17, GS460 '10-'11) / Electric M7M5 (RAV4 EV '12-'14)",
+            "M": "4.6L 1UR-FE V8 (Lexus LS460L '10-'17)",
+            "N": "5.0L 2UR-GSE V8 (Lexus IS F '10-'14) / 2ZR-FXE+1NM+1MM Prius AWD Hybrid",
+            "P": "3.5L 2GR-FSE Hybrid 2WD (Lexus LS600h '10) / 4.6L 1UR-FE (Lexus LS600hL '10-'12)",
+            "R": "1.8L 2ZR-FE Gas (Corolla '10-'19, Matrix '10-'13, Scion iM '16, Corolla iM '17-'18)",
+            "S": "Electric 1BM (RAV4 EV '98-'03 carry-over) / 3.5L 2GR-FE Gas (Highlander '08-'09 carry-over into early 2010)",
+            "T": "5.7L 3UR-FE V8 Gas (Sequoia '10-'22, Tundra '10-'21, Land Cruiser/LX570 '10-'21)",
+            "U": "4.0L 1GR-FE V6 Gas (4Runner '10-'24, Tacoma '10-'23, FJ Cruiser '10-'14, Tundra V6 base '10-'21) / 1.8L 2ZR-FE (non-US Corolla)",
+            "V": "5.7L 3UR-FE V8 Gas (Sequoia '10-'20, Land Cruiser '10-'21, Lexus LX570 '10-'21) / 3.5L 2GR-FKS V6 '15+",
+            "W": "3.5L 2GR-FXS+6JM Hybrid 2WD (Lexus RX450h 2wd '16) / 3.5L 2GR-FXS Hybrid (Highlander Hybrid '17-'19)",
+            "X": "2.7L 2TR-FE Gas (Tacoma '10-'23)",
+            "Y": "3.5L 2GR-FE V6 (Avalon '10-'18 carry-over) / 5.7L 3UR-FE V8",
+            "Z": "3.5L 2GR-FKS V6 (15+)",
+            "9": "2ZR-FXE+1NM+1MM Prius AWD Hybrid"
+        },
+        "position_6_restraint": {
+            "_note": "Position 6 = restraint system (airbags / seatbelts). Used from 2010 onward.",
+            "0": "Manual Belts w/2 Airbags and Side Curtain Airbags",
+            "1": "Manual Belt / 1 STD (North America) / No Airbags (International)",
+            "2": "Manual Belts w/2 Airbags (North America) / 1 Airbag Driver (International)",
+            "3": "Manual Belts w/2 Front Airbags",
+            "6": "Manual Belts w/2 Airbags + Side Airbags + Side Curtain Shield Airbags + Driver Knee Airbag",
+            "7": "Manual Belts w/2 Airbags + Driver Knee Airbag",
+            "8": "Manual Belts w/2 Airbags + Side Airbags",
+            "9": "Manual Belts w/2 Airbags + Side Airbags + Front Curtain Airbags",
+            "D": "Manual Belts w/2 Airbags + Side Airbags + Three-Row Curtain Shield Airbags + Driver Knee Airbag",
+            "F": "Manual Belts w/2 Airbags + Side Airbags + Side Curtain Shield Airbags + Driver & Passenger Knee Airbags"
+        },
+        "position_7_series": {
+            "_note": "Position 7 = Series/chassis platform code (2010-2019). From 2020 onward for many models this encodes the specific series+drivetrain combo (chassis code). Selected key codes listed; use NHTSA for full decode.",
+            "passenger_2020_present": {
+                "A": "Corolla L/LE/XLE '20-'22 (ZRE212L 2wd) / Camry I4 2wd & V6 2wd & Hybrid 2wd '20-'24 (AXVA70L/GSV70L/AXVH70L) / Avalon Hybrid 2wd '21-'22 / Mirai 2wd '21-'26 / GR Corolla 4wd '23-'25 / Crown 2.5L Hybrid AWD / 2.4T Hybrid Max AWD '23-'25 / Prius 2wd '23-'25 / Crown Signia AWD '25-",
+                "B": "Corolla Hybrid 2wd '20 (ZWE211L) / Camry I4 AWD '20-'24 / Lexus GS350 2wd '20 / Avalon I4 AWD '21 / Prius AWD '23-'25",
+                "C": "Corolla SE/XSE '20-'25 2wd (MZEA12L) / Lexus GS350 4wd '20 / Lexus ES300h '21-'25 2wd / Prius Prime '23-'24 / Camry Hybrid 2wd '25-",
+                "D": "Corolla Hybrid '21-'22 2wd (ZWE213L) / Lexus ES250 AWD '21-'25 / Corolla LE '23-'25 2wd US-built / Camry Hybrid AWD '25-",
+                "E": "Corolla LE '23-'25 2wd Japan-built",
+                "F": "Corolla Hybrid '23-'25 2wd (ZWE219L)",
+                "H": "Corolla Hybrid AWD '23-'25 (ZWE215L)"
+            },
+            "mpv_truck_2020_present": {
+                "A": "Highlander V6 2wd '20-'22 / Highlander I4 Turbo 2wd '23-'25 / Highlander Hybrid 2wd '20-'24 / Lexus RX350 2wd '20-'22 & Japanese-built '23-'25 / Venza AWD '21-'24 / Sequoia 2wd '21-'22 / Corolla Cross 2wd '22-'25 / Tundra i-Force 2wd Double/Crew SWB '22-'25 / NX250 2wd / bZ4X 2wd '23-'25 / Grand Highlander I4 Turbo 2wd '24-'25 / TX350 2wd / Land Cruiser 4wd I4 Turbo '24-'25 / 4Runner I4 Turbo 2wd '25-",
+                "B": "Highlander V6 4wd '20-'22 / Highlander I4 Turbo 4wd '23-'25 / Lexus NX300 2wd '20-'21 / Lexus GX460 4wd '20-'23 / Sequoia 4wd '21-'22 / Corolla Cross AWD / Tundra i-Force 2wd CrewMax LWB / bZ4X AWD / Lexus RX350 Canadian-built 2wd '23-'25 / Grand Highlander AWD variants '24-'25 / TX350 AWD / 4Runner I4 Turbo 4wd '25- / i-Force MAX 4wd '25-",
+                "C": "Highlander Hybrid 4wd '20-'25 / Tundra i-Force 2wd Double Cab ELWB / Lexus LX600/LX700h '22-'25 / bZ4X AWD '23-'25 / Lexus RX350/RX350h AWD '23-'25",
+                "D": "Lexus NX300 AWD '20-'21 / Lexus RX350 AWD '20-'22 / Tundra i-Force 4wd Double/Crew SWB / Lexus GX550 4wd '24-'25",
+                "E": "Lexus RX350L 2wd '20-'22 / Sienna Hybrid 2wd '21-'25 / Tundra i-Force 4wd CrewMax LWB / Lexus NX250 AWD / NX350 AWD / NX350h AWD / RX500h AWD",
+                "F": "Lexus RX350L AWD '20-'22 / Sienna Hybrid AWD '21-'25 / NX450h+ AWD / Tacoma SR5/TRD PreRunner XtraCab 2wd & Double Cab 2wd '24-'25 (278hp)",
+                "G": "Tundra i-Force 4wd Double ELWB / Lexus RX450h+ AWD '24-'25",
+                "H": "Tacoma SR XtraCab 2wd / SR Double Cab 2wd auto '24-'25 (228hp)",
+                "J": "Tacoma SR5 XtraCab 4wd / SR Double Cab 4wd man / SR5/TRD Sport/TRD Off-Road/Limited Double Cab 4wd '24-'25",
+                "K": "Tacoma SR XtraCab 4wd / SR Double Cab 4wd auto '24-'25 (228hp)",
+                "L": "Tacoma i-Force Max Hybrid Double Cab 4wd '24-'25 (326hp)"
+            }
+        },
+        "position_8_vehicle_line": {
+            "_note": "Position 8 = Vehicle Line & Make (2010+). From 2022 Tundra also encodes bed/cab body style.",
+            "0": "Toyota Scion iQ / iQ EV",
+            "1": "Toyota Tundra ('10-'21) / Toyota Sequoia ('10-'22) / Lexus ES350/ES250AWD/ES300h ('19-'25)",
+            "2": "Lexus IS250/IS200t/IS300 RWD/IS300 AWD/IS350/IS F/IS250C/IS350C",
+            "3": "Toyota Yaris hatchback ('10-'18)/sedan ('10-'12) / Toyota Prius C",
+            "4": "Toyota Scion xD",
+            "5": "Toyota Grand Highlander / Grand Highlander Hybrid",
+            "6": "Lexus TX350 / TX500h / TX550h+",
+            "7": "Toyota Scion tC",
+            "A": "Lexus HS250h / Lexus RX350/RX350L/RX450h/RX450hL ('10-'22) / Lexus RX350/RX350h/RX500h/RX450h+ ('23-'25) / Toyota Mirai ('21-'26) / Toyota bZ4X / Subaru Solterra / Toyota Sequoia ('23-'25)",
+            "B": "Toyota Avalon / Avalon Hybrid / Toyota Venza ('10-'15) / Lexus RZ300e / RZ450e",
+            "C": "Toyota Sienna / Sienna Hybrid / Lexus RC200t/RC300/RC350/RC F",
+            "D": "Toyota Mirai ('16-'20)",
+            "E": "Toyota Corolla / GR Corolla / Scion iM / Corolla iM / Matrix / Scion xB",
+            "F": "Toyota FJ Cruiser / Lexus LS460/LS460L/LS600hL / Lexus LS500/LS500h / Toyota Crown",
+            "G": "Lexus ES350 ('10-'18) / ES300h ('13-'18) / Toyota Corolla Cross / Corolla Cross Hybrid",
+            "H": "Toyota Highlander / Highlander Hybrid / Lexus CT200h / Lexus LFA / Lexus UX200/UX250h/UX300h / Toyota Venza ('21-'24)",
+            "J": "Toyota Land Cruiser full-size ('10-'11/'13-'21) / Land Cruiser mid-size ('24-'25) / Toyota Crown Signia",
+            "K": "Toyota Camry / Camry Hybrid",
+            "L": "Lexus GS350/GS450h/GS200t/GS300/GS F ('13-'20)",
+            "N": "Toyota Tacoma",
+            "P": "Toyota Prius Plug-in Hybrid ('12-'15) / Prius Prime ('17-'22)",
+            "R": "Toyota 4Runner",
+            "S": "Lexus GS350/GS460/GS450h ('10-'11)",
+            "U": "Toyota Prius / Prius V / Prius Prime ('23-'24) / Prius Plug-in Hybrid ('25-)",
+            "V": "Toyota RAV4 / RAV4 Hybrid / RAV4 Prime ('21-'24) / RAV4 Plug-in Hybrid ('25) / RAV4 EV",
+            "X": "Lexus GX460 / GX550 / Lexus LX570 / LX600 / LX700h / Toyota C-HR",
+            "Y": "Lexus SC430 / Lexus LC500 / LC500h",
+            "Z": "Lexus NX200t/NX300/NX300h ('15-'21) / Lexus NX250/NX350/NX350h/NX450h+ ('22-'25)"
+        }
+    },
+    "era_1996_2009": {
+        "_note": "Use for model years 1996-2009 (pos10 codes V, W, X, Y, 1-9). Toyota VIN format for North America 1996-2009. NOTE: Position assignments differ from 2010+ era!",
+        "_pos_layout": {
+            "pos4": "Body Type & Drive Wheels (passenger cars / MPVs) OR Cab/Chassis/Drive/Brake (trucks)",
+            "pos5": "Engine Type",
+            "pos6": "Series (chassis code platform)",
+            "pos7": "Restraint System (passenger cars) OR Grade (MPV/trucks)",
+            "pos8": "Vehicle Line"
+        },
+        "position_4_body_type": {
+            "passenger_cars": {
+                "A": "2DR Sedan 2WD (Tercel, Echo)",
+                "B": "4DR Sedan 2WD (Tercel, Echo, Yaris, Corolla, Camry, Avalon, Prius '01-'03, Lexus ES/IS/GS/LS)",
+                "C": "2DR Coupe 2WD (Paseo '96-'97, Celica '96-'98, Camry coupe '96, Camry Solara '99-'08, Lexus SC300/SC400 '96-'00) / 4DR Sedan 4WD (Lexus GS300 AWD '06, GS350 AWD '07-'09, LS460 AWD '09)",
+                "D": "3DR Liftback Coupe 2WD (Celica '96-'05, Supra '96-'98, Scion tC '05-'09) / 4DR Sedan LWB 4WD (Lexus LS460L AWD '09, LS600hL '08-'09)",
+                "E": "4DR Station Wagon 2WD (Corolla wagon '96, Camry wagon '96, Lexus IS300 SportCross '02-'05)",
+                "F": "2DR Convertible 2WD (Paseo conv '97, Celica conv '96-'99, Camry Solara conv '00-'08, MR2 Spyder '00-'05, Lexus SC430 '02-'09)",
+                "G": "5DR Sedan 2WD w/IRS (Matrix XRS '09) / 4DR Sedan LWB 2WD (Lexus LS460L '07-'09)",
+                "J": "3DR Liftback 2WD (Yaris 3-door '07-'09)",
+                "K": "4DR Hatchback/5DR Liftback 2WD (Prius '04-'09, Yaris 5-door '09) / 5DR Sedan 2WD (Matrix '03-'08, Scion xA, xD) / 5DR Sedan 2WD torsion beam (Matrix Base/S 2wd '09)",
+                "L": "5DR Sedan 4WD (Matrix 4wd '03-'06/'09)"
+            },
+            "mpv_suv": {
+                "B": "5DR Wagon 4WD (Sienna '04-'09, RAV4 '06-'09, Venza '09, FJ Cruiser '07-'09, 4Runner '03-'09, Sequoia '01-'09, Lexus GX470 '03-'09)",
+                "D": "5DR Wagon 2WD (Highlander '04-'09)",
+                "E": "5DR Wagon 4WD (Highlander '04-'09)",
+                "G": "4DR Wagon 2WD (Previa '96-'97, Sienna '98-'00, RAV4 '96-'05, Lexus RX300 '99-'03, RX330 '04-'06, RX350 '07-'09, RX400h '06-'08, Highlander '01-'07, 4Runner '96-'02)",
+                "H": "4DR Wagon 4WD (Previa All-Trac '96-'97, RAV4 '96-'05, Highlander '01-'07, 4Runner '96-'02, Land Cruiser '96-'09, Lexus RX300/RX330/RX350/RX400h, LX450 '96-'97, LX470 '98-'07, LX570 '08-'09)",
+                "K": "5DR Wagon 2WD (Scion xB '04-'06/'08-'09)",
+                "X": "2DR Wagon 2WD (RAV4 '96-'99)",
+                "Y": "2DR Wagon 4WD (RAV4 '96-'99)",
+                "Z": "5DR Wagon 2WD (Sienna '98-'09, RAV4 '06-'09, Venza '09, FJ Cruiser '07-'09, 4Runner '03-'09, Sequoia '01-'09)"
+            },
+            "trucks": {
+                "B": "Tundra Access Cab 4wd 1/2 Ton '00-'06 / Tundra Double Cab LWB 4wd '07-'09",
+                "C": "Tundra Double Cab ELWB 4wd '07-'09",
+                "D": "Tundra Double Cab 4wd 1/2 Ton '04-'06 / Tundra CrewMax LWB 4wd '07-'09",
+                "E": "Tundra Double Cab 2wd 1/2 Ton '04-'06 / Tundra CrewMax LWB 2wd '07-'09",
+                "G": "Tacoma PreRunner Double Cab 2wd '01-'04",
+                "H": "Tacoma Double Cab 4wd '01-'04",
+                "J": "T100 Reg Cab 2wd '96-'98 / Tundra Reg Cab 2wd '00-'06 / Tacoma PreRunner Double Cab LWB 2wd '05-'09 / Tundra Reg Cab SWB 2wd '07-'09",
+                "K": "Tundra Reg Cab 4wd '00-'06 / Tacoma PreRunner Double Cab Super LWB 2wd '05-'09 / Tundra Reg Cab SWB 4wd '07-'09",
+                "L": "Tacoma Double Cab LWB 4wd '05-'09 / Tundra Reg Cab LWB 2wd '07-'09",
+                "M": "Tacoma Double Cab Super LWB 4wd '05-'09 / Tundra Reg Cab LWB 4wd '07-'09",
+                "N": "Tacoma Reg Cab 2wd '96-'04/'05-'09 SWB",
+                "P": "Tacoma Reg Cab 4wd '96-'04/'05-'09 SWB",
+                "R": "Tundra Access Cab 2wd '00-'06 / Tundra Double Cab LWB 2wd '07-'09",
+                "S": "Tacoma PreRunner XtraCab 2wd '98-'04 / Tundra Double Cab ELWB 2wd '07-'09",
+                "T": "T100 XtraCab 2wd '96-'98 / Tacoma Access Cab LWB 2wd '05-'09",
+                "U": "T100 XtraCab 4wd '96-'98 / Tacoma Access Cab LWB 4wd '05-'09",
+                "V": "Tacoma XtraCab 2wd '96-'04",
+                "W": "Tacoma XtraCab 4wd '96-'04"
+            }
+        },
+        "position_5_engine": {
+            "_note": "Position 5 = engine type for 1996-2009 era",
+            "A": "1.6L 4A-FE I4 (Corolla '96-'97) / 3.3L 3MZ-FE V6 (Camry SE V6/Sienna/Lexus ES330/RX330 '04-'06, Camry Solara '04-'08)",
+            "B": "1.8L 7A-FE I4 (Corolla/Celica ST '96-'97) / 1.5L 1NZ-FXE Hybrid (Prius '04-'09) / 2.4L 2AZ-FXE Hybrid (Camry Hybrid '07-'09)",
+            "C": "1.5L 5E-FE I4 (Tercel '96-'98, Paseo '96-'97) / 3.5L 2GR-FSE+1KM Hybrid (Lexus GS450h '07-'09)",
+            "D": "3.0L 2JZ-GE I6 (Supra '96-'98, Lexus GS300 '96-'05, SC300 '96-'00, IS300 '01-'05) / 2.4L 2AZ-FE I4 (Highlander '01-'07, RAV4 '04-'08)",
+            "E": "3.0L 2JZ-GTE Twin Turbo I6 (Supra Turbo '96-'98) / 2.4L 2AZ-FE I4 (Camry '02-'09, Solara '02-'08, Scion tC '05-'09, Scion xB '08-'09, Corolla XRS/Matrix S/XRS '09) / 3.5L 2GR-FSE D4S (Lexus IS350 '06-'09, GS350 '07-'09) / 2.7L 1AR-FE (Venza/Highlander '09)",
+            "F": "3.0L 1MZ-FE V6 (Camry V6 '96-'03, Avalon '96-'04, Sienna '98-'03, Lexus ES300 '96-'03, Lexus RX300 '99-'03, Camry Solara '99-'03, Highlander '01-'03) / 2.5L 2AR-FE (RAV4 '09)",
+            "G": "2.2L 5S-FE I4 (Celica GT '96-'99, Camry '96-'01, Solara '99-'01)",
+            "H": "2.0L 1AZ-FE I4 (RAV4 '01-'03) / 3.0L 3GR-FSE V6 (Lexus GS300 '06) / 4.0L 1UZ-FE V8 (Lexus GS400 '98-'00, LS400 '96-'00, SC400 '96-'00)",
+            "J": "1.3L 1NR-FE I4 (Scion iQ '12-'15) / 4.5L 1FZ-FE I6 (Land Cruiser '96-'97, LX450 '96-'97) / 3.5L 2GR-FE V6 (Lexus ES350 '07-'09)",
+            "K": "2.4L 2TZ-FZE SC I4 (Previa S/C '96-'97) / 1.5L 1NZ-FXE Hybrid (Prius '01-'03) / 2.5L 4GR-FSE V6 (Lexus IS250 '06-'09) / 3.5L 2GR-FE V6 (Avalon '05-'09, RAV4 '06-'09, Camry V6/Sienna/Lexus RX350/Venza '07-'09)",
+            "L": "2.4L 2RZ-FE I4 (Tacoma 2wd '96-'04) / 4.3L 3UZ-FE V8 (Lexus GS430 '01-'05) / 4.6L 1UR-FSE VVTiE V8 (Lexus GS460/LS460 '07-'09) / 1.8L 2ZR-FE I4 (Japan-built Corolla '09)",
+            "M": "2.7L 3RZ-FE I4 (Tacoma '96-'04, 4Runner '96-'00, T100 '96-'98)",
+            "N": "3.4L 5VZ-FE V6 (Tacoma '96-'04, 4Runner '96-'02, T100 '96-'98, Tundra '00-'04) / 2.2L 5S-FNE CNG (Camry '00-'01) / 4.3L 3UZ-FE V8 (Lexus LS430 '01-'06, SC430 '02-'09, GS430 '06-'07)",
+            "P": "2.0L 3S-FE I4 (RAV4 '96-'00) / 3.3L 3MZ-FE V6 (Highlander '04-'07) / 5.0L 2UR-GSE V8 (Lexus IS F '08-'09)",
+            "R": "1.8L 1ZZ-FE VVT-i I4 (Corolla '98-'08, Celica GT '00-'05, MR2 Spyder '00-'05, Matrix '03-'08)",
+            "S": "3.5L 2GR-FE V6 (Highlander '08-'09)",
+            "T": "4.7L 2UZ-FE V8 (Land Cruiser/LX470 '98-'07, Tundra '00-'04, Sequoia '01-'04, 4Runner/GX470 '03-'09) / 1.5L 1NZ-FE I4 (Echo '00-'05, Scion xA/xB '04-'06, Yaris '07-'09)",
+            "U": "4.0L 1GR-FE V6 (4Runner '03-'09, Tacoma '05-'09, Tundra '05-'09, FJ Cruiser '07-'09) / 1.8L 2ZR-FE I4 (Scion xD '08-'09, US/Canada Corolla/Matrix '09) / 5.0L 2UR-FSE+1KM Hybrid V8 (Lexus LS600hL '08-'09)",
+            "V": "5.7L 3UR-FE V8 (Tundra '07-'09)",
+            "W": "3.3L 3MZ-FE+1JM,2FM Hybrid V6 (Highlander Hybrid '06-'09, Lexus RX400h '06-'08) / 5.7L 3UR-FBE Flex-Fuel V8 (Tundra '09)",
+            "X": "2.7L 2TR-FE I4 (Tacoma '05-'09)",
+            "Y": "1.8L 2ZZ-GE VVTL-i I4 (Celica GT-S '00-'05, Matrix XRS '03-'06, Corolla XRS '05-'06) / 5.7L 3UR-FE V8 (Sequoia/Land Cruiser/LX570 '08-'09)",
+            "S_ev": "Electric 1BM 27.4kWh NiMH (RAV4 EV '98-'03)"
+        },
+        "position_6_series": {
+            "_note": "Position 6 = series/chassis code (single digit based on chassis platform). Passenger cars and MPV/trucks listed separately.",
+            "passenger_cars_key_codes": {
+                "0": "Corolla AE1xx '96-'97 / Celica AT2/ST2xx '96-'99",
+                "1": "Camry SXV20/MCV20 '96 / Lexus ES300 MCV20 '96 / Avalon MCX10 '96-'99 / Corolla ZZE11x '98-'02 / Echo NCP12 / Prius NHW11 '01-'03 / Lexus IS300 JCE10 '01-'05 / Scion tC ANT10",
+                "2": "Lexus LS400 UCF20 '96-'00 / Camry SXV20/MCV20 '97-'01 / Solara SXV/MCV/ACV20 '99-'01 / Lexus ES300 MCV20 '97-'01 / Avalon MCX20 '00-'04 / Prius NHW20 '04-'09 / Lexus IS250/IS350/IS F GSE/USE2x '06-'09",
+                "3": "Lexus SC300/SC400 JZZ30/UZZ30 '96-'00 / Celica ZZT23x '00-'05 / MR2 Spyder ZZW30 / Lexus LS430 UCF30 '01-'06 / Camry ACV30/MCV30 '02-'06 / Solara ACV/MCV30 '04-'08 / Lexus ES300/ES330 MCV30 '02-'06 / Corolla/Matrix ZZE13x '03-'08 / Avalon GSX30 '05-'09",
+                "4": "Lexus SC430 UZZ40 '02-'09 / Camry ACV40/GSV40/AHV40 '07-'09 / Lexus ES350 GSV40 '07-'09 / Lexus LS460 USF40/41/45/46 '07-'09 / Corolla/Matrix ZRE14x/AZE14x '09",
+                "5": "Tercel EL53 '96-'98 / Paseo EL54 '96-'97",
+                "6": "Lexus GS300/GS400/GS430 JZS160/UZS160/UZS161 '98-'05 / Scion xA NCP61",
+                "8": "Toyota Supra JZA80 '96-'98",
+                "9": "Yaris NCP91/93 '07-'09 / Lexus GS300/GS350 GRS19x '06-'09 / GS430/GS460/GS450h UZS190/GWS191"
+            },
+            "mpv_truck_key_codes": {
+                "0": "Land Cruiser/LX470 UZJ100 '98-'07 / Land Cruiser/LX570 URJ200 '08-'09",
+                "1": "Previa TCR10 2wd '96-'97 / RAV4 SXA1x '96-'00 / RAV4 EV BEA11 / Sienna MCL10 '98-'03 / Lexus RX300 MCU10/15 '99-'03 / 4Runner GRN/UZN28x '03-'09 / FJ Cruiser GSJ15 '07-'09 / Venza AGV/GGV10/15 '09",
+                "2": "Previa TCR20 4wd '96-'97 / RAV4 ACA20/21 '01-'05 / Sienna MCL20/GSL20 '04-'09 / Highlander ACU/MCU/MHU20/25 '01-'07 / Lexus GX470 UZJ120 '03-'09 / Tacoma TRN220/GRN225 '05-'09 / T100 RCK/VCK10",
+                "3": "Tundra VCK30/UCK30 '00-'06 / Sequoia UCK45 '01-'07 / Scion xB NCP31 '04-'06 / Lexus RX330/RX350 MCU38/GSU35/38 / Lexus RX400h MHU38 / RAV4 ACA/GSA38 '06-'09 / Tundra Double Cab UCK31",
+                "4": "Tacoma RZN120/140 '96-'04 2wd / Tacoma TRN240 '05-'09 4wd SWB / Highlander GSU/ASU/MHU40/45/48 '08-'09 / Tundra GSK/UCK50 '07-'09 4wd",
+                "5": "Tacoma RZN150/VZN150 '96-'04 XtraCab / Tundra USK/GSK50/51/52 '07-'09 2wd V8",
+                "6": "Tacoma RZN161 '96-'04 4wd / Tacoma TRN260/265 '05-'09 PreRunner / Sequoia USK60/65 '08-'09",
+                "7": "Tacoma RZN171/VZN170 '96-'04 4wd XtraCab / GRN270 PreRunner Double Cab ELWB",
+                "8": "4Runner RZN180/VZN180 '96-'02 / Land Cruiser/LX450 FZJ80 '96-'97",
+                "9": "Tacoma PreRunner RZN191 '99-'04 / Lexus GS300/GS350/GS450h GRS190/191 '06-'09"
+            }
+        },
+        "position_7_restraint_passenger": {
+            "_note": "Position 7 = restraint system for PASSENGER CARS (1996-2009). MPV/Trucks use position_7_grade_mpv instead.",
+            "2": "Manual Belts w/Dual Front Airbags (Tercel '96-'98, Corolla '96-'08, Camry '96-'06, Avalon '96-'97, Paseo '96-'97, Celica '96-'05, Supra '96-'98, Solara '99-'03, Echo '00-'05, MR2 Spyder '00-'05, Prius '01-'06, Matrix '03-'08, Yaris '07-'08, Scion xA '04-'06, Lexus ES300 '96-'97, GS300 '96-'97, LS400 '96, SC300/SC400 '96-'00)",
+            "5": "Manual Belts w/Dual Front Airbags + Front Side Airbags + Driver & Passenger Knee Airbags (Lexus SC430 '07-'09)",
+            "6": "Manual Belts w/Dual Front Airbags + Front Side Airbags + Front-to-Rear Side Curtain Airbags + Driver Knee Airbag (Avalon '05-'09, Camry '07-'09, Scion tC '08-'09) / Same + Driver & Passenger Knee Airbag (Lexus LS430 '04-'06, LS460 '07-'09, LS600hL '08-'09, GS300 '06, GS350 '07-'09, GS430/460/450h, IS250/350 '06-'09, ES350 '07-'09)",
+            "7": "Manual Belts w/Dual Front Airbags + Driver Knee Airbag (Scion tC '05-'07)",
+            "8": "Manual Belts w/Dual Front Airbags + Side Airbags (Corolla '98-'04 Opt, Camry '98-'01 Opt, Avalon '98-'04, Solara '99-'08, Celica '00-'05 Opt, Echo '01-'05 Opt, Prius '01-'03 Opt, Matrix '03-'04 Opt, Lexus LS400 '97-'00, ES300 '98-'01, GS300/400 '98-'00, IS300 '01, SC430 '02-'06)",
+            "9": "Manual Belts w/Dual Front Airbags + Front Side Airbags + Front Side Curtain Airbags (Lexus GS300/GS430 '01-'05, IS300 '02-'05)",
+            "0": "Manual Belts w/Dual Front Airbags + Front Side Airbags + Front-to-Rear Side Curtain Airbags (Camry '02-'06 Opt, Prius '04-'09, Corolla '05-'09, Matrix '05-'09, Yaris '07-'09, Scion xA Opt, xD '08-'09, Lexus LS430 '01-'03, ES300 '02-'03, ES330 '04-'06)"
+        },
+        "position_7_grade_mpv": {
+            "_note": "Position 7 = grade for MPV/SUV/Trucks (1996-2009)",
+            "0": "RAV4 '96-'05 / Lexus RX300 '99-'03 / GX470 '03-'09 / LX470 '98-'07 / LX570 '08-'09 / Scion xB '08-'09",
+            "1": "T100 Base '96-'98 / Highlander '01-'09 Base/Base Hybrid / RAV4 Limited 2-row '06-'09 / FJ Cruiser '07-'09 / Venza '09 / Lexus RX330 '04-'06 / RX350 '07-'09 / RX400h '06-'08",
+            "2": "Previa DX '96-'97 / Tacoma Base '96-'00, SR5 '98-'00, '01-'09 / T100 DX / Tundra Base '00-'09 / Sienna XLE '04-'09 / Sienna Limited '06-'09 / Scion xB auto '04-'06 / RAV4 Sport 2-row '06-'09 / Highlander Limited '08-'09",
+            "3": "Previa LE '96-'97 / Sienna LE/XLE '98-'03 / Sienna CE US '04-'09 / Sienna LE '04-'09 / Scion xB man '04-'06 / RAV4 Base 2-row '06-'09 / Highlander Sport '08-'09",
+            "4": "4Runner Base '96-'00 / Tacoma SR5 '96-'97 / Tacoma Limited '98-'00 / T100 SR5 / Tundra SR5 '00-'09 / Sequoia SR5 '01-'09 / 4Runner SR5/Sport '03-'09 / RAV4 Limited 3-row '06-'09 / Highlander Hybrid Limited '08-'09",
+            "5": "Land Cruiser '96-'09 / RAV4 Base 3-row '06-'09",
+            "6": "4Runner SR5 '96-'02",
+            "7": "4Runner Limited '96-'09 / Sequoia Platinum '08-'09",
+            "8": "Lexus LX450 '96-'97 / Tundra Limited '00-'09 / Sequoia Limited '01-'09",
+            "9": "Sienna CE '98-'03 / Sienna CE Canada '04-'09"
+        },
+        "position_8_vehicle_line": {
+            "_note": "Position 8 = Vehicle Line for 1996-2009 era",
+            "0": "MR2 Spyder",
+            "1": "Tundra",
+            "2": "Lexus IS300 / Lexus IS250/IS350/IS F",
+            "3": "Echo / Yaris",
+            "4": "Scion xA / xD / Scion xB ('04-'06)",
+            "7": "Scion tC",
+            "A": "Supra / Highlander / Sequoia / Venza",
+            "B": "Avalon",
+            "C": "Sienna",
+            "D": "T100",
+            "E": "Corolla / Matrix / Scion xB ('08-'09)",
+            "F": "FJ Cruiser / Lexus LS400 / Lexus LS430 / Lexus LS460/LS460L/LS600hL",
+            "G": "Lexus ES300/ES330/ES350",
+            "H": "Paseo",
+            "J": "Land Cruiser / Lexus LX450",
+            "K": "Camry",
+            "L": "Tercel",
+            "M": "Previa",
+            "N": "Tacoma",
+            "P": "Camry Solara",
+            "R": "4Runner",
+            "S": "Lexus GS300/GS350/GS430/GS460/GS450h",
+            "T": "Celica",
+            "U": "Prius / Lexus RX300/RX330/RX350/RX400h",
+            "V": "RAV4",
+            "W": "Lexus LX470/LX570",
+            "X": "Lexus GS400 / Lexus GX470",
+            "Y": "RAV4 EV / Lexus SC400/SC430",
+            "Z": "Lexus SC300"
+        }
     }
 }

@@ -1,0 +1,166 @@
+{
+  "manufacturer": "Mercedes-Benz",
+  "_notes": {
+    "vin_structure": "17 chars: pos1-3=WMI, pos4-8=VDS, pos9=check_digit, pos10=model_year, pos11=plant, pos12-17=serial",
+    "vds_market_split": "Mercedes uses European-format (ZZZ filler pos4-6) for EU-market vehicles and NHTSA-format for US-market vehicles. Most GCC Mercedes carry WDD/WDC (German-built) = European format. 4JG = US-built (Vance, AL) = NHTSA format.",
+    "gcc_note": "Mercedes does NOT encode GCC spec in the VIN. AMG Line, Night Package, and premium packages are NOT in the VIN. Thermal spec / climate configuration requires OEM build record or door-jamb sticker.",
+    "wdd_vs_wdc": "WDD = Mercedes-Benz AG passenger cars (C/E/S/CLS/CLA etc). WDC = Mercedes-Benz AG SUV/GLE/GLS family. 4JG = US-built GLE/GLS from Vance, Alabama — common in GCC as grey imports.",
+    "check_digit_note": "WDD/WDC European-built: pos9 is NOT NHTSA check digit (often 0 or filler). 4JG US-built: NHTSA check digit applies."
+  },
+
+  "model_year_codes": {
+    "V": 1997, "W": 1998, "X": 1999, "Y": 2000,
+    "1": 2001, "2": 2002, "3": 2003, "4": 2004, "5": 2005,
+    "6": 2006, "7": 2007, "8": 2008, "9": 2009,
+    "A": 2010, "B": 2011, "C": 2012, "D": 2013, "E": 2014,
+    "F": 2015, "G": 2016, "H": 2017, "J": 2018, "K": 2019,
+    "L": 2020, "M": 2021, "N": 2022, "P": 2023, "R": 2024,
+    "S": 2025, "T": 2026
+  },
+
+  "wmi": {
+    "WDD": {"manufacturer": "Mercedes-Benz AG", "country": "Germany", "vehicle_type": "Passenger Car", "notes": "C/E/S/CLS/CLA/A/B-Class and most passenger models from Sindelfingen, Bremen, Rastatt"},
+    "WDC": {"manufacturer": "Mercedes-Benz AG", "country": "Germany", "vehicle_type": "SUV / GLE / GLS", "notes": "GLE/GLS/GLC/G-Class family from Sindelfingen and Rastatt"},
+    "WDB": {"manufacturer": "Mercedes-Benz AG", "country": "Germany", "vehicle_type": "Trucks / Specialty", "notes": "Trucks, Unimog, some specialty vehicles"},
+    "4JG": {"manufacturer": "Mercedes-Benz US International", "country": "USA", "vehicle_type": "GLE / GLS", "notes": "GLE and GLS from Vance, Alabama plant. US-format VIN with NHTSA check digit."},
+    "55S": {"manufacturer": "Mercedes-Benz Vance Alabama", "country": "USA", "vehicle_type": "GLS / ML (legacy)", "notes": "Older GLS/ML production from Vance"},
+    "WDF": {"manufacturer": "Mercedes-Benz AG", "country": "Germany", "vehicle_type": "Van (Sprinter)", "notes": "Sprinter commercial vans"},
+    "WMX": {"manufacturer": "Mercedes-Benz South Africa", "country": "South Africa", "vehicle_type": "Passenger Car / SUV", "notes": "South African assembly"},
+    "9BM": {"manufacturer": "Mercedes-Benz do Brasil", "country": "Brazil", "vehicle_type": "Truck / Bus", "notes": "Brazilian trucks and buses"},
+    "3C4": {"manufacturer": "Mercedes-Benz Mexico", "country": "Mexico", "vehicle_type": "Passenger Car", "notes": "Mexican-assembled models"}
+  },
+
+  "position_9": {
+    "_note": "WDD/WDC/WDB (German-built): pos9 is NOT NHTSA check digit — often '0' or manufacturer filler. Do NOT flag as invalid. 4JG/55S (US-built): NHTSA check digit formula applies."
+  },
+
+  "position_11_plant": {
+    "_note": "Mercedes-Benz assembly plant codes.",
+    "A": "Sindelfingen, Germany (S-Class/E-Class/CLS/AMG GT)",
+    "B": "Bremen, Germany (C-Class/SLC/GLC)",
+    "C": "Rastatt, Germany (A-Class/B-Class/GLA/GLB/CLA)",
+    "D": "Düsseldorf, Germany (Vito/V-Class)",
+    "E": "Germersheim / East London, South Africa",
+    "F": "Hambach, France (Smart)",
+    "G": "Graz, Austria (G-Class)",
+    "H": "Tuscaloosa / Vance, Alabama, USA (GLE/GLS old)",
+    "J": "Jakarta, Indonesia (CKD assembly)",
+    "K": "Kecskemet, Hungary (CLA/A-Class)",
+    "L": "Ludwigsfelde, Germany (Sprinter/Transporter)",
+    "M": "Pune, India (GLE/C-Class CKD)",
+    "N": "Aguascalientes, Mexico (C-Class)",
+    "R": "Vance, Alabama, USA (GLE/GLS current 4JG WMI)",
+    "S": "Seongnam / Seoul, South Korea (CKD)",
+    "T": "Beijing, China (BBAC JV)",
+    "U": "Untertürkheim, Germany (engines/powertrains — rare on VIN)",
+    "W": "Wörth am Rhein, Germany (Actros trucks)"
+  },
+
+  "vds_format_detection": {
+    "_note": "If vin[3]+vin[4]+vin[5] == 'ZZZ' → European format (most GCC WDD/WDC). Else → US format (4JG). Check WMI first: 4JG is always US-format."
+  },
+
+  "euro_format": {
+    "_note": "European-format VDS: pos4-6 = ZZZ filler. Meaningful data in pos7 and pos8.",
+    "_pos_layout": {
+      "pos4": "Z (filler)",
+      "pos5": "Z (filler)",
+      "pos6": "Z (filler)",
+      "pos7": "Body / variant code",
+      "pos8": "Drivetrain / 4MATIC"
+    },
+
+    "position_7_body_variant": {
+      "_note": "Position 7 = body / variant code. Consistent across European and US format Mercedes.",
+      "A": "Sedan / 4-door",
+      "B": "Coupe / 2-door",
+      "C": "Convertible / Cabriolet",
+      "D": "Wagon / Estate / T-Model",
+      "E": "5-door hatchback / liftback",
+      "F": "SUV 5-door",
+      "G": "SUV Coupe (GLC Coupe / GLE Coupe)",
+      "H": "AMG-specific high-performance variant"
+    },
+
+    "position_8_drivetrain": {
+      "_note": "Position 8 = drivetrain / 4MATIC spec.",
+      "A": "RWD standard",
+      "B": "4MATIC (AWD)",
+      "C": "4MATIC+ (performance AWD)",
+      "D": "PHEV + RWD",
+      "E": "PHEV + 4MATIC"
+    }
+  },
+
+  "us_format": {
+    "_note": "US-format VDS for 4JG (Vance, AL) vehicles. Full NHTSA-compliant attribute encoding pos4-8.",
+    "_pos_layout": {
+      "pos4": "Model class",
+      "pos5": "Engine family",
+      "pos6": "Restraint system",
+      "pos7": "Body / variant",
+      "pos8": "Drivetrain"
+    },
+
+    "position_4_model_class": {
+      "A": "A-Class",
+      "B": "B-Class / GLA",
+      "C": "C-Class",
+      "D": "E-Class sedan",
+      "E": "E-Class estate / wagon",
+      "F": "CLS / CLA",
+      "G": "S-Class",
+      "H": "G-Class (Geländewagen)",
+      "J": "GLA / GLB",
+      "K": "GLC",
+      "L": "GLE",
+      "M": "GLS",
+      "N": "EQS / EQE (electric)",
+      "P": "AMG GT",
+      "R": "SL / SLC roadster"
+    },
+
+    "position_5_engine_family": {
+      "A": "OM654 (2.0L diesel)",
+      "B": "M264 (2.0L 4-cyl turbo petrol) — C-Class/GLC",
+      "C": "M276 / M256 (3.0L inline-6) — E/S/GLE",
+      "D": "M177 / M178 (4.0L V8 biturbo) — AMG models",
+      "E": "M279 (5.5L V8 NA, older)",
+      "F": "M120 (6.0L V12) — S600/Maybach",
+      "G": "M176 (4.0L V8 NA)",
+      "H": "OM642 (3.0L V6 diesel)",
+      "K": "M270 (1.6L 4-cyl turbo)",
+      "M": "Electric motor (EQ family — EQC/EQS/EQE/EQB)",
+      "N": "OM656 (3.0L inline-6 diesel)"
+    },
+
+    "position_6_restraint": {
+      "_note": "Standard NHTSA restraint schema for US-format Mercedes (4JG).",
+      "1": "Manual belts only, no airbags",
+      "2": "Manual belts + driver airbag only",
+      "3": "Manual belts + dual front airbags",
+      "4": "Manual belts + dual front + side airbags",
+      "5": "Manual belts + dual front + side + curtain airbags",
+      "6": "Full airbag suite (front + side + curtain + knee)"
+    },
+
+    "position_7_body_variant": {
+      "A": "Sedan / 4-door",
+      "B": "Coupe / 2-door",
+      "C": "Convertible / Cabriolet",
+      "D": "Wagon / Estate / T-Model",
+      "E": "5-door hatchback / liftback",
+      "F": "SUV 5-door",
+      "G": "SUV Coupe",
+      "H": "AMG high-performance variant"
+    },
+
+    "position_8_drivetrain": {
+      "A": "RWD standard",
+      "B": "4MATIC AWD",
+      "C": "4MATIC+ performance AWD",
+      "D": "PHEV + RWD",
+      "E": "PHEV + 4MATIC"
+    }
+  }
+}

@@ -288,19 +288,20 @@ def get_manufacturer_file(vin):
 
     wmi = vin[:3]
 
-    nissan_rules = load_rules("nissan.json")
-    toyota_rules = load_rules("toyota.json")
-    honda_rules = load_rules("honda.json")
-
-    if nissan_rules and wmi in nissan_rules.get("wmi", {}):
-        return "nissan.json", "Nissan"
-
-    if toyota_rules and wmi in toyota_rules.get("wmi", {}):
-        return "toyota.json", "Toyota"
-
-    # Added Honda Routing
-    if honda_rules and wmi in honda_rules.get("wmi", {}):
-        return "honda.json", "Honda"
+    for fname, mfr in [
+        ("nissan.json",     "Nissan"),
+        ("toyota.json",     "Toyota"),
+        ("honda.json",      "Honda"),
+        ("bmw.json",        "BMW"),
+        ("audi.json",       "Audi"),
+        ("hyundai.json",    "Hyundai"),
+        ("mercedes.json",   "Mercedes-Benz"),
+        ("ford.json",       "Ford"),
+        ("volkswagen.json", "Volkswagen"),
+    ]:
+        rules = load_rules(fname)
+        if rules and wmi in rules.get("wmi", {}):
+            return fname, mfr
 
     return None, None
 
@@ -323,8 +324,203 @@ def load_rules(filename):
 
 
 # =====================================================
+# VW GROUP FORMAT DETECTION (Audi / Mercedes / VW)
+# =====================================================
+
+def is_european_format(vin):
+    """Returns True if pos4-6 == 'ZZZ' — ISO filler used by VW Group / Mercedes EU-format VINs."""
+    return len(vin) >= 7 and vin[3:6].upper() == "ZZZ"
+
+
+# =====================================================
+# BMW DECODER
+# =====================================================
+
+def decode_bmw(vin, rules, result):
+    pos4 = vin[3]; pos5 = vin[4]; pos6 = vin[5]
+    pos7 = vin[6]; pos8 = vin[7]
+
+    p4 = rules.get("position_4_model_series", {}).get(pos4)
+    if p4: result["series_line"] = p4
+
+    p5 = rules.get("position_5_body_subvariant", {}).get(pos5)
+    if p5: result["body_type"] = p5
+
+    p6 = rules.get("position_6_engine_family", {}).get(pos6)
+    if p6: result["engine"] = p6
+
+    p7 = rules.get("position_7_drivetrain_variant", {}).get(pos7)
+    if p7: result["restraint_system"] = p7  # drivetrain stored here for display
+
+    p8 = rules.get("position_8_market_steering", {}).get(pos8)
+    if p8: result["model_platform"] = p8
+
+    result["notes"].append("BMW: pos7=drivetrain/variant (RWD/xDrive/eDrive), pos8=market/steering. GCC spec NOT in VIN.")
+    return result
+
+
+# =====================================================
+# AUDI DECODER
+# =====================================================
+
+def decode_audi(vin, rules, result):
+    pos7 = vin[6]; pos8 = vin[7]
+
+    if is_european_format(vin):
+        result["model_generation"] = "European Format — pos4-6: ZZZ filler (no data)"
+        euro = rules.get("euro_format", {})
+        p7 = euro.get("position_7_model_line", {}).get(pos7)
+        if p7: result["series_line"] = p7
+        p8 = euro.get("position_8_engine_family", {}).get(pos8)
+        if p8: result["engine"] = p8
+        result["notes"].append("Audi European-format VIN: pos4-6=ZZZ (no data). Model from pos7. Engine family from pos8. Full trim requires OEM PR codes.")
+    else:
+        us = rules.get("us_format", {})
+        p4 = us.get("position_4_model_series", {}).get(vin[3])
+        if p4: result["series_line"] = p4
+        p5 = us.get("position_5_engine", {}).get(vin[4])
+        if p5: result["engine"] = p5
+        p6 = us.get("position_6_restraint", {}).get(vin[5])
+        if p6: result["restraint_system"] = p6
+        p7 = us.get("position_7_body_style", {}).get(pos7)
+        if p7: result["body_type"] = p7
+        p8 = us.get("position_8_drive_transmission", {}).get(pos8)
+        if p8: result["model_platform"] = p8
+        result["notes"].append("Audi US-format VIN: full NHTSA pos4-8 encoding.")
+    return result
+
+
+# =====================================================
+# HYUNDAI DECODER
+# =====================================================
+
+def decode_hyundai(vin, rules, result):
+    pos4 = vin[3]; pos5 = vin[4]; pos6 = vin[5]
+    pos7 = vin[6]; pos8 = vin[7]; pos10 = vin[9]
+
+    p4 = rules.get("position_4_model_line", {}).get(pos4)
+    if p4: result["series_line"] = p4
+
+    # Era split: pos5/pos6 swapped at MY2001
+    year_map = rules.get("model_year_codes", {})
+    year_val = year_map.get(pos10)
+    model_year_int = int(year_val) if year_val else 0
+
+    if model_year_int >= 2003:
+        p5 = rules.get("position_5_post2001_trim", {}).get(pos5)
+        if p5: result["model_generation"] = p5
+        p6 = rules.get("position_6_post2001_body", {}).get(pos6)
+        if p6: result["body_type"] = p6
+        result["notes"].append("Hyundai MY2003+: pos5=trim level, pos6=body type.")
+    else:
+        p5 = rules.get("position_5_pre2001_body", {}).get(pos5)
+        if p5: result["body_type"] = p5
+        p6 = rules.get("position_6_pre2001_trim", {}).get(pos6)
+        if p6: result["model_generation"] = p6
+        result["notes"].append("Hyundai pre-2001: pos5=body style, pos6=trim level.")
+
+    p7 = rules.get("position_7_restraint", {}).get(pos7)
+    if p7: result["restraint_system"] = p7
+
+    p8 = rules.get("position_8_engine", {}).get(pos8)
+    if p8: result["engine"] = p8
+
+    return result
+
+
+# =====================================================
+# MERCEDES-BENZ DECODER
+# =====================================================
+
+def decode_mercedes(vin, rules, result):
+    pos7 = vin[6]; pos8 = vin[7]
+
+    if is_european_format(vin):
+        result["model_generation"] = "European Format — pos4-6: ZZZ filler (no data)"
+        euro = rules.get("euro_format", {})
+        p7 = euro.get("position_7_body_variant", {}).get(pos7)
+        if p7: result["body_type"] = p7
+        p8 = euro.get("position_8_drivetrain", {}).get(pos8)
+        if p8: result["model_platform"] = p8
+        result["notes"].append("Mercedes European-format VIN (WDD/WDC): pos4-6=ZZZ filler. Body/variant=pos7. Drivetrain/4MATIC=pos8. AMG Line/packages NOT in VIN.")
+    else:
+        us = rules.get("us_format", {})
+        p4 = us.get("position_4_model_class", {}).get(vin[3])
+        if p4: result["series_line"] = p4
+        p5 = us.get("position_5_engine_family", {}).get(vin[4])
+        if p5: result["engine"] = p5
+        p6 = us.get("position_6_restraint", {}).get(vin[5])
+        if p6: result["restraint_system"] = p6
+        p7 = us.get("position_7_body_variant", {}).get(pos7)
+        if p7: result["body_type"] = p7
+        p8 = us.get("position_8_drivetrain", {}).get(pos8)
+        if p8: result["model_platform"] = p8
+        result["notes"].append("Mercedes US-format VIN (4JG Vance, AL): full NHTSA pos4-8 encoding.")
+    return result
+
+
+# =====================================================
+# FORD DECODER
+# =====================================================
+
+def decode_ford(vin, rules, result):
+    pos4 = vin[3]; pos5 = vin[4]; pos6 = vin[5]
+    pos7 = vin[6]; pos8 = vin[7]
+
+    p4 = rules.get("position_4_model_line", {}).get(pos4)
+    if p4: result["series_line"] = p4
+
+    p5 = rules.get("position_5_engine", {}).get(pos5)
+    if p5: result["engine"] = p5
+
+    p6 = rules.get("position_6_restraint", {}).get(pos6)
+    if p6: result["restraint_system"] = p6
+
+    p7 = rules.get("position_7_body_style", {}).get(pos7)
+    if p7: result["body_type"] = p7
+
+    p8 = rules.get("position_8_trim_drivetrain", {}).get(pos8)
+    if p8: result["model_platform"] = p8
+
+    result["notes"].append("Ford: strict NHTSA format. pos8=trim+drivetrain combined — precise trim may need OEM DB.")
+    return result
+
+
+# =====================================================
+# VOLKSWAGEN DECODER
+# =====================================================
+
+def decode_volkswagen(vin, rules, result):
+    pos7 = vin[6]; pos8 = vin[7]
+
+    if is_european_format(vin):
+        result["model_generation"] = "European Format — pos4-6: ZZZ filler (no data)"
+        euro = rules.get("euro_format", {})
+        p7 = euro.get("position_7_model_line", {}).get(pos7)
+        if p7: result["series_line"] = p7
+        p8 = euro.get("position_8_engine", {}).get(pos8)
+        if p8: result["engine"] = p8
+        result["notes"].append("VW European-format VIN: pos4-6=ZZZ (zero data). Model=pos7. Engine family=pos8. Full trim/options require PR codes on spare-wheel-well sticker.")
+    else:
+        us = rules.get("us_format", {})
+        p4 = us.get("position_4_model", {}).get(vin[3])
+        if p4: result["series_line"] = p4
+        p5 = us.get("position_5_engine", {}).get(vin[4])
+        if p5: result["engine"] = p5
+        p6 = us.get("position_6_restraint", {}).get(vin[5])
+        if p6: result["restraint_system"] = p6
+        p7 = us.get("position_7_body", {}).get(pos7)
+        if p7: result["body_type"] = p7
+        p8 = us.get("position_8_transmission", {}).get(pos8)
+        if p8: result["model_platform"] = p8
+        result["notes"].append("VW US/Mexico-format VIN: full NHTSA pos4-8 encoding.")
+    return result
+
+
+# =====================================================
 # CORE DECODER — aligned with corrected JSON schema
 # =====================================================
+
 
 def decode_vin(vin):
     vin = vin.upper().strip()
@@ -335,7 +531,6 @@ def decode_vin(vin):
     filename, mfr_name = get_manufacturer_file(vin)
     rules = load_rules(filename) if filename else None
 
-    # Extraction
     wmi = vin[:3]
     vds = vin[3:9]
     vis = vin[9:]
@@ -358,215 +553,171 @@ def decode_vin(vin):
         "valid_chars": valid_chars, "invalid_chars_found": bad_chars,
         "manufacturer": mfr_name or "Unknown",
         "country": "Unknown", "vehicle_type": "Unknown",
-        "wmi_description": "Unknown", "body_type": "Unknown",
-        "engine": "Unknown", "restraint_system": "Unknown",
-        "model_platform": "Unknown", "series_line": "Unknown",
-        "model_generation": "Unknown", "model_year": "Unknown",
-        "plant": "Unknown", "serial_number": serial,
-        "pos4": pos4, "pos5": pos5, "pos5_6": pos5_6, "pos6": pos6,
-        "pos7": pos7, "pos8": pos8, "pos9": pos9, "pos10": pos10,
-        "pos11": pos11, "notes": [],
-    }
-
-    if not rules:
-        result["notes"].append("Unable to identify manufacturer from WMI.")
-        return result
-
-    # ── WMI ─────────────────────────────────────────
-    wmi_data = rules.get("wmi", {})
-    wmi_info = wmi_data.get(wmi, {})
-    result["country"] = wmi_info.get("country", "Unknown")
-    result["vehicle_type"] = wmi_info.get("vehicle_type", "Unknown")
-    result["wmi_description"] = wmi_info.get("manufacturer", mfr_name or "Unknown")
-
-    # ── POSITION 4 (Series/Line) ────────────────────
-    p4_map = rules.get("position_4", {})
-    val4 = p4_map.get(pos4)
-    if val4:
-        result["series_line"] = val4
-
-    # ── POSITION 5+6 (Honda Chassis/Engine) ─────────
-    # Many Honda JSONs use 5+6 for the specific model code (e.g., 'EJ' for Civic)
-    p56_map = rules.get("position_5_and_6", {})
-    if p56_map:
-        val56 = p56_map.get(pos5_6)
-        if val56:
-            result["model_platform"] = val56
-
-    # ── POSITION 7 (Body/Transmission) ──────────────
-    p7_map = rules.get("position_7", {})
-    val7 = p7_map.get(pos7)
-    if val7:
-        result["body_type"] = val7
-
-    # ── POSITION 8 (Grade/Equipment) ────────────────
-    p8_map = rules.get("position_8", {})
-    val8 = p8_map.get(pos8)
-    if val8:
-        result["restraint_system"] = val8
-
-    # ── POSITION 10 — MODEL YEAR ─────────────────────
-    year_map = rules.get("position_10_model_year", rules.get("year_codes", {}))
-    year_val = year_map.get(pos10)
-    if year_val:
-        result["model_year"] = str(year_val)
-
-    # ── POSITION 11 — PLANT ──────────────────────────
-    plant_map = rules.get("position_11_plant", {})
-    plant_val = plant_map.get(pos11)
-    result["plant"] = plant_val if plant_val else f"Code '{pos11}'"
-
-    return result
-    vin = vin.upper().strip()
-
-    # Basic validation
-    valid_chars, bad_chars = validate_vin_chars(vin)
-    check_ok, expected_check = validate_check_digit(vin)
-
-    filename, mfr_name = get_manufacturer_file(vin)
-    rules = load_rules(filename) if filename else None
-
-    wmi = vin[:3]
-    vds = vin[3:9]       # pos 4-9
-    vis = vin[9:]        # pos 10-17
-
-    pos4 = vin[3]
-    pos5 = vin[4]
-    pos5_6 = vin[4:6]   # combined for Nissan model+gen
-    pos6 = vin[5]
-    pos7 = vin[6]
-    pos8 = vin[7]
-    pos9 = vin[8]        # check digit
-    pos10 = vin[9]       # model year
-    pos11 = vin[10]      # plant
-    serial = vin[11:]    # pos 12-17
-
-    result = {
-        # VIN structure
-        "vin": vin,
-        "wmi": wmi,
-        "vds": vds,
-        "vis": vis,
-        "check_digit": pos9,
-        "check_digit_valid": check_ok,
-        "check_digit_expected": expected_check,
-        "valid_chars": valid_chars,
-        "invalid_chars_found": bad_chars,
-
-        # Manufacturer (from rules or fallback)
-        "manufacturer": mfr_name or "Unknown",
-        "country": "Unknown",
-        "vehicle_type": "Unknown",
         "wmi_description": "Unknown",
-
-        # VDS decoded
-        "body_type": "Unknown",
-        "engine": "Unknown",
-        "restraint_system": "Unknown",
-        "model_platform": "Unknown",
-        "series_line": "Unknown",
-        "model_generation": "Unknown",
-
-        # VIS decoded
-        "model_year": "Unknown",
-        "plant": "Unknown",
+        "body_type": "Unknown", "engine": "Unknown",
+        "restraint_system": "Unknown", "model_platform": "Unknown",
+        "series_line": "Unknown", "model_generation": "Unknown",
+        "model_year": "Unknown", "plant": "Unknown",
         "serial_number": serial,
-
-        # Raw position chars
-        "pos4": pos4,
-        "pos5": pos5,
-        "pos5_6": pos5_6,
-        "pos6": pos6,
-        "pos7": pos7,
-        "pos8": pos8,
-        "pos9": pos9,
-        "pos10": pos10,
-        "pos11": pos11,
-
-        # Notes/warnings
-        "notes": [],
+        "pos4": pos4, "pos5": pos5, "pos5_6": pos5_6,
+        "pos6": pos6, "pos7": pos7, "pos8": pos8,
+        "pos9": pos9, "pos10": pos10, "pos11": pos11,
+        "notes": []
     }
 
     if not rules:
         result["notes"].append("Unable to identify manufacturer from WMI.")
         return result
 
-    # ── WMI ─────────────────────────────────────────
-    wmi_data = rules.get("wmi", {})
-    wmi_info = wmi_data.get(wmi, {})
+    wmi_info = rules.get("wmi", {}).get(wmi, {})
     result["country"] = wmi_info.get("country", "Unknown")
     result["vehicle_type"] = wmi_info.get("vehicle_type", "Unknown")
     result["wmi_description"] = wmi_info.get("manufacturer", mfr_name or "Unknown")
 
-    # ── POSITION 4 ──────────────────────────────────
-    # Nissan: series/line    Toyota: body type
-    p4_map = rules.get("position_4", rules.get("position_4_body_type", {}))
-    val = p4_map.get(pos4)
-    if val and not val.startswith("_"):
-        result["series_line"] = val
+    # YEAR
+    year_map = (
+        rules.get("model_year_codes", {})
+        or rules.get("position_10_model_year", {})
+        or rules.get("year_codes", {})
+    )
 
-    # ── POSITION 5+6 (Nissan combined model+gen) ────
-    p56_map = rules.get("position_5_and_6", {})
-    if p56_map:
-        val56 = p56_map.get(pos5_6)
-        if val56:
-            result["model_generation"] = val56
-        else:
-            result["model_generation"] = f"Code {pos5_6} (lookup NHTSA for exact model)"
-            result["notes"].append(f"Pos 5+6 combined code '{pos5_6}' not in local table. Use NHTSA for exact model.")
-
-    # ── POSITION 5 (Toyota engine) ──────────────────
-    p5_engine = rules.get("position_5_engine_code", {})
-    if p5_engine:
-        val5 = p5_engine.get(pos5)
-        if val5:
-            result["engine"] = val5
-
-    # ── POSITION 6 (Toyota series/chassis) ──────────
-    p6_series = rules.get("position_6", {})
-    if p6_series and not p6_series.get("_note"):
-        val6 = p6_series.get(pos6)
-        if val6:
-            result["model_platform"] = val6
-
-    # ── POSITION 7 ──────────────────────────────────
-    # Nissan: body type    Toyota: restraint system
-    p7_nissan = rules.get("position_7_north_america", {})
-    p7_toyota = rules.get("position_7_restraint_system", {})
-    p7_map = p7_nissan or p7_toyota
-    val7 = p7_map.get(pos7)
-    if val7:
-        if p7_nissan:
-            result["body_type"] = val7
-        else:
-            result["restraint_system"] = val7
-
-    # ── POSITION 8 ──────────────────────────────────
-    # Nissan: restraint    Toyota: model platform
-    p8_nissan = rules.get("position_8_north_america", {})
-    p8_toyota = rules.get("position_8_model_platform", {})
-    if p8_nissan:
-        val8 = p8_nissan.get(pos8)
-        if val8:
-            result["restraint_system"] = val8
-    elif p8_toyota:
-        val8 = p8_toyota.get(pos8)
-        if val8:
-            result["model_platform"] = val8
-
-    # ── POSITION 10 — MODEL YEAR ─────────────────────
-    year_map = rules.get("position_10_model_year", rules.get("year_codes", {}))
     year_val = year_map.get(pos10)
     if year_val:
         result["model_year"] = str(year_val)
 
-    # ── POSITION 11 — PLANT ──────────────────────────
-    plant_map = rules.get("position_11_plant_north_america",
-                rules.get("position_11_plant", {}))
-    plant_val = plant_map.get(pos11)
-    result["plant"] = plant_val if plant_val else f"Code '{pos11}' (see manufacturer plant list)"
+    # TOYOTA ERA-BASED DECODER
+    if mfr_name == "Toyota" and year_val:
+
+        era = rules.get(
+            "era_2010_present" if int(year_val) >= 2010 else "era_1996_2009",
+            {}
+        )
+
+        p4 = era.get("position_4_body_type", {})
+        for grp in p4.values():
+            if isinstance(grp, dict) and pos4 in grp:
+                result["body_type"] = grp[pos4]
+                break
+
+        eng = era.get("position_5_engine", {}).get(pos5)
+        if eng:
+            result["engine"] = eng
+
+        if int(year_val) >= 2010:
+            rs = era.get("position_6_restraint", {}).get(pos6)
+            if rs:
+                result["restraint_system"] = rs
+
+            p7 = era.get("position_7_series", {})
+            for grp in p7.values():
+                if isinstance(grp, dict) and pos7 in grp:
+                    result["series_line"] = grp[pos7]
+                    break
+        else:
+            ser = era.get("position_6_series", {})
+            for grp in ser.values():
+                if isinstance(grp, dict) and pos6 in grp:
+                    result["series_line"] = grp[pos6]
+                    break
+
+            rs = era.get("position_7_restraint_passenger", {}).get(pos7)
+            if rs:
+                result["restraint_system"] = rs
+
+        vl = era.get("position_8_vehicle_line", {}).get(pos8)
+        if vl:
+            result["model_platform"] = vl
+
+        plant = rules.get("position_11_plant", {}).get(pos11)
+        if plant:
+            result["plant"] = plant
+
+        return result
+
+    # Generic Nissan/Honda logic remains unchanged
+    # ── NEW BRAND ROUTING ───────────────────────────
+    if mfr_name == "BMW":
+        result = decode_bmw(vin, rules, result)
+        plant = rules.get("position_11_plant", {}).get(pos11)
+        if plant: result["plant"] = plant
+        return result
+
+    if mfr_name == "Audi":
+        result = decode_audi(vin, rules, result)
+        plant = rules.get("position_11_plant", {}).get(pos11)
+        if plant: result["plant"] = plant
+        return result
+
+    if mfr_name == "Hyundai":
+        year_map2 = rules.get("model_year_codes", {})
+        yv = year_map2.get(pos10)
+        if yv: result["model_year"] = str(yv)
+        result = decode_hyundai(vin, rules, result)
+        plant = rules.get("position_11_plant", {}).get(pos11)
+        if plant: result["plant"] = plant
+        return result
+
+    if mfr_name == "Mercedes-Benz":
+        result = decode_mercedes(vin, rules, result)
+        plant = rules.get("position_11_plant", {}).get(pos11)
+        if plant: result["plant"] = plant
+        return result
+
+    if mfr_name == "Ford":
+        result = decode_ford(vin, rules, result)
+        plant = rules.get("position_11_plant", {}).get(pos11)
+        if plant: result["plant"] = plant
+        return result
+
+    if mfr_name == "Volkswagen":
+        result = decode_volkswagen(vin, rules, result)
+        plant = rules.get("position_11_plant", {}).get(pos11)
+        if plant: result["plant"] = plant
+        return result
+
+    # Generic Nissan/Honda fallback (unchanged)
+    p4_map = rules.get("position_4", {})
+    if p4_map.get(pos4):
+        result["series_line"] = p4_map[pos4]
+
+    p56_map = rules.get("position_5_and_6", {})
+    if p56_map.get(pos5_6):
+        result["model_platform"] = p56_map[pos5_6]
+
+    p7_map = rules.get("position_7", {})
+    if p7_map.get(pos7):
+        result["body_type"] = p7_map[pos7]
+
+    p8_map = rules.get("position_8", {})
+    if p8_map.get(pos8):
+        result["restraint_system"] = p8_map[pos8]
+
+    plant = rules.get("position_11_plant", {}).get(pos11)
+    if plant:
+        result["plant"] = plant
 
     return result
+
+
+
+def shorten_text(text):
+    if not text or text == "Unknown":
+        return "Not Available"
+    text = str(text)
+
+    if "(" in text:
+        text = text.split("(")[0]
+
+    if "/" in text:
+        text = text.split("/")[0]
+
+    return text.strip()
+
+
+def clean_value(text):
+    if not text or text == "Unknown":
+        return "Not Available"
+    return text
 
 
 # =====================================================
@@ -667,6 +818,10 @@ if decode_btn or (vin_input and len(vin_input) == 17):
     else:
         r = decode_vin(vin_input)
 
+        for k in ["body_type","engine","series_line","model_platform","restraint_system","plant"]:
+            r[k] = clean_value(shorten_text(r.get(k)))
+
+
         # ── VIN MAP ─────────────────────────────────
         st.markdown(vin_map_html(vin_input), unsafe_allow_html=True)
 
@@ -712,7 +867,7 @@ if decode_btn or (vin_input and len(vin_input) == 17):
         with c2:
             rows = ""
             rows += info_row("Series / Line", r["series_line"])
-            rows += info_row("Model / Generation", r["model_generation"])
+            
             rows += info_row("Body Type", r["body_type"])
             rows += info_row("Model Platform", r["model_platform"])
             st.markdown(section("Vehicle Descriptor Section", rows), unsafe_allow_html=True)

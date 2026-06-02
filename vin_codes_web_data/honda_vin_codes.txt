@@ -1,0 +1,3951 @@
+Vehicle Identification Numbers (VIN codes)/Honda/VIN Codes - Wikibooks, open books for an open world
+Jump to content
+Main menu
+Main menu
+move to sidebar
+hide
+Navigation
+Main Page
+Help
+Browse
+Cookbook
+Wikijunior
+Featured books
+Recent changes
+Special pages
+Random book
+Using Wikibooks
+Community
+Reading room forum
+Community portal
+Help out!
+Policies and guidelines
+Contact us
+Search
+Search
+Appearance
+Donations
+Create account
+Log in
+Personal tools
+Donations
+Create account
+Log in
+Contents
+move to sidebar
+hide
+Beginning
+1
+All Honda WMIs
+Toggle All Honda WMIs subsection
+1.1
+Americas
+1.2
+Oceania
+1.3
+Africa
+1.4
+Japan & Asia
+1.5
+Europe
+2
+General Template for Honda's VIN format
+Toggle General Template for Honda's VIN format subsection
+2.1
+Nation of Origin
+2.2
+Manufacturer
+2.3
+Vehicle type
+2.4
+Models
+2.4.1
+1981-1986 Honda
+2.4.1.1
+VIN template for model section
+2.4.1.2
+Body type 1981-1983
+2.4.1.3
+Body type 1984-1986
+2.4.1.4
+Transmission code 1981-1986
+2.4.2
+1987 - 1989 Honda & Acura plus 1986 Acura
+2.4.2.1
+VIN template for model section
+2.4.2.2
+Model 1987-1989 Honda
+2.4.2.3
+Model 1986-1989 Acura
+2.4.3
+1990-1999 Honda & Acura
+2.4.3.1
+VIN template for model section
+2.4.3.2
+Model 1990-1999 Honda
+2.4.3.3
+Model 1996-1999 Honda-built Isuzu
+2.4.3.4
+Model 1990-1999 Acura
+2.4.4
+2000-present Honda & Acura
+2.4.4.1
+VIN template for model section
+2.4.4.2
+Model 2000-present Honda
+2.4.4.3
+Model 2000-present Acura
+2.5
+Body type and transmission
+2.5.1
+1983-1986 Honda
+2.5.2
+1987-2009 Honda
+2.5.3
+1996-1999 Honda-built Isuzu
+2.5.4
+1997-2009 Honda light trucks
+2.5.5
+1986-2009 Acura
+2.5.6
+2001-2009 Acura light trucks
+2.5.7
+2010- Honda
+2.5.8
+2010- Honda light trucks
+2.5.9
+2010- Acura
+2.5.10
+2010- Acura light trucks
+2.6
+Grade & Restraint System
+2.6.1
+1983-1987 Honda
+2.6.2
+1986-1987 Acura
+2.6.3
+1988-1989 Honda
+2.6.4
+1988-1989 Acura
+2.6.5
+1990-1993 Honda
+2.6.6
+1990-1993 Acura
+2.6.7
+1994-1999 Honda
+2.6.8
+1996-1999 Honda-built Isuzu
+2.6.9
+1994-1999 Acura
+2.6.10
+2000-2009 Honda
+2.6.11
+2000-2009 Acura
+2.6.12
+2010-2019 Honda
+2.6.13
+2010-2019 Acura
+2.6.14
+2020- Honda
+2.6.15
+2020- Acura
+2.7
+Model year
+2.8
+Assembly plant
+2.9
+Production sequence number
+Toggle the table of contents
+Vehicle Identification Numbers (VIN codes)/Honda/VIN Codes
+Add languages
+Add links
+Book
+Discussion
+English
+Read
+Edit
+Edit source
+View history
+Tools
+Tools
+move to sidebar
+hide
+Actions
+Read
+Edit
+Edit source
+View history
+General
+What links here
+Related changes
+Upload file
+Permanent link
+Page information
+Cite this page
+Get shortened URL
+Sister projects
+Wikipedia
+Wikiversity
+Wiktionary
+Wikiquote
+Wikisource
+Wikinews
+Wikivoyage
+Commons
+Wikidata
+MediaWiki
+Meta-Wiki
+Print/export
+Create a collection
+Download as PDF
+Printable version
+In other projects
+Appearance
+move to sidebar
+hide
+From Wikibooks, open books for an open world
+<
+Vehicle Identification Numbers (VIN codes)
+Honda uses the following VIN formats and codes.  Honda has slightly varied the usage of some positions within the VIN over the years.  Consult the individual sections below for more information.
+All Honda WMIs
+[
+edit
+|
+edit source
+]
+Americas
+[
+edit
+|
+edit source
+]
+1HF — Honda of America Mfg., Inc. –­
+Honda
+, Motorcycle, ATV,
+UTV
+1HG — Honda of America Mfg., Inc. –­
+Honda
+, Passenger car
+19U — Honda of America Mfg., Inc. –­
+Acura
+, Passenger car
+19V — Honda Manufacturing of Indiana, LLC –­
+Acura
+, Passenger car
+19X — Honda Manufacturing of Indiana, LLC –­
+Honda
+, Passenger car
+2HG — Honda of Canada Mfg., Inc. –­
+Honda
+, Passenger car
+2HH — Honda of Canada Mfg., Inc. –­
+Acura
+, Passenger car
+2HJ — Honda of Canada Mfg., Inc. –­
+Honda
+, Truck
+2HK — Honda of Canada Mfg., Inc. –­
+Honda
+, Multi purpose passenger vehicle
+2HN — Honda of Canada Mfg., Inc. –­
+Acura
+, Multi purpose passenger vehicle
+3CZ — Honda de México S.A. de C.V. –­
+Honda
+, Multi purpose passenger vehicle
+3GP — G.M. de México -
+Honda
+, Multi purpose passenger vehicle ('24- Prologue EV)
+3HD — Honda de México S.A. de C.V. –­
+Acura
+, Multi purpose passenger vehicle
+3HG — Honda de México S.A. de C.V. –­
+Honda
+, Passenger car
+3H1 — Honda de México S.A. de C.V. –­
+Honda
+, Motorcycle,
+UTV
+4S6 — Subaru Isuzu Automotive –­
+Honda
+, Multi purpose passenger vehicle ('94-'02 Passport)
+4W5 — General Motors Co. -
+Acura
+, Multi purpose passenger vehicle ('24- ZDX EV)
+478 — Honda of America Mfg., Inc. –­
+Honda
+, All-Terrain vehicle (ATV)
+5FN — Honda Manufacturing of Alabama, LLC –­
+Honda
+, Multi purpose passenger vehicle
+5FP — Honda Manufacturing of Alabama, LLC –­
+Honda
+, Truck
+5FR — Honda Manufacturing of Alabama, LLC –­
+Acura
+, Multi purpose passenger vehicle
+5J6 — Honda of America Mfg., Inc. –­
+Honda
+, Multi purpose passenger vehicle
+5J8 — Honda of America Mfg., Inc. –­
+Acura
+, Multi purpose passenger vehicle
+5KB — Honda Manufacturing of Alabama, LLC –­
+Honda
+, Passenger car
+7FA — Honda Manufacturing of Indiana, LLC –­
+Honda
+, Multi-Purpose Passenger Vehicle
+8CH — Honda Motor de Argentina S.A. -
+Honda
+, Motorcycle
+8C3 — Honda Motor de Argentina S.A. -
+Honda
+, Passenger car (HR-V SUV until May 2020 and previously City sedan)
+93H — Honda Automoveis do Brasil Ltda. –­
+Honda
+, Passenger car
+9C2 — Moto Honda da Amazônia Ltda. –­
+Honda
+, Motorcycle
+Oceania
+[
+edit
+|
+edit source
+]
+7A3 — Honda New Zealand –­
+Honda
+, Passenger car
+Africa
+[
+edit
+|
+edit source
+]
+AHM — Mercedes-Benz South Africa –­
+Honda
+, Passenger car (Ballade)
+Japan & Asia
+[
+edit
+|
+edit source
+]
+JAE — Isuzu Motors, Ltd. –­
+Acura
+, Multi purpose passenger vehicle (SLX)
+JHF — Honda Motor Co., Ltd.
+JHG — Honda Motor Co., Ltd.
+JHM — Honda Motor Co., Ltd. –­
+Honda
+, Passenger car
+JHL — Honda Motor Co., Ltd. –­
+Honda
+, Multi purpose passenger vehicle
+JHN — Honda Motor Co., Ltd.
+JHZ — Honda Motor Co., Ltd.
+JH1 — Honda Motor Co., Ltd. –­
+Honda
+, Truck
+JH2 — Honda Motor Co., Ltd. –­
+Honda
+, Motorcycle, ATV
+JH3 — Honda Motor Co., Ltd. –­
+Honda
+, ATV
+JH4 — Honda Motor Co., Ltd. –­
+Acura
+, Passenger car
+JH5 — Honda Motor Co., Ltd.
+JR2 — Honda Motor Co., Ltd. –­
+Isuzu
+, Multi purpose passenger vehicle (Oasis)
+LAL — Sundiro Honda Motorcycle Co., Ltd. –­
+Honda
+, Motorcycle
+LHG — GAC Honda Automobile Co., Ltd. -
+Honda
+, Passenger car
+LUC — Honda Automobile (China) Co., Ltd. –­
+Honda
+, Passenger car
+LVH — Dongfeng Honda Automobile Co., Ltd. -
+Honda
+, Passenger car
+LWB — Wuyang Honda Motors (Guangzhou) Co., Ltd. –­
+Honda
+, Motorcycle
+MAK — Honda Cars India Ltd. –­
+Honda
+, Passenger car
+ME4 — Honda Motorcycle and Scooter India Pvt. Ltd. –­
+Honda
+, Motorcycle
+MHR — P.T. Honda Prospect Motor Indonesia –­
+Honda
+, Passenger car
+MH1 — P.T. Astra Honda Motor –­
+Honda
+, Motorcycle
+MLH — Thai Honda Manufacturing Co., Ltd. –­
+Honda
+, Motorcycle
+MRH — Honda Automobile (Thailand) Co., Ltd. –­
+Honda
+, Passenger car
+MRJ — Honda Automobile (Thailand) Co., Ltd. –­
+Honda
+, Multi purpose passenger vehicle
+NFB — Honda Atlas Cars Pakistan Ltd. –­
+Honda
+, Passenger car
+PAD — Honda Cars Philippines Inc. –­
+Honda
+, Multi purpose passenger vehicle
+PMH — Honda Malaysia Sdn. Bhd. –­
+Honda
+, Passenger car
+PMK — Boon Siew Honda Sdn. Bhd –­
+Honda
+, Motorcycle
+RKT — Honda Taiwan Motor Co., Ltd. –­
+Honda
+, Passenger car
+RLH — Honda Vietnam Co. Ltd. –­
+Honda
+, Motorcycle
+Europe
+[
+edit
+|
+edit source
+]
+NLA — Honda Türkiye A.Ş. –­
+Honda
+, Passenger car
+SAH — Austin Rover Group –­
+Honda
+, Passenger car (Ballade, Concerto)
+SHH — Honda of the UK Mfg., Ltd. –­
+Honda
+, Passenger car
+SHS — Honda of the UK Mfg., Ltd. –­
+Honda
+, Multi purpose passenger vehicle
+VTD — Montesa Honda S.A. –­
+Honda
+, Motorcycle
+VTM — Montesa Honda S.A. –­
+Honda
+, Motorcycle
+YC1 — Honda Belgium NV –­
+Honda
+, Motorcycle
+ZDC — Honda Italia Industriale SpA –­
+Honda
+, Motorcycle
+General Template for Honda's VIN format
+[
+edit
+|
+edit source
+]
+Position
+Sample
+Description
+1
+J
+Nation of Origin
+2
+H
+Manufacturer
+3
+M
+Vehicle type
+4
+C
+Models
+5
+A
+6
+5
+7
+4
+Body type and transmission
+8
+8
+Grade
+9
+0
+Check digit
+10
+K
+Model year
+11
+C
+Assembly plant
+12
+1
+Production sequence number
+13
+8
+14
+6
+15
+3
+16
+9
+17
+2
+Nation of Origin
+[
+edit
+|
+edit source
+]
+VIN code
+Description
+1
+USA
+2
+Canada
+3
+Mexico
+4
+USA
+5
+USA
+6
+Australia
+7A-7E
+New Zealand
+7F-70
+USA
+8A-8E
+Argentina
+9A-9E, 93–99
+Brazil
+AA through AH
+South Africa
+J
+Japan
+L
+China
+MA-ME, MY-M0
+India
+MF-MK
+Indonesia
+ML-MR
+Thailand
+NL-NR
+Turkey
+PA-PE
+Philippines
+PL-PR
+Malaysia
+RF-RK
+Taiwan
+RL-RP
+Vietnam
+S
+UK
+VF-VR
+France
+VS-VW
+Spain
+W
+Germany
+Z
+Italy
+[
+1
+]
+Manufacturer
+[
+edit
+|
+edit source
+]
+VIN code
+Description
+H
+Honda
+A
+Isuzu Motors Ltd., Acura MPV
+C
+Honda de Mexico Honda MPV
+F
+Honda Manufacturing of Alabama Honda/Acura MPV or Honda Truck
+F
+Honda Manufacturing of Indiana Honda MPV
+J
+Honda of America Mfg. Honda/Acura MPV
+K
+Honda Manufacturing of Alabama Honda car
+M
+Honda Malaysia
+S
+Subaru Isuzu Automotive (SIA) Honda MPV
+7
+Honda of America Mfg. ATV
+9
+Honda of America Mfg. Acura car
+9
+Honda Manufacturing of Indiana Honda/Acura car
+Vehicle type
+[
+edit
+|
+edit source
+]
+VIN code
+Description
+1
+Truck, built in Japan
+2
+Motorcycle, built in Japan/Brazil
+3
+ATV, built in Japan
+4
+Acura Passenger car, built in Japan
+6
+Multi purpose passenger vehicle, built in USA (OH)
+6
+Honda Multi purpose passenger vehicle, built by SIA in USA
+8
+Acura Multi purpose passenger vehicle, built in USA (OH)
+8
+ATV, built in USA
+A
+Multi purpose passenger vehicle, built in USA (IN)
+A
+Passenger car, built in Turkey
+B
+Passenger car, built in USA (AL)
+C
+Motorcycle, built in Italy
+D
+Acura Multi purpose passenger vehicle, built in Mexico
+E
+Acura Multi purpose passenger vehicle, built by Isuzu in Japan
+M
+Passenger car, built in Japan
+F
+Motorcycle/ATV/UTV, Built in USA
+G
+Passenger car, built in USA (OH)/Canada/Mexico
+H
+Acura Passenger car, built in Canada
+H
+Passenger car, built in United Kingdom/Brazil
+H
+Passenger car, Honda Malaysia Sdn. Bhd.
+J
+Truck, built in Canada
+K
+Multi purpose passenger vehicle, built in Canada
+L
+Multi purpose passenger vehicle, built in Japan
+M
+Passenger car, built in Japan
+N
+Multi purpose passenger vehicle, built in USA (AL)
+N
+Acura Multi purpose passenger vehicle, built in Canada
+P
+Truck, built in AL, USA
+R
+Acura Multi purpose passenger vehicle, built in USA (AL)
+S
+Multi purpose passenger vehicle, built in United Kingdom
+U
+Acura Passenger car, built in USA (OH)
+V
+Acura Passenger car, built in USA (IN)
+X
+Passenger car, built in USA (IN)
+Z
+Multi purpose passenger vehicle, built in Mexico
+Models
+[
+edit
+|
+edit source
+]
+This portion of the VIN contains the most significant differences over the years.  The following section details the formatting changes within different model year range, breaking out the additional meaning of positions 4 - 6.
+1981-1986 Honda
+[
+edit
+|
+edit source
+]
+VIN template for model section
+[
+edit
+|
+edit source
+]
+Position
+Sample
+Description
+4
+A
+Body type 1981-1983
+or
+Body type 1984-1986
+5
+H
+6
+5
+Transmission code 1983-1986
+Body type 1981-1983
+[
+edit
+|
+edit source
+]
+VIN code
+Description
+AB
+Prelude 1983
+SL
+Civic 1300 1.3 liter 3-door hatchback 1981-1983
+SM
+Accord 1981
+SN
+Prelude 1981-1982
+SR
+Civic 1500 1.5 liter 3-door hatchback 1981-1983
+ST
+Civic 1500 1.5 liter 4-door sedan 1981-1983
+SZ
+Accord 1982-1983
+WD
+Civic station wagon 1500 1.5 liter 1981-1983
+Body type 1984-1986
+[
+edit
+|
+edit source
+]
+VIN code
+Description
+AB
+Prelude 1.8 liter 1984-1986
+AD
+Accord 1984-1985
+AE
+Civic CRX 1.3 liter
+AF
+Civic CRX 1.5 liter
+AG
+Civic 1300 1.3 liter 3 door
+AH
+Civic 1500 1.5 liter 3 door
+AK
+Civic 1500 1.5 liter 4 door
+AN
+Civic wagon 1500 1.5 liter
+AR
+Civic wagon 4x4 1500 1.5 liter
+BA
+Accord 1986
+BB
+Prelude Si 2.0 liter 1985-1986
+VN
+Civic Wagovan 1500 1.5 liter
+Transmission code 1981-1986
+[
+edit
+|
+edit source
+]
+VIN code
+Description
+2
+Hondamatic Semi-automatic
+3
+3 speed automatic
+4
+4 speed manual
+5
+5 speed manual
+6
+5 speed manual + super-low gear
+7
+4 speed automatic
+1987 - 1989 Honda & Acura plus 1986 Acura
+[
+edit
+|
+edit source
+]
+VIN template for model section
+[
+edit
+|
+edit source
+]
+Position
+Sample
+Description
+4
+C
+Model 1987-1989
+5
+A
+6
+5
+Model 1987-1989 Honda
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+BA3
+Prelude Si A20 Engine 1987
+BA4
+Prelude B20 Engine 1988-1989
+BA6
+Prelude A18 Engine 1987
+CA5
+Accord 3-door hatchback & 4-door sedan
+CA6
+Accord coupe 1988-1989
+EC1
+Civic CRX 1987
+EC2
+Civic 1300 3-door hatchback 1987
+EC3
+Civic 1500 3-door hatchback 1987
+EC4
+Civic 1500 4 Door Sedan 1987
+EC5
+Civic Wagon 1500 1987
+EC6
+Civic Wagon 4X4 1500 1987
+ED3
+Civic Sedan 1.5L (1988-1989)
+ED6
+Civic Hatchback 1.5L (1988-1989)
+ED7
+Civic Si Hatchback 1.6L (1989)
+ED8
+Civic CRX 1.5L (1988-1989)
+ED9
+Civic CRX Si 1.6L (1988-1989)
+EE2
+Civic Wagon 1.5L (1988-1989)
+EE4
+Civic Wagon 1.6L 4WD (1988-1989)
+EY1
+Civic Wagovan 1500 1987
+EY3
+Civic Wagovan 1.5L (1988-1989)
+Model 1986-1989 Acura
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+DA1
+Integra 5-door 1.6 liter DOHC 1986-1989
+DA3
+Integra 3-door 1.6 liter DOHC 1986-1989
+KA2
+Legend 4-door 2.5 liter SOHC V6 1986-1987
+KA3
+Legend 2-door 2.7 liter SOHC V6 1987-1989
+KA4
+Legend 4-door 2.7 liter SOHC V6 1988-1989
+1990-1999 Honda & Acura
+[
+edit
+|
+edit source
+]
+VIN template for model section
+[
+edit
+|
+edit source
+]
+Position
+Sample
+Description
+4
+C
+Model 1990-1999
+5
+G
+6
+6
+Model 1990-1999 Honda
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+BA4
+Prelude, 2.0 DOHC/2.1L DOHC 1990-1991
+BA8
+Prelude S, 2.2L SOHC F22 engine 1992-1996
+BB1
+Prelude VTEC, 2.2L DOHC H22 engine 1993-1996
+BB2
+Prelude Si, 2.3L DOHC H23 engine 1992-1996
+BB5
+Prelude, 2.2L F22 engine 1997-2000 (Japanese & Australian market)
+BB6
+Prelude, 2.2L DOHC VTEC H22 engine 1997-1999
+BB8
+Prelude, 2.2L VTEC H22 engine 1997-2000 (Japanese & European market)
+CB7
+Accord coupe & sedan, 2.2L SOHC 1990-1993
+CB9
+Accord Wagon, 2.2L SOHC 1991-1993
+CD5
+Accord 4 Door 2.2L SOHC 1994-1997
+CD7
+Accord 2 Door 2.2L SOHC 1994-1997
+CE1
+Accord Wagon 2.2L SOHC 1994-1997
+CE6
+Accord V6 4 Door 2.7L SOHC V6 1995-1997
+CF8
+Accord DX 4 Door 2.3L SOHC 1998-1999
+CG1
+Accord 4 Door V6 3.0L SOHC VTEC V6 1998-1999
+CG2
+Accord 2 Door V6 3.0L SOHC VTEC V6 1998-1999
+CG3
+Accord LX, EX 2 Door 2.3L SOHC VTEC 1998-1999
+CG5
+Accord LX, EX 4 Door 2.3L SOHC VTEC 1998-1999
+CG6
+Accord LX 4 Door 2.3L SOHC VTEC ULEV 1999
+CG6
+Accord EX 4 Door 2.3L SOHC VTEC ULEV 1998-1999
+CF4
+Accord 4 Door SiR, SiR-T 2.0L DOHC VTEC (Japanese market)
+CH9
+Accord Wagon SiR 2.3L DOHC VTEC (Japanese market)
+ED3
+Civic 4 Door, 1.5L 1990-1991
+ED4
+Civic EX 4 Door, 1.6L 1990-1991
+ED6
+Civic 3 Door, 1.5L 1990-1991
+ED7
+Civic Si 3 Door, 1.6L 1990-1991
+ED8
+Civic CRX, 1.5L 1990-1991
+ED9
+Civic CRX Si, 1.6L 1990-1991
+EE2
+Civic Wagon, 1.5L 1990-1991
+EE4
+Civic Wagon 4WD, 1.6L 1990-1991
+EF8
+CR-X SiR 1.6L VTEC (Japanese market)
+EG1
+Civic del Sol S, 1.5L SOHC 1993-1995
+EG2
+Civic del Sol VTEC 1.6L DOHC B16A3 1994-1995
+EG2
+Civic del Sol VTEC 1.6L DOHC B16A2 1996-1997
+EG6
+Civic 3 door hatchback 1.6L DOHC VTEC (European/Japanese market VTi/SiR)
+EG8
+Civic 4 Door, 1.5L SOHC 1992-1995
+EG9
+Civic SiR 4 Door, 1.6L DOHC VTEC (Japanese market)
+EH2
+Civic 3 Door, 1.5L SOHC 1992-1995
+EH2
+Civic VX 3 Door, 1.5L SOHC VTEC-E 1992-1995
+EH3
+Civic Si 3 Door, 1.6L SOHC VTEC 1992-1995
+EH6
+Civic del Sol Si, 1.6L SOHC VTEC D16Z6 1993-1995
+EH6
+Civic del Sol S, 1.6L SOHC D16Y7 1996-1997
+EH6
+Civic del Sol Si, 1.6L SOHC VTEC D16Y8 1996-1997
+EH9
+Civic EX 4 Door, 1.6L SOHC VTEC 1992-1995
+EJ1
+Civic EX 2 Door, 1.6L SOHC VTEC 1993-1995
+EJ2
+Civic 2 Door, 1.5L SOHC 1993-1995
+EJ6
+Civic 2/3/4 Door 1.6L SOHC 1996-1999
+EJ7
+Civic HX 2 Door 1.6L SOHC VTEC-E 1996-1999
+EJ8
+Civic EX 2/4 Door 1.6L SOHC VTEC 1996-1999
+EM1
+Civic Si 2 Door, 1.6L DOHC VTEC 1999
+EN1
+Civic GX 4 Door, 1.6L SOHC VTEC-E CNG-powered 1998-1999
+EL1
+Orthia 1.8L 5 Door Wagon (Japanese market)
+EL2
+Orthia 2.0L 5 Door Wagon (Japanese market)
+EL3
+Orthia 2.0L 5 Door Wagon 4WD (Japanese market)
+MA4
+Domani 4 door 1.6 (Japanese market)
+MA5
+Domani 4 door 1.8 (Japanese market)
+MA8
+Civic 5 door 1.4L Fastback (European market)
+MA9
+Civic 5 door 1.5L Fastback (European market)
+MB1
+Civic 5 door 1.6L Fastback (European market)
+MB2
+Civic 5 door 1.4L Fastback (FL) (European market)
+MB3
+Civic 5 door 1.5L Fastback (FL) (European market)
+MB4
+Civic 5 door 1.6L Fastback (FL) (European market)
+MB6
+Civic 5 door 1.8L VTi Fastback (FL) (European market)
+MB7
+Civic 5 door 2.0L direct injection Turbodiesel Fastback (FL) (European market)
+MB8
+Civic 5 door 1.4L Aerodeck (Wagon) (FL) (European market)
+MB9
+Civic 5 door 1.5L Aerodeck (Wagon) (FL) (European market)
+MC1
+Civic 5 door 1.6L Aerodeck (Wagon) (FL) (European market)
+MC2
+Civic 5 door 1.8L VTi Aerodeck (Wagon) (FL) (European market)
+MC3
+Civic 5 door 2.0L direct injection Turbodiesel Aerodeck (Wagon) (FL) (European market)
+RA1
+Odyssey 2.2L 1995-1997
+RA3
+Odyssey 2.3L 1998
+RD1
+CR-V (4 Wheel drive) 1997-1999
+RD2
+CR-V (2 Wheel drive) 1998-1999
+RL1
+Odyssey 3.5L SOHC VTEC V6 1999
+ZA1
+EV Plus electric 66 hp, 28.7 kWh battery 1997-1999
+CNG=Compressed Natural Gas
+Model 1996-1999 Honda-built Isuzu
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+RJ1
+Oasis 2.2L 1996-1997
+RJ2
+Oasis 2.3L 1998-1999
+Model 1990-1999 Acura
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+CC2
+Vigor 2.5 liter SOHC 5-cylinder 1992-1994
+DA9
+Integra 3-door 1.8 liter DOHC 1990-1993
+DB1
+Integra 4-door 1.8 liter DOHC 1990-1993
+DB2
+Integra GS-R 3-door 1.7 liter DOHC 1992-1993
+DB7
+Integra 4-door 1.8 liter DOHC 1994-1999
+DB8
+Integra GS-R 4-door 1.8 liter DOHC VTEC B18C1 engine 1994-1999
+DC2
+Integra GS-R 3-door 1.8 liter DOHC VTEC B18C1 engine 1994-1999
+DC2
+Integra Type R 3-door 1.8 liter DOHC VTEC B18C5 engine 1997-1998 & 1999 (Canada)
+DC4
+Integra 3-door 1.8 liter DOHC 1994-1999
+KA3
+Legend 2-door 2.7 liter SOHC V6 1990
+KA4
+Legend 4-door 2.7 liter SOHC V6 1990
+KA7
+Legend 4-door 3.2 liter SOHC V6 1991-1995
+KA8
+Legend 2-door 3.2 liter SOHC V6 1991-1995
+KA9
+3.5RL 3.5 liter SOHC V6 1996-1999
+MB4
+1.6EL 1.6 liter SOHC VTEC 1997-1999 (Canada)
+NA1
+NSX 3.0 liter DOHC VTEC V6 1991-1999
+NA2
+NSX 3.2 liter DOHC VTEC V6 1997-1999
+UA2
+2.5TL 2.5 liter SOHC 5-cylinder 1996-1998
+UA3
+3.2TL 3.2 liter SOHC V6 1996-1998
+UA5
+3.2TL 3.2 liter SOHC VTEC V6 1999
+YA1
+2.2CL 2.2 liter SOHC VTEC 1997
+YA2
+3.0CL 3.0 liter SOHC VTEC V6 1997-1999
+YA3
+2.3CL 2.3 liter SOHC VTEC 1998-1999
+2000-present Honda & Acura
+[
+edit
+|
+edit source
+]
+VIN template for model section
+[
+edit
+|
+edit source
+]
+Position
+Sample
+Description
+4
+C
+Model 2000-present
+5
+M
+6
+5
+Model 2000-present Honda
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+AP1
+S2000, 2.0L DOHC VTEC F20 engine 2000-2003
+AP2
+S2000, 2.2L DOHC VTEC F22 engine 2004-2009
+BB6
+Prelude, 2.2L DOHC VTEC H22 engine 2000-2001
+BF1
+Prelude, 2.0L DOHC VTC + electric 2026-
+CF8
+Accord DX 4 Door 2.3L SOHC 2000-2002
+CG1
+Accord 4 Door V6 3.0L SOHC VTEC V6 2000-2002
+CG2
+Accord 2 Door V6 3.0L SOHC VTEC V6 2000-2002
+CG3
+Accord 2 Door 2.3L SOHC VTEC 2000-2002
+CG5
+Accord 4 Door 2.3L SOHC VTEC 2000-2002
+CG6
+Accord 4 Door 2.3L SOHC VTEC ULEV 2000-2002
+CM5
+Accord 4 Door 2.4L DOHC i-VTEC 2003-2007
+CM6
+Accord 4 Door V6 3.0L SOHC VTEC V6 2003-2007
+CM7
+Accord 2 Door 2.4L DOHC i-VTEC 2003-2007
+CM8
+Accord 2 Door V6 3.0L SOHC VTEC V6 2003-2007
+CN3
+Accord Hybrid 4 Door 3.0L SOHC VTEC V6 + electric 2005-2007
+CP2
+Accord 4 Door 2.4L DOHC i-VTEC 2008-2012
+CP3
+Accord 4 Door V6 3.5L SOHC i-VTEC V6 2008-2012
+CR2
+Accord 4 Door 2.4L DOHC i-VTEC 2013-2017
+CR3
+Accord 4 Door V6 3.5L SOHC i-VTEC V6 2013-2017
+CR5
+Accord Plug-in Hybrid 4 Door 2.0L DOHC i-VTEC + electric 2014
+CR6
+Accord Hybrid 4 Door 2.0L DOHC i-VTEC + electric 2014-2015, 2017
+CS1
+Accord 2 Door 2.4L DOHC i-VTEC 2008-2012
+CS2
+Accord 2 Door V6 3.5L SOHC i-VTEC V6 2008-2012
+CT1
+Accord 2 Door 2.4L DOHC i-VTEC 2013-2017
+CT2
+Accord 2 Door V6 3.5L SOHC i-VTEC V6 2013-2017
+CV1
+Accord 4 Door 1.5L DOHC VTEC turbo 2018-2022
+CV2
+Accord 4 Door 2.0L DOHC VTEC turbo 2018-2022
+CV3
+Accord Hybrid 4 Door 2.0L DOHC i-VTEC + electric 2018-2022
+CY1
+Accord 4 Door 1.5L DOHC VTEC turbo 2023-
+CY2
+Accord Hybrid 4 Door 2.0L DOHC i-VTEC + electric 2023-
+DG1
+BR-V 1.5L SOHC i-VTEC 2018-2022 (Mexico)
+DG3
+BR-V 1.5L DOHC i-VTEC 2024- (Mexico)
+EJ6
+Civic 2/3/4 Door 1.6L SOHC 2000
+EJ7
+Civic HX 2 Door 1.6L SOHC VTEC-E 2000
+EJ8
+Civic EX 2/4 Door 1.6L SOHC VTEC 2000
+EM1
+Civic Si 2 Door, 1.6L DOHC VTEC 2000
+EM2
+Civic 2 Door, 1.7L SOHC D17A1 2001-2005
+EM2
+Civic HX 2 Door, 1.7L SOHC VTEC-E D17A6 2001-2005
+EM2
+Civic EX 2 Door, 1.7L SOHC VTEC D17A2 2001-2005
+EN1
+Civic GX 4 Door, 1.6L SOHC VTEC-E CNG-powered 2000
+EN2
+Civic GX 4 Door, 1.7L SOHC CNG-powered 2001-2005
+EP3
+Civic Si 3 Door, 2.0L DOHC i-VTEC 2002-2005
+ES1
+Civic 4 Door, 1.7L SOHC 2001-2005
+ES2
+Civic EX 4 Door, 1.7L SOHC VTEC 2001-2005
+ES9
+Civic Hybrid 4 Door 1.3L SOHC VTEC + electric 2003-2005
+FA1
+Civic 4 Door, 1.8L SOHC i-VTEC 2006-2011
+FA3
+Civic Hybrid 4 Door 1.3L SOHC i-VTEC + electric 2006-2011
+FA4
+Civic GX 4 Door, 1.8L SOHC i-VTEC CNG-powered 2006-2011
+FA5
+Civic Si 4 Door, 2.0L DOHC i-VTEC 2007-2011
+FA5
+Civic Mugen Si 4 Door, 2.0L DOHC i-VTEC 2008
+FB2
+Civic 4 Door, 1.8L SOHC i-VTEC 2012-2015
+FB4
+Civic Hybrid 4 Door 1.5L SOHC i-VTEC + electric 2012-2015
+FB5
+Civic NGV (GX) 4 Door, 1.8L SOHC i-VTEC CNG-powered 2012-2015
+FB6
+Civic Si 4 Door, 2.4L DOHC i-VTEC 2012-2015
+FC1
+Civic 4 Door 1.5L DOHC VTC turbo 2016-2021
+FC2
+Civic 4 Door 2.0L DOHC i-VTEC 2016-2021
+FC3
+Civic 2 Door 1.5L DOHC VTC turbo 2016-2020
+FC4
+Civic 2 Door 2.0L DOHC i-VTEC 2016-2020
+FE1
+Civic 4 Door 1.5L DOHC VTEC turbo 2022-2024
+FE1
+Civic Si 4 Door 1.5L DOHC VTEC turbo 2022-
+FE2
+Civic 4 Door 2.0L DOHC i-VTEC 2022-2024
+FE2
+Civic 4 Door 2.0L DOHC VTC 2025-
+FE4
+Civic Hybrid 4 Door 2.0L DOHC VTC + electric 2025-
+FG1
+Civic 2 Door, 1.8L SOHC i-VTEC 2006-2011
+FG2
+Civic Si 2 Door, 2.0L DOHC i-VTEC 2006-2011
+FG3
+Civic 2 Door, 1.8L SOHC i-VTEC 2012-2015
+FG4
+Civic Si 2 Door, 2.4L DOHC i-VTEC 2012-2015
+FK7
+Civic 5 Door 1.5L DOHC VTC turbo 2017-2021
+FK8
+Civic Type R 5 Door 2.0L DOHC i-VTEC turbo 2017-2021
+FL1
+Civic 5 Door 1.5L DOHC VTEC turbo 2022-2024
+FL2
+Civic 5 Door 2.0L DOHC i-VTEC 2022-2024
+FL2
+Civic 5 Door 2.0L DOHC VTC 2025-
+FL4
+Civic Hybrid 5 Door 2.0L DOHC VTC + electric 2025-
+FL5
+Civic Type R 5 Door 2.0L DOHC i-VTEC turbo 2023-
+GD3
+Fit, 1.5L SOHC VTEC 2007-2008
+GE8
+Fit, 1.5L SOHC i-VTEC 2009-2013 & 2014 (Canada)
+GK5
+Fit, 1.5L DOHC i-VTEC 2015-2020
+GM2
+City 1.5L SOHC i-VTEC 2010-2013 (Mexico)
+GM6
+City 1.5L SOHC i-VTEC 2016-2020 (Mexico)
+GN2
+City 1.5L DOHC i-VTEC 2021- (Mexico)
+RD1
+CR-V (4 Wheel drive) 2000-2001
+RD2
+CR-V (2 Wheel drive) 2000-2001
+RD6
+CR-V (2 Wheel drive) 2002-2006
+RD7
+CR-V (4 Wheel drive) 2002-2006
+RE3
+CR-V (2 Wheel drive) 2007-2011
+RE4
+CR-V (4 Wheel drive) 2007-2011
+RL1
+Odyssey 3.5L SOHC VTEC V6 2000-2004
+RL3
+Odyssey 3.5L SOHC VTEC or i-VTEC V6 2005-2010
+RL5
+Odyssey 3.5L SOHC i-VTEC V6 2011-2017
+RL6
+Odyssey 3.5L SOHC i-VTEC V6 2018-
+RM3
+CR-V (2 Wheel drive) 2012-2016
+RM4
+CR-V (4 Wheel drive) 2012-2016
+RS3
+CR-V (2 Wheel drive) 1.5L DOHC VTEC turbo 2023-
+RS4
+CR-V (4 Wheel drive) 1.5L DOHC VTEC turbo 2023-
+RS5
+CR-V Hybrid (2 Wheel drive) 2.0L DOHC i-VTEC + electric 2023-
+RS6
+CR-V Hybrid (4 Wheel drive) 2.0L DOHC i-VTEC + electric 2023-
+RT6
+CR-V Hybrid (4 Wheel drive) 2.0L DOHC i-VTEC + electric 2020-2022
+RU5
+HR-V (2 Wheel drive) 2016-2022
+RU6
+HR-V (4 Wheel drive) 2016-2022
+RW1
+CR-V (2 Wheel drive) 1.5L DOHC VTC turbo 2017-2022
+RW2
+CR-V (4 Wheel drive) 1.5L DOHC VTC turbo 2017-2022
+RW5
+CR-V (2 Wheel drive) 2.4L DOHC i-VTEC 2017-2019
+RW6
+CR-V (4 Wheel drive) 2.4L DOHC i-VTEC 2017-2019
+RZ1
+HR-V (2 Wheel drive) 2023-
+RZ2
+HR-V (4 Wheel drive) 2023-
+TF1
+Accord Crosstour (2 Wheel drive) 3.5L SOHC i-VTEC V6 2010-2011
+TF2
+Accord Crosstour (4 Wheel drive) 3.5L SOHC i-VTEC V6 2010-2011
+TF1
+Crosstour (2 Wheel drive) 3.5L SOHC i-VTEC V6 2012-2015
+TF2
+Crosstour (4 Wheel drive) 3.5L SOHC i-VTEC V6 2012-2015
+TF3
+Crosstour (2 Wheel drive) 2.4L DOHC i-VTEC 2012-2015
+YF1
+Pilot (4 Wheel drive) 2003-2008
+YF2
+Pilot (2 Wheel drive) 2003-2008
+YF3
+Pilot (2 Wheel drive) 2009-2015
+YF4
+Pilot (4 Wheel drive) 2009-2015
+YF5
+Pilot (2 Wheel drive) 2016-2022
+YF6
+Pilot (4 Wheel drive) 2016-2022
+YF7
+Passport (2 Wheel drive) 2019-2022
+YF8
+Passport (4 Wheel drive) 2019-2025
+YF9
+Passport (4 Wheel drive) 2026-
+YG1
+Pilot (4 Wheel drive) 3.5L DOHC VTC V6 2023-
+YG2
+Pilot (2 Wheel drive) 3.5L DOHC VTC V6 2023-
+YH1
+Element (2 Wheel drive) 2003-2011
+YH2
+Element (4 Wheel drive) 2003-2011
+YK1
+Ridgeline (4 Wheel drive) 2006-2014
+YK2
+Ridgeline (2 Wheel drive) 2017-2020
+YK3
+Ridgeline (4 Wheel drive) 2017-
+ZA2
+Fit EV, electric, 123 hp, 20 kWh battery, 2013-2014
+ZC1
+FCX, Hydrogen fuel cell, 81 hp, 2003-2004
+ZC2
+FCX, Hydrogen fuel cell, 107 hp, 2005-2007
+ZC3
+FCX Clarity, Hydrogen fuel cell, 134 hp, 2008-2014
+ZC4
+Clarity Fuel Cell, Hydrogen fuel cell, 174 hp, 2017-2021
+ZC5
+Clarity Plug-in Hybrid, 1.5L DOHC i-VTEC + electric, 2018-2021
+ZC6
+Clarity Electric, 161 hp, 25.5 kWh battery, 2017-2019
+ZC8
+CR-V e:FCEV, Hydrogen fuel cell, 17.7 kWh battery, 174 hp, 2025-
+ZE1
+Insight, 1.0L SOHC VTEC-E 3-cylinder + electric Hybrid, 2000-2006
+ZE2
+Insight, 1.3L SOHC i-VTEC + electric Hybrid, 2010-2014
+ZE4
+Insight, 1.5L DOHC i-VTEC + electric Hybrid, 2019-2022
+ZF1
+CR-Z, 1.5L SOHC i-VTEC + electric Hybrid, 2011-2016
+CNG=Compressed Natural Gas, NGV=Natural Gas Vehicle
+Model 2000-present Acura
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+CL9
+TSX 4-door 2.4 liter DOHC i-VTEC 2004-2008
+CU2
+TSX 4-door 2.4 liter DOHC i-VTEC 2009-2014
+CU4
+TSX 4-door 3.5 liter SOHC VTEC V6 2010-2014
+CW2
+TSX Sport Wagon 2.4 liter DOHC i-VTEC 2011-2014
+DB7
+Integra 4-door 1.8 liter DOHC 2000-2001
+DB8
+Integra GS-R 4-door 1.8 liter DOHC VTEC B18C1 engine 2000-2001
+DC2
+Integra GS-R 3-door 1.8 liter DOHC VTEC B18C1 engine 2000-2001
+DC2
+Integra Type R 3-door 1.8 liter DOHC VTEC B18C5 engine 2000-2001
+DC4
+Integra 3-door 1.8 liter DOHC 2000-2001
+DC5
+RSX 3-door 2.0 liter DOHC i-VTEC 2002-2006
+DE1
+ILX 2.0 liter SOHC i-VTEC 2013-2015
+DE2
+ILX 2.4 liter DOHC i-VTEC 2013-2022
+DE3
+ILX Hybrid 1.5 liter SOHC i-VTEC + electric 2013-2014
+DE4
+Integra 1.5 liter DOHC VTEC turbo 2023-
+DE5
+Integra Type S 2.0 liter DOHC VTEC turbo 2024-
+ES3
+1.7EL 1.7 liter SOHC VTEC 2001-2005 (Canada)
+FD5
+CSX 2.0 liter DOHC i-VTEC 2006-2011 (Canada)
+KA9
+3.5RL 3.5 liter SOHC V6 2000-2004
+KB1
+RL 3.5 liter SOHC VTEC V6 2005-2008
+KB2
+RL 3.7 liter SOHC VTEC V6 2009-2012
+KC1
+RLX 3.5 liter SOHC i-VTEC V6 2014-2020
+KC2
+RLX Sport Hybrid 3.5 liter SOHC i-VTEC V6 + electric (All-Wheel Drive) 2014-2020
+MB4
+1.6EL 1.6 liter SOHC VTEC 2000 (Canada)
+NA1
+NSX 3.0 liter DOHC VTEC V6 2000-2005
+NA2
+NSX 3.2 liter DOHC VTEC V6 2000-2005
+NC1
+NSX 3.5 liter DOHC VTC twin-turbo V6 + electric (All-Wheel Drive) 2017-2022
+SA1
+ADX (2 Wheel drive) 1.5 liter DOHC VTEC turbo 4-cylinder 2025-
+SA2
+ADX (All-Wheel Drive) 1.5 liter DOHC VTEC turbo 4-cylinder 2025-
+TB1
+RDX (All-Wheel Drive) 2.3 liter DOHC i-VTEC turbo 4-cylinder 2007-2012
+TB2
+RDX (2 Wheel drive) 2.3 liter DOHC i-VTEC turbo 4-cylinder 2010-2012
+TB3
+RDX (2 Wheel drive) 3.5 liter SOHC i-VTEC V6 2013-2018
+TB4
+RDX (All-Wheel Drive) 3.5 liter SOHC i-VTEC V6 2013-2018
+TC1
+RDX (2 Wheel drive) 2.0 liter DOHC VTEC turbo 4-cylinder 2019-2023
+TC2
+RDX (All-Wheel Drive) 2.0 liter DOHC VTEC turbo 4-cylinder 2019-
+UA5
+3.2TL 3.2 liter SOHC VTEC V6 2000-2003
+UA6
+TL 3.2 liter SOHC VTEC V6 2004-2008
+UA7
+TL Type S 3.5 liter SOHC VTEC V6 2007-2008
+UA8
+TL 3.5 liter SOHC VTEC V6 2009-2014
+UA9
+TL SH-AWD 3.7 liter SOHC VTEC V6 (All-Wheel Drive) 2009-2014
+UB1
+TLX 2.4 liter DOHC i-VTEC 4-cylinder 2015-2020
+UB2
+TLX 3.5 liter SOHC i-VTEC V6 2015-2020
+UB3
+TLX 3.5 liter SOHC i-VTEC V6 (All-Wheel Drive) 2015-2020
+UB4
+TLX-L 2.4 liter DOHC i-VTEC 4-cylinder 2018-2020 (China)
+UB5
+TLX 2.0 liter DOHC VTEC turbo 4-cylinder 2021-
+UB6
+TLX 2.0 liter DOHC VTEC turbo 4-cylinder (All-Wheel Drive) 2021-
+UB7
+TLX Type S 3.0 liter DOHC VTC turbo V6 (All-Wheel Drive) 2021-
+YA4
+3.2CL 3.2 liter SOHC VTEC V6 2001-2003
+YB1
+ZDX (All-Wheel Drive) 3.7 liter SOHC VTEC V6 2010-2013
+YD1
+MDX (All-Wheel Drive) 3.5 liter SOHC VTEC V6 2001-2006
+YD2
+MDX (All-Wheel Drive) 3.7 liter SOHC VTEC V6 2007-2013
+YD3
+MDX (2 Wheel drive) 3.5 liter SOHC i-VTEC V6 2014-2020
+YD4
+MDX (All-Wheel Drive) 3.5 liter SOHC i-VTEC V6 2014-2020
+YD7
+MDX Sport Hybrid (All-Wheel Drive) 3.0 liter SOHC i-VTEC V6 + electric 2017-2020
+YD8
+MDX Type S (All-Wheel Drive) 3.0 liter DOHC VTC turbo V6 2022-
+YD9
+MDX (2 Wheel drive) 3.5 liter SOHC i-VTEC V6 2022-
+YE1
+MDX (All-Wheel Drive) 3.5 liter SOHC i-VTEC V6 2022-
+Body type and transmission
+[
+edit
+|
+edit source
+]
+Position 7
+For 1983-1986 model year Hondas, this section only denotes the body type.  For the remaining years as well as all Acuras, it indicates both body type and transmission.
+1983-1986 Honda
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+2
+2-door coupe
+3
+3-door hatchback
+4
+4-door sedan
+5
+5-door wagon
+1987-2009 Honda
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+1
+2 Door Coupe or Convertible, Manual
+2
+2 Door Coupe or Convertible, Automatic
+3
+3-Door Hatchback, Manual
+4
+3-Door Hatchback, Auto
+5
+4-Door Sedan, Manual
+6
+4-Door Sedan, Automatic
+7
+5-Door Hatchback or Wagon, Manual
+8
+5-Door Hatchback or Wagon, Automatic (includes 95-98 Odyssey)
+1996-1999 Honda-built Isuzu
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+8
+5-Door Wagon, Automatic (Oasis)
+1997-2009 Honda light trucks
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+6
+4-Door Pickup Truck, Automatic, Class E GVWR (06-09 Ridgeline)
+7
+5-Door Multipurpose Passenger Vehicle, Manual, Class C GVWR (98-06 CR-V, 03-09 Element)
+8
+5-Door Multipurpose Passenger Vehicle, Automatic, Class C GVWR (97-09 CR-V, 03-09 Element)
+8
+5-Door Multipurpose Passenger Vehicle, Automatic, Class D GVWR (99-07 Odyssey (all), 09 Odyssey LX/EX/EX-L, 03-08 Pilot (all), 09 Pilot 2WD)
+8
+5-Door Multipurpose Passenger Vehicle, Automatic, Class E GVWR (08 Odyssey (all), 09 Odyssey Touring, 09 Pilot 4WD)
+GVWR=Gross Vehicle Weight Rating, 2WD=2-wheel drive, 4WD=4-wheel drive
+1986-2009 Acura
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+1
+2 Door Coupe, Manual
+2
+2 Door Coupe, Automatic
+3
+3-Door Hatchback, Manual
+4
+3-Door Hatchback, Auto
+5
+4-Door Sedan, Manual
+6
+4-Door Sedan, Automatic
+7
+5-Door Hatchback, Manual
+8
+5-Door Hatchback, Automatic
+2001-2009 Acura light trucks
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+8
+5-Door Multipurpose Passenger Vehicle, Automatic, Class C GVWR (07-09 RDX)
+8
+5-Door Multipurpose Passenger Vehicle, Automatic, Class D GVWR (01-09 MDX)
+GVWR=Gross Vehicle Weight Rating
+2010- Honda
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+A
+2 Door Coupe, Manual
+B
+2 Door Coupe, Automatic
+C
+3-Door Hatchback, Manual
+D
+3-Door Hatchback, Auto
+E
+4-Door Sedan, Manual
+F
+4-Door Sedan, Automatic
+G
+5-Door Hatchback, Manual
+H
+5-Door Hatchback, Automatic
+2010- Honda light trucks
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+F
+4-Door Pickup Truck, Automatic, Class D GVWR (17-20 Ridgeline 2WD)
+F
+4-Door Pickup Truck, Automatic, Class E GVWR (10-14 Ridgeline (all), 17- Ridgeline 4WD)
+G
+5-Door Multipurpose Passenger Vehicle, Manual, Class C GVWR (10 Element, 16-18 HR-V)
+H
+5-Door Multipurpose Passenger Vehicle, Automatic, Class C GVWR (10- CR-V, 20-22 CR-V Hybrid, 10-11 Element, 10-11 Accord Crosstour,
+12-15 Crosstour 2WD, 16- HR-V)
+H
+5-Door Multipurpose Passenger Vehicle, Automatic, Class D GVWR (10 Odyssey LX/EX/EX-L, 10- Pilot 2WD, 12-15 Crosstour 4WD,
+19-25 Passport, 23- CR-V Hybrid, 25- CR-V e:FCEV)
+H
+5-Door Multipurpose Passenger Vehicle, Automatic, Class E GVWR (10 Odyssey Touring, 11- Odyssey (all), 10- Pilot 4WD, 26- Passport)
+GVWR=Gross Vehicle Weight Rating, 2WD=2-wheel drive, 4WD=4-wheel drive
+2010- Acura
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+B
+2 Door Coupe, Automatic
+E
+4-Door Sedan, Manual
+F
+4-Door Sedan, Automatic
+G
+5-Door Hatchback, Manual
+H
+5-Door Hatchback or Wagon, Automatic
+2010- Acura light trucks
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+H
+5-Door Multipurpose Passenger Vehicle, Automatic, Class C GVWR (10-18 RDX, 19-23 RDX 2WD, 25- ADX)
+H
+5-Door Multipurpose Passenger Vehicle, Automatic, Class D GVWR (10- MDX, 19- RDX 4WD, 10-13 ZDX)
+GVWR=Gross Vehicle Weight Rating, 2WD=2-wheel drive, 4WD=4-wheel drive
+Grade & Restraint System
+[
+edit
+|
+edit source
+]
+Position 8
+1983-1987 Honda
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+1
+Basic, HF
+2
+Standard, DX
+3
+LX, GL, S, Si
+4
+LXi, Si
+5
+SEi
+6
+Accord DX Hatchback with "passive" seat belts
+8
+Accord LXi Hatchback with "passive" seat belts
+1986-1987 Acura
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+3
+Standard w/o Sunroof ('87 Legend)
+4
+RS (Integra), Standard ('86 Legend), Standard w/Sunroof ('87 Legend), Standard ('87 Legend Coupe)
+5
+LS (Integra), Standard w/Sunroof & Luxury Option Package ('87 Legend), L ('87 Legend Coupe)
+6
+LS ('87 Legend Coupe)
+1988-1989 Honda
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+2
+DX (Accord) Manual seat belt
+2
+S (Prelude) with Automatic ("passive") seat belt
+3
+LX (Accord) Manual seat belt
+3
+Si (Prelude) with Automatic ("passive") seat belt
+4
+LXi (Accord) Manual seat belt
+4
+SEi (Accord Coupe) with Automatic ("passive") seat belt
+4
+(std) Civic Hatchback Manual seat belt
+4
+DX (Civic Sedan) Manual seat belt
+4
+(std) Civic Wagovan Manual seat belt
+4
+Si w/optional 4WS (Prelude) & Automatic ("passive") seat belt
+5
+DX (Civic Hatchback) Manual seat belt
+5
+LX (Civic Sedan) Manual seat belt
+5
+(std) '88 Civic CRX Manual seat belt
+5
+(std) '89 Civic CRX with Automatic ("passive") seat belt
+5
+(std) Civic Wagon Manual seat belt
+5
+SEi (Accord Sedan) Manual seat belt
+6
+DX (Accord Coupe & Hatchback) Automatic ("passive") seat belt
+6
+HF ('88-'89 Civic CRX) Manual seat belt
+6
+Si ('88 Civic CRX) Manual seat belt
+6
+Si ('89 Civic CRX) with Automatic ("passive") seat belt
+6
+Si (Civic Hatchback) Manual seat belt
+6
+(std) Civic Wagon 4WD Manual seat belt
+8
+LXi (Accord Coupe & Hatchback) Automatic ("passive") seat belt
+1988-1989 Acura
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+3
+Standard w/o Sunroof ('88 Legend)
+3
+Standard w/o Sunroof ('89 Legend) with Driver-side Airbag
+4
+RS (Integra), Standard w/Sunroof ('89 Legend), Standard ('89 Legend Coupe)
+4
+Standard w/Sunroof ('89 Legend) with Driver-side Airbag, Standard ('89 Legend Coupe) with Driver-side Airbag
+5
+LS (Integra), L ('88 Legend)
+5
+L with Cloth ('89 Legend) with Driver-side Airbag
+6
+LS ('88 Legend) with Driver-side Airbag, L with Leather ('89 Legend) with Driver-side Airbag
+7
+LS ('89 Legend) with Driver-side Airbag
+1990-1993 Honda
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+1
+2.0S (Prelude) (90-91) with Automatic ("passive") seat belt
+2
+2.0Si (Prelude) (90-91) with Automatic ("passive") seat belt
+3
+Si (Prelude 2.1L) (90-91) with Automatic ("passive") seat belt
+4
+Si w/4WS (Prelude 2.1L) (90-91) with Automatic ("passive") seat belt
+4
+DX (Accord coupe & sedan) (90-91) with Automatic ("passive") seat belt
+4
+DX (Accord coupe & sedan) (92-93) with Driver-side Airbag
+4
+(Std) Civic 3 Door (90-91) with Automatic ("passive") seat belt
+4
+CX (Civic 3 Door) (92) with Driver-side Airbag
+4
+CX (Civic 3 Door) (93) (Canada - D15B7 engine)
+4
+DX (Civic 4-door) (90-91) with Automatic ("passive") seat belt
+4
+DX (Civic 4-door) (92-93) with Driver-side Airbag
+4
+DX (Civic 2-door) (93) with Driver-side Airbag
+4
+S (Prelude) (92-93) with Driver-side Airbag
+4
+S (Civic del Sol) (1993) with Driver-side Airbag
+5
+Si w/Anti-lock Brakes (Prelude 2.1L) (90-91) with Automatic ("passive") seat belt
+5
+Si (Prelude 2.3L) (92-93) with Driver-side Airbag
+5
+LX (Civic 4-door) (90-91) with Automatic ("passive") seat belt
+5
+LX (Civic 4-door) (92-93) with Driver-side Airbag
+5
+(Std) Civic CRX (90-91) with Automatic ("passive") seat belt
+5
+CX (Civic 3 Door) (1993) with Driver-side Airbag (US - D15B8 engine)
+5
+DX (Civic 3 Door) (90-91) with Automatic ("passive") seat belt
+5
+DX (Civic 3 Door) (92) with Driver-side Airbag
+5
+EX (Civic 2 Door) (93) with Driver-side Airbag
+5
+Civic Wagon (2WD) (90-91) with Automatic ("passive") seat belt
+5
+LX (Accord coupe & sedan) (90-91) with Automatic ("passive") seat belt
+5
+LX (Accord wagon) (91-93) with Driver-side Airbag
+5
+LX (Accord coupe & sedan) (92-93) with Driver-side Airbag
+6
+DX (Civic 3 Door) (93) with Driver-side Airbag
+6
+EX (Accord coupe & sedan) (90-91) with Automatic ("passive") seat belt
+6
+EX (Accord wagon) (91) with Driver-side Airbag
+6
+EX (Civic 4 Door) (90-91) with Automatic ("passive") seat belt
+6
+EX-S (Civic 2 Door) (93) with Dual Airbags
+6
+Si (Civic 3 Door) (90-91) with Automatic ("passive") seat belt
+6
+Si w/4WS (Prelude 2.3L) (92-93) with Dual Airbags
+6
+Si (Civic del Sol) (93) with Driver-side Airbag
+6
+HF (Civic CRX) (90-91) with Automatic ("passive") seat belt
+6
+Si (Civic CRX) (90-91) with Automatic ("passive") seat belt
+6
+Civic Wagon (4WD) (90-91) with Automatic ("passive") seat belt
+6
+VX (Civic 3 Door) (1992) with Driver-side Airbag
+7
+EX (Accord) (92-93) with Driver-side Airbag
+7
+VX (Civic 3 Door) (1993) with Driver-side Airbag
+7
+VTEC (Prelude) (1993) with Dual Airbags
+8
+SE (Accord sedan) (91) with Automatic ("passive") seat belt
+8
+SE (Accord sedan) (93) with Dual Airbags
+8
+SE (Accord coupe) (93) with Driver-side Airbag
+8
+Si (Civic 3 Door) (92-93) with Driver-side Airbag
+9
+EX (Civic 4 Door) (92-93) with Driver-side Airbag
+9
+10th Anniversary Edition (Accord 4 Door) (1993) with Driver-side Airbag
+1990-1993 Acura
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+3
+Standard w/o Sunroof ('90 Legend Sedan) with Driver-side Airbag, Standard ('91-'92 Legend Sedan) with Driver-side Airbag
+3
+Standard ('93 Legend Sedan) with Dual Airbags
+4
+RS ('90-'93 Integra) with Automatic ("passive") seat belt
+4
+Standard w/Sunroof ('90 Legend Sedan) with Driver-side Airbag, Standard ('90 Legend Coupe) with Driver-side Airbag
+4
+LS ('92-'93 Vigor) with Driver-side Airbag
+5
+LS ('90-'93 Integra) with Automatic ("passive") seat belt
+5
+L with Cloth ('90-'91 Legend) with Driver-side Airbag
+5
+L with Cloth ('92 Legend) with Dual Airbags, L with Cloth ('93 Legend Sedan) with Dual Airbags
+5
+GS ('92 Vigor) with Driver-side Airbag
+5
+Standard w/5-spd. manual ('91-'92 NSX) with Driver-side Airbag
+5
+Standard w/5-spd. manual ('93 NSX) with Dual Airbags
+6
+GS with Cloth ('90-'93 Integra) with Automatic ("passive") seat belt
+6
+L with Leather ('90-'91 Legend) with Driver-side Airbag
+6
+L with Leather ('92-'93 Legend) with Dual Airbags
+6
+GS ('93 Vigor) with Dual Airbags
+6
+Standard w/4-spd. automatic & electric power steering ('91-'92 NSX) with Driver-side Airbag
+6
+Standard w/4-spd. automatic & electric power steering ('93 NSX) with Dual Airbags
+7
+LS ('90 Legend) with Driver-side Airbag, LS ('91-'93 Legend) with Dual Airbags
+7
+GS with Leather ('92-'93 Integra) with Automatic ("passive") seat belt
+8
+GS-R ('92-'93 Integra 3-door) with Automatic ("passive") seat belt
+8
+LS Special Edition ('93 Integra 3-door) with Automatic ("passive") seat belt
+1994-1999 Honda
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+0
+Accord SE 2/4 Door (97) with Dual Airbags
+0
+Civic LX 4-door (96-98) with Dual Airbags
+1
+Accord DX w/ABS 2/4-door (94-97) with Dual Airbags
+1
+Civic VP 4-door (99) with Dual Airbags
+1
+EV Plus (Standard) (98-99) with Dual Airbags
+2
+Accord DX 2/4-door (94-97) with Dual Airbags
+2
+Civic CX 3-door (96-99) with Dual Airbags
+2
+Civic DX 2-door (94-95) with Dual Airbags
+2
+Civic DX 2/4-door (96-99) with Dual Airbags
+2
+Civic EX 2-door (94-95) with Dual Airbags
+2
+Civic HX 2-door (96-99) with Dual Airbags
+2
+Accord Wagon LX (94-97) with Dual Airbags
+3
+Civic CX w/AC 3-door (96-98) with Dual Airbags
+3
+Civic DX w/AC 4-door (96-99) with Dual Airbags
+3
+Civic DX w/ABS 2-door (96-98) with Dual Airbags
+3
+Civic HX w/ABS 2-door (96-98) with Dual Airbags
+3
+Civic EX w/ABS 2-door (94-95) with Dual Airbags
+3
+Accord LX 2/4-door (94-97) with Dual Airbags
+3
+Accord Wagon LX w/ABS (94-97) with Dual Airbags
+3
+Accord LX V6 4-door (95-97) with Dual Airbags
+3
+EV Plus (Standard w/combustion heater) (98-99) with Dual Airbags
+4
+Civic CX 3-door (94-95) (Canada - D15B7 engine)
+4
+Civic DX 4-door (94-95) with Dual Airbags
+4
+Civic DX 3-door (96-99) with Dual Airbags
+4
+Civic DX w/ABS 4-door (96-98) with Dual Airbags
+4
+Civic DX w/AC 2-door (96-99) with Dual Airbags
+4
+Civic HX w/AC 2-door (96-98) with Dual Airbags
+4
+Civic EX 2/4 Door (96-99) with Dual Airbags
+4
+Civic GX 4 Door (98-99) with Dual Airbags
+4
+Accord LX w/ABS 2/4-door (94-97) with Dual Airbags
+4
+Accord LX V6 w/ABS 4-door (95-97) with Dual Airbags
+4
+Accord DX 4-Door (98-99) with Dual Airbags
+4
+Accord LX 2/4-Door (98-99) with Dual Airbags
+4
+Accord LX V6 2/4-Door (98-99) with Dual Airbags
+4
+Civic Del Sol S (94-97) with Dual Airbags
+4
+Odyssey LX 6 Passenger (95-98) with Dual Airbags
+4
+Prelude S (94-96) with Dual Airbags
+4
+Prelude (Base model) (97-99) with Dual Airbags
+4
+CR-V w/o ABS (97) with Dual Airbags
+4
+CR-V LX (98-99) with Dual Airbags
+4
+EV Plus (U1) (97) with Dual Airbags
+5
+Accord EX 2/4-door (94-97) with Dual Airbags
+5
+Accord EX V6 4-door (95-97) with Dual Airbags
+5
+Accord EX 2/4-door (98-99) with Dual Airbags
+5
+Accord EX V6 2/4-door (98-99) with Dual Airbags
+5
+Accord LX ULEV 4-door (99) with Dual Airbags
+5
+Civic CX 3-door (94-95) with Dual Airbags (US - D15B8 engine)
+5
+Civic LX 4-door (94-95) with Dual Airbags
+5
+Civic DX w/AC 3-door (96-98) with Dual Airbags
+5
+Civic DX w/ABS & AC 2/4-door (96-98) with Dual Airbags
+5
+Civic HX w/ABS & AC 2-door (96-98) with Dual Airbags
+5
+Civic EX w/ABS 2-door (96-99) with Dual Airbags
+5
+Civic Si 2-door (99) with Dual Airbags
+5
+CR-V w/ABS (97) with Dual Airbags
+5
+CR-V LX w/ABS (98-99) with Dual Airbags
+5
+Odyssey LX (99) with Dual Airbags
+5
+Prelude Si (94-96) with Dual Airbags
+5
+Prelude Type SH (97-99) with Dual Airbags
+6
+Civic DX 3-door (94-95) with Dual Airbags
+6
+Civic DX 3-door w/ABS (96-98) with Dual Airbags
+6
+Accord EX w/leather 2/4-door (94-97) with Dual Airbags
+6
+Accord EX V6 w/leather 4-door (95) with Dual Airbags
+6
+Accord EX w/leather 4-door (98) with Dual Airbags
+6
+Accord LX ULEV 2-door (99) with Dual Airbags
+6
+Civic LX w/ABS 4-door (94-95) with Dual Airbags
+6
+Civic Del Sol Si (94-97) with Dual Airbags
+6
+Odyssey LX 7 Passenger (95-98) with Dual Airbags
+6
+Odyssey EX (99) with Dual Airbags
+6
+Prelude Si w/4WS (94) with Dual Airbags
+6
+CR-V EX (98-99) with Dual Airbags
+6
+EV Plus (Standard w/data logger) (98-99) with Dual Airbags
+7
+Odyssey EX (95-98) with Dual Airbags
+7
+Accord EX V6 w/leather 4-door (96-97) with Dual Airbags
+7
+Accord EX ULEV 2/4-door (98-99) with Dual Airbags
+7
+Civic DX 3-door w/ABS & AC (96-98) with Dual Airbags
+7
+Civic LX w/AC 4-door (96-98) with Dual Airbags
+7
+Civic LX 4-door (99) with Dual Airbags
+7
+Civic Del Sol Si w/ABS (95-96) with Dual Airbags
+7
+Civic Del Sol VTEC (94-97) with Dual Airbags
+7
+Prelude VTEC (94-96) with Dual Airbags
+7
+Prelude SE (95) with Dual Airbags
+7
+Civic VX 3-door (94-95) with Dual Airbags
+8
+Civic Si 3-door (94-95) with Dual Airbags
+8
+Civic LX w/ABS 4-door (96-98) with Dual Airbags
+8
+Accord 25th Anniversary Edition (96) with Dual Airbags
+8
+EV Plus (Standard w/combustion heater & data logger) (98-99) with Dual Airbags
+9
+Accord Wagon EX (94-97) with Dual Airbags
+9
+Accord Value Package 4 Door (96) with Dual Airbags
+9
+Civic Si w/ABS 3-door (94-95) with Dual Airbags
+9
+Civic EX 4-door (94-95) with Dual Airbags
+9
+Civic LX w/ABS & AC 4-door (96-98) with Dual Airbags
+9
+Civic LX w/ABS 4-door (99) with Dual Airbags
+1996-1999 Honda-built Isuzu
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+4
+S w/o cruise control (96 Oasis) with Dual Airbags
+6
+S w/cruise control (96-98 Oasis) with Dual Airbags
+6
+S w/7 passenger seating (99 Oasis) with Dual Airbags
+7
+LS (96-98 Oasis) with Dual Airbags
+9
+S w/6 passenger seating & sunroof (99 Oasis) with Dual Airbags
+1994-1999 Acura
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+1
+Type R ('97-'99 Integra 3-door) with Dual Airbags
+2
+Alex Zanardi Edition w/fixed roof ('99 NSX) with Dual Airbags
+3
+Standard w/fixed roof ('97-'99 NSX) with Dual Airbags
+4
+RS ('94-'98 Integra) with Dual Airbags
+4
+LS ('94 Vigor) with Dual Airbags
+4
+2.5TL ('96-'97) with Dual Airbags
+4
+3.2TL ('96-'97) with Dual Airbags
+4
+3.2TL ('98) with Dual Airbags
+4
+3.2TL ('99) with Dual Airbags
+4
+3.5RL ('96-'98) with Dual Airbags
+4
+2.2CL ('97) with Dual Airbags
+4
+2.3CL ('98-'99) with Dual Airbags
+4
+3.0CL ('97-'99) with Dual Airbags
+5
+LS ('94-'99 Integra) with Dual Airbags
+5
+L with Cloth ('94-'95 Legend Sedan) with Dual Airbags
+5
+2.5TL w/Premium Package ('96-'97) with Dual Airbags
+5
+2.5TL ('98) with Dual Airbags
+5
+3.2TL w/Premium Package ('96-'97) with Dual Airbags
+5
+3.2TL w/Navigation ('99) with Dual Airbags
+5
+3.5RL w/Premium Package ('96-'98) with Dual Airbags
+5
+3.5RL ('99) with Dual Airbags & Side Airbags
+5
+2.2CL with Leather ('97) with Dual Airbags
+5
+2.3CL with Leather ('98-'99) with Dual Airbags
+5
+3.0CL with Leather ('97-'99) with Dual Airbags
+5
+Standard w/5-spd. manual ('94 NSX) with Dual Airbags
+6
+L with Leather ('94-'95 Legend) with Dual Airbags
+6
+GS ('94 Vigor) with Dual Airbags
+6
+SE ('95-'96 Integra) with Dual Airbags
+6
+GS ('97-'99 Integra) with Dual Airbags
+6
+3.5RL w/Premium Package & Navigation for California ('96-'97) with Dual Airbags
+6
+3.5RL w/Premium Package & Navigation ('98) with Dual Airbags
+6
+3.5RL w/Navigation ('99) with Dual Airbags & Side Airbags
+6
+Standard w/4-spd. automatic & electric power steering ('94 NSX) with Dual Airbags
+6
+Standard w/fixed roof ('96 NSX) with Dual Airbags
+6
+Standard w/open top ('97-'99 NSX-T) with Dual Airbags
+7
+LS ('94-'95 Legend) with Dual Airbags
+7
+3.5RL w/Premium Package & Navigation for East ('97) with Dual Airbags
+7
+3.5RL w/Navigation ('98) with Dual Airbags
+8
+GS-R ('94-'99 Integra) with Dual Airbags
+8
+GS ('94-'95 Legend Sedan) with Dual Airbags
+8
+3.5RL w/Premium Package & Navigation for Florida ('97) with Dual Airbags
+8
+3.5RL SE ('98) with Dual Airbags
+8
+Standard w/open top ('95-'96 NSX-T) with Dual Airbags
+9
+GS-R with Leather ('95-'99 Integra) with Dual Airbags
+9
+SE ('95 Legend Sedan) with Dual Airbags
+2000-2009 Honda
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+0
+Accord EX w/leather SULEV 4-door (00) with Dual Airbags & Side Airbags
+0
+Accord EX SULEV 4-door (01-02) with Dual Airbags & Side Airbags
+0
+Accord SE 2-door (02) with Dual Airbags
+0
+Civic EX 2-door (02-05) with Dual Airbags & Side Airbags
+0
+Odyssey EX-L w/Rear Entertainment System (02-04) with Dual Airbags & Side Airbags
+1
+Civic VP 4-door (00) with Dual Airbags
+1
+Civic DX 2-door (01) with Dual Airbags (For Canada)
+1
+Civic DX 4-door (02-05) with Dual Airbags
+1
+Civic VP 2-door (04-05) with Dual Airbags
+1
+Accord SE 2-door (02) with Dual Airbags & Side Airbags
+1
+Accord DX 4-door (03-04) with Dual Airbags
+1
+Accord DX 4-door (05) with Dual Airbags & Side Airbags & Side Curtain Airbags
+1
+Accord VP 4-door (05-07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+1
+Pilot LX (03-05) with Dual Airbags & Side Airbags
+1
+Pilot LX (06-07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Civic CX 3-door (00) with Dual Airbags
+2
+Civic DX 2/4-door (00) with Dual Airbags
+2
+Civic HX 2-door (00) with Dual Airbags
+2
+Civic DX 4-door (01) with Dual Airbags
+2
+Civic DX 2-door (01-03) with Dual Airbags (For US market)
+2
+Civic DX 2-door (04) with Dual Airbags (For Canada)
+2
+Civic DX 4-door (02-05) with Dual Airbags & Side Airbags
+2
+Civic DX 2/4-door (06-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Civic Hybrid 4-door (06-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Accord SE ULEV 2-door (02) with Dual Airbags & Side Airbags
+2
+Accord LX 2-door (03-04) with Dual Airbags
+2
+Accord LX V6 2-door (03-04) with Dual Airbags & Side Airbags
+2
+Accord LX V6 2-door (05-07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Fit 5-door (09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+S2000 CR (08-09) with Dual Airbags
+2
+Element DX (03-04) with Dual Airbags
+2
+Odyssey LX (05-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Pilot VP (08) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Pilot LX (09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Ridgeline RT (06-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Accord SE ULEV 2-door (02) with Dual Airbags
+3
+Accord LX 4-door (03-04) with Dual Airbags
+3
+Accord LX Special Edition (SE) 4-door (06) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Accord SE 4-door (07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Accord LX V6 4-door (03-04) with Dual Airbags & Side Airbags
+3
+Accord LX V6 4-door (05-07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Accord LX 4-door (08-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Accord LX 2-door (03-04) with Dual Airbags & Side Airbags
+3
+Accord LX 2-door (05-07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Accord LX-S 2-door (08-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Civic DX w/AC 4-door (00) with Dual Airbags
+3
+Civic VP 2-door (04-05) with Dual Airbags & Side Airbags
+3
+Civic VP 4-door (04-05) with Dual Airbags
+3
+Civic DX-VP 4-door (09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Civic LXS 4-door (06-10) with Dual Airbags (Brazil)
+3
+CR-V LX (07-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Element LX (04-06) with Dual Airbags
+3
+Element LX (07-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+FCX (03-07) with Dual Airbags
+3
+Pilot SE (08) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Ridgeline RTX (07-08) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Civic DX 3-door (00) with Dual Airbags
+4
+Civic DX w/AC 2-door (00) with Dual Airbags
+4
+Civic EX 2/4 Door (00) with Dual Airbags
+4
+Civic GX 4 Door (00-05) with Dual Airbags
+4
+Civic DX 2-door (02-03) with Dual Airbags & Side Airbags (For US market)
+4
+Civic VP 4-door (04-05) with Dual Airbags & Side Airbags
+4
+Accord DX 4-Door (00-02) with Dual Airbags
+4
+Accord LX 2/4-Door (00-02) with Dual Airbags
+4
+Accord LX V6 2/4-Door (00-02) with Dual Airbags & Side Airbags
+4
+Accord LX 4-door (03-04) with Dual Airbags & Side Airbags
+4
+Accord LX 4-door (05-07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Accord SE V6 4-door (07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Accord SE V6 2-door (05) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Accord Hybrid 4-door (05-07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Accord LX-P 4-door (08-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+FCX Clarity (08-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Fit 5-door (07-08) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Fit Sport 5-door (09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Prelude (Base model) (00-01) with Dual Airbags
+4
+S2000 (00-09) with Dual Airbags
+4
+CR-V LX (00-04) with Dual Airbags
+4
+Odyssey EX (05-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Pilot EX (03-05) with Dual Airbags & Side Airbags
+4
+Pilot EX (06-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Ridgeline RTS (06-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Accord LX w/ABS 4-Door (01-02) with Dual Airbags
+5
+Accord LX ULEV 4-door (00-02) with Dual Airbags
+5
+Accord EX 2/4-door (00) with Dual Airbags
+5
+Accord EX 2-door (01-02) with Dual Airbags & Side Airbags
+5
+Accord EX V6 2/4-door (00-02) with Dual Airbags & Side Airbags
+5
+Accord EX 2-door (04) with Dual Airbags & Side Airbags
+5
+Accord EX V6 (EX-L V6) 4-door (03-07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Accord SE 2-door (05) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Accord Hybrid w/Navigation 4-door (05-07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Civic EX w/ABS 2-door (00) with Dual Airbags
+5
+Civic Si 2-door (00) with Dual Airbags
+5
+Civic LX 2/4-door (01-05) with Dual Airbags
+5
+Civic GX 4 Door (02-05) with Dual Airbags & Side Airbags
+5
+Civic Si 3-door (02-05) with Dual Airbags
+5
+Civic LX 4-door (06-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Civic GX 4-door (06-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Civic Si 2-door (06-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Civic Si 4-door (07-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Civic Si 4-door (07-08) with Dual Airbags & Side Airbags (09-11) (Brazil)
+5
+Civic Mugen Si 4-door (08) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+CR-V LX w/ABS (00-01) with Dual Airbags
+5
+CR-V LX (02-04) with Dual Airbags & Side Airbags
+5
+CR-V LX (05-06) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+CR-V EX (07-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Element EX (03-04) with Dual Airbags
+5
+Insight (00-06) with Dual Airbags
+5
+Odyssey LX (00-01) with Dual Airbags
+5
+Odyssey LX (02-04) with Dual Airbags & Side Airbags
+5
+Pilot EX w/Leather (03-05) with Dual Airbags & Side Airbags
+5
+Pilot EX-L (06-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Prelude Type SH (00-01) with Dual Airbags
+5
+Ridgeline RTL (06-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Accord DX Value Package 4-Door (01-02) with Dual Airbags
+6
+Accord LX ULEV 2-door (00-02) with Dual Airbags
+6
+Accord EX w/leather 4-door (00) with Dual Airbags & Side Airbags
+6
+Accord EX 4-door (01-02) with Dual Airbags & Side Airbags
+6
+Accord EX 4-door (03-04) with Dual Airbags & Side Airbags
+6
+Accord EX 2-door (03) with Dual Airbags & Side Airbags
+6
+Accord EX w/Leather (EX-L) 2-door (04-07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Accord EX V6 (EX-L V6) 2-door (03-07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Civic LX 2/4-door (02-05) with Dual Airbags & Side Airbags
+6
+Civic Hybrid 4 Door (03-05) with Dual Airbags & Side Airbags
+6
+Civic Si 3-door (02-05) with Dual Airbags & Side Airbags
+6
+Civic LX 2-door (06-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Civic LX-S 4-door (09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Fit Sport 5-door (07-08) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Fit Sport w/Navigation 5-door (09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+CR-V EX (00-01) with Dual Airbags
+6
+Element EX (03-06) with Dual Airbags & Side Airbags
+6
+Odyssey EX (00-01) with Dual Airbags
+6
+Odyssey EX (02-04) with Dual Airbags & Side Airbags
+6
+Odyssey EX-L (w/Leather) (05-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Pilot EX w/Leather & Rear Entertainment System (03-05) with Dual Airbags & Side Airbags
+6
+Pilot EX-L w/Rear Entertainment System (06-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Accord LX w/ABS ULEV 4-door (01-02) with Dual Airbags
+7
+Accord EX ULEV 2/4-door (00) with Dual Airbags
+7
+Accord EX ULEV 2-door (01-02) with Dual Airbags
+7
+Accord SE 4-door (00, 02) with Dual Airbags
+7
+Accord EX w/Leather & Navigation 2/4-door (03) with Dual Airbags & Side Airbags
+7
+Accord EX w/Leather 4-door (04) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Accord EX 4-door (05-07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Accord EX w/Leather & Navigation 2-door (04) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Accord EX 2-door (05-07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Accord EX V6 w/Navigation 2-door (03-07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Accord EX 2/4-door (08-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Accord EX V6 4-door (08-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Civic LX 4-door (00) with Dual Airbags
+7
+Civic HX 2-door (01-05) with Dual Airbags
+7
+Civic EX 4-door (01-05) with Dual Airbags
+7
+Insight w/AC (00-06) with Dual Airbags
+7
+CR-V SE (00-01) with Dual Airbags
+7
+CR-V EX-L (07-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Element EX-P (06) with Dual Airbags & Side Airbags
+7
+Element EX (07-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Odyssey EX w/Navigation (00-01) with Dual Airbags
+7
+Odyssey EX-L w/Navigation (02-04) with Dual Airbags & Side Airbags
+7
+Odyssey EX-L (w/Leather) w/Rear Entertainment System (05-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Pilot EX w/Leather & Navigation (03-05) with Dual Airbags & Side Airbags
+7
+Pilot EX-L w/Navigation (06-08) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Accord EX w/leather ULEV 4-door (00) with Dual Airbags & Side Airbags
+8
+Accord EX ULEV 4-door (01-02) with Dual Airbags & Side Airbags
+8
+Accord LX 2-Door (01-02) with Dual Airbags & Side Airbags
+8
+Accord EX w/Leather & Navigation 4-door (04) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Accord EX w/Leather (EX-L) 4-door (05-07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Accord EX V6 (EX-L V6) w/Navigation 4-door (03-07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Accord EX-L 2/4-door (08-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Accord EX-L V6 2/4-door (08-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Civic LX w/ABS 4-door (00) with Dual Airbags
+8
+Civic EX 4-door (02-05) with Dual Airbags & Side Airbags
+8
+Civic HX 2-door (02-05) with Dual Airbags & Side Airbags
+8
+Civic EX 2/4-door (06-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+CR-V EX (02-04) with Dual Airbags & Side Airbags
+8
+CR-V EX (05-06) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Odyssey EX w/Rear Entertainment System (04) with Dual Airbags & Side Airbags
+8
+Odyssey Touring (05-07) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Odyssey Touring w/PAX Run-Flat Tires (08-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Pilot Touring (09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Accord SE ULEV 4-door (00, 02) with Dual Airbags
+9
+Accord LX ULEV 2-door (00-02) with Dual Airbags & Side Airbags
+9
+Civic EX 2-door (01-05) with Dual Airbags
+9
+Civic EX-L 2/4-door (08-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+CR-V SE (05-06) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Element SC (07-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Odyssey EX-L (02-04) with Dual Airbags & Side Airbags
+9
+Odyssey Touring (08-09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Pilot Touring w/Rear Entertainment System (09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2000-2009 Acura
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+0
+RSX Type S ('02-'06) with Dual Airbags & Side Airbags
+1
+Type R ('00-'01 Integra 3-door) with Dual Airbags
+2
+TL w/auto. trans. ('04-'08) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+TL ('09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+RL w/o Navigation & XM Radio for Alaska ('05-'06) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+MDX Standard ('01-'03) with Dual Airbags & Side Airbags
+2
+MDX Standard ('04-'06) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+MDX ('07-'09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+RDX ('07-'09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Standard w/fixed roof ('00-'01 NSX) with Dual Airbags
+3
+RL w/Navigation & w/o XM Radio for Hawaii ('05-'06) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+RL w/o XM Radio for Hawaii ('07-'09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+MDX w/Technology Package ('07-'08) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+3.2CL Premium ('01-'03) with Dual Airbags & Side Airbags
+4
+MDX Standard w/Navigation ('01-'02) with Dual Airbags & Side Airbags
+4
+MDX w/Technology Package & Rear Entertainment Package & Power Tailgate ('07-'09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+LS ('00-'01 Integra) with Dual Airbags
+5
+3.5RL ('00-'04) with Dual Airbags & Side Airbags
+5
+RL w/Navigation & XM Radio (48 states) ('05-'06) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+RL w/XM Radio (48 states) ('07-'09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+3.2CL Premium with Navigation ('01-'03) with Dual Airbags & Side Airbags
+5
+TL w/man. trans. ('04-'06) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+TL Type S ('07-'08) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+TL w/Technology Package ('09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+MDX w/Sport Package ('07-'08) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+RDX w/Technology Package ('07-'09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+GS ('00-'01 Integra) with Dual Airbags
+6
+3.2TL ('00-'03) with Dual Airbags & Side Airbags
+6
+TL w/man. trans. & hi-perf. summer tires ('04-'06) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+TL Type S w/hi-perf. summer tires ('07-'08) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+TSX ('09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+3.5RL w/Navigation ('00-'04) with Dual Airbags & Side Airbags
+6
+RL w/Technology Package or Technology plus CMBS/ACC Package ('07-'09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+3.2CL Type S ('01-'03) with Dual Airbags & Side Airbags
+6
+Standard w/open top ('00-'05 NSX-T) with Dual Airbags
+6
+MDX Premium ('01-'02) with Dual Airbags & Side Airbags
+6
+MDX Touring Package ('03) with Dual Airbags & Side Airbags
+6
+MDX Touring Package ('04-'06) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+MDX w/Technology Package & Power Tailgate ('08-'09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+3.2TL w/Navigation ('00-'03) with Dual Airbags & Side Airbags
+7
+3.2CL Type S w/Navigation ('01-'03) with Dual Airbags & Side Airbags
+7
+MDX Touring Package w/Rear Entertainment System ('03) with Dual Airbags & Side Airbags
+7
+MDX Touring Package w/Rear Entertainment System ('04-'06) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+MDX w/Sport Package & Power Tailgate ('08-'09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+GS-R ('00-'01 Integra) with Dual Airbags
+8
+RSX ('02-'06) with Dual Airbags & Side Airbags
+8
+3.2TL Type S ('02-'03) with Dual Airbags & Side Airbags
+8
+TSX ('04-'08) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+MDX Premium w/Navigation ('01-'02) with Dual Airbags & Side Airbags
+8
+MDX Touring Package w/Navigation ('03) with Dual Airbags & Side Airbags
+8
+MDX Touring Package w/Navigation ('04-'06) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+MDX w/Sport Package & Rear Entertainment Package & Power Tailgate ('07-'09) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+GS-R with Leather ('00-'01 Integra) with Dual Airbags
+9
+3.2TL Type S w/Navigation ('02-'03) with Dual Airbags & Side Airbags
+9
+TSX w/Navigation ('04-'08) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+MDX Touring Package w/Navigation & Rear Entertainment System ('03) with Dual Airbags & Side Airbags
+9
+MDX Touring Package w/Navigation & Rear Entertainment System ('04-'06) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2010-2019 Honda
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+0
+Accord EX w/Honda Sensing 4-door (16-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+0
+Accord EX-L V6 w/Navigation & Honda Sensing 4-door (16-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+0
+Accord Touring V6 2-door (16-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+0
+Civic EX-L 2-door (12-15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+0
+Civic LX-P 2-door (16-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+0
+Fit EX-L w/Navigation 5-door (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+0
+Passport Elite (19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+0
+Pilot Elite (16-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+1
+Accord Sport Special Edition 4-door (17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+1
+Accord LX 4-door (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+1
+Accord Hybrid 4-door (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+1
+Civic EX-L 2-door (12-13) with Dual Airbags & Side Airbags & Side Curtain Airbags
+1
+Clarity Plug-in Hybrid (Base model) (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+1
+Insight LX (19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+1
+HR-V Sport (19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+1
+Pilot LX (16-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+1
+Ridgeline Sport (17-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Civic DX 2/4-door (10-12) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Civic DX 4-door (13) with Dual Airbags & Side Airbags & Side Curtain Airbags (For Canada)
+2
+Civic Hybrid 4-door (10-15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Civic LX 5-door (17-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Fit 5-door (10) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Odyssey LX (10-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Odyssey LX (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+2
+Passport Sport (19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Pilot LX (10-15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Ridgeline RT (10-14, 17-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Accord LX 4-door (10-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Accord LX-S 2-door (10-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Accord Hybrid 4-door (14-15, 17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Accord Sport 4-door (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+3
+Civic DX-VP 4-door (10-11) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Civic Hybrid w/Leather 4-door (12-15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Civic EX-T 2/4-door (16-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Civic EX (1.5T) 2/4-door (19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Civic LX w/Honda Sensing 5-door (17-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Civic LX 5-door (19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Civic Type R 5-door (17-19) with Dual Airbags & Side Airbags & Side Curtain Airbags (For Canada)
+3
+Clarity Electric Touring (17-19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+3
+Clarity Plug-in Hybrid Touring (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+3
+Fit 5-door (11-13) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Insight (11-14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Accord Crosstour EX (10-11) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Crosstour EX (12-15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Crosstour EX V6 (12-15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+CR-V LX (10-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Element LX (10-11) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+HR-V LX (16-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Odyssey SE (16-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Pilot SE (15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Pilot EX (16-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Accord LX-P 4-door (10-12) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Accord LX w/Honda Sensing 4-door (16-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Accord LX-S w/Honda Sensing 2-door (16-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Accord EX 4-door (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+4
+Accord Hybrid EX 4-door (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+4
+Civic EX-T w/Honda Sensing 4-door (16-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Civic Sport 5-door (17-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+CR-Z (11-16) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+FCX Clarity (10-14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Fit Sport 5-door (10) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Fit EV 5-door (13-14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Fit LX 5-door (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+CR-V SE (11 & 16) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Odyssey EX (10-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Pilot EX (10-15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Pilot EX w/Honda Sensing (16-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Pilot EX-L w/Navigation & Rear Entertainment System (19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Ridgeline RTS (10-14, 17-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Accord Sport 4-door (13-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Accord EX w/Honda Sensing 2-door (16-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Accord Hybrid EX-L 4-door (14-15, 17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Accord EX-L 4-door (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+Accord Hybrid EX-L 4-door (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+Civic LX 4-door (10-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Civic LX 2-door (12-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Civic GX 4-door (10-11) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Civic Natural Gas 4-door (12-15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Civic Si 2/4-door (10-15, 17-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Civic EX 5-door (17-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Fit Sport 5-door (11-13) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Fit LX 5-door (15-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Fit LX w/Honda Sensing 5-door (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Insight LX (10-14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Insight EX (19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Accord Crosstour EX-L (10-11) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Crosstour EX-L (12-15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Crosstour EX-L V6 (12-15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+CR-V EX (10-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+HR-V EX (16-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Odyssey EX (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+Passport EX-L (19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Pilot EX-L (10-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Ridgeline RTL (10-14, 17-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Accord SE 4-door (11-12) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Accord Sport w/Honda Sensing 4-door (16-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Accord EX-L w/Navigation & Honda Sensing 2-door (16-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Accord EX-L w/Navigation 4-door (18) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+6
+Accord Hybrid EX-L w/Navigation 4-door (18) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+6
+Civic LX 2-door (10-11) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Civic LX-S 4-door (10-11) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Civic LXL 4-door (10-11) with Dual Airbags (Brazil)
+6
+Civic HF 4-door (12-15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Civic LX w/Honda Sensing 4-door (16-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Civic LX 2/4-door (19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Civic EX w/Honda Sensing 5-door (17-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Civic EX 5-door (19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+CR-Z EX (11-16) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Fit Sport w/Navigation 5-door (10-13) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Fit Sport 5-door (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Odyssey EX-L (10) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Odyssey EX-L (all EX-L models) (11-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Pilot EX-L w/Rear Entertainment System (10-15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Pilot EX-L w/Honda Sensing (16-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Pilot Touring 7 passenger (19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Ridgeline SE (14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Ridgeline RTL-T (17-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Accord EX 2/4-door (10-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Accord EX V6 4-door (10-12) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Accord Hybrid Touring 4-door (14-15, 17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Accord Plug-in Hybrid 4-door (14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Civic SE 4-door (15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Civic EX 4-door (16-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Civic EX-L 4-door (16-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Civic EX-L 2-door (16-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Civic EX-L w/Navigation 5-door (17-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Civic Type R Touring 5-door (17-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Clarity Fuel Cell (Touring) (17-18) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+7
+Fit EX 5-door (16-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Fit Sport w/Honda Sensing 5-door (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Insight EX (10-14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+CR-V EX-L (10-16) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Element EX (10-11) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+HR-V EX-L (16-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Odyssey EX-L w/Rear Entertainment System (10) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Odyssey EX-L (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+7
+Pilot EX-L w/Navigation (11-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Ridgeline Sport (12-14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Ridgeline RTL-E (17-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Accord EX-L 2/4-door (10-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Accord EX-L V6 2/4-door (10-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Civic EX 2/4-door (10-15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Civic EX w/Honda Sensing 4-door (16-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Civic EX-L w/Honda Sensing 4-door (16-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Civic Sport 2/4-door (19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Civic EX-L w/Navigation w/Honda Sensing 5-door (17-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Civic EX-L w/Navigation 5-door (19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Clarity Fuel Cell (Touring) (19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+8
+Fit EX, EX-L, EX-L w/Navigation 5-door (15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Fit EX-L 5-door (16-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Fit EX 5-door (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+CR-V EX-L (17-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Odyssey Touring (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+8
+Pilot Touring (10) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Pilot EX-L w/Rear Entertainment System (16-18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Ridgeline Black Edition (17-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Accord Touring V6 4-door (13-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Accord EX-L w/Navigation & Honda Sensing 4-door (16-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Accord EX-L V6 w/Navigation & Honda Sensing 2-door (16-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Accord Touring 4-door (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+9
+Accord Hybrid Touring 4-door (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+9
+Civic EX-L 2/4-door (10-15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Civic Touring 2/4-door (16-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Civic Sport Touring 5-door (17-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Fit EX-L w/Navigation 5-door (16-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Fit EX-L 5-door (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Insight Touring (19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+CR-V Touring (15-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Element SC (10) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+HR-V Touring (19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Odyssey Touring (10) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Odyssey Touring & Touring Elite (11-17) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Odyssey Elite (18-19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+9
+Passport Touring (19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Pilot Touring w/Rear Entertainment System (10-15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Pilot Touring (16-19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2010-2019 Acura
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+0
+NSX ('17-'19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+0
+MDX A-Spec ('19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+2
+TL ('10-'14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+MDX ('10-'13) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+MDX ('14-'16) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+2
+RDX ('10-'12) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+ZDX ('10-'12) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+ILX ('13-'19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+TL Special Edition ('13-'14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+RL w/o XM Radio for Hawaii ('10-'12) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+RLX Base or w/Navigation ('14-'15) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+3
+RLX w/Navigation ('16) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+3
+TLX ('15-'19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+3
+MDX w/Technology Package ('12-'13) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+MDX ('17-'19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+3
+RDX ('13-'18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+RDX ('19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+4
+ILX Special Edition ('18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+TLX V6 w/Technology Package ('19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+4
+TSX sedan 4-cylinder ('12-'14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+TSX V6 sedan ('10-'13) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+MDX w/Technology Package & Rear Entertainment Package ('10-'13) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+MDX w/Technology Package ('14-'16) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+4
+ZDX w/Technology Package ('10-'12) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+ILX w/Premium Package ('13-'15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+RL w/XM Radio (48 states) ('10-'12) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+RLX w/Technology Package ('14-'17) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+5
+RLX P-AWS ('18-'19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+5
+TL w/Technology Package ('10-'14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+TLX w/Technology Package ('15-'18) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+5
+TLX 2.4L w/Technology Package ('19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+5
+TSX wagon ('11-'14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+MDX w/Advance Package ('10-'11) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+MDX or MDX Sport Hybrid w/Technology Package ('17-'19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+5
+RDX w/Technology Package ('10-'18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+RDX w/Technology Package ('19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+6
+RL w/Technology Package or Technology plus CMBS/ACC Package ('10) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+RL w/Technology Package or Technology plus Advance Package ('11-'12) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+TLX A-Spec ('18-'19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+6
+TSX sedan 4-cylinder (Base or w/Technology Package) ('10-'11) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+TSX sedan 4-cylinder w/Technology Package ('12-'14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+TSX wagon w/Technology Package ('11-'14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+TSX V6 sedan w/Technology Package ('10-'14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+MDX w/Technology Package ('10-'11) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+MDX w/Advance Package ('12-'13) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+MDX w/Technology Package & Entertainment Package ('14-'16) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+6
+RDX A-Spec ('19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+6
+ZDX w/Advance Package ('10-'12) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+ZDX ('13) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+ILX w/Technology Package ('13-'15) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+ILX w/Premium Package or Technology Plus Package ('16-'18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+ILX w/Premium Package or Technology Package ('19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+RLX w/Technology Package & Krell Audio Package ('14-'15) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+7
+TL w/Advance Package ('12-'14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+TLX w/Advance Package ('15-'18) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+7
+MDX w/Advance Package & Rear Entertainment Package ('10-'11) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+MDX w/Technology Package & Entertainment Package ('17-'19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+7
+MDX Sport Hybrid w/Advance Package ('17-'19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+7
+RDX w/Advance Package ('16-'18) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+RDX w/Advance Package ('19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+8
+ILX A-Spec ('16-'19) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+TLX w/Advance Package ('19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+8
+TSX sedan Special Edition 4-cylinder ('12-'14) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+MDX w/Advance Package & Rear Entertainment Package ('12-'13) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+MDX w/Advance Package & Entertainment Package ('14-'15) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+8
+MDX w/Advance Package ('17-'19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+9
+RLX w/Advance Package ('14-'17) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+9
+RLX Sport Hybrid ('18-'19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+9
+MDX w/Advance Package or Advance & Entertainment Packages ('16) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+9
+MDX w/Advance & Entertainment Packages ('17-'19) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+2020- Honda
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+0
+Civic Type R Limited Edition 5-door (21) with Dual Airbags & Side Airbags & Side Curtain Airbags
+0
+Passport Elite (20-23) with Dual Airbags & Side Airbags & Side Curtain Airbags
+0
+Pilot Elite (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+1
+Accord LX 4-door (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+1
+Accord Hybrid 4-door (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+1
+Clarity Plug-in Hybrid (Base model) (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+1
+Insight LX (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags
+1
+HR-V Sport (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+1
+Pilot LX (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags
+1
+Ridgeline Sport (20-26) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Accord Hybrid Sport 4-door (22) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+2
+Accord LX 4-door (23-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+2
+Civic LX 4-door (22-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+2
+CR-V LX (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+CR-V Hybrid LX (20) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+CR-V LX (23-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+2
+Odyssey LX (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+2
+Passport Sport (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Pilot SE (21-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2
+Pilot LX (23-24) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+2
+Ridgeline Sport w/HPD All-Terrain Tire Package (24-25) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Accord Sport 4-door (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+3
+Accord EX 4-door (23-24) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+3
+Civic EX (1.5T) 4-door (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Civic EX (1.5T) 2-door (20) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Civic LX 5-door (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Civic Type R 5-door (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags (For Canada)
+3
+Clarity Plug-in Hybrid Touring (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+3
+HR-V LX (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+HR-V LX (23-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+3
+Passport RTL (26-) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+3
+Pilot EX (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Pilot Sport (22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Pilot Sport (23-26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+4
+Accord EX 4-door (20) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+4
+Accord Sport Special Edition 4-door (21-22) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+4
+Accord Hybrid EX 4-door (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+4
+Accord SE 4-door (25-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+4
+Civic Sport 5-door (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Civic Type R 5-door (23-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+4
+Fit LX 5-door (20) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+CR-V EX (23-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+4
+Pilot EX-L w/Navigation & Rear Entertainment System (20) with Dual Airbags & Side Airbags & Side Curtain Airbags
+4
+Pilot EX-L (23-26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+4
+Ridgeline RTL w/HPD All-Terrain Tire Package (24-25) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Accord EX-L 4-door (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+Accord Hybrid EX-L 4-door (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+Accord Hybrid Sport 4-door (23-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+Civic Si 2/4-door (20) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Civic Sport 4-door (22-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+Civic Si 4-door (22-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+Civic LX 5-door (22-24) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+Insight EX (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+CR-V EX (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+CR-V Hybrid EX (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+CR-V Hybrid Sport (23-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+CR-V e:FCEV (25-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+HR-V EX (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+HR-V Sport (23-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+Odyssey EX (20-24) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+Passport EX-L (20-25) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Passport TrailSport (26-) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+Pilot EX-L (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+5
+Pilot EX-L 7 passenger (23-24) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+Ridgeline RTL (20-26) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Accord Hybrid EX-L 4-door (23-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+6
+Civic LX 4-door (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Civic LX 2-door (20) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Civic EX 5-door (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Fit Sport 5-door (20) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Prelude (26-) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+6
+CR-V Hybrid TrailSport (26-) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+6
+Odyssey EX-L (23-26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+6
+Passport TrailSport (22-25) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Pilot Touring 7 passenger (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+6
+Pilot TrailSport (23-26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+6
+Ridgeline TrailSport (24-26) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Accord Hybrid Sport-L 4-door (23-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+7
+Civic EX-L 4-door (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Civic Type R Touring 5-door (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Civic EX 4-door (22-24) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+7
+Civic EX-L 5-door (22-24) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+7
+Prelude Two-Tone (26-) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+7
+CR-V Special Edition (21-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+CR-V EX-L (23-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+7
+HR-V EX-L (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+HR-V EX-L (23-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+7
+Odyssey EX-L (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+7
+Odyssey Sport (23-24) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+7
+Odyssey Sport-L (25-26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+7
+Pilot Black Edition (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Pilot Touring (23-26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+7
+Pilot Touring Blackout (26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+7
+Ridgeline RTL-E (20-23) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Ridgeline TrailSport with HPD Wheels (26) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Accord Hybrid Touring 4-door (23-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+8
+Civic Sport 4-door (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Civic Sport 2-door (20) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Civic EX-L 5-door (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Civic Sport 5-door (22-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+8
+Civic Hybrid Sport 5-door (25-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+8
+Civic Sport Touring 5-door (22-24) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+8
+Civic Hybrid Sport/Sport Touring 4-door (25-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+8
+Clarity Fuel Cell (Touring) (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+8
+Fit EX 5-door (20) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+CR-V EX-L (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+CR-V Hybrid EX-L (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+CR-V Hybrid Sport-L (24-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+8
+Odyssey Touring (20-26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+8
+Passport Black Edition (24-25) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Passport TrailSport Elite (26-) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+8
+Pilot TrailSport (22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+Pilot Elite (23-26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+8
+Ridgeline Black Edition (20-26) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Accord Touring 4-door (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+9
+Accord Hybrid Touring 4-door (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+9
+Civic Touring 4-door (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Civic Touring 2-door (20) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Civic Sport Touring 5-door (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Civic Touring 4-door (22-24) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+9
+Civic Hybrid Sport Touring 5-door (25-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+9
+Fit EX-L 5-door (20) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Insight Touring (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+CR-V Touring (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+CR-V Hybrid Touring (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+CR-V Hybrid Sport Touring (23-26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+9
+HR-V Touring (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Odyssey Elite (20-26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+9
+Passport Touring (20-21) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Pilot Touring (20-22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+9
+Pilot Black Edition (25-26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+9
+Ridgeline Black Edition Two-Tone (26) with Dual Airbags & Side Airbags & Side Curtain Airbags
+2020- Acura
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+0
+NSX ('20-'21) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+0
+NSX Type S ('22) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+0
+TLX Type S ('21-'25) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+0
+TLX Type S PMC Edition ('23) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+0
+MDX A-Spec ('20) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+0
+MDX A-Spec ('22-'26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+2
+Integra ('23-'26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+3
+ILX ('20-'22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+3
+Integra A-Spec ('23-'26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+3
+TLX ('20) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+3
+TLX ('21-'23) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+3
+MDX ('20) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+3
+MDX ('22-'26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+3
+RDX ('20-'24) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+3
+ADX ('25-'26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+4
+TLX V6 w/Technology Package ('20) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+4
+TLX w/Technology Package ('21-'25) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+4
+MDX w/Technology Package ('22-'26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+4
+RDX ('25-'26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+RLX P-AWS ('20) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+5
+TLX 2.4L w/Technology Package ('20) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+5
+TLX A-Spec ('21-'25) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+MDX or MDX Sport Hybrid w/Technology Package ('20) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+5
+RDX w/Technology Package ('20-'26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+5
+ADX A-Spec ('25-'26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+6
+Integra A-Spec w/Technology Package Automatic Transmission ('23-'26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags &
+Dual Front Knee Airbags
+6
+TLX A-Spec ('20) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+6
+TLX w/Advance Package ('21-'23) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+6
+RDX A-Spec w/Technology Package ('20-'22) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+6
+RDX A-Spec ('23-'26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+7
+ILX w/Premium Package or Technology Package ('20) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+ILX w/Premium Package ('21-'22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+7
+Integra A-Spec w/Technology Package Manual Transmission ('23-'26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags &
+Dual Front Knee Airbags
+7
+MDX w/Technology Package & Entertainment Package ('20) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+7
+MDX Sport Hybrid w/Advance Package ('20) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+7
+RDX w/Advance Package ('20-'26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+7
+RDX PMC Edition ('21) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+7
+ADX A-Spec w/Advance Package ('25-'26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+8
+ILX A-Spec w/Premium Package or Technology Package ('20-'22) with Dual Airbags & Side Airbags & Side Curtain Airbags
+8
+TLX w/Advance Package ('20) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+8
+TLX PMC Edition ('20) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+8
+MDX w/Advance Package ('20) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+8
+MDX w/Advance Package ('22-'26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+8
+MDX Type S w/Advance Package ('22-'26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+8
+RDX A-Spec w/Advance Package ('22-'26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+8
+RDX PMC Edition ('22) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+9
+Integra Type S ('24-'26) with Dual Airbags & Front and Rear Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+9
+RLX Sport Hybrid ('20) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+9
+TLX Type S w/Performance Wheel & Tire Package ('21-'23) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+9
+MDX w/Advance & Entertainment Packages ('20) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+9
+MDX PMC Edition ('20) with Dual Airbags & Side Airbags & Side Curtain Airbags & Driver-side Knee Airbag
+9
+MDX Type S ('22-'24) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+9
+MDX A-Spec w/Advance Package ('25-'26) with Dual Airbags & Side Airbags & Side Curtain Airbags & Dual Front Knee Airbags
+Model year
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+B
+1981
+C
+1982
+D
+1983
+E
+1984
+F
+1985
+G
+1986
+H
+1987
+J
+1988
+K
+1989
+L
+1990
+M
+1991
+N
+1992
+P
+1993
+R
+1994
+S
+1995
+T
+1996
+V
+1997
+W
+1998
+X
+1999
+Y
+2000
+1
+2001
+2
+2002
+3
+2003
+4
+2004
+5
+2005
+6
+2006
+7
+2007
+8
+2008
+9
+2009
+A
+2010
+B
+2011
+C
+2012
+D
+2013
+E
+2014
+F
+2015
+G
+2016
+H
+2017
+J
+2018
+K
+2019
+L
+2020
+M
+2021
+N
+2022
+P
+2023
+R
+2024
+S
+2025
+T
+2026
+Assembly plant
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+A
+Marysville, Ohio, USA (Marysville Auto/Motorcycle Plants) (Motorcycle plant closed 2009, last model year built: 2010)
+B
+Lincoln, Alabama, USA
+B
+Aalst, Flanders, Belgium (Motorcycle Plant) (Vehicle production ended 1995)
+C
+Sayama, Saitama prefecture, Japan (Vehicle production ended 2022)
+D
+El Salto, Jalisco, Mexico (Motorcycle Plant)
+E
+Greensburg, Indiana, USA
+E
+Barcelona, Spain (Montesa Honda Motorcycle Plant)
+F
+Atessa, Italy (Motorcycle Plant)
+F
+Pingtung, Taiwan
+G
+El Salto, Jalisco, Mexico (Auto Plant) (Auto production ended 2020)
+H
+Alliston, Ontario, Canada
+J
+Karawang, West Java, Indonesia (Auto Plant)
+J
+Swepsonville, North Carolina, USA (ATV plant)
+K
+Ozu, Kikuchi district, Kumamoto prefecture, Japan (Motorcycle Plant)
+K
+Itirapina, Sao Paulo state, Brazil (Auto Plant)
+L
+East Liberty, Ohio, USA
+M
+Celaya, Guanajuato, Mexico
+M
+Hamamatsu, Shizuoka prefecture, Japan (Motorcycle Plant) (Vehicle production ended 2008)
+N
+Nelson, New Zealand (closed 1998)
+N
+Greater Noida, Uttar Pradesh, India (Honda Cars India) (closed 2020)
+P
+Ayutthaya, Thailand (Auto Plant) (Vehicle production ending 2025)
+R
+Manaus, Amazonas, Brazil (Motorcycle Plant)
+S
+Suzuka, Mie prefecture, Japan
+S
+Ramos Arizpe, Coahuila, Mexico (GM plant) ('24- Honda Prologue EV)
+T
+Takanezawa, Tochigi prefecture, Japan (closed 2004, reopened 2008, closed 2018)
+T
+Prachinburi, Thailand (Auto Plant)
+U
+Swindon, Wiltshire, U.K. (closed 2021)
+W
+Gebze, Kocaeli province, Turkey (closed 2021)
+X
+Yorii, Saitama prefecture, Japan
+Y
+Marysville, Ohio, USA (Performance Manufacturing Center)
+Y
+Phuc Thang, Vinh Phuc province, Vietnam (Motorcycle Plant)
+Z
+Sumaré, Sao Paulo state, Brazil (Auto Plant) (Vehicle production ended 2021)
+Z
+Spring Hill, Tennessee, USA (GM plant) ('24- Acura ZDX EV)
+1
+Guangzhou, Guangdong, China (Wuyang-Honda Motorcycle Plant)
+2
+Guangzhou, Guangdong, China (GAC-Honda Automobile Co., Ltd. Huangpu [No. 1] Auto Plant)
+3
+Guangzhou Development District, Guangzhou, Guangdong, China (GAC-Honda No. 4 Auto Plant)
+(formerly Honda Automobile (China) Co., Ltd.)
+3
+China (Sundiro-Honda Motorcycle Plant)
+4
+Lafayette, Indiana, USA (SIA plant) (1994-2002 Passport)
+4
+Timmonsville, South Carolina, USA (ATV/UTV plant)
+4
+Tapukara, Rajasthan, India (Honda Cars India)
+5
+Bangkok, Thailand (Motorcycle Plant)
+5
+Wuhan, Hubei, China (Dongfeng-Honda Automobile Co., Ltd. [No. 1] Auto Plant)
+7
+Fujisawa, Kanagawa prefecture, Japan (Isuzu plant) (1996-1999 Acura SLX)
+7
+Wuhan, Hubei, China (Dongfeng-Honda Automobile Co., Ltd. [No. 3] Auto Plant)
+Production sequence number
+[
+edit
+|
+edit source
+]
+Canadian models share same VIN as U.S. except that their sequence numbers start at 800000. It is also important to note that, in the U.S., positions 13-17 must be a number, whereas position 12 may be either a letter or a number.
+Online
+Honda VIN decoder
+↑
+http://en.wikipedia.org/wiki/Vehicle_Identification_Number
+Retrieved from "
+https://en.wikibooks.org/w/index.php?title=Vehicle_Identification_Numbers_(VIN_codes)/Honda/VIN_Codes&oldid=4629505
+"
+Category
+:
+Book:Vehicle Identification Numbers (VIN codes)
+This page was last edited on 7 April 2026, at 17:52.
+Text is available under the
+Creative Commons Attribution-ShareAlike License
+; additional terms may apply. By using this site, you agree to the
+Terms of Use
+and
+Privacy Policy.
+Privacy policy
+About Wikibooks
+Disclaimers
+Code of Conduct
+Developers
+Statistics
+Cookie statement
+Mobile view
+Search
+Search
+Toggle the table of contents
+Vehicle Identification Numbers (VIN codes)/Honda/VIN Codes
+Add languages
+Add topic
