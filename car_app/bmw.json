@@ -1,0 +1,136 @@
+{
+  "manufacturer": "BMW",
+  "_notes": {
+    "vin_structure": "17 chars: pos1-3=WMI, pos4-8=VDS, pos9=check_digit, pos10=model_year, pos11=plant, pos12-17=serial",
+    "vds_note": "BMW VDS: pos4=model_series/body_category, pos5=body_subvariant, pos6=engine_family, pos7=drivetrain/variant, pos8=market/steering_spec. Post-2006 pattern is consistent. Check digit (pos9) is NHTSA formula for US-market VINs; European VINs use '0' filler.",
+    "gcc_note": "BMW does NOT encode GCC specification in the VIN. Thermal spec and climate builds are in BMW's internal CPS (Central Processing System). GCC identification requires door-jamb sticker, GSO certificate, or EVG database.",
+    "wbs_note": "WBS = BMW M GmbH (separate legal entity). M2/M3/M4/M5/M6/M8 carry WBS prefix.",
+    "wby_note": "WBY = BMW AG i-series EV brand. i3/i4/i5/i7/iX carry WBY prefix.",
+    "wbx_note": "WBX = Magna Steyr contract-build (Graz, Austria). X3 and some specialty models. 'X' in WBX is vehicle-type code, NOT the X model line."
+  },
+
+  "model_year_codes": {
+    "V": 1997, "W": 1998, "X": 1999, "Y": 2000,
+    "1": 2001, "2": 2002, "3": 2003, "4": 2004, "5": 2005,
+    "6": 2006, "7": 2007, "8": 2008, "9": 2009,
+    "A": 2010, "B": 2011, "C": 2012, "D": 2013, "E": 2014,
+    "F": 2015, "G": 2016, "H": 2017, "J": 2018, "K": 2019,
+    "L": 2020, "M": 2021, "N": 2022, "P": 2023, "R": 2024,
+    "S": 2025, "T": 2026
+  },
+
+  "wmi": {
+    "WBA": {"manufacturer": "BMW AG", "country": "Germany", "vehicle_type": "Passenger Car", "notes": "Mainstream 1/2/3/4/5/6/7/8 Series from Munich, Dingolfing, Regensburg"},
+    "WBS": {"manufacturer": "BMW M GmbH", "country": "Germany", "vehicle_type": "M Performance / Motorsport Passenger Car", "notes": "M2/M3/M4/M5/M6/M8; M-division is a separate legal entity"},
+    "WBY": {"manufacturer": "BMW AG (i-Series EV)", "country": "Germany", "vehicle_type": "Electric / Hybrid Vehicle", "notes": "i3/i4/i5/i7/iX/iX1/iX3; dedicated WMI for EV brand"},
+    "WBX": {"manufacturer": "Magna Steyr (BMW contract assembly)", "country": "Austria", "vehicle_type": "SAV / Specialty", "notes": "X3 and others contract-built in Graz; also some motorcycles. X in WBX = vehicle-type code, NOT X model line."},
+    "5UX": {"manufacturer": "BMW Manufacturing Co. LLC", "country": "USA", "vehicle_type": "SAV (Sports Activity Vehicle)", "notes": "X3/X4/X5/X6/X7 from Spartanburg, SC"},
+    "5YM": {"manufacturer": "BMW Manufacturing Co. LLC", "country": "USA", "vehicle_type": "M-SAV (Sports Activity Vehicle M)", "notes": "X5 M/X6 M/XM from Spartanburg"},
+    "4US": {"manufacturer": "BMW North America", "country": "USA", "vehicle_type": "Passenger Car", "notes": "Some US-market sedans/coupes"},
+    "3AV": {"manufacturer": "BMW Group plant San Luis Potosí", "country": "Mexico", "vehicle_type": "Passenger Car", "notes": "3 Series from Mexico plant (opened 2019)"},
+    "X4X": {"manufacturer": "BMW Avtotor", "country": "Russia", "vehicle_type": "Passenger Car", "notes": "Russian CKD assembly (pre-2022 sanctions)"},
+    "MMF": {"manufacturer": "BMW Manufacturing Thailand", "country": "Thailand", "vehicle_type": "Passenger Car", "notes": "3/5 Series SKD/CKD assembly"}
+  },
+
+  "position_9": {
+    "_note": "US-market VINs: NHTSA check digit (0-9 or X). European-market BMW VINs: '0' filler — NOT a check digit. Do not run check-digit validation on European WMI (WBA/WBS/WBY/WBX) VINs."
+  },
+
+  "position_11_plant": {
+    "_note": "BMW assembly plant codes. Numeric = various BMW Group plants.",
+    "A": "Munich, Germany (main plant)",
+    "B": "Munich, Germany (alternate line)",
+    "C": "Dingolfing, Germany",
+    "D": "Regensburg, Germany",
+    "E": "Eisenach, Germany (legacy)",
+    "G": "Graz, Austria (Magna Steyr contract)",
+    "J": "Leipzig, Germany",
+    "K": "Rosslyn, South Africa",
+    "L": "Swindon, UK (MINI — not BMW brand)",
+    "M": "Munich, Germany (M GmbH line)",
+    "R": "Spartanburg, South Carolina, USA",
+    "S": "Spartanburg, South Carolina, USA (M-SAV)",
+    "T": "Rayong, Thailand",
+    "U": "San Luis Potosí, Mexico",
+    "W": "Woodcliff Lake, NJ, USA (admin — rare on VIN)",
+    "X": "Shenyang, China (BMW Brilliance JV)"
+  },
+
+  "position_4_model_series": {
+    "_note": "Position 4 = model series / body category. Consistent post-2000 across WBA/WBS/5UX/5YM.",
+    "B": "1 Series hatchback / 2 Series",
+    "C": "3 Series coupe (E92/F82)",
+    "D": "4 Series",
+    "E": "5 Series sedan",
+    "F": "6 Series",
+    "G": "7 Series flagship",
+    "H": "8 Series",
+    "J": "X1 SAV",
+    "K": "X3 SAV",
+    "L": "X5 SAV",
+    "M": "X6 SAV",
+    "N": "X7 SAV",
+    "P": "X2 / iX1",
+    "R": "i4 / i5 electric",
+    "S": "iX electric",
+    "T": "Z-series roadster",
+    "U": "M-specific coding (WBS VINs)",
+    "V": "2 Series Active Tourer / Gran Tourer (FWD MPV)"
+  },
+
+  "position_5_body_subvariant": {
+    "_note": "Position 5 = body sub-variant type.",
+    "A": "Sedan (4-door)",
+    "B": "Coupe (2-door)",
+    "C": "Convertible / Cabriolet",
+    "D": "Touring (wagon / estate)",
+    "E": "Gran Turismo (5-door liftback)",
+    "F": "Gran Coupe (4-door coupe)",
+    "G": "Active Tourer (MPV)",
+    "H": "Gran Turismo 5-door high roof",
+    "J": "SAV (Sports Activity Vehicle — standard)",
+    "K": "SAC (Sports Activity Coupe — sloped roof)",
+    "L": "Long-wheelbase variant (Li / xDrive series)"
+  },
+
+  "position_6_engine_family": {
+    "_note": "Position 6 = engine family code. UAE/GCC most common = C (B58 3.0L 6-cyl) and B (B48 2.0L). Z = BEV electric drivetrain (i-series).",
+    "A": "B38 (1.5L 3-cyl turbo) / N13 (1.6L 4-cyl)",
+    "B": "B48 (2.0L 4-cyl turbo petrol)",
+    "C": "B58 (3.0L 6-cyl turbo petrol) — most common UAE/GCC market code",
+    "D": "B57 (3.0L 6-cyl diesel)",
+    "E": "N63 / S63 (4.4L V8 twin-turbo)",
+    "F": "N74 / M70 (6.6L V12)",
+    "G": "S58 (3.0L 6-cyl high-output M engine)",
+    "H": "S55 (3.0L twin-turbo M engine, E9x gen)",
+    "J": "S63M (4.4L V8 M high-output)",
+    "K": "B47 (2.0L 4-cyl diesel)",
+    "L": "Plug-in hybrid (PHEV coding)",
+    "P": "P-suffix electric motor (i-series BEV)",
+    "R": "Rear-wheel drive designation overlap",
+    "Z": "Electric drivetrain (i3 / iX / i4 BEV)"
+  },
+
+  "position_7_drivetrain_variant": {
+    "_note": "Position 7 = drivetrain / variant designation. Post-2010 consistent.",
+    "1": "RWD (standard rear-wheel drive)",
+    "2": "xDrive AWD",
+    "3": "eDrive (electric, rear-wheel)",
+    "4": "xDrive + PHEV (plug-in hybrid AWD)",
+    "C": "M-specific Competition specification",
+    "E": "M-specific standard specification"
+  },
+
+  "position_8_market_steering": {
+    "_note": "Position 8 = market / steering specification. Important for UAE: code 0/1 = LHD, code 2 = RHD. BMW does NOT encode GCC spec here.",
+    "0": "Left-hand drive (LHD), global / European market",
+    "1": "Left-hand drive, specific markets",
+    "2": "Right-hand drive (RHD) — UK / Australia / Japan",
+    "A": "Market-specific option package code (varies by generation)",
+    "B": "Market-specific option package code",
+    "C": "Market-specific option package code",
+    "D": "Market-specific option package code",
+    "E": "Market-specific option package code",
+    "F": "Market-specific option package code"
+  }
+}
