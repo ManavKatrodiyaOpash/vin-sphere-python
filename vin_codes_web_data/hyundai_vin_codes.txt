@@ -1,0 +1,734 @@
+Vehicle Identification Numbers (VIN codes)/Hyundai/VIN Codes - Wikibooks, open books for an open world
+Jump to content
+Main menu
+Main menu
+move to sidebar
+hide
+Navigation
+Main Page
+Help
+Browse
+Cookbook
+Wikijunior
+Featured books
+Recent changes
+Special pages
+Random book
+Using Wikibooks
+Community
+Reading room forum
+Community portal
+Help out!
+Policies and guidelines
+Contact us
+Search
+Search
+Appearance
+Donations
+Create account
+Log in
+Personal tools
+Donations
+Create account
+Log in
+Contents
+move to sidebar
+hide
+Beginning
+1
+Hyundai's VIN format
+2
+Hyundai WMIs (positions 1-3)
+Toggle Hyundai WMIs (positions 1-3) subsection
+2.1
+Geographic Zone (position 1)
+2.2
+Manufacturer (position 2)
+2.3
+Vehicle Type (position 3)
+3
+Vehicle Descriptor Section
+Toggle Vehicle Descriptor Section subsection
+3.1
+Model Line and Drive Type (position 4)
+3.2
+Body Type or Trim Level (position 5)
+3.3
+Trim Level or Body Type (position 6)
+3.4
+Body Style/Drive Wheels/Weight Class - Multi-Purpose Passenger Vehicle or Truck (position 6) 2010-
+3.5
+Restraint System or GVWR (position 7)
+3.6
+Engine Type (position 8)
+3.7
+Check Digit (position 9)
+3.8
+0-9 or X
+3.9
+Model Year (position 10)
+4
+Vehicle Indicator Section
+Toggle Vehicle Indicator Section subsection
+4.1
+Manufacturing Plant Code (position 11)
+4.2
+Manufacturing Month (India)
+5
+References
+Toggle the table of contents
+Vehicle Identification Numbers (VIN codes)/Hyundai/VIN Codes
+Add languages
+Add links
+Book
+Discussion
+English
+Read
+Edit
+Edit source
+View history
+Tools
+Tools
+move to sidebar
+hide
+Actions
+Read
+Edit
+Edit source
+View history
+General
+What links here
+Related changes
+Upload file
+Permanent link
+Page information
+Cite this page
+Get shortened URL
+Sister projects
+Wikipedia
+Wikiversity
+Wiktionary
+Wikiquote
+Wikisource
+Wikinews
+Wikivoyage
+Commons
+Wikidata
+MediaWiki
+Meta-Wiki
+Print/export
+Create a collection
+Download as PDF
+Printable version
+In other projects
+Appearance
+move to sidebar
+hide
+From Wikibooks, open books for an open world
+<
+Vehicle Identification Numbers (VIN codes)
+Hyundai's VIN format
+[
+edit
+|
+edit source
+]
+For Model Years 1986 and above
+Position
+Sample
+Description
+1
+K
+WMI
+Geographic zone
+2
+M
+Manufacturer
+3
+H
+Vehicle Type
+4
+D
+VDS
+Model Line and Drive Type
+5
+H
+Body Type or Trim Level
+6
+4
+Trim Level or Body Type
+7
+5
+Restraint System or GVWR
+8
+A
+Engine Type
+9
+1
+Check Digit
+10
+2
+VIS
+Model Year
+11
+U
+Manufacturing Plant Code
+12
+0
+Serial Number
+13
+4
+14
+8
+15
+4
+16
+4
+17
+7
+Hyundai WMIs (positions 1-3)
+[
+edit
+|
+edit source
+]
+AC5 = Hyundai Automotive South Africa (cars)
+KMC = Hyundai South Korea (commercial vehicle)
+KME = Hyundai South Korea (commercial vehicle - semi-tractor truck)
+KMF = Hyundai South Korea (commercial vehicle)
+KMH = Hyundai South Korea (passenger & multi-purpose vehicle)
+KMJ = Hyundai South Korea (bus & minibus)
+KMT = Genesis Motors South Korea (passenger vehicle)
+KMU = Genesis Motors South Korea (multi-purpose passenger vehicle)
+KMX = Hyundai South Korea (no longer used)
+KMZ = Hyundai South Korea (no longer used)
+KM8 = Hyundai South Korea (multi-purpose passenger vehicle, for North America)
+KND = Hyundai (multi-purpose vehicle made by Kia South Korea)
+KPH = Mitsubishi Precis made by Hyundai South Korea (3/11/88 - '94) (passenger vehicle)
+LBE = Beijing Hyundai Automotive Co Ltd.
+MAL = Hyundai Motors India Ltd.
+MB2 = Hyundai Motors India Ltd. (multi-purpose vehicle)
+MF3 = Hyundai Motor Indonesia (HMID)
+NLH = Hyundai Assan (passenger cars, SUV) (Turkey)
+NLJ = Hyundai Assan (minibus, van) (Turkey)
+PFD = Hyundai Motor Group Innovation Center in Singapore (HMGICS) (multi-purpose passenger vehicle)
+TMA = Hyundai Motor Manufacturing Czech
+TMC = Hyundai Motor Manufacturing Czech
+U5Y = Kia Motors Slovakia (ix35 only)
+X7M = Hyundai made by TagAz (Russia)
+XWE = Hyundai made by Avtotor (Russia)
+Y6L = Hyundai made by Bogdan (Ukraine)
+Z94 = Hyundai Motor Manufacturing Rus (Russia)
+2HM = Hyundai Auto Canada (Passenger Vehicle)
+3KM = Hyundai (Multi-Purpose Passenger Vehicle made by Kia Motor Manufacturing Mexico)
+3KP = Hyundai (Passenger Vehicle made by Kia Motor Manufacturing Mexico)
+5NM = Hyundai Motor Manufacturing Alabama (Hyundai & Genesis Multi-Purpose Passenger Vehicle)
+5NP = Hyundai Motor Manufacturing Alabama (Hyundai Passenger Vehicle)
+5NT = Hyundai Motor Manufacturing Alabama (Hyundai Truck)
+5XY = Hyundai (Multi-Purpose Passenger Vehicle made by Kia Motor Manufacturing Georgia)
+7YA = Hyundai (Multi-Purpose Passenger Vehicle made by Hyundai Motor Group Metaplant America)
+8LG = Hyundai made by Aymesa in Ecuador
+95P = Caoa Montadora de Veículos SA (Tucson, ix35, & HR truck) (Brazil)
+9BH = Hyundai Motor Brasil (HB20 & Creta)
+Geographic Zone (position 1)
+[
+edit
+|
+edit source
+]
+AA-AH = South Africa
+K = South Korea
+L = China
+MA-ME, MY-M0 = India
+MF-MK = Indonesia
+NL-NR = Turkey
+TJ-TP = Czech Republic
+U5-U7 = Slovakia
+XS-XW, Z6-Z0 = Russia
+2 = Canada
+3 = Mexico
+5 = USA
+7 = USA
+8L-8R = Ecuador
+9A-9E, 93–99 = Brazil
+Manufacturer (position 2)
+[
+edit
+|
+edit source
+]
+A = HMI (Hyundai Motor India)
+B = Hyundai Motor Brasil
+B = Beijing Hyundai Automotive Co Ltd.
+C = Cars (Roslyn, South Africa)
+D = SUV's (Roslyn, South Africa)
+E = HME (Hyundai Motor Egypt)
+F = Hyundai Motor Indonesia (HMID)
+H = Bromont Assembly Plant, Hyundai Auto Canada
+K = Kia Motor Manufacturing Mexico
+L = HAOS (Hyundai Assan Otomotiv Sanayi), Turkey
+L = Aymesa
+M = HMC (Hyundai Motor Company), South Korea
+M = Hyundai Motor Manufacturing Czech
+N = Hyundai Motor Manufacturing Alabama
+N = Kia, South Korea
+X = Kia Motor Manufacturing Georgia
+Y = Hyundai Motor Group Metaplant America
+5 = Caoa Montadora de Veículos SA, Anapolis/GO, Brazil
+5 = Kia Motors Slovakia
+9 = Hyundai Motor Manufacturing Rus
+Vehicle Type (position 3)
+[
+edit
+|
+edit source
+]
+A = Passenger Car
+A = MPV (Multi-Purpose Vehicle) (Hyundai Motor Group Metaplant America)
+B = Trailer
+C = Special car
+D = Recreational
+D = Hyundai Motor Group Innovation Center in Singapore
+E = Tractor
+F = Truck, van
+H = Passenger car, MPV, RV
+J = Minibus, bus, semi-MPV
+L = Light Motor Vehicle (Car)
+M = Passenger car (Hyundai Auto Canada)
+M = MPV (Multi-Purpose Vehicle) (Hyundai Motor Manufacturing Alabama & Kia Motor Manufacturing Mexico)
+N = Truck, bus, van
+P = Hyundai made by Caoa Montadora (Tucson, ix35, & HR truck)
+P = Passenger car (Hyundai Motor Manufacturing Alabama & Kia Motor Manufacturing Mexico)
+T = Truck (Hyundai Motor Manufacturing Alabama)
+T = Genesis Passenger car
+U = Genesis MPV (Multi-Purpose Vehicle)
+X = Passenger car, MPV, RV
+Y = MPV (Multi-Purpose Vehicle) (Kia Motor Manufacturing Georgia)
+Z = Truck, van
+3 = Semi-Trailer
+3 = Hyundai Motor Indonesia
+4 = Hyundai Motor Manufacturing Rus
+5
+8 = MPV (Multi-Purpose Vehicle)
+Vehicle Descriptor Section
+[
+edit
+|
+edit source
+]
+Model Line and Drive Type (position 4)
+[
+edit
+|
+edit source
+]
+A = i10, Grand i10, Xcent
+B = Sonata 1989-1994, Grand i10, Aura, i20, Casper, Bayon
+C = Sonata 1995-1998, Accent 2000-2022, Ioniq 2017-2022, HB20, Creta
+D = Elantra 2001-2020, Elantra Touring 2009-2012, Elantra GT 2013-2017, i30 (FD & GD)
+E = Sonata 2006-2022 (US built), Sonata 2006-2019 (Korean built)
+F = XG300, XG350, Azera 2006-2017, Genesis G80 2019-2020 (KMT), Genesis G90 2019- (KMT), H100 -
+G = Genesis sedan 2009–2016, Equus 2011-2016, Genesis G80 2017-2019 (KMH), Genesis G90 2017-2019 (KMH), Genesis G70 2019-, Genesis G80 2021-
+H = Tiburon 2003-2008, Genesis Coupe 2010-2016, i30 (PD), Elantra GT 2018-2020, Kona 2024-, Genesis GV80 2021-
+J = Elantra 1992-2000, Tiburon 1997-2001, Tucson 2005-, Santa Cruz 2022-, Nexo 2019-2023, Genesis GV80 Coupe 2025-
+K = Kona 2018-2023, Ioniq 5 2022-, Genesis GV60
+L = Excel 1986-1989, Mitsubishi Precis 1987-1989, Sonata 2020- (Korean built), i40, Elantra 2021-, Cantus 16 -
+M = Entourage, Ioniq 6, Ioniq 9, Genesis GV70
+N = Veracruz 2007–2012
+P = Pony, Matrix, ix20, Creta, Grand Creta, Santa Fe 2024-
+R = Venue, Palisade
+S = Santa Fe 2001-2010, Santa Fe LWB (XL) 2013-2019, Santa Fe 2019-2023
+T = Veloster 2012-2022, Nexo 2026-
+V = Excel, Mitsubishi Precis 1990-1994, Accent 1995-1999, Scoupe
+W = Sonata 1999-2005
+Z = Santa Fe 2011–2012, Santa Fe Sport 2013-2018, HR truck
+Body Type or Trim Level (position 5)
+[
+edit
+|
+edit source
+]
+Body Type (86-00 Models except 00 Accent; plus 01-05 Sonata & 01 Tiburon)
+A = 5-door hatchback
+D = 3-door hatchback
+E = 2-door sedan (Scoupe)
+F = 4-door sedan
+G = 2-door coupe (97-01 Tiburon)
+W = 5-door station wagon (96-00 Elantra wagon)
+Trim Level (00 Accent, all 01-09 Models except 01-05 Sonata & 01 Tiburon, all 2010 and later models)
+B = GL Santa Fe, 01 – 04; 3.8L Genesis, 09 –; Genesis G90 3.5T 23-; Ioniq 5 Robotaxi
+C = GLS Santa Fe, 01 – 06; Limited Santa Fe, 06; SE Azera, 06 – 07; Limited Azera, 06 –; GLS Azera, 07 –; SE Entourage, 07; GLS or Limited Entourage, 07 –; 4.6L Genesis, 09 –; Elantra Touring, 09 –, Base Veloster, 12-; Genesis G90 3.5T e-SC 23-
+D = Genesis G90 3.5T e-SC Prestige Black 26-
+F = Base or L Accent, 00 – 04
+G = GL or GS Accent, 00 – 04; GT Accent, 03 – 05; GLS Accent, 05; = GLS Santa Fe, 07 –
+H = SE or Limited Santa Fe, 07
+M = GL (Base) Tiburon, 03 – 04; GS Tiburon, 05 – 08; GL Tucson, 05 – 06; GLS Tucson, 07 –; GS Accent, 07 –
+N = GLS Accent, 06 –; SE Accent, 07 –; GLS or GT Elantra, 01 – 06; Limited Elantra, 06; GLS Tucson, 05 – 06; LX Tucson, 05; Limited Tucson, 06 –; SE Tucson 07 –; Limited V6 Tucson, 08 –; GT Tiburon, 03 – 08; SE Tiburon, 05 – 08; GT Limited Tiburon, 06 – 08; Ioniq 5 N 25-
+T = GL Sonata, 06; GLS Sonata, 07 –
+U = GLS (Base or L) XG300, 01; XG350, 02 – 05; GLS or LX Sonata, 06; Limited Sonata, 06 –; SE Sonata, 07 –; Limited Elantra, 07; GLS or SE Elantra, 07 –; GLS, Limited Veracruz, 07 –; SE, Veracruz, 07
+1 = SE Standard Range Ioniq 6, 23-25
+2 = SE Ioniq 6, 23-25
+3 = SEL Ioniq 6, 23-25, Ioniq 6 N 26-
+5 = Limited Ioniq 6, 23-25
+Other
+2 = SE
+3 = Limited edition
+Trim Level or Body Type (position 6)
+[
+edit
+|
+edit source
+]
+Trim Level (86-00 Models except 00 Accent; plus 01-05 Sonata & 01 Tiburon)
+1 = base (including base model Mitsubishi Precis)
+2 = GL, Mitsubishi Precis RS
+3 = GLS, LS, LX, or GS, Mitsubishi Precis LS
+Body Type (00 Accent, all 01-09 Models except 01-05 Sonata & 01 Tiburon, all 2010 and later passenger cars excluding all SUVs and pickups 2010 and later)
+1 = wagon FWD (Santa Fe, Tucson, Veracruz)
+2 = Minivan - Extended length (Entourage)
+3 = 3-door hatchback
+4 = 4-door sedan
+5 = 5-door hatchback (Elantra 5-door 01-06, Elantra GT 13-20, Accent 5-door, Ioniq 17-22)
+6 = Coupe (Tiburon 03-08, Genesis Coupe, Elantra Coupe 13-14, Veloster)
+7 = wagon AWD (Santa Fe, Tucson, Veracruz)
+8 = Station wagon (Elantra Touring 09-12)
+8 = Wagon (Venue)
+Other
+5 = New Tucson GL
+Body Style/Drive Wheels/Weight Class - Multi-Purpose Passenger Vehicle or Truck (position 6) 2010-
+[
+edit
+|
+edit source
+]
+VIN Code
+Description
+2
+Wagon 4x2 Class B
+3
+Wagon 4x2 Class C
+4
+Wagon or Pickup (Double cab) 4x2 Class D
+5
+Wagon 4x2 Class E
+C
+Wagon 4x4 Class C
+D
+Wagon or Pickup (Double cab) 4x4 Class D
+E
+Wagon 4x4 Class E
+F
+Wagon 4x4 Class F
+Restraint System or GVWR (position 7)
+[
+edit
+|
+edit source
+]
+Restraint System (Passenger)
+1 = Active 3-point
+2 = Passive
+3 = Driver-side airbag (manual belt) passenger-side passive
+4 = Dual airbags (manual belts)
+5 = Depowered airbags
+6 = Advanced airbags or depowered airbags with suppression
+Restraint System (Passenger & Multi-Purpose Vehicle)
+A = Manual belts, Dual front airbags & front side airbags & 2-row side curtain airbags
+D = Manual belts, Dual front airbags & front side airbags & rear side airbags & 2-row side curtain airbags [Hydraulic Brakes]
+G = Manual belts, Dual front airbags & front side airbags & rear side airbags & 3-row side curtain airbags & driver-side knee airbag
+J = Manual belts, Dual front airbags & front side airbags & rear side airbags & 2-row side curtain airbags
+S = Manual belts, Dual front airbags & front side airbags & rear side airbags & 2-row side curtain airbags & driver-side knee airbag & front center airbag
+S = Manual belts, Dual front airbags & front side airbags & rear side airbags & 3-row side curtain airbags & driver-side knee airbag & front center airbag (Ioniq 9)
+T = Manual belts, Dual front airbags & front side airbags & 2-row side curtain airbags & driver-side knee airbag & front center airbag
+GVWR (Multi-Purpose Vehicle)
+2 = GVWR Class C (4,001-5,000 lbs)
+3 = GVWR Class D (5,001-6,000 lbs)
+Engine Type (position 8)
+[
+edit
+|
+edit source
+]
+1 = 1999 cc 2.0 Liter DOHC Nu GDI 4-cyl. + 51 hp electric motor (6Ah/1.62 kWh Battery), Sonata Hybrid 16-17
+1 = 1598 cc 1.6 Liter DOHC Smartstream G1.6T Hybrid GDI turbo 4-cyl. + 59 hp electric motor (5.5Ah/1.49 kWh Battery), Santa Fe Hybrid 21-, Tucson Hybrid 22-24
+1 = 1598 cc 1.6 Liter DOHC Smartstream G1.6T Hybrid GDI turbo 4-cyl. + 64 hp electric motor (5.5Ah/1.49 kWh Battery), Tucson Hybrid 25-
+1 = Electric motors, 365 hp, (166.8Ah/87.2 kWh Battery), Genesis Electrified G80 AWD 23-25
+1 = Electric motors, 429 hp, (111.2Ah/77.4 kWh Battery), Genesis Electrified GV70 AWD 23-25
+1 = Electric motors, 429 hp, (120.6Ah/84 kWh Battery), Genesis Electrified GV70 AWD 26-
+1 = Electric motor, 215 hp, (180.9Ah/110.3 kWh Battery), Ioniq 9 RWD 26-
+2 = 1591 cc 1.6 Liter DOHC Gamma II GDI turbo 4-cyl., Tucson 16-18
+2 = 1598 cc 1.6 Liter DOHC Smartstream G1.6T GDI turbo 4-cyl., Sonata 20-23
+2 = 1598 cc 1.6 Liter DOHC Smartstream G1.6T Hybrid GDI turbo 4-cyl. + 90 hp electric motor (38.3Ah/13.8 kWh Battery), Santa Fe Plug-in Hybrid 22-23, Tucson Plug-in Hybrid 22-24
+2 = 1598 cc 1.6 Liter DOHC Smartstream G1.6T Hybrid GDI turbo 4-cyl. + 97 hp electric motor (38.3Ah/13.8 kWh Battery), Tucson Plug-in Hybrid 25-
+2 = 1999 cc 2.0 Liter DOHC Nu GDI 4-cyl. + 67 hp electric motor (27.2Ah/9.8 kWh Battery), Sonata Plug-in Hybrid 16-19
+2 = 3470 cc 3.5 Liter DOHC Smartstream G3.5 Lambda III DPI V6, Palisade 26-
+3 = 1591 cc 1.6 Liter DOHC Gamma II GDI 4-cyl., Accent 18-19
+3 = 1598 cc 1.6 Liter DOHC Smartstream G1.6 DPI 4-cyl., Venue 20-
+3 = 1598 cc 1.6 Liter DOHC Smartstream G1.6T GDI turbo 4-cyl., Kona 22-
+3 = 1999 cc 2.0 Liter DOHC Nu GDI 4-cyl. + 51 hp electric motor (6.5Ah/1.76 kWh Battery), Sonata Hybrid 17-19
+3 = 3778 cc 3.8 Liter DOHC Lambda V6, Entourage 07-09
+3 = Electric motors, 303 hp, (180.9Ah/110.3 kWh Battery), Ioniq 9 AWD 26-
+4 = 1999 cc 2.0 Liter DOHC Nu GDI 4-cyl., Tucson 16-21
+4 = 2359 cc 2.4 Liter DOHC Theta II 4-cyl. + 40 hp electric motor, Sonata Hybrid 11-12
+4 = 2359 cc 2.4 Liter DOHC Theta II 4-cyl. + 47 hp electric motor, Sonata Hybrid 13-15
+5 = 1591 cc 1.6 Liter DOHC Gamma II GDI turbo 4-cyl., Kona 18-21
+5 = Electric motors, 422 hp, (180.9Ah/110.3 kWh Battery), Ioniq 9 Performance AWD 26-
+6 = 1598 cc 1.6 Liter DOHC Smartstream G1.6 DPI 4-cyl., Accent 20-22
+6 = Electric motor, 201 hp, (180.9Ah/64.8 kWh Battery), Kona Electric SEL/Limited 24-25, N Line 25
+6 = Hydrogen Fuel cell, 134 hp motor, Tucson Fuel Cell 15-17
+6 = Hydrogen Fuel cell, 161 hp motor, Nexo 19-23
+7 = Electric motor, 133 hp, (180.9Ah/48.6 kWh Battery), Kona Electric SE 24-
+7 = Hydrogen Fuel cell, 201 hp motor, Nexo 26-
+8 = Electric motors, 601 hp, (120.6Ah/84 kWh Battery), Ioniq 5 N AWD 25-
+A = 1353 cc 1.4 Liter DOHC Kappa II GDI turbo 4-cyl., Elantra 17-20
+A = 1591 cc 1.6 Liter DOHC Gamma II GDI turbo 4-cyl., Sonata 15-19
+A = 1999 cc 2.0 Liter DOHC Nu 4-cyl., Kona 18-21
+A = 1998 cc 2.0 Liter DOHC Theta II GDI turbo 4-cyl., Santa Fe Sport 13-18, Santa Fe 19-20
+A = 1998 cc 2.0 Liter DOHC Theta II FR GDI turbo 4-cyl., Genesis G70 19-23
+A = 2497 cc 2.5 Liter DOHC Smartstream G2.5 Theta III DPI 4-cyl., Sonata 20-
+A = 3342 cc 3.3 Liter DOHC Lambda II RS GDI twin turbo V6, Genesis G90 17-22
+A = 2497 cc 2.5 Liter DOHC Smartstream G2.5T Theta III GDI turbo 4-cyl. + 17 hp electric motor (P1) + 72 hp electric motor (P2) (5.5Ah/1.65 kWh Battery), Palisade Hybrid 26-
+A = Electric motor, 225 hp, (111.2Ah/77.4 kWh Battery), Ioniq 6 RWD 23-25
+A = Electric motor, 225 hp, (120.6Ah/84 kWh Battery), Ioniq 5 RWD 25-
+A = Electric motor, 225 hp, (111.2Ah/77 kWh Battery), Genesis GV60 Standard RWD 24-25
+A = Electric motor, 225 hp, (120.6Ah/84 kWh Battery), Genesis GV60 Standard RWD 26-
+B = 1.2L Kappa, 2.5L L4 SOHC 8V; 1591 cc DOHC 4 cyl. FFV (E22/E100) HB20 12-
+B = 2351 cc 2.4 Liter DOHC 4-cyl., Santa Fe 01-04
+B = 1591 cc 1.6 Liter DOHC Gamma II GDI turbo 4-cyl., Elantra 17-20, Veloster 19-21
+B = 1975 cc 2.0 Liter DOHC Beta II 4-cyl., Tucson 05-09
+B = 1975 cc 2.0 Liter DOHC Theta II 4-cyl., Tucson 11-13
+B = 1998 cc 2.0 Liter DOHC Theta II GDI turbo 4-cyl., Sonata 11-19
+B = 1999 cc 2.0 Liter DOHC Smartstream G2.0 (Nu PE) 4-cyl., Kona 22-
+B = 2359 cc 2.4 Liter DOHC Theta II 4-cyl., Santa Fe 10-12
+B = 2359 cc 2.4 Liter DOHC Theta II GDI 4-cyl., Santa Fe Sport 13-18
+B = 2497 cc 2.5 Liter DOHC Smartstream FR G2.5T Theta III DPI turbo 4-cyl., Genesis GV80 21-, Genesis GV70 22-
+B = 3342 cc 3.3 Liter DOHC Lambda II RS GDI twin turbo V6, Genesis G80 18-20
+B = Electric motor, 168 hp, (111.2Ah/58.0 kWh Battery), Ioniq 5 RWD 22-24
+B = Electric motor, 168 hp, (120.6Ah/63.0 kWh Battery), Ioniq 5 RWD 25-
+B = Electric motor, 149 hp, (111.2Ah/53.0 kWh Battery), Ioniq 6 RWD 23-25
+B = Electric motors, 429 hp, (111.2Ah/77.4 kWh Battery), Genesis GV60 Performance AWD 23-25
+B = Electric motors, 429 hp, (120.6Ah/84 kWh Battery), Genesis GV60 Performance AWD 26-
+C = 1599 cc 1.6 Liter DOHC Alpha II 4-cyl., Accent 01-11
+C = 1579 cc 1.6 Liter DOHC Kappa II GDI 4-cyl. + 43 hp electric motor (6.5Ah/1.56 kWh Battery), Ioniq Hybrid 17-22
+C = 1591 cc 1.6 Liter DOHC Gamma II GDI turbo 4-cyl., Elantra GT 18-20
+C = 1998 cc 2.0 Liter DOHC Theta II GDI turbo 4-cyl., Kona N 22-23
+C = 2359 cc 2.4 Liter DOHC Theta 4-cyl., Sonata 06-08
+C = 2359 cc 2.4 Liter DOHC Theta II 4-cyl., Sonata 09-10, Tucson 10-13
+C = 2359 cc 2.4 Liter DOHC Theta II GDI 4-cyl., Sonata 11-14
+C = 2497 cc 2.5 Liter DOHC Smartstream G2.5T Theta III DPI turbo 4-cyl., Sonata N Line 21-
+C = 2497 cc 2.5 Liter DOHC Smartstream FR G2.5T Theta III DPI turbo 4-cyl., Genesis G80 21-, Genesis G70 24-
+C = 3470 cc 3.5 Liter DOHC Smartstream FR G3.5T Lambda III DPI twin turbo V6, Genesis GV80 21-, Genesis GV70 22-, Genesis GV80 Coupe 25-
+C = 3470 cc 3.5 Liter DOHC Smartstream FR G3.5T e-S/C Lambda III DPI twin turbo V6 with electric supercharger & 48V mild hybrid, 16 hp electric motor (9.8Ah Battery), Genesis GV80 Coupe 25-
+C = 3778 cc 3.8 Liter DOHC Lambda V6, Veracruz 07-12
+C = Electric motors, 320 hp, (111.2Ah/77.4 kWh Battery), Ioniq 6 AWD 23-25
+C = Electric motors, 320 hp, (120.6Ah/84 kWh Battery), Ioniq 5 AWD 25-
+C = Electric motors, 314 hp, (111.2Ah/77.4 kWh Battery), Genesis GV60 AWD/Advanced AWD 23-25
+C = Electric motors, 314 hp, (120.6Ah/84 kWh Battery), Genesis GV60 AWD/Advanced AWD 26-
+D = 1579 cc 1.6 Liter DOHC Kappa II GDI 4-cyl. + 60 hp electric motor (24.7Ah/8.9 kWh Battery), Ioniq Plug-in Hybrid 18-22
+D = 1591 cc 1.6 Liter DOHC Gamma II GDI 4-cyl., Veloster 12-17
+D = 1975 cc 2.0 Liter DOHC Beta II 4-cyl., Elantra 01-10, Tiburon 03–08
+D = 2359 cc 2.4 Liter DOHC Theta II GDI 4-cyl., Santa Fe 19-20
+D = 2656 cc 2.7 Liter DOHC Delta V6, Santa Fe 01-09, Tucson 05-09
+D = 2972 cc 3.0 Liter DOHC V6, XG300 2001
+D = 3342 cc 3.3 Liter DOHC Lambda V6, Azera 07-10
+D = 3342 cc 3.3 Liter DOHC Lambda II V6, Azera 11
+D = 1998 cc 2.0 Liter DOHC Theta II FR turbo 4-cyl., Genesis Coupe 10-14
+D = 3778 cc 3.8 Liter DOHC Lambda II RS GDI V6 Genesis sedan 12-14
+D = 3470 cc 3.5 Liter DOHC Smartstream FR G3.5T Lambda III DPI twin turbo V6, Genesis G80 21-, Genesis G90 23-
+D = 3470 cc 3.5 Liter DOHC Smartstream FR G3.5T e-S/C Lambda III DPI twin turbo V6 with electric supercharger & 48V mild hybrid, 16 hp electric motor (9.8Ah Battery), Genesis G90 23-
+D =   1998 cc 2.0 Liter DOHC 4 cyl. FFV (E22/E100) Tucson/IX35 12-
+E = 1591 cc 1.6 Liter DOHC Gamma II GDI 4-cyl., Accent 12-17
+E = 1591 cc 1.6 Liter DOHC Gamma II GDI turbo 4-cyl., Veloster 13-17
+E = 1975 cc 2.0 Liter DOHC Beta II 4-cyl., Elantra Touring 09-12
+E = 1797 cc 1.8 Liter DOHC Nu 4-cyl., Elantra 11-16, Elantra GT 13
+E = 1999 cc 2.0 Liter DOHC Nu GDI 4-cyl., Elantra GT 18-20
+E = 2497 cc 2.5 Liter DOHC Smartstream G2.5 Theta III DPI 4-cyl., Tucson 22-, Santa Cruz 22-
+E = 3497 cc 3.5 Liter DOHC V6, XG350 02-05, Santa Fe 03-06
+E = 3342 cc 3.3 Liter DOHC Lambda V6 Santa Fe 07-09
+E = 3342 cc 3.3 Liter DOHC Lambda II RS GDI twin turbo V6, Genesis G70 19-
+E = 3778 cc 3.8 Liter DOHC Lambda II RS V6 Genesis sedan 09–11
+E = 3778 cc 3.8 Liter DOHC Lambda II RS GDI V6 Genesis sedan 15-16, Genesis G80 17-20
+E = 3778 cc 3.8 Liter DOHC Lambda II GDI V6 Palisade 20-25
+E = Electric motor, 225 hp, (111.2Ah/77.4 kWh Battery), Ioniq 5 RWD 22-24
+E = Electric motors, 601 hp, (120.6Ah/84 kWh Battery), Ioniq 6 N AWD 26-
+F = 1997 cc 2.0 Liter DOHC 4-cyl., Sonata, 92-98
+F = 1975 cc 2.0 Liter DOHC Beta 4-cyl., Tiburon 97-01, Elantra 99-00
+F = 1999 cc 2.0 Liter DOHC Nu GDI 4-cyl., Tucson 14-15
+F = 1999 cc 2.0 Liter DOHC Nu 4-cyl., Elantra 17-20, Veloster 19-21
+F = 1598 cc 1.6 Liter DOHC Smartstream G1.6T GDI turbo 4-cyl., Elantra N Line 21-
+F = 2359 cc 2.4 Liter DOHC Theta II GDI 4-cyl., Sonata 15-19
+F = 2497 cc 2.5 Liter DOHC Smartstream G2.5T Theta III DPI turbo 4-cyl., Santa Cruz 22-
+F = 2656 cc 2.7 Liter DOHC Delta V6, Tiburon 03-08
+F = 3342 cc 3.3 Liter DOHC Lambda V6, Sonata 06-10
+F = 3342 cc 3.3 Liter DOHC Lambda II GDI V6, Santa Fe LWB/Santa Fe XL 13-19
+F = 3778 cc 3.8 Liter DOHC Lambda V6, Azera 06-10
+F = 3778 cc 3.8 Liter DOHC Lambda II V6, Azera 11
+F = 4627 cc 4.6 Liter DOHC Tau V8, Genesis sedan 09-12, Equus 11
+F = 5038 cc 5.0 Liter DOHC Tau GDI V8, Genesis sedan 15-16, Genesis G80 17-20
+F = Electric motors, 320 hp, (111.2Ah/77.4 kWh Battery), Ioniq 5 AWD 22-24
+G = 1495 cc 1.5 Liter SOHC Alpha 4-cyl., Accent 00-02
+G = 1999 cc 2.0 Liter DOHC Smartstream G2.0 (Nu PE) 4-cyl., Elantra 21-
+G = 2359 cc 2.4 Liter DOHC Theta II GDI 4-cyl., Tucson 14-15
+G = 3470 cc 3.5 Liter DOHC Lambda II V6, Santa Fe 10-12
+G = 3342 cc 3.3 Liter DOHC Lambda II GDI V6, Azera 12-17
+G = Electric motor, 201 hp, (180Ah/64.0 kWh Battery), Kona Electric 19-23
+H = 1999 cc 2.0 Liter DOHC Nu GDI 4-cyl., Elantra 14-16, Elantra GT 14-17
+H = 1998 cc 2.0 Liter DOHC Theta II GDI turbo 4-cyl., Veloster N 19-22
+H = 2656 cc 2.7 Liter DOHC Delta V6, Sonata 02-05
+H = 3778 cc 3.8 Liter DOHC Lambda II RS V6, Genesis Coupe 10-12
+H = 5038 cc 5.0 Liter DOHC Tau GDI V8, Genesis sedan 12-14, Equus 12-16, Genesis G90 17-22
+H = Electric motor, 118 hp, (78Ah/28.0 kWh Battery), Ioniq Electric 17-19
+J = 1468 cc 1.5 Liter SOHC 4-cyl., Excel 86-94, Mitsubishi Precis 87-94, Scoupe 91-92
+J = 1580 cc 1.6 Liter DOHC Smartstream G1.6 Hybrid GDI 4-cyl. + 43 hp electric motor (5.5Ah/1.32 kWh Battery), Elantra Hybrid 21-
+J = 1999 cc 2.0 Liter DOHC Smartstream G2.0 Hybrid (Nu PE) GDI 4-cyl. + 51 hp electric motor (5.5Ah/1.62 kWh Battery), Sonata Hybrid 20-
+J = 2497 cc 2.5 Liter DOHC Smartstream G2.5 Theta III DPI 4-cyl., Santa Fe 21-23
+J = 3778 cc 3.8 Liter DOHC Lambda II RS GDI V6, Genesis Coupe 13-16
+J = Electric motor, 134 hp, (120Ah/38.3 kWh Battery), Ioniq Electric 20-21
+K = 1998 cc 2.0 Liter DOHC Theta II GDI turbo 4-cyl., Elantra N 22-
+L = 1341 cc 1.3 Liter SOHC Alpha 4-cyl., Accent 95-99
+L = 2359 cc 2.4 Liter DOHC Theta II GDI 4-cyl., Tucson 18-21
+L = 2497 cc 2.5 Liter DOHC Smartstream G2.5T Theta III DPI turbo 4-cyl., Santa Fe 21-
+M = 1836 cc 1.8 Liter DOHC 4-cyl., Elantra 93-95
+M = 1795 cc 1.8 Liter DOHC Beta 4-cyl., Elantra 96-98, Tiburon 97
+N = 1495 cc 1.5 Liter SOHC Alpha 4-cyl., Scoupe 93-95, Accent 95-99
+N = 1495 cc 1.5 Liter DOHC Alpha II 4-cyl., Accent GT 96-97
+R = 1595 cc 1.6 Liter DOHC 4-cyl., Elantra 92-95
+S = 2351 cc 2.4 Liter SOHC 4-cyl., Sonata 89-91
+S = 2351 cc 2.4 Liter DOHC 4-cyl., Sonata 99-05
+T = 2972 cc 3.0 Liter SOHC V6, Sonata 90-98
+V = 2493 cc 2.4 Liter DOHC Delta V6, Sonata 99-01
+V = 1991 cc 2.0 Liter Diesel TCI 4-cyl. Sonata NF 06-10, Tucson 05-09
+GDI=Gasoline Direct Injection, DPI=Dual Port Injection (Direct & Port Injection), Ah=Amp-hour, kWh=Kilowatt-hour, PE=Product Enhancement
+Check Digit (position 9)
+[
+edit
+|
+edit source
+]
+0-9 or X
+[
+edit
+|
+edit source
+]
+The check digit is used to validate a VIN so that computer systems can immediately calculate whether the VIN is valid. The digit is calculated by removing all the letters from the VIN and substituting them with their numeric counterpart. After the substitution, the numbers are multiplied against a weight factor table. The remaining 16 numbers are added together and divided by 11. The remainder of that calculation becomes the checksum, and if the remainder is 10 then the check digit is "X".
+Model Year (position 10)
+[
+edit
+|
+edit source
+]
+S = 1995
+T = 1996
+V = 1997
+W = 1998
+X = 1999
+Y = 2000
+# = Last digit of year 1-9 = 2001-2009
+A = 2010
+B = 2011
+C = 2012
+D = 2013
+E = 2014
+F = 2015
+G = 2016
+H = 2017
+J = 2018
+K = 2019
+L = 2020
+M = 2021
+N = 2022
+P = 2023
+R = 2024
+S = 2025
+T = 2026
+Vehicle Indicator Section
+[
+edit
+|
+edit source
+]
+Manufacturing Plant Code (position 11)
+[
+edit
+|
+edit source
+]
+A = Asan, South Korea
+B = Bromont, Quebec, Canada (2HM) / Gabarone, Botswana (KMH)
+B = Anapolis, Goiás, Brazil (Caoa Montadora plant) (95P)
+C = Cheonju, South Korea
+E = Pesqueria, Nuevo Leon, Mexico (Kia plant)
+F = Jurong, Singapore (PFD)
+G = West Point, Georgia, USA (Kia plant)
+H = Montgomery, Alabama, USA
+J = Nošovice, Czech Republic (TMA) /Benoni, South Africa (AC5)
+J = Cikarang, Indonesia (MF3)
+L = Žilina, Slovakia (Kia plant)
+M = Chennai, Tamil Nadu, India
+P = Piracicaba, São Paulo state, Brazil (Hyundai Motor Brasil plant) (9BH)
+R = Saint Petersburg, Russia
+U = Ulsan, South Korea
+W = Gwangju, South Korea (Gwangju Global Motors Co. Ltd. plant)
+Y = Ellabell, Georgia, USA (Hyundai Motor Group Metaplant America) (HMGMA)
+Z = İzmit, Turkey (Hyundai Assan)
+6 = Sohari plant, Gwangmyeong, South Korea (Kia plant)
+Manufacturing Month (India)
+[
+edit
+|
+edit source
+]
+A = JAN
+B = FEB
+C = MAR
+D = APR
+E = MAY
+F = JUN
+G = JUL
+H = AUG
+J = SEP
+K = OCT
+L = NOV
+M = DEC
+References
+[
+edit
+|
+edit source
+]
+http://www.newtiburon.com/forums/showthread.php?t=43974
+http://www.paul128.co.kr/paul/car/hdinfo.html
+http://www.genracer.com/hyundai-vin-decoder/
+http://www.aiam.org/vin/2000VINBOOK.pdf
+http://www.scribd.com/doc/4712367/VIN
+http://www.nhtsa.dot.gov/cars/rules/manufacture/
+http://www.vindecoderz.com/EN/Hyundai
+http://www.clubhyundai.es
+Retrieved from "
+https://en.wikibooks.org/w/index.php?title=Vehicle_Identification_Numbers_(VIN_codes)/Hyundai/VIN_Codes&oldid=4628985
+"
+Category
+:
+Book:Vehicle Identification Numbers (VIN codes)
+This page was last edited on 2 April 2026, at 01:05.
+Text is available under the
+Creative Commons Attribution-ShareAlike License
+; additional terms may apply. By using this site, you agree to the
+Terms of Use
+and
+Privacy Policy.
+Privacy policy
+About Wikibooks
+Disclaimers
+Code of Conduct
+Developers
+Statistics
+Cookie statement
+Mobile view
+Search
+Search
+Toggle the table of contents
+Vehicle Identification Numbers (VIN codes)/Hyundai/VIN Codes
+Add languages
+Add topic

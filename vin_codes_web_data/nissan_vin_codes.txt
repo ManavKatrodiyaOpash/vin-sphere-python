@@ -1,0 +1,3853 @@
+Vehicle Identification Numbers (VIN codes)/Nissan/VIN Codes - Wikibooks, open books for an open world
+Jump to content
+Main menu
+Main menu
+move to sidebar
+hide
+Navigation
+Main Page
+Help
+Browse
+Cookbook
+Wikijunior
+Featured books
+Recent changes
+Special pages
+Random book
+Using Wikibooks
+Community
+Reading room forum
+Community portal
+Help out!
+Policies and guidelines
+Contact us
+Search
+Search
+Appearance
+Donations
+Create account
+Log in
+Personal tools
+Donations
+Create account
+Log in
+Contents
+move to sidebar
+hide
+Beginning
+1
+North American VIN format
+Toggle North American VIN format subsection
+1.1
+Country of Origin
+1.2
+Manufacturer
+1.3
+Vehicle Type
+1.4
+Engine 1981-2009
+1.4.1
+Engine codes for Passenger Cars 1981-2009
+1.4.2
+Engine codes for Electric Passenger Cars 1981-2009
+1.4.3
+Engine codes for Multi-Purpose Passenger Vehicles & Light Duty Trucks 1981-2009
+1.5
+Make & Engine 2010-
+1.5.1
+Engine codes for Passenger Cars 2010-
+1.5.2
+Engine codes for Electric Passenger Cars 2010-
+1.5.3
+Engine codes for Multi-Purpose Passenger Vehicles & Light Duty Trucks 2010-
+1.5.4
+Engine codes for Electric Multi-Purpose Passenger Vehicles & Light Duty Trucks 2010-
+1.6
+Model Line
+1.7
+Model Change Number Code
+1.8
+Body Style
+1.9
+Body Style & Trim Level
+1.10
+Restraint System
+1.11
+GVWR, Chassis, Brake System, & Drive Wheels  1981-2009
+1.12
+GVWR, Brake System, Drive Wheels, & Restraint System 2010-
+1.13
+Plant
+2
+International VIN format
+3
+Nissan WMIs
+Toggle the table of contents
+Vehicle Identification Numbers (VIN codes)/Nissan/VIN Codes
+Add languages
+Add links
+Book
+Discussion
+English
+Read
+Edit
+Edit source
+View history
+Tools
+Tools
+move to sidebar
+hide
+Actions
+Read
+Edit
+Edit source
+View history
+General
+What links here
+Related changes
+Upload file
+Permanent link
+Page information
+Cite this page
+Get shortened URL
+Sister projects
+Wikipedia
+Wikiversity
+Wiktionary
+Wikiquote
+Wikisource
+Wikinews
+Wikivoyage
+Commons
+Wikidata
+MediaWiki
+Meta-Wiki
+Print/export
+Create a collection
+Download as PDF
+Printable version
+In other projects
+Appearance
+move to sidebar
+hide
+From Wikibooks, open books for an open world
+<
+Vehicle Identification Numbers (VIN codes)
+Do not put specific Vehicle Identification Codes on this page. They will be removed.
+North American VIN format
+[
+edit
+|
+edit source
+]
+Nissan uses following formats for North America:
+Passenger Cars:
+Position
+Sample
+Description
+1
+J
+Country of Origin
+2
+N
+Manufacturer
+3
+1
+Vehicle Type
+4
+A
+Engine Type 1981-2009
+4
+A
+Make & Engine Type 2010-
+5
+R
+Model Line
+6
+5
+Model Change Number Code
+7
+E
+Body Style
+or
+Body Style & Trim Level
+8
+F
+Restraint System
+9
+3
+Check digit
+10
+0
+Model year
+11
+M
+Plant
+12
+0
+Sequential number
+13
+0
+14
+0
+15
+0
+16
+0
+17
+0
+Multi-Purpose Passenger Vehicles & Light Duty Trucks:
+Position
+Sample
+Description
+1
+J
+Country of Origin
+2
+N
+Manufacturer
+3
+1
+Vehicle Type
+4
+A
+Engine Type 1981-2009
+4
+A
+Make & Engine Type 2010-
+5
+R
+Model Line
+6
+5
+Model Change Number Code
+7
+E
+Body Style
+or
+Body Style & Trim Level
+8
+T
+GVWR, Chassis, Brake System, & Drive Wheels 1981-2009
+8
+T
+GVWR, Brake System, Drive Wheels, & Restraint System 2010-
+9
+3
+Check digit
+10
+0
+Model year
+11
+M
+Plant
+12
+0
+Sequential number
+13
+0
+14
+0
+15
+0
+16
+0
+17
+0
+Country of Origin
+[
+edit
+|
+edit source
+]
+Position 1
+VIN code
+Description
+1
+USA
+3
+Mexico
+4
+USA
+5
+USA
+7F-70
+USA
+J
+Japan
+KL-KR
+South Korea
+S
+UK
+Manufacturer
+[
+edit
+|
+edit source
+]
+Position 2
+VIN code
+Description
+N
+Nissan
+B
+Nissan Motor Mfg. Corp. USA (Bus: van with more than 3 rows of seats)
+J
+Nissan Motor Manufacturing (UK) Ltd.
+P
+COMPAS
+Vehicle Type
+[
+edit
+|
+edit source
+]
+Position 3
+VIN code
+Description
+1 (when 1st pos. of VIN is J or 3)
+Passenger Car
+1 (when 1st pos. of VIN is 5)
+Multi-Purpose Vehicle
+2 (when 1st pos. of VIN is 4)
+Multi-Purpose Vehicle (1993-2002 Quest made by Ford)
+3 (when 1st pos. of VIN is J)
+Incomplete Vehicle (240SX convertible)
+3 (when 1st pos. of VIN is 5)
+Multi-Purpose Vehicle (Infiniti)
+4 (when 1st pos. of VIN is 1)
+Passenger Car
+6 (when 1st pos. of VIN is J, 1, or 3)
+Truck
+8 (when 1st pos. of VIN is J or 3)
+Multi-Purpose Vehicle
+C (when 1st pos. of VIN is 3)
+Multi-Purpose Vehicle (Infiniti QX50 2019-2025, QX55 2022-2025 made by COMPAS)
+M (when 1st pos. of VIN is K)
+Multi-Purpose Vehicle (2015-2020 Rogue made by Renault Samsung Motors)
+K (when 1st pos. of VIN is S)
+Passenger Car (2017-2019 Infiniti QX30 made by Nissan Motor Manufacturing (UK) Ltd.)
+K (when 1st pos. of VIN is J)
+Passenger Car (Infiniti - 1990-2009)
+R (when 1st pos. of VIN is J)
+Multi-Purpose Vehicle (Infiniti - 1997-2009)
+X (when 1st pos. of VIN is J)
+Incomplete Vehicle (Infiniti M30 convertible)
+Z (when 1st pos. of VIN is 5)
+Bus: van with more than 3 rows of seats (NV3500 passenger van)
+Engine 1981-2009
+[
+edit
+|
+edit source
+]
+Engine codes for Passenger Cars 1981-2009
+[
+edit
+|
+edit source
+]
+Position 4
+VIN
+Size
+Type
+Fuel
+Valvetrain
+Engine Family/Notes/Applications
+A
+3.0L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VG30DE engine. Infiniti J30 ('93-'97).
+A
+1.6L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Intake VVT. Nissan GA16DE engine. Nissan Sentra ('95-'99), 200SX [Base & SE models] ('95-'98).
+A
+2.4L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Nissan KA24DE engine. Nissan 240SX ('95-'98).
+A
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT. Nissan QR25DE engine. Nissan Altima ('02-'09), Sentra SE-R/SE-R Spec V ('02-'06), Sentra 2.5 Limited Edition ('03), Sentra 2.5S ('04).
+A
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VQ35DE engine. Nissan 350Z ('03-'06), Infiniti M35 ('06-'08), Nissan Maxima ('09).
+A
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Dual VVT. Nissan VQ35DE engine (Rev-up version: 300 hp).
+Nissan 350Z ('05: Track & 35th Anniversary edition w/man. trans., '06: all models w/man. trans.).
+A
+4.5L
+V8
+Gas
+DOHC,
+32 valve
+MPI. Intake VVT. Nissan VK45DE engine. Infiniti M45 ('03-'04).
+A
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Intake VVT. Nissan MR20DE engine. Nissan Sentra ('07-'09).
+A
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Dual VVT. Nissan VQ35HR engine. Infiniti EX35 ('08-'09).
+A
+3.7L
+V6
+Gas
+DOHC,
+24 valve
+MPI. VVEL. Nissan VQ37VHR engine. Nissan 370Z ('09).
+A
+3.8L
+V6 Twin Turbo
+IC
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VR38DETT engine. Nissan GT-R ('09).
+B
+2.4L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Nissan KA24DE engine. Nissan Altima ('93-'97).
+B
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Nissan SR20DE engine. Nissan 200SX SE-R ('95-'98), Sentra SE ('98-'01).
+B
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VQ35DE engine. Nissan Altima ('02-'09), Maxima ('04-'08).
+B
+1.8L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Intake VVT. Nissan MR18DE engine. Nissan Versa ('07-'09).
+B
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT. Nissan QR25DE engine. Nissan Sentra SE-R ('07-'09).
+B
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Dual VVT. Nissan VQ35HR engine. Nissan 350Z ('07-'09), Infiniti G35 sedan ('07-'08).
+B
+4.1L
+V8
+Gas
+DOHC,
+32 valve
+MPI. Nissan VH41DE engine. Infiniti Q45 ('97-'01).
+B
+4.5L
+V8
+Gas
+DOHC,
+32 valve
+MPI. Intake VVT. Nissan VK45DE engine. Infiniti Q45 ('02-'06), M45 ('06-'09).
+C
+1.2L
+I4
+Gas
+OHV,
+8 valve
+2-bbl carb. Nissan A12A engine. Datsun 210
+Base model
+('81-'82).
+C
+1.5L
+I4 Turbo
+Gas
+SOHC,
+8 valve
+MPI. Nissan E15ET engine. Nissan Pulsar NX Turbo ('83).
+C
+1.8L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Nissan CA18DE engine. Nissan Pulsar NX [SE] ('88-'89).
+C
+1.8L
+I4 Turbo
+Gas
+SOHC,
+8 valve
+MPI. Nissan CA18ET engine. Nissan 200SX Turbo ('84-'86).
+C
+2.8L
+I6 Turbo
+Gas
+SOHC,
+12 valve
+MPI. Nissan L28ET engine. Datsun 280ZX Turbo ('81-'83).
+C
+3.0L
+V6 Turbo
+Gas
+SOHC,
+12 valve
+MPI. Nissan VG30ET engine. Nissan 300ZX Turbo ('84-'89).
+C
+3.0L
+V6 Twin Turbo
+IC
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT ('90-'95). Nissan VG30DETT engine. Nissan 300ZX Turbo ('90-'96).
+C
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Nissan SR20DE engine. Infiniti G20 ('91-'96, '99-'02).
+C
+3.0L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Nissan VQ30DE engine. Nissan Maxima ('95-'01), Infiniti I30 ('96-'01).
+C
+1.8L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Intake VVT. Nissan QG18DE engine. Nissan Sentra ('00-'06).
+C
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VQ35DE engine. Infiniti G35 sedan ('03-'06), G35 coupe ('03-'07).
+C
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Dual VVT. Nissan VQ35DE engine (Rev-up version: 298 hp or for '07: 293 hp).
+Infiniti G35 sedan w/man. trans. ('05-'06), G35 coupe w/man. trans. ('05-'07).
+C
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT. Nissan QR25DE engine. Nissan Sentra SE-R Spec V ('07-'09).
+C
+3.7L
+V6
+Gas
+DOHC,
+24 valve
+MPI. VVEL. Nissan VQ37VHR engine. Infiniti G37 ('08-'09).
+C
+1.6L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Intake VVT. Nissan HR16DE engine. Nissan Versa sedan 1.6 ('09).
+C
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Dual VVT. Nissan VQ35HR engine. Infiniti M35 ('09).
+C
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. Dual VVT. Nissan QR25DE engine + 2 Front motors. Nickel-metal hydride Battery Pack.
+Toyota
+Hybrid Synergy Drive
+hybrid system. Nissan Altima Hybrid ('07-'09).
+D
+2.4L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Nissan KA24DE engine. Nissan Altima ('98-'01).
+D
+1.8L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Intake VVT. Nissan QG18DE engine. SULEV emissions. Nissan Sentra CA ('00-'02).
+D
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VQ35DE engine. Nissan Maxima ('02-'03), Infiniti I35 ('02-'04).
+E
+1.6L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Nissan CA16DE engine. Nissan Pulsar NX [SE] ('87).
+E
+1.6L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Intake VVT. Nissan GA16DE engine. Nissan Sentra ('91-'94), NX1600 ('91-'93).
+E
+3.0L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VE30DE engine. Nissan Maxima SE ('92-'94).
+F
+2.4L
+I4
+Gas
+SOHC,
+12 valve
+MPI. Nissan KA24E engine. Nissan Stanza ('90-'92).
+G
+1.6L
+I4
+Gas
+SOHC,
+12 valve
+TBI. Nissan GA16i engine. Nissan Sentra ('89-'90), Pulsar NX [XE] ('89-'90).
+G
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Nissan SR20DE engine. Nissan Sentra SE-R ('91-'94), NX2000 ('91-'93).
+H
+1.4L
+I4
+Gas
+OHV,
+8 valve
+2-bbl carb. Nissan A14 engine. Datsun 210
+MPG
+('81-'82).
+H
+2.0L
+I4
+Gas
+SOHC,
+8 valve
+2-bbl carb. Nissan Z20S engine. Datsun 510 ('81).
+H
+2.4L
+I6
+Gas
+SOHC,
+12 valve
+MPI. Nissan L24E engine. Datsun 810 ('81), Datsun Maxima ('82-'83), Nissan Maxima ('84).
+H
+2.8L
+I6
+Gas
+SOHC,
+12 valve
+MPI. Nissan L28E engine. Datsun 280ZX ('81-'83).
+H
+1.5L
+I4
+Gas
+SOHC,
+8 valve
+2-bbl carb. Nissan E15S engine. Nissan Sentra ('82: all models, '83:
+Deluxe MPG
+model only).
+H
+2.0L
+I4
+Gas
+SOHC,
+8 valve
+2-bbl carb. Nissan CA20S engine. Nissan Stanza ('82-'83).
+H
+2.0L
+I4
+Gas
+SOHC,
+8 valve
+MPI. Nissan CA20E engine. Nissan Stanza ('84-'89), Stanza Wagon 2wd ('86-'88).
+H
+3.0L
+V6
+Gas
+SOHC,
+12 valve
+MPI. Nissan VG30E engine.
+Nissan 300ZX ('84-'89), Maxima (all models '85-'91), Maxima GXE ('92-'94), Infiniti M30 ('90-'92).
+H
+1.2L
+I4
+Gas
+SOHC,
+8 valve
+2-bbl carb. Nissan MA12S engine. Nissan Micra (Canada only: '85-'91).
+H
+2.4L
+I4
+Gas
+SOHC,
+12 valve
+MPI. Nissan KA24E engine. Nissan 240SX ('89-'90), Axxess (US: '90, Canada: '90-'95).
+M
+1.5L
+I4
+Gas
+SOHC,
+8 valve
+2-bbl carb. Nissan E15 engine. Datsun 310 ('82).
+M
+1.6L
+I4
+Gas
+SOHC,
+8 valve
+2-bbl carb. Nissan E16S engine. Nissan Pulsar NX ('83-'86), Pulsar hatchback ('83).
+M
+2.4L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Nissan KA24DE engine. Nissan 240SX ('91-'94).
+N
+4.5L
+V8
+Gas
+DOHC,
+32 valve
+MPI. Intake VVT ('90-'95). Nissan VH45DE engine. Infiniti Q45 ('90-'96).
+P
+1.5L
+I4
+Gas
+OHV,
+8 valve
+2-bbl carb. Nissan A15 engine. Datsun 210
+Deluxe, SL
+('81-'82), 310 ('81).
+P
+2.0L
+I4
+Gas
+SOHC,
+8 valve
+MPI. Nissan Z20E engine. Datsun 200SX ('81).
+P
+1.6L
+I4
+Gas
+SOHC,
+8 valve
+2-bbl carb. Nissan E16S engine. Nissan Sentra ('83-'86).
+P
+1.6L
+I4
+Gas
+SOHC,
+8 valve
+2-bbl carb. Nissan E16S engine. Nissan Sentra ('87: all models except Sport Coupe & 4wd wagon).
+P
+1.6L
+I4
+Gas
+SOHC,
+8 valve
+TBI. Nissan E16i engine. Nissan Sentra ('87: Sport Coupe & 4wd wagon only, '88: all models),
+Pulsar NX [XE] ('87-'88), Sentra Classic (Canada only: '91-'93).
+P
+2.0L
+I4
+Gas
+SOHC,
+8 valve
+MPI. Nissan CA20E engine. Nissan 200SX ('84-'88).
+R
+2.2L
+I4
+Gas
+SOHC,
+8 valve
+MPI. Nissan Z22E engine. Datsun 200SX ('82-'83).
+R
+3.0L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT ('90-'95). Nissan VG30DE engine. Nissan 300ZX ('90-'96).
+S
+1.7L
+I4
+Diesel
+SOHC,
+8 valve
+Indirect injection. Nissan CD17 engine. Nissan Sentra ('83-'85).
+S
+2.8L
+I6
+Diesel
+SOHC,
+12 valve
+Indirect injection. Nissan LD28 engine. Datsun 810 ('81), Datsun Maxima ('82-'83).
+V
+3.0L
+V6
+Gas
+SOHC,
+12 valve
+MPI. Nissan VG30E engine. Nissan 200SX ('87-'88).
+VVT=Variable Valve Timing, VVEL=Variable Valve Event and Lift
+Engine codes for Electric Passenger Cars 1981-2009
+[
+edit
+|
+edit source
+]
+Position 4
+VIN
+Battery Size
+Fuel
+Drive Wheels
+Notes/Applications
+A
+32.4 Kwh
+Electricity
+Front
+EM18 motor. Nissan Altra EV ('98-'02).
+Engine codes for Multi-Purpose Passenger Vehicles & Light Duty Trucks 1981-2009
+[
+edit
+|
+edit source
+]
+Position 4
+VIN
+Size
+Type
+Fuel
+Valvetrain
+Engine Family/Notes/Applications
+A
+3.3L
+V6
+Gas
+SOHC,
+12 valve
+MPI. Nissan VG33E engine. Nissan Pathfinder ('96-'00), Infiniti QX4 ('97-'00).
+A
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VQ35DE engine. Nissan Murano ('03-'07, '09), Infiniti FX35 ('03-'08).
+A
+5.6L
+V8
+Gas
+DOHC,
+32 valve
+MPI. Intake VVT. Nissan VK56DE engine.
+Nissan Armada ('04-'09), Titan ('04-'09), Infiniti QX56 ('04-'09).
+A
+4.0L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VQ40DE engine.
+Nissan Frontier ('05-'09), Pathfinder ('05-'09), Xterra ('05-'09), Suzuki Equator ('09).
+A
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT. Nissan QR25DE engine. Nissan Rogue ('08-'09).
+A
+1.8L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Intake VVT. Nissan MR18DE engine. Nissan Cube ('09).
+A
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Dual VVT. Nissan VQ35HR engine. Infiniti FX35 ('09).
+B
+4.5L
+V8
+Gas
+DOHC,
+32 valve
+MPI. Intake VVT. Nissan VK45DE engine. Infiniti FX45 ('03-'08).
+B
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VQ35DE engine. Nissan Quest ('04-'09).
+B
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT. Nissan QR25DE engine. Nissan Frontier ('05-'09), X-Trail (Canada only: '05-'06), Suzuki Equator ('09).
+B
+5.6L
+V8
+Gas/E85
+DOHC,
+32 valve
+Flex-Fuel. MPI. Intake VVT. Nissan VK56DE engine.
+Nissan Titan ('05-'09), Armada ('07-'09).
+B
+5.6L
+V8
+Gas
+DOHC,
+32 valve
+MPI. Intake VVT. Nissan VK56DE engine. Nissan Pathfinder ('08-'09).
+B
+5.0L
+V8
+Gas
+DOHC,
+32 valve
+MPI. VVEL. Nissan VK50VE engine. Infiniti FX50 ('09).
+D
+2.4L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Nissan KA24DE engine. Nissan Frontier ('98-'04), Xterra ('00-'04).
+D
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VQ35DE engine. Nissan Pathfinder ('01-'04), Infiniti QX4 ('01-'03).
+E
+3.3L
+V6
+Gas
+SOHC,
+12 valve
+MPI. Nissan VG33E engine. Nissan Frontier ('99-'04), Xterra ('00-'04).
+F
+2.0L
+I4
+Gas
+SOHC,
+8 valve
+2-bbl carb. Nissan Z20S engine. Nissan 720 pickup
+MPG
+model ('83 1/2-'84).
+H
+2.0L
+I4
+Gas
+SOHC,
+8 valve
+MPI. Nissan CA20E engine. Nissan Stanza Wagon 4wd ('86-'88).
+H
+3.0L
+V6
+Gas
+SOHC,
+12 valve
+TBI. Nissan VG30i engine. Nissan Hardbody Pickup [D21] ('86 1/2-'89), Pathfinder XE, SE ('87-'89).
+H
+3.0L
+V6
+Gas
+SOHC,
+12 valve
+MPI. Nissan VG30E engine. Nissan Hardbody Pickup [D21] ('90-'95), Pathfinder ('90-'95).
+J
+2.5L
+I4
+Diesel
+OHV,
+8 valve
+Indirect injection.
+Nissan Diesel Motor Co.
+SD25 engine. Nissan 720 pickup ('83 1/2-'84).
+M
+2.2L
+I4
+Gas
+SOHC,
+8 valve
+2-bbl carb. Nissan Z22S engine. Datsun 720 pickup ('81-'83).
+M
+3.3L
+V6
+SC
+Gas
+SOHC,
+12 valve
+MPI. Nissan VG33ER engine. Nissan Frontier SC ('01-'04), Xterra SC ('02-'04).
+N
+2.4L
+I4
+Gas
+SOHC,
+8 valve
+2-bbl carb. Nissan Z24S engine. Nissan 720 pickup ('83 1/2-'86).
+N
+2.4L
+I4
+Gas
+SOHC,
+8 valve
+TBI. Nissan Z24i engine. Nissan 720 pickup
+ST
+4wd ('86).
+N
+2.4L
+I4
+Gas
+SOHC,
+8 valve
+TBI. Nissan Z24i engine. Nissan Hardbody Pickup [D21] ('86 1/2-'89), Pathfinder E ('87).
+S
+2.2L
+I4
+Diesel
+OHV,
+8 valve
+Indirect injection.
+Nissan Diesel Motor Co.
+SD22 engine. Datsun 720 pickup ('81-'83).
+S
+2.4L
+I4
+Gas
+SOHC,
+8 valve
+TBI. Nissan Z24i engine. Nissan Van [C22] ('87-'88, '90).
+S
+2.4L
+I4
+Gas
+SOHC,
+12 valve
+MPI. Nissan KA24E engine. Nissan Hardbody Pickup [D21] ('90-'97).
+Make & Engine 2010-
+[
+edit
+|
+edit source
+]
+Engine codes for Passenger Cars 2010-
+[
+edit
+|
+edit source
+]
+Position 4
+VIN
+Make
+Size
+Type
+Fuel
+Valvetrain
+Engine Family/Notes/Applications
+A
+Nissan
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Intake VVT. Nissan MR20DE engine. Nissan Sentra ('10-'12).
+A
+Nissan
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT. Nissan QR25DE engine. Nissan Altima ('10-'18).
+A
+Nissan
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VQ35DE engine. Nissan Maxima ('10-'14, '16-'23).
+A
+Nissan
+3.7L
+V6
+Gas
+DOHC,
+24 valve
+MPI. VVEL. Nissan VQ37VHR engine. Nissan 370Z ('10-'20).
+A
+Nissan
+3.8L
+V6 Twin Turbo
+IC
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VR38DETT engine. Nissan GT-R ('10-'21, '23-'24).
+A
+Nissan
+1.8L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT. Nissan MRA8DE engine. Nissan Sentra ('13-'19).
+A
+Nissan
+2.0L
+I4 Turbo
+IC
+Gas
+DOHC,
+16 valve
+Direct Injection & MPI. Dual VVT. Variable compression ratio. Nissan KR20DDET engine.
+Nissan Altima ('19-'24).
+A
+Nissan
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+Direct Injection. Dual VVT. Nissan MR20DD engine. Nissan Sentra ('20-'26).
+A
+Infiniti
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Dual VVT. Nissan VQ35HR engine. Infiniti EX35 ('10-'12).
+A
+Infiniti
+5.6L
+V8
+Gas
+DOHC,
+32 valve
+Direct Injection. VVEL. Nissan VK56VD engine.
+Infiniti M56 ('11-'13), Q70 5.6 ('14-'19), Q70L 5.6 ('15-'19).
+A
+Infiniti
+3.5L
+V6
+Gas-Electric Hybrid
+DOHC,
+24 valve
+MPI. Dual VVT. Nissan VQ35HR engine + 1 Front motor. Lithium-ion Battery Pack.
+Infiniti Q50 Hybrid ('14-'18).
+B
+Nissan
+1.8L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Intake VVT. Nissan MR18DE engine.
+Nissan Versa sedan ('10-'11), Versa hatchback ('10-'12).
+B
+Nissan
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT. Nissan QR25DE engine. Nissan Sentra SE-R ('10-'12).
+B
+Nissan
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VQ35DE engine. Nissan Altima ('10-'18).
+B
+Nissan
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+Direct Injection. Dual VVT. Nissan MR20DD engine.
+Nissan Rogue Sport (US: '17-'22), Qashqai (Canada: '17-'23).
+B
+Nissan
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+Direct Injection. Dual VVT. Nissan PR25DD engine. Nissan Altima ('19-'26).
+B
+Nissan
+3.0L
+V6 Twin Turbo
+IC
+Gas
+DOHC,
+24 valve
+Direct Injection. Dual VVT. Nissan VR30DDTT engine - High Output. Nissan Z ('23-'26).
+B
+Infiniti
+4.5L
+V8
+Gas
+DOHC,
+32 valve
+MPI. Intake VVT. Nissan VK45DE engine. Infiniti M45 ('10).
+B
+Infiniti
+3.7L
+V6
+Gas
+DOHC,
+24 valve
+MPI. VVEL. Nissan VQ37VHR engine. Infiniti M37 ('11-'13), EX37 ('13), Q50 3.7 ('14-'15),
+Q70 3.7 ('14-'19), Q70L 3.7 ('15-'19), QX50 3.7 ('14-'17).
+C
+Nissan
+1.6L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Intake VVT. Nissan HR16DE engine. Nissan Versa sedan 1.6 ('10-'11).
+C
+Nissan
+1.6L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT. Dual fuel injectors/cylinder. Nissan HR16DE engine (2nd gen.).
+Nissan Versa sedan ('12-'25), Versa Note hatchback ('14-'19),
+Micra (Canada only: '15-'19), Kicks ('18-'24), Kicks Play ('25).
+C
+Nissan
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT. Nissan QR25DE engine. Nissan Sentra SE-R Spec V ('10-'12).
+C
+Nissan
+2.5L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. Dual VVT. Nissan QR25DE engine + 2 Front motors. Nickel-metal hydride
+Battery Pack. Toyota
+Hybrid Synergy Drive
+hybrid system. Nissan Altima Hybrid ('10-'11).
+C
+Nissan
+1.6L
+I4 Turbo
+IC
+Gas
+DOHC,
+16 valve
+Direct Injection. Dual VVT. Nissan MR16DDT engine.
+Nissan Sentra SR Turbo & NISMO ('17-'19).
+C
+Infiniti
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Dual VVT. Nissan VQ35HR engine. Infiniti M35 ('10).
+C
+Infiniti
+3.7L
+V6
+Gas
+DOHC,
+24 valve
+MPI. VVEL. Nissan VQ37VHR engine.
+Infiniti G37 ('10-'13), Q40 3.7 ('15), Q60 3.7 ('14-'15).
+C
+Infiniti
+2.0L
+I4 Turbo
+IC
+Gas
+DOHC,
+16 valve
+Direct Injection. Dual VVT. Mercedes-Benz M274 DE20 LA engine made by Infiniti Powertrain Plant in Decherd, TN, USA. Infiniti Q50 2.0t ('16-'19), Q60 2.0t ('17-'18).
+C
+Infiniti
+2.0L
+I4 Turbo
+IC
+Gas
+DOHC,
+16 valve
+Direct Injection. Dual VVT. Mercedes-Benz M270 DE20 LA engine. Infiniti QX30 ('17-'19).
+D
+Infiniti
+2.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Dual VVT. Nissan VQ25HR engine. Infiniti G25 sedan ('11-'12).
+E
+Infiniti
+3.5L
+V6
+Gas-Electric Hybrid
+DOHC,
+24 valve
+MPI. Dual VVT. Nissan VQ35HR engine + 1 Front motor. Lithium-ion Battery Pack.
+Infiniti M35h ('12-'13), Q70 Hybrid ('14-'18).
+E
+Infiniti
+3.0L
+V6 Twin Turbo
+IC
+Gas
+DOHC,
+24 valve
+Direct Injection. Dual VVT. Nissan VR30DDTT engine (300 hp).
+Infiniti Q50 3.0t ('16-'24), Q60 3.0t ('17-'22).
+F
+Infiniti
+3.0L
+V6 Twin Turbo
+IC
+Gas
+DOHC,
+24 valve
+Direct Injection. Dual VVT. Nissan VR30DDTT engine - High Output (400 hp).
+Infiniti Q50 Red Sport 400 ('16-'24), Q60 Red Sport 400 ('17-'22).
+VVT=Variable Valve Timing, VVEL=Variable Valve Event and Lift
+Engine codes for Electric Passenger Cars 2010-
+[
+edit
+|
+edit source
+]
+Position 4
+VIN
+Make
+Battery Size
+Fuel
+Drive Wheels
+Motor Family/Notes/Applications
+A
+Nissan
+24 Kwh
+Electricity
+Front
+EM61 motor. Nissan Leaf ('11-'12).
+A
+Nissan
+24 Kwh
+Electricity
+Front
+EM57 motor. Nissan Leaf SV, SL ('13-'15), Leaf S ('13-'15: all, '16: early prod.).
+A
+Nissan
+40 Kwh
+Electricity
+Front
+EM57 motor. Nissan Leaf ('18-'25).
+A
+Nissan
+66 Kwh
+Electricity
+Front
+AM67 motor. Nissan Ariya
+Engage
+2wd ('23-'24).
+A
+Nissan
+75 Kwh
+Electricity
+Front
+214 hp (160 kw) motor. Nissan Leaf S+, SV+, Platinum+ ('26-).
+B
+Nissan
+30 Kwh
+Electricity
+Front
+EM57 motor. Nissan Leaf SV, SL ('16-'17), Leaf S ('16: late prod., '17: all).
+B
+Nissan
+62 Kwh
+Electricity
+Front
+EM57 motor. Nissan Leaf Plus ('19-'22).
+B
+Nissan
+91 Kwh
+Electricity
+Front
+AM67 motor. Nissan Ariya
+Venture+, Evolve+, Empower+
+2wd ('23-'24), Ariya
+Premiere
+2wd ('23).
+C
+Nissan
+60 Kwh
+Electricity
+Front
+EM57 motor. Nissan Leaf Plus ('23-'25).
+C
+Nissan
+66 Kwh
+Electricity
+All
+AM67 motors. Nissan Ariya
+Engage
+e-4ORCE Awd ('23-'24).
+D
+Nissan
+91 Kwh
+Electricity
+All
+AM67 motors. Nissan Ariya
+Engage+, Evolve+, Platinum+
+e-4ORCE Awd ('23-'24).
+Engine codes for Multi-Purpose Passenger Vehicles & Light Duty Trucks 2010-
+[
+edit
+|
+edit source
+]
+Position 4
+VIN
+Make
+Size
+Type
+Fuel
+Valvetrain
+Engine Family/Notes/Applications
+A
+Nissan
+1.8L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Intake VVT. Nissan MR18DE engine. Nissan Cube ('10-'14).
+A
+Nissan
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT. Nissan QR25DE engine.
+Nissan Rogue ('10-'20), Rogue Select ('14-'15).
+A
+Nissan
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VQ35DE engine. Nissan Murano ('10-'24),
+Murano CrossCabriolet ('11-'14), Quest ('11-'17), Pathfinder ('13-'16).
+A
+Nissan
+4.0L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VQ40DE engine.
+Nissan Frontier ('10-'19), Pathfinder ('10-'12), Xterra ('10-'15).
+A
+Nissan
+5.6L
+V8
+Gas
+DOHC,
+32 valve
+MPI. Intake VVT. Nissan VK56DE engine.
+Nissan Armada ('10-'15), Titan ('10-'15), NV2500/3500 ('12-'16).
+A
+Nissan
+1.6L
+I4 Turbo
+IC
+Gas
+DOHC,
+16 valve
+Direct Injection. Dual VVT. Nissan MR16DDT engine.
+Nissan Juke ('11-'17), Juke NISMO ('13-'17).
+A
+Nissan
+5.6L
+V8
+Gas
+DOHC,
+32 valve
+Direct Injection. VVEL. Nissan VK56VD engine.
+Nissan Armada ('17-'24), Titan ('17-'24), Titan XD ('16-'24), NV2500/3500 ('17-'21).
+A
+Nissan
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+Direct Injection. Dual VVT. Nissan PR25DD engine.
+Nissan Rogue (US & Canada: All models - '21, Canada only: Rogue S - '22-'23).
+A
+Nissan
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+Direct Injection. Dual VVT. Nissan MR20DD engine. Nissan Kicks [P16] ('25-'26).
+A
+Nissan
+2.0L
+I4 Turbo
+IC
+Gas
+DOHC,
+16 valve
+Direct Injection & MPI. Dual VVT. Variable compression ratio. Nissan KR20DDET engine.
+Nissan Murano ('25-'26).
+A
+Nissan
+3.5L
+V6 Twin Turbo
+IC
+Gas
+DOHC,
+24 valve
+Direct Injection. Intake VVT. Nissan VR35DDTT engine. Nissan Armada ('25-'26).
+A
+Infiniti
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Dual VVT. Nissan VQ35HR engine. Infiniti FX35 ('10-'12).
+A
+Infiniti
+5.6L
+V8
+Gas
+DOHC,
+32 valve
+Direct Injection. VVEL. Nissan VK56VD engine. Infiniti QX56 ('11-'13), QX80 ('14-'24).
+A
+Infiniti
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VQ35DE engine. Infiniti JX35 ('13), QX60 3.5 ('14-'16).
+A
+Infiniti
+2.0L
+I4 Turbo
+IC
+Gas
+DOHC,
+16 valve
+Direct Injection & MPI. Dual VVT. Variable compression ratio. Nissan KR20DDET engine.
+Infiniti QX50 ('19-'25), QX55 ('22-'25), QX60 ('25-'26).
+A
+Infiniti
+3.5L
+V6 Twin Turbo
+IC
+Gas
+DOHC,
+24 valve
+Direct Injection. Intake VVT. Nissan VR35DDTT engine. Infiniti QX80 ('25-'26).
+B
+Nissan
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT. Nissan QR25DE engine. Nissan Frontier ('10-'19).
+B
+Nissan
+5.0L
+V8 Turbo
+IC
+Diesel
+DOHC,
+32 valve
+Common-Rail Direct Injection. Cummins ISV engine. Nissan Titan  XD ('16-'19).
+B
+Nissan
+5.6L
+V8
+Gas
+DOHC,
+32 valve
+MPI. Intake VVT. Nissan VK56DE engine. Nissan Pathfinder ('10-'12).
+B
+Nissan
+5.6L
+V8
+Gas/E85
+DOHC,
+32 valve
+Flex-Fuel. MPI. Intake VVT. Nissan VK56DE engine.
+Nissan Armada ('10-'15), Titan ('10-'15).
+B
+Nissan
+4.0L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VQ40DE engine.
+Nissan NV1500/2500 Cargo Van ('12-'21), NV3500 Passenger Van ('12-'21).
+B
+Nissan
+1.5L
+I3 Turbo
+IC
+Gas
+DOHC,
+12 valve
+Direct Injection. Dual VVT. Variable compression ratio. Nissan KR15DDT engine.
+Nissan Rogue (US: All models - '22-'26, Canada: Rogue SV, SL, Platinum - '22-'23, All models: - '24-'26).
+B
+Infiniti
+5.0L
+V8
+Gas
+DOHC,
+32 valve
+MPI. VVEL. Nissan VK50VE engine. Infiniti FX50 ('10-'13), QX70 5.0 ('14).
+C
+Nissan
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Intake VVT. Nissan MR20DE engine. Nissan NV200 ('13-'21).
+C
+Nissan
+2.5L
+I4
+SC
+IC
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. Dual VVT. Nissan QR25DER engine + 1 Front motor.
+Lithium-ion Battery Pack. Nissan Pathfinder Hybrid ('14-'15), Murano Hybrid ('16).
+C
+Infiniti
+3.7L
+V6
+Gas
+DOHC,
+24 valve
+MPI. VVEL. Nissan VQ37VHR engine. Infiniti FX37 ('13), QX70 3.7 ('14-'17).
+C
+Infiniti
+2.5L
+I4
+SC
+IC
+Gas-Electric Hybrid
+DOHC,
+16 valve
+MPI. Dual VVT. Nissan QR25DER engine + 1 Front motor.
+Lithium-ion Battery Pack. Infiniti QX60 Hybrid ('14-'17).
+D
+Nissan
+1.6L
+I4 Turbo
+IC
+Gas
+DOHC,
+16 valve
+Direct Injection. Dual VVT. Nissan MR16DDT engine.
+Nissan Juke NISMO RS ('14-'17).
+D
+Nissan
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+Direct Injection. Dual VVT. Nissan VQ35DD engine. Nissan Pathfinder ('17-'20, '22-'26).
+D
+Infiniti
+3.5L
+V6
+Gas
+DOHC,
+24 valve
+Direct Injection. Dual VVT. Nissan VQ35DD engine. Infiniti QX60 3.5 ('17-'20, '22-'24).
+D
+Nissan
+4.0L
+V6
+Gas/E85
+DOHC,
+24 valve
+Flex-Fuel. MPI. Intake VVT. Nissan VQ40DE engine. Nissan Frontier ('17-'19).
+E
+Nissan
+2.0L
+I4
+Gas-Electric Hybrid
+DOHC,
+16 valve
+Direct Injection. Dual VVT. Nissan MR20DD engine + 1 Front motor.
+Lithium-ion Battery Pack. Nissan Rogue Hybrid ('17-'19).
+E
+Nissan
+3.8L
+V6
+Gas
+DOHC,
+24 valve
+Direct Injection. Dual VVT. Nissan VQ38DD engine. Nissan Frontier ('20-'26).
+Z
+Infiniti
+5.6L
+V8
+Gas
+DOHC,
+32 valve
+MPI. Intake VVT. Nissan VK56DE engine. Infiniti QX56 ('10).
+1
+Suzuki
+4.0L
+V6
+Gas
+DOHC,
+24 valve
+MPI. Intake VVT. Nissan VQ40DE engine. Suzuki Equator ('10-'12).
+2
+Suzuki
+2.5L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Dual VVT. Nissan QR25DE engine. Suzuki Equator ('10-'12).
+3
+Chevrolet
+2.0L
+I4
+Gas
+DOHC,
+16 valve
+MPI. Intake VVT. Nissan MR20DE engine (GM RPO code: L0A).
+Chevrolet City Express ('15-'18).
+VVT=Variable Valve Timing, VVEL=Variable Valve Event and Lift
+Engine codes for Electric Multi-Purpose Passenger Vehicles & Light Duty Trucks 2010-
+[
+edit
+|
+edit source
+]
+Position 4
+VIN
+Make
+Battery Size
+Fuel
+Drive Wheels
+Motor Family/Notes/Applications
+A
+Nissan
+66 Kwh
+Electricity
+Front
+AM67 motor. Nissan Ariya
+Engage
+2wd ('25).
+B
+Nissan
+91 Kwh
+Electricity
+Front
+AM67 motor. Nissan Ariya
+Evolve+
+2wd ('25).
+C
+Nissan
+66 Kwh
+Electricity
+All
+AM67 motors. Nissan Ariya
+Engage
+e-4ORCE Awd ('25).
+D
+Nissan
+91 Kwh
+Electricity
+All
+AM67 motors. Nissan Ariya
+Engage+, Evolve+, Platinum+
+e-4ORCE Awd ('25).
+Model Line
+[
+edit
+|
+edit source
+]
+Passenger Cars
+Position 5
+VIN code
+Description
+A
+Nissan Maxima 1995-2023
+A
+Infiniti I30 1996-2001, I35 2002-2004
+B
+Datsun 210 1981-1982
+B
+Nissan Sentra 1983-2026
+B
+Nissan NX 1991-1993
+B
+Nissan 200SX 1995-1998
+C
+Nissan Versa sedan 2007-2011, Versa hatchback 2007-2012
+E
+Nissan Altra EV
+E
+Nissan Versa Note 2014-2019
+F
+Infiniti M30 1990-1992
+F
+Infiniti Q45 2002-2006
+F
+Nissan Ariya EV 2023-2024
+G
+Infiniti Q45 1990-1996
+H
+Infiniti QX30 2017-2019
+J
+Nissan Maxima 1989-1994
+J
+Infiniti EX35 2008-2012, EX37 2013, QX50 2014-2017
+J
+US: Nissan Rogue Sport 2017-2022, Canada: Nissan Qashqai 2017-2023
+K
+Nissan Micra 1985-1991, 2015-2019 (Canada only)
+L
+Nissan Altima 1998-2026
+M
+Nissan Stanza Wagon 2wd 1986-1988
+M
+Nissan Axxess (US: 1990, Canada: 1990-1995)
+N
+Datsun 310 1981-1982
+N
+Nissan Pulsar NX 1983-1990, Pulsar hatchback 1983
+N
+Nissan Versa sedan 2012-2025
+P
+Infiniti G20 1991-1996, 1999-2002
+P
+Nissan Kicks 2018-2024, Kicks Play 2025
+R
+Nissan GT-R 2009-2021, 2023-2024
+S
+Datsun 200SX 1981-1983
+S
+Nissan 200SX 1984-1988
+S
+Nissan 240SX 1989-1998
+T
+Datsun 510 1981
+T
+Nissan Stanza 1982-1989
+U
+Datsun 810 1981, Datsun Maxima 1982-1983, Nissan Maxima 1984-1988
+U
+Nissan Stanza 1990-1992
+U
+Nissan Altima 1993-1997
+V
+Infiniti G35 2003-2008, G37 2008-2013, G25 2011-2012, Q40 2015, Q60 2014-2015
+V
+Infiniti Q50 2014-2024, Q60 2017-2022
+Y
+Infiniti J30 1993-1997
+Y
+Infiniti Q45 1997-2001
+Y
+Infiniti M45 2003-2004
+Y
+Infiniti M35/M45 2006-2010
+Y
+Infiniti M37/M56 2011-2013, M35h 2012-2013, Q70 2014-2019, Q70L 2015-2019
+Z
+Datsun 280ZX 1981-1983
+Z
+Nissan 300ZX 1984-1996
+Z
+Nissan 350Z 2003-2009
+Z
+Nissan 370Z 2009-2020
+Z
+Nissan Z 2023-2026
+Z
+Nissan Leaf EV 2011-2026
+Multi-Purpose Passenger Vehicles & Light Duty Trucks
+Position 5
+VIN code
+Description
+A
+Nissan Armada 2004-2015
+A
+Infiniti QX56 2004-2010
+A
+Nissan Titan 2004-2024
+C
+Nissan Van [C22] 1987-1988, 1990
+D
+Datsun 720 pickup 1981-1983, Nissan 720 pickup 1983 1/2-1986, Nissan Hardbody Pickup [D21] 1986 1/2-1997
+D
+Nissan Frontier 1998-2026, Suzuki Equator 2009-2012
+D
+Nissan Pathfinder 1987-1995
+D
+Nissan Xterra 2000-2004
+E
+Nissan Quest 2011-2017
+F
+Nissan Juke 2011-2017
+F
+Nissan NV1500/NV2500/NV3500 2012-2021
+F
+Nissan Ariya EV 2025, 2026 (Canada only)
+J
+Infiniti QX50 2019-2025
+J
+Infiniti QX55 2022-2025
+L
+Infiniti JX35 2013, QX60 2014-2026
+M
+Nissan Stanza Wagon 4wd 1986-1988
+M
+Nissan NV200 2013-2021, Chevrolet City Express 2015-2018
+N
+Nissan Xterra 2005-2015
+P
+Nissan Kicks 2025-2026
+R
+Nissan Pathfinder 1996-2026
+R
+Infiniti QX4 1997-2003
+S
+Infiniti FX35 2003-2012, FX37 2013, FX45 2003-2008, FX50 2009-2013, QX70 2014-2017
+S
+Nissan Rogue 2008-2013, Rogue Select 2014-2015
+T
+Nissan X-Trail 2005-2006 (Canada only)
+T
+Nissan Rogue 2014-2026
+V
+Nissan Quest 2004-2009
+Y
+Nissan Armada 2017-2026
+Z
+Nissan Murano 2003-2026, Murano CrossCabriolet 2011-2014
+Z
+Nissan Cube 2009-2014
+Z
+Infiniti QX56 2011-2013, QX80 2014-2026
+Model Change Number Code
+[
+edit
+|
+edit source
+]
+Datsun & Nissan
+Position 6
+Code
+Description
+0
+Nissan Micra [K10] 1985-1991 (Canada only)
+3
+Nissan Micra [K13] 2015-2019 (Canada only)
+1
+Nissan Versa sedan [C11] 2007-2011, Versa hatchback [C11] 2007-2012
+7
+Nissan Versa sedan [N17] 2012-2019
+2
+Nissan Versa Note hatchback [E12] 2014-2019
+8
+Nissan Versa sedan [N18] 2020-2025
+0
+Datsun 210 [B310] 1981-1982
+1
+Nissan Sentra [B11] 1982-1986
+2
+Nissan Sentra [B12] 1987-1990, Sentra Classic [B12] (Canada only: 1991-1993)
+3
+Nissan Sentra [B13] 1991-1994
+4
+Nissan Sentra [B14] 1995-1999
+5
+Nissan Sentra [B15] 2000-2006
+6
+Nissan Sentra [B16] 2007-2012
+7
+Nissan Sentra [B17] 2013-2019
+8
+Nissan Sentra [B18] 2020-2025
+9
+Nissan Sentra [B19] 2026-
+0
+Datsun 310 [N10] 1981-1982
+2
+Nissan Pulsar hatchback [N12] 1983, Pulsar NX [N12] 1983-1986
+3
+Nissan Pulsar NX [N13] 1987-1990
+3
+Nissan NX [B13] 1991-1993
+4
+Nissan 200SX [B14] 1995-1998
+0
+Datsun 510 [A10] 1981
+1
+Nissan Stanza [T11] 1982-1986
+2
+Nissan Stanza [T12] 1987-1989
+2
+Nissan Stanza [U12] 1990-1992
+3
+Nissan Altima [U13] 1993-1997
+0
+Nissan Altima [L30] 1998-2001
+1
+Nissan Altima [L31] 2002-2006
+2
+Nissan Altima sedan [L32] 2007-2012, Altima coupe [D32] 2008-2013
+3
+Nissan Altima sedan [L33] 2013-2018
+4
+Nissan Altima [L34] 2019-
+0
+Datsun 810 [G910] 1981, Datsun Maxima [G910] 1982-1983, Nissan Maxima [G910] 1984
+1
+Nissan Maxima [PU11] 1985-1988
+0
+Nissan Maxima [J30] 1989-1994
+2
+Nissan Maxima [A32] 1995-1999
+3
+Nissan Maxima [A33] 2000-2003
+4
+Nissan Maxima [A34] 2004-2008
+5
+Nissan Maxima [A35] 2009-2014
+6
+Nissan Maxima [A36] 2016-2023
+0
+Nissan Altra EV [EVN30] 1998-2002
+0
+Nissan Leaf EV [ZE0] 2011-2017
+1
+Nissan Leaf EV [ZE1] 2018-2025
+2
+Nissan Leaf EV [ZE2] 2026-
+0
+Datsun 200SX [S110] 1981-1983
+2
+Nissan 200SX [S12] 1984-1988
+3
+Nissan 240SX [S13] 1989-1994
+4
+Nissan 240SX [S14] 1995-1998
+0
+Datsun 280ZX [S130] 1981-1983
+1
+Nissan 300ZX [Z31] 1984-1989
+2
+Nissan 300ZX [Z32] 1990–1996
+3
+Nissan 350Z [Z33] 2003–2009
+4
+Nissan 370Z [Z34] 2009-2020
+4
+Nissan Z [RZ34] 2023-
+5
+Nissan GT-R [R35] 2009-2021, 2023-2024
+2
+Nissan Cube [Z12] 2009-2014
+0
+Nissan Stanza Wagon [M10] 1986-1988
+1
+Nissan Axxess [M11] 1990 (US), 1990-1995 (Canada)
+2
+Nissan Van [C22] 1987-1988, 1990
+2
+Nissan Quest [V42] 2004-2009
+2
+Nissan Quest [RE52] 2011-2017
+0
+Nissan NV200 [M20] 2013-2021, Chevrolet City Express [M20] 2015-2018
+0
+Nissan NV1500/NV2500/NV3500 [F80] 2012-2021
+5
+Nissan Juke [F15] 2011-2017
+5
+Nissan Kicks [P15] 2018-2024, Kicks Play [P15] 2025
+6
+Nissan Kicks [P16] 2025-
+1
+Nissan Rogue Sport [J11] 2017-2022 (US), Nissan Qashqai [J11] 2017-2023 (Canada)
+0
+Nissan X-Trail [T30] 2005-2006 (Canada only)
+5
+Nissan Rogue [S35] 2008-2013, Rogue Select [S35] 2014-2015
+2
+Nissan Rogue [T32] 2014-2020
+3
+Nissan Rogue [T33] 2021-
+0
+Nissan Ariya EV [FE0] 2023-2025, 2026- (Canada only)
+2
+Nissan Xterra [WD22] 2000-2004
+0
+Nissan Xterra [N50] 2005-2015
+0
+Nissan Murano [Z50] 2003-2007
+1
+Nissan Murano [Z51] 2009-2014, Murano CrossCabriolet 2011-2014
+2
+Nissan Murano [Z52] 2015-2024
+3
+Nissan Murano [Z53] 2025-
+1
+Nissan Pathfinder [WD21] 1987-1995
+0
+Nissan Pathfinder [R50] 1996-2004
+1
+Nissan Pathfinder [R51] 2005-2012
+2
+Nissan Pathfinder [R52] 2013-2020
+3
+Nissan Pathfinder [R53] 2022-
+0
+Nissan Armada [TA60] 2004-2015
+2
+Nissan Armada [Y62] 2017-2024
+3
+Nissan Armada [Y63] 2025-
+0
+Datsun/Nissan 720 pickup 1981-1986
+1
+Nissan Hardbody Pickup [D21] 1986 1/2-1997
+2
+Nissan Frontier [D22] 1998-2004
+0
+Nissan Frontier [D40] 2005-2021, Suzuki Equator [D40] 2009-2012
+1
+Nissan Frontier [D41] 2022-
+0
+Nissan Titan [A60] 2004-2015
+1
+Nissan Titan [A61] 2016-2024
+Infiniti
+Position 6
+Code
+Description
+0
+Infiniti G20 [P10] 1991-1996
+0
+Infiniti G20 [P11] 1999-2002
+5
+Infiniti QX30 [H15] 2017-2019
+2
+Infiniti I30 [A32] 1996-1999
+3
+Infiniti I30 [A33] 2000-2001
+3
+Infiniti I35 [A33] 2002-2004
+1
+Infiniti M30 [F31] 1990-1992
+5
+Infiniti G35 sedan [V35] 2003-2006
+5
+Infiniti G35 coupe [V35] 2003-2007
+6
+Infiniti G35 sedan [V36] 2007-2008, G37 sedan [V36] 2009-2013, G25 sedan [V36] 2011-2012, Q40 sedan [V36] 2015
+6
+Infiniti G37 coupe [V36] 2008-2013, G37 convertible [V36] 2009-2013, Q60 coupe/convertible [V36] 2014-2015
+7
+Infiniti Q50 [V37] 2014-2024
+7
+Infiniti Q60 [V37] 2017-2022
+2
+Infiniti J30 [Y32] 1993-1997
+4
+Infiniti M45 [Y34] 2003-2004
+0
+Infiniti M35/M45 [Y50] 2006-2010
+1
+Infiniti M37/M56 [Y51] 2011-2013, M35h [Y51] 2012-2013,
+Q70 [Y51] 2014-2019, Q70L [Y51] 2015-2019
+0
+Infiniti Q45 [G50] 1990-1996
+3
+Infiniti Q45 [Y33] 1997-2001
+0
+Infiniti Q45 [F50] 2002-2006
+0
+Infiniti EX35 [J50] 2008-2012, EX37 [J50] 2013, QX50 [J50] 2014-2017
+5
+Infiniti QX50 [J55] 2019-2025
+5
+Infiniti QX55 [J55] 2022-2025
+0
+Infiniti QX4 [R50] 1997-2003
+0
+Infiniti JX35 [L50] 2013, QX60 [L50] 2014-2020
+1
+Infiniti QX60 [L51] 2022-
+0
+Infiniti FX35/FX45 [S50] 2003-2008
+1
+Infiniti FX35/FX50 [S51] 2009-2012, FX37/FX50 [S51] 2013, QX70 [S51] 2014-2017
+0
+Infiniti QX56 [JA60] 2004-2010
+2
+Infiniti QX56 [Z62] 2011-2013, QX80 [Z62] 2014-2024
+3
+Infiniti QX80 [Z63] 2025-
+Body Style
+[
+edit
+|
+edit source
+]
+Passenger Cars
+Position 7
+VIN code
+Body style
+Application
+1
+4-door sedan
+Datsun 210 ('81-'82), 810 ('81), Maxima ('82-'83), Nissan Sentra ('82-'09), Stanza ('83-'92), Maxima ('84-'09),
+Altima ('93-'09), Versa ('07-'09), Sentra Classic (Canada only: '91-'93),
+Infiniti Q45 ('90-'06), G20 ('91-'96, '99-'02), J30 ('93-'97), I30 ('96-'01), I35 ('02-'04), G35 sedan ('03-'08),
+G37 sedan ('09), M45 ('03-'04), M35/M45 ('06-'09)
+2
+2-door sedan
+Datsun 210 ('81-'82), 510 ('81), Nissan Sentra ('82-'94)
+2
+2-door coupe
+Nissan 200SX ('95-'98)
+3
+4-door hatchback sedan
+(5-door hatchback)
+Datsun 310 ('81-'82), 510 ('81), Nissan Stanza ('82-'85, '87), Pulsar ('83), Versa ('07-'09),
+Micra (Canada only: '85-'91)
+4
+2-door hatchback
+(3-door hatchback)
+Datsun 200SX ('81-'83), 210 Coupe ('81-'82), 310 Coupe ('81-'82),
+Nissan Sentra Coupe ('82-'86), Sentra Sport Coupe ('87-'90), Stanza ('82-'84), Micra (Canada only: '85-'91)
+4
+2-door coupe
+Nissan 200SX ('84-'88), 240SX ('89-'93, '95-'98), Pulsar NX ('83-'90), NX ('91-'93), Altima Coupe ('08-'09),
+GT-R ('09), Infiniti M30 coupe ('90-'92), G35 coupe ('03-'07), G37 coupe ('08-'09)
+4
+2-door coupe (2-seater)
+Datsun 280ZX ('81-'83), Nissan 300ZX ('84-'96), 350Z ('03-'08), 370Z ('09)
+5
+4-door wagon
+Datsun 210 wagon ('81-'82), 510 wagon ('81), 810 wagon ('81), Datsun Maxima wagon ('82-'83),
+Nissan Sentra wagon ('82-'90), Maxima wagon ('84-'88),
+Stanza Wagon 2wd ('86-'88), Axxess ('90 & in Canada: '91-'95), Altra EV ('98-'02)
+6
+2-door hardtop coupe
+Datsun 200SX ('81-'83)
+6
+2-door hatchback or fastback
+(3-door hatchback)
+Datsun 310 ('81-'82), Nissan 200SX ('84-'88), 240SX ('89-'93), Pulsar ('83), Sentra hatchback ('87-'88)
+6
+2-door coupe (4-seater)
+Datsun 280ZX 2+2 ('81-'83), Nissan 300ZX 2+2 ('84-'96)
+6
+2-door coupe w/T-bar roof
+(T-top)
+Nissan NX ('91-'93)
+6
+Incomplete Vehicle
+(for conversion into a 2-door convertible)
+Nissan 240SX convertible ('92), Infiniti M30 convertible ('91-'92)
+6
+2-door convertible
+Nissan 350Z roadster ('04-'09), Infiniti G37 convertible ('09)
+7
+2-door convertible
+Nissan 240SX convertible ('93-'94), 300ZX convertible ('93-'96)
+9
+4-door wagon
+Infiniti EX35 ('08-'09)
+A
+4-door sedan
+Nissan Versa sedan ('10-'19), Sentra ('10-'19), Altima sedan ('10-'18), Maxima ('10-'14, '16-'19), Infiniti G37 sedan ('10-'13), G25 ('11-'12), Q40 ('15), Q50 ('14-'20),  M35/M45 ('10), M37/M56 ('11-'13), M35h ('12-'13), Q70 ('14-'19)
+C
+4-door hatchback
+(5-door hatchback)
+Nissan Versa hatchback ('10-'12), Versa Note ('14-'19), Micra (Canada only: '15-'19), Leaf EV ('11-'19), Kicks ('18-'19),
+Rogue Sport (US)/Qashqai (Canada) ('17-'20),  Infiniti QX30 ('17-'19)
+E
+2-door coupe
+Nissan Altima Coupe ('10-'13), 370Z ('10-'20), GT-R ('10-'20), Infiniti G37 coupe ('10-'13), Q60 coupe ('14-'15, '17-'20)
+F
+2-door convertible
+Nissan 370Z roadster ('10-'19), Infiniti G37 convertible ('10-'13), Q60 convertible ('14-'15)
+H
+4-door wagon
+Infiniti EX35 ('10-'12), EX37 ('13), QX50 ('14-'15)
+P
+4-door sedan LWB
+Infiniti Q70L ('15-'19)
+R
+4-door wagon LWB
+Infiniti QX50 ('16-'17)
+Multi-Purpose Passenger Vehicles & Light Duty Trucks
+Position 7
+VIN code
+Body style
+Application
+4
+2-door wagon classified as a Truck
+Nissan Pathfinder 2-door ('87)
+5
+4-door wagon
+Nissan Stanza Wagon 4wd ('86-'88), Pathfinder ('96-'99), Infiniti QX4 ('97-'99)
+6
+Van
+Nissan Van [C22] ('87-'88, '90)
+6
+2-door wagon classified as a
+Multi-Purpose Passenger Vehicle
+Nissan Pathfinder 2-door ('87-'90)
+7
+4-door wagon
+Nissan Pathfinder 4-door ('90-'95, '99 1/2-'01), Infiniti QX4 ('99 1/2-'01)
+8
+4-door wagon
+Nissan Xterra ('00-'09), Murano ('03-'07, '09), Quest ('04-'09), Armada ('04-'09), Pathfinder ('05-'09),
+Rogue ('08-'09), Cube ('09), X-Trail (Canada only: '05-'06), Infiniti FX35/FX45 ('03-'08), FX35/FX50 ('09),
+QX56 ('04-'09)
+9
+4-door wagon
+Nissan Pathfinder ('01*-'04), Infiniti QX4 ('01*-'03)
+*Vehicles manufactured after 8/2/00.
+1
+Regular Cab, Short bed pickup truck
+Datsun 720 pickup ('81-'83), Nissan 720 pickup ('83 1/2-'86), Nissan Hardbody Pickup [D21] ('86 1/2-'97),
+Frontier ('98-'01)
+2
+Regular Cab, Long bed pickup truck
+Datsun 720 pickup ('81-'83), Nissan 720 pickup ('83 1/2-'86), Nissan Hardbody Pickup [D21] ('86 1/2-'95)
+5
+Chassis cab pickup truck
+Datsun 720 pickup ('81-'83), Nissan 720 pickup ('83 1/2-'86), Nissan Hardbody Pickup [D21] ('86 1/2-'88)
+6
+King Cab (extended cab) pickup truck
+Datsun 720 pickup ('81-'83), Nissan 720 pickup ('83 1/2-'86), Nissan Hardbody Pickup [D21] ('86 1/2-'97),
+Frontier ('98-'09), Titan ('04-'09), Suzuki Equator ('09)
+7
+Crew Cab, Short bed pickup truck
+Nissan Frontier ('00-'09), Suzuki Equator ('09)
+7
+Crew Cab pickup truck
+Nissan Titan ('04-'09)
+9
+Crew Cab, Long bed pickup truck
+Nissan Frontier ('02-'04, '07-'09), Suzuki Equator ('09)
+A
+Bus [Van with more than 3 rows of seats]
+Nissan NV3500 Passenger Van ('12-'21)
+F
+2-door convertible
+Nissan Murano CrossCabriolet ('11-'14)
+J
+4-door Van (Taxi)
+Nissan NV200 Taxi ('14-'17, '19)
+K
+4-door Van
+Nissan Cube ('10-'14), Quest ('11-'17), NV200 Cargo Van ('13-'21)
+K
+Van [3-door]
+Nissan NV1500/NV2500/NV3500 Cargo Van (w/standard roof) ('12-'21)
+L
+Van [3-door] (w/High Roof)
+Nissan NV2500/NV3500 Cargo Van (w/high roof) ('12-'21)
+M
+4-door wagon (Crossover)
+Nissan Murano ('10-'19), Juke ('11-'17), Pathfinder ('13-'19), Rogue ('10-'20), Rogue Select ('14-'15),
+Infiniti FX35/FX50 ('10-'12), FX37/FX50 ('13), QX70 ('14-'17), JX35 ('13), QX60 ('14-'20), QX50 ('19-'20)
+N
+4-door wagon (SUV)
+Nissan Xterra ('10-'15), Armada ('10-'20), Pathfinder ('10-'12), Infiniti QX56 ('10-'13), QX80 ('14-'20)
+C
+King Cab (extended cab) pickup truck
+Nissan Frontier ('10-'26), Titan ('10-'15, '17-'24), Titan XD ('17-'19), Suzuki Equator ('10-'12)
+E
+Crew Cab, Short bed pickup truck
+Nissan Frontier ('10-'26), Titan ('10-'15), Suzuki Equator ('10-'12)
+E
+Crew Cab, Standard wheelbase pickup truck
+Nissan Titan ('17-'24)
+F
+Crew Cab, Long bed pickup truck
+Nissan Frontier ('10-'26), Titan ('10-'14) Suzuki Equator ('10-'12)
+F
+Crew Cab, Long wheelbase pickup truck
+Nissan Titan XD ('16-'24)
+R
+Regular Cab pickup truck
+Nissan Titan, Titan XD ('17-'19)
+Body Style & Trim Level
+[
+edit
+|
+edit source
+]
+Passenger Cars
+Position 7
+VIN code
+Body style
+Trim Level
+A
+4-door sedan
+Infiniti Q50 Pure (US: '21, Canada: '21-'24)
+B
+4-door sedan
+Altima S ('19-'25), Versa S w/manual trans. ('20-'25), Sentra S ('20-), Maxima S ('20), Infiniti Q50 Luxe ('21-'24)
+C
+4-door sedan
+Altima SR ('19-), Sentra SV ('20-), Maxima SV ('20-'23), Infiniti Q50 Sensory ('21-'24), Q50 Signature Edition ('21)
+D
+4-door sedan
+Altima SV ('19-), Versa S w/auto. trans. ('20-'25), Sentra SR ('20-), Maxima SL (US: '20, Canada: '20-'23),
+Infiniti Q50 Red Sport 400 ('21-'24)
+E
+4-door sedan
+Altima SL ('19-'25), Versa SV ('20-'25), Maxima SR ('20-'23), Sentra SL ('26-)
+F
+4-door sedan
+Altima Platinum ('19-'22), Altima Edition One ('19), Versa SR ('20-'25), Maxima Platinum ('20-'23), Maxima 40th Anniversary Edition ('21)
+A
+4-door hatchback
+(5-door hatchback)
+Nissan Rogue Sport S (US: '21-'22), Qashqai S (Canada only: '21-'23), Ariya EV Venture ('23-'24)
+B
+4-door hatchback
+(5-door hatchback)
+Nissan Leaf EV S ('20-), Leaf EV S+ ('26-), Kicks S ('20-'24), Kicks Play S ('25), Rogue Sport SV (US: '21-'22), Qashqai SV, SL (Canada only: '21-'23),
+Ariya EV Engage, Evolve, Empower ('23-'24), Ariya EV Premiere ('23)
+C
+4-door hatchback
+(5-door hatchback)
+Nissan Leaf EV SV ('20-'25), Leaf EV SV+ ('26-), Kicks SV ('20-'24), Rogue Sport SL (US: '21-'22), Ariya EV Platinum ('23-'24)
+D
+4-door hatchback
+(5-door hatchback)
+Nissan Leaf EV SL (US: '20-'22, Canada: '20-'23), Kicks SR ('20-'24)
+E
+4-door hatchback
+(5-door hatchback)
+Nissan Leaf EV Platinum+ ('26-)
+A
+2-door coupe
+Nissan Z Sport ('23-)
+B
+2-door coupe
+Nissan GT-R Premium ('21, '23-'24), GT-R T-Spec ('21, '24), Nissan Z Performance ('23-), Z Proto Spec ('23)
+C
+2-door coupe
+Nissan Z Nismo ('24-)
+D
+2-door coupe
+Nissan GT-R Nismo ('21, '23-'24)
+J
+2-door coupe
+Infiniti Q60 Pure ('21-'22)
+K
+2-door coupe
+Infiniti Q60 Luxe ('21-'22)
+L
+2-door coupe
+Infiniti Q60 Red Sport 400 ('21-'22)
+Multi-Purpose Passenger Vehicles & Vans
+Position 7
+VIN code
+Body style
+Trim Level
+A
+4-door wagon
+Murano S ('20-'23), Pathfinder S ('20, '22-), Rogue S ('21-), Armada S ('21-'22), Armada SV ('21-),
+Infiniti QX50 Pure ('21-'25), QX80 Luxe ('21-'24), QX80 Premium Select ('21-'24), QX80 Pure ('25-)
+B
+4-door wagon
+Murano SV ('20-), Pathfinder SV ('20, '22-), Pathfinder Rock Creek Edition ('23-), Rogue SV ('21-), Rogue Rock Creek Edition ('25-),
+Rogue Dark Armor ('26), Armada SL ('21-), Kicks S ('25-), Ariya EV Engage, Evolve ('25), Ariya EV SV FWD, SL AWD, SL+ FWD/AWD (Canada: '26), Infiniti QX50 Luxe ('21-'25), QX80 Sensory ('21-'24), QX80 Luxe ('25-)
+C
+4-door wagon
+Murano SL ('20-), Pathfinder SL ('20, '22-), Rogue SL ('21-), Armada Platinum [8-psgr.] ('21-'24), Armada Platinum Reserve ('25-),
+Kicks SV ('25-), Ariya EV Platinum ('25), Ariya EV Platinum+ AWD (Canada: '26), Infiniti QX50 Essential ('21-'22), QX50 Sensory ('21), QX80 Autograph ('25-)
+D
+4-door wagon
+Murano Platinum ('20-), Pathfinder Platinum ('20, '22-), Rogue Platinum ('21-),
+Armada Platinum w/Captain’s Chairs Package [7-psgr.] ('21-'24), Armada Pro-4X ('25-), Kicks SR ('25-),
+Infiniti QX50 Autograph ('21-'24), QX80 Sensory ('25), QX80 Sport ('26-)
+E
+4-door wagon
+Armada S ('23), Armada Platinum ('25-), Infiniti QX50 Sensory ('22-'24), QX60 Pure ('22-)
+F
+4-door wagon
+Armada Nismo ('26-), Infiniti QX50 Sport ('23-'25), QX60 Luxe ('22-), QX60 Sport ('26-)
+G
+4-door wagon
+Infiniti QX60 Sensory ('22-'25)
+H
+4-door wagon
+Infiniti QX60 Autograph ('22-)
+J
+4-door wagon
+Infiniti QX55 Luxe ('22-'25)
+K
+4-door wagon
+Infiniti QX55 Essential ('22-'25)
+L
+4-door wagon
+Infiniti QX55 Sensory ('22-'25)
+Y
+Van
+Chevrolet City Express LS ('15-'18)
+Z
+Van
+Chevrolet City Express LT ('15-'18)
+Restraint System
+[
+edit
+|
+edit source
+]
+Passenger Cars
+Position 8
+Code
+Description
+S
+Standard (Manual seatbelts) 2wd models (1981-1989, Canada: 1990-1995)
+1
+Standard (Manual seatbelts) 2wd models (some 1987 models)
+Y
+Standard (Manual seatbelts) 4wd models (1987-1989)
+P
+Automatic seatbelts (1987-1989)
+A
+Door-mounted 3-point Automatic seatbelts - 2wd models (1990-1994)
+B
+Door-mounted 2-point Automatic seatbelts - 2wd models (1990, 1991)
+F
+Motorized 2-point Automatic seatbelts plus driver-side airbag - 2wd models (1992-1994)
+H
+Door-mounted 3-point Automatic seatbelts plus driver-side airbag - 2wd models (1991-1994)
+J
+Motorized 2-point Automatic seatbelts - 4wd models (1990)
+P
+Motorized 2-point Automatic seatbelts - 2wd models (1990-1994)
+C
+Manual seatbelts plus driver-side airbag - 2wd models (1990-1994)
+D
+Manual seatbelts plus dual front airbags - 2wd models (1993-2008)
+M
+Manual seatbelts plus dual front airbags - 4wd models (2009 GT-R base model)
+A
+Manual seatbelts plus dual front airbags & front side airbags - 2wd models (1997-2009)
+B
+Manual seatbelts plus dual front airbags & front side airbags - 4wd models (Not used)
+E
+Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags - 2wd models (2002-2009)
+F
+Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags - 4wd models (2004-2009)
+E
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & front side curtain airbags, Rear: Outboard 3-point Manual seatbelts - 2wd models (2010-2013 G37 convertible, 2014-2015 Q60 convertible)
+F
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & front side curtain airbags, Rear: Outboard 3-point Manual seatbelts - 4wd models (2010-2024 GT-R except 2014 Track Edition)
+G
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & front side curtain airbags - 4wd models (2014 GT-R Track Edition)
+H
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & front side curtain airbags - 2wd models (2010-2020 370Z, 2023- Nissan Z)
+K
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags - 2wd models  (2010-2013 G37 coupe, 2014-2015, 2017-2022 Q60 coupe)
+L
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags - 4wd models  (2010-2013 G37 coupe, 2014-2015, 2017-2022 Q60 coupe)
+P
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt - 2wd models  (2010-2024)
+R
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt - 4wd models  (2010-2024)
+U
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & driver-side knee airbag, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt - 2wd models  (2018-2019 Kicks)
+V
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags, Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt - 2wd models  (2019-)
+W
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags, Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt - 4wd models  (2019-)
+A
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags, Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt - 2wd models  (2023-2024 Ariya, 2026 Leaf)
+B
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags, Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt - 4wd models  (2023-2024 Ariya)
+D
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag, Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt - 4wd models  (2023-2024 Ariya Platinum)
+GVWR, Chassis, Brake System, & Drive Wheels  1981-2009
+[
+edit
+|
+edit source
+]
+Multi-Purpose Passenger Vehicles & Light Duty Trucks
+Position 8
+Code
+GVWR
+Chassis, Brake System, Drive Wheels
+Application
+S
+Class B
+Standard, 2wd
+Nissan Hardbody Pickup [D21] Regular Cab Short Bed 2wd Standard grade ('86 1/2-'89)
+S
+Class C
+Standard, 2wd
+Datsun 720 pickup 2wd ('81-'83), Nissan 720 pickup 2wd ('83 1/2 - '86),
+Nissan Hardbody Pickup [D21] Regular Cab Short Bed/King Cab 2wd ('86 1/2-'97),
+Regular Cab Long Bed 2wd ('86 1/2-'88),
+Pathfinder 2wd ('89-'00), Van [C22] ('87-'88, '90)
+S
+Class C
+2wd (has Rear-wheel ABS)
+Nissan Frontier Regular Cab 2wd ('98-'01), Frontier King Cab 2wd ('98-'02)
+T
+Class C
+2wd (has 4-wheel ABS)
+Nissan Xterra 2wd ('00-'04), Frontier King Cab 2wd ('00-'04), Frontier Crew Cab Short Bed 2wd ('00-'04)
+H
+Class C
+Heavy Duty version
+Datsun 720 pickup Heavy Duty ('82-'83), Nissan 720 pickup Heavy Duty ('83 1/2 - '86)
+Y
+Class C
+4wd
+Datsun 720 pickup 4wd ('81-'83), Nissan 720 pickup 4wd ('83 1/2 - '86),
+Nissan Stanza Wagon 4wd ('86-'88), Pathfinder 4wd ('87-'89)
+H
+Class D
+Heavy Duty version
+Nissan Hardbody Pickup [D21] Regular Cab Long Bed Heavy Duty ('86 1/2-'88), Chassis Cab ('86 1/2-'88), Regular Cab Long Bed ('89-'91)
+S
+Class D
+Heavy Duty version
+Nissan Hardbody Pickup [D21] Regular Cab Long Bed ('92-'95)
+X
+Class D
+2wd (has 4-wheel ABS)
+Nissan Frontier Crew Cab Long Bed 2wd ('02-'04), Pathfinder 2wd ('01-'04), Infiniti QX4 2wd ('01-'03)
+Y
+Class D
+4wd
+Nissan Hardbody Pickup [D21] Regular Cab Short Bed/King Cab 4wd ('86 1/2-'97),
+Regular Cab Long Bed 4wd ('86 1/2-'88),
+Frontier Regular Cab 4wd ('98-'99), Frontier King Cab 4wd ('98-'04), Frontier Crew Cab 4wd ('00-'04),
+Pathfinder 4wd ('90-'04), Xterra 4wd ('00-'04), Infiniti QX4 4wd ('97-'03)
+R
+Class B
+4-wheel ABS, 2wd
+Nissan Cube ('09)
+T
+Class C
+4-wheel ABS, 2wd
+Nissan Rogue ('08-'09), Murano 2wd ('03-'07), Frontier King Cab 2wd w/2.5L I4 ('05-'09),
+X-Trail (Canada only: '05-'06), Suzuki Equator Extended Cab 2wd w/2.5L I4 ('09)
+V
+Class C
+4-wheel ABS, 4wd
+Nissan Rogue ('08-'09), X-Trail (Canada only: '05-'06)
+U
+Class D
+4-wheel ABS, 2wd
+Nissan Quest ('04-'09), Xterra ('05-'09), Murano 2wd ('09), Pathfinder V6 2wd ('05-'09),
+Frontier King Cab/Crew Cab 2wd w/4.0L V6 ('05-'09),
+Suzuki Equator Extended Cab/Crew Cab 2wd w/4.0L V6 ('09), Infiniti FX35 ('03-'09)
+W
+Class D
+4-wheel ABS, 4wd
+Nissan Xterra ('05-'09), Murano 4wd ('03-'07, '09), Pathfinder V6 4wd ('05-'07),
+Frontier King Cab/Crew Cab 4wd w/4.0L V6 ('05-'09),
+Suzuki Equator Extended Cab/Crew Cab 4wd w/4.0L V6 ('09),
+Infiniti FX35 ('03-'09), FX45 ('03-'08), FX50 ('09)
+A
+Class E
+4-wheel ABS, 2wd
+Nissan Pathfinder V8 2wd ('08), Armada 2wd ('04-'07), Titan King Cab 2wd ('04-'09),
+Titan Crew Cab 2wd ('04-'07), Infiniti QX56 2wd ('04-'07)
+B
+Class E
+4-wheel ABS, 4wd
+Nissan Pathfinder V6, V8 4wd ('08-'09), Armada 4wd ('04-'06), Titan King Cab/Crew Cab 4wd ('04-'07)
+E
+Class E
+4-wheel ABS, 2wd
+Nissan Titan King Cab Long Bed 2wd ('08-'09)
+D
+Class F
+4-wheel ABS, 2wd
+Nissan Armada 2wd ('08-'09), Titan Crew Cab 2wd ('08-'09), Infiniti QX56 2wd ('08-'09)
+C
+Class F
+4-wheel ABS, 4wd
+Nissan Armada 4wd ('07-'09), Titan King Cab/Crew Cab 4wd ('08-'09), Infiniti QX56 4wd ('04-'09)
+G
+Class F
+4-wheel ABS, 2wd
+Nissan Titan Crew Cab Long Bed 2wd ('08-'09)
+F
+Class F
+4-wheel ABS, 4wd
+Nissan Titan King Cab/Crew Cab Long Bed 4wd ('08-'09)
+Note: Some older models have 4-wheel ABS but it isn't indicated in the VIN.
+GVWR, Brake System, Drive Wheels, & Restraint System 2010-
+[
+edit
+|
+edit source
+]
+Multi-Purpose Passenger Vehicles & Light Duty Trucks
+Position 8
+Code
+GVWR, Brake System, Drive Wheels
+Restraint System
+Application
+R
+Class B,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,
+Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Cube ('10-'14), Juke 2wd ('11-'17)
+Z
+Class B,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags
+Nissan Cube w/Cargo Version Package
+('10-'12)
+A
+Class B,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Nissan Kicks S, SV 2wd ('25-)
+A
+Class C,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Nissan Kicks SR 2wd ('25-)
+B
+Class C,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Nissan Kicks S, SV, SR 4wd ('25-)
+C
+Class C,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag,
+Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Nissan Kicks SR 2wd w/Premium Package ('25-)
+D
+Class C,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag,
+Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Nissan Kicks SR 4wd w/Premium Package ('25-)
+T
+Class C,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,
+Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Rogue ('10-'20),
+Rogue Select ('14-'15)
+V
+Class C,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,
+Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Rogue ('10-'20),
+Rogue Select ('14-'15), Juke 4wd ('11-'17)
+1
+Class C,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX50 2wd ('19-'20)
+A
+Class C,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Nissan Rogue ('21-'25),
+Infiniti QX50 2wd ('21-'25)
+B
+Class C,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Nissan Rogue ('21-'25)
+C
+Class C,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag, Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Nissan Rogue Platinum ('21-'25)
+D
+Class C,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag, Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Nissan Rogue Platinum ('21-'25)
+N
+Class C,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags
+Nissan NV200 Cargo Van ('13-'21)
+N
+Class C,
+4-wheel ABS,
+2wd,
+GM Body Style 60: Cargo Van
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags
+Chevrolet City Express ('15-'18)
+T
+Class C,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan NV200 Taxi [Passenger Van]
+('14-'17, '19)
+T
+Class C,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags
+Nissan Frontier King Cab 2wd ('10-'19), Suzuki Equator Extended Cab 2wd ('10-'12) [Models w/2.5L I4]
+U
+Class D,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags
+Nissan Frontier King Cab 2wd ('10-'19), Suzuki Equator Extended Cab 2wd ('10) [Models w/4.0L V6]
+W
+Class D,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags
+Nissan Frontier King Cab 4wd ('10-'19), Suzuki Equator Extended Cab 4wd ('10-'12) [Models w/4.0L V6]
+R
+Class D,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Frontier Crew Cab 2wd ('10-'19), Suzuki Equator Crew Cab 2wd ('10-'12)
+V
+Class D,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Frontier Crew Cab 4wd ('10-'19), Suzuki Equator Crew Cab 4wd ('10-'12)
+N
+Class D,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags
+Nissan Rogue S & SV w/Family Package  ('14-'17)
+M
+Class D,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags
+Nissan Rogue S & SV w/Family Package ('14-'17)
+3
+Class D,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX50 4wd ('19-'20)
+B
+Class D,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX50 4wd ('21-'25)
+3
+Class D,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX55 4wd ('22)
+R
+Class D,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX55 4wd ('23-'25)
+P
+Class D,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Quest ('11-'17)
+U
+Class D,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,
+Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Murano ('10-'14), Xterra ('10-'15), Infiniti FX35 ('10-'12), FX37 ('13),
+QX70 ('14-'17)
+W
+Class D,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,
+Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Murano ('10-'14), Xterra ('10-'15), Infiniti FX35 ('10-'12), FX37 ('13),
+FX50 ('10-'13), QX70 ('14-'17)
+Y
+Class D,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,
+Rear: Outboard 3-point Manual seatbelts
+Nissan Murano CrossCabriolet ('11-'14)
+G
+Class D,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & driver-side knee airbag,
+Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Murano ('15-'18)
+H
+Class D,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & driver-side knee airbag,
+Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Murano ('15-'18)
+J
+Class D,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Nissan Murano ('19-'25)
+S
+Class D,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Nissan Murano ('19-'25)
+K
+Class D,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag,
+Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Nissan Murano Platinum ('25-)
+T
+Class D,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag,
+Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Nissan Murano Platinum ('25-)
+E
+Class D,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags, Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Nissan Ariya ('25-)
+F
+Class D,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags, Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Nissan Ariya ('25-)
+H
+Class D,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag, Rear: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt
+Nissan Ariya Platinum ('25-)
+N
+Class D,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags
+Nissan Pathfinder 2wd ('10-'20),
+Infiniti JX35 ('13), QX60 ('14-'20)
+M
+Class D,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags
+Nissan Pathfinder 4wd ('13-'20),
+Infiniti JX35 ('13), QX60 ('14-'20)
+A
+Class D,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Pathfinder ('22-'25)
+C
+Class D,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Pathfinder ('22-'25)
+B
+Class D,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Pathfinder ('22-'25)
+D
+Class D,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Pathfinder ('22-'25)
+G
+Class D,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag,
+2nd Row: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Pathfinder Platinum ('22-'25)
+H
+Class D,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag,
+2nd Row: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Pathfinder Platinum ('22-'25)
+B
+Class E,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags
+Nissan Pathfinder 4wd ('10-'12)
+J
+Class E,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag,
+2nd Row: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Pathfinder Platinum ('22-'25)
+K
+Class E,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag,
+2nd Row: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Pathfinder Platinum ('22-'25)
+R
+Class E,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags
+Infiniti QX60 ('22-'25)
+S
+Class E,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags
+Infiniti QX60 ('22-'25)
+T
+Class E,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag,
+2nd Row: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags
+Infiniti QX60 Autograph ('22-'25)
+U
+Class E,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag,
+2nd Row: Outboard 3-point Manual seatbelts & rear side airbags & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags
+Infiniti QX60 Autograph ('22-'25)
+E
+Class E,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags
+Nissan Frontier King Cab 2wd ('20-'21)
+F
+Class E,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags
+Nissan Frontier King Cab 4wd ('20-'21)
+A
+Class E,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Frontier Crew Cab 2wd ('20-'21)
+B
+Class E,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Frontier Crew Cab 4wd ('20-'21)
+L
+Class E,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags
+Nissan Frontier King Cab 2wd ('22-'25)
+M
+Class E,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags
+Nissan Frontier King Cab 4wd ('22-'25)
+J
+Class E,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Frontier Crew Cab 2wd ('22-'25)
+K
+Class E,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Frontier Crew Cab 4wd ('22-'25)
+A
+Class E,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan King Cab 2wd ('10-'15)
+H
+Class E,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags and center 2-Point Manual Lap Belt, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan King Cab 2wd ('10-'15)
+C
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,★
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Armada ('21-'24)
+D
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,★
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Armada ('21-'24)
+A
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,★
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Armada ('21-'24)
+B
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,★
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Armada ('21-'24)
+A
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Armada ('25)
+B
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Armada ('25)
+D
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Armada ('25-)
+E
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Armada ('25-)
+F
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Armada Platinum Reserve ('25-)
+C
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Armada Platinum Reserve ('25-)
+G
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Armada Platinum Reserve ('25-)
+H
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Armada Platinum Reserve ('25-)
+D
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX56 ('10-'13), QX80 ('14-'21),
+Nissan Armada ('10-'15, '17-'20)
+C
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX56 ('10-'13), QX80 ('14-'21),
+Nissan Armada ('10-'15, '17-'20)
+F
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX56 ('10-'13), QX80 ('14-'21),
+Nissan Armada ('10-'15, '17-'20)
+E
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX56 ('10-'13), QX80 ('14-'21),
+Nissan Armada ('10-'15, '17-'20)
+D
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX80 ('22-'24)
+C
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX80 ('22-'24)
+F
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX80 ('22-'24)
+E
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX80 ('22-'24)
+D
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX80 ('25-)
+E
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX80 ('25-)
+A
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX80 ('25-)
+B
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX80 ('25-)
+C
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags & dual front knee airbags & front center airbag,
+2nd Row: Outboard 3-point Manual seatbelts & side curtain airbags,
+3rd Row: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Infiniti QX80 Autograph ('25-)
+D
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan Crew Cab 2wd ('10-'15)
+C
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan King Cab/Crew Cab 4wd
+('10-'15)
+K
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags and center 2-Point Manual Lap Belt, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan Crew Cab 2wd ('10-'15)
+J
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags and center 2-Point Manual Lap Belt, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan King Cab/Crew Cab 4wd
+('10-'15)
+7
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags and center 2-Point Manual Lap Belt
+Nissan Titan Regular Cab or
+Titan King Cab w/Seat Delete Package
+2wd ('17-'19)
+8
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags and center 2-Point Manual Lap Belt
+Nissan Titan Regular Cab or
+Titan King Cab w/Seat Delete Package
+4wd ('17-'19)
+K
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags and center 2-Point Manual Lap Belt, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan King Cab/Crew Cab 2wd
+('17-'19)
+J
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags and center 2-Point Manual Lap Belt, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan King Cab/Crew Cab 4wd
+('17-'19)
+6
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan King Cab/Crew Cab 2wd
+('17-'19)
+5
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan King Cab/Crew Cab 4wd
+('17-'19)
+E
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags and center 2-Point Manual Lap Belt, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan King Cab 2wd ('20-'23),
+Titan Crew Cab 2wd ('20-'24)
+C
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags and center 2-Point Manual Lap Belt, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan King Cab 4wd ('20-'23),
+Titan Crew Cab 4wd ('20-'24)
+F
+Class F,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan King Cab 2wd ('20-'23),
+Titan Crew Cab 2wd ('20-'24)
+D
+Class F,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan King Cab/Crew Cab 4wd
+('20-'24)
+9
+Class G,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags and center 2-Point Manual Lap Belt
+Nissan Titan XD Regular Cab or
+Titan XD King Cab w/Seat Delete Package 2wd ('17-'19)
+P
+Class G,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags and center 2-Point Manual Lap Belt
+Nissan Titan XD Regular Cab or
+Titan XD King Cab w/Seat Delete Package 4wd ('17-'19)
+1
+Class G,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags and center 2-Point Manual Lap Belt, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan XD Crew Cab 2wd ('16-'19), Titan XD King Cab 2wd ('17-'19)
+3
+Class G,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags and center 2-Point Manual Lap Belt, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan XD Crew Cab 4wd ('16-'19), Titan XD King Cab 4wd ('17-'19)
+2
+Class G,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan XD Crew Cab 2wd ('16-'19), Titan XD King Cab 2wd ('17-'19)
+4
+Class G,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan XD Crew Cab 4wd ('16-'19), Titan XD King Cab 4wd ('17-'19)
+A
+Class G,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags and center 2-Point Manual Lap Belt, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan XD Crew Cab 4wd ('20-'24)
+B
+Class G,
+4-wheel ABS,
+4wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags, Rear: Outboard 3-point Manual seatbelts & side curtain airbags and center 3-point Manual seatbelt
+Nissan Titan XD Crew Cab 4wd ('20-'24)
+L
+Class G,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags
+Nissan NV1500 Cargo Van ('12-'15)
+M
+Class G,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags
+Nissan NV1500 Cargo Van ('12-'21)
+X
+Class H,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags
+Nissan NV2500/NV3500 Cargo Van ('12-'15)
+Y
+Class H,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags
+Nissan NV2500/NV3500 Cargo Van ('12-'21)
+A
+Class H,
+4-wheel ABS,
+2wd
+Front: 3-point Manual seatbelts plus dual front airbags & front side airbags & side curtain airbags
+2nd, 3rd, & 4th Row: 3-point Manual seatbelts for all seating positions plus Outboard side curtain airbags for all rows. ♦
+Nissan NV3500 Passenger Van ('12-'21)
+★ Some sources suggest that these models have dual front knee airbags however that information is incorrect as these models do
+not
+have knee airbags.
+♦ All information is accurate but not all information was officially declared by Nissan as part of its VIN decoding.
+Plant
+[
+edit
+|
+edit source
+]
+Position 11
+Code
+Description
+A
+Nissan Motor Manufacturing UK (NMUK) plant, Sunderland, Tyne and Wear, England, United Kingdom
+B
+Nissan do Brasil Automoveis plant, Resende, Rio de Janeiro state, Brazil
+C
+Nissan North America Smyrna plant, Smyrna, TN, USA
+D
+Ford Ohio Assembly Plant, Avon Lake, OH, USA (1993-2002 Quest)
+F
+COMPAS plant, Aguascalientes city, Aguascalientes state, Mexico ('19+ QX50, '22+ QX55)
+G
+Oragadam, Tamil Nadu, India (Mexican market Magnite)
+K
+Nissan Mexicana plant, Cuernavaca, Morelos, Mexico
+L
+Nissan Mexicana plant, Aguascalientes city, Aguascalientes state, Mexico (A1 plant)
+M
+Tochigi plant, Kaminokawa, Tochigi prefecture, Japan
+N
+Nissan North America Canton plant, Canton, MS, USA
+P
+Renault Samsung plant, Pusan, South Korea (2015-2020 Rogue)
+T
+Oppama plant, Yokosuka, Kanagawa prefecture, Japan
+U
+Zama plant, Zama, Kanagawa prefecture, Japan
+W
+Nissan Motor Kyushu plant, Kanda, Fukuoka prefecture, Japan
+W
+Takada Kogyo Co., Ltd. Honmoku plant, Yokohama, Kanagawa prefecture, Japan (Only for '93-'94 240SX convertible)
+X
+Nissan Shatai Co., Ltd. Shonan plant, Hiratsuka, Kanagawa prefecture, Japan
+Y
+Nissan Mexicana plant, Aguascalientes city, Aguascalientes state, Mexico (A2 plant)
+4
+Aichi Machine Industry Co., Ltd. plant, Nagoya, Aichi prefecture, Japan
+6
+Bang Sao Thong District, Samut Prakan province, Thailand (Mexican market Kicks e-Power, Kicks Play e-Power)
+9
+Gunma, Japan (1980's)
+9
+Nissan Shatai Co., Ltd. Kyushu plant, Kanda, Fukuoka prefecture, Japan (21st century)
+International VIN format
+[
+edit
+|
+edit source
+]
+Nissan uses following format for Europe and the rest of the world:
+Position
+Sample
+Description
+1
+J
+Country of Origin
+2
+N
+Manufacturer
+3
+1
+Vehicle Type
+4
+C
+Body Type
+5
+P
+Engine Type
+6
+U
+Restraint
+7
+D
+Model Line
+8
+2
+9
+2
+10
+U
+Market Destination
+11
+0
+12
+0
+Sequential number
+13
+0
+14
+0
+15
+0
+16
+0
+17
+0
+Nissan WMIs
+[
+edit
+|
+edit source
+]
+JN1 - Nissan Motor Co. Ltd., Nissan Passenger Vehicle, Complete
+JN3 - Nissan Motor Co. Ltd., Nissan Passenger Vehicle, Incomplete (240SX convertible)
+JN6 - Nissan Motor Co. Ltd., Nissan Truck & Cargo Van
+JN8 - Nissan Motor Co. Ltd., Nissan Multi-Purpose Vehicle
+JNK - Nissan Motor Co. Ltd., Infiniti Passenger Vehicle, Complete
+JNR - Nissan Motor Co. Ltd., Infiniti Multi-Purpose Vehicle
+JNX - Nissan Motor Co. Ltd., Infiniti Passenger Vehicle, Incomplete (M30 convertible)
+1N4 - Nissan Motor Mfg. Corp. USA, Nissan Passenger Vehicle
+1N6 - Nissan Motor Mfg. Corp. USA, Nissan Truck & Cargo Van
+3N1 - Nissan Mexicana SA de CV, Nissan Passenger Vehicle
+3N6 - Nissan Mexicana SA de CV, Nissan Truck & Cargo Van
+3N8 - Nissan Mexicana SA de CV, Nissan Multi-Purpose Vehicle
+3PC - COMPAS, Infiniti Multi-Purpose Vehicle (QX50 2019-2025, QX55 2022-2025)
+4N2 - Ford Motor Co., Nissan Multi-Purpose Vehicle (1993-2002 Quest)
+5BZ - Nissan Motor Mfg. Corp. USA, Nissan Bus (Van with more than 3 rows of seats)
+5N1 - Nissan Motor Mfg. Corp. USA, Nissan Multi-Purpose Vehicle
+5N3 - Nissan Motor Mfg. Corp. USA, Infiniti Multi-Purpose Vehicle
+5Z6 - Nissan Motor Mfg. Corp. USA, Suzuki Truck (Equator)
+6F4 - Nissan Motor Australia, Nissan vehicles
+7A7 - Nissan New Zealand, Nissan vehicles
+8AN - Renault Argentina, Nissan vehicles
+94D - Nissan do Brasil Automoveis Ltda. & Renault Brazil, Nissan vehicles
+ADN - Nissan South Africa (Pty) Ltd, Nissan Truck & Van
+KNM - Renault Samsung Motors, Nissan Passenger & Multi-Purpose Vehicle (South Korea)
+LGB - Dongfeng Nissan, Nissan vehicles (China)
+LJN - Zhengzhou Nissan, Nissan vehicles (China)
+MBH - Maruti Suzuki India Limited, Nissan Passenger Vehicle (Pixo)
+MDH - Nissan Motor India Pvt. Ltd., Nissan Passenger Vehicle
+MNT - Nissan Motor Thailand, Nissan vehicles
+PN8 - Tan Chong Motor Assemblies Sdn. Bhd., Nissan vehicles (Malaysia)
+SJK - Nissan Motor Manufacturing (UK) Ltd., Infiniti Passenger Vehicle
+SJN - Nissan Motor Manufacturing (UK) Ltd., Nissan Passenger & Multi-Purpose Vehicle
+VNV - Renault SA, Nissan Passenger Vehicle & Van (France)
+VSK - Nissan Motor Iberica SA, Nissan Passenger & Multi-Purpose Vehicle & Truck
+VWA - Nissan Vehiculos Industriales SA, Nissan Commercial Trucks
+Z8N - Nissan Manufacturing Rus, Nissan vehicles
+ZAR - Alfa Romeo SpA, Nissan Passenger Vehicle (Cherry Europe)
+Retrieved from "
+https://en.wikibooks.org/w/index.php?title=Vehicle_Identification_Numbers_(VIN_codes)/Nissan/VIN_Codes&oldid=4611242
+"
+Category
+:
+Book:Vehicle Identification Numbers (VIN codes)
+This page was last edited on 11 January 2026, at 05:16.
+Text is available under the
+Creative Commons Attribution-ShareAlike License
+; additional terms may apply. By using this site, you agree to the
+Terms of Use
+and
+Privacy Policy.
+Privacy policy
+About Wikibooks
+Disclaimers
+Code of Conduct
+Developers
+Statistics
+Cookie statement
+Mobile view
+Search
+Search
+Toggle the table of contents
+Vehicle Identification Numbers (VIN codes)/Nissan/VIN Codes
+Add languages
+Add topic
