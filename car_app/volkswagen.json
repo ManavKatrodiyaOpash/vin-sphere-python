@@ -1,0 +1,167 @@
+{
+  "manufacturer": "Volkswagen",
+  "_notes": {
+    "vin_structure": "17 chars: pos1-3=WMI, pos4-8=VDS, pos9=check_digit, pos10=model_year, pos11=plant, pos12-17=serial",
+    "vds_market_split": "CRITICAL — VW is the MOST distinctive in VDS approach. European-format VINs (most GCC vehicles): pos4-6 = 'ZZZ' filler (explicit ISO 3779 permission for unused positions), pos7 = model_line_code, pos8 = engine_type_code, pos9 = NOT check digit (often 0 or Z). US-format VINs (1VW/3VW): pos4-8 full NHTSA encoding, pos9 = NHTSA check digit.",
+    "gcc_note": "Most UAE/GCC VW vehicles are WVW (German passenger cars) or WVG (German SUVs) — European format. ZZZ in pos4-6 carries NO vehicle data. For a UAE VIN intelligence platform, all VDS intelligence for GCC VWs comes ONLY from pos7 and pos8.",
+    "pr_codes_note": "VW Group PR codes (Produktionsnummer) — 3-character codes on spare-wheel-well sticker — are the primary tool for full option/trim ID. E.g. 9AK = dual-zone climate, 1KW = electronic parking brake. FAR more granular than VIN. These are NOT in the VIN string.",
+    "check_digit_note": "WVW/WVG/WV1/WV2 European VINs: pos9 is NOT NHTSA check digit. 1VW/3VW US/Mexico VINs: pos9 = NHTSA check digit."
+  },
+
+  "model_year_codes": {
+    "V": 1997, "W": 1998, "X": 1999, "Y": 2000,
+    "1": 2001, "2": 2002, "3": 2003, "4": 2004, "5": 2005,
+    "6": 2006, "7": 2007, "8": 2008, "9": 2009,
+    "A": 2010, "B": 2011, "C": 2012, "D": 2013, "E": 2014,
+    "F": 2015, "G": 2016, "H": 2017, "J": 2018, "K": 2019,
+    "L": 2020, "M": 2021, "N": 2022, "P": 2023, "R": 2024,
+    "S": 2025, "T": 2026
+  },
+
+  "wmi": {
+    "WVW": {"manufacturer": "Volkswagen AG", "country": "Germany", "vehicle_type": "Passenger Car", "notes": "Golf/Polo/Passat/Arteon/ID.3/ID.7 from Wolfsburg, Emden, Zwickau, Dresden"},
+    "WVG": {"manufacturer": "Volkswagen AG", "country": "Germany", "vehicle_type": "SUV", "notes": "Tiguan/Touareg/T-Cross/T-Roc/ID.4/ID.5/Atlas from Wolfsburg and Bratislava"},
+    "WV1": {"manufacturer": "Volkswagen AG", "country": "Germany", "vehicle_type": "Commercial Vehicle", "notes": "Caddy/Transporter commercial variants"},
+    "WV2": {"manufacturer": "Volkswagen AG", "country": "Germany", "vehicle_type": "Bus / Transporter", "notes": "Transporter T6/T7 buses"},
+    "1VW": {"manufacturer": "Volkswagen of America", "country": "USA", "vehicle_type": "Passenger Car", "notes": "US-market VW cars; NHTSA-format VIN"},
+    "1V9": {"manufacturer": "Volkswagen of America", "country": "USA", "vehicle_type": "SUV", "notes": "US-market VW SUVs"},
+    "3VW": {"manufacturer": "Volkswagen de Mexico (Puebla plant)", "country": "Mexico", "vehicle_type": "Passenger Car / SUV", "notes": "Jetta, Golf, Tiguan from Puebla; NHTSA-format VIN"},
+    "9BW": {"manufacturer": "Volkswagen do Brasil", "country": "Brazil", "vehicle_type": "Passenger Car", "notes": "Brazilian-market VW"},
+    "AAV": {"manufacturer": "Volkswagen South Africa", "country": "South Africa", "vehicle_type": "Passenger Car", "notes": "South African assembly — Polo, Polo Vivo, T-Cross"}
+  },
+
+  "position_9": {
+    "_note": "WVW/WVG/WV1/WV2 European-built: pos9 is NOT NHTSA check digit — often '0' or 'Z'. Do NOT run check digit validation on these. 1VW/3VW US/Mexico: NHTSA check digit applies."
+  },
+
+  "position_11_plant": {
+    "_note": "Volkswagen assembly plant codes.",
+    "A": "Wolfsburg, Germany (Golf/Polo/Tiguan — main plant)",
+    "B": "Brussels, Belgium (Golf Cabriolet legacy / Audi Q8 e-tron now)",
+    "C": "Barcelona, Spain (legacy Polo/Caddy)",
+    "D": "Ingolstadt, Germany (VW Group shared — Audi-led)",
+    "E": "Emden, Germany (Passat/Arteon)",
+    "G": "Osnabrück, Germany (VW Karmann legacy)",
+    "H": "Hannover, Germany (Transporter/Caravelle/Multivan)",
+    "J": "Bratislava, Slovakia (Touareg/Porsche Cayenne/Audi Q7)",
+    "K": "Kaluga, Russia (Polo Sedan legacy — pre-sanctions)",
+    "M": "Mosel/Zwickau, Germany (ID.3/ID.4/ID.5 BEV dedicated)",
+    "N": "Nakhon Ratchasima, Thailand (Amarok/Tiguan CKD)",
+    "P": "Puebla, Mexico (Jetta/Golf/Tiguan/Atlas — 3VW WMI)",
+    "R": "Poznan, Poland (Caddy/Transporter T5)",
+    "S": "Bratislava Plant 2, Slovakia",
+    "T": "Chattanooga, Tennessee, USA (Atlas/ID.4 — 1VW WMI)",
+    "U": "Uitenhage, South Africa (Polo/Polo Vivo — AAV WMI)",
+    "W": "Dresden, Germany (Phaeton legacy / ID.3 pilot)",
+    "X": "Xinjiang / Anting, China (SVW JV)",
+    "Z": "Pamplona, Spain (Polo/T-Cross)"
+  },
+
+  "vds_format_detection": {
+    "_note": "IF vin[3]+vin[4]+vin[5] == 'ZZZ' → use euro_format tables (all WVW/WVG/AAV GCC vehicles). ELSE → use us_format tables (1VW/3VW). This is the single most important check for VW VIN decoding."
+  },
+
+  "euro_format": {
+    "_note": "European-format VDS: pos4-6 = ZZZ (literal filler with no vehicle data). ALL GCC VW vehicles from Germany will have ZZZ here. Meaningful data ONLY in pos7 and pos8.",
+    "_pos_layout": {
+      "pos4": "Z (filler — no data)",
+      "pos5": "Z (filler — no data)",
+      "pos6": "Z (filler — no data)",
+      "pos7": "Model line code — PRIMARY decode field",
+      "pos8": "Engine type code — PRIMARY decode field"
+    },
+
+    "position_7_model_line": {
+      "_note": "Position 7 = vehicle model line. Most consistent VW position across both market formats. For European-format this is the ONLY model identifier.",
+      "A": "Golf / Golf GTI / Golf R / Golf Cabrio",
+      "B": "Passat sedan (B-class)",
+      "C": "Passat estate (Variant)",
+      "E": "Polo",
+      "F": "Tiguan",
+      "G": "Touareg",
+      "H": "T-Cross",
+      "J": "T-Roc",
+      "K": "ID.4 / ID.5 (electric SUV)",
+      "L": "ID.3 (electric hatchback)",
+      "M": "Arteon",
+      "N": "ID.7 (electric sedan/wagon)",
+      "P": "Atlas / Teramont (large SUV)",
+      "R": "Touran MPV",
+      "S": "Sharan MPV",
+      "T": "Caddy van",
+      "U": "Transporter T6 / T7",
+      "V": "Amarok pickup",
+      "W": "up! (city car)"
+    },
+
+    "position_8_engine": {
+      "_note": "Position 8 = engine family for European-format. Most common UAE codes: B (1.5L TSI), C (2.0L TSI EA888), D (2.0L TDI diesel). Z = BEV electric (ID family).",
+      "5": "1.4L TSI (EA211) 4-cyl — Polo, Golf, Passat entry",
+      "A": "1.4L TSI (EA211 evo) 4-cyl — Golf 8 / Tiguan entry",
+      "B": "1.5L TSI (EA211 evo2) 4-cyl — current Polo/Golf/Tiguan",
+      "C": "2.0L TSI (EA888 Gen.3) 4-cyl — Golf GTI/R, Tiguan, Passat",
+      "D": "2.0L TDI (EA288) diesel — most popular European variant",
+      "E": "3.0L TDI V6 diesel — Touareg, Arteon 4Motion",
+      "F": "3.0L TSI V6 petrol — Touareg V6",
+      "G": "1.0L TSI 3-cyl — Polo, T-Cross",
+      "R": "2.0L TSI R (Golf R) — performance variants",
+      "Z": "Electric drivetrain — ID.3 / ID.4 / ID.5 / ID.7 BEV"
+    }
+  },
+
+  "us_format": {
+    "_note": "US-format VDS for 1VW (USA) and 3VW (Mexico Puebla) vehicles. Full NHTSA encoding pos4-8.",
+    "_pos_layout": {
+      "pos4": "Model series / platform",
+      "pos5": "Engine type",
+      "pos6": "Restraint system",
+      "pos7": "Body style",
+      "pos8": "Transmission / drive"
+    },
+
+    "position_4_model": {
+      "A": "Golf / GTI / Golf R",
+      "J": "Jetta",
+      "P": "Passat (US-spec)",
+      "T": "Tiguan",
+      "G": "Atlas / Atlas Cross Sport",
+      "L": "Taos",
+      "E": "ID.4 (US-built)"
+    },
+
+    "position_5_engine": {
+      "A": "1.4L TSI 4-cyl",
+      "B": "1.5L TSI 4-cyl",
+      "C": "2.0L TSI 4-cyl turbo",
+      "D": "2.0L TDI diesel",
+      "E": "3.6L VR6",
+      "Z": "Electric BEV motor"
+    },
+
+    "position_6_restraint": {
+      "1": "Manual belts only",
+      "2": "Driver airbag only",
+      "3": "Dual front airbags",
+      "4": "Dual front + side airbags",
+      "5": "Dual front + side + curtain",
+      "6": "Full airbag suite"
+    },
+
+    "position_7_body": {
+      "A": "2-door coupe / hatchback",
+      "B": "4-door sedan",
+      "C": "5-door hatchback",
+      "D": "5-door SUV",
+      "E": "5-door wagon",
+      "F": "5-door MPV/van"
+    },
+
+    "position_8_transmission": {
+      "A": "Automatic FWD",
+      "B": "Manual FWD",
+      "C": "DSG FWD",
+      "D": "DSG 4Motion AWD",
+      "E": "Automatic 4Motion AWD"
+    }
+  }
+}
