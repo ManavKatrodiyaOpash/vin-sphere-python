@@ -1,0 +1,173 @@
+{
+  "manufacturer": "Audi",
+  "_notes": {
+    "vin_structure": "17 chars: pos1-3=WMI, pos4-8=VDS, pos9=check_digit, pos10=model_year, pos11=plant, pos12-17=serial",
+    "vds_market_split": "CRITICAL — Audi uses TWO different VDS schemas depending on market. European-format VINs (most GCC vehicles): pos4-6 = 'ZZZ' filler, pos7 = model_line_code, pos8 = engine_code, pos9 = NOT check digit (often Z or 0). US-format VINs: pos4=model_series, pos5=engine, pos6=restraint, pos7=body_style, pos8=drive/transmission, pos9=NHTSA check digit.",
+    "gcc_note": "Most UAE/GCC Audi vehicles are European-format (WAU/WA1 WMI). Use euro_format tables for these. US-format applies to 8AW (Argentina) and 93V (Brazil) sourced vehicles which are rare in GCC.",
+    "wau_vs_wa1": "WAU = Audi passenger cars (A-class, sedans, wagons, coupes). WA1 = Audi SUVs/crossovers (Q3/Q5/Q7/Q8). This WMI-level distinction makes vehicle category identifiable before VDS decoding.",
+    "tru_note": "TRU = Audi Hungaria (Győr). Hungary geographic zone = T. All Audi TT/TTS/TT RS and some R8 carry TRU — popular in UAE.",
+    "engine_code_note": "The 3-letter engine stamp code (e.g., CZPB, CWGB, DNT) is NOT directly readable from the VIN. VDS pos8 identifies the engine FAMILY only. Precise variant requires OEM database lookup.",
+    "pr_codes_note": "VW Group PR codes (3-character production codes on spare-wheel-well sticker) are the primary tool for full option/trim identification — far more granular than the VIN."
+  },
+
+  "model_year_codes": {
+    "V": 1997, "W": 1998, "X": 1999, "Y": 2000,
+    "1": 2001, "2": 2002, "3": 2003, "4": 2004, "5": 2005,
+    "6": 2006, "7": 2007, "8": 2008, "9": 2009,
+    "A": 2010, "B": 2011, "C": 2012, "D": 2013, "E": 2014,
+    "F": 2015, "G": 2016, "H": 2017, "J": 2018, "K": 2019,
+    "L": 2020, "M": 2021, "N": 2022, "P": 2023, "R": 2024,
+    "S": 2025, "T": 2026
+  },
+
+  "wmi": {
+    "WAU": {"manufacturer": "Audi AG", "country": "Germany", "vehicle_type": "Passenger Car", "notes": "A1-A8 sedans, hatchbacks, wagons, coupes from Ingolstadt and Neckarsulm"},
+    "WA1": {"manufacturer": "Audi AG", "country": "Germany", "vehicle_type": "SUV / Crossover", "notes": "Q3/Q5/Q7/Q8 from Ingolstadt and other German plants"},
+    "TRU": {"manufacturer": "Audi Hungaria Motor Kft.", "country": "Hungary", "vehicle_type": "Specialty / Sports", "notes": "TT/TTS/TT RS, R8, some A3 variants from Győr; T = Hungary geographic zone"},
+    "WUA": {"manufacturer": "Audi Sport GmbH (formerly quattro GmbH)", "country": "Germany", "vehicle_type": "High-Performance", "notes": "RS models, RRS models, R8 production oversight"},
+    "8AW": {"manufacturer": "Audi Argentina / VW Argentina", "country": "Argentina", "vehicle_type": "Passenger Car", "notes": "Argentina-assembled Audis"},
+    "93V": {"manufacturer": "Audi do Brasil", "country": "Brazil", "vehicle_type": "Passenger Car", "notes": "Brazilian market A3, Q3"}
+  },
+
+  "position_9": {
+    "_note": "European-format VINs (WAU/WA1/TRU/WUA): pos9 is NOT a check digit. Often 'Z' or '0'. Do NOT run NHTSA check-digit validation. US-format VINs only: NHTSA formula applies."
+  },
+
+  "position_11_plant": {
+    "_note": "Audi assembly plant codes.",
+    "A": "Ingolstadt, Germany (main Audi plant)",
+    "B": "Neckarsulm, Germany (A6/A7/A8/R8)",
+    "C": "Brussels, Belgium (A1/Q8 e-tron)",
+    "D": "Győr, Hungary (Audi Hungaria — TT/R8/some A3)",
+    "E": "Emden, Germany (VW/Audi shared)",
+    "G": "Gyor, Hungary (alternate line)",
+    "H": "Bratislava, Slovakia (Q7/Q8/Porsche Cayenne)",
+    "M": "Aurangabad, India (A4/A6 CKD)",
+    "N": "Changchun, China (FAW-VW JV)",
+    "P": "Puebla, Mexico (VW/Audi shared)",
+    "R": "Resende, Brazil (Audi do Brasil)",
+    "S": "San José Chiapa, Mexico (Audi Mexico — Q5)",
+    "T": "Tillburg, Netherlands (CKD assembly — older)",
+    "U": "Ust-Kamenogorsk, Kazakhstan (CKD)",
+    "W": "Wolfsburg, Germany (VW Group shared — Polo/A1)"
+  },
+
+  "vds_format_detection": {
+    "_note": "HOW TO DETECT FORMAT: If vin[3]+vin[4]+vin[5] == 'ZZZ' → use euro_format tables. Otherwise → use us_format tables. All WAU/WA1/WUA/TRU GCC vehicles will almost always be euro_format."
+  },
+
+  "euro_format": {
+    "_note": "European-format VDS: pos4-6 = ZZZ filler. Meaningful data only in pos7 and pos8.",
+    "_pos_layout": {
+      "pos4": "Z (filler)",
+      "pos5": "Z (filler)",
+      "pos6": "Z (filler)",
+      "pos7": "Model line code",
+      "pos8": "Engine family code"
+    },
+
+    "position_7_model_line": {
+      "_note": "Position 7 = model line code for European-format Audi VINs. This is the PRIMARY decode field for GCC Audis.",
+      "A": "A3 / S3 / RS3",
+      "B": "A4 / S4 / RS4 / RS4 Avant",
+      "C": "A6 / S6 / RS6",
+      "D": "A8 / S8 (flagship)",
+      "E": "A5 / S5 / RS5 (coupe / sportback / cabriolet)",
+      "F": "A7 / S7 / RS7 Sportback",
+      "G": "Q5 / SQ5 / Q5 Sportback",
+      "H": "Q7 / SQ7",
+      "K": "Q8 / SQ8 / RS Q8",
+      "L": "A1 / S1",
+      "M": "Q3 / RS Q3",
+      "N": "Q2 / SQ2",
+      "P": "e-tron (Q8 e-tron / Q8 Sportback e-tron)",
+      "R": "R8 (supercar)",
+      "T": "TT / TTS / TT RS",
+      "U": "Q4 e-tron",
+      "V": "e-tron GT / RS e-tron GT"
+    },
+
+    "position_8_engine_family": {
+      "_note": "Position 8 = engine family code for European-format. Most common UAE codes: B (2.0T EA888) and C (3.0T V6 EA839).",
+      "A": "EA211 TFSI (1.0T / 1.5T) — entry petrol turbo; Polo, Golf, A3 entry",
+      "B": "EA888 Gen.3 TFSI (2.0T) — most common A4/A5/Q5 engine in UAE",
+      "C": "EA839 MHEV (3.0T V6) — S-models, upper-spec A6/A7/Q7/Q8",
+      "D": "EA825 TFSI (4.0T V8) — RS6/RS7/RS Q8",
+      "E": "EA898 TDI (3.0L V6 diesel) — European diesel",
+      "F": "EA896 TDI (2.0L diesel) — European diesel",
+      "G": "EA825 TFSI (5.0T V10) — R8 V10",
+      "H": "EA839 PHEV (TFSI 3.0L + electric motor) — Q7/Q8 PHEV",
+      "K": "EA855 (2.5L TFSI — RS3 / TT RS) — five-cylinder",
+      "Z": "Electric motor — e-tron/Q4 e-tron/e-tron GT BEV models"
+    }
+  },
+
+  "us_format": {
+    "_note": "US-format VDS: all positions 4-8 carry attribute data. Applies to vehicles sold in North America. Rare in GCC but possible for grey imports.",
+    "_pos_layout": {
+      "pos4": "Model series / platform code",
+      "pos5": "Engine type",
+      "pos6": "Restraint system",
+      "pos7": "Body style",
+      "pos8": "Drive / transmission"
+    },
+
+    "position_4_model_series": {
+      "A": "A3 / S3 / RS3",
+      "B": "A4 / S4 / RS4",
+      "C": "A6 / S6 / RS6",
+      "D": "A8 / S8",
+      "E": "A5 / S5 / RS5",
+      "F": "A7 / S7 / RS7",
+      "G": "Q5 / SQ5",
+      "H": "Q7 / SQ7",
+      "K": "Q8 / SQ8 / RS Q8",
+      "L": "A1 / S1",
+      "M": "Q3 / RS Q3",
+      "T": "TT / TTS / TT RS",
+      "R": "R8",
+      "U": "Q4 e-tron",
+      "V": "e-tron GT"
+    },
+
+    "position_5_engine": {
+      "A": "1.0-1.5L EA211 TFSI",
+      "B": "2.0L EA888 TFSI",
+      "C": "3.0L EA839 V6 TFSI",
+      "D": "4.0L EA825 V8 TFSI",
+      "E": "3.0L V6 TDI diesel",
+      "F": "2.0L TDI diesel",
+      "G": "5.0L V10 TFSI (R8)",
+      "H": "3.0L PHEV",
+      "K": "2.5L five-cyl TFSI (RS3/TT RS)",
+      "Z": "Electric motor BEV"
+    },
+
+    "position_6_restraint": {
+      "_note": "Standard NHTSA restraint schema for US Audi VINs.",
+      "1": "Manual belts only, no airbags",
+      "2": "Manual belts + driver airbag only",
+      "3": "Manual belts + dual front airbags",
+      "4": "Manual belts + dual front + side airbags",
+      "5": "Manual belts + dual front + side + curtain airbags",
+      "6": "Full airbag suite (front + side + curtain + knee)"
+    },
+
+    "position_7_body_style": {
+      "A": "2-door coupe / cabriolet",
+      "B": "4-door sedan",
+      "C": "5-door hatchback / sportback",
+      "D": "5-door wagon / Avant",
+      "E": "5-door SUV / crossover",
+      "F": "SUV coupe (Q8 body)"
+    },
+
+    "position_8_drive_transmission": {
+      "A": "FWD / RWD — standard",
+      "B": "quattro AWD",
+      "C": "quattro AWD + S tronic",
+      "D": "FWD + S tronic",
+      "E": "quattro PHEV AWD"
+    }
+  }
+}
