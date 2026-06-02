@@ -1,4 +1,7 @@
 Nissan :-
+    pos_1 :- Country of Origin
+    pos_2 :- Manufacturer
+    pos_3 :- Vehicle Type / Division
     pos_4 :- Vehicle Series / Model Family
     pos_5 :- Body Type
     pos_6 :- Engine Type
