@@ -288,19 +288,20 @@ def get_manufacturer_file(vin):
 
     wmi = vin[:3]
 
-    nissan_rules = load_rules("nissan.json")
-    toyota_rules = load_rules("toyota.json")
-    honda_rules = load_rules("honda.json")
-
-    if nissan_rules and wmi in nissan_rules.get("wmi", {}):
-        return "nissan.json", "Nissan"
-
-    if toyota_rules and wmi in toyota_rules.get("wmi", {}):
-        return "toyota.json", "Toyota"
-
-    # Added Honda Routing
-    if honda_rules and wmi in honda_rules.get("wmi", {}):
-        return "honda.json", "Honda"
+    for fname, mfr in [
+        ("nissan.json",     "Nissan"),
+        ("toyota.json",     "Toyota"),
+        ("honda.json",      "Honda"),
+        ("bmw.json",        "BMW"),
+        ("audi.json",       "Audi"),
+        ("hyundai.json",    "Hyundai"),
+        ("mercedes.json",   "Mercedes-Benz"),
+        ("ford.json",       "Ford"),
+        ("volkswagen.json", "Volkswagen"),
+    ]:
+        rules = load_rules(fname)
+        if rules and wmi in rules.get("wmi", {}):
+            return fname, mfr
 
     return None, None
 
@@ -320,6 +321,200 @@ def load_rules(filename):
             with open(p, "r", encoding="utf-8") as f:
                 return json.load(f)
     return None
+
+
+# =====================================================
+# VW GROUP FORMAT DETECTION (Audi / Mercedes / VW)
+# =====================================================
+
+def is_european_format(vin):
+    """Returns True if pos4-6 == 'ZZZ' — ISO filler used by VW Group / Mercedes EU-format VINs."""
+    return len(vin) >= 7 and vin[3:6].upper() == "ZZZ"
+
+
+# =====================================================
+# BMW DECODER
+# =====================================================
+
+def decode_bmw(vin, rules, result):
+    pos4 = vin[3]; pos5 = vin[4]; pos6 = vin[5]
+    pos7 = vin[6]; pos8 = vin[7]
+
+    p4 = rules.get("position_4_model_series", {}).get(pos4)
+    if p4: result["series_line"] = p4
+
+    p5 = rules.get("position_5_body_subvariant", {}).get(pos5)
+    if p5: result["body_type"] = p5
+
+    p6 = rules.get("position_6_engine_family", {}).get(pos6)
+    if p6: result["engine"] = p6
+
+    p7 = rules.get("position_7_drivetrain_variant", {}).get(pos7)
+    if p7: result["restraint_system"] = p7  # drivetrain stored here for display
+
+    p8 = rules.get("position_8_market_steering", {}).get(pos8)
+    if p8: result["model_platform"] = p8
+
+    result["notes"].append("BMW: pos7=drivetrain/variant (RWD/xDrive/eDrive), pos8=market/steering. GCC spec NOT in VIN.")
+    return result
+
+
+# =====================================================
+# AUDI DECODER
+# =====================================================
+
+def decode_audi(vin, rules, result):
+    pos7 = vin[6]; pos8 = vin[7]
+
+    if is_european_format(vin):
+        result["model_generation"] = "European Format — pos4-6: ZZZ filler (no data)"
+        euro = rules.get("euro_format", {})
+        p7 = euro.get("position_7_model_line", {}).get(pos7)
+        if p7: result["series_line"] = p7
+        p8 = euro.get("position_8_engine_family", {}).get(pos8)
+        if p8: result["engine"] = p8
+        result["notes"].append("Audi European-format VIN: pos4-6=ZZZ (no data). Model from pos7. Engine family from pos8. Full trim requires OEM PR codes.")
+    else:
+        us = rules.get("us_format", {})
+        p4 = us.get("position_4_model_series", {}).get(vin[3])
+        if p4: result["series_line"] = p4
+        p5 = us.get("position_5_engine", {}).get(vin[4])
+        if p5: result["engine"] = p5
+        p6 = us.get("position_6_restraint", {}).get(vin[5])
+        if p6: result["restraint_system"] = p6
+        p7 = us.get("position_7_body_style", {}).get(pos7)
+        if p7: result["body_type"] = p7
+        p8 = us.get("position_8_drive_transmission", {}).get(pos8)
+        if p8: result["model_platform"] = p8
+        result["notes"].append("Audi US-format VIN: full NHTSA pos4-8 encoding.")
+    return result
+
+
+# =====================================================
+# HYUNDAI DECODER
+# =====================================================
+
+def decode_hyundai(vin, rules, result):
+    pos4 = vin[3]; pos5 = vin[4]; pos6 = vin[5]
+    pos7 = vin[6]; pos8 = vin[7]; pos10 = vin[9]
+
+    p4 = rules.get("position_4_model_line", {}).get(pos4)
+    if p4: result["series_line"] = p4
+
+    # Era split: pos5/pos6 swapped at MY2001
+    year_map = rules.get("model_year_codes", {})
+    year_val = year_map.get(pos10)
+    model_year_int = int(year_val) if year_val else 0
+
+    if model_year_int >= 2003:
+        p5 = rules.get("position_5_post2001_trim", {}).get(pos5)
+        if p5: result["model_generation"] = p5
+        p6 = rules.get("position_6_post2001_body", {}).get(pos6)
+        if p6: result["body_type"] = p6
+        result["notes"].append("Hyundai MY2003+: pos5=trim level, pos6=body type.")
+    else:
+        p5 = rules.get("position_5_pre2001_body", {}).get(pos5)
+        if p5: result["body_type"] = p5
+        p6 = rules.get("position_6_pre2001_trim", {}).get(pos6)
+        if p6: result["model_generation"] = p6
+        result["notes"].append("Hyundai pre-2001: pos5=body style, pos6=trim level.")
+
+    p7 = rules.get("position_7_restraint", {}).get(pos7)
+    if p7: result["restraint_system"] = p7
+
+    p8 = rules.get("position_8_engine", {}).get(pos8)
+    if p8: result["engine"] = p8
+
+    return result
+
+
+# =====================================================
+# MERCEDES-BENZ DECODER
+# =====================================================
+
+def decode_mercedes(vin, rules, result):
+    pos7 = vin[6]; pos8 = vin[7]
+
+    if is_european_format(vin):
+        result["model_generation"] = "European Format — pos4-6: ZZZ filler (no data)"
+        euro = rules.get("euro_format", {})
+        p7 = euro.get("position_7_body_variant", {}).get(pos7)
+        if p7: result["body_type"] = p7
+        p8 = euro.get("position_8_drivetrain", {}).get(pos8)
+        if p8: result["model_platform"] = p8
+        result["notes"].append("Mercedes European-format VIN (WDD/WDC): pos4-6=ZZZ filler. Body/variant=pos7. Drivetrain/4MATIC=pos8. AMG Line/packages NOT in VIN.")
+    else:
+        us = rules.get("us_format", {})
+        p4 = us.get("position_4_model_class", {}).get(vin[3])
+        if p4: result["series_line"] = p4
+        p5 = us.get("position_5_engine_family", {}).get(vin[4])
+        if p5: result["engine"] = p5
+        p6 = us.get("position_6_restraint", {}).get(vin[5])
+        if p6: result["restraint_system"] = p6
+        p7 = us.get("position_7_body_variant", {}).get(pos7)
+        if p7: result["body_type"] = p7
+        p8 = us.get("position_8_drivetrain", {}).get(pos8)
+        if p8: result["model_platform"] = p8
+        result["notes"].append("Mercedes US-format VIN (4JG Vance, AL): full NHTSA pos4-8 encoding.")
+    return result
+
+
+# =====================================================
+# FORD DECODER
+# =====================================================
+
+def decode_ford(vin, rules, result):
+    pos4 = vin[3]; pos5 = vin[4]; pos6 = vin[5]
+    pos7 = vin[6]; pos8 = vin[7]
+
+    p4 = rules.get("position_4_model_line", {}).get(pos4)
+    if p4: result["series_line"] = p4
+
+    p5 = rules.get("position_5_engine", {}).get(pos5)
+    if p5: result["engine"] = p5
+
+    p6 = rules.get("position_6_restraint", {}).get(pos6)
+    if p6: result["restraint_system"] = p6
+
+    p7 = rules.get("position_7_body_style", {}).get(pos7)
+    if p7: result["body_type"] = p7
+
+    p8 = rules.get("position_8_trim_drivetrain", {}).get(pos8)
+    if p8: result["model_platform"] = p8
+
+    result["notes"].append("Ford: strict NHTSA format. pos8=trim+drivetrain combined — precise trim may need OEM DB.")
+    return result
+
+
+# =====================================================
+# VOLKSWAGEN DECODER
+# =====================================================
+
+def decode_volkswagen(vin, rules, result):
+    pos7 = vin[6]; pos8 = vin[7]
+
+    if is_european_format(vin):
+        result["model_generation"] = "European Format — pos4-6: ZZZ filler (no data)"
+        euro = rules.get("euro_format", {})
+        p7 = euro.get("position_7_model_line", {}).get(pos7)
+        if p7: result["series_line"] = p7
+        p8 = euro.get("position_8_engine", {}).get(pos8)
+        if p8: result["engine"] = p8
+        result["notes"].append("VW European-format VIN: pos4-6=ZZZ (zero data). Model=pos7. Engine family=pos8. Full trim/options require PR codes on spare-wheel-well sticker.")
+    else:
+        us = rules.get("us_format", {})
+        p4 = us.get("position_4_model", {}).get(vin[3])
+        if p4: result["series_line"] = p4
+        p5 = us.get("position_5_engine", {}).get(vin[4])
+        if p5: result["engine"] = p5
+        p6 = us.get("position_6_restraint", {}).get(vin[5])
+        if p6: result["restraint_system"] = p6
+        p7 = us.get("position_7_body", {}).get(pos7)
+        if p7: result["body_type"] = p7
+        p8 = us.get("position_8_transmission", {}).get(pos8)
+        if p8: result["model_platform"] = p8
+        result["notes"].append("VW US/Mexico-format VIN: full NHTSA pos4-8 encoding.")
+    return result
 
 
 # =====================================================
@@ -440,6 +635,47 @@ def decode_vin(vin):
         return result
 
     # Generic Nissan/Honda logic remains unchanged
+    # ── NEW BRAND ROUTING ───────────────────────────
+    if mfr_name == "BMW":
+        result = decode_bmw(vin, rules, result)
+        plant = rules.get("position_11_plant", {}).get(pos11)
+        if plant: result["plant"] = plant
+        return result
+
+    if mfr_name == "Audi":
+        result = decode_audi(vin, rules, result)
+        plant = rules.get("position_11_plant", {}).get(pos11)
+        if plant: result["plant"] = plant
+        return result
+
+    if mfr_name == "Hyundai":
+        year_map2 = rules.get("model_year_codes", {})
+        yv = year_map2.get(pos10)
+        if yv: result["model_year"] = str(yv)
+        result = decode_hyundai(vin, rules, result)
+        plant = rules.get("position_11_plant", {}).get(pos11)
+        if plant: result["plant"] = plant
+        return result
+
+    if mfr_name == "Mercedes-Benz":
+        result = decode_mercedes(vin, rules, result)
+        plant = rules.get("position_11_plant", {}).get(pos11)
+        if plant: result["plant"] = plant
+        return result
+
+    if mfr_name == "Ford":
+        result = decode_ford(vin, rules, result)
+        plant = rules.get("position_11_plant", {}).get(pos11)
+        if plant: result["plant"] = plant
+        return result
+
+    if mfr_name == "Volkswagen":
+        result = decode_volkswagen(vin, rules, result)
+        plant = rules.get("position_11_plant", {}).get(pos11)
+        if plant: result["plant"] = plant
+        return result
+
+    # Generic Nissan/Honda fallback (unchanged)
     p4_map = rules.get("position_4", {})
     if p4_map.get(pos4):
         result["series_line"] = p4_map[pos4]
