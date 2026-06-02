@@ -1,0 +1,142 @@
+{
+  "manufacturer": "Ford",
+  "_notes": {
+    "vin_structure": "17 chars: pos1-3=WMI, pos4-8=VDS, pos9=check_digit, pos10=model_year, pos11=plant, pos12-17=serial",
+    "vds_note": "Ford follows NHTSA format strictly as a US OEM. VDS is one of the most rigorously documented due to NHTSA filing requirements. All positions 4-8 carry meaningful attribute data for all markets. pos9 = NHTSA check digit for all US/Canada VINs.",
+    "gcc_note": "Ford vehicles in UAE/GCC are predominantly US-built (1FT F-150/Raptor, 1FA Mustang). F-150 Raptor is the dominant Ford in GCC market. European-market Fords (WF0/WF9) use different position encoding.",
+    "european_note": "WF0 (Ford-Werke Germany) European VINs follow ISO 3779 not NHTSA. European Fords (Puma, Focus, Fiesta, Kuga) use different pos4-8 encoding — separate tables needed. This file covers North American format primarily."
+  },
+
+  "model_year_codes": {
+    "V": 1997, "W": 1998, "X": 1999, "Y": 2000,
+    "1": 2001, "2": 2002, "3": 2003, "4": 2004, "5": 2005,
+    "6": 2006, "7": 2007, "8": 2008, "9": 2009,
+    "A": 2010, "B": 2011, "C": 2012, "D": 2013, "E": 2014,
+    "F": 2015, "G": 2016, "H": 2017, "J": 2018, "K": 2019,
+    "L": 2020, "M": 2021, "N": 2022, "P": 2023, "R": 2024,
+    "S": 2025, "T": 2026
+  },
+
+  "wmi": {
+    "1FA": {"manufacturer": "Ford Motor Company", "country": "USA", "vehicle_type": "Passenger Car", "notes": "Mustang, Fusion, Focus from US plants"},
+    "1FB": {"manufacturer": "Ford Motor Company", "country": "USA", "vehicle_type": "Bus / Commercial", "notes": "Transit Bus and commercial variants"},
+    "1FC": {"manufacturer": "Ford Motor Company", "country": "USA", "vehicle_type": "Truck", "notes": "General truck designation"},
+    "1FD": {"manufacturer": "Ford Motor Company", "country": "USA", "vehicle_type": "Truck F-Series", "notes": "F-Series trucks"},
+    "1FT": {"manufacturer": "Ford Motor Company", "country": "USA", "vehicle_type": "Truck / F-150 / F-250", "notes": "F-150/F-250/F-350 — dominant Ford WMI in GCC market"},
+    "2FA": {"manufacturer": "Ford Canada", "country": "Canada", "vehicle_type": "Passenger Car", "notes": "Canadian-built Ford passenger vehicles"},
+    "2FT": {"manufacturer": "Ford Canada", "country": "Canada", "vehicle_type": "Truck", "notes": "Canadian-built Ford trucks"},
+    "3FA": {"manufacturer": "Ford Mexico (Hermosillo)", "country": "Mexico", "vehicle_type": "Passenger Car", "notes": "Fusion/Mustang from Hermosillo plant"},
+    "3FT": {"manufacturer": "Ford Mexico", "country": "Mexico", "vehicle_type": "Truck", "notes": "Mexican-built trucks"},
+    "WF0": {"manufacturer": "Ford-Werke GmbH", "country": "Germany", "vehicle_type": "Passenger Car / Commercial", "notes": "European Ford models — uses ISO 3779 not NHTSA format"},
+    "WF9": {"manufacturer": "Ford Germany", "country": "Germany", "vehicle_type": "Transit Van Family", "notes": "Transit commercial vans — European format"},
+    "SAJ": {"manufacturer": "Jaguar Land Rover (historical Ford ownership)", "country": "UK", "vehicle_type": "Passenger Car", "notes": "Jaguar — historical; Ford divested 2008"},
+    "SAF": {"manufacturer": "Ford Sollers", "country": "Russia", "vehicle_type": "Passenger Car / Commercial", "notes": "Russian JV assembly (pre-sanctions)"}
+  },
+
+  "position_9": {
+    "_note": "All US/Canada Ford VINs: NHTSA check digit (0-9 or X). European WF0/WF9: NOT a check digit — ISO 3779 filler."
+  },
+
+  "position_11_plant": {
+    "_note": "Ford assembly plant codes.",
+    "A": "Atlanta, Georgia, USA (legacy)",
+    "B": "Oakville, Ontario, Canada (Edge/Flex)",
+    "C": "Ontario Truck Plant, Canada",
+    "D": "Chicago Assembly, Illinois, USA (Explorer/Aviator)",
+    "E": "Kentucky Truck Plant, Louisville (Super Duty/Expedition)",
+    "F": "Dearborn Truck Plant, Michigan (F-150)",
+    "G": "Chicago Assembly (alternate line)",
+    "H": "Lorain, Ohio (legacy)",
+    "J": "Romeo Engine Plant (engines — rare on VIN)",
+    "K": "Kansas City Assembly, Missouri (F-150/Transit)",
+    "L": "Michigan Assembly Plant, Wayne (Bronco/Ranger)",
+    "M": "Hermosillo Assembly, Mexico (Maverick/Bronco Sport)",
+    "N": "Norfolk Assembly, Virginia (F-150 legacy)",
+    "P": "Twin Cities Assembly, Minnesota (legacy)",
+    "R": "San Jose del Rio, Chihuahua, Mexico (Fusion legacy)",
+    "S": "Sterling Heights Assembly, Michigan",
+    "T": "Avon Lake, Ohio (Transit)",
+    "U": "Louisville Assembly, Kentucky",
+    "W": "Wayne, Michigan (Escape legacy)",
+    "X": "Cuautitlan, Mexico (Fiesta legacy)",
+    "Z": "St. Louis Assembly, Missouri (legacy)"
+  },
+
+  "position_4_model_line": {
+    "_note": "Position 4 = model line for North American Ford VINs. Strong NHTSA compliance.",
+    "A": "Mustang",
+    "B": "Bronco / Bronco Sport",
+    "C": "Crown Victoria (legacy)",
+    "D": "Explorer",
+    "E": "Expedition",
+    "F": "F-150 pickup",
+    "H": "Escape",
+    "J": "Edge",
+    "K": "EcoSport",
+    "L": "Flex",
+    "M": "F-250 Super Duty",
+    "N": "F-350 Super Duty",
+    "P": "Focus / C-Max",
+    "R": "Ranger",
+    "S": "Taurus",
+    "T": "Transit van",
+    "V": "Maverick",
+    "W": "Fusion"
+  },
+
+  "position_5_engine": {
+    "_note": "Position 5 = engine type. Well-documented NHTSA filings.",
+    "A": "3.5L EcoBoost V6 (twin-turbo)",
+    "B": "2.3L EcoBoost 4-cyl",
+    "C": "2.0L EcoBoost 4-cyl",
+    "D": "1.5L EcoBoost 3-cyl / 4-cyl",
+    "E": "1.0L EcoBoost 3-cyl",
+    "F": "5.0L Coyote V8 — Mustang GT / F-150",
+    "G": "2.7L EcoBoost V6 — F-150",
+    "H": "6.2L V8 — Super Duty",
+    "J": "7.3L Godzilla V8 — Super Duty",
+    "K": "3.0L PowerStroke diesel",
+    "L": "6.7L PowerStroke V8 diesel — Super Duty",
+    "M": "Electric motor — Mustang Mach-E / F-150 Lightning",
+    "N": "2.5L Atkinson (hybrid)",
+    "P": "5.2L Voodoo V8 — Mustang Shelby GT350/GT500"
+  },
+
+  "position_6_restraint": {
+    "_note": "Position 6 = restraint system. Standard NHTSA schema.",
+    "1": "Manual belts only, no airbags",
+    "2": "Manual belts + driver airbag only",
+    "3": "Manual belts + dual front airbags",
+    "4": "Manual belts + dual front + side airbags",
+    "5": "Manual belts + dual front + side + curtain airbags",
+    "6": "Full airbag suite (front + side + curtain + knee)",
+    "7": "Advanced restraint system"
+  },
+
+  "position_7_body_style": {
+    "_note": "Position 7 = body style.",
+    "A": "2-door coupe",
+    "B": "2-door convertible",
+    "C": "3-door hatchback",
+    "D": "4-door sedan",
+    "E": "5-door hatchback",
+    "F": "4-door SUV",
+    "G": "5-door SUV",
+    "H": "Pickup 2-door regular cab",
+    "J": "Pickup 4-door super cab",
+    "K": "Pickup 4-door crew cab",
+    "L": "Van / Minivan"
+  },
+
+  "position_8_trim_drivetrain": {
+    "_note": "Position 8 = trim level combined with drivetrain. Trim overlap may require OEM DB for precise identification.",
+    "A": "Base / S / XL trim, 2WD",
+    "B": "XLT trim, 2WD",
+    "C": "XLT trim, 4WD / AWD",
+    "D": "Lariat / Titanium, 2WD",
+    "E": "Lariat / Titanium, 4WD",
+    "F": "King Ranch / Platinum, 4WD",
+    "G": "Raptor / Limited, 4WD",
+    "H": "Shelby / High-performance"
+  }
+}
