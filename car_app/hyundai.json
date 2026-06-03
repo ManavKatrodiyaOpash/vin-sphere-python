@@ -2,152 +2,502 @@
   "manufacturer": "Hyundai",
   "_notes": {
     "vin_structure": "17 chars: pos1-3=WMI, pos4-8=VDS, pos9=check_digit, pos10=model_year, pos11=plant, pos12-17=serial",
-    "vds_note": "Hyundai VDS encoding is among the most detailed and consistent of any manufacturer. All 6 VDS positions are used meaningfully. CRITICAL: positions 5 and 6 SWAPPED roles around MY2001. Pre-2001: pos5=body_style, pos6=trim_level. Post-2001: pos5=trim_level, pos6=body_type. Always check model year before decoding pos5/pos6.",
-    "gcc_note": "Majority of UAE/GCC Hyundai vehicles carry KMH (Korean-built). India-sourced (MAL) vehicles: i10, i20, Creta — less common in GCC but increasing. MAL Creta has parts availability implications.",
-    "check_digit_note": "KMH Korean-built GCC vehicles: pos9 may be check digit OR filler depending on exact market/build. US-market Hyundai (5NP/5NM) always NHTSA check digit."
+    "how_to_use": "1) Decode pos10 using model_year_codes. 2) Check era: pre-2001 vs post-2001 SWAPS pos5/pos6 roles. 3) Pre-2001: pos5=body_style, pos6=trim. Post-2001: pos5=trim, pos6=body_type. Always check year first.",
+    "era_split_note": "CRITICAL: pos5 and pos6 swap roles at MY2001. Pre-2001 (MY1996-2000) and some 01-05 models (Sonata, 01 Tiburon): pos5=body, pos6=trim. All others MY2001+: pos5=trim, pos6=body.",
+    "excluded": "Pre-1996 excluded \u2014 outside active 30-year VIN cycle (1996-2026)",
+    "gcc_note": "GCC Hyundai mostly KMH (Korean-built). India-sourced (MAL): i10, i20, Creta. MAL Creta has parts-availability implications.",
+    "check_digit_note": "US-market (5NP/5NM): NHTSA check digit always. Korean GCC (KMH/KM8): may be check digit or manufacturer filler."
   },
-
   "model_year_codes": {
-    "V": 1997, "W": 1998, "X": 1999, "Y": 2000,
-    "1": 2001, "2": 2002, "3": 2003, "4": 2004, "5": 2005,
-    "6": 2006, "7": 2007, "8": 2008, "9": 2009,
-    "A": 2010, "B": 2011, "C": 2012, "D": 2013, "E": 2014,
-    "F": 2015, "G": 2016, "H": 2017, "J": 2018, "K": 2019,
-    "L": 2020, "M": 2021, "N": 2022, "P": 2023, "R": 2024,
-    "S": 2025, "T": 2026
+    "T": 2026,
+    "V": 1997,
+    "W": 1998,
+    "X": 1999,
+    "Y": 2000,
+    "1": 2001,
+    "2": 2002,
+    "3": 2003,
+    "4": 2004,
+    "5": 2005,
+    "6": 2006,
+    "7": 2007,
+    "8": 2008,
+    "9": 2009,
+    "A": 2010,
+    "B": 2011,
+    "C": 2012,
+    "D": 2013,
+    "E": 2014,
+    "F": 2015,
+    "G": 2016,
+    "H": 2017,
+    "J": 2018,
+    "K": 2019,
+    "L": 2020,
+    "M": 2021,
+    "N": 2022,
+    "P": 2023,
+    "R": 2024,
+    "S": 2025
   },
-
   "wmi": {
-    "KMH": {"manufacturer": "Hyundai Motor Co.", "country": "South Korea", "vehicle_type": "Passenger Vehicle", "notes": "Primary Korean WMI; Sonata, Elantra, Santa Fe, Tucson, Ioniq"},
-    "KM8": {"manufacturer": "Hyundai Motor Co.", "country": "South Korea", "vehicle_type": "Multi-Purpose Vehicle / SUV", "notes": "Korean-built SUVs and MPVs"},
-    "KMF": {"manufacturer": "Hyundai Motor Co.", "country": "South Korea", "vehicle_type": "Commercial Vehicle", "notes": "Korean commercial / bus"},
-    "5NP": {"manufacturer": "Hyundai Motor Manufacturing Alabama", "country": "USA", "vehicle_type": "Passenger Vehicle", "notes": "Sonata, Elantra from Montgomery, AL"},
-    "5NM": {"manufacturer": "Hyundai Motor Manufacturing Alabama", "country": "USA", "vehicle_type": "Multi-Purpose Vehicle", "notes": "Santa Fe, Tucson from Montgomery, AL"},
-    "MAL": {"manufacturer": "Hyundai Motor India Ltd.", "country": "India", "vehicle_type": "Passenger Vehicle", "notes": "i10/i20/Creta/Verna; M = India geographic zone"},
-    "NLH": {"manufacturer": "Hyundai Assan Otomotiv Sanayi", "country": "Turkey", "vehicle_type": "Passenger / Commercial", "notes": "i20, Tucson built in Izmit, Turkey"},
-    "TMA": {"manufacturer": "Hyundai Motor Manufacturing Czech", "country": "Czech Republic", "vehicle_type": "Passenger Vehicle", "notes": "i30, Tucson, ix35 from Nošovice plant"},
-    "ZFA": {"manufacturer": "Hyundai Automotive SA", "country": "South Africa", "vehicle_type": "Passenger Vehicle", "notes": "South African CKD/SKD assembly"},
-    "2HM": {"manufacturer": "Hyundai Auto Canada", "country": "Canada", "vehicle_type": "Passenger Vehicle", "notes": "Canadian entity (historically)"}
+    "KMH": {
+      "manufacturer": "Hyundai Motor Co.",
+      "country": "South Korea",
+      "vehicle_type": "Passenger / Multi-Purpose Vehicle",
+      "notes": "Primary Korean WMI \u2014 Sonata, Elantra, Santa Fe, Tucson, Ioniq"
+    },
+    "KM8": {
+      "manufacturer": "Hyundai Motor Co.",
+      "country": "South Korea",
+      "vehicle_type": "Multi-Purpose Passenger Vehicle (North America)",
+      "notes": "Korean-built SUV/MPV for North American market"
+    },
+    "KMC": {
+      "manufacturer": "Hyundai Motor Co.",
+      "country": "South Korea",
+      "vehicle_type": "Commercial Vehicle",
+      "notes": "Korean commercial vehicle"
+    },
+    "KMF": {
+      "manufacturer": "Hyundai Motor Co.",
+      "country": "South Korea",
+      "vehicle_type": "Commercial Vehicle",
+      "notes": "Korean commercial vehicle / bus"
+    },
+    "KMJ": {
+      "manufacturer": "Hyundai Motor Co.",
+      "country": "South Korea",
+      "vehicle_type": "Bus / Minibus"
+    },
+    "KMT": {
+      "manufacturer": "Genesis Motors",
+      "country": "South Korea",
+      "vehicle_type": "Passenger Vehicle",
+      "notes": "Genesis brand passenger cars"
+    },
+    "KMU": {
+      "manufacturer": "Genesis Motors",
+      "country": "South Korea",
+      "vehicle_type": "Multi-Purpose Passenger Vehicle",
+      "notes": "Genesis brand SUVs"
+    },
+    "5NP": {
+      "manufacturer": "Hyundai Motor Manufacturing Alabama",
+      "country": "USA",
+      "vehicle_type": "Passenger Vehicle",
+      "notes": "Sonata, Elantra from Montgomery, AL"
+    },
+    "5NM": {
+      "manufacturer": "Hyundai Motor Manufacturing Alabama",
+      "country": "USA",
+      "vehicle_type": "Multi-Purpose Passenger Vehicle",
+      "notes": "Santa Fe, Tucson \u2014 Hyundai & Genesis from Montgomery, AL"
+    },
+    "5NT": {
+      "manufacturer": "Hyundai Motor Manufacturing Alabama",
+      "country": "USA",
+      "vehicle_type": "Truck"
+    },
+    "MAL": {
+      "manufacturer": "Hyundai Motor India Ltd.",
+      "country": "India",
+      "vehicle_type": "Passenger Vehicle",
+      "notes": "i10, i20, Creta, Verna \u2014 Chennai plant"
+    },
+    "MB2": {
+      "manufacturer": "Hyundai Motor India Ltd.",
+      "country": "India",
+      "vehicle_type": "Multi-Purpose Vehicle"
+    },
+    "NLH": {
+      "manufacturer": "Hyundai Assan Otomotiv Sanayi",
+      "country": "Turkey",
+      "vehicle_type": "Passenger Car / SUV",
+      "notes": "i20, Tucson \u2014 Izmit plant"
+    },
+    "NLJ": {
+      "manufacturer": "Hyundai Assan Otomotiv Sanayi",
+      "country": "Turkey",
+      "vehicle_type": "Minibus / Van"
+    },
+    "TMA": {
+      "manufacturer": "Hyundai Motor Manufacturing Czech",
+      "country": "Czech Republic",
+      "vehicle_type": "Passenger Vehicle",
+      "notes": "i30, Tucson, ix35 \u2014 No\u0161ovice plant"
+    },
+    "TMC": {
+      "manufacturer": "Hyundai Motor Manufacturing Czech",
+      "country": "Czech Republic",
+      "vehicle_type": "Passenger Vehicle"
+    },
+    "MF3": {
+      "manufacturer": "Hyundai Motor Indonesia (HMID)",
+      "country": "Indonesia",
+      "vehicle_type": "Passenger Vehicle"
+    },
+    "LBE": {
+      "manufacturer": "Beijing Hyundai Automotive Co. Ltd.",
+      "country": "China",
+      "vehicle_type": "Passenger Vehicle"
+    },
+    "AC5": {
+      "manufacturer": "Hyundai Automotive South Africa",
+      "country": "South Africa",
+      "vehicle_type": "Passenger Vehicle"
+    },
+    "ZFA": {
+      "manufacturer": "Hyundai Automotive South Africa",
+      "country": "South Africa",
+      "vehicle_type": "Passenger Vehicle"
+    },
+    "2HM": {
+      "manufacturer": "Hyundai Auto Canada",
+      "country": "Canada",
+      "vehicle_type": "Passenger Vehicle"
+    },
+    "3KP": {
+      "manufacturer": "Kia Motor Manufacturing Mexico (Hyundai)",
+      "country": "Mexico",
+      "vehicle_type": "Passenger Vehicle"
+    },
+    "3KM": {
+      "manufacturer": "Kia Motor Manufacturing Mexico (Hyundai)",
+      "country": "Mexico",
+      "vehicle_type": "Multi-Purpose Passenger Vehicle"
+    },
+    "5XY": {
+      "manufacturer": "Kia Motor Manufacturing Georgia (Hyundai)",
+      "country": "USA",
+      "vehicle_type": "Multi-Purpose Passenger Vehicle"
+    },
+    "7YA": {
+      "manufacturer": "Hyundai Motor Group Metaplant America (HMGMA)",
+      "country": "USA",
+      "vehicle_type": "Multi-Purpose Passenger Vehicle",
+      "notes": "Ellabell, Georgia \u2014 new plant 2025+"
+    },
+    "9BH": {
+      "manufacturer": "Hyundai Motor Brasil",
+      "country": "Brazil",
+      "vehicle_type": "Passenger Vehicle",
+      "notes": "HB20 & Creta"
+    },
+    "95P": {
+      "manufacturer": "Caoa Montadora de Ve\u00edculos SA",
+      "country": "Brazil",
+      "vehicle_type": "Passenger / Truck",
+      "notes": "Tucson, ix35, HR truck"
+    },
+    "PFD": {
+      "manufacturer": "Hyundai Motor Group Innovation Center Singapore (HMGICS)",
+      "country": "Singapore",
+      "vehicle_type": "Multi-Purpose Passenger Vehicle"
+    },
+    "X7M": {
+      "manufacturer": "TagAz (Russia, Hyundai)",
+      "country": "Russia",
+      "vehicle_type": "Passenger Vehicle"
+    },
+    "Z94": {
+      "manufacturer": "Hyundai Motor Manufacturing Rus",
+      "country": "Russia",
+      "vehicle_type": "Passenger Vehicle"
+    }
   },
-
-  "position_9": {
-    "_note": "US-market (5NP/5NM): NHTSA check digit always. Korean-built GCC (KMH/KM8): may be check digit or manufacturer filler depending on exact build. Verify before flagging as invalid."
+  "position_1_geographic_zone": {
+    "_note": "First character of WMI = geographic zone",
+    "A": "South Africa (AA-AH)",
+    "K": "South Korea",
+    "L": "China",
+    "M": "India / Indonesia (MA-ME, MY-M0 = India; MF-MK = Indonesia)",
+    "N": "Turkey (NL-NR)",
+    "T": "Czech Republic (TJ-TP)",
+    "U": "Slovakia (U5-U7)",
+    "X": "Russia (XS-XW)",
+    "Z": "Russia (Z6-Z0)",
+    "2": "Canada",
+    "3": "Mexico",
+    "5": "USA",
+    "7": "USA",
+    "8": "Ecuador (8L-8R)",
+    "9": "Brazil (9A-9E, 93-99)"
   },
-
-  "position_11_plant": {
-    "_note": "Hyundai assembly plant codes.",
-    "A": "Asan, South Korea (Sonata/Grandeur)",
-    "B": "Ulsan Plant 1, South Korea",
-    "C": "Ulsan Plant 2, South Korea",
-    "D": "Ulsan Plant 3, South Korea",
-    "E": "Ulsan Plant 4, South Korea",
-    "F": "Ulsan Plant 5, South Korea",
-    "H": "Montgomery, Alabama, USA (HMMA)",
-    "K": "Nošovice, Czech Republic (HMMC)",
-    "M": "Manesar, India (HMI Plant 2)",
-    "N": "Chennai, India (HMI Plant 1)",
-    "P": "Izmit, Turkey (Hyundai Assan)",
-    "S": "São Paulo, Brazil",
-    "U": "Sokolovo, Russia (legacy pre-2022)",
-    "X": "Beijing, China (BJHAC)"
+  "position_2_manufacturer": {
+    "_note": "Second character = manufacturer identifier",
+    "A": "HMI (Hyundai Motor India)",
+    "B": "Hyundai Motor Brasil / Beijing Hyundai Automotive",
+    "C": "Cars \u2014 Roslyn, South Africa",
+    "D": "SUVs \u2014 Roslyn, South Africa",
+    "F": "Hyundai Motor Indonesia (HMID)",
+    "H": "Bromont Assembly Plant, Hyundai Auto Canada",
+    "K": "Kia Motor Manufacturing Mexico",
+    "L": "HAOS (Hyundai Assan Otomotiv Sanayi), Turkey / Aymesa",
+    "M": "HMC (Hyundai Motor Company), South Korea / Hyundai Motor Manufacturing Czech",
+    "N": "Hyundai Motor Manufacturing Alabama / Kia South Korea",
+    "X": "Kia Motor Manufacturing Georgia",
+    "Y": "Hyundai Motor Group Metaplant America",
+    "5": "Caoa Montadora de Ve\u00edculos SA, Brazil / Kia Motors Slovakia",
+    "9": "Hyundai Motor Manufacturing Rus"
   },
-
-  "vds_era_detection": {
-    "_note": "CRITICAL: Positions 5 and 6 swapped roles at MY2001. Use year from pos10 to select correct era table.",
-    "pre_2001_years": ["V","W","X","Y","1","2"],
-    "post_2001_years": ["3","4","5","6","7","8","9","A","B","C","D","E","F","G","H","J","K","L","M","N","P","R","S","T"]
+  "position_3_vehicle_type": {
+    "_note": "Third character = vehicle type",
+    "A": "Passenger Car / MPV (Hyundai Motor Group Metaplant America)",
+    "C": "Special Car",
+    "D": "Recreational / Hyundai Motor Group Innovation Center Singapore",
+    "F": "Truck, Van",
+    "H": "Passenger Car, MPV, RV",
+    "J": "Minibus, Bus, Semi-MPV",
+    "L": "Light Motor Vehicle (Car)",
+    "M": "Passenger Car (Hyundai Auto Canada) / MPV (HMMA & Kia Mexico)",
+    "N": "Truck, Bus, Van",
+    "P": "Caoa Montadora (Tucson, ix35, HR truck) / Passenger Car (HMMA & Kia Mexico)",
+    "T": "Truck (HMMA) / Genesis Passenger Car",
+    "U": "Genesis MPV",
+    "X": "Passenger Car, MPV, RV",
+    "Y": "MPV (Kia Motor Manufacturing Georgia)",
+    "Z": "Truck, Van",
+    "3": "Hyundai Motor Indonesia",
+    "4": "Hyundai Motor Manufacturing Rus",
+    "8": "MPV"
   },
-
   "position_4_model_line": {
-    "_note": "Position 4 = model line / platform code. Consistent across eras.",
-    "B": "Sonata (1989–1994)",
-    "C": "Accent (2000+) / Sonata (1995–1998)",
-    "D": "Elantra (2001+)",
-    "E": "Sonata (2006+)",
-    "G": "Genesis (2009–2016) / Genesis G80/G90/G70/GV80",
-    "H": "Tiburon / Genesis Coupe / i30 / Kona (2024+) / GV80",
-    "J": "Elantra (1992–2000) / Tucson (2005+) / Santa Cruz",
-    "L": "Sonata (2020+ Korean-built) / Elantra (2021+) / i40",
-    "N": "Ioniq (2017–2022)",
-    "P": "Palisade (2020+)",
-    "R": "Santa Fe (2013+)",
-    "S": "Santa Fe (2001–2012)",
-    "T": "Tucson (some variants) / Staria",
-    "U": "Ioniq 5 / Ioniq 6 (EV platform)",
-    "V": "Veloster",
-    "W": "Sonata (1999–2005)"
+    "_note": "Position 4 = model line / platform. Consistent across all eras.",
+    "A": "i10, Grand i10, Xcent",
+    "B": "Sonata 1989-1994 / Grand i10 / Aura / i20 / Casper / Bayon",
+    "C": "Sonata 1995-1998 / Accent 2000-2022 / Ioniq 2017-2022 / HB20 / Creta",
+    "D": "Elantra 2001-2020 / Elantra Touring 2009-2012 / Elantra GT 2013-2017 / i30 (FD & GD)",
+    "E": "Sonata 2006-2022 (US built) / Sonata 2006-2019 (Korean built)",
+    "F": "XG300 / XG350 / Azera 2006-2017 / Genesis G80 2019-2020 (KMT) / Genesis G90 2019+ (KMT) / H100",
+    "G": "Genesis sedan 2009-2016 / Equus 2011-2016 / Genesis G80 2017-2019 (KMH) / Genesis G90 2017-2019 (KMH) / Genesis G70 2019+ / Genesis G80 2021+",
+    "H": "Tiburon 2003-2008 / Genesis Coupe 2010-2016 / i30 (PD) / Elantra GT 2018-2020 / Kona 2024+ / Genesis GV80 2021+",
+    "J": "Elantra 1992-2000 / Tiburon 1997-2001 / Tucson 2005+ / Santa Cruz 2022+ / Nexo 2019-2023 / Genesis GV80 Coupe 2025+",
+    "K": "Kona 2018-2023 / Ioniq 5 2022+ / Genesis GV60",
+    "L": "Excel 1986-1989 / Mitsubishi Precis 1987-1989 / Sonata 2020+ (Korean built) / i40 / Elantra 2021+",
+    "M": "Entourage / Ioniq 6 / Ioniq 9 / Genesis GV70",
+    "N": "Veracruz 2007-2012",
+    "P": "Creta / Matrix / ix20 / Pony / Grand Creta / Santa Fe 2024+",
+    "R": "Venue / Palisade",
+    "S": "Santa Fe 2001-2010 / Santa Fe LWB (XL) 2013-2019 / Santa Fe 2019-2023",
+    "T": "Veloster 2012-2022 / Nexo 2026+",
+    "V": "Excel / Mitsubishi Precis 1990-1994 / Accent 1995-1999 / Scoupe",
+    "W": "Sonata 1999-2005",
+    "Z": "Santa Fe 2011-2012 / Santa Fe Sport 2013-2018 / HR truck"
   },
-
-  "position_5_post2001_trim": {
-    "_note": "POST-2001 (MY2003+): Position 5 = trim level. Use this for most modern Hyundai VINs.",
-    "B": "GL / Base Santa Fe (2001–2004) / Genesis G90 3.5T",
-    "C": "GLS / LX Santa Fe / SE Limited Azera / GLS Limited Entourage / 4.6L Genesis",
-    "D": "GLS / SE models",
-    "F": "Base / L Accent",
-    "G": "GL/GS Accent / GT Accent / GLS Accent (2005)",
-    "M": "GL Tiburon / GL Tucson / GL Sonata",
-    "N": "GLS/GT Elantra / GLS Accent / GT/SE Tiburon / LX Tucson",
-    "T": "GL Sonata (2006+)",
-    "U": "GLS/LX Sonata / Base XG300/XG350"
-  },
-
   "position_5_pre2001_body": {
-    "_note": "PRE-2001 (up to MY2002): Position 5 = body style.",
+    "_note": "PRE-2001 models (MY1996-2000) AND 01-05 Sonata & 01 Tiburon: Position 5 = body style.",
     "A": "5-door hatchback",
     "D": "3-door hatchback",
-    "E": "2-door sedan",
+    "E": "2-door sedan (Scoupe)",
     "F": "4-door sedan",
-    "G": "2-door coupe",
-    "W": "5-door wagon"
+    "G": "2-door coupe (1997-2001 Tiburon)",
+    "W": "5-door station wagon (1996-2000 Elantra wagon)"
   },
-
-  "position_6_post2001_body": {
-    "_note": "POST-2001: Position 6 = body type. Use this for most modern Hyundai VINs.",
-    "3": "4-door sedan",
-    "4": "5-door hatchback",
-    "5": "5-door SUV / crossover",
-    "6": "2-door coupe",
-    "7": "Convertible",
-    "8": "5-door wagon",
-    "9": "Pickup / cab chassis"
+  "position_5_post2001_trim": {
+    "_note": "POST-2001 models (00 Accent + all MY2001-2009 except 01-05 Sonata & 01 Tiburon + all MY2010+): Position 5 = trim level.",
+    "B": "GL Santa Fe 01-04 / Genesis G90 3.5T 23+ / Ioniq 5 Robotaxi",
+    "C": "GLS Santa Fe 01-06 / Limited Santa Fe 06 / SE Azera 06-07 / Limited Azera 06+ / GLS Azera 07+ / SE Entourage 07 / GLS or Limited Entourage 07+ / 4.6L Genesis 09+ / Elantra Touring 09+ / Base Veloster 12+ / Genesis G90 3.5T e-SC 23+",
+    "D": "Genesis G90 3.5T e-SC Prestige Black 26+",
+    "F": "Base or L Accent 00-04",
+    "G": "GL or GS Accent 00-04 / GT Accent 03-05 / GLS Accent 05 / GLS Santa Fe 07+",
+    "H": "SE or Limited Santa Fe 07",
+    "M": "GL (Base) Tiburon 03-04 / GS Tiburon 05-08 / GL Tucson 05-06 / GLS Tucson 07+ / GS Accent 07+",
+    "N": "GLS Accent 06+ / SE Accent 07+ / GLS or GT Elantra 01-06 / Limited Elantra 06 / GLS Tucson 05-06 / LX Tucson 05 / Limited Tucson 06+ / SE Tucson 07+ / Limited V6 Tucson 08+ / GT Tiburon 03-08 / SE Tiburon 05-08 / GT Limited Tiburon 06-08 / Ioniq 5 N 25+",
+    "T": "GL Sonata 06 / GLS Sonata 07+",
+    "U": "GLS (Base or L) XG300 01 / XG350 02-05 / GLS or LX Sonata 06 / Limited Sonata 06+ / SE Sonata 07+ / Limited Elantra 07 / GLS or SE Elantra 07+ / GLS or Limited Veracruz 07+ / SE Veracruz 07",
+    "1": "SE Standard Range Ioniq 6 23-25",
+    "2": "SE Ioniq 6 23-25 / SE (general)",
+    "3": "SEL Ioniq 6 23-25 / Ioniq 6 N 26+ / Limited Edition",
+    "5": "Limited Ioniq 6 23-25",
+    "A": "Base / Entry trim (India market \u2014 i10, i20, Creta base)",
+    "E": "Era / Elite trim (India market)",
+    "S": "SX / Sport trim (India market Creta, Venue)",
+    "X": "SX(O) / Executive trim (India market)",
+    "P": "Prime / E+ trim (India market)",
+    "K": "EX / Knight trim (India market)"
   },
-
   "position_6_pre2001_trim": {
-    "_note": "PRE-2001: Position 6 = trim level.",
-    "A": "Base / entry trim",
-    "B": "GL trim",
-    "C": "GLS trim",
-    "D": "SE trim",
-    "E": "Limited / Premium trim",
-    "F": "Sport trim",
-    "G": "GT trim"
+    "_note": "PRE-2001 models AND 01-05 Sonata & 01 Tiburon: Position 6 = trim level.",
+    "1": "Base (including base Mitsubishi Precis)",
+    "2": "GL / Mitsubishi Precis RS",
+    "3": "GLS / LS / LX / GS / Mitsubishi Precis LS"
   },
-
+  "position_6_post2001_body": {
+    "_note": "POST-2001 models (passenger cars, excluding SUVs/pickups 2010+): Position 6 = body type.",
+    "1": "Wagon FWD (Santa Fe, Tucson, Veracruz)",
+    "2": "Minivan Extended length (Entourage)",
+    "3": "3-door hatchback",
+    "4": "4-door sedan",
+    "5": "5-door hatchback (Elantra 5-door 01-06, Elantra GT 13-20, Accent 5-door, Ioniq 17-22)",
+    "6": "Coupe (Tiburon 03-08, Genesis Coupe, Elantra Coupe 13-14, Veloster)",
+    "7": "Wagon AWD / SUV AWD (Santa Fe AWD, Tucson AWD, Veracruz AWD)",
+    "8": "5-door SUV / Crossover (Creta, Venue) / Station Wagon (Elantra Touring 09-12)",
+    "9": "Pickup / Crew cab (Santa Cruz)"
+  },
+  "position_6_post2010_mpv_truck": {
+    "_note": "2010+ Multi-Purpose Passenger Vehicle or Truck: Position 6 = body style / drive wheels / weight class.",
+    "2": "Wagon 4x2 Class B",
+    "3": "Wagon 4x2 Class C",
+    "4": "Wagon or Pickup (Double cab) 4x2 Class D",
+    "5": "Wagon 4x2 Class E / New Tucson GL",
+    "C": "Wagon 4x4 Class C",
+    "D": "Wagon or Pickup (Double cab) 4x4 Class D",
+    "E": "Wagon 4x4 Class E",
+    "F": "Wagon 4x4 Class F"
+  },
   "position_7_restraint": {
-    "_note": "Position 7 = restraint system / GVWR. Consistent across eras.",
-    "1": "Active belts, no airbags",
-    "2": "Driver airbag only",
-    "3": "Driver + passenger airbag (dual front)",
-    "4": "Dual front + side airbags",
-    "5": "Dual front + curtain airbags",
-    "6": "Full airbag suite (front + side + curtain + knee)",
-    "7": "GVWR over 6,000 lbs (trucks / large SUVs)",
-    "8": "GVWR 6,001–8,500 lbs"
+    "_note": "Position 7 = restraint system (passenger & multi-purpose vehicles). Consistent across eras.",
+    "passenger": {
+      "1": "Active 3-point belts",
+      "2": "Passive restraint",
+      "3": "Driver-side airbag (manual belt), passenger-side passive",
+      "4": "Dual airbags (manual belts)",
+      "5": "Depowered airbags",
+      "6": "Advanced airbags or depowered airbags with suppression",
+      "A": "Manual belts, dual front airbags + front side airbags + 2-row side curtain airbags",
+      "J": "Manual belts, dual front airbags + front/rear side airbags + 2-row side curtain airbags",
+      "S": "Manual belts, dual front airbags + front/rear side airbags + 2-row side curtain airbags + driver knee airbag + front center airbag",
+      "T": "Manual belts, dual front airbags + front side airbags + 2-row side curtain airbags + driver knee airbag + front center airbag",
+      "G": "Manual belts, dual front airbags + front/rear side airbags + 3-row side curtain airbags + driver knee airbag",
+      "D": "Manual belts, dual front airbags + front/rear side airbags + 2-row side curtain airbags [Hydraulic Brakes]"
+    },
+    "mpv_passenger": {
+      "A": "Manual belts, dual front airbags + front side airbags + 2-row side curtain airbags",
+      "D": "Manual belts, dual front airbags + front/rear side airbags + 2-row side curtain airbags [Hydraulic Brakes]",
+      "G": "Manual belts, dual front airbags + front/rear side airbags + 3-row side curtain airbags + driver knee airbag",
+      "J": "Manual belts, dual front airbags + front/rear side airbags + 2-row side curtain airbags",
+      "S": "Manual belts, dual front airbags + front/rear side airbags + 2-row/3-row side curtain airbags + driver knee airbag + front center airbag",
+      "T": "Manual belts, dual front airbags + front side airbags + 2-row side curtain airbags + driver knee airbag + front center airbag"
+    },
+    "gvwr_mpv": {
+      "2": "GVWR Class C (4,001-5,000 lbs)",
+      "3": "GVWR Class D (5,001-6,000 lbs)"
+    }
   },
-
   "position_8_engine": {
-    "_note": "Position 8 = engine type. Stable and well-documented. Most common UAE: D (Theta II 2.0-2.4L), E (Lambda V6), T (Smartstream 1.5-1.6T).",
-    "2": "Gamma (G4FG/G4FC/G4FJ) 1.4–1.6L — i20, Accent, Creta",
-    "5": "Nu / Kappa (G4NA/G4KD) 1.8–2.0L — Elantra, i30",
-    "D": "Theta II (G4KC/G4KH) 2.0–2.4L — Sonata, Tucson",
-    "E": "Lambda (G6BV/G6DC) 2.7–3.8L V6 petrol",
-    "F": "Tau (G8BA/G8BB) 4.6–5.0L V8 — Genesis G90, Equus",
-    "G": "Gamma 1.4T (G4FT) 1.4L turbo GDI",
-    "H": "Theta II GDI (G4KJ) 2.0T — performance variants",
-    "K": "Nu GDI 2.0 (G4NC) 2.0L — modern direct injection",
-    "L": "Kappa (G3LC/G3LA) 1.0–1.2L — i10, small cars",
-    "M": "Beta (G4GC/G4GB) 2.0L DOHC — older Sonata/Elantra",
-    "P": "Ioniq electric motor 88–214 kW — Ioniq 5/6 BEV",
-    "T": "Smartstream (G4FP/G4FL) 1.5–1.6T — modern turbo petrol"
+    "_note": "Position 8 = engine type. Covers MY1996-2026.",
+    "1": "1999cc 2.0L DOHC Nu GDI + 51hp electric (Sonata Hybrid 16-17) / 1598cc 1.6L Smartstream G1.6T Hybrid (Santa Fe Hybrid 21+, Tucson Hybrid 22+) / Electric 365hp Genesis Electrified G80 AWD 23-25 / Electric 429hp Genesis Electrified GV70 AWD 23+ / Electric 215hp Ioniq 9 RWD 26+",
+    "2": "1591cc 1.6L DOHC Gamma II GDI turbo (Tucson 16-18) / 1598cc 1.6L Smartstream G1.6T GDI turbo (Sonata 20-23) / 1598cc 1.6L Smartstream G1.6T PHEV + 90/97hp electric (Santa Fe PHEV 22-23, Tucson PHEV 22+) / 1999cc 2.0L Nu GDI PHEV + 67hp electric (Sonata PHEV 16-19) / 3470cc 3.5L Smartstream G3.5 Lambda III V6 (Palisade 26+)",
+    "3": "1591cc 1.6L DOHC Gamma II GDI (Accent 18-19) / 1598cc 1.6L Smartstream G1.6 DPI (Venue 20+) / 1598cc 1.6L Smartstream G1.6T GDI turbo (Kona 22+) / 1999cc 2.0L Nu GDI Hybrid + 51hp electric (Sonata Hybrid 17-19) / 3778cc 3.8L DOHC Lambda V6 (Entourage 07-09) / Electric 303hp Ioniq 9 AWD 26+",
+    "4": "1999cc 2.0L DOHC Nu GDI (Tucson 16-21) / 2359cc 2.4L Theta II + 40/47hp electric (Sonata Hybrid 11-15)",
+    "5": "1591cc 1.6L DOHC Gamma II GDI turbo (Kona 18-21) / Electric 422hp Ioniq 9 Performance AWD 26+",
+    "6": "1598cc 1.6L Smartstream G1.6 DPI (Accent 20-22) / Electric 201hp Kona Electric SEL/Limited 24-25 / Hydrogen Fuel Cell 134hp (Tucson Fuel Cell 15-17) / Hydrogen Fuel Cell 161hp (Nexo 19-23)",
+    "7": "Electric 133hp Kona Electric SE 24+ / Hydrogen Fuel Cell 201hp (Nexo 26+)",
+    "8": "Electric motors 601hp Ioniq 5 N AWD 25+",
+    "9": "(reserved/unassigned)",
+    "A": "1353cc 1.4L DOHC Kappa II GDI turbo (Elantra 17-20) / 1591cc 1.6L Gamma II GDI turbo (Sonata 15-19) / 1999cc 2.0L DOHC Nu (Kona 18-21) / 1998cc 2.0L Theta II GDI turbo (Santa Fe Sport 13-18, Santa Fe 19-20) / 1998cc 2.0L Theta II FR GDI turbo (Genesis G70 19-23) / 2497cc 2.5L Smartstream G2.5 Theta III DPI (Sonata 20+) / 3342cc 3.3L Lambda II RS GDI twin turbo V6 (Genesis G90 17-22) / 2497cc 2.5L Smartstream G2.5T PHEV Palisade Hybrid 26+ / Electric 225hp Ioniq 6 RWD 23-25 / Electric 225hp Ioniq 5 RWD 25+ / Electric 225hp Genesis GV60 Standard RWD 24+",
+    "B": "2351cc 2.4L DOHC Santa Fe 01-04 / 1591cc 1.6L Gamma II GDI turbo (Elantra 17-20, Veloster 19-21) / 1975cc 2.0L Beta II Tucson 05-09 / 1975cc 2.0L Theta II Tucson 11-13 / 1998cc 2.0L Theta II GDI turbo (Sonata 11-19) / 1999cc 2.0L Smartstream G2.0 Kona 22+ / 2359cc 2.4L Theta II (Santa Fe 10-12) / 2359cc 2.4L Theta II GDI (Santa Fe Sport 13-18) / 2497cc 2.5L Smartstream FR G2.5T (Genesis GV80 21+, GV70 22+) / 3342cc 3.3L Lambda II RS GDI twin turbo V6 (Genesis G80 18-20) / Electric 168hp Ioniq 5 RWD 22-24 / Electric 149hp Ioniq 6 RWD 23-25 / Electric 429hp Genesis GV60 Performance AWD 23+",
+    "C": "1599cc 1.6L DOHC Alpha II (Accent 01-11) / 1579cc 1.6L Kappa II GDI + 43hp electric (Ioniq Hybrid 17-22) / 1591cc 1.6L Gamma II GDI turbo (Elantra GT 18-20) / 1998cc 2.0L Theta II GDI turbo (Kona N 22-23) / 2359cc 2.4L DOHC Theta (Sonata 06-08) / 2359cc 2.4L Theta II (Sonata 09-10, Tucson 10-13) / 2359cc 2.4L Theta II GDI (Sonata 11-14) / 2497cc 2.5L Smartstream G2.5T (Sonata N Line 21+) / 2497cc 2.5L Smartstream FR G2.5T (Genesis G80 21+, G70 24+) / 3470cc 3.5L Smartstream FR G3.5T Lambda III (GV80 21+, GV70 22+) / 3778cc 3.8L DOHC Lambda V6 (Veracruz 07-12) / Electric 320hp Ioniq 6 AWD 23-25 / Electric 320hp Ioniq 5 AWD 25+ / Electric 314hp Genesis GV60 AWD 23+",
+    "D": "1579cc 1.6L Kappa II GDI + 60hp electric PHEV (Ioniq PHEV 18-22) / 1591cc 1.6L Gamma II GDI (Veloster 12-17) / 1975cc 2.0L DOHC Beta II (Elantra 01-10, Tiburon 03-08) / 2359cc 2.4L Theta II GDI (Santa Fe 19-20) / 2656cc 2.7L DOHC Delta V6 (Santa Fe 01-09, Tucson 05-09) / 2972cc 3.0L DOHC V6 (XG300 2001) / 3342cc 3.3L DOHC Lambda V6 (Azera 07-10) / 3342cc 3.3L Lambda II V6 (Azera 11) / 1998cc 2.0L Theta II FR turbo (Genesis Coupe 10-14) / 3778cc 3.8L Lambda II RS GDI V6 (Genesis sedan 12-14) / 3470cc 3.5L Smartstream FR G3.5T (Genesis G80 21+, G90 23+) / 1998cc 2.0L FFV E22/E100 (Tucson/IX35 12+)",
+    "E": "1591cc 1.6L Gamma II GDI (Accent 12-17) / 1591cc 1.6L Gamma II GDI turbo (Veloster 13-17) / 1975cc 2.0L Beta II (Elantra Touring 09-12) / 1797cc 1.8L DOHC Nu (Elantra 11-16, Elantra GT 13) / 1999cc 2.0L Nu GDI (Elantra GT 18-20) / 2497cc 2.5L Smartstream G2.5 Theta III DPI (Tucson 22+, Santa Cruz 22+) / 3497cc 3.5L DOHC V6 (XG350 02-05, Santa Fe 03-06) / 3342cc 3.3L Lambda V6 (Santa Fe 07-09) / 3342cc 3.3L Lambda II RS GDI twin turbo V6 (Genesis G70 19+) / 3778cc 3.8L Lambda II RS V6 (Genesis sedan 09-11) / 3778cc 3.8L Lambda II RS GDI V6 (Genesis sedan 15-16, G80 17-20) / 3778cc 3.8L Lambda II GDI V6 (Palisade 20-25) / Electric 225hp Ioniq 5 RWD 22-24 / Electric 601hp Ioniq 6 N AWD 26+",
+    "F": "1997cc 2.0L DOHC (Sonata 92-98) / 1975cc 2.0L DOHC Beta (Tiburon 97-01, Elantra 99-00) / 1999cc 2.0L Nu GDI (Tucson 14-15) / 1999cc 2.0L Nu (Elantra 17-20, Veloster 19-21) / 1598cc 1.6L Smartstream G1.6T GDI turbo (Elantra N Line 21+) / 2359cc 2.4L Theta II GDI (Sonata 15-19) / 2497cc 2.5L Smartstream G2.5T (Santa Cruz 22+) / 2656cc 2.7L DOHC Delta V6 (Tiburon 03-08) / 3342cc 3.3L Lambda V6 (Sonata 06-10) / 3342cc 3.3L Lambda II GDI V6 (Santa Fe LWB/XL 13-19) / 3778cc 3.8L Lambda V6 (Azera 06-10) / 4627cc 4.6L DOHC Tau V8 (Genesis sedan 09-12, Equus 11) / 5038cc 5.0L DOHC Tau GDI V8 (Genesis sedan 15-16, G80 17-20) / Electric 320hp Ioniq 5 AWD 22-24",
+    "G": "1495cc 1.5L SOHC Alpha (Accent 00-02) / 1999cc 2.0L Smartstream G2.0 Nu PE (Elantra 21+) / 2359cc 2.4L Theta II GDI (Tucson 14-15) / 3470cc 3.5L DOHC Lambda II V6 (Santa Fe 10-12) / 3342cc 3.3L Lambda II GDI V6 (Azera 12-17) / Electric 201hp Kona Electric 19-23",
+    "H": "1999cc 2.0L DOHC Nu GDI (Elantra 14-16, Elantra GT 14-17) / 1998cc 2.0L Theta II GDI turbo (Veloster N 19-22) / 2656cc 2.7L DOHC Delta V6 (Sonata 02-05) / 3778cc 3.8L Lambda II RS V6 (Genesis Coupe 10-12) / 5038cc 5.0L DOHC Tau GDI V8 (Genesis sedan 12-14, Equus 12-16, G90 17-22) / Electric 118hp Ioniq Electric 17-19",
+    "J": "1468cc 1.5L SOHC (Excel 86-94, Mitsubishi Precis 87-94, Scoupe 91-92) / 1580cc 1.6L Smartstream G1.6 Hybrid GDI + 43hp electric (Elantra Hybrid 21+) / 1999cc 2.0L Smartstream G2.0 Hybrid + 51hp electric (Sonata Hybrid 20+) / 2497cc 2.5L Smartstream G2.5 Theta III DPI (Santa Fe 21-23) / 3778cc 3.8L Lambda II RS GDI V6 (Genesis Coupe 13-16) / Electric 134hp Ioniq Electric 20-21",
+    "K": "1998cc 2.0L DOHC Theta II GDI turbo (Elantra N 22+)",
+    "L": "1341cc 1.3L SOHC Alpha (Accent 95-99) / 2359cc 2.4L Theta II GDI (Tucson 18-21) / 2497cc 2.5L Smartstream G2.5T Theta III DPI turbo (Santa Fe 21+)",
+    "M": "1836cc 1.8L DOHC (Elantra 93-95) / 1795cc 1.8L DOHC Beta (Elantra 96-98, Tiburon 97)",
+    "N": "1495cc 1.5L SOHC Alpha (Scoupe 93-95, Accent 95-99) / 1495cc 1.5L DOHC Alpha II GT (Accent 96-97)",
+    "P": "Electric motors 224/320hp Ioniq 6 (various trims)",
+    "R": "1595cc 1.6L DOHC (Elantra 92-95)",
+    "S": "2351cc 2.4L SOHC (Sonata 89-91) / 2351cc 2.4L DOHC (Sonata 99-05)",
+    "T": "2972cc 3.0L SOHC V6 (Sonata 90-98)",
+    "V": "2493cc 2.4L DOHC Delta V6 (Sonata 99-01) / 1991cc 2.0L Diesel TCI (Sonata NF 06-10, Tucson 05-09)"
+  },
+  "position_9_check_digit": {
+    "_note": "Check digit: 0-9 or X. Calculated by substituting letters for numbers, multiplying by weight factors, summing, dividing by 11. Remainder=check digit; remainder 10=X.",
+    "valid_values": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "X"
+    ]
+  },
+  "position_11_plant": {
+    "_note": "Manufacturing plant codes (position 11 = VIS first character).",
+    "A": "Asan, South Korea",
+    "B": "Bromont, Quebec, Canada (2HM) / Gabarone, Botswana (KMH) / Anapolis, Goi\u00e1s, Brazil (Caoa Montadora / 95P)",
+    "C": "Cheonju, South Korea",
+    "E": "Pesqueria, Nuevo Le\u00f3n, Mexico (Kia plant)",
+    "F": "Jurong, Singapore (PFD)",
+    "G": "West Point, Georgia, USA (Kia plant)",
+    "H": "Montgomery, Alabama, USA (HMMA)",
+    "J": "No\u0161ovice, Czech Republic (TMA) / Benoni, South Africa (AC5) / Cikarang, Indonesia (MF3)",
+    "L": "\u017dilina, Slovakia (Kia plant)",
+    "M": "Chennai, Tamil Nadu, India (HMI Plant 1)",
+    "P": "Piracicaba, S\u00e3o Paulo, Brazil (Hyundai Motor Brasil / 9BH)",
+    "R": "Saint Petersburg, Russia",
+    "U": "Ulsan, South Korea",
+    "W": "Gwangju, South Korea (Gwangju Global Motors)",
+    "Y": "Ellabell, Georgia, USA (Hyundai Motor Group Metaplant America / HMGMA)",
+    "Z": "\u0130zmit, Turkey (Hyundai Assan)",
+    "6": "Sohari plant, Gwangmyeong, South Korea (Kia)"
+  },
+  "position_11_manufacturing_month_india": {
+    "_note": "For India-built vehicles (MAL WMI), position 11 may encode manufacturing month instead of plant.",
+    "A": "January",
+    "B": "February",
+    "C": "March",
+    "D": "April",
+    "E": "May",
+    "F": "June",
+    "G": "July",
+    "H": "August",
+    "J": "September",
+    "K": "October",
+    "L": "November",
+    "M": "December"
+  },
+  "era_detection": {
+    "_note": "Use model year from pos10 to pick correct era for pos5/pos6 decoding.",
+    "pre_2001_plus_exceptions": {
+      "description": "pos5=body_style, pos6=trim. Applies to: MY1996-2000 ALL models + MY2001-2005 Sonata + MY2001 Tiburon.",
+      "year_codes": [
+        "T",
+        "V",
+        "W",
+        "X",
+        "Y"
+      ]
+    },
+    "post_2001_standard": {
+      "description": "pos5=trim_level, pos6=body_type. Applies to: MY2000 Accent (00 Accent only) + all MY2001-2026 EXCEPT 01-05 Sonata & 01 Tiburon.",
+      "year_codes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "P",
+        "R",
+        "S",
+        "T"
+      ]
+    }
   }
 }
