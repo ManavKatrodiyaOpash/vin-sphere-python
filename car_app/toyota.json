@@ -45,397 +45,397 @@
         "JTD": {
             "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "JTK": {
             "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "JTN": {
             "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "JTX": {
             "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "JT1": {
             "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "Passenger Car (European market)"
+            "vehicle_type": "Passanger Car"
         },
         "JT2": {
             "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "Passenger Car (North American market)"
+            "vehicle_type": "Passanger Car"
         },
         "JT7": {
             "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "Passenger Car (Asia-Pacific market)"
+            "vehicle_type": "Passanger Car"
         },
         "JTA": {
             "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "Truck"
+            "vehicle_type": "Commercial Car"
         },
         "JTB": {
             "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "Truck"
+            "vehicle_type": "Commercial Car"
         },
         "JTF": {
             "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "Truck"
+            "vehicle_type": "Commercial Car"
         },
         "JT4": {
             "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "Truck"
+            "vehicle_type": "Commercial Car"
         },
         "JTG": {
             "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "Bus"
+            "vehicle_type": "Commercial Car"
         },
         "JTE": {
             "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "SUV/MPV"
+            "vehicle_type": "Passanger Car"
         },
         "JTL": {
             "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "SUV/Minivan"
+            "vehicle_type": "Passanger Car"
         },
         "JTM": {
             "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "SUV"
+            "vehicle_type": "Passanger Car"
         },
         "JT3": {
             "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "SUV/Minivan"
+            "vehicle_type": "Passanger Car"
         },
         "JT5": {
             "manufacturer": "Toyota Motor Corporation",
             "country": "Japan",
-            "vehicle_type": "Incomplete Vehicle (convertible/chassis cab)"
+            "vehicle_type": "Commercial Car"
         },
         "JTH": {
             "manufacturer": "Toyota Motor Corporation (Lexus)",
             "country": "Japan",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "JTJ": {
             "manufacturer": "Toyota Motor Corporation (Lexus)",
             "country": "Japan",
-            "vehicle_type": "SUV"
+            "vehicle_type": "Passanger Car"
         },
         "JT6": {
             "manufacturer": "Toyota Motor Corporation (Lexus)",
             "country": "Japan",
-            "vehicle_type": "SUV"
+            "vehicle_type": "Passanger Car"
         },
         "JT8": {
             "manufacturer": "Toyota Motor Corporation (Lexus)",
             "country": "Japan",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "JF1": {
             "manufacturer": "Subaru Corp. (Toyota GR86/86/Scion FR-S)",
             "country": "Japan",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "JHA": {
             "manufacturer": "Hino Motors Ltd.",
             "country": "Japan",
-            "vehicle_type": "Truck"
+            "vehicle_type": "Commercial Car"
         },
         "JHB": {
             "manufacturer": "Hino Motors Ltd.",
             "country": "Japan",
-            "vehicle_type": "Incomplete Vehicle"
+            "vehicle_type": "Commercial Car"
         },
         "JHC": {
             "manufacturer": "Hino Motors Ltd.",
             "country": "Japan",
-            "vehicle_type": "Truck"
+            "vehicle_type": "Commercial Car"
         },
         "JHD": {
             "manufacturer": "Hino Motors Ltd.",
             "country": "Japan",
-            "vehicle_type": "Truck"
+            "vehicle_type": "Commercial Car"
         },
         "JHE": {
             "manufacturer": "Hino Motors Ltd.",
             "country": "Japan",
-            "vehicle_type": "Truck"
+            "vehicle_type": "Commercial Car"
         },
         "JHH": {
             "manufacturer": "Hino Motors Ltd.",
             "country": "Japan",
-            "vehicle_type": "Incomplete Vehicle"
+            "vehicle_type": "Commercial Car"
         },
         "JH6": {
             "manufacturer": "Hino Motors Ltd.",
             "country": "Japan",
-            "vehicle_type": "Incomplete Vehicle"
+            "vehicle_type": "Commercial Car"
         },
         "JDA": {
             "manufacturer": "Daihatsu Motor Company Ltd.",
             "country": "Japan",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "JD1": {
             "manufacturer": "Daihatsu Motor Company Ltd.",
             "country": "Japan",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "JD2": {
             "manufacturer": "Daihatsu Motor Company Ltd.",
             "country": "Japan",
-            "vehicle_type": "SUV"
+            "vehicle_type": "Passanger Car"
         },
         "JD4": {
             "manufacturer": "Daihatsu Motor Company Ltd.",
             "country": "Japan",
-            "vehicle_type": "Truck"
+            "vehicle_type": "Commercial Car"
         },
         "1NX": {
             "manufacturer": "NUMMI (Toyota/GM Joint Venture)",
             "country": "USA",
-            "vehicle_type": "Passenger Car ('87-'10)"
+            "vehicle_type": "Passanger Car"
         },
         "4T1": {
             "manufacturer": "Toyota Motor Manufacturing Kentucky (TMMK)",
             "country": "USA",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "4T3": {
             "manufacturer": "Toyota Motor Manufacturing Kentucky (TMMK)",
             "country": "USA",
-            "vehicle_type": "SUV/Minivan"
+            "vehicle_type": "Passanger Car"
         },
         "4T4": {
             "manufacturer": "Subaru of Indiana Automotive",
             "country": "USA",
-            "vehicle_type": "Passenger Car ('07-'16)"
+            "vehicle_type": "Passanger Car"
         },
         "4TA": {
             "manufacturer": "NUMMI",
             "country": "USA",
-            "vehicle_type": "Truck ('92-'00)"
+            "vehicle_type": "Commercial Car"
         },
         "5TB": {
             "manufacturer": "Toyota Motor Manufacturing Indiana (TMMI)",
             "country": "USA",
-            "vehicle_type": "Truck"
+            "vehicle_type": "Commercial Car"
         },
         "5TD": {
             "manufacturer": "Toyota Motor Manufacturing Indiana (TMMI)",
             "country": "USA",
-            "vehicle_type": "Minivan/SUV (Lexus SUV)"
+            "vehicle_type": "Passanger Car"
         },
         "5TE": {
             "manufacturer": "NUMMI",
             "country": "USA",
-            "vehicle_type": "Truck ('00-'10)"
+            "vehicle_type": "Commercial Car"
         },
         "5TF": {
             "manufacturer": "Toyota Motor Manufacturing Texas (TMMTX)",
             "country": "USA",
-            "vehicle_type": "Truck"
+            "vehicle_type": "Commercial Car"
         },
         "5YF": {
             "manufacturer": "Toyota Motor Manufacturing Mississippi (TMMMS)",
             "country": "USA",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "58A": {
             "manufacturer": "Toyota Motor Manufacturing Kentucky (TMMK)",
             "country": "USA",
-            "vehicle_type": "Lexus Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "7MU": {
             "manufacturer": "Mazda Toyota Manufacturing USA",
             "country": "USA",
-            "vehicle_type": "SUV"
+            "vehicle_type": "Passanger Car"
         },
         "7SV": {
             "manufacturer": "Toyota Motor Manufacturing Texas (TMMTX)",
             "country": "USA",
-            "vehicle_type": "SUV"
+            "vehicle_type": "Passanger Car"
         },
         "2T1": {
             "manufacturer": "Toyota Motor Manufacturing Canada (TMMC)",
             "country": "Canada",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "2T2": {
             "manufacturer": "Toyota Motor Manufacturing Canada (TMMC)",
             "country": "Canada",
-            "vehicle_type": "Lexus SUV"
+            "vehicle_type": "Passanger Car"
         },
         "2T3": {
             "manufacturer": "Toyota Motor Manufacturing Canada (TMMC)",
             "country": "Canada",
-            "vehicle_type": "SUV"
+            "vehicle_type": "Passanger Car"
         },
         "3MY": {
             "manufacturer": "Mazda de Mexico Vehicle Operation",
             "country": "Mexico",
-            "vehicle_type": "Passenger Car ('16-'20)"
+            "vehicle_type": "Passanger Car"
         },
         "3TM": {
             "manufacturer": "Toyota Motor Manufacturing Baja California (TMMBC)",
             "country": "Mexico",
-            "vehicle_type": "Truck"
+            "vehicle_type": "Commercial Car"
         },
         "3TY": {
             "manufacturer": "Toyota Motor Manufacturing Guanajuato (TMMGT)",
             "country": "Mexico",
-            "vehicle_type": "Truck"
+            "vehicle_type": "Commercial Car"
         },
         "4G3": {
             "manufacturer": "GM Lordstown Assembly",
             "country": "USA",
-            "vehicle_type": "Passenger Car (Cavalier '96-'00)"
+            "vehicle_type": "Passanger Car"
         },
         "SB1": {
             "manufacturer": "Toyota Motor Manufacturing UK (TMMUK)",
             "country": "United Kingdom",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "VNK": {
             "manufacturer": "Toyota Motor Manufacturing France (TMMF)",
             "country": "France",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "NMT": {
             "manufacturer": "Toyota Motor Manufacturing Turkey (TMMT)",
             "country": "Turkey",
-            "vehicle_type": "Passenger Car/Crossover"
+            "vehicle_type": "Passanger Car"
         },
         "MR0": {
             "manufacturer": "Toyota Motor Thailand",
             "country": "Thailand",
-            "vehicle_type": "Passenger Car/Truck"
+            "vehicle_type": "Commercial Car"
         },
         "MR1": {
             "manufacturer": "Toyota Motor Thailand (Samrong plant)",
             "country": "Thailand",
-            "vehicle_type": "Truck (Fortuner)"
+            "vehicle_type": "Commercial Car"
         },
         "MR2": {
             "manufacturer": "Toyota Motor Thailand (Gateway plant)",
             "country": "Thailand",
-            "vehicle_type": "Passenger Car/Truck"
+            "vehicle_type": "Commercial Car"
         },
         "MHF": {
             "manufacturer": "PT Toyota Motor Manufacturing Indonesia",
             "country": "Indonesia",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "MHK": {
             "manufacturer": "PT Astra Daihatsu Motor",
             "country": "Indonesia",
-            "vehicle_type": "Daihatsu/Toyota"
+            "vehicle_type": "Passanger Car"
         },
         "MMK": {
             "manufacturer": "Toyota Auto Works Co. Ltd.",
             "country": "Thailand",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "MBJ": {
             "manufacturer": "Toyota Kirloskar Motor",
             "country": "India",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "LFM": {
             "manufacturer": "FAW Toyota",
             "country": "China",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "LVG": {
             "manufacturer": "GAC Toyota",
             "country": "China",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "AHT": {
             "manufacturer": "Toyota South Africa",
             "country": "South Africa",
-            "vehicle_type": "Passenger Car/Truck"
+            "vehicle_type": "Commercial Car"
         },
         "6T1": {
             "manufacturer": "Toyota Australia",
             "country": "Australia",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "7A4": {
             "manufacturer": "Toyota New Zealand",
             "country": "New Zealand",
-            "vehicle_type": "Passenger Car/Truck"
+            "vehicle_type": "Commercial Car"
         },
         "8AJ": {
             "manufacturer": "Toyota Argentina",
             "country": "Argentina",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "9BR": {
             "manufacturer": "Toyota Brazil",
             "country": "Brazil",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "PL1": {
             "manufacturer": "Toyota Motor Manufacturing Czech Republic",
             "country": "Czech Republic",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "RKL": {
             "manufacturer": "Kuozui Motors (Taiwan)",
             "country": "Taiwan",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "RL4": {
             "manufacturer": "Toyota Motor Vietnam",
             "country": "Vietnam",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "WZ1": {
             "manufacturer": "Magna Steyr",
             "country": "Austria",
-            "vehicle_type": "Passenger Car (GR Supra)"
+            "vehicle_type": "Passanger Car"
         },
         "YBC": {
             "manufacturer": "Magna Steyr",
             "country": "Austria",
-            "vehicle_type": "Passenger Car (GR Supra European)"
+            "vehicle_type": "Passanger Car"
         },
         "YAR": {
             "manufacturer": "PSA/Stellantis",
             "country": "France",
-            "vehicle_type": "Van (ProAce/ProAce City/ProAce Max)"
+            "vehicle_type": "Passanger Car"
         },
         "XW7": {
             "manufacturer": "Toyota Motor Manufacturing Russia (TMMR)",
             "country": "Russia",
-            "vehicle_type": "Passenger Car/SUV"
+            "vehicle_type": "Passanger Car"
         },
         "PN1": {
             "manufacturer": "Assembly Services Sdn. Bhd. (ASSB)",
             "country": "Malaysia",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         },
         "PN2": {
             "manufacturer": "Assembly Services Sdn. Bhd. (ASSB)",
             "country": "Malaysia",
-            "vehicle_type": "Passenger Car"
+            "vehicle_type": "Passanger Car"
         }
     },
     "position_9": {
@@ -488,55 +488,232 @@
         "position_4_body_type": {
             "_note": "Position 4 = body type & drive wheels. Passenger cars and MPVs listed separately (same codes may mean different things by vehicle class). From 2020 some models use pos4 to also encode grade.",
             "passenger_cars": {
-                "A": "4DR Sedan (Mirai '21-'26, Crown '23-'25, GR Corolla '23-'25 hatch, Prius '23-'25 hatch, Crown Signia wagon '25-)",
-                "B": "4DR Sedan 2WD (Yaris '10-'12, Corolla '10-'19, Camry '10-'19, Avalon '10-'19, Mirai '16-'20, Lexus HS '10-'12, ES '10-'19, IS '10-'19, GS '10-'11/'13-'19, GS F '16-'20, LS '10-'19) / Lexus RX350 Canadian-built '23-'25 / Corolla grades '23-'25",
-                "C": "4DR Sedan 4WD (Lexus IS250 AWD '10-'15, IS300 AWD '16-'19, IS350 AWD '11-'19, GS350 AWD '10-'11/'13-'19, LS460 AWD '10-'17, LS500 AWD '18-'19) / Lexus RX350 Japanese-built '23-'25",
-                "D": "3DR Liftback Coupe 2WD (Scion tC '10) / 4DR Sedan LWB 4WD (Lexus LS460L AWD '10-'17, LS600hL '10-'16) / 4DR Sedan (Camry '25-) / 5DR Liftback Corolla Hatchback auto '20-'25",
-                "E": "4DR Sedan Corolla LE grades '20-'22",
-                "F": "2DR Convertible 2WD (Lexus SC430 '10, IS250C/IS350C '10-'15)",
-                "G": "4DR Sedan LWB 2WD (Lexus LS460L '10-'17)",
-                "H": "2DR Coupe 2WD (Lexus LFA '12, RC200t '16-'17, RC300 RWD '18-'19, RC350 '15-'19, RC F '15-'19, LC500 '18-'19, LC500h '18-'19) / Corolla LE w/Premium Package '20-'22",
-                "J": "3DR Liftback 2WD (Yaris 3-door '10-'18, Scion tC '11-'16, Scion iQ '12-'15, Scion iQ EV '13)",
-                "K": "5DR Liftback/Hatchback 2WD (Yaris 5-door '10-'18, Lexus CT200h '11-'17, Prius C '12-'19, Scion iM '16, Corolla iM '17-'18, Corolla Hatchback '19) / 5DR Sedan 2WD (Prius '10-'22, Scion xD '10-'14, C-HR '18-'22) / Corolla grades '23-'25",
-                "L": "5DR Sedan 4WD (Prius AWD-e '19-'22, Matrix S 4wd '10-'13) / Corolla grades '20-'22 / Avalon XLE AWD '21",
-                "M": "5DR Sedan 2WD w/IRS (Matrix XRS '10, Canada '10-'13) / Corolla SE w/man. trans. '20-'22",
-                "P": "Corolla SE w/auto & Premium Package '20-'25 / Lexus UX200 premium grades '20-'22",
-                "S": "2DR Coupe 4WD (Lexus RC300 AWD '16-'19, RC350 AWD '15-'19) / Corolla SE auto '20-'25",
-                "T": "Corolla XSE '20-'25",
-                "U": "5DR Wagon 4WD (Lexus UX250h '19) / Lexus UX300h AWD '25- / Tacoma Access Cab LWB 4wd '10-'15",
-                "V": "Corolla LE w/Convenience Package '20-'22 / 4Runner '25-",
-                "Y": "5DR Wagon 2WD (Lexus UX200 '19) / Lexus UX300h 2wd '25-",
-                "Z": "5DR Wagon 2WD (Prius V '12-'17, Canada '18)"
+                "A": {
+                    "raw_description": "4DR Sedan (Mirai '21-'26, Crown '23-'25, GR Corolla '23-'25 hatch, Prius '23-'25 hatch, Crown Signia wagon '25-)",
+                    "number_of_doors": 4,
+                    "body_type": "Sedan"
+                },
+                "B": {
+                    "raw_description": "4DR Sedan 2WD (Yaris '10-'12, Corolla '10-'19, Camry '10-'19, Avalon '10-'19, Mirai '16-'20, Lexus HS '10-'12, ES '10-'19, IS '10-'19, GS '10-'11/'13-'19, GS F '16-'20, LS '10-'19) / Lexus RX350 Canadian-built '23-'25 / Corolla grades '23-'25",
+                    "number_of_doors": 4,
+                    "body_type": "Sedan",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "C": {
+                    "raw_description": "4DR Sedan 4WD (Lexus IS250 AWD '10-'15, IS300 AWD '16-'19, IS350 AWD '11-'19, GS350 AWD '10-'11/'13-'19, LS460 AWD '10-'17, LS500 AWD '18-'19) / Lexus RX350 Japanese-built '23-'25",
+                    "number_of_doors": 4,
+                    "body_type": "Sedan",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "D": {
+                    "raw_description": "3DR Liftback Coupe 2WD (Scion tC '10) / 4DR Sedan LWB 4WD (Lexus LS460L AWD '10-'17, LS600hL '10-'16) / 4DR Sedan (Camry '25-) / 5DR Liftback Corolla Hatchback auto '20-'25",
+                    "number_of_doors": 3,
+                    "body_type": "Sedan",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "E": {
+                    "raw_description": "4DR Sedan Corolla LE grades '20-'22",
+                    "number_of_doors": 4,
+                    "body_type": "Sedan"
+                },
+                "F": {
+                    "raw_description": "2DR Convertible 2WD (Lexus SC430 '10, IS250C/IS350C '10-'15)",
+                    "number_of_doors": 2,
+                    "body_type": "Convertible",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "G": {
+                    "raw_description": "4DR Sedan LWB 2WD (Lexus LS460L '10-'17)",
+                    "number_of_doors": 4,
+                    "body_type": "Sedan",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "H": {
+                    "raw_description": "2DR Coupe 2WD (Lexus LFA '12, RC200t '16-'17, RC300 RWD '18-'19, RC350 '15-'19, RC F '15-'19, LC500 '18-'19, LC500h '18-'19) / Corolla LE w/Premium Package '20-'22",
+                    "number_of_doors": 2,
+                    "body_type": "Coupe",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "J": {
+                    "raw_description": "3DR Liftback 2WD (Yaris 3-door '10-'18, Scion tC '11-'16, Scion iQ '12-'15, Scion iQ EV '13)",
+                    "number_of_doors": 3,
+                    "body_type": "Liftback",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "K": {
+                    "raw_description": "5DR Liftback/Hatchback 2WD (Yaris 5-door '10-'18, Lexus CT200h '11-'17, Prius C '12-'19, Scion iM '16, Corolla iM '17-'18, Corolla Hatchback '19) / 5DR Sedan 2WD (Prius '10-'22, Scion xD '10-'14, C-HR '18-'22) / Corolla grades '23-'25",
+                    "number_of_doors": 5,
+                    "body_type": "Sedan",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "L": {
+                    "raw_description": "5DR Sedan 4WD (Prius AWD-e '19-'22, Matrix S 4wd '10-'13) / Corolla grades '20-'22 / Avalon XLE AWD '21",
+                    "number_of_doors": 5,
+                    "body_type": "Sedan",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "M": {
+                    "raw_description": "5DR Sedan 2WD w/IRS (Matrix XRS '10, Canada '10-'13) / Corolla SE w/man. trans. '20-'22",
+                    "number_of_doors": 5,
+                    "body_type": "Sedan",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "P": {
+                    "raw_description": "Corolla SE w/auto & Premium Package '20-'25 / Lexus UX200 premium grades '20-'22"
+                },
+                "S": {
+                    "raw_description": "2DR Coupe 4WD (Lexus RC300 AWD '16-'19, RC350 AWD '15-'19) / Corolla SE auto '20-'25",
+                    "number_of_doors": 2,
+                    "body_type": "Coupe",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "T": {
+                    "raw_description": "Corolla XSE '20-'25"
+                },
+                "U": {
+                    "raw_description": "5DR Wagon 4WD (Lexus UX250h '19) / Lexus UX300h AWD '25- / Tacoma Access Cab LWB 4wd '10-'15",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "V": {
+                    "raw_description": "Corolla LE w/Convenience Package '20-'22 / 4Runner '25-"
+                },
+                "Y": {
+                    "raw_description": "5DR Wagon 2WD (Lexus UX200 '19) / Lexus UX300h 2wd '25-",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "Z": {
+                    "raw_description": "5DR Wagon 2WD (Prius V '12-'17, Canada '18)",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Two Wheel Drive"
+                }
             },
             "mpv_suv": {
-                "A": "5DR Wagon (Venza '21-'24, Sequoia '23-'25, bZ4X '23-'25, Grand Highlander '24-'25, Land Cruiser '24-'25, Subaru Solterra '23-'25, Lexus RZ450e '23-'25, RZ300e '24-'25, TX '24-'25) / Sienna XLE Woodland '22",
-                "B": "5DR Wagon 4WD (RAV4 LE '13-'18, Highlander '10-'13, Sequoia SR5 '10-'20, Sienna '21-'25 LE w/Plus / Lexus RX350 Canadian-built '23-'25 2wd) / FJ Cruiser '10-'14 4wd, 4Runner '10-'20 4wd, Lexus RX350 '10-'19 4wd, NX '15-'19 4wd",
-                "C": "4DR Wagon 4WD (Land Cruiser '16-'21) / Sienna XLE Woodland '23-'25 / Lexus RX350 Japanese-built '23-'25 AWD",
-                "D": "5DR Wagon extended 4WD w/3rd row (Lexus RX350L '18-'19, RX450hL '18-'19) / Sienna XSE w/Plus '21-'25",
-                "E": "5DR Wagon 4WD (RAV4 Limited '10-'12, Highlander Sport '10, Sienna SE '19-'20) / Sienna Platinum '21-'25",
-                "G": "5DR Wagon extended 2WD w/3rd row (Lexus RX350L '18-'19)",
-                "H": "4DR Wagon 4WD (Land Cruiser '10-'11/'13-'15, Lexus LX570 '10-'11/'13-'19)",
-                "J": "5DR Wagon 4WD (RAV4 base 3-row '10-'12, RAV4 SE '16-'18, Highlander SE '10/'17-'19, XLE '14-'19, Sequoia Limited '10-'20, Sienna LE '10-'20, Sienna XLE w/Plus '21-'25, Lexus GX460 Premium '10-'13)",
-                "K": "5DR Wagon 2WD (RAV4 base 3-row '10-'12, Highlander SE '10/'17-'19, XLE '14-'19, Sequoia Limited '10-'20, Sienna CE/LE '10-'20, Sienna LE '21-'25) / Tacoma PreRunner Double Cab Super LWB '10-'15",
-                "L": "Tacoma Double Cab LWB 4wd '10-'15 / '24-'25 Class E / Sienna '21-'25",
-                "M": "Tacoma Double Cab Super LWB 4wd '10-'15",
-                "N": "Tacoma Regular Cab SWB 2wd '10-'14 / RAV4 SE '16-'18 2wd",
-                "P": "Tacoma Regular Cab SWB 4wd '10-'14",
-                "R": "5DR Wagon 4WD (RAV4 Sport '10-'12, XLE '13-'18, Adventure '18)",
-                "T": "Tacoma Access Cab LWB 2wd '10-'15",
-                "U": "Tacoma Access Cab LWB 4wd '10-'15",
-                "V": "4Runner '25-",
-                "W": "5DR Wagon 2WD (RAV4 Sport '10-'12, XLE '13-'18, Adventure '18)",
-                "X": "5DR Wagon 2WD (RAV4 Limited 3-row '10-'12, Highlander Sport '10, Sienna SE '11-'20, Sienna XSE '21-'25)",
-                "Y": "5DR Wagon 2WD (RAV4 Limited '10-'12/'13-'18, Sienna XLE/Limited '10-'20, Lexus NX200t/NX300 '15-'19) / Sienna XLE '21-'25",
-                "Z": "5DR Wagon 2WD (Scion xB '10-'15, Venza '10-'15, FJ Cruiser '10-'14, 4Runner '10-'20, RAV4 LE '13-'18, Sequoia SR5 '10-'20, Lexus RX350 '10-'19) / Sienna Limited '21-'25"
+                "A": {
+                    "raw_description": "5DR Wagon (Venza '21-'24, Sequoia '23-'25, bZ4X '23-'25, Grand Highlander '24-'25, Land Cruiser '24-'25, Subaru Solterra '23-'25, Lexus RZ450e '23-'25, RZ300e '24-'25, TX '24-'25) / Sienna XLE Woodland '22",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon"
+                },
+                "B": {
+                    "raw_description": "5DR Wagon 4WD (RAV4 LE '13-'18, Highlander '10-'13, Sequoia SR5 '10-'20, Sienna '21-'25 LE w/Plus / Lexus RX350 Canadian-built '23-'25 2wd) / FJ Cruiser '10-'14 4wd, 4Runner '10-'20 4wd, Lexus RX350 '10-'19 4wd, NX '15-'19 4wd",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "C": {
+                    "raw_description": "4DR Wagon 4WD (Land Cruiser '16-'21) / Sienna XLE Woodland '23-'25 / Lexus RX350 Japanese-built '23-'25 AWD",
+                    "number_of_doors": 4,
+                    "body_type": "Wagon",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "D": {
+                    "raw_description": "5DR Wagon extended 4WD w/3rd row (Lexus RX350L '18-'19, RX450hL '18-'19) / Sienna XSE w/Plus '21-'25",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "E": {
+                    "raw_description": "5DR Wagon 4WD (RAV4 Limited '10-'12, Highlander Sport '10, Sienna SE '19-'20) / Sienna Platinum '21-'25",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "G": {
+                    "raw_description": "5DR Wagon extended 2WD w/3rd row (Lexus RX350L '18-'19)",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "H": {
+                    "raw_description": "4DR Wagon 4WD (Land Cruiser '10-'11/'13-'15, Lexus LX570 '10-'11/'13-'19)",
+                    "number_of_doors": 4,
+                    "body_type": "Wagon",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "J": {
+                    "raw_description": "5DR Wagon 4WD (RAV4 base 3-row '10-'12, RAV4 SE '16-'18, Highlander SE '10/'17-'19, XLE '14-'19, Sequoia Limited '10-'20, Sienna LE '10-'20, Sienna XLE w/Plus '21-'25, Lexus GX460 Premium '10-'13)",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "K": {
+                    "raw_description": "5DR Wagon 2WD (RAV4 base 3-row '10-'12, Highlander SE '10/'17-'19, XLE '14-'19, Sequoia Limited '10-'20, Sienna CE/LE '10-'20, Sienna LE '21-'25) / Tacoma PreRunner Double Cab Super LWB '10-'15",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "L": {
+                    "raw_description": "Tacoma Double Cab LWB 4wd '10-'15 / '24-'25 Class E / Sienna '21-'25"
+                },
+                "M": {
+                    "raw_description": "Tacoma Double Cab Super LWB 4wd '10-'15"
+                },
+                "N": {
+                    "raw_description": "Tacoma Regular Cab SWB 2wd '10-'14 / RAV4 SE '16-'18 2wd"
+                },
+                "P": {
+                    "raw_description": "Tacoma Regular Cab SWB 4wd '10-'14"
+                },
+                "R": {
+                    "raw_description": "5DR Wagon 4WD (RAV4 Sport '10-'12, XLE '13-'18, Adventure '18)",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "T": {
+                    "raw_description": "Tacoma Access Cab LWB 2wd '10-'15"
+                },
+                "U": {
+                    "raw_description": "Tacoma Access Cab LWB 4wd '10-'15"
+                },
+                "V": {
+                    "raw_description": "4Runner '25-"
+                },
+                "W": {
+                    "raw_description": "5DR Wagon 2WD (RAV4 Sport '10-'12, XLE '13-'18, Adventure '18)",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "X": {
+                    "raw_description": "5DR Wagon 2WD (RAV4 Limited 3-row '10-'12, Highlander Sport '10, Sienna SE '11-'20, Sienna XSE '21-'25)",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "Y": {
+                    "raw_description": "5DR Wagon 2WD (RAV4 Limited '10-'12/'13-'18, Sienna XLE/Limited '10-'20, Lexus NX200t/NX300 '15-'19) / Sienna XLE '21-'25",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "Z": {
+                    "raw_description": "5DR Wagon 2WD (Scion xB '10-'15, Venza '10-'15, FJ Cruiser '10-'14, 4Runner '10-'20, RAV4 LE '13-'18, Sequoia SR5 '10-'20, Lexus RX350 '10-'19) / Sienna Limited '21-'25",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Two Wheel Drive"
+                }
             },
             "trucks_2022_tundra": {
-                "_note": "2022+ Tundra uses pos4 for cab/bed combo",
-                "A": "Tundra Double Cab 6.5 ft. Bed",
-                "B": "Tundra CrewMax 5.5 ft. Bed",
-                "C": "Tundra CrewMax 6.5 ft. Bed",
-                "D": "Tundra Double Cab 8.1 ft. Bed"
+                "_note": {
+                    "raw_description": "2022+ Tundra uses pos4 for cab/bed combo"
+                },
+                "A": {
+                    "raw_description": "Tundra Double Cab 6.5 ft. Bed"
+                },
+                "B": {
+                    "raw_description": "Tundra CrewMax 5.5 ft. Bed"
+                },
+                "C": {
+                    "raw_description": "Tundra CrewMax 6.5 ft. Bed"
+                },
+                "D": {
+                    "raw_description": "Tundra Double Cab 8.1 ft. Bed"
+                }
             }
         },
         "position_5_engine": {
@@ -647,27 +824,122 @@
         },
         "position_4_body_type": {
             "passenger_cars": {
-                "A": "2DR Sedan 2WD (Tercel, Echo)",
-                "B": "4DR Sedan 2WD (Tercel, Echo, Yaris, Corolla, Camry, Avalon, Prius '01-'03, Lexus ES/IS/GS/LS)",
-                "C": "2DR Coupe 2WD (Paseo '96-'97, Celica '96-'98, Camry coupe '96, Camry Solara '99-'08, Lexus SC300/SC400 '96-'00) / 4DR Sedan 4WD (Lexus GS300 AWD '06, GS350 AWD '07-'09, LS460 AWD '09)",
-                "D": "3DR Liftback Coupe 2WD (Celica '96-'05, Supra '96-'98, Scion tC '05-'09) / 4DR Sedan LWB 4WD (Lexus LS460L AWD '09, LS600hL '08-'09)",
-                "E": "4DR Station Wagon 2WD (Corolla wagon '96, Camry wagon '96, Lexus IS300 SportCross '02-'05)",
-                "F": "2DR Convertible 2WD (Paseo conv '97, Celica conv '96-'99, Camry Solara conv '00-'08, MR2 Spyder '00-'05, Lexus SC430 '02-'09)",
-                "G": "5DR Sedan 2WD w/IRS (Matrix XRS '09) / 4DR Sedan LWB 2WD (Lexus LS460L '07-'09)",
-                "J": "3DR Liftback 2WD (Yaris 3-door '07-'09)",
-                "K": "4DR Hatchback/5DR Liftback 2WD (Prius '04-'09, Yaris 5-door '09) / 5DR Sedan 2WD (Matrix '03-'08, Scion xA, xD) / 5DR Sedan 2WD torsion beam (Matrix Base/S 2wd '09)",
-                "L": "5DR Sedan 4WD (Matrix 4wd '03-'06/'09)"
+                "A": {
+                    "raw_description": "2DR Sedan 2WD (Tercel, Echo)",
+                    "number_of_doors": 2,
+                    "body_type": "Sedan",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "B": {
+                    "raw_description": "4DR Sedan 2WD (Tercel, Echo, Yaris, Corolla, Camry, Avalon, Prius '01-'03, Lexus ES/IS/GS/LS)",
+                    "number_of_doors": 4,
+                    "body_type": "Sedan",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "C": {
+                    "raw_description": "2DR Coupe 2WD (Paseo '96-'97, Celica '96-'98, Camry coupe '96, Camry Solara '99-'08, Lexus SC300/SC400 '96-'00) / 4DR Sedan 4WD (Lexus GS300 AWD '06, GS350 AWD '07-'09, LS460 AWD '09)",
+                    "number_of_doors": 2,
+                    "body_type": "Sedan",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "D": {
+                    "raw_description": "3DR Liftback Coupe 2WD (Celica '96-'05, Supra '96-'98, Scion tC '05-'09) / 4DR Sedan LWB 4WD (Lexus LS460L AWD '09, LS600hL '08-'09)",
+                    "number_of_doors": 3,
+                    "body_type": "Sedan",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "E": {
+                    "raw_description": "4DR Station Wagon 2WD (Corolla wagon '96, Camry wagon '96, Lexus IS300 SportCross '02-'05)",
+                    "number_of_doors": 4,
+                    "body_type": "Wagon",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "F": {
+                    "raw_description": "2DR Convertible 2WD (Paseo conv '97, Celica conv '96-'99, Camry Solara conv '00-'08, MR2 Spyder '00-'05, Lexus SC430 '02-'09)",
+                    "number_of_doors": 2,
+                    "body_type": "Convertible",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "G": {
+                    "raw_description": "5DR Sedan 2WD w/IRS (Matrix XRS '09) / 4DR Sedan LWB 2WD (Lexus LS460L '07-'09)",
+                    "number_of_doors": 5,
+                    "body_type": "Sedan",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "J": {
+                    "raw_description": "3DR Liftback 2WD (Yaris 3-door '07-'09)",
+                    "number_of_doors": 3,
+                    "body_type": "Liftback",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "K": {
+                    "raw_description": "4DR Hatchback/5DR Liftback 2WD (Prius '04-'09, Yaris 5-door '09) / 5DR Sedan 2WD (Matrix '03-'08, Scion xA, xD) / 5DR Sedan 2WD torsion beam (Matrix Base/S 2wd '09)",
+                    "number_of_doors": 4,
+                    "body_type": "Sedan",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "L": {
+                    "raw_description": "5DR Sedan 4WD (Matrix 4wd '03-'06/'09)",
+                    "number_of_doors": 5,
+                    "body_type": "Sedan",
+                    "drive_type": "Four Wheel Drive"
+                }
             },
             "mpv_suv": {
-                "B": "5DR Wagon 4WD (Sienna '04-'09, RAV4 '06-'09, Venza '09, FJ Cruiser '07-'09, 4Runner '03-'09, Sequoia '01-'09, Lexus GX470 '03-'09)",
-                "D": "5DR Wagon 2WD (Highlander '04-'09)",
-                "E": "5DR Wagon 4WD (Highlander '04-'09)",
-                "G": "4DR Wagon 2WD (Previa '96-'97, Sienna '98-'00, RAV4 '96-'05, Lexus RX300 '99-'03, RX330 '04-'06, RX350 '07-'09, RX400h '06-'08, Highlander '01-'07, 4Runner '96-'02)",
-                "H": "4DR Wagon 4WD (Previa All-Trac '96-'97, RAV4 '96-'05, Highlander '01-'07, 4Runner '96-'02, Land Cruiser '96-'09, Lexus RX300/RX330/RX350/RX400h, LX450 '96-'97, LX470 '98-'07, LX570 '08-'09)",
-                "K": "5DR Wagon 2WD (Scion xB '04-'06/'08-'09)",
-                "X": "2DR Wagon 2WD (RAV4 '96-'99)",
-                "Y": "2DR Wagon 4WD (RAV4 '96-'99)",
-                "Z": "5DR Wagon 2WD (Sienna '98-'09, RAV4 '06-'09, Venza '09, FJ Cruiser '07-'09, 4Runner '03-'09, Sequoia '01-'09)"
+                "B": {
+                    "raw_description": "5DR Wagon 4WD (Sienna '04-'09, RAV4 '06-'09, Venza '09, FJ Cruiser '07-'09, 4Runner '03-'09, Sequoia '01-'09, Lexus GX470 '03-'09)",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "D": {
+                    "raw_description": "5DR Wagon 2WD (Highlander '04-'09)",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "E": {
+                    "raw_description": "5DR Wagon 4WD (Highlander '04-'09)",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "G": {
+                    "raw_description": "4DR Wagon 2WD (Previa '96-'97, Sienna '98-'00, RAV4 '96-'05, Lexus RX300 '99-'03, RX330 '04-'06, RX350 '07-'09, RX400h '06-'08, Highlander '01-'07, 4Runner '96-'02)",
+                    "number_of_doors": 4,
+                    "body_type": "Wagon",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "H": {
+                    "raw_description": "4DR Wagon 4WD (Previa All-Trac '96-'97, RAV4 '96-'05, Highlander '01-'07, 4Runner '96-'02, Land Cruiser '96-'09, Lexus RX300/RX330/RX350/RX400h, LX450 '96-'97, LX470 '98-'07, LX570 '08-'09)",
+                    "number_of_doors": 4,
+                    "body_type": "Wagon",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "K": {
+                    "raw_description": "5DR Wagon 2WD (Scion xB '04-'06/'08-'09)",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "X": {
+                    "raw_description": "2DR Wagon 2WD (RAV4 '96-'99)",
+                    "number_of_doors": 2,
+                    "body_type": "Wagon",
+                    "drive_type": "Two Wheel Drive"
+                },
+                "Y": {
+                    "raw_description": "2DR Wagon 4WD (RAV4 '96-'99)",
+                    "number_of_doors": 2,
+                    "body_type": "Wagon",
+                    "drive_type": "Four Wheel Drive"
+                },
+                "Z": {
+                    "raw_description": "5DR Wagon 2WD (Sienna '98-'09, RAV4 '06-'09, Venza '09, FJ Cruiser '07-'09, 4Runner '03-'09, Sequoia '01-'09)",
+                    "number_of_doors": 5,
+                    "body_type": "Wagon",
+                    "drive_type": "Two Wheel Drive"
+                }
             },
             "trucks": {
                 "B": "Tundra Access Cab 4wd 1/2 Ton '00-'06 / Tundra Double Cab LWB 4wd '07-'09",
