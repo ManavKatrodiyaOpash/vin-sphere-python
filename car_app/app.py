@@ -875,7 +875,7 @@ if decode_btn or (vin_input and len(vin_input) == 17):
             rows = ""
             rows += info_row("Series / Line", r["series_line"])
             rows += info_row("Body Type", r["body_type"])
-            rows += info_row("Drive Type", r["drive_type"])
+            # rows += info_row("Drive Type", r["drive_type"])
             rows += info_row("Number of Doors", r["number_of_doors"])
             rows += info_row("Model Platform", r["model_platform"])
             st.markdown(section("Vehicle Descriptor Section", rows), unsafe_allow_html=True)
