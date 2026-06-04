@@ -115,6 +115,9 @@ if st.button("Decode"):
                 st.success("Match Found")
 
                 result = {
+
+                    "make": 
+                    "Toyota",
                     "Model":
                         rule.get("model"),
 
