@@ -1,17 +1,17 @@
 import streamlit as st
 import json
 import pandas as pd
+from pathlib import Path
 
 # -------------------------
 # Load Rules
 # -------------------------
+
 @st.cache_data
 def load_rules():
-    with open(
-        "toyota_vds_year_patterns_v3.json",
-        "r",
-        encoding="utf-8"
-    ) as f:
+    json_file = Path(__file__).parent / "toyota_vds_year_patterns_v3.json"
+
+    with open(json_file, "r", encoding="utf-8") as f:
         return json.load(f)
 
 toyota_rules = load_rules()
