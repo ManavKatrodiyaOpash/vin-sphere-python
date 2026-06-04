@@ -7,3 +7,4 @@ requests==2.34.0
 beautifulsoup4==4.14.3
 ipython==9.9.0
 openpyxl==3.1.5
+pathlib
