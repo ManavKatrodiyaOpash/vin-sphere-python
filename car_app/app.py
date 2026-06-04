@@ -555,6 +555,7 @@ def decode_vin(vin):
         "country": "Unknown", "vehicle_type": "Unknown",
         "wmi_description": "Unknown",
         "body_type": "Unknown", "engine": "Unknown",
+        "drive_type": "Unknown", "number_of_doors": "Unknown",
         "restraint_system": "Unknown", "model_platform": "Unknown",
         "series_line": "Unknown", "model_generation": "Unknown",
         "model_year": "Unknown", "plant": "Unknown",
@@ -594,9 +595,15 @@ def decode_vin(vin):
         )
 
         p4 = era.get("position_4_body_type", {})
-        for grp in p4.values():
-            if isinstance(grp, dict) and pos4 in grp:
-                result["body_type"] = grp[pos4]
+        for cat in p4.keys():
+            if isinstance(p4[cat], dict) and pos4 in p4[cat]:
+                target = p4[cat][pos4]
+                if isinstance(target, dict):
+                    result["body_type"] = target.get("body_type", "Unknown")
+                    result["drive_type"] = target.get("drive_type", "Unknown")
+                    result["number_of_doors"] = target.get("number_of_doors", "Unknown")
+                else:
+                    result["body_type"] = target
                 break
 
         eng = era.get("position_5_engine", {}).get(pos5)
@@ -787,7 +794,7 @@ def section(title, rows_html):
 # UI
 # =====================================================
 
-st.markdown('<div class="vin-header">VIN Decoder</div>', unsafe_allow_html=True)
+st.markdown('<div class="vin-header">Toyota VIN Decoder</div>', unsafe_allow_html=True)
 st.markdown('<div class="vin-subtitle">VEHICLE IDENTIFICATION NUMBER ANALYSIS TOOL</div>', unsafe_allow_html=True)
 
 col_input, col_btn = st.columns([5, 1])
@@ -818,7 +825,7 @@ if decode_btn or (vin_input and len(vin_input) == 17):
     else:
         r = decode_vin(vin_input)
 
-        for k in ["body_type","engine","series_line","model_platform","restraint_system","plant"]:
+        for k in ["body_type","engine","drive_type","number_of_doors","series_line","model_platform","restraint_system","plant"]:
             r[k] = clean_value(shorten_text(r.get(k)))
 
 
@@ -867,8 +874,9 @@ if decode_btn or (vin_input and len(vin_input) == 17):
         with c2:
             rows = ""
             rows += info_row("Series / Line", r["series_line"])
-            
             rows += info_row("Body Type", r["body_type"])
+            rows += info_row("Drive Type", r["drive_type"])
+            rows += info_row("Number of Doors", r["number_of_doors"])
             rows += info_row("Model Platform", r["model_platform"])
             st.markdown(section("Vehicle Descriptor Section", rows), unsafe_allow_html=True)
 
