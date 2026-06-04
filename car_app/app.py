@@ -556,7 +556,9 @@ def decode_vin(vin):
         "wmi_description": "Unknown",
         "body_type": "Unknown", "engine": "Unknown",
         "drive_type": "Unknown", "number_of_doors": "Unknown",
-        "restraint_system": "Unknown", "model_platform": "Unknown",
+        "restraint_system": "Unknown", "number_of_airbags": None,
+        "curtain_airbags": None, "driver_knee_airbag": None, "side_airbags": None,
+        "passenger_knee_airbag": None, "model_platform": "Unknown",
         "series_line": "Unknown", "model_generation": "Unknown",
         "model_year": "Unknown", "plant": "Unknown",
         "serial_number": serial,
@@ -613,7 +615,21 @@ def decode_vin(vin):
         if int(year_val) >= 2010:
             rs = era.get("position_6_restraint", {}).get(pos6)
             if rs:
-                result["restraint_system"] = rs
+                if isinstance(rs, dict):
+                    result["restraint_system"] = rs.get("restraint_system", "Unknown")
+                    result["number_of_airbags"] = rs.get("number_of_airbags")
+                    result["curtain_airbags"] = rs.get("curtain_airbags")
+
+                    if rs.get("driver_knee_airbag"):
+                        result["driver_knee_airbag"] = "Yes"
+
+                    if rs.get("passenger_knee_airbag"):
+                        result["passenger_knee_airbag"] = "Yes"
+                    
+                    if rs.get("side_airbags"):
+                        result["side_airbags"] = "Yes"
+                else:
+                    result["restraint_system"] = rs
 
             p7 = era.get("position_7_series", {})
             for grp in p7.values():
@@ -629,7 +645,21 @@ def decode_vin(vin):
 
             rs = era.get("position_7_restraint_passenger", {}).get(pos7)
             if rs:
-                result["restraint_system"] = rs
+                if isinstance(rs, dict):
+                    result["restraint_system"] = rs.get("restraint_system", "Unknown")
+                    result["number_of_airbags"] = rs.get("number_of_airbags")
+                    result["curtain_airbags"] = rs.get("curtain_airbags")
+
+                    if rs.get("side_airbags"):
+                        result["side_airbags"] = "Yes"
+
+                    if rs.get("driver_knee_airbag"):
+                        result["driver_knee_airbag"] = "Yes"
+
+                    if rs.get("passenger_knee_airbag"):
+                        result["passenger_knee_airbag"] = "Yes"
+                else:
+                    result["restraint_system"] = rs
 
         vl = era.get("position_8_vehicle_line", {}).get(pos8)
         if vl:
@@ -800,7 +830,7 @@ st.markdown('<div class="vin-subtitle">VEHICLE IDENTIFICATION NUMBER ANALYSIS TO
 col_input, col_btn = st.columns([5, 1])
 with col_input:
     vin_input = st.text_input(
-        "",
+        "VIN Input",
         placeholder="Enter 17-character VIN  e.g.  JN8AS5MV3BW269745",
         max_chars=17,
         label_visibility="collapsed"
@@ -875,14 +905,33 @@ if decode_btn or (vin_input and len(vin_input) == 17):
             rows = ""
             rows += info_row("Series / Line", r["series_line"])
             rows += info_row("Body Type", r["body_type"])
-            # rows += info_row("Drive Type", r["drive_type"])
+            rows += info_row("Drive Type", r["drive_type"])
             rows += info_row("Number of Doors", r["number_of_doors"])
             rows += info_row("Model Platform", r["model_platform"])
             st.markdown(section("Vehicle Descriptor Section", rows), unsafe_allow_html=True)
 
             rows2 = ""
+
             rows2 += info_row("Engine", r["engine"])
-            rows2 += info_row("Restraint System", r["restraint_system"])
+
+            if r["restraint_system"] not in ["Unknown", "Not Available", None]:
+                rows2 += info_row("Restraint System", r["restraint_system"])
+
+            if r.get("number_of_airbags"):
+                rows2 += info_row("Airbags", r["number_of_airbags"])
+
+            if r.get("curtain_airbags"):
+                rows2 += info_row("Curtain Airbags", r["curtain_airbags"])
+            
+            if r.get("side_airbags"):
+                rows2 += info_row("Side Airbags", r["side_airbags"])
+
+            if r.get("driver_knee_airbag"):
+                rows2 += info_row("Driver Knee Airbag", "Yes")
+
+            if r.get("passenger_knee_airbag"):
+                rows2 += info_row("Passenger Knee Airbag", "Yes")
+                
             st.markdown(section("Powertrain & Safety", rows2), unsafe_allow_html=True)
 
         with c3:
