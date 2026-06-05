@@ -83,9 +83,9 @@ def simplify_fallback_result(r):
         "plant": r.get("plant", "Unknown"),
 
         # These don't exist in app.py
-        "trim": "Unknown",
-        "regional_spec": "Unknown",
-        "cylinders": "Unknown"
+        "trim": r.get("trim", "Unknown"),
+        "regional_spec": r.get("regional_spec", "Unknown"),
+        "cylinders": r.get("cylinders", "Unknown")
     }
 
     # Only add safety fields if they actually exist
@@ -151,7 +151,29 @@ if st.button("Decode"):
         st.error("VIN must contain exactly 17 characters")
 
     else:
+        vds = vin[3:8]
 
-        result = master_decode(vin)
+        year_code = vin[9]
 
-        st.json(result)
+        year = YEAR_MAP.get(year_code)
+        
+        if year is None:
+
+            st.error(
+                f"Unknown year code: {year_code}"
+            )
+        
+        else:
+            lookup_key = f"{vds}_{year}"
+
+            st.write("---")
+
+            st.write("### Extracted")
+
+            st.write(f"VDS: **{vds}**")
+            st.write(f"Year: **{year}**")
+            st.write(f"Lookup Key: **{lookup_key}**")
+
+            result = master_decode(vin)
+
+            st.json(result)

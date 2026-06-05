@@ -331,6 +331,272 @@ def is_european_format(vin):
     """Returns True if pos4-6 == 'ZZZ' — ISO filler used by VW Group / Mercedes EU-format VINs."""
     return len(vin) >= 7 and vin[3:6].upper() == "ZZZ"
 
+# =====================================================
+# TOYOTA DECODER
+# =====================================================
+
+def decode_toyota(vin, rules, result):
+
+    pos4 = vin[3]
+    pos5 = vin[4]
+    pos6 = vin[5]
+    pos7 = vin[6]
+    pos8 = vin[7]
+    pos10 = vin[9]
+    pos11 = vin[10]
+
+    year_map = (
+        rules.get("model_year_codes", {})
+        or rules.get("position_10_model_year", {})
+        or rules.get("year_codes", {})
+    )
+
+    year_val = year_map.get(pos10)
+
+    if not year_val:
+        return result
+
+    result["model_year"] = str(year_val)
+
+    era = rules.get(
+        "era_2010_present"
+        if int(year_val) >= 2010
+        else "era_1996_2009",
+        {}
+    )
+
+    # -------------------------------------------------
+    # POSITION 4 BODY TYPE
+    # -------------------------------------------------
+
+    p4 = era.get("position_4_body_type", {})
+
+    for cat in p4.keys():
+
+        if isinstance(p4[cat], dict) and pos4 in p4[cat]:
+
+            target = p4[cat][pos4]
+
+            if isinstance(target, dict):
+
+                result["body_type"] = target.get(
+                    "body_type",
+                    "Unknown"
+                )
+
+                result["drive_type"] = target.get(
+                    "drive_type",
+                    "Unknown"
+                )
+
+                result["number_of_doors"] = target.get(
+                    "number_of_doors",
+                    "Unknown"
+                )
+
+            else:
+                result["body_type"] = target
+
+            break
+
+    # -------------------------------------------------
+    # POSITION 5 ENGINE
+    # -------------------------------------------------
+
+    eng = era.get(
+        "position_5_engine",
+        {}
+    ).get(pos5)
+
+    if eng:
+        result["engine"] = eng
+
+    # -------------------------------------------------
+    # ERA >= 2010
+    # -------------------------------------------------
+
+    if int(year_val) >= 2010:
+
+        rs = era.get(
+            "position_6_restraint",
+            {}
+        ).get(pos6)
+
+        if rs:
+
+            if isinstance(rs, dict):
+
+                result["restraint_system"] = rs.get(
+                    "restraint_system",
+                    "Unknown"
+                )
+
+                result["number_of_airbags"] = rs.get(
+                    "number_of_airbags"
+                )
+
+                result["curtain_airbags"] = rs.get(
+                    "curtain_airbags"
+                )
+
+                if rs.get("driver_knee_airbag"):
+                    result["driver_knee_airbag"] = "Yes"
+
+                if rs.get("passenger_knee_airbag"):
+                    result["passenger_knee_airbag"] = "Yes"
+
+                if rs.get("side_airbags"):
+                    result["side_airbags"] = "Yes"
+
+            else:
+
+                result["restraint_system"] = rs
+
+        p7 = era.get(
+            "position_7_series",
+            {}
+        )
+
+        for grp in p7.values():
+
+            if isinstance(grp, dict) and pos7 in grp:
+
+                result["series_line"] = grp[pos7]
+                break
+
+    # -------------------------------------------------
+    # ERA < 2010
+    # -------------------------------------------------
+
+    else:
+
+        ser = era.get(
+            "position_6_series",
+            {}
+        )
+
+        for grp in ser.values():
+
+            if isinstance(grp, dict) and pos6 in grp:
+
+                result["series_line"] = grp[pos6]
+                break
+
+        rs = era.get(
+            "position_7_restraint_passenger",
+            {}
+        ).get(pos7)
+
+        if rs:
+
+            if isinstance(rs, dict):
+
+                result["restraint_system"] = rs.get(
+                    "restraint_system",
+                    "Unknown"
+                )
+
+                result["number_of_airbags"] = rs.get(
+                    "number_of_airbags"
+                )
+
+                result["curtain_airbags"] = rs.get(
+                    "curtain_airbags"
+                )
+
+                if rs.get("side_airbags"):
+                    result["side_airbags"] = "Yes"
+
+                if rs.get("driver_knee_airbag"):
+                    result["driver_knee_airbag"] = "Yes"
+
+                if rs.get("passenger_knee_airbag"):
+                    result["passenger_knee_airbag"] = "Yes"
+
+            else:
+
+                result["restraint_system"] = rs
+
+    # -------------------------------------------------
+    # POSITION 8 VEHICLE LINE
+    # -------------------------------------------------
+
+    vl = era.get(
+        "position_8_vehicle_line",
+        {}
+    ).get(pos8)
+
+    if vl:
+        result["model_platform"] = vl
+
+    # -------------------------------------------------
+    # POSITION 11 PLANT
+    # -------------------------------------------------
+
+    plant = rules.get(
+        "position_11_plant",
+        {}
+    ).get(pos11)
+
+    if plant:
+        result["plant"] = plant
+
+    return result
+
+# =====================================================
+# NISSAN DECODER
+# =====================================================
+
+def decode_nissan(vin, rules, result):
+    pos4 = vin[3]
+    pos5_6 = vin[4:6]
+    pos7 = vin[6]
+    pos8 = vin[7]
+    pos10 = vin[9]
+    pos11 = vin[10]
+
+    # Position 4 = Series
+    p4 = rules.get("position_4", {}).get(pos4)
+    if p4:
+        result["series_line"] = p4
+
+    # Position 5+6 = Model / Platform
+    p56 = rules.get("position_5_and_6", {}).get(pos5_6)
+    if p56:
+        result["model_platform"] = p56
+
+    # Position 7 = Body Type
+    p7 = rules.get("position_7_north_america", {}).get(pos7)
+    if p7:
+        result["body_type"] = p7
+
+    # Position 8 = Restraint System
+    p8 = rules.get("position_8_north_america", {}).get(pos8)
+    if p8:
+        result["restraint_system"] = p8
+
+        txt = p8.lower()
+
+        if "side airbags" in txt:
+            result["side_airbags"] = "Yes"
+
+        if "curtain airbags" in txt:
+            result["curtain_airbags"] = "Yes"
+
+        if "knee airbag" in txt:
+            result["driver_knee_airbag"] = "Yes"
+
+    # Model Year
+    year = rules.get("position_10_model_year", {}).get(pos10)
+    if year:
+        result["model_year"] = str(year)
+
+    # Plant
+    plant = rules.get("position_11_plant_north_america", {}).get(pos11)
+    if plant:
+        result["plant"] = plant
+
+    return result
 
 # =====================================================
 # BMW DECODER
@@ -357,7 +623,6 @@ def decode_bmw(vin, rules, result):
 
     result["notes"].append("BMW: pos7=drivetrain/variant (RWD/xDrive/eDrive), pos8=market/steering. GCC spec NOT in VIN.")
     return result
-
 
 # =====================================================
 # AUDI DECODER
@@ -389,7 +654,6 @@ def decode_audi(vin, rules, result):
         result["notes"].append("Audi US-format VIN: full NHTSA pos4-8 encoding.")
     return result
 
-
 # =====================================================
 # HYUNDAI DECODER
 # =====================================================
@@ -406,7 +670,7 @@ def decode_hyundai(vin, rules, result):
     year_val = year_map.get(pos10)
     model_year_int = int(year_val) if year_val else 0
 
-    if model_year_int >= 2003:
+    if model_year_int >= 2001:
         p5 = rules.get("position_5_post2001_trim", {}).get(pos5)
         if p5: result["model_generation"] = p5
         p6 = rules.get("position_6_post2001_body", {}).get(pos6)
@@ -426,7 +690,6 @@ def decode_hyundai(vin, rules, result):
     if p8: result["engine"] = p8
 
     return result
-
 
 # =====================================================
 # MERCEDES-BENZ DECODER
@@ -458,7 +721,6 @@ def decode_mercedes(vin, rules, result):
         result["notes"].append("Mercedes US-format VIN (4JG Vance, AL): full NHTSA pos4-8 encoding.")
     return result
 
-
 # =====================================================
 # FORD DECODER
 # =====================================================
@@ -484,7 +746,6 @@ def decode_ford(vin, rules, result):
 
     result["notes"].append("Ford: strict NHTSA format. pos8=trim+drivetrain combined — precise trim may need OEM DB.")
     return result
-
 
 # =====================================================
 # VOLKSWAGEN DECODER
@@ -516,11 +777,9 @@ def decode_volkswagen(vin, rules, result):
         result["notes"].append("VW US/Mexico-format VIN: full NHTSA pos4-8 encoding.")
     return result
 
-
 # =====================================================
 # CORE DECODER — aligned with corrected JSON schema
 # =====================================================
-
 
 def decode_vin(vin):
     vin = vin.upper().strip()
@@ -554,7 +813,7 @@ def decode_vin(vin):
         "manufacturer": mfr_name or "Unknown",
         "country": "Unknown", "vehicle_type": "Unknown",
         "wmi_description": "Unknown",
-        "body_type": "Unknown", "engine": "Unknown",
+        "body_type": "Unknown", "engine": "Unknown", "trim" : "Unknown",
         "drive_type": "Unknown", "number_of_doors": "Unknown",
         "restraint_system": "Unknown", "number_of_airbags": None,
         "curtain_airbags": None, "driver_knee_airbag": None, "side_airbags": None,
@@ -588,91 +847,16 @@ def decode_vin(vin):
     if year_val:
         result["model_year"] = str(year_val)
 
-    # TOYOTA ERA-BASED DECODER
-    if mfr_name == "Toyota" and year_val:
 
-        era = rules.get(
-            "era_2010_present" if int(year_val) >= 2010 else "era_1996_2009",
-            {}
-        )
-
-        p4 = era.get("position_4_body_type", {})
-        for cat in p4.keys():
-            if isinstance(p4[cat], dict) and pos4 in p4[cat]:
-                target = p4[cat][pos4]
-                if isinstance(target, dict):
-                    result["body_type"] = target.get("body_type", "Unknown")
-                    result["drive_type"] = target.get("drive_type", "Unknown")
-                    result["number_of_doors"] = target.get("number_of_doors", "Unknown")
-                else:
-                    result["body_type"] = target
-                break
-
-        eng = era.get("position_5_engine", {}).get(pos5)
-        if eng:
-            result["engine"] = eng
-
-        if int(year_val) >= 2010:
-            rs = era.get("position_6_restraint", {}).get(pos6)
-            if rs:
-                if isinstance(rs, dict):
-                    result["restraint_system"] = rs.get("restraint_system", "Unknown")
-                    result["number_of_airbags"] = rs.get("number_of_airbags")
-                    result["curtain_airbags"] = rs.get("curtain_airbags")
-
-                    if rs.get("driver_knee_airbag"):
-                        result["driver_knee_airbag"] = "Yes"
-
-                    if rs.get("passenger_knee_airbag"):
-                        result["passenger_knee_airbag"] = "Yes"
-                    
-                    if rs.get("side_airbags"):
-                        result["side_airbags"] = "Yes"
-                else:
-                    result["restraint_system"] = rs
-
-            p7 = era.get("position_7_series", {})
-            for grp in p7.values():
-                if isinstance(grp, dict) and pos7 in grp:
-                    result["series_line"] = grp[pos7]
-                    break
-        else:
-            ser = era.get("position_6_series", {})
-            for grp in ser.values():
-                if isinstance(grp, dict) and pos6 in grp:
-                    result["series_line"] = grp[pos6]
-                    break
-
-            rs = era.get("position_7_restraint_passenger", {}).get(pos7)
-            if rs:
-                if isinstance(rs, dict):
-                    result["restraint_system"] = rs.get("restraint_system", "Unknown")
-                    result["number_of_airbags"] = rs.get("number_of_airbags")
-                    result["curtain_airbags"] = rs.get("curtain_airbags")
-
-                    if rs.get("side_airbags"):
-                        result["side_airbags"] = "Yes"
-
-                    if rs.get("driver_knee_airbag"):
-                        result["driver_knee_airbag"] = "Yes"
-
-                    if rs.get("passenger_knee_airbag"):
-                        result["passenger_knee_airbag"] = "Yes"
-                else:
-                    result["restraint_system"] = rs
-
-        vl = era.get("position_8_vehicle_line", {}).get(pos8)
-        if vl:
-            result["model_platform"] = vl
-
-        plant = rules.get("position_11_plant", {}).get(pos11)
-        if plant:
-            result["plant"] = plant
-
+    # ── NEW BRAND ROUTING ───────────────────────────
+    if mfr_name == "Toyota":
+        result = decode_toyota(vin,rules,result)
+        return result
+    
+    if mfr_name == "Nissan":
+        result = decode_nissan(vin, rules, result)
         return result
 
-    # Generic Nissan/Honda logic remains unchanged
-    # ── NEW BRAND ROUTING ───────────────────────────
     if mfr_name == "BMW":
         result = decode_bmw(vin, rules, result)
         plant = rules.get("position_11_plant", {}).get(pos11)
@@ -711,27 +895,6 @@ def decode_vin(vin):
         plant = rules.get("position_11_plant", {}).get(pos11)
         if plant: result["plant"] = plant
         return result
-
-    # Generic Nissan/Honda fallback (unchanged)
-    p4_map = rules.get("position_4", {})
-    if p4_map.get(pos4):
-        result["series_line"] = p4_map[pos4]
-
-    p56_map = rules.get("position_5_and_6", {})
-    if p56_map.get(pos5_6):
-        result["model_platform"] = p56_map[pos5_6]
-
-    p7_map = rules.get("position_7", {})
-    if p7_map.get(pos7):
-        result["body_type"] = p7_map[pos7]
-
-    p8_map = rules.get("position_8", {})
-    if p8_map.get(pos8):
-        result["restraint_system"] = p8_map[pos8]
-
-    plant = rules.get("position_11_plant", {}).get(pos11)
-    if plant:
-        result["plant"] = plant
 
     return result
 
@@ -824,7 +987,7 @@ def section(title, rows_html):
 # UI
 # =====================================================
 if __name__ == "__main__":
-    st.markdown('<div class="vin-header">Toyota VIN Decoder</div>', unsafe_allow_html=True)
+    st.markdown('<div class="vin-header">VIN Decoder</div>', unsafe_allow_html=True)
     st.markdown('<div class="vin-subtitle">VEHICLE IDENTIFICATION NUMBER ANALYSIS TOOL</div>', unsafe_allow_html=True)
 
     col_input, col_btn = st.columns([5, 1])
@@ -855,7 +1018,7 @@ if __name__ == "__main__":
         else:
             r = decode_vin(vin_input)
 
-            for k in ["body_type","engine","drive_type","number_of_doors","series_line","model_platform","restraint_system","plant"]:
+            for k in ["body_type","engine","drive_type","number_of_doors","series_line","model_platform","restraint_system","plant","trim"]:
                 r[k] = clean_value(shorten_text(r.get(k)))
 
 
@@ -905,6 +1068,8 @@ if __name__ == "__main__":
                 rows = ""
                 rows += info_row("Series / Line", r["series_line"])
                 rows += info_row("Body Type", r["body_type"])
+                if r["trim"] not in ["Unknown", "Not Available", None]:
+                    rows2 += info_row("Trim", r["trim"])
                 rows += info_row("Drive Type", r["drive_type"])
                 rows += info_row("Number of Doors", r["number_of_doors"])
                 rows += info_row("Model Platform", r["model_platform"])
@@ -918,7 +1083,7 @@ if __name__ == "__main__":
                     rows2 += info_row("Restraint System", r["restraint_system"])
 
                 if r.get("number_of_airbags"):
-                    rows2 += info_row("Airbags", r["number_of_airbags"])
+                    rows2 += info_row("No of Airbags", r["number_of_airbags"])
 
                 if r.get("curtain_airbags"):
                     rows2 += info_row("Curtain Airbags", r["curtain_airbags"])

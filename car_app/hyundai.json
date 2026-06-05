@@ -9,7 +9,6 @@
     "check_digit_note": "US-market (5NP/5NM): NHTSA check digit always. Korean GCC (KMH/KM8): may be check digit or manufacturer filler."
   },
   "model_year_codes": {
-    "T": 2026,
     "V": 1997,
     "W": 1998,
     "X": 1999,
@@ -38,7 +37,8 @@
     "N": 2022,
     "P": 2023,
     "R": 2024,
-    "S": 2025
+    "S": 2025,
+    "T": 2026
   },
   "wmi": {
     "KMH": {
