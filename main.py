@@ -83,9 +83,9 @@ def simplify_fallback_result(r):
         "plant": r.get("plant", "Unknown"),
 
         # These don't exist in app.py
-        "trim": "Unknown",
-        "regional_spec": "Unknown",
-        "cylinders": "Unknown"
+        "trim": r.get("trim", "Unknown"),
+        "regional_spec": r.get("regional_spec", "Unknown"),
+        "cylinders": r.get("cylinders", "Unknown")
     }
 
     # Only add safety fields if they actually exist
