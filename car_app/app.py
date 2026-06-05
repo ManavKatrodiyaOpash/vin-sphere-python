@@ -556,7 +556,9 @@ def decode_vin(vin):
         "wmi_description": "Unknown",
         "body_type": "Unknown", "engine": "Unknown",
         "drive_type": "Unknown", "number_of_doors": "Unknown",
-        "restraint_system": "Unknown", "model_platform": "Unknown",
+        "restraint_system": "Unknown", "number_of_airbags": None,
+        "curtain_airbags": None, "driver_knee_airbag": None, "side_airbags": None,
+        "passenger_knee_airbag": None, "model_platform": "Unknown",
         "series_line": "Unknown", "model_generation": "Unknown",
         "model_year": "Unknown", "plant": "Unknown",
         "serial_number": serial,
@@ -613,7 +615,21 @@ def decode_vin(vin):
         if int(year_val) >= 2010:
             rs = era.get("position_6_restraint", {}).get(pos6)
             if rs:
-                result["restraint_system"] = rs
+                if isinstance(rs, dict):
+                    result["restraint_system"] = rs.get("restraint_system", "Unknown")
+                    result["number_of_airbags"] = rs.get("number_of_airbags")
+                    result["curtain_airbags"] = rs.get("curtain_airbags")
+
+                    if rs.get("driver_knee_airbag"):
+                        result["driver_knee_airbag"] = "Yes"
+
+                    if rs.get("passenger_knee_airbag"):
+                        result["passenger_knee_airbag"] = "Yes"
+                    
+                    if rs.get("side_airbags"):
+                        result["side_airbags"] = "Yes"
+                else:
+                    result["restraint_system"] = rs
 
             p7 = era.get("position_7_series", {})
             for grp in p7.values():
@@ -629,7 +645,21 @@ def decode_vin(vin):
 
             rs = era.get("position_7_restraint_passenger", {}).get(pos7)
             if rs:
-                result["restraint_system"] = rs
+                if isinstance(rs, dict):
+                    result["restraint_system"] = rs.get("restraint_system", "Unknown")
+                    result["number_of_airbags"] = rs.get("number_of_airbags")
+                    result["curtain_airbags"] = rs.get("curtain_airbags")
+
+                    if rs.get("side_airbags"):
+                        result["side_airbags"] = "Yes"
+
+                    if rs.get("driver_knee_airbag"):
+                        result["driver_knee_airbag"] = "Yes"
+
+                    if rs.get("passenger_knee_airbag"):
+                        result["passenger_knee_airbag"] = "Yes"
+                else:
+                    result["restraint_system"] = rs
 
         vl = era.get("position_8_vehicle_line", {}).get(pos8)
         if vl:
@@ -793,142 +823,161 @@ def section(title, rows_html):
 # =====================================================
 # UI
 # =====================================================
+if __name__ == "__main__":
+    st.markdown('<div class="vin-header">Toyota VIN Decoder</div>', unsafe_allow_html=True)
+    st.markdown('<div class="vin-subtitle">VEHICLE IDENTIFICATION NUMBER ANALYSIS TOOL</div>', unsafe_allow_html=True)
 
-st.markdown('<div class="vin-header">Toyota VIN Decoder</div>', unsafe_allow_html=True)
-st.markdown('<div class="vin-subtitle">VEHICLE IDENTIFICATION NUMBER ANALYSIS TOOL</div>', unsafe_allow_html=True)
+    col_input, col_btn = st.columns([5, 1])
+    with col_input:
+        vin_input = st.text_input(
+            "VIN Input",
+            placeholder="Enter 17-character VIN  e.g.  JN8AS5MV3BW269745",
+            max_chars=17,
+            label_visibility="collapsed"
+        ).strip().upper()
 
-col_input, col_btn = st.columns([5, 1])
-with col_input:
-    vin_input = st.text_input(
-        "",
-        placeholder="Enter 17-character VIN  e.g.  JN8AS5MV3BW269745",
-        max_chars=17,
-        label_visibility="collapsed"
-    ).strip().upper()
+    with col_btn:
+        decode_btn = st.button("Decode →", use_container_width=True)
 
-with col_btn:
-    decode_btn = st.button("Decode →", use_container_width=True)
+    st.markdown("---")
 
-st.markdown("---")
+    # ── LIVE CHAR COUNT ──────────────────────────────────
+    if vin_input:
+        remaining = 17 - len(vin_input)
+        if remaining > 0:
+            st.markdown(f'<p style="color:#5a5a7a; font-size:0.8rem; font-family: Space Mono, monospace;">{len(vin_input)}/17 chars — {remaining} more needed</p>', unsafe_allow_html=True)
 
-# ── LIVE CHAR COUNT ──────────────────────────────────
-if vin_input:
-    remaining = 17 - len(vin_input)
-    if remaining > 0:
-        st.markdown(f'<p style="color:#5a5a7a; font-size:0.8rem; font-family: Space Mono, monospace;">{len(vin_input)}/17 chars — {remaining} more needed</p>', unsafe_allow_html=True)
+    if decode_btn or (vin_input and len(vin_input) == 17):
 
-if decode_btn or (vin_input and len(vin_input) == 17):
+        if len(vin_input) != 17:
+            st.markdown('<div class="error-box">⚠ VIN must be exactly 17 characters.</div>', unsafe_allow_html=True)
 
-    if len(vin_input) != 17:
-        st.markdown('<div class="error-box">⚠ VIN must be exactly 17 characters.</div>', unsafe_allow_html=True)
+        else:
+            r = decode_vin(vin_input)
 
-    else:
-        r = decode_vin(vin_input)
-
-        for k in ["body_type","engine","drive_type","number_of_doors","series_line","model_platform","restraint_system","plant"]:
-            r[k] = clean_value(shorten_text(r.get(k)))
+            for k in ["body_type","engine","drive_type","number_of_doors","series_line","model_platform","restraint_system","plant"]:
+                r[k] = clean_value(shorten_text(r.get(k)))
 
 
-        # ── VIN MAP ─────────────────────────────────
-        st.markdown(vin_map_html(vin_input), unsafe_allow_html=True)
+            # ── VIN MAP ─────────────────────────────────
+            st.markdown(vin_map_html(vin_input), unsafe_allow_html=True)
 
-        # ── VALIDATION BANNER ───────────────────────
-        check_label = (
-            '<span class="check-valid valid">✓ CHECK DIGIT VALID</span>'
-            if r["check_digit_valid"] else
-            f'<span class="check-valid invalid">✗ CHECK DIGIT INVALID (expected {r["check_digit_expected"]})</span>'
-        )
-        char_label = (
-            '<span class="check-valid valid">✓ CHARACTERS VALID</span>'
-            if r["valid_chars"] else
-            f'<span class="check-valid invalid">✗ INVALID CHARS: {", ".join(r["invalid_chars_found"])}</span>'
-        )
-        st.markdown(
-            f'<div style="display:flex; gap:12px; margin-bottom:1rem;">{check_label}{char_label}</div>',
-            unsafe_allow_html=True
-        )
+            # ── VALIDATION BANNER ───────────────────────
+            check_label = (
+                '<span class="check-valid valid">✓ CHECK DIGIT VALID</span>'
+                if r["check_digit_valid"] else
+                f'<span class="check-valid invalid">✗ CHECK DIGIT INVALID (expected {r["check_digit_expected"]})</span>'
+            )
+            char_label = (
+                '<span class="check-valid valid">✓ CHARACTERS VALID</span>'
+                if r["valid_chars"] else
+                f'<span class="check-valid invalid">✗ INVALID CHARS: {", ".join(r["invalid_chars_found"])}</span>'
+            )
+            st.markdown(
+                f'<div style="display:flex; gap:12px; margin-bottom:1rem;">{check_label}{char_label}</div>',
+                unsafe_allow_html=True
+            )
 
-        # ── NOTES / WARNINGS ────────────────────────
-        for note in r["notes"]:
-            st.markdown(f'<div class="note-box">ℹ {note}</div>', unsafe_allow_html=True)
+            # ── NOTES / WARNINGS ────────────────────────
+            for note in r["notes"]:
+                st.markdown(f'<div class="note-box">ℹ {note}</div>', unsafe_allow_html=True)
 
-        # ── LAYOUT: 3 COLUMNS ───────────────────────
-        c1, c2, c3 = st.columns(3)
+            # ── LAYOUT: 3 COLUMNS ───────────────────────
+            c1, c2, c3 = st.columns(3)
 
-        with c1:
-            rows = ""
-            rows += info_row("Manufacturer", r["manufacturer"], "highlight")
-            rows += info_row("Country", r["country"])
-            rows += info_row("Vehicle Type", r["vehicle_type"])
-            rows += info_row("WMI", f'<span class="badge badge-blue">{r["wmi"]}</span>')
-            rows += info_row("WMI Entity", r["wmi_description"])
-            st.markdown(section("World Manufacturer Identifier", rows), unsafe_allow_html=True)
+            with c1:
+                rows = ""
+                rows += info_row("Manufacturer", r["manufacturer"], "highlight")
+                rows += info_row("Country", r["country"])
+                rows += info_row("Vehicle Type", r["vehicle_type"])
+                rows += info_row("WMI", f'<span class="badge badge-blue">{r["wmi"]}</span>')
+                rows += info_row("WMI Entity", r["wmi_description"])
+                st.markdown(section("World Manufacturer Identifier", rows), unsafe_allow_html=True)
 
-            rows2 = ""
-            rows2 += info_row("Model Year", f'<span class="badge badge-purple">{r["model_year"]}</span>')
-            rows2 += info_row("Plant Code", f'<span class="badge badge-yellow">{r["pos11"]}</span>')
-            rows2 += info_row("Plant", r["plant"])
-            rows2 += info_row("Serial Number", f'<span style="font-family:Space Mono,monospace;color:#3affff">{r["serial_number"]}</span>')
-            st.markdown(section("Vehicle Identity Section", rows2), unsafe_allow_html=True)
+                rows2 = ""
+                rows2 += info_row("Model Year", f'<span class="badge badge-purple">{r["model_year"]}</span>')
+                rows2 += info_row("Plant Code", f'<span class="badge badge-yellow">{r["pos11"]}</span>')
+                rows2 += info_row("Plant", r["plant"])
+                rows2 += info_row("Serial Number", f'<span style="font-family:Space Mono,monospace;color:#3affff">{r["serial_number"]}</span>')
+                st.markdown(section("Vehicle Identity Section", rows2), unsafe_allow_html=True)
 
-        with c2:
-            rows = ""
-            rows += info_row("Series / Line", r["series_line"])
-            rows += info_row("Body Type", r["body_type"])
-            # rows += info_row("Drive Type", r["drive_type"])
-            rows += info_row("Number of Doors", r["number_of_doors"])
-            rows += info_row("Model Platform", r["model_platform"])
-            st.markdown(section("Vehicle Descriptor Section", rows), unsafe_allow_html=True)
+            with c2:
+                rows = ""
+                rows += info_row("Series / Line", r["series_line"])
+                rows += info_row("Body Type", r["body_type"])
+                rows += info_row("Drive Type", r["drive_type"])
+                rows += info_row("Number of Doors", r["number_of_doors"])
+                rows += info_row("Model Platform", r["model_platform"])
+                st.markdown(section("Vehicle Descriptor Section", rows), unsafe_allow_html=True)
 
-            rows2 = ""
-            rows2 += info_row("Engine", r["engine"])
-            rows2 += info_row("Restraint System", r["restraint_system"])
-            st.markdown(section("Powertrain & Safety", rows2), unsafe_allow_html=True)
+                rows2 = ""
 
-        with c3:
-            rows = ""
-            rows += info_row("Pos 4", f'{r["pos4"]} → {r["series_line"][:40] if r["series_line"] != "Unknown" else "—"}')
-            rows += info_row("Pos 5+6", f'{r["pos5_6"]} → {r["model_generation"][:40] if r["model_generation"] != "Unknown" else "—"}')
-            rows += info_row("Pos 7", f'{r["pos7"]} → {r["body_type"][:40] if r["body_type"] != "Unknown" else r["restraint_system"][:40] if r["restraint_system"] != "Unknown" else "—"}')
-            rows += info_row("Pos 8", f'{r["pos8"]} → {r["restraint_system"][:40] if r["restraint_system"] != "Unknown" else r["model_platform"][:40] if r["model_platform"] != "Unknown" else "—"}')
-            rows += info_row("Pos 9 (Check)", f'{r["check_digit"]} {"✓" if r["check_digit_valid"] else "✗"}', "good" if r["check_digit_valid"] else "warn")
-            rows += info_row("Pos 10 (Year)", f'{r["pos10"]} → {r["model_year"]}')
-            rows += info_row("Pos 11 (Plant)", f'{r["pos11"]} → {r["plant"][:35]}')
-            st.markdown(section("Position-by-Position Map", rows), unsafe_allow_html=True)
+                rows2 += info_row("Engine", r["engine"])
 
-        # ── SEGMENT PILLS ────────────────────────────
-        st.markdown(f"""
-        <div class="section-card" style="margin-top:0.5rem;">
-            <div class="section-label">VIN Segments</div>
-            <div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:center;">
-                <div>
-                    <div style="font-size:0.65rem; color:#3a6aff; font-family:Space Mono,monospace; letter-spacing:0.15em; margin-bottom:4px;">WMI</div>
-                    <span style="font-family:Space Mono,monospace; font-size:1.4rem; color:#6a9aff; letter-spacing:4px;">{r["wmi"]}</span>
-                </div>
-                <div style="color:#2a2a4a; font-size:1.2rem;">·</div>
-                <div>
-                    <div style="font-size:0.65rem; color:#ff6a3a; font-family:Space Mono,monospace; letter-spacing:0.15em; margin-bottom:4px;">VDS (4-8)</div>
-                    <span style="font-family:Space Mono,monospace; font-size:1.4rem; color:#ff9a6a; letter-spacing:4px;">{r["vds"][:5]}</span>
-                </div>
-                <div style="color:#2a2a4a; font-size:1.2rem;">·</div>
-                <div>
-                    <div style="font-size:0.65rem; color:#6aff9a; font-family:Space Mono,monospace; letter-spacing:0.15em; margin-bottom:4px;">CHECK</div>
-                    <span style="font-family:Space Mono,monospace; font-size:1.4rem; color:#6aff9a; letter-spacing:4px;">{r["vds"][5]}</span>
-                </div>
-                <div style="color:#2a2a4a; font-size:1.2rem;">·</div>
-                <div>
-                    <div style="font-size:0.65rem; color:#ff6aff; font-family:Space Mono,monospace; letter-spacing:0.15em; margin-bottom:4px;">YEAR+PLANT</div>
-                    <span style="font-family:Space Mono,monospace; font-size:1.4rem; color:#ff9aff; letter-spacing:4px;">{r["vis"][:2]}</span>
-                </div>
-                <div style="color:#2a2a4a; font-size:1.2rem;">·</div>
-                <div>
-                    <div style="font-size:0.65rem; color:#3affff; font-family:Space Mono,monospace; letter-spacing:0.15em; margin-bottom:4px;">SERIAL</div>
-                    <span style="font-family:Space Mono,monospace; font-size:1.4rem; color:#3affff; letter-spacing:4px;">{r["serial_number"]}</span>
+                if r["restraint_system"] not in ["Unknown", "Not Available", None]:
+                    rows2 += info_row("Restraint System", r["restraint_system"])
+
+                if r.get("number_of_airbags"):
+                    rows2 += info_row("Airbags", r["number_of_airbags"])
+
+                if r.get("curtain_airbags"):
+                    rows2 += info_row("Curtain Airbags", r["curtain_airbags"])
+                
+                if r.get("side_airbags"):
+                    rows2 += info_row("Side Airbags", r["side_airbags"])
+
+                if r.get("driver_knee_airbag"):
+                    rows2 += info_row("Driver Knee Airbag", "Yes")
+
+                if r.get("passenger_knee_airbag"):
+                    rows2 += info_row("Passenger Knee Airbag", "Yes")
+                    
+                st.markdown(section("Powertrain & Safety", rows2), unsafe_allow_html=True)
+
+            with c3:
+                rows = ""
+                rows += info_row("Pos 4", f'{r["pos4"]} → {r["series_line"][:40] if r["series_line"] != "Unknown" else "—"}')
+                rows += info_row("Pos 5+6", f'{r["pos5_6"]} → {r["model_generation"][:40] if r["model_generation"] != "Unknown" else "—"}')
+                rows += info_row("Pos 7", f'{r["pos7"]} → {r["body_type"][:40] if r["body_type"] != "Unknown" else r["restraint_system"][:40] if r["restraint_system"] != "Unknown" else "—"}')
+                rows += info_row("Pos 8", f'{r["pos8"]} → {r["restraint_system"][:40] if r["restraint_system"] != "Unknown" else r["model_platform"][:40] if r["model_platform"] != "Unknown" else "—"}')
+                rows += info_row("Pos 9 (Check)", f'{r["check_digit"]} {"✓" if r["check_digit_valid"] else "✗"}', "good" if r["check_digit_valid"] else "warn")
+                rows += info_row("Pos 10 (Year)", f'{r["pos10"]} → {r["model_year"]}')
+                rows += info_row("Pos 11 (Plant)", f'{r["pos11"]} → {r["plant"][:35]}')
+                st.markdown(section("Position-by-Position Map", rows), unsafe_allow_html=True)
+
+            # ── SEGMENT PILLS ────────────────────────────
+            st.markdown(f"""
+            <div class="section-card" style="margin-top:0.5rem;">
+                <div class="section-label">VIN Segments</div>
+                <div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:center;">
+                    <div>
+                        <div style="font-size:0.65rem; color:#3a6aff; font-family:Space Mono,monospace; letter-spacing:0.15em; margin-bottom:4px;">WMI</div>
+                        <span style="font-family:Space Mono,monospace; font-size:1.4rem; color:#6a9aff; letter-spacing:4px;">{r["wmi"]}</span>
+                    </div>
+                    <div style="color:#2a2a4a; font-size:1.2rem;">·</div>
+                    <div>
+                        <div style="font-size:0.65rem; color:#ff6a3a; font-family:Space Mono,monospace; letter-spacing:0.15em; margin-bottom:4px;">VDS (4-8)</div>
+                        <span style="font-family:Space Mono,monospace; font-size:1.4rem; color:#ff9a6a; letter-spacing:4px;">{r["vds"][:5]}</span>
+                    </div>
+                    <div style="color:#2a2a4a; font-size:1.2rem;">·</div>
+                    <div>
+                        <div style="font-size:0.65rem; color:#6aff9a; font-family:Space Mono,monospace; letter-spacing:0.15em; margin-bottom:4px;">CHECK</div>
+                        <span style="font-family:Space Mono,monospace; font-size:1.4rem; color:#6aff9a; letter-spacing:4px;">{r["vds"][5]}</span>
+                    </div>
+                    <div style="color:#2a2a4a; font-size:1.2rem;">·</div>
+                    <div>
+                        <div style="font-size:0.65rem; color:#ff6aff; font-family:Space Mono,monospace; letter-spacing:0.15em; margin-bottom:4px;">YEAR+PLANT</div>
+                        <span style="font-family:Space Mono,monospace; font-size:1.4rem; color:#ff9aff; letter-spacing:4px;">{r["vis"][:2]}</span>
+                    </div>
+                    <div style="color:#2a2a4a; font-size:1.2rem;">·</div>
+                    <div>
+                        <div style="font-size:0.65rem; color:#3affff; font-family:Space Mono,monospace; letter-spacing:0.15em; margin-bottom:4px;">SERIAL</div>
+                        <span style="font-family:Space Mono,monospace; font-size:1.4rem; color:#3affff; letter-spacing:4px;">{r["serial_number"]}</span>
+                    </div>
                 </div>
             </div>
-        </div>
-        """, unsafe_allow_html=True)
+            """, unsafe_allow_html=True)
 
-        # ── RAW JSON ─────────────────────────────────
-        with st.expander("Raw Decoded JSON"):
-            st.json(r)
+            # ── RAW JSON ─────────────────────────────────
+            with st.expander("Raw Decoded JSON"):
+                st.json(r)
