@@ -1,3 +1,7 @@
 Data
 chunks
 ml/catboost_info
+
+__pycache__
+.vscode
+.idea

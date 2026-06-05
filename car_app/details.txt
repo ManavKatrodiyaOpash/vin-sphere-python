@@ -38,11 +38,11 @@ Hyundai :-
     pos_1 :- WMI Geographic zone
     pos_2 :- Manufacturer
     pos_3 :- Vehicle Type
-    pos_4 :- VDS	Model Line and Drive Type
+    pos_4 :- Model Line and Drive Type
     pos_5 :- Body Type or Trim Level
     pos_6 :- Trim Level or Body Type
     pos_7 :- Restraint System or GVWR
     pos_8 :- Engine Type
     pos_9 :- Check Digit
-    pos_10 :- VIS	Model Year
+    pos_10 :- Model Year
     pos_11 :- Manufacturing Plant Code
