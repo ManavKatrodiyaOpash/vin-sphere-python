@@ -672,19 +672,95 @@ def decode_hyundai(vin, rules, result):
 
     if model_year_int >= 2001:
         p5 = rules.get("position_5_post2001_trim", {}).get(pos5)
-        if p5: result["model_generation"] = p5
+        if p5: 
+            if isinstance(p5, dict):
+                result["model_generation"] = p5.get("trim", "Unknown")
+                result["trim"] = p5.get("trim", "Unknown")
         p6 = rules.get("position_6_post2001_body", {}).get(pos6)
-        if p6: result["body_type"] = p6
+
+        if isinstance(p6, dict):
+
+            if p6.get("body_type"):
+                result["body_type"] = p6["body_type"]
+
+            if p6.get("number_of_doors"):
+                result["number_of_doors"] = p6["number_of_doors"]
+
+            if p6.get("drive_type"):
+                result["drive_type"] = p6["drive_type"]
+
+            if p6.get("cab_type"):
+                result["cab_type"] = p6["cab_type"]
+
+            if p6.get("series_line"):
+                result["series_line"] = p6["series_line"]
+
+            if p6.get("raw_description"):
+                result["body_style_description"] = p6["raw_description"]
         result["notes"].append("Hyundai MY2003+: pos5=trim level, pos6=body type.")
+        
     else:
         p5 = rules.get("position_5_pre2001_body", {}).get(pos5)
-        if p5: result["body_type"] = p5
+        if isinstance(p5, dict):
+            result["body_type"] = p5.get("body_type")
+
+            if p5.get("number_of_doors"):
+                result["number_of_doors"] = p5["number_of_doors"]
+
+            if p5.get("raw_description"):
+                result["body_style_description"] = p5["raw_description"]
+                
         p6 = rules.get("position_6_pre2001_trim", {}).get(pos6)
-        if p6: result["model_generation"] = p6
+        if p6: 
+            result["model_generation"] = p6
+            result["trim"] = p6
         result["notes"].append("Hyundai pre-2001: pos5=body style, pos6=trim level.")
 
-    p7 = rules.get("position_7_restraint", {}).get(pos7)
-    if p7: result["restraint_system"] = p7
+    restraint_groups = rules.get("position_7_restraint", {})
+    
+    p7 = None
+
+    for grp in restraint_groups.values():
+
+        if isinstance(grp, dict) and pos7 in grp:
+            p7 = grp[pos7]
+            break
+    
+    if p7: 
+        if isinstance(p7, dict):
+
+            result["restraint_system"] = p7.get(
+                "restraint_system",
+                "Unknown"
+            )
+
+            result["number_of_airbags"] = p7.get(
+                "number_of_airbags",
+                "Unknown"
+            )
+
+            result["curtain_airbags"] = p7.get(
+                "curtain_airbags",
+                "Unknown"   
+            )
+
+            if p7.get("front_airbags"):
+                result["front_airbags"] = "Yes"
+
+            if p7.get("side_airbags"):
+                result["side_airbags"] = "Yes"
+
+            if p7.get("rear_airbags"):
+                result["rear_airbags"] = "Yes"
+
+            if p7.get("driver_knee_airbag"):
+                result["driver_knee_airbag"] = "Yes"
+
+            if p7.get("passenger_knee_airbag"):
+                result["passenger_knee_airbag"] = "Yes"
+
+            if p7.get("front_center_airbag"):
+                result["front_center_airbag"] = "Yes"
 
     p8 = rules.get("position_8_engine", {}).get(pos8)
     if p8: result["engine"] = p8
@@ -810,14 +886,20 @@ def decode_vin(vin):
         "check_digit": pos9, "check_digit_valid": check_ok,
         "check_digit_expected": expected_check,
         "valid_chars": valid_chars, "invalid_chars_found": bad_chars,
+        
         "manufacturer": mfr_name or "Unknown",
         "country": "Unknown", "vehicle_type": "Unknown",
         "wmi_description": "Unknown",
+        
         "body_type": "Unknown", "engine": "Unknown", "trim" : "Unknown",
         "drive_type": "Unknown", "number_of_doors": "Unknown",
+        
         "restraint_system": "Unknown", "number_of_airbags": None,
         "curtain_airbags": None, "driver_knee_airbag": None, "side_airbags": None,
-        "passenger_knee_airbag": None, "model_platform": "Unknown",
+        "passenger_knee_airbag": None, "front_airbags": None, "rear_airbags": None,
+        "front_center_airbag": None,
+        
+        "model_platform": "Unknown",
         "series_line": "Unknown", "model_generation": "Unknown",
         "model_year": "Unknown", "plant": "Unknown",
         "serial_number": serial,
@@ -1069,10 +1151,12 @@ if __name__ == "__main__":
                 rows += info_row("Series / Line", r["series_line"])
                 rows += info_row("Body Type", r["body_type"])
                 if r["trim"] not in ["Unknown", "Not Available", None]:
-                    rows2 += info_row("Trim", r["trim"])
-                rows += info_row("Drive Type", r["drive_type"])
+                    rows += info_row("Trim", r["trim"])
+                if r["drive_type"] not in ["Unknown", "Not Available", None]:
+                    rows += info_row("Drive Type", r["drive_type"])
                 rows += info_row("Number of Doors", r["number_of_doors"])
-                rows += info_row("Model Platform", r["model_platform"])
+                if r["model_platform"] not in ["Unknown", "Not Available", None]:
+                    rows += info_row("Model Platform", r["model_platform"])
                 st.markdown(section("Vehicle Descriptor Section", rows), unsafe_allow_html=True)
 
                 rows2 = ""
@@ -1082,10 +1166,15 @@ if __name__ == "__main__":
                 if r["restraint_system"] not in ["Unknown", "Not Available", None]:
                     rows2 += info_row("Restraint System", r["restraint_system"])
 
-                if r.get("number_of_airbags"):
-                    rows2 += info_row("No of Airbags", r["number_of_airbags"])
+                rows2 += info_row("No of Airbags", r["number_of_airbags"])
+                
+                if r.get("front_airbags"):
+                    rows2 += info_row("Front Airbags", "Yes")
+                
+                if r.get("rear_airbags"):
+                    rows2 += info_row("Rear Airbags", "Yes")
 
-                if r.get("curtain_airbags"):
+                if r.get("curtain_airbags") not in [None, "", "Unknown", "Not Available"]:
                     rows2 += info_row("Curtain Airbags", r["curtain_airbags"])
                 
                 if r.get("side_airbags"):
@@ -1096,6 +1185,9 @@ if __name__ == "__main__":
 
                 if r.get("passenger_knee_airbag"):
                     rows2 += info_row("Passenger Knee Airbag", "Yes")
+                
+                if r.get("front_center_airbag"):
+                    rows2 += info_row("Front Center Airbag", "Yes")
                     
                 st.markdown(section("Powertrain & Safety", rows2), unsafe_allow_html=True)
 
