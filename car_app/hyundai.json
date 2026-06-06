@@ -287,53 +287,182 @@
   },
   "position_5_pre2001_body": {
     "_note": "PRE-2001 models (MY1996-2000) AND 01-05 Sonata & 01 Tiburon: Position 5 = body style.",
-    "A": "5-door hatchback",
-    "D": "3-door hatchback",
-    "E": "2-door sedan (Scoupe)",
-    "F": "4-door sedan",
-    "G": "2-door coupe (1997-2001 Tiburon)",
-    "W": "5-door station wagon (1996-2000 Elantra wagon)"
+    "A": {
+      "raw_description": "5-door hatchback",
+      "number_of_doors": 5,
+      "body_type": "Hatchback"
+    },
+    "D": {
+      "raw_description": "3-door hatchback",
+      "number_of_doors": 3,
+      "body_type": "Hatchback"
+    },
+    "E": {
+      "raw_description": "2-door sedan (Scoupe)",
+      "number_of_doors": 2,
+      "body_type": "Sedan"
+    },
+    "F": {
+      "raw_description": "4-door sedan",
+      "number_of_doors": 4,
+      "body_type": "Sedan"
+    },
+    "G": {
+      "raw_description": "2-door coupe (1997-2001 Tiburon)",
+      "number_of_doors": 2,
+      "body_type": "Coupe"
+    },
+    "W": {
+      "raw_discription" : "5-door station wagon (1996-2000 Elantra wagon)",
+      "number_of_doors": 5,
+      "body_type": "Station Wagon"
+    }
   },
   "position_5_post2001_trim": {
     "_note": "POST-2001 models (00 Accent + all MY2001-2009 except 01-05 Sonata & 01 Tiburon + all MY2010+): Position 5 = trim level.",
-    "B": "GL Santa Fe 01-04 / Genesis G90 3.5T 23+ / Ioniq 5 Robotaxi",
-    "C": "GLS Santa Fe 01-06 / Limited Santa Fe 06 / SE Azera 06-07 / Limited Azera 06+ / GLS Azera 07+ / SE Entourage 07 / GLS or Limited Entourage 07+ / 4.6L Genesis 09+ / Elantra Touring 09+ / Base Veloster 12+ / Genesis G90 3.5T e-SC 23+",
-    "D": "Genesis G90 3.5T e-SC Prestige Black 26+",
-    "F": "Base or L Accent 00-04",
-    "G": "GL or GS Accent 00-04 / GT Accent 03-05 / GLS Accent 05 / GLS Santa Fe 07+",
-    "H": "SE or Limited Santa Fe 07",
-    "M": "GL (Base) Tiburon 03-04 / GS Tiburon 05-08 / GL Tucson 05-06 / GLS Tucson 07+ / GS Accent 07+",
-    "N": "GLS Accent 06+ / SE Accent 07+ / GLS or GT Elantra 01-06 / Limited Elantra 06 / GLS Tucson 05-06 / LX Tucson 05 / Limited Tucson 06+ / SE Tucson 07+ / Limited V6 Tucson 08+ / GT Tiburon 03-08 / SE Tiburon 05-08 / GT Limited Tiburon 06-08 / Ioniq 5 N 25+",
-    "T": "GL Sonata 06 / GLS Sonata 07+",
-    "U": "GLS (Base or L) XG300 01 / XG350 02-05 / GLS or LX Sonata 06 / Limited Sonata 06+ / SE Sonata 07+ / Limited Elantra 07 / GLS or SE Elantra 07+ / GLS or Limited Veracruz 07+ / SE Veracruz 07",
-    "1": "SE Standard Range Ioniq 6 23-25",
-    "2": "SE Ioniq 6 23-25 / SE (general)",
-    "3": "SEL Ioniq 6 23-25 / Ioniq 6 N 26+ / Limited Edition",
-    "5": "Limited Ioniq 6 23-25",
-    "A": "Base / Entry trim (India market \u2014 i10, i20, Creta base)",
-    "E": "Era / Elite trim (India market)",
-    "S": "SX / Sport trim (India market Creta, Venue)",
-    "X": "SX(O) / Executive trim (India market)",
-    "P": "Prime / E+ trim (India market)",
-    "K": "EX / Knight trim (India market)"
+    "B": {
+      "raw_description": "GL Santa Fe 01-04 / Genesis G90 3.5T 23+ / Ioniq 5 Robotaxi",
+      "trim": "GL"
+    },
+    "C": {
+      "raw_description": "GLS Santa Fe 01-06 / Limited Santa Fe 06 / SE Azera 06-07 / Limited Azera 06+ / GLS Azera 07+ / SE Entourage 07 / GLS or Limited Entourage 07+ / 4.6L Genesis 09+ / Elantra Touring 09+ / Base Veloster 12+ / Genesis G90 3.5T e-SC 23+",
+      "trim": "GLS"
+    },
+    "D": {
+      "raw_description": "Genesis G90 3.5T e-SC Prestige Black 26+",
+      "trim": "Prestige Black"
+    },
+    "F": {
+      "raw_description": "Base or L Accent 00-04",
+      "trim": "Base"
+    },
+    "G": {
+      "raw_description": "GL or GS Accent 00-04 / GT Accent 03-05 / GLS Accent 05 / GLS Santa Fe 07+",
+      "trim": "GL"
+    },
+    "H": {
+      "raw_description": "SE or Limited Santa Fe 07",
+      "trim": "SE"
+    },
+    "M": {
+      "raw_description": "GL (Base) Tiburon 03-04 / GS Tiburon 05-08 / GL Tucson 05-06 / GLS Tucson 07+ / GS Accent 07+",
+      "trim": "GL"
+    },
+    "N": {
+      "raw_description": "GLS Accent 06+ / SE Accent 07+ / GLS or GT Elantra 01-06 / Limited Elantra 06 / GLS Tucson 05-06 / LX Tucson 05 / Limited Tucson 06+ / SE Tucson 07+ / Limited V6 Tucson 08+ / GT Tiburon 03-08 / SE Tiburon 05-08 / GT Limited Tiburon 06-08 / Ioniq 5 N 25+",
+      "trim": "GLS"
+    },
+    "T": {
+      "raw_description": "GL Sonata 06 / GLS Sonata 07+",
+      "trim": "GL"
+    },
+    "U": {
+      "raw_description": "GLS (Base or L) XG300 01 / XG350 02-05 / GLS or LX Sonata 06 / Limited Sonata 06+ / SE Sonata 07+ / Limited Elantra 07 / GLS or SE Elantra 07+ / GLS or Limited Veracruz 07+ / SE Veracruz 07",
+      "trim": "GLS"
+    },
+    "1": {
+      "raw_description": "SE Standard Range Ioniq 6 23-25",
+      "trim": "SE Standard Range"
+    },
+    "2": {
+      "raw_description": "SE Ioniq 6 23-25 / SE (general)",
+      "trim": "SE"
+    },
+    "3": {
+      "raw_description": "SEL Ioniq 6 23-25 / Ioniq 6 N 26+ / Limited Edition",
+      "trim": "SEL"
+    },
+    "5": {
+      "raw_description": "Limited Ioniq 6 23-25",
+      "trim": "Limited"
+    },
+    "A": {
+      "raw_description" : "Base / Entry trim (India market \u2014 i10, i20, Creta base)",
+      "trim" : "Base"
+    },
+    "E": {
+      "raw_description": "Era / Elite trim (India market)",
+      "trim": "Elite"
+    },
+    "S": {
+      "raw_description": "SX / Sport trim (India market Creta, Venue)",
+      "trim": "SX"
+    },
+    "X": {
+      "raw_description": "SX(O) / Executive trim (India market)",
+      "trim": "SX(O)"
+    },
+    "P": {
+      "raw_description": "Prime / E+ trim (India market)",
+      "trim": "Prime"
+    },
+    "K": {
+      "raw_description": "EX / Knight trim (India market)",
+      "trim": "EX"
+    }
   },
   "position_6_pre2001_trim": {
     "_note": "PRE-2001 models AND 01-05 Sonata & 01 Tiburon: Position 6 = trim level.",
-    "1": "Base (including base Mitsubishi Precis)",
-    "2": "GL / Mitsubishi Precis RS",
-    "3": "GLS / LS / LX / GS / Mitsubishi Precis LS"
+    "1" : {
+      "raw_description": "Base (including base Mitsubishi Precis)",
+      "trim": "Base"
+    },
+    "2": {
+      "raw_description": "GL / Mitsubishi Precis RS",
+      "trim": "GL"
+    },
+    "3": {
+      "raw_description": "GLS / LS / LX / GS / Mitsubishi Precis LS",
+      "trim": "GLS"
+    }
   },
   "position_6_post2001_body": {
     "_note": "POST-2001 models (passenger cars, excluding SUVs/pickups 2010+): Position 6 = body type.",
-    "1": "Wagon FWD (Santa Fe, Tucson, Veracruz)",
-    "2": "Minivan Extended length (Entourage)",
-    "3": "3-door hatchback",
-    "4": "4-door sedan",
-    "5": "5-door hatchback (Elantra 5-door 01-06, Elantra GT 13-20, Accent 5-door, Ioniq 17-22)",
-    "6": "Coupe (Tiburon 03-08, Genesis Coupe, Elantra Coupe 13-14, Veloster)",
-    "7": "Wagon AWD / SUV AWD (Santa Fe AWD, Tucson AWD, Veracruz AWD)",
-    "8": "5-door SUV / Crossover (Creta, Venue) / Station Wagon (Elantra Touring 09-12)",
-    "9": "Pickup / Crew cab (Santa Cruz)"
+    "1": {
+      "raw_description" : "Wagon FWD (Santa Fe, Tucson, Veracruz)",
+      "Series/Line": "Santa Fe / Tucson / Veracruz",
+      "body_type": "Wagon",
+      "drive_type": "Front Wheel Drive"
+    },
+    "2": {
+      "raw_description" : "Minivan Extended length (Entourage)",
+      "body_type": "Minivan Extended Length"
+    },
+    "3": {
+      "raw_description": "3-door hatchback",
+      "number_of_doors": 3,
+      "body_type": "Hatchback"
+    },
+    "4": {
+      "raw_description": "4-door sedan",
+      "number_of_doors": 4,
+      "body_type": "Sedan"
+    },
+    "5": {
+      "raw_description": "5-door hatchback (Elantra 5-door 01-06, Elantra GT 13-20, Accent 5-door, Ioniq 17-22)",
+      "number_of_doors": 5,
+      "body_type": "Hatchback"
+    },
+    "6": {
+      "raw_description": "Coupe (Tiburon 03-08, Genesis Coupe, Elantra Coupe 13-14, Veloster)",
+      "number_of_doors": 2,
+      "body_type": "Coupe"
+    },
+    "7": {
+      "raw_description": "Wagon AWD / SUV AWD (Santa Fe AWD, Tucson AWD, Veracruz AWD)",
+      "body_type": "Wagon",
+      "drive_type": "All Wheel Drive"
+    },
+    "8": {
+      "raw_description": "5-door SUV / Crossover (Creta, Venue) / Station Wagon (Elantra Touring 09-12)",
+      "number_of_doors": 5,
+      "body_type": "SUV / Crossover"
+    },
+    "9": {
+      "raw_description": "Pickup / Crew cab (Santa Cruz)",
+      "body_type": "Pickup",
+      "cab_type": "Crew Cab"
+    }
   },
   "position_6_post2010_mpv_truck": {
     "_note": "2010+ Multi-Purpose Passenger Vehicle or Truck: Position 6 = body style / drive wheels / weight class.",
@@ -349,26 +478,152 @@
   "position_7_restraint": {
     "_note": "Position 7 = restraint system (passenger & multi-purpose vehicles). Consistent across eras.",
     "passenger": {
-      "1": "Active 3-point belts",
-      "2": "Passive restraint",
-      "3": "Driver-side airbag (manual belt), passenger-side passive",
-      "4": "Dual airbags (manual belts)",
-      "5": "Depowered airbags",
-      "6": "Advanced airbags or depowered airbags with suppression",
-      "A": "Manual belts, dual front airbags + front side airbags + 2-row side curtain airbags",
-      "J": "Manual belts, dual front airbags + front/rear side airbags + 2-row side curtain airbags",
-      "S": "Manual belts, dual front airbags + front/rear side airbags + 2-row side curtain airbags + driver knee airbag + front center airbag",
-      "T": "Manual belts, dual front airbags + front side airbags + 2-row side curtain airbags + driver knee airbag + front center airbag",
-      "G": "Manual belts, dual front airbags + front/rear side airbags + 3-row side curtain airbags + driver knee airbag",
-      "D": "Manual belts, dual front airbags + front/rear side airbags + 2-row side curtain airbags [Hydraulic Brakes]"
+      "1": {
+        "raw_description": "Active 3-point belts",
+        "restraint_system": "Active 3-Point Belts",
+        "number_of_airbags": 0
+      },
+      "2": {
+        "raw_description": "Passive restraint",
+        "restraint_system": "Passive Restraint",
+        "number_of_airbags": 0
+      },
+      "3": {
+        "raw_description": "Driver-side airbag (manual belt), passenger-side passive",
+        "restraint_system": "Manual Belts",
+        "number_of_airbags": 1
+      },
+      "4": {
+        "raw_description": "Dual airbags (manual belts)",
+        "restraint_system": "Manual Belts",
+        "number_of_airbags": 2
+      },
+      "5": {
+        "raw_description": "Depowered airbags",
+        "restraint_system": "Depowered Airbags",
+        "number_of_airbags": 2
+      },
+      "6": {
+        "raw_description": "Advanced airbags or depowered airbags with suppression",
+        "restraint_system": "Advanced Airbags",
+        "number_of_airbags": 2
+      },      
+      "A": {
+        "raw_description": "Manual belts, dual front airbags + front side airbags + 2-row side curtain airbags",
+        "restraint_system": "Manual Belts",
+        "number_of_airbags": 6,
+        "front_airbags": true,
+        "side_airbags": true,
+        "curtain_airbags": "2-Row Side Curtain Airbags"
+      },
+      "J": {
+        "raw_description": "Manual belts, dual front airbags + front/rear side airbags + 2-row side curtain airbags",
+        "restraint_system": "Manual Belts",
+        "number_of_airbags": 6,
+        "front_airbags": true,
+        "rear_airbags": true,
+        "side_airbags": true,
+        "curtain_airbags": "2-Row Side Curtain Airbags"
+      },
+      "S": {
+        "raw_description": "Manual belts, dual front airbags + front/rear side airbags + 2-row side curtain airbags + driver knee airbag + front center airbag",
+        "restraint_system": "Manual Belts",
+        "number_of_airbags": 8,
+        "side_airbags": true,
+        "front_airbags": true,
+        "rear_airbags": true,
+        "front_center_airbag": true,
+        "curtain_airbags": "2-Row Side Curtain Airbags",
+        "driver_knee_airbag": true
+      },
+      "T": {
+        "raw_description": "Manual belts, dual front airbags + front side airbags + 2-row side curtain airbags + driver knee airbag + front center airbag",
+        "restraint_system": "Manual Belts",
+        "number_of_airbags": 8,
+        "front_airbags": true,
+        "side_airbags": true,
+        "curtain_airbags": "2-Row Side Curtain Airbags",
+        "driver_knee_airbag": true,
+        "front_center_airbag": true
+      },
+      "G": {
+        "raw_description": "Manual belts, dual front airbags + front/rear side airbags + 3-row side curtain airbags + driver knee airbag",
+        "restraint_system": "Manual Belts",
+        "number_of_airbags": 8,
+        "side_airbags": true,
+        "front_airbags": true,
+        "rear_airbags": true,
+        "curtain_airbags": "3-Row Side Curtain Airbags",
+        "driver_knee_airbag": true
+      },
+      "D": {
+        "raw_description": "Manual belts, dual front airbags + front/rear side airbags + 2-row side curtain airbags [Hydraulic Brakes]",
+        "restraint_system": "Manual Belts",
+        "number_of_airbags": 6,
+        "front_airbags": true,
+        "rear_airbags": true,
+        "side_airbags": true,
+        "curtain_airbags": "2-Row Side Curtain Airbags"
+      }
     },
     "mpv_passenger": {
-      "A": "Manual belts, dual front airbags + front side airbags + 2-row side curtain airbags",
-      "D": "Manual belts, dual front airbags + front/rear side airbags + 2-row side curtain airbags [Hydraulic Brakes]",
-      "G": "Manual belts, dual front airbags + front/rear side airbags + 3-row side curtain airbags + driver knee airbag",
-      "J": "Manual belts, dual front airbags + front/rear side airbags + 2-row side curtain airbags",
-      "S": "Manual belts, dual front airbags + front/rear side airbags + 2-row/3-row side curtain airbags + driver knee airbag + front center airbag",
-      "T": "Manual belts, dual front airbags + front side airbags + 2-row side curtain airbags + driver knee airbag + front center airbag"
+      "A": {
+        "raw_description": "Manual belts, dual front airbags + front side airbags + 2-row side curtain airbags",
+        "restraint_system": "Manual Belts",
+        "number_of_airbags": 6,
+        "front_airbags": true,
+        "side_airbags": true,
+        "curtain_airbags": "2-Row Side Curtain Airbags"
+      },
+      "D": {
+        "raw_description": "Manual belts, dual front airbags + front/rear side airbags + 2-row side curtain airbags [Hydraulic Brakes]",
+        "restraint_system": "Manual Belts",
+        "number_of_airbags": 6,
+        "front_airbags": true,
+        "rear_airbags": true,
+        "side_airbags": true,
+        "curtain_airbags": "2-Row Side Curtain Airbags"
+      },
+      "G": {
+        "raw_description": "Manual belts, dual front airbags + front/rear side airbags + 3-row side curtain airbags + driver knee airbag",
+        "restraint_system": "Manual Belts",
+        "number_of_airbags": 8,
+        "front_airbags": true,
+        "rear_airbags": true,
+        "side_airbags": true,
+        "curtain_airbags": "3-Row Side Curtain Airbags",
+        "driver_knee_airbag": true
+      },
+      "J": {
+        "raw_description": "Manual belts, dual front airbags + front/rear side airbags + 2-row side curtain airbags",
+        "restraint_system": "Manual Belts",
+        "number_of_airbags": 6,
+        "front_airbags": true,
+        "rear_airbags": true,
+        "side_airbags": true,
+        "curtain_airbags": "2-Row Side Curtain Airbags"
+      },
+      "S": {
+        "raw_description": "Manual belts, dual front airbags + front/rear side airbags + 2-row/3-row side curtain airbags + driver knee airbag + front center airbag",
+        "restraint_system": "Manual Belts",
+        "number_of_airbags": 8,
+        "front_airbags": true,
+        "rear_airbags": true,
+        "side_airbags": true,
+        "driver_knee_airbag": true,
+        "front_center_airbag": true,
+        "curtain_airbags": "2-Row/3-Row Side Curtain Airbags"
+      },
+      "T": {
+        "raw_description": "Manual belts, dual front airbags + front side airbags + 2-row side curtain airbags + driver knee airbag + front center airbag",
+        "restraint_system": "Manual Belts",
+        "number_of_airbags": 8,
+        "front_airbags": true,
+        "side_airbags": true,
+        "driver_knee_airbag": true,
+        "front_center_airbag": true,
+        "curtain_airbags": "2-Row Side Curtain Airbags"
+      }
     },
     "gvwr_mpv": {
       "2": "GVWR Class C (4,001-5,000 lbs)",
