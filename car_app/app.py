@@ -897,7 +897,7 @@ def decode_vin(vin):
         "restraint_system": "Unknown", "number_of_airbags": None,
         "curtain_airbags": None, "driver_knee_airbag": None, "side_airbags": None,
         "passenger_knee_airbag": None, "front_airbags": None, "rear_airbags": None,
-        "front_center_airbag": None,
+        "front_center_airbag": None, "Transmission": "Unknown",
         
         "model_platform": "Unknown",
         "series_line": "Unknown", "model_generation": "Unknown",
@@ -1108,11 +1108,15 @@ if __name__ == "__main__":
             st.markdown(vin_map_html(vin_input), unsafe_allow_html=True)
 
             # ── VALIDATION BANNER ───────────────────────
-            check_label = (
-                '<span class="check-valid valid">✓ CHECK DIGIT VALID</span>'
-                if r["check_digit_valid"] else
-                f'<span class="check-valid invalid">✗ CHECK DIGIT INVALID (expected {r["check_digit_expected"]})</span>'
-            )
+            if r["country"] != "India" and r["manufacturer"] != "Hyundai":
+                check_label = (
+                    '<span class="check-valid valid">✓ CHECK DIGIT VALID</span>'
+                    if r["check_digit_valid"] else
+                    f'<span class="check-valid invalid">✗ CHECK DIGIT INVALID (expected {r["check_digit_expected"]})</span>'
+                )
+            else:
+                check_label = ""
+                
             char_label = (
                 '<span class="check-valid valid">✓ CHARACTERS VALID</span>'
                 if r["valid_chars"] else
@@ -1152,11 +1156,32 @@ if __name__ == "__main__":
                 rows += info_row("Body Type", r["body_type"])
                 if r["trim"] not in ["Unknown", "Not Available", None]:
                     rows += info_row("Trim", r["trim"])
+                
+                if r["country"] == "India" and r["manufacturer"] == "Hyundai":
+                    if r["pos9"] == "L":
+                        r["Transmission"] = "Manual (MT)"
+                    elif r["pos9"] == "A" or r["pos9"] == "B":
+                        r["Transmission"] = "Automatic (AT)"
+                    elif r["pos9"] == "C":
+                        r["Transmission"] = "Dual Clutch (DCT)"
+                    elif r["pos9"] == "M":
+                        r["Transmission"] = "Intelligent Manual (iMT)"
+                    elif r["pos9"] == "V":
+                        r["Transmission"] = "Continuously Variable (IVT)"
+                    else:
+                        r["Transmission"] = "Unknown"
+                
+                if r["Transmission"] not in ["Unknown", "Not Available", None]:
+                    rows += info_row("Transmission", r["Transmission"])
+                
                 if r["drive_type"] not in ["Unknown", "Not Available", None]:
                     rows += info_row("Drive Type", r["drive_type"])
+                
                 rows += info_row("Number of Doors", r["number_of_doors"])
+                
                 if r["model_platform"] not in ["Unknown", "Not Available", None]:
                     rows += info_row("Model Platform", r["model_platform"])
+                
                 st.markdown(section("Vehicle Descriptor Section", rows), unsafe_allow_html=True)
 
                 rows2 = ""
@@ -1198,7 +1223,10 @@ if __name__ == "__main__":
                 rows += info_row("Pos 5+6", f'{r["pos5_6"]} → {r["model_generation"][:40] if r["model_generation"] != "Unknown" else "—"}')
                 rows += info_row("Pos 7", f'{r["pos7"]} → {r["body_type"][:40] if r["body_type"] != "Unknown" else r["restraint_system"][:40] if r["restraint_system"] != "Unknown" else "—"}')
                 rows += info_row("Pos 8", f'{r["pos8"]} → {r["restraint_system"][:40] if r["restraint_system"] != "Unknown" else r["model_platform"][:40] if r["model_platform"] != "Unknown" else "—"}')
-                rows += info_row("Pos 9 (Check)", f'{r["check_digit"]} {"✓" if r["check_digit_valid"] else "✗"}', "good" if r["check_digit_valid"] else "warn")
+                if r["country"] == "India" and r["manufacturer"] == "Hyundai":
+                    rows += info_row("Pos 9", f'{r["pos9"]} → {r["Transmission"]}')
+                else:
+                    rows += info_row("Pos 9 (Check)", f'{r["check_digit"]} {"✓" if r["check_digit_valid"] else "✗"}', "good" if r["check_digit_valid"] else "warn")
                 rows += info_row("Pos 10 (Year)", f'{r["pos10"]} → {r["model_year"]}')
                 rows += info_row("Pos 11 (Plant)", f'{r["pos11"]} → {r["plant"][:35]}')
                 st.markdown(section("Position-by-Position Map", rows), unsafe_allow_html=True)
