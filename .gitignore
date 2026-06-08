@@ -2,7 +2,8 @@ Data
 chunks
 ml/catboost_info
 chat_cat/catboost_info
-chat_cat/models
+chat_cat/__pycache__
 __pycache__
 .vscode
 .idea
+catboost_info
