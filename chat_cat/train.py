@@ -1,15 +1,14 @@
 import os
 import gc
-from typing import Tuple
+from typing import Tuple, Dict, Any, List
 import argparse
 import logging
 import pickle
 import numpy as np
 import pandas as pd
-from sklearn.model_selection import train_test_split
 
 from feature_engineering import prepare_data
-from model_utils import create_model, save_catboost_model
+from model_utils import save_fallback_model
 from evaluate import evaluate_predictions
 
 # Configure logging to console
@@ -22,13 +21,13 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Map target name to its specified feature subset
-TARGET_FEATURE_MAPPING = {
-    "MAKE": ["WMI"],
-    "MODEL": ["WMI", "VDS", "YEAR_CODE"],
-    "TRIM": ["WMI", "VDS", "YEAR_CODE", "PLANT_CODE"],
-    "BODY_TYPE": ["WMI", "VDS"],
-    "ENGINE": ["WMI", "VDS", "YEAR_CODE"]
+# Target hierarchies for backoff lookups
+BACKOFF_HIERARCHY = {
+    "MAKE": [["WMI"]],
+    "MODEL": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
+    "TRIM": [["WMI", "VDS", "YEAR_CODE", "PLANT_CODE"], ["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
+    "BODY_TYPE": [["WMI", "VDS"], ["WMI"]],
+    "ENGINE": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]]
 }
 
 def split_and_align_classes(
@@ -37,14 +36,31 @@ def split_and_align_classes(
     test_size: float = 0.20
 ) -> Tuple[pd.Index, pd.Index]:
     """Helper to perform a stratified split with rare class safety and class alignment."""
-    # 1. Stratification safety: group classes with only 1 member under a single bin
     class_counts = y_series.value_counts()
+    
+    # If there's only 1 class or not enough classes, do a standard split without stratification
+    if len(class_counts) <= 1:
+        from sklearn.model_selection import train_test_split
+        idx_train, idx_val = train_test_split(X.index, test_size=test_size, random_state=42)
+        return idx_train, idx_val
+        
+    majority_class = class_counts.index[0]
+    
+    # 1. Stratification safety: group rare classes with only 1 member under the majority class
     rare_classes = class_counts[class_counts < 2].index.tolist()
     y_stratify = y_series.copy()
     if len(rare_classes) > 0:
-        y_stratify = y_stratify.replace(rare_classes, -1)
+        y_stratify = y_stratify.replace(rare_classes, majority_class)
+        
+    # Double check if any class in y_stratify still has less than 2 members
+    class_counts_strat = y_stratify.value_counts()
+    if (class_counts_strat < 2).any():
+        from sklearn.model_selection import train_test_split
+        idx_train, idx_val = train_test_split(X.index, test_size=test_size, random_state=42)
+        return idx_train, idx_val
         
     # 2. Perform split on indexes
+    from sklearn.model_selection import train_test_split
     idx_train, idx_val = train_test_split(
         X.index, test_size=test_size, random_state=42,
         stratify=y_stratify
@@ -69,14 +85,28 @@ def split_and_align_classes(
         
     return pd.Index(idx_train_list), pd.Index(idx_val_list)
 
+def predict_from_target_model(row: pd.Series, target_model: Dict[Any, Any], feature_levels: List[List[str]]) -> Tuple[str, float]:
+    """Predicts a target class and confidence score for a single row using backoff hierarchy."""
+    for level_idx, features in enumerate(feature_levels):
+        key = tuple(row[f] for f in features)
+        if len(key) == 1:
+            key = key[0]
+            
+        lookup_dict = target_model[level_idx]
+        if key in lookup_dict:
+            return lookup_dict[key]  # returns (class_str, probability)
+            
+    # Return global default if not found at any level
+    return target_model["_default"]
+
 def main():
-    parser = argparse.ArgumentParser(description="UAE VIN Intelligence System - CatBoost Training Pipeline")
+    parser = argparse.ArgumentParser(description="UAE VIN Intelligence System - Fallback Lookup Training Pipeline")
     parser.add_argument("--data_path", type=str, default="../Data/data_methaq(2.0).csv",
                         help="Path to the raw CSV or Parquet dataset")
     parser.add_argument("--model_dir", type=str, default="models",
                         help="Output directory for saved models and encoders")
-    parser.add_argument("--downsample", type=int, default=100000,
-                        help="Downsample training set to this size to prevent OOM errors on 16GB RAM machines")
+    parser.add_argument("--downsample", type=int, default=-1,
+                        help="Downsample training set to this size (negative for no downsampling)")
     parser.add_argument("--test_size", type=float, default=0.20,
                         help="Validation set fraction")
     
@@ -87,31 +117,32 @@ def main():
         logger.error(f"Dataset not found at: {args.data_path}")
         return
         
-    logger.info("Starting VIN Intelligence System pipeline training...")
+    logger.info("Starting VIN Intelligence System fallback pipeline training...")
     
     # 1. Feature engineering and cleaning
     X, y, encoders = prepare_data(args.data_path, args.model_dir)
     
-    # Save the standard column mappings and details in a json configuration file later
     targets = ["MAKE", "MODEL", "TRIM", "BODY_TYPE", "ENGINE"]
+    fallback_model = {}
     
     for target in targets:
-        logger.info(f"\n{'='*60}\nTraining Pipeline for Target: {target}\n{'='*60}")
+        logger.info(f"\n{'='*60}\nBuilding Fallback Model for Target: {target}\n{'='*60}")
         
         # Get target series
         y_target = y[f"{target}_enc"]
-        num_classes = len(encoders[target].classes_)
+        le = encoders[target]
+        num_classes = len(le.classes_)
         
-        # Feature columns selection
-        features = TARGET_FEATURE_MAPPING[target]
-        logger.info(f"Target: {target} | Features selected: {features}")
+        # Hierarchy feature levels
+        feature_levels = BACKOFF_HIERARCHY[target]
+        logger.info(f"Target: {target} | Backoff hierarchy: {feature_levels}")
         
         # Initial train/validation split
         idx_train, idx_val = split_and_align_classes(X, y_target, args.test_size)
         
-        # 2. Downsampling training indices if necessary (to prevent OOM/bad allocation)
+        # Downsampling if explicitly requested
         if args.downsample > 0 and len(idx_train) > args.downsample:
-            logger.info(f"Downsampling training set from {len(idx_train):,} to {args.downsample:,} for RAM safety...")
+            logger.info(f"Downsampling training set from {len(idx_train):,} to {args.downsample:,}...")
             np.random.seed(42)
             idx_train_sampled = np.random.choice(idx_train, size=args.downsample, replace=False)
             
@@ -138,43 +169,82 @@ def main():
         logger.info(f"Final training split size: {len(idx_train):,}")
         logger.info(f"Final validation split size: {len(idx_val):,}")
         
-        # Slice datasets
-        X_train, y_train = X.loc[idx_train, features], y_target.loc[idx_train].values
-        X_val, y_val = X.loc[idx_val, features], y_target.loc[idx_val].values
-        if num_classes <= 1:
-            logger.info(f"Target '{target}' has only {num_classes} unique class. Skipping CatBoost model training (will use constant prediction).")
-            continue
-            
-        # 3. Create model with customized parameters
-        model = create_model(target, num_classes)
+        # Slice training data
+        X_train = X.loc[idx_train]
+        y_train = y_target.loc[idx_train].values
         
-        # 4. Train model with early stopping
-        logger.info(f"Fitting CatBoostClassifier for target '{target}'...")
-        try:
-            model.fit(
-                X_train, y_train,
-                cat_features=features,
-                eval_set=(X_val, y_val),
-                use_best_model=True
-            )
+        target_model = {}
+        
+        # Calculate global default
+        unique_classes, class_counts = np.unique(y_train, return_counts=True)
+        if len(class_counts) > 0:
+            best_idx = np.argmax(class_counts)
+            global_default_enc = unique_classes[best_idx]
+            global_prob = float(class_counts[best_idx] / len(y_train))
+            global_default = le.inverse_transform([global_default_enc])[0]
+        else:
+            global_default = "UNKNOWN"
+            global_prob = 1.0
             
-            # 5. Evaluate model
-            preds = model.predict(X_val)
-            # Flatten predictions
-            preds = preds.ravel()
-            evaluate_predictions(y_val, preds, target)
+        target_model["_default"] = (global_default, global_prob)
+        
+        # Build pandas dataframes for group count calculations
+        train_df = X_train.copy()
+        train_df["target_enc"] = y_train
+        
+        # Compile frequency dictionary for each hierarchy level
+        for level_idx, features in enumerate(feature_levels):
+            groupby_cols = features.copy()
+            counts_df = train_df.groupby(groupby_cols + ["target_enc"]).size().reset_index(name="count")
             
-            # 6. Save model to registry
-            save_catboost_model(model, args.model_dir, target)
+            # Find class with highest count for each feature combination
+            best_df = counts_df.sort_values(by=groupby_cols + ["count"], ascending=False)
+            best_df = best_df.drop_duplicates(subset=groupby_cols)
             
-        except Exception as e:
-            logger.error(f"Failed to train target '{target}': {e}", exc_info=True)
+            # Merge with total counts to compute probability/confidence
+            total_counts = train_df.groupby(groupby_cols).size().reset_index(name="total_count")
+            best_df = pd.merge(best_df, total_counts, on=groupby_cols)
+            best_df["prob"] = best_df["count"] / best_df["total_count"]
             
-        # Proactively clear RAM before the next iteration
-        del model
+            # Decode all best_df target_enc at once for extreme speedup
+            best_df["class_str"] = le.inverse_transform(best_df["target_enc"].astype(int))
+            
+            # Convert to dictionary with string class keys
+            lookup_dict = {}
+            for _, row in best_df.iterrows():
+                key = tuple(row[f] for f in groupby_cols)
+                if len(key) == 1:
+                    key = key[0]
+                
+                lookup_dict[key] = (row["class_str"], float(row["prob"]))
+                
+            target_model[level_idx] = lookup_dict
+            
+        fallback_model[target] = target_model
+        
+        # Evaluate model on the validation split
+        logger.info(f"Evaluating fallback model on validation split (size={len(idx_val):,})...")
+        X_val = X.loc[idx_val]
+        y_val_enc = y_target.loc[idx_val].values
+        y_val_true = le.inverse_transform(y_val_enc)
+        
+        # Convert X_val to records dict for fast iteration
+        all_features_used = list(set(f for lvl in feature_levels for f in lvl))
+        val_records = X_val[all_features_used].to_dict(orient="records")
+        
+        val_preds = []
+        for val_row in val_records:
+            pred_val, _ = predict_from_target_model(val_row, target_model, feature_levels)
+            val_preds.append(pred_val)
+            
+        evaluate_predictions(y_val_true, val_preds, target)
+        
+        # Clear memory
         gc.collect()
         
-    logger.info("CatBoost training pipeline completed successfully!")
+    # Save the fallback model dict
+    save_fallback_model(fallback_model, args.model_dir)
+    logger.info("Fallback training pipeline completed successfully!")
 
 if __name__ == "__main__":
     main()
