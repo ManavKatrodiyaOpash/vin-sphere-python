@@ -1,333 +1,897 @@
 {
-    "manufacturer": "Nissan",
+    "manufacturer": "Nissan / Infiniti",
     "_notes": {
-        "vin_structure": "17 chars: pos1-3=WMI, pos4-8=VDS, pos9=check_digit, pos10=model_year, pos11=plant, pos12-17=serial",
-        "vds_note": "Nissan VDS encoding differs by market. North America: pos4=line/series, pos5+6=model+generation, pos7=body_type, pos8=restraint_system. European market uses pos7-9 for platform+model code. Position 9 is always check digit for NA.",
-        "important": "Positions 4-8 are manufacturer-specific and vary by model year and market. No single universal public table exists. Use NHTSA VIN decoder for exact lookup."
+        "vin_structure": "17 chars: pos1-3=WMI, pos4=Engine/Line, pos5=Platform/Model, pos6=Generation/Change, pos7=Body/Trim, pos8=Restraint/GVWR, pos9=CheckDigit, pos10=ModelYear, pos11=Plant, pos12-17=Serial",
+        "how_to_use": "1) Read pos10 to get the model year. 2) Check WMI; if it belongs to North American market decoding rules, execute step 3. 3) Decode positions 4 through 8 sequentially. Note that position 7 switches functional roles: pre-2020 it represents raw Body Style; 2020+ it shifts completely to map Trim Levels.",
+        "excluded": "Pre-1997 legacy platforms and classic variants have been completely pruned for optimized storage size and dictionary indexing efficiency."
     },
     "wmi": {
         "JN1": {
             "manufacturer": "Nissan Motor Co. Ltd.",
             "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JN2": {
-            "manufacturer": "Nissan Motor Co. Ltd.",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
+            "type": "Passenger Car"
         },
         "JN3": {
             "manufacturer": "Nissan Motor Co. Ltd.",
             "country": "Japan",
-            "vehicle_type": "Passenger Car (Incomplete/Convertible)"
-        },
-        "JN4": {
-            "manufacturer": "Nissan Motor Co. Ltd.",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
-        },
-        "JN5": {
-            "manufacturer": "Nissan Motor Co. Ltd.",
-            "country": "Japan",
-            "vehicle_type": "Passenger Car"
+            "type": "Passenger Car (Incomplete/Convertible)"
         },
         "JN6": {
             "manufacturer": "Nissan Motor Co. Ltd.",
             "country": "Japan",
-            "vehicle_type": "Truck / Cargo Van"
-        },
-        "JN7": {
-            "manufacturer": "Nissan Motor Co. Ltd.",
-            "country": "Japan",
-            "vehicle_type": "Truck"
+            "type": "Truck & Cargo Van"
         },
         "JN8": {
             "manufacturer": "Nissan Motor Co. Ltd.",
             "country": "Japan",
-            "vehicle_type": "Multi-Purpose Vehicle / SUV"
-        },
-        "JNA": {
-            "manufacturer": "UD Trucks / Nissan Diesel Motor Co.",
-            "country": "Japan",
-            "vehicle_type": "Commercial Vehicle"
-        },
-        "JNB": {
-            "manufacturer": "UD Trucks / Nissan Diesel Motor Co.",
-            "country": "Japan",
-            "vehicle_type": "Commercial Vehicle"
+            "type": "Multi-Purpose Vehicle"
         },
         "JNK": {
-            "manufacturer": "Nissan Motor Co. Ltd. (Infiniti)",
+            "manufacturer": "Nissan Motor Co. Ltd.",
             "country": "Japan",
-            "vehicle_type": "Passenger Car"
+            "type": "Infiniti Passenger Vehicle"
         },
         "JNR": {
-            "manufacturer": "Nissan Motor Co. Ltd. (Infiniti)",
+            "manufacturer": "Nissan Motor Co. Ltd.",
             "country": "Japan",
-            "vehicle_type": "Multi-Purpose Vehicle"
+            "type": "Infiniti Multi-Purpose Vehicle"
         },
         "JNX": {
-            "manufacturer": "Nissan Motor Co. Ltd. (Infiniti)",
+            "manufacturer": "Nissan Motor Co. Ltd.",
             "country": "Japan",
-            "vehicle_type": "Passenger Car (Incomplete)"
+            "type": "Infiniti Passenger Vehicle (Incomplete)"
         },
         "1N4": {
-            "manufacturer": "Nissan North America Inc.",
+            "manufacturer": "Nissan Motor Mfg. Corp. USA",
             "country": "USA",
-            "vehicle_type": "Passenger Car"
+            "type": "Passenger Vehicle"
         },
         "1N6": {
-            "manufacturer": "Nissan North America Inc.",
+            "manufacturer": "Nissan Motor Mfg. Corp. USA",
             "country": "USA",
-            "vehicle_type": "Truck"
-        },
-        "1PJ": {
-            "manufacturer": "Nissan North America Inc.",
-            "country": "USA",
-            "vehicle_type": "Passenger Car"
+            "type": "Truck & Cargo Van"
         },
         "3N1": {
-            "manufacturer": "Nissan Mexicana S.A. de C.V.",
+            "manufacturer": "Nissan Mexicana SA de CV",
             "country": "Mexico",
-            "vehicle_type": "Passenger Car"
-        },
-        "3N2": {
-            "manufacturer": "Nissan Mexicana S.A. de C.V.",
-            "country": "Mexico",
-            "vehicle_type": "Passenger Car"
-        },
-        "3N3": {
-            "manufacturer": "Nissan Mexicana S.A. de C.V.",
-            "country": "Mexico",
-            "vehicle_type": "Passenger Car"
-        },
-        "3N4": {
-            "manufacturer": "Nissan Mexicana S.A. de C.V.",
-            "country": "Mexico",
-            "vehicle_type": "Passenger Car"
-        },
-        "3N5": {
-            "manufacturer": "Nissan Mexicana S.A. de C.V.",
-            "country": "Mexico",
-            "vehicle_type": "Passenger Car"
+            "type": "Passenger Vehicle"
         },
         "3N6": {
-            "manufacturer": "Nissan Mexicana S.A. de C.V.",
+            "manufacturer": "Nissan Mexicana SA de CV",
             "country": "Mexico",
-            "vehicle_type": "Truck"
-        },
-        "3N7": {
-            "manufacturer": "Nissan Mexicana S.A. de C.V.",
-            "country": "Mexico",
-            "vehicle_type": "Truck"
+            "type": "Truck & Cargo Van"
         },
         "3N8": {
-            "manufacturer": "Nissan Mexicana S.A. de C.V.",
+            "manufacturer": "Nissan Mexicana SA de CV",
             "country": "Mexico",
-            "vehicle_type": "Passenger Car"
+            "type": "Multi-Purpose Vehicle"
         },
-        "3G2": {
-            "manufacturer": "General Motors Mexico (Nissan Build Agreement)",
+        "3PC": {
+            "manufacturer": "COMPAS",
             "country": "Mexico",
-            "vehicle_type": "Passenger Wagon"
-        },
-        "4M2": {
-            "manufacturer": "Ford Motor Company (Nissan Joint Venture)",
-            "country": "USA",
-            "vehicle_type": "Multi-Purpose Vehicle (Quest)"
+            "type": "Infiniti Multi-Purpose Vehicle"
         },
         "4N2": {
-            "manufacturer": "Nissan Canada / USA Inc.",
-            "country": "Canada",
-            "vehicle_type": "Multi-Purpose Vehicle"
-        },
-        "4R4": {
-            "manufacturer": "Nissan North America Inc.",
+            "manufacturer": "Ford Motor Co. (Quest Alliance)",
             "country": "USA",
-            "vehicle_type": "Truck"
-        },
-        "4R6": {
-            "manufacturer": "Nissan North America Inc.",
-            "country": "USA",
-            "vehicle_type": "Truck"
+            "type": "Multi-Purpose Vehicle"
         },
         "5BZ": {
-            "manufacturer": "Nissan North America Inc.",
+            "manufacturer": "Nissan Motor Mfg. Corp. USA",
             "country": "USA",
-            "vehicle_type": "Bus / Large Van"
+            "type": "Commercial Bus Van"
         },
         "5N1": {
-            "manufacturer": "Nissan North America Inc.",
+            "manufacturer": "Nissan Motor Mfg. Corp. USA",
             "country": "USA",
-            "vehicle_type": "Multi-Purpose Vehicle / SUV"
-        },
-        "5N2": {
-            "manufacturer": "Nissan North America Inc.",
-            "country": "USA",
-            "vehicle_type": "SUV"
+            "type": "Multi-Purpose Vehicle"
         },
         "5N3": {
-            "manufacturer": "Nissan North America Inc.",
+            "manufacturer": "Nissan Motor Mfg. Corp. USA",
             "country": "USA",
-            "vehicle_type": "SUV"
+            "type": "Infiniti Multi-Purpose Vehicle"
+        },
+        "5Z6": {
+            "manufacturer": "Nissan Motor Mfg. Corp. USA (Suzuki Alliance)",
+            "country": "USA",
+            "type": "Suzuki Truck Equator"
         },
         "6F4": {
-            "manufacturer": "Nissan Motor Co. Australia Pty. Ltd.",
+            "manufacturer": "Nissan Motor Australia",
             "country": "Australia",
-            "vehicle_type": "Passenger Car"
+            "type": "Standard Vehicle"
         },
-        "7NA": {
-            "manufacturer": "Nissan New Zealand Ltd.",
+        "7A7": {
+            "manufacturer": "Nissan New Zealand",
             "country": "New Zealand",
-            "vehicle_type": "Commercial Vehicle"
+            "type": "Standard Vehicle"
         },
-        "93B": {
-            "manufacturer": "Nissan do Brasil Automóveis Ltda",
-            "country": "Brazil",
-            "vehicle_type": "Commercial Vehicle"
+        "8AN": {
+            "manufacturer": "Renault Argentina",
+            "country": "Argentina",
+            "type": "Standard Vehicle"
         },
         "94D": {
-            "manufacturer": "Nissan do Brasil Automóveis Ltda",
+            "manufacturer": "Nissan do Brasil Automoveis / Renault",
             "country": "Brazil",
-            "vehicle_type": "Passenger Car"
+            "type": "Standard Vehicle"
         },
         "ADN": {
-            "manufacturer": "Nissan South Africa (Pty) Ltd.",
+            "manufacturer": "Nissan South Africa (Pty) Ltd",
             "country": "South Africa",
-            "vehicle_type": "Passenger Car"
-        },
-        "ADR": {
-            "manufacturer": "Nissan South Africa (Renault Sandero Build)",
-            "country": "South Africa",
-            "vehicle_type": "Passenger Car"
-        },
-        "Z8N": {
-            "manufacturer": "Nissan South Africa (Pty) Ltd.",
-            "country": "South Africa",
-            "vehicle_type": "Commercial / Truck"
+            "type": "Truck & Van"
         },
         "KNM": {
-            "manufacturer": "Nissan Motor Manufacturing Korea",
+            "manufacturer": "Renault Samsung Motors",
             "country": "South Korea",
-            "vehicle_type": "Passenger Car"
+            "type": "Nissan Passenger & MPV"
+        },
+        "LGB": {
+            "manufacturer": "Dongfeng Nissan",
+            "country": "China",
+            "type": "Standard Vehicle"
+        },
+        "LJN": {
+            "manufacturer": "Zhengzhou Nissan",
+            "country": "China",
+            "type": "Standard Vehicle"
+        },
+        "MBH": {
+            "manufacturer": "Maruti Suzuki India Ltd.",
+            "country": "India",
+            "type": "Passenger Vehicle"
         },
         "MDH": {
             "manufacturer": "Nissan Motor India Pvt. Ltd.",
             "country": "India",
-            "vehicle_type": "Passenger Car"
+            "type": "Passenger Vehicle"
         },
         "MNT": {
             "manufacturer": "Nissan Motor Thailand",
             "country": "Thailand",
-            "vehicle_type": "Passenger Car"
+            "type": "Standard Vehicle"
         },
-        "LNJ": {
-            "manufacturer": "Dongfeng Yulon Motor Co. (Nissan Line)",
-            "country": "China",
-            "vehicle_type": "Passenger Car / Crossover"
+        "PN8": {
+            "manufacturer": "Tan Chong Motor Assemblies Sdn. Bhd.",
+            "country": "Malaysia",
+            "type": "Standard Vehicle"
         },
-        "LC0": {
-            "manufacturer": "Zhengzhou Nissan Automobile Co. Ltd.",
-            "country": "China",
-            "vehicle_type": "Multi-Purpose Vehicle / SUV"
+        "SJK": {
+            "manufacturer": "Nissan Motor Manufacturing UK Ltd.",
+            "country": "UK",
+            "type": "Infiniti Passenger Vehicle"
         },
         "SJN": {
             "manufacturer": "Nissan Motor Manufacturing UK Ltd.",
-            "country": "United Kingdom",
-            "vehicle_type": "Passenger Car"
+            "country": "UK",
+            "type": "Nissan Passenger & MPV"
         },
-        "SJK": {
-            "manufacturer": "Nissan Motor Manufacturing UK Ltd. (Infiniti Build)",
-            "country": "United Kingdom",
-            "vehicle_type": "Passenger Car (QX30)"
+        "VNV": {
+            "manufacturer": "Renault SA",
+            "country": "France",
+            "type": "Nissan Passenger Vehicle & Van"
         },
         "VSK": {
-            "manufacturer": "Nissan Motor Ibérica S.A.",
+            "manufacturer": "Nissan Motor Iberica SA",
             "country": "Spain",
-            "vehicle_type": "Commercial Vehicle / SUV"
+            "type": "Passenger, MPV & Truck"
         },
-        "XTA": {
-            "manufacturer": "AvtoVAZ (Nissan-Datsun Assembly)",
+        "VWA": {
+            "manufacturer": "Nissan Vehiculos Industriales SA",
+            "country": "Spain",
+            "type": "Commercial Truck"
+        },
+        "Z8N": {
+            "manufacturer": "Nissan Manufacturing Rus",
             "country": "Russia",
-            "vehicle_type": "Passenger Car"
+            "type": "Standard Vehicle"
+        },
+        "ZAR": {
+            "manufacturer": "Alfa Romeo SpA",
+            "country": "Italy",
+            "type": "Passenger Vehicle"
         }
     },
-    "position_4": {
-        "_note": "North America: indicates line/series. Nissan does NOT publish a universal pos4 letter→series mapping. These are approximate common patterns.",
-        "A": "Altima / Passenger series",
-        "B": "Sentra / Compact series",
-        "C": "Frontier / Compact pickup",
-        "D": "Pathfinder / SUV",
-        "E": "Armada / Large SUV",
-        "F": "Frontier full-size",
-        "J": "Rogue Sport / Small crossover",
-        "K": "Leaf / Electric",
-        "L": "Murano",
-        "M": "Maxima",
-        "N": "NV / Van series",
-        "P": "Pathfinder",
-        "R": "Rogue",
-        "S": "Sentra",
-        "T": "Titan",
-        "U": "NV Cargo",
-        "V": "Versa",
-        "X": "Xterra / X-Trail",
-        "Y": "Rogue / X-Trail alternate",
-        "Z": "Z performance series (370Z, 400Z)"
+    "position_4_engine_line": {
+        "era_2010_present": {
+            "passenger_cars": {
+                "A": {
+                    "raw_description": "Nissan Leaf EV (EM57/EM61/EM1A Motor Lines)",
+                    "series_line": "Leaf EV",
+                    "engine": "EM57/EM61/EM1A Motor Lines"
+                },
+                "B": {
+                    "raw_description": "1.6L I4 (HR16DE) / 2.0L I4 (MR20DD) [Versa/Sentra/Kicks]",
+                    "series_line": "Versa / Sentra / Kicks",
+                    "engine": "1.6L I4 (HR16DE) / 2.0L I4 (MR20DD)"
+                },
+                "C": {
+                    "raw_description": "1.8L I4 (MRA8DE) / 2.0L I4 Turbo (KR20DDET) [Sentra/Altima]",
+                    "series_line": "Sentra / Altima",
+                    "engine": "1.8L I4 (MRA8DE) / 2.0L I4 Turbo (KR20DDET)"
+                },
+                "D": {
+                    "raw_description": "2.5L I4 (QR25DE) [Altima Line]",
+                    "series_line": "Altima Line",
+                    "engine": "2.5L I4 (QR25DE)"
+                },
+                "E": {
+                    "raw_description": "3.5L V6 (VQ35DE) [Maxima/Altima]",
+                    "series_line": "Maxima / Altima",
+                    "engine": "3.5L V6 (VQ35DE)"
+                },
+                "F": {
+                    "raw_description": "3.7L V6 (VQ37VHR) / 3.0L V6 Twin-Turbo (VR30DDTT) [370Z/Infiniti Q50/Q60]",
+                    "series_line": "370Z / Infiniti Q50 / Q60",
+                    "engine": "3.7L V6 (VQ37VHR) / 3.0L V6 Twin-Turbo (VR30DDTT)"
+                },
+                "G": {
+                    "raw_description": "3.8L V6 Twin-Turbo (VR38DETT) [GT-R Platform]",
+                    "series_line": "GT-R Platform",
+                    "engine": "3.8L V6 Twin-Turbo (VR38DETT)"
+                },
+                "H": {
+                    "raw_description": "5.0L V8 (VK50VE) [Infiniti FX50/QX70 V8]",
+                    "series_line": "Infiniti FX50 / QX70 V8",
+                    "engine": "5.0L V8 (VK50VE)"
+                },
+                "J": {
+                    "raw_description": "2.5L I4 Hybrid (QR25DER) [Altima/Infiniti Q50/Q70 Hybrid]",
+                    "series_line": "Altima / Infiniti Q50 / Q70 Hybrid",
+                    "engine": "2.5L I4 Hybrid (QR25DER)"
+                },
+                "K": {
+                    "raw_description": "3.7L V6 (VQ37VHR) [Infiniti G37/Q40/Q50/Q70]",
+                    "series_line": "Infiniti G37 / Q40 / Q50 / Q70",
+                    "engine": "3.7L V6 (VQ37VHR)"
+                },
+                "L": {
+                    "raw_description": "5.6L V8 (VK56VD) [Infiniti M56/Q70 V8]",
+                    "series_line": "Infiniti M56 / Q70 V8",
+                    "engine": "5.6L V8 (VK56VD)"
+                },
+                "M": {
+                    "raw_description": "3.5L V6 Hybrid (VQ35HR) [Infiniti M35h/Q70 Hybrid]",
+                    "series_line": "Infiniti M35h / Q70 Hybrid",
+                    "engine": "3.5L V6 Hybrid (VQ35HR)"
+                },
+                "N": {
+                    "raw_description": "2.5L I4 (QR25DE) [Altima Line Variant]",
+                    "series_line": "Altima Line Variant",
+                    "engine": "2.5L I4 (QR25DE)"
+                },
+                "P": {
+                    "raw_description": "2.0L I4 Turbo (MR20DDET) / 2.0L I4 VC-Turbo (KR20DDET) [Altima/Infiniti Q50]",
+                    "series_line": "Altima / Infiniti Q50",
+                    "engine": "2.0L I4 Turbo (MR20DDET) / 2.0L I4 VC-Turbo (KR20DDET)"
+                },
+                "R": {
+                    "raw_description": "2.0L I4 Turbo (M274 Mercedes-sourced) [Infiniti Q50]",
+                    "series_line": "Infiniti Q50",
+                    "engine": "2.0L I4 Turbo (M274 Mercedes-sourced)"
+                },
+                "S": {
+                    "raw_description": "1.6L I4 Turbo (MR16DDT) [Juke/Sentra Nismo]",
+                    "series_line": "Juke / Sentra Nismo",
+                    "engine": "1.6L I4 Turbo (MR16DDT)"
+                },
+                "T": {
+                    "raw_description": "3.0L V6 Twin-Turbo (VR30DDTT High Output) [Infiniti Q50/Q60 Red Sport]",
+                    "series_line": "Infiniti Q50 / Q60 Red Sport",
+                    "engine": "3.0L V6 Twin-Turbo (VR30DDTT High Output)"
+                },
+                "U": {
+                    "raw_description": "2.5L I4 (PR25DD) [Altima 2019+]",
+                    "series_line": "Altima 2019+",
+                    "engine": "2.5L I4 (PR25DD)"
+                },
+                "V": {
+                    "raw_description": "2.0L I4 Turbo (KR20DDET VC-Turbo) [Altima 2019+]",
+                    "series_line": "Altima 2019+",
+                    "engine": "2.0L I4 Turbo (KR20DDET VC-Turbo)"
+                },
+                "W": {
+                    "raw_description": "3.0L V6 Twin-Turbo (VR30DDTT) [Nissan Z 2023+]",
+                    "series_line": "Nissan Z 2023+",
+                    "engine": "3.0L V6 Twin-Turbo (VR30DDTT)"
+                }
+            },
+            "trucks_mpv": {
+                "A": {
+                    "raw_description": "5.6L V8 (VK56DE / VK56VD) [Armada/Titan/QX56/QX80]",
+                    "series_line": "Armada / Titan / QX56 / QX80",
+                    "engine": "5.6L V8 (VK56DE / VK56VD)"
+                },
+                "B": {
+                    "raw_description": "3.5L V6 (VQ35DE) [Murano/Pathfinder/Quest/QX60/JX35]",
+                    "series_line": "Murano / Pathfinder / Quest / QX60 / JX35",
+                    "engine": "3.5L V6 (VQ35DE)"
+                },
+                "C": {
+                    "raw_description": "4.0L V6 (VQ40DE) [Frontier/Xterra/NV1500-3500]",
+                    "series_line": "Frontier / Xterra / NV1500-3500",
+                    "engine": "4.0L V6 (VQ40DE)"
+                },
+                "D": {
+                    "raw_description": "2.5L I4 (QR25DE) [Rogue/Frontier/Cube]",
+                    "series_line": "Rogue / Frontier / Cube",
+                    "engine": "2.5L I4 (QR25DE)"
+                },
+                "E": {
+                    "raw_description": "1.6L I4 Turbo (MR16DDT) [Nissan Juke Line]",
+                    "series_line": "Nissan Juke Line",
+                    "engine": "1.6L I4 Turbo (MR16DDT)"
+                },
+                "F": {
+                    "raw_description": "2.0L I4 (MR20DD) [Rogue Sport / Qashqai]",
+                    "series_line": "Rogue Sport / Qashqai",
+                    "engine": "2.0L I4 (MR20DD)"
+                },
+                "G": {
+                    "raw_description": "3.7L V6 (VQ37VHR) [Infiniti FX37/QX70]",
+                    "series_line": "Infiniti FX37 / QX70",
+                    "engine": "3.7L V6 (VQ37VHR)"
+                },
+                "H": {
+                    "raw_description": "3.5L V6 Hybrid (VQ35HR) [Infiniti QX60 Hybrid]",
+                    "series_line": "Infiniti QX60 Hybrid",
+                    "engine": "3.5L V6 Hybrid (VQ35HR)"
+                },
+                "J": {
+                    "raw_description": "2.5L I4 Hybrid (QR25DER) [Pathfinder Hybrid/QX60 Hybrid]",
+                    "series_line": "Pathfinder Hybrid / QX60 Hybrid",
+                    "engine": "2.5L I4 Hybrid (QR25DER)"
+                },
+                "K": {
+                    "raw_description": "2.0L I4 Turbo (M274 Mercedes) / 1.6L I4 Turbo [Infiniti QX30]",
+                    "series_line": "Infiniti QX30",
+                    "engine": "2.0L I4 Turbo (M274 Mercedes) / 1.6L I4 Turbo"
+                },
+                "L": {
+                    "raw_description": "1.6L I4 (HR16DE) [Nissan Kicks / NV200 Cargo]",
+                    "series_line": "Nissan Kicks / NV200 Cargo",
+                    "engine": "1.6L I4 (HR16DE)"
+                },
+                "M": {
+                    "raw_description": "2.0L I4 VC-Turbo (KR20DDET) [Infiniti QX50/QX55]",
+                    "series_line": "Infiniti QX50 / QX55",
+                    "engine": "2.0L I4 VC-Turbo (KR20DDET)"
+                },
+                "N": {
+                    "raw_description": "2.5L I4 (PR25DD) [Rogue 2021+]",
+                    "series_line": "Rogue 2021+",
+                    "engine": "2.5L I4 (PR25DD)"
+                },
+                "P": {
+                    "raw_description": "1.5L I3 VC-Turbo (KR15DDT) [Rogue 2022+]",
+                    "series_line": "Rogue 2022+",
+                    "engine": "1.5L I3 VC-Turbo (KR15DDT)"
+                },
+                "R": {
+                    "raw_description": "3.8L V6 (VQ38DD) [Frontier 2020+]",
+                    "series_line": "Frontier 2020+",
+                    "engine": "3.8L V6 (VQ38DD)"
+                },
+                "S": {
+                    "raw_description": "Nissan Ariya Electric Powertrain (AM67 / BM67 Motors) [Ariya EV]",
+                    "series_line": "Ariya EV",
+                    "engine": "Electric Powertrain (AM67 / BM67 Motors)"
+                },
+                "T": {
+                    "raw_description": "3.5L V6 Twin-Turbo (VR35DDTT) [Armada / QX80 2025+]",
+                    "series_line": "Armada / QX80 2025+",
+                    "engine": "3.5L V6 Twin-Turbo (VR35DDTT)"
+                },
+                "U": {
+                    "raw_description": "2.0L I4 (MR20DD VC-Turbo / Variable Compression) [Kicks 2025+]",
+                    "series_line": "Kicks 2025+",
+                    "engine": "2.0L I4 (MR20DD VC-Turbo)"
+                }
+            }
+        }
     },
-    "position_5_and_6": {
-        "_note": "For North America, positions 5+6 TOGETHER identify model and generation/platform. They cannot be split. Examples below from documented real VINs.",
-        "AB": "Altima (B17 gen)",
-        "AF": "Altima (L34 gen, 2019+)",
-        "AP": "Altima (older L32/L33)",
-        "AR": "Altima Sedan",
-        "AZ": "Altima alternate",
-        "CV": "Murano (Z52)",
-        "DH": "Pathfinder (R52)",
-        "DL": "Pathfinder (R51)",
-        "ED": "Armada (Y62)",
-        "EL": "Armada (TA60)",
-        "JA": "Rogue Sport (P32L)",
-        "KA": "Leaf (ZE0)",
-        "KB": "Leaf (ZE1, 40kWh)",
-        "KC": "Leaf Plus (ZE1, 62kWh)",
-        "LB": "Murano (Z51)",
-        "MA": "Maxima (A36)",
-        "RF": "Rogue (T32)",
-        "RG": "Rogue (T33, 2021+)",
-        "SA": "Sentra (B18)",
-        "SB": "Sentra (B17/B16)",
-        "TA": "Titan XD (A61)",
-        "TB": "Titan (A61)",
-        "VA": "Versa Sedan (N18)",
-        "VB": "Versa Note (E12)",
-        "CA": "Frontier (D41, 2022+)",
-        "CB": "Frontier (D40 gen)"
+    "position_5_platform_line": {
+        "A": "Altima / Armada / Titan",
+        "B": "Sentra / NX1600 / NX2000",
+        "C": "Versa Sedan / Versa Note / Micra",
+        "D": "Maxima / Frontier / Suzuki Equator",
+        "E": "240SX / Pulsar NX / Infiniti QX30",
+        "F": "Juke / Kicks / Ariya EV / NV1500-3500 Commercial",
+        "G": "Infiniti G20 / Infiniti Q45",
+        "H": "Infiniti QX4",
+        "J": "Infiniti EX / QX50 (J50) / QX55 (J55)",
+        "L": "Infiniti JX35 / QX60 (L50/L51)",
+        "M": "Stanza Wagon / Axxess / NV200 Cargo",
+        "R": "Pathfinder (R50/R51/R52/R53)",
+        "S": "200SX (S14) / Rogue (S35) / Infiniti FX/QX70 (S50/S51)",
+        "T": "Stanza / X-Trail / Xterra / Rogue (T32/T33)",
+        "V": "Infiniti G35 / G37 / Q40 / Q50 / Q60",
+        "W": "Pathfinder (WD21/WD22 / Truck Frame base)",
+        "Y": "Infiniti J30 / M45 / M35 / M37 / M56 / Q70 / Armada (Y62/Y63)",
+        "Z": "300ZX / 350Z / 370Z / Nissan Z / Leaf EV / Murano"
     },
-    "position_7_north_america": {
-        "_note": "Position 7 = body type for North American Nissan VINs",
-        "1": "4-Door Sedan",
-        "2": "2-Door Sedan / Coupe",
-        "3": "Coupe",
-        "4": "2-Door Wagon / Hatchback",
-        "5": "4-Door Wagon / Hatchback",
-        "6": "Van",
-        "7": "SUV / Crossover",
-        "8": "Pickup Truck",
-        "9": "Extended Cab / Crew Cab Pickup"
+    "position_6_generation_code": {
+        "nissan_passenger_ev": {
+            "0": "Altima [L30] / Maxima [J30] / Altra EV [EVN30] / Leaf EV [ZE0] / Ariya EV [FE0]",
+            "1": "Versa Sedan [C11] / Altima [L31] / Leaf EV [ZE1]",
+            "2": "Versa Note [E12] / Altima [L32] / Maxima [A32] / Leaf EV [ZE2]",
+            "3": "Sentra [B13] / Altima [L33] / Maxima [A33]",
+            "4": "Sentra [B14] / 200SX [B14] / 240SX [S14] / Altima [L34] / Maxima [A34] / 370Z [Z34] / Nissan Z [RZ34]",
+            "5": "Sentra [B15] / Maxima [A35] / GT-R [R35]",
+            "6": "Sentra [B16] / Maxima [A36]",
+            "7": "Versa Sedan [N17] / Sentra [B17]",
+            "8": "Versa Sedan [N18] / Sentra [B18]",
+            "9": "Sentra [B19]"
+        },
+        "nissan_truck_suv_mpv": {
+            "0": "NV200 [M20] / NV Commercial [F80] / X-Trail [T30] / Xterra [N50] / Murano [Z50] / Pathfinder [R50] / Armada [TA60] / Frontier [D40]",
+            "1": "Rogue Sport/Qashqai [J11] / Murano [Z51] / Pathfinder [R51] / Frontier [D41] / Titan [A61]",
+            "2": "Quest [V42/RE52] / Rogue [T32] / Murano [Z52] / Pathfinder [R52] / Armada [Y62] / Frontier [D22]",
+            "3": "Rogue [T33] / Murano [Z53] / Pathfinder [R53] / Armada [Y63]",
+            "5": "Juke [F15] / Kicks [P15] / Rogue [S35]",
+            "6": "Kicks [P16]"
+        },
+        "infiniti_luxury": {
+            "0": "G20 [P11] / M35/M45 [Y50] / EX35/QX50 [J50] / QX4 [R50] / JX35/QX60 [L50] / FX35/FX45 [S50] / QX56 [JA60]",
+            "1": "M37/M56/Q70 [Y51] / QX60 [L51] / FX/QX70 [S51]",
+            "2": "I30 [A32] / J30 [Y32] / QX56/QX80 [Z62]",
+            "3": "I30/I35 [A33] / Q45 [Y33] / QX80 [Z63]",
+            "5": "QX30 [H15] / G35 [V35] / QX50 [J55] / QX55 [J55]",
+            "6": "G35/G37/G25/Q40 Sedan [V36] / G37/Q60 Coupe [V36]",
+            "7": "Q50 [V37] / Q60 Coupe [V37]"
+        }
     },
-    "position_8_north_america": {
-        "_note": "Position 8 = restraint system (airbag/seatbelt config) for North American Nissan VINs. NOT engine/transmission.",
-        "0": "Manual belts, no airbags",
-        "1": "Manual belts, driver airbag only",
-        "2": "Manual belts, dual front airbags",
-        "3": "Manual belts, dual front + side airbags",
-        "4": "Manual belts, dual front + side + curtain airbags",
-        "5": "Manual belts, dual front + side + curtain + knee airbag (driver)",
-        "6": "Manual belts, dual front + side + curtain airbags (full)",
-        "7": "Automatic belts, dual front airbags",
-        "8": "Manual belts, dual front + side airbags + knee airbag",
-        "9": "Advanced restraint system (full airbag suite)"
+    "position_7": {
+        "era_1997_2019_body_styles": {
+            "1": {
+                "raw_description": "4-Door Sedan (Standard Size Range)",
+                "number_of_doors": 4,
+                "body_type": "Sedan"
+            },
+            "3": {
+                "raw_description": "4-Door Hatchback (5-Door Configuration)",
+                "number_of_doors": 4,
+                "body_type": "Hatchback"
+            },
+            "4": {
+                "raw_description": "2-Door Coupe / Sports 2-Seater Hatchback",
+                "number_of_doors": 2,
+                "body_type": "Coupe / Hatchback"
+            },
+            "5": {
+                "raw_description": "4-Door Wagon / EV Prototype Body",
+                "number_of_doors": 4,
+                "body_type": "Wagon / EV Prototype"
+            },
+            "6": {
+                "raw_description": "2-Door Convertible / Roadster / Specialized T-Top Package",
+                "number_of_doors": 2,
+                "body_type": "Convertible / Roadster"
+            },
+            "7": {
+                "raw_description": "2-Door Convertible Variant Line",
+                "number_of_doors": 2,
+                "body_type": "Convertible"
+            },
+            "9": {
+                "raw_description": "4-Door Wagon (Crossover Variant Frame)",
+                "number_of_doors": 4,
+                "body_type": "Wagon / Crossover"
+            },
+            "A": {
+                "raw_description": "Modern 4-Door Sedan Architecture",
+                "number_of_doors": 4,
+                "body_type": "Sedan"
+            },
+            "C": {
+                "raw_description": "Modern 4-Door Hatchback / Standard Leaf EV / Compact Crossover",
+                "number_of_doors": 4,
+                "body_type": "Hatchback / EV / Crossover"
+            },
+            "E": {
+                "raw_description": "Modern 2-Door Coupe Platform",
+                "number_of_doors": 2,
+                "body_type": "Coupe"
+            },
+            "F": {
+                "raw_description": "Modern 2-Door Convertible or specialized Crossover Convertible (Murano CrossCabriolet)",
+                "number_of_doors": 2,
+                "body_type": "Convertible / Crossover"
+            },
+            "H": {
+                "raw_description": "Modern 4-Door Luxury Wagon / SUV Frame",
+                "number_of_doors": 4,
+                "body_type": "Luxury Wagon / SUV"
+            },
+            "P": {
+                "raw_description": "4-Door Sedan Long Wheelbase (LWB Premium)",
+                "number_of_doors": 4,
+                "body_type": "Sedan (LWB)"
+            },
+            "R": {
+                "raw_description": "4-Door Wagon Long Wheelbase (LWB Crossover)",
+                "number_of_doors": 4,
+                "body_type": "Wagon LWB Crossover"
+            },
+            "J": {
+                "raw_description": "4-Door Commercial Taxi Van Layout",
+                "number_of_doors": 4,
+                "body_type": "Van"
+            },
+            "K": {
+                "raw_description": "4-Door Multi-Purpose Cargo Van / Cube Structural shell",
+                "number_of_doors": 4,
+                "body_type": "Van"
+            },
+            "L": {
+                "raw_description": "3-Door Commercial Cargo High-Roof Van Structure",
+                "number_of_doors": 3,
+                "body_type": "Commercial Van"
+            },
+            "M": {
+                "raw_description": "4-Door Multi-Purpose Wagon Crossover Base",
+                "number_of_doors": 4,
+                "body_type": "Multi-Purpose Wagon Crossover"
+            },
+            "N": {
+                "raw_description": "4-Door Heavy Utility Wagon SUV Base",
+                "number_of_doors": 4,
+                "body_type": "Wagon / SUV"
+            }
+        },
+        "era_1997_2019_truck_cabs": {
+            "1": {
+                "raw_description": "Regular Cab, Short Bed Pickup Truck",
+                "body_type": "Regular Cab"
+            },
+            "6": {
+                "raw_description": "King Cab (Extended Cab) Pickup Truck Frame",
+                "body_type": "King Cab (Extended)"
+            },
+            "7": {
+                "raw_description": "Crew Cab, Short Bed / Standard Crew Cab Pickup Truck",
+                "body_type": "Crew Cab"
+            },
+            "9": {
+                "raw_description": "Crew Cab, Long Bed Pickup Truck Frame",
+                "body_type": "Crew Cab"
+            },
+            "C": {
+                "raw_description": "Modern King Cab (Extended Cab) Structural platform",
+                "body_type": "King Cab (Extended)"
+            },
+            "E": {
+                "raw_description": "Modern Crew Cab Standard Wheelbase Setup",
+                "body_type": "Crew Cab"
+            },
+            "F": {
+                "raw_description": "Modern Crew Cab Long Bed / Heavy Duty Chassis Frame",
+                "body_type": "Crew Cab"
+            },
+            "R": {
+                "raw_description": "Modern Regular Cab Pickup Setup",
+                "body_type": "Regular Cab"
+            }
+        },
+        "era_2020_present_passenger_trims": {
+            "A": {
+                "raw_description": "Infiniti Q50 Pure Trim Line",
+                "trim": "Pure"
+            },
+            "B": {
+                "raw_description": "Trim Level S (Altima/Versa MT/Sentra/Maxima) / Infiniti Q50 Luxe / Leaf S / Kicks S",
+                "trim": "S / Luxe"
+            },
+            "C": {
+                "raw_description": "Trim Level SR / SV / Sensory (Altima SR/Sentra SV/Maxima SV/Infiniti Sensory/Leaf SV)",
+                "trim": "SR / SV / Sensory"
+            },
+            "D": {
+                "raw_description": "Trim Level SV / S AT / SR / Red Sport 400 (Altima SV/Sentra SR/Maxima SL/Infiniti Red Sport/Leaf SL/Kicks SR)",
+                "trim": "SV / S AT / SR / SL / Red Sport 400"
+            },
+            "E": {
+                "raw_description": "Trim Level SL / SV / SR / Platinum+ (Altima SL/Versa SV/Maxima SR/Sentra SL/Leaf Platinum+)",
+                "trim": "SL / SV / SR / Platinum+"
+            },
+            "F": {
+                "raw_description": "Trim Level Platinum / SR / 40th Anniversary Line",
+                "trim": "Platinum / SR / 40th Anniversary"
+            },
+            "J": {
+                "raw_description": "Infiniti Q60 Pure Performance Tier",
+                "trim": "Pure"
+            },
+            "K": {
+                "raw_description": "Infiniti Q60 Luxe Tier",
+                "trim": "Luxe"
+            },
+            "L": {
+                "raw_description": "Infiniti Q60 Red Sport 400 Flagship Tier",
+                "trim": "Red Sport 400"
+            }
+        },
+        "era_2020_present_mpv_suv_trims": {
+            "A": {
+                "raw_description": "Trim Level S / Pure / Luxe Entry Tier (Murano S/Pathfinder S/Rogue S/Armada S/QX50 Pure/QX80 Luxe)",
+                "trim": "S / Pure / Luxe"
+            },
+            "B": {
+                "raw_description": "Trim Level SV / Rock Creek / Dark Armor / Sensory Tier (Murano SV/Pathfinder SV/Rogue SV/Armada SL/Kicks S/Ariya Engage)",
+                "trim": "SV / SL / S / Sensory / Rock Creek / Engage"
+            },
+            "C": {
+                "raw_description": "Trim Level SL / Premium / Platinum 8-Passenger / Essential / Autograph (Murano SL/Pathfinder SL/Rogue SL/Armada Platinum/QX50 Essential/QX80 Autograph)",
+                "trim": "SL / Premium / Platinum / Essential / Autograph"
+            },
+            "D": {
+                "raw_description": "Trim Level Platinum 7-Passenger / Pro-4X Off-Road / Sport / Autograph Variant",
+                "trim": "Platinum / Pro-4X / Sport / Autograph"
+            },
+            "E": {
+                "raw_description": "Trim Level Premium Core Split (Armada S/Platinum Overrides/QX50 Sensory/QX60 Pure)",
+                "trim": "S / Platinum / Sensory / Pure"
+            },
+            "F": {
+                "raw_description": "Trim Level Specialized Performance Tier (Armada Nismo/QX50 Sport/QX60 Luxe/QX60 Sport)",
+                "trim": "Nismo / Sport / Luxe"
+            },
+            "G": {
+                "raw_description": "Infiniti QX60 Sensory Tier Line",
+                "trim": "Sensory"
+            },
+            "H": {
+                "raw_description": "Infiniti QX60 Autograph Premium Tier Line",
+                "trim": "Autograph"
+            },
+            "J": {
+                "raw_description": "Infiniti QX55 Luxe Base Model",
+                "trim": "Luxe"
+            },
+            "K": {
+                "raw_description": "Infiniti QX55 Essential Mid-Tier",
+                "trim": "Essential"
+            },
+            "L": {
+                "raw_description": "Infiniti QX55 Sensory High-Tier",
+                "trim": "Sensory"
+            },
+            "Y": {
+                "raw_description": "Chevrolet City Express Cargo LS Specification",
+                "trim": "LS"
+            },
+            "Z": {
+                "raw_description": "Chevrolet City Express Cargo LT Specification",
+                "trim": "LT"
+            }
+        }
+    },
+    "position_8_restraints": {
+        "passenger_cars": {
+            "A": {
+                "raw_description": "Manual seatbelts, Dual front airbags, Front side-impact airbags",
+                "restraint_system": "Manual seatbelts",
+                "number_of_airbags": 4,
+                "front_airbags": true,
+                "side_airbags": true
+            },
+            "D": {
+                "raw_description": "Manual seatbelts, Dual front airbags (Standard legacy deployment field)s",
+                "restraint_system": "Manual seatbelts",
+                "number_of_airbags": 2,
+                "front_airbags": true
+            },
+            "E": {
+                "raw_description": "Manual seatbelts, Dual front airbags, Front side airbags, Side curtain airbags",
+                "restraint_system": "Manual seatbelts",
+                "number_of_airbags": 6,
+                "front_airbags": true,
+                "side_airbags": true,
+                "curtain_airbags": true
+            },
+            "F": {
+                "raw_description": "Manual seatbelts, Dual front airbags, Front side airbags, Side curtain airbags (AWD/4WD Systems)",
+                "restraint_system": "Manual seatbelts",
+                "number_of_airbags": 6,
+                "front_airbags": true,
+                "side_airbags": true,
+                "curtain_airbags": true
+            },
+            "G": {
+                "raw_description": "Manual seatbelts, Dual front airbags, Front side airbags, Side curtain airbags (Track Edition deployment)",
+                "restraint_system": "Manual seatbelts",
+                "number_of_airbags": 6,
+                "front_airbags": true,
+                "side_airbags": true,
+                "curtain_airbags": true
+            },
+            "H": {
+                "raw_description": "Manual seatbelts, Dual front airbags, Front side airbags, Side curtain airbags (370Z / Nissan Z Sports lines)",
+                "restraint_system": "Manual seatbelts",
+                "number_of_airbags": 6,
+                "front_airbags": true,
+                "side_airbags": true,
+                "curtain_airbags": true
+            },
+            "K": {
+                "raw_description": "Manual seatbelts, Dual front airbags, Front side airbags, Quad Side-Curtain layout (Infiniti Coupes)",
+                "restraint_system": "Manual seatbelts",
+                "number_of_airbags": 8,
+                "front_airbags": true,
+                "side_airbags": true,
+                "curtain_airbags": true
+            },
+            "L": {
+                "raw_description": "Manual seatbelts, Dual front airbags, Front side airbags, Quad Side-Curtain layout (Infiniti Coupes AWD)",
+                "restraint_system": "Manual seatbelts",
+                "number_of_airbags": 8,
+                "front_airbags": true,
+                "side_airbags": true,
+                "curtain_airbags": true
+            },
+            "P": {
+                "raw_description": "Manual seatbelts, Dual front airbags, Front side airbags, Side curtain airbags, Center Rear 3-point belt",
+                "restraint_system": "Manual seatbelts",
+                "number_of_airbags": 6,
+                "front_airbags": true,
+                "side_airbags": true,
+                "curtain_airbags": true
+            },
+            "R": {
+                "raw_description": "Manual seatbelts, Dual front airbags, Front side airbags, Side curtain airbags, Center Rear 3-point belt (4WD Matrix)",
+                "restraint_system": "Manual seatbelts",
+                "number_of_airbags": 6,
+                "front_airbags": true,
+                "side_airbags": true,
+                "curtain_airbags": true
+            },
+            "U": {
+                "raw_description": "Manual seatbelts, Dual front airbags, Front side airbags, Side curtain airbags, Driver-side Knee airbag protection",
+                "restraint_system": "Manual seatbelts",
+                "number_of_airbags": 7,
+                "front_airbags": true,
+                "side_airbags": true,
+                "curtain_airbags": true,
+                "knee_airbags": true
+            },
+            "V": {
+                "raw_description": "Manual seatbelts, Dual front airbags, Front side airbags, Side curtain airbags, Dual Front Knee airbags, Rear side airbags",
+                "restraint_system": "Manual seatbelts",
+                "number_of_airbags": 10,
+                "front_airbags": true,
+                "side_airbags": true,
+                "curtain_airbags": true,
+                "knee_airbags": true,
+                "rear_side_airbags": true
+            },
+            "W": {
+                "raw_description": "Manual seatbelts, Dual front airbags, Front side airbags, Side curtain airbags, Dual Front Knee airbags, Rear side airbags (AWD)",
+                "restraint_system": "Manual seatbelts",
+                "number_of_airbags": 10,
+                "front_airbags": true,
+                "side_airbags": true,
+                "curtain_airbags": true,
+                "knee_airbags": true,
+                "rear_side_airbags": true
+            },
+            "A_2023": {
+                "raw_description": "Manual seatbelts, Dual front airbags, Front side airbags, Side curtain airbags, Dual Front Knee airbags, Rear side airbags (Ariya/Leaf EV 2WD)",
+                "restraint_system": "Manual seatbelts",
+                "number_of_airbags": 10,
+                "front_airbags": true,
+                "side_airbags": true,
+                "curtain_airbags": true,
+                "knee_airbags": true,
+                "rear_side_airbags": true
+            },
+            "B_2023": {
+                "raw_description": "Manual seatbelts, Dual front airbags, Front side airbags, Side curtain airbags, Dual Front Knee airbags, Rear side airbags (Ariya AWD)",
+                "restraint_system": "Manual seatbelts",
+                "number_of_airbags": 10,
+                "front_airbags": true,
+                "side_airbags": true,
+                "curtain_airbags": true,
+                "knee_airbags": true,
+                "rear_side_airbags": true
+            },
+            "D_2023": {
+                "raw_description": "Manual seatbelts, Dual front airbags, Front side airbags, Side curtain airbags, Dual Front Knee airbags, Rear side airbags, Front Center Airbag",
+                "restraint_system": "Manual seatbelts",
+                "number_of_airbags": 11,
+                "front_airbags": true,
+                "side_airbags": true,
+                "curtain_airbags": true,
+                "knee_airbags": true,
+                "rear_side_airbags": true,
+                "front_center_airbag": true
+            }
+        },
+        "mpv_truck": {
+            "R": {
+                "raw_description": "Class B / Class D Platform, 4-Wheel ABS, 2WD Layout Architecture",
+                "drive_type": "2 Wheel Drive"
+            },
+            "S": {
+                "raw_description": "Class C / Class D Heavy Duty Version Framework, Rear-Wheel or Standard ABS, 2WD",
+                "drive_type": "2 Wheel Drive"
+            },
+            "T": {
+                "raw_description": "Class C Platform, 4-Wheel ABS, 2WD Core Layout Architecture",
+                "drive_type": "2 Wheel Drive"
+            },
+            "U": {
+                "raw_description": "Class D Platform, 4-Wheel ABS, 2WD Utility Chassis Line",
+                "drive_type": "2 Wheel Drive"
+            },
+            "V": {
+                "raw_description": "Class C / Class D Platform, 4-Wheel ABS, 4WD Layout Architecture",
+                "drive_type": "4 Wheel Drive / AWD"
+            },
+            "W": {
+                "raw_description": "Class D Platform, 4-Wheel ABS, 4WD Performance Utility Setup",
+                "drive_type": "4 Wheel Drive / AWD"
+            },
+            "X": {
+                "raw_description": "Class D Heavy Duty version, 4-Wheel ABS, 2WD Setup",
+                "drive_type": "2 Wheel Drive"
+            },
+            "Y": {
+                "raw_description": "Class D Heavy Duty version, 4-Wheel ABS, 4WD Frame Base",
+                "drive_type": "4 Wheel Drive / AWD"
+            },
+            "Z": {
+                "raw_description": "Class B Platform, 4-Wheel ABS, 2WD Cargo/Specialty Variant Pack",
+                "drive_type": "2 Wheel Drive"
+            },
+            "A": {
+                "raw_description": "Class E / Class D High Capacity Setup, 4-Wheel ABS, 2WD Tier",
+                "drive_type": "2 Wheel Drive"
+            },
+            "B": {
+                "raw_description": "Class E / Class D High Capacity Setup, 4-Wheel ABS, 4WD Tier",
+                "drive_type": "4 Wheel Drive / AWD"
+            },
+            "C": {
+                "raw_description": "Class F / Class E Heavy Frame Setup, 4-Wheel ABS, 2WD / 4WD Matrix",
+                "drive_type": "2 Wheel Drive / 4 Wheel Drive"
+            },
+            "D": {
+                "raw_description": "Class F Platform, 4-Wheel ABS, 2WD Heavy Wagon Frame Setup",
+                "drive_type": "2 Wheel Drive"
+            },
+            "E": {
+                "raw_description": "Class E / Class F Heavy Frame Setup, 4-Wheel ABS, 2WD/4WD Long-Bed Line",
+                "drive_type": "2 Wheel Drive / 4 Wheel Drive"
+            },
+            "F": {
+                "raw_description": "Class F Heavy Frame Setup, 4-Wheel ABS, 4WD Long-Bed / Nismo Heavy Line",
+                "drive_type": "4 Wheel Drive / AWD"
+            },
+            "G": {
+                "raw_description": "Class F Platform, 4-Wheel ABS, 2WD Long-Bed Variant Split",
+                "drive_type": "2 Wheel Drive"
+            },
+            "H": {
+                "raw_description": "Class E / Class D Specialized Frame Setup, 4-Wheel ABS, 2WD Truck Variant Split",
+                "drive_type": "2 Wheel Drive"
+            },
+            "J": {
+                "raw_description": "Class D Framework, 4-Wheel ABS, 2WD Elite Cabin Airbag layout",
+                "drive_type": "2 Wheel Drive"
+            },
+            "K": {
+                "raw_description": "Class D Framework, 4-Wheel ABS, 2WD Platinum Level Front-Center airbag tier",
+                "drive_type": "2 Wheel Drive"
+            },
+            "M": {
+                "raw_description": "Class D Framework, 4-Wheel ABS, 4WD 3-Row Extended Family Airbag protection layout",
+                "drive_type": "4 Wheel Drive / AWD"
+            },
+            "N": {
+                "raw_description": "Class C / Class D Framework, 4-Wheel ABS, 2WD 3-Row Variant / Cargo Shell Base",
+                "drive_type": "2 Wheel Drive"
+            }
+        }
     },
     "position_9": {
         "_note": "Check digit — mathematical validation character. Values 0-9 or X. Calculated from all other VIN positions using NHTSA weighted formula."
@@ -365,23 +929,25 @@
         "S": 2025,
         "T": 2026
     },
-    "position_11_plant_north_america": {
-        "_note": "Assembly plant code. Nissan-assigned, not universal.",
-        "A": "Smyrna, Tennessee, USA",
-        "B": "Smyrna, Tennessee, USA (alternate line)",
-        "C": "Canton, Mississippi, USA",
-        "D": "Oppama, Kanagawa, Japan",
-        "E": "Yokohama, Japan",
-        "F": "Kyushu, Japan",
-        "K": "Cuernavaca, Mexico",
-        "L": "Aguascalientes, Mexico",
-        "M": "Sunderland, UK",
-        "N": "Barcelona, Spain",
-        "P": "Renault-Nissan Chennai, India",
-        "T": "Samut Prakan, Thailand",
-        "Z": "Zama, Japan (legacy)"
-    },
-    "position_12_to_17": {
-        "_note": "Sequential production serial number. 6 digits, unique per vehicle per plant per model year. Not standardized — manufacturer-defined."
+    "position_11_plants": {
+        "A": "NMUK Plant, Sunderland, Tyne and Wear, England, UK",
+        "B": "Nissan do Brasil Automoveis Plant, Resende, Rio de Janeiro, Brazil",
+        "C": "Nissan North America Smyrna Plant, Smyrna, Tennessee, USA",
+        "D": "Ford Ohio Assembly Plant, Avon Lake, Ohio, USA (Quest Platform Line)",
+        "F": "COMPAS Plant, Aguascalientes City, Mexico (Infiniti Luxury Lines)",
+        "G": "Oragadam, Tamil Nadu, India (Export Line Framework)",
+        "K": "Nissan Mexicana Plant, Cuernavaca, Morelos, Mexico",
+        "L": "Nissan Mexicana A1 Plant, Aguascalientes City, Mexico",
+        "M": "Tochigi Plant, Kaminokawa, Tochigi Prefecture, Japan",
+        "N": "Nissan North America Canton Plant, Canton, Mississippi, USA",
+        "P": "Renault Samsung Plant, Pusan, South Korea (Rogue Alliance Platform)",
+        "T": "Oppama Plant, Yokosuka, Kanagawa Prefecture, Japan",
+        "U": "Zama Plant, Zama, Kanagawa Prefecture, Japan",
+        "W": "Nissan Motor Kyushu Plant, Kanda, Fukuoka Prefecture, Japan",
+        "X": "Nissan Shatai Co., Ltd. Shonan Plant, Hiratsuka, Kanagawa, Japan",
+        "Y": "Nissan Mexicana A2 Plant, Aguascalientes City, Mexico",
+        "4": "Aichi Machine Industry Co., Ltd. Plant, Nagoya, Aichi, Japan",
+        "6": "Bang Sao Thong District, Samut Prakan Province, Thailand",
+        "9": "Nissan Shatai Co., Ltd. Kyushu Plant, Kanda, Fukuoka Prefecture, Japan"
     }
 }

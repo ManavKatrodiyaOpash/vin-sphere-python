@@ -549,50 +549,128 @@ def decode_toyota(vin, rules, result):
 
 def decode_nissan(vin, rules, result):
     pos4 = vin[3]
-    pos5_6 = vin[4:6]
+    pos5 = vin[4]
+    pos6 = vin[5]
     pos7 = vin[6]
     pos8 = vin[7]
     pos10 = vin[9]
     pos11 = vin[10]
 
-    # Position 4 = Series
-    p4 = rules.get("position_4", {}).get(pos4)
-    if p4:
-        result["series_line"] = p4
+    # ── MODEL YEAR ────────────────────────────────────────────────
+    year_map = rules.get("position_10_model_year", {})
+    year_val = year_map.get(pos10)
+    if year_val:
+        result["model_year"] = str(year_val)
+    model_year_int = int(year_val) if year_val else 0
 
-    # Position 5+6 = Model / Platform
-    p56 = rules.get("position_5_and_6", {}).get(pos5_6)
-    if p56:
-        result["model_platform"] = p56
+    # is_truck_wmi: covers ALL truck/mpv/van type strings in Nissan JSON
+    vtype = result.get("vehicle_type", "").lower()
+    is_truck_wmi = any(t in vtype for t in (
+        "truck", "multi-purpose", "mpv", "van", "bus", "standard"
+    ))
 
-    # Position 7 = Body Type
-    p7 = rules.get("position_7_north_america", {}).get(pos7)
-    if p7:
-        result["body_type"] = p7
+    # Infiniti detection by WMI vehicle_type
+    is_infiniti = "infiniti" in vtype
 
-    # Position 8 = Restraint System
-    p8 = rules.get("position_8_north_america", {}).get(pos8)
-    if p8:
-        result["restraint_system"] = p8
+    # ── POSITION 4: ENGINE (era-split, passenger vs truck sub-dict) ────────────
+    p4_block = rules.get("position_4_engine_line", {})
+    era_key = "era_2010_present" if model_year_int >= 2010 else "era_1997_2009"
+    era_p4 = p4_block.get(era_key, {})
+    p4_sub = "trucks_mpv" if is_truck_wmi else "passenger_cars"
+    engine_val = era_p4.get(p4_sub, {}).get(pos4)
+    if not engine_val:
+        other_sub = "passenger_cars" if is_truck_wmi else "trucks_mpv"
+        engine_val = era_p4.get(other_sub, {}).get(pos4)
+    if engine_val:
+        if isinstance(engine_val, dict):
+            result["series_line"] = engine_val.get("series_line", "Unknown")
+            result["engine"] = engine_val.get("engine", "Unknown")
+        else:
+            result["engine"] = engine_val
 
-        txt = p8.lower()
+    # ── POSITION 5: PLATFORM / MODEL LINE ────────────────────────
+    p5_val = rules.get("position_5_platform_line", {}).get(pos5)
+    if p5_val:
+        result["model_platform"] = p5_val
 
-        if "side airbags" in txt:
+    # ── POSITION 6: GENERATION CODE ───────────────────────────
+    p6_block = rules.get("position_6_generation_code", {})
+    if is_infiniti:
+        p6_pref = ["infiniti_luxury", "nissan_passenger_ev", "nissan_truck_suv_mpv"]
+    elif is_truck_wmi:
+        p6_pref = ["nissan_truck_suv_mpv", "nissan_passenger_ev", "infiniti_luxury"]
+    else:
+        p6_pref = ["nissan_passenger_ev", "infiniti_luxury", "nissan_truck_suv_mpv"]
+    p6_val = None
+    for sub_name in p6_pref:
+        sub = p6_block.get(sub_name, {})
+        if pos6 in sub:
+            p6_val = sub[pos6]
+            break
+    if p6_val:
+        result["model_generation"] = p6_val
+        # result["model_platform"] = p6_val
+
+    # ── POSITION 7: BODY STYLE (pre-2020) or TRIM (2020+) ────────────────────
+    p7_block = rules.get("position_7", {})
+    if model_year_int >= 2020:
+        p7_sub = "era_2020_present_mpv_suv_trims" if is_truck_wmi else "era_2020_present_passenger_trims"
+        p7_val = p7_block.get(p7_sub, {}).get(pos7)
+        if not p7_val:
+            other_p7 = "era_2020_present_passenger_trims" if is_truck_wmi else "era_2020_present_mpv_suv_trims"
+            p7_val = p7_block.get(other_p7, {}).get(pos7)
+        if isinstance(p7_val, dict):
+            result["trim"] = p7_val.get("trim", "Unknown")
+        result["notes"].append("Nissan MY2020+: pos7=Trim Level.")
+    else:
+        p7_sub = "era_1997_2019_truck_cabs" if is_truck_wmi else "era_1997_2019_body_styles"
+        p7_val = p7_block.get(p7_sub, {}).get(pos7)
+        if not p7_val:
+            other_p7 = "era_1997_2019_body_styles" if is_truck_wmi else "era_1997_2019_truck_cabs"
+            p7_val = p7_block.get(other_p7, {}).get(pos7)
+        if isinstance(p7_val, dict):
+            result["body_type"] = p7_val.get("body_type", "Unknown")
+            # if p7_val.get("number_of_doors"):
+            #     result["number_of_doors"] = str(p7_val["number_of_doors"])
+            result["number_of_doors"] = p7_val.get("number_of_doors", "Unknown")
+            if p7_val.get("bed_type"):
+                result["bed_type"] = p7_val["bed_type"]
+
+    # ── POSITION 8: RESTRAINTS ────────────────────────────────────────────
+    p8_block = rules.get("position_8_restraints", {})
+    p8_sub = "mpv_truck" if is_truck_wmi else "passenger_cars"
+    p8_dict = p8_block.get(p8_sub, {})
+    # year-aware lookup: 2023+ may use compound keys like A_2023
+    p8_val = p8_dict.get(pos8)
+    if not p8_val and model_year_int >= 2023:
+        p8_val = p8_dict.get(pos8 + "_2023")
+    if not p8_val:
+        # fallback to other sub-dict
+        other_p8 = "passenger_cars" if is_truck_wmi else "mpv_truck"
+        other_dict = p8_block.get(other_p8, {})
+        p8_val = other_dict.get(pos8)
+        if not p8_val and model_year_int >= 2023:
+            p8_val = other_dict.get(pos8 + "_2023")
+    if isinstance(p8_val, dict):
+        result["restraint_system"] = p8_val.get("restraint_system", "Unknown")
+        result["number_of_airbags"] = p8_val.get("number_of_airbags")
+        if p8_val.get("front_airbags"):
+            result["front_airbags"] = "Yes"
+        if p8_val.get("side_airbags"):
             result["side_airbags"] = "Yes"
-
-        if "curtain airbags" in txt:
+        if p8_val.get("curtain_airbags"):
             result["curtain_airbags"] = "Yes"
-
-        if "knee airbag" in txt:
+        if p8_val.get("knee_airbags"):
             result["driver_knee_airbag"] = "Yes"
+        if p8_val.get("rear_side_airbags"):
+            result["rear_airbags"] = "Yes"
+        if p8_val.get("front_center_airbag"):
+            result["front_center_airbag"] = "Yes"
+    elif isinstance(p8_val, str):
+        result["restraint_system"] = p8_val
 
-    # Model Year
-    year = rules.get("position_10_model_year", {}).get(pos10)
-    if year:
-        result["model_year"] = str(year)
-
-    # Plant
-    plant = rules.get("position_11_plant_north_america", {}).get(pos11)
+    # ── POSITION 11: PLANT ────────────────────────────────────────────────
+    plant = rules.get("position_11_plants", {}).get(pos11)
     if plant:
         result["plant"] = plant
 
@@ -898,6 +976,8 @@ def decode_vin(vin):
         
         "body_type": "Unknown", "engine": "Unknown", "trim" : "Unknown",
         "drive_type": "Unknown", "number_of_doors": "Unknown",
+        "bed_type": "Unknown",
+        "bed_type": "Unknown",
         
         "restraint_system": "Unknown", "number_of_airbags": None,
         "curtain_airbags": None, "driver_knee_airbag": None, "side_airbags": None,
@@ -920,7 +1000,7 @@ def decode_vin(vin):
 
     wmi_info = rules.get("wmi", {}).get(wmi, {})
     result["country"] = wmi_info.get("country", "Unknown")
-    result["vehicle_type"] = wmi_info.get("vehicle_type", "Unknown")
+    result["vehicle_type"] = wmi_info.get("vehicle_type") or wmi_info.get("type", "Unknown")
     result["wmi_description"] = wmi_info.get("manufacturer", mfr_name or "Unknown")
 
     # YEAR
@@ -1035,12 +1115,17 @@ def vin_map_html(vin):
             <div class="char-box {cls}">{c}</div>
             <div class="char-pos">{labels[i]}</div>
         </div>"""
+    
+    if r.get("country") == "India" and r.get("manufacturer") == "Hyundai":
+        check_digit_text = "Transmission (9)"
+    else:
+        check_digit_text = "Check Digit (9)"
 
-    legend = """
+    legend = f"""
     <div class="vin-legend">
         <div class="legend-item"><div class="legend-dot" style="background:#3a6aff"></div>WMI (1-3)</div>
         <div class="legend-item"><div class="legend-dot" style="background:#ff6a3a"></div>VDS (4-8)</div>
-        <div class="legend-item"><div class="legend-dot" style="background:#6aff9a"></div>Check Digit (9)</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#6aff9a"></div>{check_digit_text}</div>
         <div class="legend-item"><div class="legend-dot" style="background:#ff6aff"></div>Model Year (10)</div>
         <div class="legend-item"><div class="legend-dot" style="background:#ffcc3a"></div>Plant (11)</div>
         <div class="legend-item"><div class="legend-dot" style="background:#3affff"></div>Serial (12-17)</div>
@@ -1169,6 +1254,9 @@ if __name__ == "__main__":
                     rows += info_row("Drive Type", r["drive_type"])
                 
                 rows += info_row("Number of Doors", r["number_of_doors"])
+                
+                if r.get("bed_type") not in ["Unknown", "Not Available", None, ""]:
+                    rows += info_row("Bed Type", r["bed_type"])
                 
                 if r["model_platform"] not in ["Unknown", "Not Available", None]:
                     rows += info_row("Model Platform", r["model_platform"])
