@@ -676,6 +676,14 @@
       "X"
     ]
   },
+  "position_9_Transmission" : {
+    "L" : "Manual Transmission (MT)",
+    "A" : "Automatic Transmission (AT)",
+    "B" : "Automatic Transmission (AT)",
+    "C" : "Dual-Clutch Transmission (DCT)",
+    "M" : "Intelligent Manual Transmission (iMT)",
+    "V" : "Continuously Variable Transmission (CVT)"
+  },
   "position_11_plant": {
     "_note": "Manufacturing plant codes (position 11 = VIS first character).",
     "A": "Asan, South Korea",
