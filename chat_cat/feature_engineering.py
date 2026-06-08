@@ -16,11 +16,14 @@ COLUMN_MAPPING = {
     "MODEL": ["MODEL", "model", "Model"],
     "TRIM": ["TRIM", "trim", "Trim"],
     "BODY_TYPE": ["BODY_TYPE", "bodyType", "BodyType", "body_type"],
-    "ENGINE": ["ENGINE", "engine", "Engine", "regionalSpec"],  # Fallback to regionalSpec for methaq data
+    "REGIONAL_SPEC": ["regionalSpec", "regional_spec", "regionalSpec"],
     "CYLINDERS": ["CYLINDERS", "cylinders", "Cylinders"],
     "FUEL_TYPE": ["FUEL_TYPE", "fuelType", "fuel_type"],
     "TRANSMISSION": ["TRANSMISSION", "transmission"],
     "YEAR": ["YEAR", "year", "Year"],
+    "ORIGIN": ["origin", "Origin", "ORIGIN"],
+    "NO_OF_PASSENGERS": ["noOfPassengers", "no_of_passengers"],
+    "WEIGHT": ["weightInKg", "weight"],
 }
 
 def resolve_columns(df: pd.DataFrame) -> Dict[str, str]:
@@ -37,17 +40,27 @@ def resolve_columns(df: pd.DataFrame) -> Dict[str, str]:
             logger.warning(f"Standard column '{standard_col}' could not be matched. Candidates: {candidates}")
     return resolved
 
-def normalize_name(label_type: str, value: Union[str, float, None]) -> str:
-    """Normalize names (e.g. LAND CRUISER / LANDCRUISER -> Land Cruiser)."""
-    if pd.isna(value) or not isinstance(value, str):
+def normalize_name(label_type: str, value: Union[str, float, int, None]) -> str:
+    """Normalize names (e.g. LAND CRUISER / LANDCRUISER -> Land Cruiser, and numeric values)."""
+    if pd.isna(value):
         return "UNKNOWN"
+        
+    label_type = label_type.upper()
     
+    # Handle numeric columns
+    if label_type in ["YEAR", "CYLINDERS", "NO_OF_PASSENGERS", "WEIGHT"]:
+        try:
+            return str(int(float(value)))
+        except (ValueError, TypeError):
+            return "UNKNOWN"
+            
+    if not isinstance(value, str):
+        return "UNKNOWN"
+        
     val = value.strip().upper()
     if not val:
         return "UNKNOWN"
-    
-    label_type = label_type.upper()
-    
+        
     # Specific normalization rules
     if label_type == "MAKE":
         # Mercedes-Benz variations
@@ -89,9 +102,12 @@ def normalize_name(label_type: str, value: Union[str, float, None]) -> str:
             return "Coupe"
         return val.title()
         
-    elif label_type == "ENGINE":
-        # Clean engine labels like '4.0L V6' or '4.0 V6' or '4.0L'
-        val = val.replace("  ", " ").replace("LITER", "L")
+    elif label_type == "REGIONAL_SPEC":
+        if val in ["GCC", "GCC SPEC", "GCC SPECS"]:
+            return "GCC"
+        return val.title()
+        
+    elif label_type == "ORIGIN":
         return val.title()
         
     return val
@@ -152,7 +168,7 @@ def prepare_data(data_path: str, save_encoders_dir: str = "models") -> Tuple[pd.
     
     # 3. Process targets: Normalize and Label Encode
     logger.info("Normalizing and encoding targets...")
-    targets = ["MAKE", "MODEL", "TRIM", "BODY_TYPE", "ENGINE"]
+    targets = ["MAKE", "MODEL", "TRIM", "BODY_TYPE", "YEAR", "CYLINDERS", "ORIGIN", "NO_OF_PASSENGERS", "WEIGHT", "REGIONAL_SPEC"]
     y_encoded = pd.DataFrame(index=df_clean.index)
     encoders = {}
     

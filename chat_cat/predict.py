@@ -42,7 +42,7 @@ def decode_vin(vin: str, model_dir: str = "models") -> Dict[str, Any]:
     individual_confidences = {}
     
     # 3. Perform prediction for each target
-    targets = ["MAKE", "MODEL", "TRIM", "BODY_TYPE", "ENGINE"]
+    targets = ["MAKE", "MODEL", "TRIM", "BODY_TYPE", "YEAR", "CYLINDERS", "ORIGIN", "NO_OF_PASSENGERS", "WEIGHT", "REGIONAL_SPEC"]
     
     # Target hierarchies for backoff lookups
     BACKOFF_HIERARCHY = {
@@ -50,7 +50,12 @@ def decode_vin(vin: str, model_dir: str = "models") -> Dict[str, Any]:
         "MODEL": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
         "TRIM": [["WMI", "VDS", "YEAR_CODE", "PLANT_CODE"], ["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
         "BODY_TYPE": [["WMI", "VDS"], ["WMI"]],
-        "ENGINE": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]]
+        "YEAR": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "YEAR_CODE"], ["YEAR_CODE"]],
+        "CYLINDERS": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
+        "ORIGIN": [["WMI", "VDS"], ["WMI"]],
+        "NO_OF_PASSENGERS": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
+        "WEIGHT": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
+        "REGIONAL_SPEC": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]]
     }
     
     for target in targets:
@@ -85,11 +90,16 @@ def decode_vin(vin: str, model_dir: str = "models") -> Dict[str, Any]:
     # Format output matching specification
     output = {
         "vin": vin_clean,
+        "year": predictions["year"],
         "make": predictions["make"],
         "model": predictions["model"],
         "trim": predictions["trim"],
         "body_type": predictions["body_type"],
-        "engine": predictions["engine"],
+        "regional_spec": predictions["regional_spec"],
+        "cylinders": predictions["cylinders"],
+        "origin": predictions["origin"],
+        "no_of_passengers": predictions["no_of_passengers"],
+        "weight": predictions["weight"],
         "confidence": round(avg_confidence, 4),
         "attribute_confidences": individual_confidences
     }

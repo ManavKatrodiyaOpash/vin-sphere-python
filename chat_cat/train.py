@@ -27,7 +27,12 @@ BACKOFF_HIERARCHY = {
     "MODEL": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
     "TRIM": [["WMI", "VDS", "YEAR_CODE", "PLANT_CODE"], ["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
     "BODY_TYPE": [["WMI", "VDS"], ["WMI"]],
-    "ENGINE": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]]
+    "YEAR": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "YEAR_CODE"], ["YEAR_CODE"]],
+    "CYLINDERS": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
+    "ORIGIN": [["WMI", "VDS"], ["WMI"]],
+    "NO_OF_PASSENGERS": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
+    "WEIGHT": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
+    "REGIONAL_SPEC": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]]
 }
 
 def split_and_align_classes(
@@ -122,7 +127,7 @@ def main():
     # 1. Feature engineering and cleaning
     X, y, encoders = prepare_data(args.data_path, args.model_dir)
     
-    targets = ["MAKE", "MODEL", "TRIM", "BODY_TYPE", "ENGINE"]
+    targets = ["MAKE", "MODEL", "TRIM", "BODY_TYPE", "YEAR", "CYLINDERS", "ORIGIN", "NO_OF_PASSENGERS", "WEIGHT", "REGIONAL_SPEC"]
     fallback_model = {}
     
     for target in targets:
