@@ -8,3 +8,7 @@ beautifulsoup4==4.14.3
 ipython==9.9.0
 openpyxl==3.1.5
 pathlib
+streamlit
+pandas
+numpy
+scikit-learn
