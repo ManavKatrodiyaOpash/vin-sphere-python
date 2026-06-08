@@ -1166,7 +1166,8 @@ if __name__ == "__main__":
                 if r["restraint_system"] not in ["Unknown", "Not Available", None]:
                     rows2 += info_row("Restraint System", r["restraint_system"])
 
-                rows2 += info_row("No of Airbags", r["number_of_airbags"])
+                if r["number_of_airbags"] not in [None, "", "Unknown", "Not Available"]:
+                    rows2 += info_row("No of Airbags", r["number_of_airbags"])
                 
                 if r.get("front_airbags"):
                     rows2 += info_row("Front Airbags", "Yes")
