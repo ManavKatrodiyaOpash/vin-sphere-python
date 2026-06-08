@@ -661,6 +661,7 @@ def decode_audi(vin, rules, result):
 def decode_hyundai(vin, rules, result):
     pos4 = vin[3]; pos5 = vin[4]; pos6 = vin[5]
     pos7 = vin[6]; pos8 = vin[7]; pos10 = vin[9]
+    pos9 = vin[8]
 
     p4 = rules.get("position_4_model_line", {}).get(pos4)
     if p4: result["series_line"] = p4
@@ -764,6 +765,10 @@ def decode_hyundai(vin, rules, result):
 
     p8 = rules.get("position_8_engine", {}).get(pos8)
     if p8: result["engine"] = p8
+    
+    if result["country"] == "India":
+        p9 = rules.get("position_9_Transmission", {}).get(pos9)
+        result["Transmission"] = p9 if p9 else "Unknown"
 
     return result
 
@@ -1156,20 +1161,6 @@ if __name__ == "__main__":
                 rows += info_row("Body Type", r["body_type"])
                 if r["trim"] not in ["Unknown", "Not Available", None]:
                     rows += info_row("Trim", r["trim"])
-                
-                if r["country"] == "India" and r["manufacturer"] == "Hyundai":
-                    if r["pos9"] == "L":
-                        r["Transmission"] = "Manual (MT)"
-                    elif r["pos9"] == "A" or r["pos9"] == "B":
-                        r["Transmission"] = "Automatic (AT)"
-                    elif r["pos9"] == "C":
-                        r["Transmission"] = "Dual Clutch (DCT)"
-                    elif r["pos9"] == "M":
-                        r["Transmission"] = "Intelligent Manual (iMT)"
-                    elif r["pos9"] == "V":
-                        r["Transmission"] = "Continuously Variable (IVT)"
-                    else:
-                        r["Transmission"] = "Unknown"
                 
                 if r["Transmission"] not in ["Unknown", "Not Available", None]:
                     rows += info_row("Transmission", r["Transmission"])
