@@ -6,8 +6,8 @@ import pandas as pd
 
 # Configure page metadata
 st.set_page_config(
-    page_title="AI VIN Decoder",
-    page_icon="🚗",
+    page_title="VIN Decoder",
+    page_icon="",
     layout="centered"
 )
 
@@ -24,7 +24,8 @@ from chat_cat.predict import decode_vin
 # Define fallback model directory path
 MODEL_DIR = str(project_root / "chat_cat" / "models")
 
-st.title("AI VIN Decoder")
+st.title("VIN Decoder (ML Model)")
+
 st.write("Decode vehicle attributes using the fallback hierarchical lookup model.")
 
 # User VIN input panel
