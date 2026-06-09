@@ -1,0 +1,3383 @@
+{
+  "3E7EL_2021": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "P75 STANDARD RANGE PLUS",
+    "trim_confidence": 0.79,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "gray and black",
+      "red"
+    ],
+    "weightInKg": 1678,
+    "samples": 117
+  },
+  "3E7EK_2025": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.99,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver",
+      "black",
+      "grey",
+      "gray and black"
+    ],
+    "weightInKg": 1707,
+    "samples": 451
+  },
+  "YGCEK_2022": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.81,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "blue",
+      "red"
+    ],
+    "weightInKg": 1993,
+    "samples": 1357
+  },
+  "3E7EK_2021": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.75,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver",
+      "black",
+      "blue",
+      "gray and black"
+    ],
+    "weightInKg": 1687,
+    "samples": 271
+  },
+  "3E7EK_2024": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.99,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "grey",
+      "gray and black",
+      "gray"
+    ],
+    "weightInKg": 1733,
+    "samples": 1187
+  },
+  "3E7FS_2024": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.98,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "grey",
+      "gray and black",
+      "blue"
+    ],
+    "weightInKg": 1728,
+    "samples": 836
+  },
+  "CEHEE_2024": {
+    "model": "CYBERTRUCK",
+    "bodyType": "PICKUP TRUCK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "FOUNDATION SERIES AWD",
+    "trim_confidence": 0.93,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "black",
+      "gray and black",
+      "grey"
+    ],
+    "weightInKg": 1960,
+    "samples": 15
+  },
+  "3E7EA_2020": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.73,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "gray and black",
+      "blue",
+      "silver"
+    ],
+    "weightInKg": 1746,
+    "samples": 60
+  },
+  "3E7EC_2020": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 0.93,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "blue",
+      "gray and black"
+    ],
+    "weightInKg": 1640,
+    "samples": 167
+  },
+  "YGCEK_2023": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.99,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "blue",
+      "red"
+    ],
+    "weightInKg": 2015,
+    "samples": 1377
+  },
+  "3E7FS_2023": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 0.62,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "blue",
+      "red"
+    ],
+    "weightInKg": 1768,
+    "samples": 351
+  },
+  "3E7FS_2025": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.93,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "grey",
+      "gray and black"
+    ],
+    "weightInKg": 1729,
+    "samples": 430
+  },
+  "YGCEJ_2024": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "blue",
+      "red",
+      "dark blue"
+    ],
+    "weightInKg": 2091,
+    "samples": 52
+  },
+  "YGCES_2024": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.99,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "red",
+      "gray and black"
+    ],
+    "weightInKg": 2015,
+    "samples": 97
+  },
+  "YGCEK_2025": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.98,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "grey",
+      "gray and black"
+    ],
+    "weightInKg": 2018,
+    "samples": 173
+  },
+  "3E7EL_2022": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 0.94,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "blue",
+      "grey"
+    ],
+    "weightInKg": 1720,
+    "samples": 243
+  },
+  "3E7EK_2023": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "blue",
+      "red"
+    ],
+    "weightInKg": 1736,
+    "samples": 631
+  },
+  "YGAEE_2025": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 2
+  },
+  "3E7ET_2025": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 0.7,
+    "color": "black",
+    "colors": [
+      "black",
+      "silver",
+      "white",
+      "grey",
+      "gray and black"
+    ],
+    "weightInKg": 1723,
+    "samples": 279
+  },
+  "3E7ET_2024": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 0.67,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "grey",
+      "gray and black"
+    ],
+    "weightInKg": 1742,
+    "samples": 153
+  },
+  "CEHED_2024": {
+    "model": "CYBERTRUCK",
+    "bodyType": "PICKUP TRUCK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "FOUNDATION SERIES AWD",
+    "trim_confidence": 0.96,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "gray and black",
+      "grey",
+      "white / black",
+      "orange"
+    ],
+    "weightInKg": 2058,
+    "samples": 23
+  },
+  "3E7EB_2021": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.59,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "blue",
+      "gray and black"
+    ],
+    "weightInKg": 1743,
+    "samples": 161
+  },
+  "YGCEL_2023": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 0.98,
+    "color": "black",
+    "colors": [
+      "black",
+      "white",
+      "silver",
+      "blue",
+      "red"
+    ],
+    "weightInKg": 1996,
+    "samples": 662
+  },
+  "3E7FJ_2021": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 0.64,
+    "color": "black",
+    "colors": [
+      "black",
+      "white",
+      "silver",
+      "red",
+      "blue"
+    ],
+    "weightInKg": 1707,
+    "samples": 86
+  },
+  "YGCFS_2023": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STANDARD RANGE",
+    "trim_confidence": 0.62,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "blue",
+      "grey"
+    ],
+    "weightInKg": 2059,
+    "samples": 40
+  },
+  "3E7EK_2022": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "blue",
+      "grey"
+    ],
+    "weightInKg": 1722,
+    "samples": 231
+  },
+  "3E7EC_2021": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 0.71,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "blue",
+      "gray and black"
+    ],
+    "weightInKg": 1720,
+    "samples": 330
+  },
+  "3E7EB_2020": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 0.5,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "blue",
+      "red"
+    ],
+    "weightInKg": 1658,
+    "samples": 223
+  },
+  "3E7EL_2023": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 0.86,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "blue",
+      "gray and black"
+    ],
+    "weightInKg": 1708,
+    "samples": 323
+  },
+  "XCCE4_2016": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "90D",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 2358,
+    "samples": 4
+  },
+  "XCCE2_2017": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "90D",
+    "trim_confidence": 0.98,
+    "color": "black",
+    "colors": [
+      "black",
+      "blue",
+      "white",
+      "grey",
+      "gray and black"
+    ],
+    "weightInKg": 1977,
+    "samples": 66
+  },
+  "3E7EA_2021": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 0.92,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "red",
+      "silver",
+      "blue"
+    ],
+    "weightInKg": 1768,
+    "samples": 26
+  },
+  "YGCEL_2024": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 0.68,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "blue",
+      "red"
+    ],
+    "weightInKg": 2045,
+    "samples": 269
+  },
+  "3E1EA_2025": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "black",
+      "white",
+      "silver",
+      "grey"
+    ],
+    "weightInKg": 1387,
+    "samples": 28
+  },
+  "SA7E5_2023": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "P100D",
+    "trim_confidence": 0.88,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "pearl white",
+      "white / pearl"
+    ],
+    "weightInKg": 2245,
+    "samples": 32
+  },
+  "3E7FS_2022": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.92,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "blue",
+      "gray and black"
+    ],
+    "weightInKg": 1772,
+    "samples": 101
+  },
+  "YGCEK_2024": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.87,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "red",
+      "blue"
+    ],
+    "weightInKg": 2018,
+    "samples": 525
+  },
+  "3E1EA_2022": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.96,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "black",
+      "gray and black",
+      "grey"
+    ],
+    "weightInKg": 1746,
+    "samples": 26
+  },
+  "SA7E4_2018": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "75D",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "black"
+    ],
+    "weightInKg": 1900,
+    "samples": 2
+  },
+  "3E1EA_2024": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "grey",
+      "white",
+      "black",
+      "red"
+    ],
+    "weightInKg": 1559,
+    "samples": 16
+  },
+  "Y6CEK_2022": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 0.57,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver"
+    ],
+    "weightInKg": 1967,
+    "samples": 7
+  },
+  "CEHEE_2026": {
+    "model": "CYBERTRUCK",
+    "bodyType": "PICKUP TRUCK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "FOUNDATION SERIES AWD",
+    "trim_confidence": 0.96,
+    "color": "black",
+    "colors": [
+      "black",
+      "silver",
+      "grey"
+    ],
+    "weightInKg": 1707,
+    "samples": 25
+  },
+  "SA1CN_2013": {
+    "model": "MODEL S",
+    "bodyType": "Sedan",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "TRIM",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "XCCE5_2023": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 0.95,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "blue",
+      "red"
+    ],
+    "weightInKg": 2435,
+    "samples": 62
+  },
+  "YGDEE_2023": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "gray and black",
+      "black",
+      "grey",
+      "blue"
+    ],
+    "weightInKg": 1669,
+    "samples": 32
+  },
+  "YGCES_2023": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STANDARD RANGE",
+    "trim_confidence": 0.51,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "blue",
+      "red"
+    ],
+    "weightInKg": 1984,
+    "samples": 137
+  },
+  "3E1EB_2023": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.86,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "white",
+      "black",
+      "red"
+    ],
+    "weightInKg": 1240,
+    "samples": 7
+  },
+  "XCCE2_2019": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "100D",
+    "trim_confidence": 0.73,
+    "color": "black",
+    "colors": [
+      "black",
+      "white",
+      "silver",
+      "blue",
+      "grey"
+    ],
+    "weightInKg": 2058,
+    "samples": 66
+  },
+  "SA1E2_2015": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "60D",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 2239,
+    "samples": 1
+  },
+  "XCCE5_2024": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "grey",
+      "gray and black",
+      "white",
+      "blue"
+    ],
+    "weightInKg": 2518,
+    "samples": 36
+  },
+  "3E7F5_2024": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.75,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "gray and black"
+    ],
+    "weightInKg": 1700,
+    "samples": 4
+  },
+  "XCDE5_2023": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 0.75,
+    "color": "red",
+    "colors": [
+      "red",
+      "grey",
+      "white",
+      "gray"
+    ],
+    "weightInKg": 1667,
+    "samples": 4
+  },
+  "XCCE4_2017": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "90D",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "blue",
+      "grey",
+      "beige"
+    ],
+    "weightInKg": 2159,
+    "samples": 15
+  },
+  "3E1EA_2023": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.88,
+    "color": "white",
+    "colors": [
+      "white",
+      "gray and black",
+      "black",
+      "grey",
+      "blue"
+    ],
+    "weightInKg": 1448,
+    "samples": 91
+  },
+  "YGCEL_2022": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 0.99,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "gray and black",
+      "pearl white",
+      "blue"
+    ],
+    "weightInKg": 2001,
+    "samples": 126
+  },
+  "XCCE2_2020": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.96,
+    "color": "black",
+    "colors": [
+      "black",
+      "white",
+      "silver",
+      "blue",
+      "gray and black"
+    ],
+    "weightInKg": 2078,
+    "samples": 25
+  },
+  "YGCEJ_2026": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.95,
+    "color": "pearl white",
+    "colors": [
+      "pearl white",
+      "black",
+      "grey",
+      "white",
+      "silver"
+    ],
+    "weightInKg": 2250,
+    "samples": 20
+  },
+  "SA7E2_2018": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "75D",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "white",
+      "silver",
+      "gray and black",
+      "blue"
+    ],
+    "weightInKg": 1682,
+    "samples": 25
+  },
+  "3E1EB_2021": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "P75 STANDARD RANGE PLUS",
+    "trim_confidence": 0.91,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "blue"
+    ],
+    "weightInKg": 1557,
+    "samples": 11
+  },
+  "3E1EB_2018": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "red",
+      "grey"
+    ],
+    "weightInKg": 1380,
+    "samples": 5
+  },
+  "XCCE2_2018": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "75D",
+    "trim_confidence": 0.52,
+    "color": "black",
+    "colors": [
+      "black",
+      "silver",
+      "white",
+      "blue",
+      "grey"
+    ],
+    "weightInKg": 2043,
+    "samples": 48
+  },
+  "YGDEE_2026": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.71,
+    "color": "white",
+    "colors": [
+      "white",
+      "grey",
+      "gray and black"
+    ],
+    "weightInKg": 780,
+    "samples": 7
+  },
+  "3E1EB_2022": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "red",
+      "black",
+      "gray and black",
+      "blue"
+    ],
+    "weightInKg": 1456,
+    "samples": 18
+  },
+  "3E1EA_2021": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "P75 STANDARD RANGE PLUS",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "red",
+      "gray and black",
+      "green and white"
+    ],
+    "weightInKg": 1486,
+    "samples": 25
+  },
+  "SA7E6_2023": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "P100D",
+    "trim_confidence": 0.89,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "blue",
+      "red",
+      "silver"
+    ],
+    "weightInKg": 2063,
+    "samples": 46
+  },
+  "SA7E2_2019": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "100D",
+    "trim_confidence": 0.93,
+    "color": "black",
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "grey",
+      "gray and black"
+    ],
+    "weightInKg": 1733,
+    "samples": 27
+  },
+  "YGAEE_2024": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "red"
+    ],
+    "weightInKg": 1800,
+    "samples": 3
+  },
+  "YGDEF_2023": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "red",
+      "gray and black"
+    ],
+    "weightInKg": 1650,
+    "samples": 7
+  },
+  "SA7E5_2024": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.64,
+    "color": "black",
+    "colors": [
+      "black",
+      "gray and black",
+      "red",
+      "white"
+    ],
+    "weightInKg": 2200,
+    "samples": 11
+  },
+  "XCBE5_2023": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "3E7FA_2021": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "P75 STANDARD RANGE PLUS",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "blue",
+      "white pearl",
+      "red"
+    ],
+    "weightInKg": 1594,
+    "samples": 23
+  },
+  "XCCE6_2023": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PLAID",
+    "trim_confidence": 0.53,
+    "color": "black",
+    "colors": [
+      "black",
+      "white",
+      "blue",
+      "silver",
+      "red"
+    ],
+    "weightInKg": 2301,
+    "samples": 51
+  },
+  "YGDEF_2020": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "red",
+      "grey"
+    ],
+    "weightInKg": 1668,
+    "samples": 3
+  },
+  "YGCFS_2022": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.6,
+    "color": "black",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "weightInKg": 1837,
+    "samples": 15
+  },
+  "YGDEE_2024": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "white",
+      "blue",
+      "red"
+    ],
+    "weightInKg": 1537,
+    "samples": 15
+  },
+  "SA8H1_2015": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "60D",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 2100,
+    "samples": 1
+  },
+  "3E1EA_2020": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.95,
+    "color": "white",
+    "colors": [
+      "white",
+      "grey",
+      "black",
+      "red",
+      "blue"
+    ],
+    "weightInKg": 1650,
+    "samples": 19
+  },
+  "YGCEK_2021": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "weightInKg": 1883,
+    "samples": 3
+  },
+  "SA7E4_2017": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "75",
+    "trim_confidence": 0.9,
+    "color": "black",
+    "colors": [
+      "black",
+      "white",
+      "blue",
+      "silver",
+      "grey"
+    ],
+    "weightInKg": 1639,
+    "samples": 10
+  },
+  "3E7F5_2023": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.5,
+    "color": "silver",
+    "colors": [
+      "silver"
+    ],
+    "weightInKg": 2815,
+    "samples": 2
+  },
+  "YGDEF_2022": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STANDARD RANGE",
+    "trim_confidence": 0.78,
+    "color": "white",
+    "colors": [
+      "white",
+      "gray and black",
+      "black",
+      "red",
+      "grey"
+    ],
+    "weightInKg": 1636,
+    "samples": 9
+  },
+  "YGDED_2025": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "white",
+      "black",
+      "red"
+    ],
+    "weightInKg": 1595,
+    "samples": 10
+  },
+  "SA7E2_2017": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "75",
+    "trim_confidence": 0.96,
+    "color": "black",
+    "colors": [
+      "black",
+      "blue",
+      "grey",
+      "white",
+      "silver"
+    ],
+    "weightInKg": 1536,
+    "samples": 25
+  },
+  "YGDEE_2022": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STANDARD RANGE",
+    "trim_confidence": 0.65,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "red",
+      "black",
+      "gray and black"
+    ],
+    "weightInKg": 1725,
+    "samples": 17
+  },
+  "SA1E1_2016": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "Non-GCC",
+    "trim": "60D",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "YGDEE_2021": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.96,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "gray and black",
+      "black",
+      "black and beige"
+    ],
+    "weightInKg": 1604,
+    "samples": 23
+  },
+  "3E1EA_2019": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "P75 STANDARD RANGE PLUS",
+    "trim_confidence": 0.58,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "blue",
+      "grey",
+      "gray and black"
+    ],
+    "weightInKg": 1620,
+    "samples": 19
+  },
+  "XCCE6_2025": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 2500,
+    "samples": 2
+  },
+  "YGCEK_2026": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.83,
+    "color": "pearl white",
+    "colors": [
+      "pearl white",
+      "black",
+      "red",
+      "white",
+      "grey"
+    ],
+    "weightInKg": 2600,
+    "samples": 12
+  },
+  "SA7E1_2017": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "75",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "white"
+    ],
+    "weightInKg": 1850,
+    "samples": 3
+  },
+  "3E1EC_2021": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "P75 STANDARD RANGE PLUS",
+    "trim_confidence": 0.67,
+    "color": "white",
+    "colors": [
+      "white",
+      "gray and black",
+      "gray"
+    ],
+    "weightInKg": 1600,
+    "samples": 3
+  },
+  "YGAEE_2022": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "Non-GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.5,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue"
+    ],
+    "weightInKg": 1900,
+    "samples": 2
+  },
+  "YGDEF_2024": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue"
+    ],
+    "weightInKg": 2000,
+    "samples": 3
+  },
+  "XCBE2_2016": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "Non-GCC",
+    "trim": "90D",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1550,
+    "samples": 1
+  },
+  "YGCFS_2024": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "white pearl",
+      "gray and black",
+      "blue"
+    ],
+    "weightInKg": 1800,
+    "samples": 11
+  },
+  "XCBE4_2017": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "90D",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 2150,
+    "samples": 1
+  },
+  "SA1E4_2017": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "75",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "3E1EB_2024": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "blue",
+      "black"
+    ],
+    "weightInKg": 1317,
+    "samples": 5
+  },
+  "YGAEE_2023": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "grey",
+      "gray and black",
+      "blue"
+    ],
+    "weightInKg": 1735,
+    "samples": 13
+  },
+  "YGAED_2021": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1400,
+    "samples": 2
+  },
+  "SA7E2_2016": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "60D",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "blue",
+      "white",
+      "pearl white"
+    ],
+    "weightInKg": 1777,
+    "samples": 4
+  },
+  "XCBE2_2017": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "90D",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 2450,
+    "samples": 2
+  },
+  "XCCE4_2019": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "75D",
+    "trim_confidence": 0.86,
+    "color": "black",
+    "colors": [
+      "black",
+      "white",
+      "grey",
+      "blue",
+      "silver"
+    ],
+    "weightInKg": 2042,
+    "samples": 14
+  },
+  "SA7E4_2020": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "P100D",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 2200,
+    "samples": 1
+  },
+  "YGCFJ_2025": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.67,
+    "color": "white",
+    "colors": [
+      "white",
+      "grey",
+      "blue"
+    ],
+    "weightInKg": 1800,
+    "samples": 6
+  },
+  "SA7E2_2020": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "P100D",
+    "trim_confidence": 0.88,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "red",
+      "silver"
+    ],
+    "weightInKg": 1828,
+    "samples": 8
+  },
+  "SA1E5_2024": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "DC2S1_2025": {
+    "model": "X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "YGAEE_2021": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "gray and black",
+      "black"
+    ],
+    "weightInKg": 1780,
+    "samples": 6
+  },
+  "SA1E2_2020": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "P100D",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "YGCFJ_2022": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STANDARD RANGE",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": 1800,
+    "samples": 1
+  },
+  "XCBE5_2024": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 2000,
+    "samples": 1
+  },
+  "YGDED_2024": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "white",
+      "grey",
+      "black"
+    ],
+    "weightInKg": 1615,
+    "samples": 18
+  },
+  "SA7E6_2024": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.56,
+    "color": "white",
+    "colors": [
+      "white",
+      "grey",
+      "gray and black",
+      "black"
+    ],
+    "weightInKg": 2275,
+    "samples": 9
+  },
+  "3E7ER_2023": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": null,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "AF454_2022": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "CEHED_2026": {
+    "model": "CYBERTRUCK",
+    "bodyType": "PICKUP TRUCK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "FOUNDATION SERIES AWD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "silver"
+    ],
+    "weightInKg": 1486,
+    "samples": 9
+  },
+  "YGCER_2025": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver"
+    ],
+    "weightInKg": 2333,
+    "samples": 4
+  },
+  "XCCE2_2016": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "90D",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "gray and black"
+    ],
+    "weightInKg": 1586,
+    "samples": 2
+  },
+  "3E7FA_2024": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "3E7EJ_2026": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.4,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "pearl white",
+      "silver"
+    ],
+    "weightInKg": null,
+    "samples": 5
+  },
+  "SA1E6_2022": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PLAID",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1400,
+    "samples": 1
+  },
+  "Y6CEK_2024": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 2050,
+    "samples": 2
+  },
+  "3E1EC_2022": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.67,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "blue"
+    ],
+    "weightInKg": 1425,
+    "samples": 6
+  },
+  "JE7EK_2022": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": null,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "XCCE6_2024": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "silver",
+      "blue",
+      "grey",
+      "gray and black"
+    ],
+    "weightInKg": 2350,
+    "samples": 9
+  },
+  "XCDE2_2020": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "Non-GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "XCBE2_2019": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "75D",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": 1850,
+    "samples": 1
+  },
+  "XCBE6_2022": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "Non-GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1800,
+    "samples": 1
+  },
+  "SA1E2_2018": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "75D",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "grey",
+      "black"
+    ],
+    "weightInKg": 1993,
+    "samples": 3
+  },
+  "XCBE2_2018": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "90D",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "SA1E6_2021": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": 1400,
+    "samples": 1
+  },
+  "3E1EB_2019": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "P75 LONG RANGE",
+    "trim_confidence": 0.83,
+    "color": "black",
+    "colors": [
+      "black",
+      "white",
+      "blue",
+      "gray and black",
+      "gray"
+    ],
+    "weightInKg": 1357,
+    "samples": 6
+  },
+  "SA1E5_2022": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PLAID",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "red"
+    ],
+    "weightInKg": null,
+    "samples": 3
+  },
+  "CEHED_2025": {
+    "model": "CYBERTRUCK",
+    "bodyType": "PICKUP TRUCK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "FOUNDATION SERIES AWD",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "black",
+      "grey"
+    ],
+    "weightInKg": 2088,
+    "samples": 4
+  },
+  "XCCE4_2018": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "90D",
+    "trim_confidence": 0.5,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "black",
+      "grey",
+      "white"
+    ],
+    "weightInKg": 2144,
+    "samples": 6
+  },
+  "SA1E5_2023": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "Non-GCC",
+    "trim": "P100D",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "weightInKg": 1150,
+    "samples": 2
+  },
+  "XCDE2_2017": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "90D",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "grey"
+    ],
+    "weightInKg": 1850,
+    "samples": 2
+  },
+  "YGDED_2023": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "white",
+      "blue",
+      "grey",
+      "black"
+    ],
+    "weightInKg": 1667,
+    "samples": 8
+  },
+  "SPGHB_2021": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1400,
+    "samples": 1
+  },
+  "YGDFD_2023": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1961,
+    "samples": 1
+  },
+  "YGDEE_2025": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "grey"
+    ],
+    "weightInKg": 2425,
+    "samples": 3
+  },
+  "XCCE4_2020": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "blue",
+      "gray and black",
+      "white",
+      "silver"
+    ],
+    "weightInKg": 2187,
+    "samples": 7
+  },
+  "3W7EK_2024": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1700,
+    "samples": 1
+  },
+  "XCBE6_2023": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1817,
+    "samples": 3
+  },
+  "YGDED_2021": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "red",
+      "gray and black",
+      "blue"
+    ],
+    "weightInKg": 1450,
+    "samples": 5
+  },
+  "YGCFS_2025": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.75,
+    "color": "white",
+    "colors": [
+      "white",
+      "gray and black"
+    ],
+    "weightInKg": 2667,
+    "samples": 4
+  },
+  "YGCFJ_2024": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": 1640,
+    "samples": 1
+  },
+  "CEHEL_2026": {
+    "model": "CYBERTRUCK",
+    "bodyType": "PICKUP TRUCK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "FOUNDATION SERIES AWD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 2500,
+    "samples": 1
+  },
+  "3E1EA_2018": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "silver",
+      "red",
+      "blue and black"
+    ],
+    "weightInKg": 1636,
+    "samples": 5
+  },
+  "SA1E2_2021": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "5DDDD_2022": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "Y6CEL_2024": {
+    "model": "MODELY",
+    "bodyType": "Station",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 2000,
+    "samples": 1
+  },
+  "YGDEF_2021": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "weightInKg": 2002,
+    "samples": 2
+  },
+  "3E7F3_2024": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "Y6CEK_2023": {
+    "model": "MODEL Y",
+    "bodyType": "Station",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1800,
+    "samples": 3
+  },
+  "YGDED_2026": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PREMIUM",
+    "trim_confidence": 0.88,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "white",
+      "gray and black",
+      "gray"
+    ],
+    "weightInKg": 1600,
+    "samples": 8
+  },
+  "Y6CEL_2022": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "YGCFJ_2026": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 0.75,
+    "color": "pearl white",
+    "colors": [
+      "pearl white",
+      "grey"
+    ],
+    "weightInKg": 3000,
+    "samples": 4
+  },
+  "XCCE5_2025": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "silver",
+      "grey"
+    ],
+    "weightInKg": 2500,
+    "samples": 6
+  },
+  "3E7E8_2020": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1686,
+    "samples": 2
+  },
+  "XCAE5_2023": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "XCAE4_2016": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "90D",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "white"
+    ],
+    "weightInKg": 2100,
+    "samples": 2
+  },
+  "SA1E5_2025": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "HD100_2024": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": null,
+    "regionalSpec": "GCC",
+    "trim": "STANDARD RANGE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "YGDEE_2020": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "grey"
+    ],
+    "weightInKg": 1742,
+    "samples": 6
+  },
+  "VB9E7_2022": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "Non-GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "violet",
+      "blue"
+    ],
+    "weightInKg": 1919,
+    "samples": 6
+  },
+  "SA1H2_2014": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "60D",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1900,
+    "samples": 1
+  },
+  "45645_2024": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": null,
+    "regionalSpec": "GCC",
+    "trim": "STANDARD RANGE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "3E7FS_2026": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 0.5,
+    "color": "black",
+    "colors": [
+      "black",
+      "silver"
+    ],
+    "weightInKg": 1500,
+    "samples": 2
+  },
+  "23059_2023": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 2500,
+    "samples": 1
+  },
+  "3E1EB_2020": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "gray"
+    ],
+    "weightInKg": 1598,
+    "samples": 6
+  },
+  "W3E7F_2023": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "23279_2024": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "SA7E6_2026": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 0.5,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": null,
+    "samples": 2
+  },
+  "3E1EA_2017": {
+    "model": "MODEL 3",
+    "bodyType": "Sedan",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "GLS",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "VB9E6_2022": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "Non-GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 2000,
+    "samples": 1
+  },
+  "3E7FA_2020": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "green",
+    "colors": [
+      "green",
+      "black"
+    ],
+    "weightInKg": 1600,
+    "samples": 2
+  },
+  "SE0EK_2023": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "0E7FS_2025": {
+    "model": "MODEL 3",
+    "bodyType": "Sedan",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "XCCE5_2026": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PLAID",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "Y6CEL_2023": {
+    "model": "MODEL Y",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STANDARD RANGE",
+    "trim_confidence": 0.5,
+    "color": "black",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "weightInKg": 2000,
+    "samples": 2
+  },
+  "XCAE2_2016": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "P100D",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "SA7E2_2015": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "60D",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1700,
+    "samples": 1
+  },
+  "3E7ET_2026": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "XCCE6_2026": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PLAID",
+    "trim_confidence": 1.0,
+    "color": "pearl white",
+    "colors": [
+      "pearl white",
+      "silver"
+    ],
+    "weightInKg": null,
+    "samples": 2
+  },
+  "3E1FC_2023": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "3E1EC_2020": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "SA1DP_2023": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "SA1E2_2017": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "75",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "SA1E5_2021": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "PERFORMANCE",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "blue"
+    ],
+    "weightInKg": 1525,
+    "samples": 2
+  },
+  "3E7E8_2021": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "P75 STANDARD RANGE PLUS",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1700,
+    "samples": 1
+  },
+  "XCBE5_2022": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1800,
+    "samples": 1
+  },
+  "3F1FA_2023": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "Non-GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "XCDE2_2018": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": null,
+    "regionalSpec": "Non-GCC",
+    "trim": "90D",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "3E1EC_2023": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "SA7H2_2015": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "60D",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "XCDE4_2017": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "90D",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 2000,
+    "samples": 1
+  },
+  "JZDH1_2022": {
+    "model": "MODEL Y",
+    "bodyType": "Station",
+    "cylinders": null,
+    "regionalSpec": null,
+    "trim": null,
+    "trim_confidence": null,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "VB9E6_2021": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "Non-GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 2000,
+    "samples": 1
+  },
+  "SA7E4_2019": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE PLUS",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 2200,
+    "samples": 1
+  },
+  "24035_2024": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": null,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "XCBE4_2016": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "90D",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1450,
+    "samples": 1
+  },
+  "SA6S1_2014": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "60D",
+    "trim_confidence": 1.0,
+    "color": "white and blue",
+    "colors": [
+      "white and blue"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "4HU6G_2021": {
+    "model": "MODEL 3",
+    "bodyType": "Saloon",
+    "cylinders": null,
+    "regionalSpec": null,
+    "trim": null,
+    "trim_confidence": null,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "3E7EB_2022": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1672,
+    "samples": 1
+  },
+  "XCAE2_2019": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "75D",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1450,
+    "samples": 1
+  },
+  "XCBE5_2021": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "SA7E5_2025": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "NADMG_2024": {
+    "model": "EC6",
+    "bodyType": "Station",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 2350,
+    "samples": 1
+  },
+  "XCDE2_2021": {
+    "model": "MODEL X",
+    "bodyType": "SUV",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "SAZE2_2018": {
+    "model": "MODEL S",
+    "bodyType": "HATCHBACK",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "75D",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1400,
+    "samples": 1
+  },
+  "3E1ET_2024": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "gray",
+    "colors": [
+      "gray"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "SA1E4_2015": {
+    "model": "MODEL S",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "60D",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "SA4H2_2015": {
+    "model": "MODEL S",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "60D",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "3E7EJ_2025": {
+    "model": "MODEL 3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "LONG RANGE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  }
+}
