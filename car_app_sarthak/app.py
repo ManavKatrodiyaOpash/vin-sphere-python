@@ -26,7 +26,7 @@ MODEL_DIR = str(project_root / "chat_cat" / "models")
 
 st.title("VIN Decoder (ML Model)")
 
-st.write("Decode vehicle attributes using the fallback hierarchical lookup model.")
+#st.write("Decode vehicle attributes using the fallback hierarchical lookup model.")
 
 # User VIN input panel
 vin_input = st.text_input(
@@ -58,7 +58,7 @@ if st.button("Decode", use_container_width=True):
                     {"Attribute": "Origin", "Predicted Value": result.get("origin"), "Confidence": f"{conf_dict.get('origin', 0.0)*100:.2f}%"},
                     {"Attribute": "Number of Passengers", "Predicted Value": result.get("no_of_passengers"), "Confidence": f"{conf_dict.get('no_of_passengers', 0.0)*100:.2f}%"},
                     {"Attribute": "Weight (KG)", "Predicted Value": result.get("weight"), "Confidence": f"{conf_dict.get('weight', 0.0)*100:.2f}%"},
-                    {"Attribute": "Regional Specification", "Predicted Value": result.get("regional_spec"), "Confidence": f"{conf_dict.get('regional_spec', 0.0)*100:.2f}%"},
+                    {"Attribute": "Regional Specs", "Predicted Value": result.get("regional_spec"), "Confidence": f"{conf_dict.get('regional_spec', 0.0)*100:.2f}%"},
                 ]
                 
                 df_results = pd.DataFrame(table_data)
