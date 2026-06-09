@@ -1,0 +1,9924 @@
+{
+  "KFAWL_2022": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GL",
+    "trim_confidence": 0.78,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "red",
+      "white",
+      "blue",
+      "grey"
+    ],
+    "weightInKg": 2286,
+    "samples": 82
+  },
+  "GL4S3_2019": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver",
+      "gray and black",
+      "grey",
+      "red"
+    ],
+    "weightInKg": 1667,
+    "samples": 53
+  },
+  "GH42F_2009": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "black",
+      "silver",
+      "gray and black",
+      "brown"
+    ],
+    "weightInKg": 1337,
+    "samples": 62
+  },
+  "SL35E_2006": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "green",
+      "blue",
+      "black",
+      "orange"
+    ],
+    "weightInKg": 1583,
+    "samples": 262
+  },
+  "NDAC7_2024": {
+    "model": "MX-5 RF",
+    "bodyType": "COUPE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "HIGH",
+    "trim_confidence": 1.0,
+    "color": "green",
+    "colors": [
+      "green"
+    ],
+    "weightInKg": 1385,
+    "samples": 1
+  },
+  "BK226_2005": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "blue",
+      "black",
+      "golden",
+      "white"
+    ],
+    "weightInKg": 1219,
+    "samples": 49
+  },
+  "NA353_1997": {
+    "model": "MX 5",
+    "bodyType": "COUPE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 0.5,
+    "color": "green",
+    "colors": [
+      "green",
+      "black"
+    ],
+    "weightInKg": 1100,
+    "samples": 3
+  },
+  "DK2WA_2022": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "red"
+    ],
+    "weightInKg": 1425,
+    "samples": 2
+  },
+  "SD35E_1999": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "green",
+      "blue",
+      "black",
+      "white / black"
+    ],
+    "weightInKg": 1487,
+    "samples": 95
+  },
+  "GJ4S7_2014": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.67,
+    "color": "white",
+    "colors": [
+      "white",
+      "gray and black",
+      "silver",
+      "blue",
+      "black"
+    ],
+    "weightInKg": 1328,
+    "samples": 27
+  },
+  "GH445_2009": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "red",
+      "silver",
+      "gray and black",
+      "blue"
+    ],
+    "weightInKg": 1458,
+    "samples": 22
+  },
+  "BN1SZ_2018": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.72,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "red",
+      "silver",
+      "blue",
+      "grey"
+    ],
+    "weightInKg": 1609,
+    "samples": 173
+  },
+  "DE3HY_2013": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver",
+      "black",
+      "golden",
+      "blue"
+    ],
+    "weightInKg": 1498,
+    "samples": 102
+  },
+  "SL35E_2004": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "green",
+      "black",
+      "red"
+    ],
+    "weightInKg": 1435,
+    "samples": 60
+  },
+  "DE3HY_2012": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.99,
+    "color": "green",
+    "colors": [
+      "green",
+      "black",
+      "grey",
+      "golden",
+      "silver"
+    ],
+    "weightInKg": 1296,
+    "samples": 78
+  },
+  "BL12Z_2010": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.99,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "black",
+      "white",
+      "blue",
+      "gray and black"
+    ],
+    "weightInKg": 1301,
+    "samples": 127
+  },
+  "KFAWL_2024": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GL",
+    "trim_confidence": 0.89,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "blue",
+      "grey",
+      "red",
+      "white"
+    ],
+    "weightInKg": 2359,
+    "samples": 80
+  },
+  "BK326_2009": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "grey",
+      "black",
+      "red",
+      "gray and black"
+    ],
+    "weightInKg": 1274,
+    "samples": 243
+  },
+  "GL1W5_2017": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "grey"
+    ],
+    "weightInKg": 1275,
+    "samples": 2
+  },
+  "GL4S3_2018": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.98,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "red",
+      "grey",
+      "black"
+    ],
+    "weightInKg": 1653,
+    "samples": 56
+  },
+  "GH42F_2011": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "black",
+      "brown",
+      "grey",
+      "blue"
+    ],
+    "weightInKg": 1267,
+    "samples": 24
+  },
+  "BL12Z_2011": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "blue",
+      "silver",
+      "white",
+      "red"
+    ],
+    "weightInKg": 1360,
+    "samples": 86
+  },
+  "GJ4S7_2016": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.97,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "white",
+      "gray and black",
+      "blue",
+      "black"
+    ],
+    "weightInKg": 1631,
+    "samples": 33
+  },
+  "TB1MA_2015": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 0.99,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "grey",
+      "silver",
+      "blue",
+      "red"
+    ],
+    "weightInKg": 2093,
+    "samples": 71
+  },
+  "BPAS7_2023": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "EVOLVE",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "grey",
+      "black"
+    ],
+    "weightInKg": 1692,
+    "samples": 11
+  },
+  "GG423_2006": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "grey",
+      "white",
+      "maroon",
+      "blue"
+    ],
+    "weightInKg": 1153,
+    "samples": 13
+  },
+  "BL1SZ_2012": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "gray and black",
+      "white",
+      "black",
+      "silver"
+    ],
+    "weightInKg": 1453,
+    "samples": 72
+  },
+  "DE3SY_2012": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "grey",
+      "blue",
+      "white",
+      "golden"
+    ],
+    "weightInKg": 1211,
+    "samples": 7
+  },
+  "TCAWY_2021": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 0.89,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "grey",
+      "gray and black",
+      "white",
+      "red"
+    ],
+    "weightInKg": 2364,
+    "samples": 36
+  },
+  "BK346_2008": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "purple",
+    "colors": [
+      "purple",
+      "black",
+      "blue",
+      "gray and black",
+      "grey"
+    ],
+    "weightInKg": 1152,
+    "samples": 13
+  },
+  "TCAWY_2020": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 0.74,
+    "color": "white",
+    "colors": [
+      "white",
+      "red",
+      "blue",
+      "gray and black",
+      "grey"
+    ],
+    "weightInKg": 2136,
+    "samples": 53
+  },
+  "BM3H7_2016": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "R",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "red",
+      "gray and black",
+      "blue",
+      "silver"
+    ],
+    "weightInKg": 1559,
+    "samples": 37
+  },
+  "BN1SZ_2017": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.61,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "grey",
+      "gray and black",
+      "red",
+      "blue"
+    ],
+    "weightInKg": 1536,
+    "samples": 105
+  },
+  "BJ123_2001": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver",
+      "grey",
+      "green",
+      "blue"
+    ],
+    "weightInKg": 1115,
+    "samples": 15
+  },
+  "BM3S7_2016": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "red",
+      "blue",
+      "silver",
+      "gray and black"
+    ],
+    "weightInKg": 1771,
+    "samples": 24
+  },
+  "GJ1U5_2016": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.89,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "red",
+      "black",
+      "blue",
+      "white"
+    ],
+    "weightInKg": 1336,
+    "samples": 9
+  },
+  "GJ453_2016": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "white",
+      "black",
+      "red"
+    ],
+    "weightInKg": 1352,
+    "samples": 6
+  },
+  "BM3H7_2015": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V S/R",
+    "trim_confidence": 0.5,
+    "color": "red",
+    "colors": [
+      "red",
+      "black",
+      "gray and black",
+      "white",
+      "blue"
+    ],
+    "weightInKg": 1313,
+    "samples": 28
+  },
+  "DJBHV_2016": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "white",
+      "grey",
+      "black",
+      "gray and black"
+    ],
+    "weightInKg": 1440,
+    "samples": 29
+  },
+  "GH32F_2009": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "black",
+      "red",
+      "white",
+      "gray and black"
+    ],
+    "weightInKg": 1413,
+    "samples": 262
+  },
+  "BM3S7_2015": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V S/R",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "black",
+      "red",
+      "blue",
+      "gray and black"
+    ],
+    "weightInKg": 1411,
+    "samples": 25
+  },
+  "GJ4S3_2016": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.98,
+    "color": "red",
+    "colors": [
+      "red",
+      "white",
+      "gray and black",
+      "blue",
+      "silver"
+    ],
+    "weightInKg": 1531,
+    "samples": 96
+  },
+  "NDAB7_2021": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "BN1SZ_2019": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "red",
+      "silver",
+      "grey",
+      "blue"
+    ],
+    "weightInKg": 1605,
+    "samples": 129
+  },
+  "GH32F_2011": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.96,
+    "color": "black",
+    "colors": [
+      "black",
+      "red",
+      "white",
+      "blue",
+      "brown"
+    ],
+    "weightInKg": 1260,
+    "samples": 101
+  },
+  "6H32F_2009": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "grey",
+      "white",
+      "silver"
+    ],
+    "weightInKg": 1390,
+    "samples": 5
+  },
+  "SD35E_1998": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 0.99,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "green",
+      "black",
+      "red"
+    ],
+    "weightInKg": 1511,
+    "samples": 71
+  },
+  "DKBW7_2024": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "grey",
+      "red",
+      "beige",
+      "white"
+    ],
+    "weightInKg": 1887,
+    "samples": 37
+  },
+  "KFAWL_2025": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GL",
+    "trim_confidence": 0.5,
+    "color": "beige",
+    "colors": [
+      "beige",
+      "blue",
+      "gray and black",
+      "white",
+      "red"
+    ],
+    "weightInKg": 2671,
+    "samples": 68
+  },
+  "GL4S3_2024": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "PURE",
+    "trim_confidence": 0.75,
+    "color": "white",
+    "colors": [
+      "white",
+      "grey",
+      "red",
+      "gray and black",
+      "gray"
+    ],
+    "weightInKg": 1822,
+    "samples": 64
+  },
+  "TB19A_2010": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "red",
+      "white",
+      "grey",
+      "silver"
+    ],
+    "weightInKg": 1940,
+    "samples": 79
+  },
+  "DJAHV_2016": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.98,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver",
+      "grey",
+      "gray and black",
+      "blue"
+    ],
+    "weightInKg": 1563,
+    "samples": 47
+  },
+  "GG32F_2007": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "black",
+      "gray and black",
+      "grey",
+      "white"
+    ],
+    "weightInKg": 1313,
+    "samples": 170
+  },
+  "BM1SZ_2016": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "silver",
+      "gray and black",
+      "grey"
+    ],
+    "weightInKg": 1577,
+    "samples": 163
+  },
+  "BPABM_2025": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "EVOLVE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "SL35E_2001": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "green",
+      "white and blue"
+    ],
+    "weightInKg": 1543,
+    "samples": 45
+  },
+  "GL4S3_2020": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.99,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "red",
+      "silver",
+      "grey"
+    ],
+    "weightInKg": 1742,
+    "samples": 105
+  },
+  "BM1SZ_2015": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.64,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "white",
+      "silver",
+      "blue",
+      "red"
+    ],
+    "weightInKg": 1534,
+    "samples": 182
+  },
+  "ER193_2010": {
+    "model": "CX-7",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "white",
+      "black",
+      "silver",
+      "gray and black"
+    ],
+    "weightInKg": 1653,
+    "samples": 33
+  },
+  "TB19A_2009": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "red",
+      "white",
+      "silver",
+      "brown"
+    ],
+    "weightInKg": 1880,
+    "samples": 156
+  },
+  "GH4SF_2013": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "black",
+      "grey"
+    ],
+    "weightInKg": 1594,
+    "samples": 6
+  },
+  "SL35E_2003": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "green",
+      "black"
+    ],
+    "weightInKg": 1985,
+    "samples": 47
+  },
+  "KE2CY_2016": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1400,
+    "samples": 1
+  },
+  "BL1UF_2012": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "grey",
+      "black"
+    ],
+    "weightInKg": 1150,
+    "samples": 3
+  },
+  "BK326_2008": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "silver",
+      "red",
+      "grey",
+      "white"
+    ],
+    "weightInKg": 1302,
+    "samples": 191
+  },
+  "GJ4S3_2015": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.98,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "red",
+      "black",
+      "grey"
+    ],
+    "weightInKg": 1681,
+    "samples": 60
+  },
+  "BJ12M_2004": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "grey",
+      "white",
+      "golden",
+      "gray and black"
+    ],
+    "weightInKg": 1080,
+    "samples": 11
+  },
+  "GG443_2007": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "silver",
+      "red",
+      "grey",
+      "brown"
+    ],
+    "weightInKg": 1369,
+    "samples": 11
+  },
+  "DMAW7_2025": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ELITE",
+    "trim_confidence": 0.91,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "grey",
+      "red",
+      "blue",
+      "beige"
+    ],
+    "weightInKg": 2158,
+    "samples": 44
+  },
+  "BK326_2006": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "black",
+      "gray and black",
+      "grey",
+      "silver"
+    ],
+    "weightInKg": 1313,
+    "samples": 58
+  },
+  "BPAS7_2020": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "gray and black",
+      "blue",
+      "gray",
+      "grey"
+    ],
+    "weightInKg": 1573,
+    "samples": 17
+  },
+  "BL14Z_2010": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "silver",
+      "gray and black",
+      "grey"
+    ],
+    "weightInKg": 1232,
+    "samples": 7
+  },
+  "GL1VM_2021": {
+    "model": "MAZDA 6",
+    "bodyType": "Sedan",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "1000",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1520,
+    "samples": 1
+  },
+  "NDAM7_2020": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "UN2F6_2013": {
+    "model": "BT-50",
+    "bodyType": "Pick Up Double Cab",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "weightInKg": 1569,
+    "samples": 10
+  },
+  "DMAW7_2023": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ELITE",
+    "trim_confidence": 0.75,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "blue",
+      "gray and black",
+      "red",
+      "black"
+    ],
+    "weightInKg": 2166,
+    "samples": 51
+  },
+  "GJ1V5_2015": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.38,
+    "color": "white",
+    "colors": [
+      "white",
+      "red",
+      "gray and black",
+      "blue",
+      "black"
+    ],
+    "weightInKg": 1657,
+    "samples": 8
+  },
+  "BPAS7_2024": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "EVOLVE",
+    "trim_confidence": 0.94,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "grey",
+      "blue",
+      "black",
+      "white"
+    ],
+    "weightInKg": 2163,
+    "samples": 35
+  },
+  "GG423_2007": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "silver",
+      "grey",
+      "white",
+      "maroon"
+    ],
+    "weightInKg": 1533,
+    "samples": 29
+  },
+  "BL1SZ_2013": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V S/R",
+    "trim_confidence": 0.99,
+    "color": "white",
+    "colors": [
+      "white",
+      "grey",
+      "silver",
+      "gray and black",
+      "black"
+    ],
+    "weightInKg": 1473,
+    "samples": 76
+  },
+  "GH3WF_2012": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "pearl white",
+      "black",
+      "silver"
+    ],
+    "weightInKg": 1661,
+    "samples": 13
+  },
+  "TCAWY_2018": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 0.77,
+    "color": "red",
+    "colors": [
+      "red",
+      "grey",
+      "blue",
+      "gray and black",
+      "silver"
+    ],
+    "weightInKg": 2096,
+    "samples": 35
+  },
+  "HZ8CH_2012": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "grey",
+      "brown"
+    ],
+    "weightInKg": 1447,
+    "samples": 23
+  },
+  "KE4W7_2016": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 0.97,
+    "color": "white",
+    "colors": [
+      "white",
+      "gray and black",
+      "silver",
+      "grey",
+      "blue"
+    ],
+    "weightInKg": 1960,
+    "samples": 33
+  },
+  "BK326_2007": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "purple",
+      "gray and black",
+      "silver",
+      "grey"
+    ],
+    "weightInKg": 1297,
+    "samples": 195
+  },
+  "DE3HY_2015": {
+    "model": "2",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver",
+      "blue",
+      "grey",
+      "black"
+    ],
+    "weightInKg": 1335,
+    "samples": 43
+  },
+  "DMBBL_2022": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "CORE",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "blue",
+      "beige"
+    ],
+    "weightInKg": 1675,
+    "samples": 4
+  },
+  "DE3HY_2014": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver",
+      "black",
+      "golden",
+      "grey"
+    ],
+    "weightInKg": 1338,
+    "samples": 81
+  },
+  "BK226_2006": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.99,
+    "color": "red",
+    "colors": [
+      "red",
+      "white",
+      "grey",
+      "black",
+      "silver"
+    ],
+    "weightInKg": 1204,
+    "samples": 82
+  },
+  "GY39F_2006": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "silver",
+      "gray and black",
+      "maroon",
+      "white"
+    ],
+    "weightInKg": 1229,
+    "samples": 7
+  },
+  "UN346_2009": {
+    "model": "BT-50",
+    "bodyType": "Pick Up Double Cab",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver",
+      "gray and black"
+    ],
+    "weightInKg": 1521,
+    "samples": 19
+  },
+  "GJ4S7_2015": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.69,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "silver",
+      "red",
+      "blue"
+    ],
+    "weightInKg": 1734,
+    "samples": 32
+  },
+  "BPAH7_2023": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "INTENSE",
+    "trim_confidence": 0.88,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "blue",
+      "red",
+      "gray and black",
+      "black"
+    ],
+    "weightInKg": 1890,
+    "samples": 34
+  },
+  "TB1MA_2013": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "gray and black",
+      "red",
+      "black",
+      "grey"
+    ],
+    "weightInKg": 1979,
+    "samples": 63
+  },
+  "BPAB7_2020": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ALLURE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "HP82B_2009": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "black",
+      "white",
+      "silver",
+      "grey"
+    ],
+    "weightInKg": 1545,
+    "samples": 12
+  },
+  "BP2H7_2019": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ALLURE",
+    "trim_confidence": 0.5,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "white"
+    ],
+    "weightInKg": 1600,
+    "samples": 2
+  },
+  "GG32F_2005": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.98,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "black",
+      "grey",
+      "gray and black",
+      "blue"
+    ],
+    "weightInKg": 1200,
+    "samples": 65
+  },
+  "DE34Y_2011": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.99,
+    "color": "green",
+    "colors": [
+      "green",
+      "silver",
+      "orange",
+      "black",
+      "white"
+    ],
+    "weightInKg": 1288,
+    "samples": 79
+  },
+  "GJ4W7_2014": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.58,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver",
+      "blue"
+    ],
+    "weightInKg": 1389,
+    "samples": 12
+  },
+  "TB19A_2011": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "silver",
+      "gray and black"
+    ],
+    "weightInKg": 1981,
+    "samples": 70
+  },
+  "GL4S7_2018": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1300,
+    "samples": 1
+  },
+  "KE4W3_2015": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GTX",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "white",
+      "silver",
+      "black",
+      "gray and black"
+    ],
+    "weightInKg": 2172,
+    "samples": 22
+  },
+  "TB19A_2008": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 0.99,
+    "color": "black",
+    "colors": [
+      "black",
+      "red",
+      "white",
+      "gray and black",
+      "silver"
+    ],
+    "weightInKg": 1915,
+    "samples": 107
+  },
+  "UP3SA_2013": {
+    "model": "BT 50",
+    "bodyType": "Pickup",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1800,
+    "samples": 2
+  },
+  "7KFAW_2023": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GL",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "GL4S3_2021": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.98,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "silver",
+      "red",
+      "grey"
+    ],
+    "weightInKg": 1948,
+    "samples": 91
+  },
+  "KFAWL_2019": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 0.51,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "grey",
+      "white",
+      "blue",
+      "red"
+    ],
+    "weightInKg": 2164,
+    "samples": 53
+  },
+  "DMAW7_2021": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "CORE",
+    "trim_confidence": 0.6,
+    "color": "red",
+    "colors": [
+      "red",
+      "gray and black",
+      "blue"
+    ],
+    "weightInKg": 1703,
+    "samples": 5
+  },
+  "NDAE7_2021": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1300,
+    "samples": 1
+  },
+  "SL35E_2005": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "green",
+      "blue",
+      "black",
+      "red"
+    ],
+    "weightInKg": 1392,
+    "samples": 83
+  },
+  "KE4W3_2017": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GTX",
+    "trim_confidence": 0.9,
+    "color": "black",
+    "colors": [
+      "black",
+      "red",
+      "white",
+      "blue",
+      "gray and black"
+    ],
+    "weightInKg": 2008,
+    "samples": 21
+  },
+  "BL1SZ_2014": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "white",
+      "grey",
+      "black",
+      "gray and black"
+    ],
+    "weightInKg": 1549,
+    "samples": 58
+  },
+  "GL4S3_2023": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.71,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "grey",
+      "gray and black",
+      "red"
+    ],
+    "weightInKg": 2018,
+    "samples": 181
+  },
+  "BN3S7_2019": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S PREFERRED",
+    "trim_confidence": 0.89,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "red",
+      "blue",
+      "white",
+      "gray and black"
+    ],
+    "weightInKg": 1693,
+    "samples": 19
+  },
+  "GY39F_2007": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver",
+      "red",
+      "grey",
+      "black"
+    ],
+    "weightInKg": 1280,
+    "samples": 27
+  },
+  "GH325_2009": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.93,
+    "color": "black",
+    "colors": [
+      "black",
+      "red",
+      "white",
+      "gray and black",
+      "brown"
+    ],
+    "weightInKg": 1345,
+    "samples": 14
+  },
+  "GH3SF_2013": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver",
+      "grey",
+      "gray and black",
+      "pearl white"
+    ],
+    "weightInKg": 1390,
+    "samples": 28
+  },
+  "BM1V7_2016": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.6,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "gray and black",
+      "brown",
+      "white"
+    ],
+    "weightInKg": 1660,
+    "samples": 5
+  },
+  "GG32F_2006": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.97,
+    "color": "black",
+    "colors": [
+      "black",
+      "silver",
+      "grey",
+      "red",
+      "white"
+    ],
+    "weightInKg": 1247,
+    "samples": 89
+  },
+  "TB1MA_2014": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 0.99,
+    "color": "black",
+    "colors": [
+      "black",
+      "white",
+      "blue",
+      "grey",
+      "gray and black"
+    ],
+    "weightInKg": 2018,
+    "samples": 67
+  },
+  "GG32F_2003": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "golden",
+      "silver",
+      "grey",
+      "black"
+    ],
+    "weightInKg": 1441,
+    "samples": 17
+  },
+  "KE4W7_2014": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "white",
+      "red",
+      "silver",
+      "grey"
+    ],
+    "weightInKg": 1556,
+    "samples": 11
+  },
+  "HZ8CH_2011": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "maroon",
+      "silver",
+      "white",
+      "blue"
+    ],
+    "weightInKg": 1574,
+    "samples": 10
+  },
+  "KFAWL_2023": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GL",
+    "trim_confidence": 0.62,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "grey",
+      "gray and black",
+      "silver",
+      "beige"
+    ],
+    "weightInKg": 2241,
+    "samples": 115
+  },
+  "TCACY_2021": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "JJ4SH_2016": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "SL35E_2002": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "green",
+      "black"
+    ],
+    "weightInKg": 1610,
+    "samples": 26
+  },
+  "DE3SY_2015": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "silver",
+      "white",
+      "grey",
+      "black"
+    ],
+    "weightInKg": 1531,
+    "samples": 24
+  },
+  "GH39F_2011": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.95,
+    "color": "white",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "weightInKg": 1365,
+    "samples": 20
+  },
+  "GW19S_2001": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 0.5,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1000,
+    "samples": 2
+  },
+  "ER193_2011": {
+    "model": "CX-7",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "brown",
+      "white",
+      "gray and black",
+      "blue"
+    ],
+    "weightInKg": 1784,
+    "samples": 7
+  },
+  "BPAS7_2025": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "EVOLVE",
+    "trim_confidence": 0.54,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "blue",
+      "beige",
+      "red",
+      "grey"
+    ],
+    "weightInKg": 2123,
+    "samples": 69
+  },
+  "BPAH7_2025": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "INTENSE",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "blue",
+      "grey",
+      "red",
+      "white"
+    ],
+    "weightInKg": 1929,
+    "samples": 22
+  },
+  "GJ4S3_2014": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.75,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "red",
+      "silver",
+      "blue"
+    ],
+    "weightInKg": 1654,
+    "samples": 76
+  },
+  "KFAWL_2020": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GL",
+    "trim_confidence": 0.5,
+    "color": "white",
+    "colors": [
+      "white",
+      "red",
+      "gray and black",
+      "grey",
+      "blue"
+    ],
+    "weightInKg": 2034,
+    "samples": 88
+  },
+  "BPAMM_2023": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "PURE",
+    "trim_confidence": 0.5,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "blue"
+    ],
+    "weightInKg": null,
+    "samples": 2
+  },
+  "GL4S3_2025": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "PURE",
+    "trim_confidence": 0.86,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "white",
+      "black",
+      "gray and black",
+      "blue"
+    ],
+    "weightInKg": 1987,
+    "samples": 29
+  },
+  "DMBCL_2022": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "CORE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "KKAHD_2025": {
+    "model": "CX-90",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "PREMIIUM",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1750,
+    "samples": 1
+  },
+  "BPAA7_2021": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S PREFERRED",
+    "trim_confidence": 0.5,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "black"
+    ],
+    "weightInKg": 1250,
+    "samples": 2
+  },
+  "DKBW7_2017": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 0.89,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "red",
+      "white",
+      "gray and black",
+      "black"
+    ],
+    "weightInKg": 1887,
+    "samples": 18
+  },
+  "GH39F_2009": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.94,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "pearl white",
+      "silver"
+    ],
+    "weightInKg": 1397,
+    "samples": 16
+  },
+  "GG32F_2004": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.98,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "gray and black",
+      "grey",
+      "black",
+      "golden"
+    ],
+    "weightInKg": 1326,
+    "samples": 45
+  },
+  "TB1MA_2012": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "gray and black",
+      "grey"
+    ],
+    "weightInKg": 2009,
+    "samples": 82
+  },
+  "BM1HZ_2016": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "blue",
+      "white",
+      "gray and black",
+      "brown"
+    ],
+    "weightInKg": 1625,
+    "samples": 12
+  },
+  "BN1HZ_2018": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V S/R",
+    "trim_confidence": 0.62,
+    "color": "red",
+    "colors": [
+      "red",
+      "gray and black",
+      "silver",
+      "white",
+      "blue"
+    ],
+    "weightInKg": 1476,
+    "samples": 8
+  },
+  "BN3S7_2017": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "gray and black",
+      "white"
+    ],
+    "weightInKg": 1262,
+    "samples": 4
+  },
+  "DKAW7_2020": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "red",
+      "white",
+      "gray",
+      "grey"
+    ],
+    "weightInKg": 1832,
+    "samples": 26
+  },
+  "NC2FF_2015": {
+    "model": "MX-5",
+    "bodyType": "COUPE/CABRIOLET",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "25TH ANNIVERSARY EDITION",
+    "trim_confidence": 1.0,
+    "color": "black and red",
+    "colors": [
+      "black and red"
+    ],
+    "weightInKg": 1311,
+    "samples": 2
+  },
+  "UN236_2005": {
+    "model": "6",
+    "bodyType": "Pickup",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "9",
+    "trim_confidence": 0.33,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1167,
+    "samples": 3
+  },
+  "DMAW7_2022": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "TREND",
+    "trim_confidence": 0.52,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "red",
+      "gray and black",
+      "grey",
+      "gray"
+    ],
+    "weightInKg": 1993,
+    "samples": 42
+  },
+  "KE4W2_2013": {
+    "model": "CX 5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "HZ8BH_2010": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "brown",
+      "silver",
+      "white"
+    ],
+    "weightInKg": 1423,
+    "samples": 4
+  },
+  "BJ123_2002": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "white",
+      "beige",
+      "green",
+      "black"
+    ],
+    "weightInKg": 1146,
+    "samples": 12
+  },
+  "TCAWY_2024": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 0.96,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "grey",
+      "white",
+      "gray and black"
+    ],
+    "weightInKg": 2608,
+    "samples": 25
+  },
+  "DKAW7_2018": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 0.95,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "blue",
+      "red",
+      "grey",
+      "black"
+    ],
+    "weightInKg": 1981,
+    "samples": 19
+  },
+  "BM1HZ_2015": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V S/R",
+    "trim_confidence": 0.89,
+    "color": "white",
+    "colors": [
+      "white",
+      "red",
+      "silver",
+      "black",
+      "blue"
+    ],
+    "weightInKg": 1358,
+    "samples": 35
+  },
+  "DKAW7_2019": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "grey",
+      "gray and black",
+      "red"
+    ],
+    "weightInKg": 1918,
+    "samples": 27
+  },
+  "BL1HZ_2012": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.8,
+    "color": "black",
+    "colors": [
+      "black",
+      "grey",
+      "silver"
+    ],
+    "weightInKg": 1315,
+    "samples": 5
+  },
+  "GL4S3_2022": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver",
+      "blue",
+      "grey",
+      "gray and black"
+    ],
+    "weightInKg": 1929,
+    "samples": 39
+  },
+  "DKAW7_2021": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "red",
+      "gray and black",
+      "grey"
+    ],
+    "weightInKg": 1421,
+    "samples": 5
+  },
+  "GJ1V6_2014": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "TOURING (NON GCC)",
+    "trim_confidence": 0.75,
+    "color": "red",
+    "colors": [
+      "red",
+      "blue",
+      "white"
+    ],
+    "weightInKg": 1375,
+    "samples": 4
+  },
+  "BM1U7_2016": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "white",
+      "grey",
+      "black",
+      "gray and black"
+    ],
+    "weightInKg": 1433,
+    "samples": 9
+  },
+  "GL453_2023": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "LUXE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 2
+  },
+  "SL35E_2000": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "green"
+    ],
+    "weightInKg": 1383,
+    "samples": 18
+  },
+  "HP81B_2009": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "maroon",
+      "white"
+    ],
+    "weightInKg": 1820,
+    "samples": 6
+  },
+  "GL4S3_2017": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.55,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "silver",
+      "blue",
+      "white",
+      "grey"
+    ],
+    "weightInKg": 1631,
+    "samples": 44
+  },
+  "TCACY_2020": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "dark blue",
+    "colors": [
+      "dark blue"
+    ],
+    "weightInKg": 1230,
+    "samples": 1
+  },
+  "BPABL_2021": {
+    "model": "MAZDA 3",
+    "bodyType": "Sedan",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S CELEKT",
+    "trim_confidence": 0.33,
+    "color": "white",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "weightInKg": 1075,
+    "samples": 3
+  },
+  "GH3SF_2012": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver",
+      "black",
+      "grey",
+      "red"
+    ],
+    "weightInKg": 1368,
+    "samples": 36
+  },
+  "BM1U7_2015": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V S/R",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "black"
+    ],
+    "weightInKg": 1700,
+    "samples": 4
+  },
+  "TB1MA_2016": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 0.93,
+    "color": "red",
+    "colors": [
+      "red",
+      "silver",
+      "white",
+      "grey",
+      "black"
+    ],
+    "weightInKg": 2156,
+    "samples": 46
+  },
+  "DJAHV_2020": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "white",
+      "blue",
+      "grey",
+      "silver"
+    ],
+    "weightInKg": 1185,
+    "samples": 11
+  },
+  "DMAW7_2024": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "TREND",
+    "trim_confidence": 0.71,
+    "color": "red",
+    "colors": [
+      "red",
+      "blue",
+      "grey",
+      "beige",
+      "gray and black"
+    ],
+    "weightInKg": 2091,
+    "samples": 51
+  },
+  "M4APP_2018": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "KE4DY_2016": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "red"
+    ],
+    "weightInKg": 1400,
+    "samples": 2
+  },
+  "BK326_2005": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "red",
+      "gray and black",
+      "blue",
+      "black"
+    ],
+    "weightInKg": 1325,
+    "samples": 28
+  },
+  "BK346_2007": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "purple",
+      "blue",
+      "grey",
+      "red"
+    ],
+    "weightInKg": 1140,
+    "samples": 14
+  },
+  "DLASV_2016": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver",
+      "gray and black",
+      "blue",
+      "black"
+    ],
+    "weightInKg": 1451,
+    "samples": 15
+  },
+  "BPAS7_2022": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "EVOLVE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 2
+  },
+  "BPAH7_2024": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "INTENSE",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "black",
+      "gray and black",
+      "grey",
+      "blue"
+    ],
+    "weightInKg": 1784,
+    "samples": 34
+  },
+  "BJ123_2003": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "golden",
+    "colors": [
+      "golden",
+      "white",
+      "black",
+      "silver",
+      "gold & black"
+    ],
+    "weightInKg": 1128,
+    "samples": 37
+  },
+  "BN1HZ_2017": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.78,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "black",
+      "blue",
+      "white",
+      "red"
+    ],
+    "weightInKg": 1439,
+    "samples": 18
+  },
+  "NA351_1992": {
+    "model": "MX 5",
+    "bodyType": "COUPE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "RF GT",
+    "trim_confidence": 0.5,
+    "color": "black",
+    "colors": [
+      "black",
+      "yellow",
+      "green",
+      "white"
+    ],
+    "weightInKg": 1140,
+    "samples": 4
+  },
+  "KFAWL_2021": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 0.56,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "white",
+      "gray and black",
+      "grey",
+      "red"
+    ],
+    "weightInKg": 2248,
+    "samples": 45
+  },
+  "GH425_2009": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "red",
+      "white",
+      "gray and black",
+      "brown"
+    ],
+    "weightInKg": 1426,
+    "samples": 30
+  },
+  "UFY02_1997": {
+    "model": "PICKUP",
+    "bodyType": "Pickup",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.5,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue"
+    ],
+    "weightInKg": 1125,
+    "samples": 2
+  },
+  "GG423_2003": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.86,
+    "color": "golden",
+    "colors": [
+      "golden",
+      "silver",
+      "blue",
+      "white",
+      "red"
+    ],
+    "weightInKg": 1413,
+    "samples": 7
+  },
+  "BL1UG_2012": {
+    "model": "MAZDA 3",
+    "bodyType": "Saloon",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1350,
+    "samples": 1
+  },
+  "GL4W7_2017": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "weightInKg": 1741,
+    "samples": 10
+  },
+  "BJ12M_2000": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "red",
+      "maroon",
+      "black",
+      "white"
+    ],
+    "weightInKg": 1069,
+    "samples": 7
+  },
+  "UN236_2008": {
+    "model": "BT-50",
+    "bodyType": "Pick Up Double Cab",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1328,
+    "samples": 7
+  },
+  "KFA0L_2025": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GL",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "TCAWY_2022": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 0.81,
+    "color": "black",
+    "colors": [
+      "black",
+      "white",
+      "gray and black",
+      "blue",
+      "red"
+    ],
+    "weightInKg": 2619,
+    "samples": 36
+  },
+  "TCAWY_2019": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 0.71,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "gray and black",
+      "red",
+      "grey",
+      "black"
+    ],
+    "weightInKg": 2124,
+    "samples": 31
+  },
+  "GL1V5_2017": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.83,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "red",
+      "white"
+    ],
+    "weightInKg": 1233,
+    "samples": 6
+  },
+  "BPADL_2019": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ALLURE",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1450,
+    "samples": 1
+  },
+  "BN3H7_2019": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S PREFERRED",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1745,
+    "samples": 1
+  },
+  "BN1S7_2017": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "white",
+      "red"
+    ],
+    "weightInKg": 1660,
+    "samples": 5
+  },
+  "UN232_2006": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "green"
+    ],
+    "weightInKg": 1443,
+    "samples": 7
+  },
+  "TC4WL_2021": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 2000,
+    "samples": 1
+  },
+  "UN346_2008": {
+    "model": "BT-50",
+    "bodyType": "Pick Up Double Cab",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "green and white",
+      "black and silver"
+    ],
+    "weightInKg": 1570,
+    "samples": 11
+  },
+  "ER293_2008": {
+    "model": "CX-7",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver"
+    ],
+    "weightInKg": 1800,
+    "samples": 1
+  },
+  "HP81A_2009": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "silver",
+      "black",
+      "violet"
+    ],
+    "weightInKg": 1850,
+    "samples": 6
+  },
+  "BM1V7_2014": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.67,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue"
+    ],
+    "weightInKg": 1308,
+    "samples": 3
+  },
+  "DLBSV_2016": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "silver",
+      "blue",
+      "white",
+      "grey"
+    ],
+    "weightInKg": 1467,
+    "samples": 7
+  },
+  "TCBCY_2019": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "blue"
+    ],
+    "weightInKg": 1500,
+    "samples": 2
+  },
+  "GJ1U6_2015": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "SPORT (NON GCC)",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "gray and black",
+      "black",
+      "white"
+    ],
+    "weightInKg": 1327,
+    "samples": 5
+  },
+  "HZ8CB_2011": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.83,
+    "color": "white",
+    "colors": [
+      "white",
+      "maroon",
+      "silver",
+      "gray and black"
+    ],
+    "weightInKg": 1554,
+    "samples": 6
+  },
+  "DKBW7_2018": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 0.77,
+    "color": "black",
+    "colors": [
+      "black",
+      "blue",
+      "white",
+      "red",
+      "white / black"
+    ],
+    "weightInKg": 1687,
+    "samples": 13
+  },
+  "DMBBL_2021": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "CORE",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1433,
+    "samples": 3
+  },
+  "BM1S7_2016": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "M2S6F_2009": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "UN202_2001": {
+    "model": "B 2200",
+    "bodyType": "Pickup",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 0.5,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1600,
+    "samples": 2
+  },
+  "BJ12M_2003": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver",
+      "golden",
+      "black",
+      "gold & black"
+    ],
+    "weightInKg": 1232,
+    "samples": 20
+  },
+  "KE2W7_2016": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "grey",
+      "blue",
+      "gray and black",
+      "silver"
+    ],
+    "weightInKg": 2035,
+    "samples": 11
+  },
+  "TCAWY_2023": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "grey",
+      "silver",
+      "blue",
+      "red"
+    ],
+    "weightInKg": 2648,
+    "samples": 16
+  },
+  "HP80C_2008": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver"
+    ],
+    "weightInKg": 1400,
+    "samples": 1
+  },
+  "KKBHD_2025": {
+    "model": "CX-90",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "PREMIIUM",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "GH4SF_2012": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "red",
+      "gray and black",
+      "white",
+      "blue"
+    ],
+    "weightInKg": 1520,
+    "samples": 24
+  },
+  "NA353_2026": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "blue",
+      "red"
+    ],
+    "weightInKg": 1438,
+    "samples": 7
+  },
+  "UF262_1998": {
+    "model": "P 2200",
+    "bodyType": "Pickup",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 0.8,
+    "color": "white",
+    "colors": [
+      "white",
+      "gray and black",
+      "silver"
+    ],
+    "weightInKg": 1514,
+    "samples": 5
+  },
+  "BN1S7_2018": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.67,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "grey",
+      "gray and black",
+      "silver",
+      "black"
+    ],
+    "weightInKg": 1331,
+    "samples": 6
+  },
+  "KE2W7_2017": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 0.82,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "white",
+      "gray and black",
+      "blue",
+      "white pearl"
+    ],
+    "weightInKg": 1980,
+    "samples": 22
+  },
+  "8K326_2007": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "golden",
+      "blue"
+    ],
+    "weightInKg": 1290,
+    "samples": 5
+  },
+  "HZ8CH_2010": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.9,
+    "color": "black",
+    "colors": [
+      "black",
+      "white",
+      "red",
+      "silver",
+      "maroon"
+    ],
+    "weightInKg": 1339,
+    "samples": 21
+  },
+  "UN206_2002": {
+    "model": "MAZDA 2200",
+    "bodyType": "PICKUP",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1233,
+    "samples": 3
+  },
+  "BN3H7_2017": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "R",
+    "trim_confidence": 0.8,
+    "color": "red",
+    "colors": [
+      "red",
+      "black",
+      "silver",
+      "grey",
+      "gray and black"
+    ],
+    "weightInKg": 1533,
+    "samples": 10
+  },
+  "GL1WY_2020": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 0.5,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "black"
+    ],
+    "weightInKg": 1400,
+    "samples": 2
+  },
+  "UN232_2005": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1660,
+    "samples": 5
+  },
+  "NDAM7_2024": {
+    "model": "MX-5 RF",
+    "bodyType": "COUPE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "HIGH",
+    "trim_confidence": 0.5,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "black"
+    ],
+    "weightInKg": 1200,
+    "samples": 2
+  },
+  "6632F_2005": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "KE4W3_2016": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GTX",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "silver",
+      "black",
+      "pearl white"
+    ],
+    "weightInKg": 2253,
+    "samples": 26
+  },
+  "BK323_2004": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1410,
+    "samples": 1
+  },
+  "BPAS7_2021": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "blue",
+      "red",
+      "black",
+      "white"
+    ],
+    "weightInKg": 1931,
+    "samples": 11
+  },
+  "HZ8BB_2011": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "gray and black"
+    ],
+    "weightInKg": 2017,
+    "samples": 3
+  },
+  "NDAM7_2017": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1800,
+    "samples": 1
+  },
+  "8K326_2009": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "gray and black",
+      "black",
+      "silver",
+      "red"
+    ],
+    "weightInKg": 1422,
+    "samples": 6
+  },
+  "KFACM_2020": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 2350,
+    "samples": 2
+  },
+  "BPAH7_2022": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "INTENSE",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "black"
+    ],
+    "weightInKg": 2165,
+    "samples": 4
+  },
+  "TB2DA_2015": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1450,
+    "samples": 2
+  },
+  "NC26F_2008": {
+    "model": "MX-5",
+    "bodyType": "COUPE/CABRIOLET",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "green",
+      "grey",
+      "yellow"
+    ],
+    "weightInKg": 1200,
+    "samples": 4
+  },
+  "GL1UM_2018": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "R",
+    "trim_confidence": 0.5,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "black"
+    ],
+    "weightInKg": 1300,
+    "samples": 2
+  },
+  "BJ123_2004": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "golden",
+      "silver"
+    ],
+    "weightInKg": 1267,
+    "samples": 3
+  },
+  "KFBBL_2024": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "IGNITE",
+    "trim_confidence": 1.0,
+    "color": "golden",
+    "colors": [
+      "golden"
+    ],
+    "weightInKg": 3000,
+    "samples": 2
+  },
+  "KH1HD_2025": {
+    "model": "CX-60",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "TAKUMI",
+    "trim_confidence": 0.92,
+    "color": "black",
+    "colors": [
+      "black",
+      "gray and black",
+      "white",
+      "gray"
+    ],
+    "weightInKg": 2882,
+    "samples": 12
+  },
+  "KFBCM_2024": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "IGNITE",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "DMBBM_2024": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "ELITE",
+    "trim_confidence": 1.0,
+    "color": "dark blue",
+    "colors": [
+      "dark blue",
+      "blue"
+    ],
+    "weightInKg": 2433,
+    "samples": 4
+  },
+  "KH1HD_2026": {
+    "model": "CX-60",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "AZAMI",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "GJ4W7_2016": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "BN3H7_2018": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "R",
+    "trim_confidence": 0.38,
+    "color": "red",
+    "colors": [
+      "red",
+      "grey",
+      "black",
+      "white / black",
+      "gray and black"
+    ],
+    "weightInKg": 1581,
+    "samples": 13
+  },
+  "SR31E_1998": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1407,
+    "samples": 2
+  },
+  "BN1HZ_2019": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S PREFERRED",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "blue",
+      "red"
+    ],
+    "weightInKg": 1347,
+    "samples": 3
+  },
+  "BJ12M_2001": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "golden",
+      "black"
+    ],
+    "weightInKg": 952,
+    "samples": 6
+  },
+  "SK32E_2007": {
+    "model": "E2000",
+    "bodyType": "Panel Van",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1650,
+    "samples": 1
+  },
+  "BPAH7_2021": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "INTENSE",
+    "trim_confidence": 0.5,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "white",
+      "red",
+      "grey",
+      "blue"
+    ],
+    "weightInKg": 1770,
+    "samples": 20
+  },
+  "KE2CY_2014": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1700,
+    "samples": 1
+  },
+  "BJ12M_2002": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "golden",
+    "colors": [
+      "golden",
+      "white",
+      "silver",
+      "black",
+      "green"
+    ],
+    "weightInKg": 1130,
+    "samples": 17
+  },
+  "BPAH7_2020": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "INTENSE",
+    "trim_confidence": 0.76,
+    "color": "white",
+    "colors": [
+      "white",
+      "gray and black",
+      "blue",
+      "grey",
+      "red"
+    ],
+    "weightInKg": 1590,
+    "samples": 17
+  },
+  "KE4W3_2014": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GTX",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "black",
+      "white",
+      "pearl white",
+      "white pearl"
+    ],
+    "weightInKg": 2007,
+    "samples": 16
+  },
+  "KFBCM_2023": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "IGNITE",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "blue",
+      "black",
+      "grey"
+    ],
+    "weightInKg": 1655,
+    "samples": 8
+  },
+  "GJ1U5_2015": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.75,
+    "color": "white",
+    "colors": [
+      "white",
+      "red"
+    ],
+    "weightInKg": 1794,
+    "samples": 4
+  },
+  "KE2W7_2014": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "blue",
+      "black",
+      "red",
+      "silver"
+    ],
+    "weightInKg": 1562,
+    "samples": 6
+  },
+  "KH1HD_2024": {
+    "model": "CX-60",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "PREMIUM",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "white"
+    ],
+    "weightInKg": 1861,
+    "samples": 4
+  },
+  "BPACL_2021": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "S PREFERRED",
+    "trim_confidence": 0.5,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 2250,
+    "samples": 2
+  },
+  "GJ1W6_2015": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue"
+    ],
+    "weightInKg": 1200,
+    "samples": 2
+  },
+  "DKAW7_2017": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "blue",
+      "silver",
+      "gray and black",
+      "grey"
+    ],
+    "weightInKg": 1852,
+    "samples": 8
+  },
+  "KE2W7_2013": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "gray and black",
+      "red"
+    ],
+    "weightInKg": 1531,
+    "samples": 4
+  },
+  "NA353_1999": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "TCAWY_2017": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "gray and black",
+      "white",
+      "silver",
+      "blue"
+    ],
+    "weightInKg": 2221,
+    "samples": 24
+  },
+  "TB3DV_2011": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 2000,
+    "samples": 1
+  },
+  "WG725_1999": {
+    "model": "T 3500",
+    "bodyType": "Pickup",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 0.5,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue",
+      "black"
+    ],
+    "weightInKg": 1933,
+    "samples": 4
+  },
+  "BN1V3_2018": {
+    "model": "3",
+    "bodyType": "Sedan",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "3",
+    "trim_confidence": 0.25,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "silver",
+      "gray and black"
+    ],
+    "weightInKg": 1200,
+    "samples": 4
+  },
+  "BJ123_1999": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "grey"
+    ],
+    "weightInKg": 1167,
+    "samples": 3
+  },
+  "TB19A_2012": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "dark blue"
+    ],
+    "weightInKg": null,
+    "samples": 2
+  },
+  "ER2W5_2010": {
+    "model": "CX-7",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "maroon",
+    "colors": [
+      "maroon",
+      "white"
+    ],
+    "weightInKg": 1250,
+    "samples": 2
+  },
+  "GL4S3_2005": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "UN236_2007": {
+    "model": "BT-50",
+    "bodyType": "Pick Up Double Cab",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "DLX",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "green and white",
+      "black",
+      "grey",
+      "silver"
+    ],
+    "weightInKg": 1405,
+    "samples": 11
+  },
+  "BN1U7_2017": {
+    "model": "MAZDA 3",
+    "bodyType": "Sedan",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "gray and black"
+    ],
+    "weightInKg": 1250,
+    "samples": 2
+  },
+  "KE4W7_2015": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 0.86,
+    "color": "red",
+    "colors": [
+      "red",
+      "silver",
+      "black",
+      "blue"
+    ],
+    "weightInKg": 2229,
+    "samples": 7
+  },
+  "ER1W3_2012": {
+    "model": "CX-7",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "black",
+      "white",
+      "violet",
+      "maroon"
+    ],
+    "weightInKg": 1605,
+    "samples": 11
+  },
+  "NDAM7_2023": {
+    "model": "MX-5",
+    "bodyType": "COUPE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "gray and black"
+    ],
+    "weightInKg": null,
+    "samples": 2
+  },
+  "TCACY_2019": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "GG423_2005": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "black",
+      "red",
+      "blue"
+    ],
+    "weightInKg": 1230,
+    "samples": 6
+  },
+  "8K226_2005": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "NDAD7_2022": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1350,
+    "samples": 1
+  },
+  "KK2HC_2025": {
+    "model": "CX-90",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "PREMIIUM",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "beige",
+      "gray and black",
+      "grey"
+    ],
+    "weightInKg": 2768,
+    "samples": 13
+  },
+  "BN1S2_2018": {
+    "model": "MAZDA 3",
+    "bodyType": "Sedan",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": 1330,
+    "samples": 1
+  },
+  "DMAW7_2020": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SIGNATURE",
+    "trim_confidence": 0.57,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "silver",
+      "black and red",
+      "red",
+      "gray and black"
+    ],
+    "weightInKg": 1734,
+    "samples": 7
+  },
+  "BM1K7_2014": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "gray and black"
+    ],
+    "weightInKg": 1400,
+    "samples": 2
+  },
+  "BM1S2_2016": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 3000,
+    "samples": 2
+  },
+  "BPBJY_2021": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD (NON GCC)",
+    "trim_confidence": 0.5,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": 1300,
+    "samples": 2
+  },
+  "BL1HZ_2013": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V S/R",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "gray and black",
+      "grey",
+      "red"
+    ],
+    "weightInKg": 1436,
+    "samples": 9
+  },
+  "GL4S7_2017": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "silver",
+      "white / black"
+    ],
+    "weightInKg": 1226,
+    "samples": 4
+  },
+  "TE1MA_2014": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "DMBBM_2023": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ELITE",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "black",
+      "red"
+    ],
+    "weightInKg": 1733,
+    "samples": 3
+  },
+  "TB2CA_2012": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "pearl white"
+    ],
+    "weightInKg": 1676,
+    "samples": 2
+  },
+  "HZ8BH_2012": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "white"
+    ],
+    "weightInKg": 1150,
+    "samples": 2
+  },
+  "CW2BL_2012": {
+    "model": "5",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD (NON GCC)",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1356,
+    "samples": 1
+  },
+  "BN3S7_2018": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "white",
+      "gray and black"
+    ],
+    "weightInKg": 1770,
+    "samples": 6
+  },
+  "KE2W7_2015": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "red",
+      "pearl white",
+      "white",
+      "maroon"
+    ],
+    "weightInKg": 2023,
+    "samples": 11
+  },
+  "GJ4W7_2015": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.88,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1470,
+    "samples": 8
+  },
+  "KFAWL_2018": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GTX",
+    "trim_confidence": 0.52,
+    "color": "white",
+    "colors": [
+      "white",
+      "gray and black",
+      "black",
+      "grey",
+      "black and silver"
+    ],
+    "weightInKg": 2144,
+    "samples": 23
+  },
+  "DKAW7_2023": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "beige",
+      "black",
+      "gray and black",
+      "white"
+    ],
+    "weightInKg": 2232,
+    "samples": 20
+  },
+  "BM327_2015": {
+    "model": "3",
+    "bodyType": "SALOON",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "R",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 2100,
+    "samples": 2
+  },
+  "YR13U_1998": {
+    "model": "E3000",
+    "bodyType": "Pickup",
+    "cylinders": 8,
+    "regionalSpec": "GCC",
+    "trim": "STD (NON GCC)",
+    "trim_confidence": 1.0,
+    "color": "golden",
+    "colors": [
+      "golden"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "TCBCY_2023": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "G1",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "silver"
+    ],
+    "weightInKg": 1500,
+    "samples": 2
+  },
+  "BM1V7_2018": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V S/R",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1350,
+    "samples": 1
+  },
+  "BN1U7_2018": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "S",
+    "trim_confidence": 0.67,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 2400,
+    "samples": 3
+  },
+  "GL453_2021": {
+    "model": "MAZDA 6",
+    "bodyType": "Sedan",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver"
+    ],
+    "weightInKg": 1250,
+    "samples": 1
+  },
+  "NA351_1991": {
+    "model": "MX 5 COUPE",
+    "bodyType": "Coupe",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 0.5,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1054,
+    "samples": 2
+  },
+  "NC2EF_2010": {
+    "model": "MX-5",
+    "bodyType": "COUPE/CABRIOLET",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "KFBCL_2025": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "IGNITE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "BM3SZ_2016": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "grey"
+    ],
+    "weightInKg": 1150,
+    "samples": 2
+  },
+  "DMBDY_2023": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "ELITE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "HZ8BH_2011": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "maroon",
+      "silver",
+      "black",
+      "grey"
+    ],
+    "weightInKg": 1287,
+    "samples": 9
+  },
+  "DMABL_2021": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "CORE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "blue"
+    ],
+    "weightInKg": 1726,
+    "samples": 3
+  },
+  "DKBW7_2019": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GTX",
+    "trim_confidence": 0.82,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "white",
+      "black",
+      "grey",
+      "red"
+    ],
+    "weightInKg": 1876,
+    "samples": 11
+  },
+  "NDAE7_2025": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 2045,
+    "samples": 2
+  },
+  "DMBAM_2024": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ELITE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "SK31E_2007": {
+    "model": "BT-50",
+    "bodyType": "Pick Up Double Cab",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "DLX",
+    "trim_confidence": 0.5,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1700,
+    "samples": 2
+  },
+  "BJ12M_1999": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "UP4DA_2013": {
+    "model": "BT-50",
+    "bodyType": "Pick Up Double Cab",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "GJ1W5_2016": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "white",
+      "silver"
+    ],
+    "weightInKg": 1400,
+    "samples": 5
+  },
+  "GH4H5_2012": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "G1453_2016": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "R",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1400,
+    "samples": 1
+  },
+  "KE4W7_2017": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 0.89,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "gray and black",
+      "white",
+      "blue"
+    ],
+    "weightInKg": 2111,
+    "samples": 9
+  },
+  "DE3SY_2014": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "red",
+      "black",
+      "blue",
+      "silver"
+    ],
+    "weightInKg": 1225,
+    "samples": 14
+  },
+  "DKFB7_2021": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 2225,
+    "samples": 2
+  },
+  "BM3SZ_2015": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V S/R",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1900,
+    "samples": 1
+  },
+  "KK2HC_2024": {
+    "model": "CX-90",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "PREMIIUM",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "gray and black",
+      "grey",
+      "black"
+    ],
+    "weightInKg": 2591,
+    "samples": 10
+  },
+  "FE173_2005": {
+    "model": "RX-8",
+    "bodyType": "COUPE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "red"
+    ],
+    "weightInKg": 1300,
+    "samples": 3
+  },
+  "DKAW7_2022": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "red",
+      "grey"
+    ],
+    "weightInKg": 2131,
+    "samples": 6
+  },
+  "GJ1V6_2015": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.83,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "blue",
+      "silver"
+    ],
+    "weightInKg": 1760,
+    "samples": 6
+  },
+  "NA353_2025": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "red",
+      "blue",
+      "violet"
+    ],
+    "weightInKg": 1241,
+    "samples": 7
+  },
+  "TCBDY_2023": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "G1",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "gray and black"
+    ],
+    "weightInKg": 1400,
+    "samples": 2
+  },
+  "BN1V7_2017": {
+    "model": "MAZDA 3",
+    "bodyType": "Sedan",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 0.5,
+    "color": "black",
+    "colors": [
+      "black",
+      "blue"
+    ],
+    "weightInKg": 1150,
+    "samples": 2
+  },
+  "BP2S7_2021": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ALLURE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1300,
+    "samples": 1
+  },
+  "GL4S7_2020": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "brown",
+    "colors": [
+      "brown"
+    ],
+    "weightInKg": 1300,
+    "samples": 1
+  },
+  "DKBW7_2021": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 2100,
+    "samples": 1
+  },
+  "BMISZ_2016": {
+    "model": "MAZDA 3",
+    "bodyType": "Sedan",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SEDAN",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1400,
+    "samples": 1
+  },
+  "BK346_2009": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "black",
+      "blue",
+      "gray and black"
+    ],
+    "weightInKg": 1207,
+    "samples": 7
+  },
+  "KE2W2_2015": {
+    "model": "CX 5",
+    "bodyType": "Station",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "DE32Y_2011": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.95,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "golden",
+      "white",
+      "black",
+      "grey"
+    ],
+    "weightInKg": 1250,
+    "samples": 21
+  },
+  "UR4DA_2013": {
+    "model": "BT-50",
+    "bodyType": "Pick Up Double Cab",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "DLX",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1800,
+    "samples": 1
+  },
+  "8K326_2008": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "purple",
+      "red",
+      "silver"
+    ],
+    "weightInKg": 1425,
+    "samples": 4
+  },
+  "BPAMM_2019": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ALLURE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1450,
+    "samples": 1
+  },
+  "GJ1W5_2015": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "white",
+      "grey",
+      "silver",
+      "blue"
+    ],
+    "weightInKg": 1928,
+    "samples": 9
+  },
+  "GG423_2004": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "blue",
+      "black",
+      "golden",
+      "white"
+    ],
+    "weightInKg": 1298,
+    "samples": 10
+  },
+  "KE4W7_2013": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "blue",
+      "gray and black",
+      "silver",
+      "white pearl"
+    ],
+    "weightInKg": 1676,
+    "samples": 10
+  },
+  "BL1S2_2014": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "UN202_2002": {
+    "model": "B2000",
+    "bodyType": "Pickup",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 0.75,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue"
+    ],
+    "weightInKg": 1438,
+    "samples": 4
+  },
+  "DKBW7_2025": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 0.89,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "grey",
+      "white",
+      "red",
+      "gray"
+    ],
+    "weightInKg": 1996,
+    "samples": 9
+  },
+  "TCBDY_2016": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "red"
+    ],
+    "weightInKg": 1600,
+    "samples": 3
+  },
+  "NC2FF_2014": {
+    "model": "MX-5",
+    "bodyType": "COUPE/CABRIOLET",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "BP2S7_2020": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "gray and black",
+      "grey",
+      "blue"
+    ],
+    "weightInKg": 1525,
+    "samples": 4
+  },
+  "SK32E_2006": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1400,
+    "samples": 1
+  },
+  "BN347_2017": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "R",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1801,
+    "samples": 1
+  },
+  "GH445_2011": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1523,
+    "samples": 1
+  },
+  "NB353_2004": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "GL1U5_2017": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 0.25,
+    "color": "black",
+    "colors": [
+      "black",
+      "blue",
+      "silver"
+    ],
+    "weightInKg": 1250,
+    "samples": 4
+  },
+  "6J453_2016": {
+    "model": "MAZDA 6",
+    "bodyType": "Sedan",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V GRADE",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1250,
+    "samples": 1
+  },
+  "DE38Y_2012": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "TB3DA_2015": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "BPBMY_2023": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "R",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1250,
+    "samples": 1
+  },
+  "NA351_1993": {
+    "model": "MX-5",
+    "bodyType": "COUPE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "brown",
+    "colors": [
+      "brown",
+      "red"
+    ],
+    "weightInKg": 954,
+    "samples": 2
+  },
+  "DKFD7_2016": {
+    "model": "MAZDA CX-3",
+    "bodyType": "Sedan",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "VTI E",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1400,
+    "samples": 1
+  },
+  "BPAS7_2005": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.75,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 2602,
+    "samples": 4
+  },
+  "GH32F_2008": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "brown",
+    "colors": [
+      "brown",
+      "blue"
+    ],
+    "weightInKg": 1275,
+    "samples": 2
+  },
+  "GG443_2006": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.83,
+    "color": "black",
+    "colors": [
+      "black",
+      "red",
+      "white"
+    ],
+    "weightInKg": 1590,
+    "samples": 6
+  },
+  "NDAM7_2018": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "T81MA_2012": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 2100,
+    "samples": 1
+  },
+  "NDAE7_2019": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "BM1U7_2014": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver"
+    ],
+    "weightInKg": 1110,
+    "samples": 3
+  },
+  "KFBCM_2018": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1420,
+    "samples": 1
+  },
+  "TCBAY_2023": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "G1",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "black"
+    ],
+    "weightInKg": 1475,
+    "samples": 2
+  },
+  "UN246_2008": {
+    "model": "BT-50",
+    "bodyType": "Pick Up Double Cab",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "HP80C_2007": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "DM2W7_2021": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "URBANE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "GG34F_2003": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "yellow",
+      "grey",
+      "golden"
+    ],
+    "weightInKg": 1333,
+    "samples": 4
+  },
+  "NDAC7_2019": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "black"
+    ],
+    "weightInKg": 1450,
+    "samples": 3
+  },
+  "ER2B5_2012": {
+    "model": "CX-7",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "GJ1V5_2016": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "R",
+    "trim_confidence": 0.38,
+    "color": "white",
+    "colors": [
+      "white",
+      "black",
+      "red",
+      "blue",
+      "gray and black"
+    ],
+    "weightInKg": 1627,
+    "samples": 8
+  },
+  "BNISZ_2019": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S PREFERRED",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1300,
+    "samples": 1
+  },
+  "BM1K7_2016": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.67,
+    "color": "red",
+    "colors": [
+      "red",
+      "gray and black",
+      "silver"
+    ],
+    "weightInKg": 1442,
+    "samples": 3
+  },
+  "FE173_2006": {
+    "model": "RX-8",
+    "bodyType": "Saloon",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.5,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "weightInKg": 1287,
+    "samples": 2
+  },
+  "BM1T7_2016": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 0.33,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "black",
+      "silver",
+      "red",
+      "gray and black"
+    ],
+    "weightInKg": 1471,
+    "samples": 6
+  },
+  "GH3WF_2013": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "pearl white",
+    "colors": [
+      "pearl white",
+      "white"
+    ],
+    "weightInKg": 1500,
+    "samples": 2
+  },
+  "UN232_2008": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1625,
+    "samples": 4
+  },
+  "BPAB7_2019": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "R",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "BPACL_2020": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD (NON GCC)",
+    "trim_confidence": 0.33,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "red"
+    ],
+    "weightInKg": 1319,
+    "samples": 3
+  },
+  "GJ1U6_2014": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "TOURING (NON GCC)",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue"
+    ],
+    "weightInKg": 1350,
+    "samples": 2
+  },
+  "DK2W7_2019": {
+    "model": "CX 3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "KKAHD_2024": {
+    "model": "CX-90",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "PREMIIUM",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 2500,
+    "samples": 2
+  },
+  "BK12F_2008": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "beige",
+    "colors": [
+      "beige"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "BL1S5_2010": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "1N1HZ_2017": {
+    "model": "MAZDA 3",
+    "bodyType": "Sedan",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STANDARD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1450,
+    "samples": 1
+  },
+  "CR29L_2007": {
+    "model": "VAN",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "green",
+    "colors": [
+      "green"
+    ],
+    "weightInKg": 1000,
+    "samples": 1
+  },
+  "TBIMA_2014": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver"
+    ],
+    "weightInKg": 1433,
+    "samples": 3
+  },
+  "NDAM7_2021": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1350,
+    "samples": 2
+  },
+  "5L35E_2001": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "green"
+    ],
+    "weightInKg": 975,
+    "samples": 2
+  },
+  "BPBBL_2021": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "INTENSE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "TCBCY_2020": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "navy blue"
+    ],
+    "weightInKg": 2000,
+    "samples": 2
+  },
+  "BL1SF_2010": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "blue"
+    ],
+    "weightInKg": 1733,
+    "samples": 5
+  },
+  "DM2W7_2023": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ELITE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1300,
+    "samples": 1
+  },
+  "UN232_2007": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "white"
+    ],
+    "weightInKg": 1588,
+    "samples": 2
+  },
+  "DJAHV_2019": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "grey",
+      "white",
+      "silver"
+    ],
+    "weightInKg": 1659,
+    "samples": 7
+  },
+  "6J457_2014": {
+    "model": "MAZDA 6",
+    "bodyType": "Sedan",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1250,
+    "samples": 1
+  },
+  "NDAD7_2016": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "weightInKg": 1400,
+    "samples": 2
+  },
+  "BPAS7_2026": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "EVOLVE",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "NDAE7_2016": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1240,
+    "samples": 1
+  },
+  "UN346_2007": {
+    "model": "BT-50",
+    "bodyType": "Pick Up Double Cab",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "DLX",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1650,
+    "samples": 3
+  },
+  "UN236_2006": {
+    "model": "P 2200/PICK UP DOUBLE CABIN",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 0.75,
+    "color": "white",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "weightInKg": 1375,
+    "samples": 4
+  },
+  "HP82A_2009": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "grey",
+      "white",
+      "red"
+    ],
+    "weightInKg": 1292,
+    "samples": 5
+  },
+  "DMBAL_2022": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "CORE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "BM1T7_2015": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "R",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "weightInKg": 1800,
+    "samples": 3
+  },
+  "5L35E_2006": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "green",
+      "white"
+    ],
+    "weightInKg": 1600,
+    "samples": 3
+  },
+  "TC2WL_2017": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "dark blue",
+    "colors": [
+      "dark blue"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "BPADM_2010": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "BN1W3_2017": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "GW19S_1999": {
+    "model": "626",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver"
+    ],
+    "weightInKg": 1505,
+    "samples": 5
+  },
+  "BM1L7_2016": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "GF12S_1998": {
+    "model": "626",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "white"
+    ],
+    "weightInKg": 1450,
+    "samples": 2
+  },
+  "WG725_1998": {
+    "model": "MAZDA",
+    "bodyType": "Pickup",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "P",
+    "trim_confidence": 0.33,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue"
+    ],
+    "weightInKg": 2567,
+    "samples": 3
+  },
+  "TCBEY_2016": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1700,
+    "samples": 1
+  },
+  "BPAML_2021": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ALLURE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "gray and black"
+    ],
+    "weightInKg": 1350,
+    "samples": 2
+  },
+  "BJ123_2000": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "golden",
+      "black"
+    ],
+    "weightInKg": 1262,
+    "samples": 5
+  },
+  "NA351_1990": {
+    "model": "MX-5",
+    "bodyType": "COUPE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 0.83,
+    "color": "red",
+    "colors": [
+      "red",
+      "green"
+    ],
+    "weightInKg": 1054,
+    "samples": 6
+  },
+  "SK32E_2001": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1350,
+    "samples": 1
+  },
+  "GJ453_2006": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "weightInKg": 1350,
+    "samples": 2
+  },
+  "DMBCM_2025": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "URBANE",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black",
+      "red"
+    ],
+    "weightInKg": 3000,
+    "samples": 3
+  },
+  "BPAAL_2021": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 0.5,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1300,
+    "samples": 2
+  },
+  "DMBCM_2024": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ELITE",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "8K326_2006": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1280,
+    "samples": 2
+  },
+  "BM357_2016": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "BL1W5_2011": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GRAND TOURING (NON GCC)",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "GJ453_2015": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1972,
+    "samples": 3
+  },
+  "DE1HZ_2011": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": 1050,
+    "samples": 1
+  },
+  "SK31E_2005": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "BL15Z_2013": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V S/R",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "6632F_2007": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "maroon",
+    "colors": [
+      "maroon"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "GJ1W6_2014": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "TOURING (NON GCC)",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "GG443_2004": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "5K31E_2010": {
+    "model": "E2000",
+    "bodyType": "Van",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1800,
+    "samples": 1
+  },
+  "BPAKM_2024": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "EVOLVE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "KFBDM_2021": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "BPAH7_2026": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "INTENSE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "NC25F_2007": {
+    "model": "MX-5",
+    "bodyType": "Hard Top",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "0E3HY_2013": {
+    "model": "2",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "KFBCM_2019": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1400,
+    "samples": 1
+  },
+  "BL14Z_2011": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "red",
+      "black and silver"
+    ],
+    "weightInKg": 1633,
+    "samples": 5
+  },
+  "SK31E_2008": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "GJ4S3_2006": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver"
+    ],
+    "weightInKg": 1450,
+    "samples": 1
+  },
+  "BM1K7_2015": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "R",
+    "trim_confidence": 0.5,
+    "color": "white",
+    "colors": [
+      "white",
+      "silver"
+    ],
+    "weightInKg": 1250,
+    "samples": 2
+  },
+  "BN1K7_2018": {
+    "model": "M 3",
+    "bodyType": "Hatchback",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SALOON",
+    "trim_confidence": 0.5,
+    "color": "black",
+    "colors": [
+      "black",
+      "white"
+    ],
+    "weightInKg": 1300,
+    "samples": 2
+  },
+  "GG443_2003": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "BM0SZ_2015": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "R",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "KFBCM_2022": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "FO",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 2000,
+    "samples": 1
+  },
+  "NDAL7_2019": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1400,
+    "samples": 1
+  },
+  "BPACM_2023": {
+    "model": "MAZDA 3",
+    "bodyType": "Sedan",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "EVOLVE",
+    "trim_confidence": 0.5,
+    "color": "black",
+    "colors": [
+      "black",
+      "gray and black"
+    ],
+    "weightInKg": 1500,
+    "samples": 2
+  },
+  "KE2V7_2016": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "KF4WL_2024": {
+    "model": "CX 5",
+    "bodyType": "Station",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "EX",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "KFBBL_2025": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "IGNITE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1450,
+    "samples": 1
+  },
+  "BN1S7_2019": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "R",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "white",
+      "gray and black"
+    ],
+    "weightInKg": 1808,
+    "samples": 4
+  },
+  "BL1V7_2012": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1193,
+    "samples": 2
+  },
+  "TB38V_2009": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "maroon",
+    "colors": [
+      "maroon"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "TCBEY_2022": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SIGNATURE",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1700,
+    "samples": 1
+  },
+  "NC2FF_2011": {
+    "model": "MX-5",
+    "bodyType": "COUPE/CABRIOLET",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1219,
+    "samples": 1
+  },
+  "KF2W7_2017": {
+    "model": "CX 5",
+    "bodyType": "Station",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SV",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1400,
+    "samples": 1
+  },
+  "BM1L3_2015": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "V S/R",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "TCBDY_2021": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "0E260_1989": {
+    "model": "1989",
+    "bodyType": "Pickup",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 900,
+    "samples": 1
+  },
+  "TB3CV_2014": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "BPASA_2021": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "INTENSE",
+    "trim_confidence": 0.5,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "weightInKg": 1250,
+    "samples": 2
+  },
+  "8J123_2003": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "golden",
+    "colors": [
+      "golden"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "GH3WE_2012": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "03809_2009": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "CW2BL_2015": {
+    "model": "5",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD (NON GCC)",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1000,
+    "samples": 1
+  },
+  "KFBAY_2025": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "IGNITE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "TB2MA_2010": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "BL1VG_2011": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "TOURING (NON GCC)",
+    "trim_confidence": 1.0,
+    "color": "white / black",
+    "colors": [
+      "white / black"
+    ],
+    "weightInKg": 2630,
+    "samples": 1
+  },
+  "GL1UM_2021": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "R",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "grey"
+    ],
+    "weightInKg": 1550,
+    "samples": 2
+  },
+  "BJ32M_2004": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "silver"
+    ],
+    "weightInKg": 1100,
+    "samples": 2
+  },
+  "KE4VW_2016": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "KKEHA_2024": {
+    "model": "CX-90",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "PREMIIUM",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "DKBW7_2020": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1455,
+    "samples": 2
+  },
+  "DMBDL_2021": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "CORE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 2300,
+    "samples": 2
+  },
+  "GG343_2006": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "BP6S7_2022": {
+    "model": "MAZDA 3",
+    "bodyType": "Sedan",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1150,
+    "samples": 1
+  },
+  "TC4WL_2020": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1900,
+    "samples": 1
+  },
+  "GJ1W5_2014": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "TOURING (NON GCC)",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 2250,
+    "samples": 2
+  },
+  "BPBLM_2024": {
+    "model": "MAZDA3",
+    "bodyType": "SEDAN",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "NDAC7_2021": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "8K226_2006": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "golden"
+    ],
+    "weightInKg": 1100,
+    "samples": 2
+  },
+  "SD35E_2012": {
+    "model": "BT-50",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "BPALL_2022": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD (NON GCC)",
+    "trim_confidence": 1.0,
+    "color": "black and beige",
+    "colors": [
+      "black and beige"
+    ],
+    "weightInKg": 1300,
+    "samples": 1
+  },
+  "BPAKM_2025": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "beige",
+    "colors": [
+      "beige"
+    ],
+    "weightInKg": 1457,
+    "samples": 1
+  },
+  "GJ1T5_2015": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1300,
+    "samples": 1
+  },
+  "BA123_1998": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "BPALM_2023": {
+    "model": "MAZDA 3",
+    "bodyType": "Hatchback",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "PREFERRED",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "NDAE7_2018": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "blue"
+    ],
+    "weightInKg": 1340,
+    "samples": 2
+  },
+  "KFB27_2021": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "GJ453_2014": {
+    "model": "6",
+    "bodyType": "SALOON",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "weightInKg": 1368,
+    "samples": 2
+  },
+  "DMADL_2021": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "CORE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "6J1W6_2015": {
+    "model": "MAZDA 6",
+    "bodyType": "Sedan",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "MAZDA 6",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "DF3HY_2015": {
+    "model": "2",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "BN347_2018": {
+    "model": "MAZDA M3",
+    "bodyType": "Sedan",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "LE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "BP2S7_2023": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "EVOLVE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "TB3BA_2011": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": 1750,
+    "samples": 1
+  },
+  "BN1W3_2018": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "BL122_2008": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "UN232_2009": {
+    "model": "BT 50",
+    "bodyType": "PICK UP CARGO",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "BPBMY_2025": {
+    "model": "MAZDA 3",
+    "bodyType": "Hatchback",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "EVOLVE",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "BM1W7_2014": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": 1300,
+    "samples": 1
+  },
+  "KE2W2_2016": {
+    "model": "CX 5",
+    "bodyType": "Station",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "TB2CA_2015": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 2000,
+    "samples": 1
+  },
+  "6L4S3_2023": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1440,
+    "samples": 1
+  },
+  "GG323_2007": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "golden",
+    "colors": [
+      "golden"
+    ],
+    "weightInKg": 1475,
+    "samples": 1
+  },
+  "SK31E_2003": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "UN236_2011": {
+    "model": "BT 50",
+    "bodyType": "PICK UP DOUBLE CAB",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STANDARD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "NDAM7_2022": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1400,
+    "samples": 1
+  },
+  "UN236_2003": {
+    "model": "MAZDA P 2200",
+    "bodyType": "PICK UP DOUBLE CAB",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "BJ32M_2003": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "golden",
+    "colors": [
+      "golden",
+      "grey"
+    ],
+    "weightInKg": 1050,
+    "samples": 2
+  },
+  "EL157_2012": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "BK343_2008": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1282,
+    "samples": 1
+  },
+  "NDAE7_2017": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "BN1L3_2018": {
+    "model": "MAZDA 3",
+    "bodyType": "Hatchback",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "1",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "BL1L7_2012": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "DE1HY_2011": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1046,
+    "samples": 1
+  },
+  "DKFB7_2020": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GTL",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1550,
+    "samples": 1
+  },
+  "DMBAM_2023": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ELITE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "GF32S_1999": {
+    "model": "626",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "BPAB7_2021": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD (NON GCC)",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1450,
+    "samples": 1
+  },
+  "BM357_2015": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V S/R",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 2
+  },
+  "BM1W3_2015": {
+    "model": "3",
+    "bodyType": "SALOON",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "R",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "6H32F_2008": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red",
+      "blue"
+    ],
+    "weightInKg": 1350,
+    "samples": 2
+  },
+  "GG443_2005": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue",
+      "silver"
+    ],
+    "weightInKg": 1100,
+    "samples": 2
+  },
+  "GF12S_2001": {
+    "model": "626",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver",
+      "blue"
+    ],
+    "weightInKg": 1100,
+    "samples": 2
+  },
+  "UN216_2004": {
+    "model": "B3000",
+    "bodyType": "Pickup",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "CR293_2009": {
+    "model": "MX-5",
+    "bodyType": "COUPE/CABRIOLET",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "GL453_2020": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 2250,
+    "samples": 2
+  },
+  "NB353_2001": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1340,
+    "samples": 1
+  },
+  "DMBDM_2024": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ELITE",
+    "trim_confidence": 1.0,
+    "color": "beige",
+    "colors": [
+      "beige"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "KFBCM_2021": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1550,
+    "samples": 1
+  },
+  "8K346_2009": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "KKDHA_2024": {
+    "model": "CX-90",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "PREMIIUM",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "KKBHD_2024": {
+    "model": "CX-90",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "PREMIIUM",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "5L35E_2005": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1200,
+    "samples": 2
+  },
+  "NA351_2000": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "BL1U6_2011": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "BL1S2_2012": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": 1300,
+    "samples": 1
+  },
+  "KFAVL_2019": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "BM1V7_2015": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V S/R",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1150,
+    "samples": 1
+  },
+  "NDAD7_2019": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1650,
+    "samples": 1
+  },
+  "NDAE7_2026": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "SR32E_1999": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "BL1HZ_2014": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "DK326_2007": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "TCACY_2016": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 2000,
+    "samples": 1
+  },
+  "GH32F_2010": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "maroon",
+    "colors": [
+      "maroon"
+    ],
+    "weightInKg": 1300,
+    "samples": 1
+  },
+  "BPALM_2024": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ALLURE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "BM4SZ_2016": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "NA18C_1994": {
+    "model": "RX-7",
+    "bodyType": "COUPE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "green",
+    "colors": [
+      "green"
+    ],
+    "weightInKg": 1300,
+    "samples": 1
+  },
+  "DMBDM_2025": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "URBANE",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "DE3SY_2013": {
+    "model": "2",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey",
+      "silver"
+    ],
+    "weightInKg": 1250,
+    "samples": 2
+  },
+  "UN2F6_2014": {
+    "model": "MAZDA 50 BT",
+    "bodyType": "Pickup",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GZ",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1450,
+    "samples": 1
+  },
+  "TB3BV_2012": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 2062,
+    "samples": 1
+  },
+  "BPABM_2024": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ALLURE",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "KFBCL_2024": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "IGNITE",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "GH445_2010": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "UN232_2004": {
+    "model": "E2000",
+    "bodyType": "Pick Up",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "TE1MA_2015": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GTX LTD",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "BPASA_2022": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "EVOLVE",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "DMBDM_2021": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "CORE",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1800,
+    "samples": 1
+  },
+  "BM1S2_2015": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V S/R",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "BL122_2011": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "TCBCY_2016": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "8K326_2005": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1250,
+    "samples": 1
+  },
+  "BL1H5_2010": {
+    "model": "MAZDA 3",
+    "bodyType": "Hatchback",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SALOON",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "6L453_2020": {
+    "model": "MAZDA 6",
+    "bodyType": "Sedan",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STANDAR",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1250,
+    "samples": 1
+  },
+  "GL43S_2020": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1250,
+    "samples": 1
+  },
+  "BN1K7_2017": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1800,
+    "samples": 1
+  },
+  "BPAMM_2025": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "BA113_1997": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "DK8W7_2018": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "TB2MV_2010": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "Non-GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "UN346_2001": {
+    "model": "2001",
+    "bodyType": "Pickup Double Cabin",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "6J4S7_2016": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1300,
+    "samples": 1
+  },
+  "BJ32M_1999": {
+    "model": "323",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "black and red",
+    "colors": [
+      "black and red"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "MR62M_2020": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 2085,
+    "samples": 1
+  },
+  "DMACL_2021": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "CORE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "CZ02Z_2008": {
+    "model": "MX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "HZ8BH_2013": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1250,
+    "samples": 1
+  },
+  "BK343_2007": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver"
+    ],
+    "weightInKg": 900,
+    "samples": 1
+  },
+  "BPACM_2025": {
+    "model": "MAZDA 3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SE",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1400,
+    "samples": 1
+  },
+  "KFBCM_2020": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white",
+      "black"
+    ],
+    "weightInKg": 1525,
+    "samples": 2
+  },
+  "UN356_2008": {
+    "model": "BT-50",
+    "bodyType": "Pick Up Double Cab",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "green",
+    "colors": [
+      "green"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "GH39F_2008": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "H28CH_2012": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1300,
+    "samples": 1
+  },
+  "DMBEY_2022": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "CORE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "BPBMY_2024": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "FP80C_2005": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "UN2F6_2012": {
+    "model": "BT-50",
+    "bodyType": "Pick Up Double Cab",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "BN1M3_2018": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "R",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "BM1W7_2015": {
+    "model": "MAZDA",
+    "bodyType": "Sedan",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORTSLINE",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1300,
+    "samples": 1
+  },
+  "TB38A_2008": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1900,
+    "samples": 1
+  },
+  "DMBCM_2023": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ELITE",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1383,
+    "samples": 3
+  },
+  "PPAS7_2020": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "INTENSE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "BPAS7_2008": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "grey",
+    "colors": [
+      "grey"
+    ],
+    "weightInKg": 1395,
+    "samples": 1
+  },
+  "TB3CV_2015": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1600,
+    "samples": 1
+  },
+  "GLAS3_2025": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "PURE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "BL1TF_2013": {
+    "model": "3 SPORT",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "NDAD7_2020": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "STD",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "DK4W7_2020": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GTL",
+    "trim_confidence": 1.0,
+    "color": "pearl white",
+    "colors": [
+      "pearl white"
+    ],
+    "weightInKg": 2000,
+    "samples": 1
+  },
+  "NDAD7_2017": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "NDAM7_2019": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "TBIMA_2013": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1800,
+    "samples": 1
+  },
+  "BLTSZ_2012": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "44545_2014": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V S/R",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "DMBB7_2023": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "ELITE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "BPACL_2022": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "EVOLVE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "TC2WL_2018": {
+    "model": "CX-9",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "GS",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1800,
+    "samples": 1
+  },
+  "BM1S7_2015": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V S/R",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1300,
+    "samples": 1
+  },
+  "FD331_1993": {
+    "model": "RX-7",
+    "bodyType": "Coupe",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "4",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1265,
+    "samples": 1
+  },
+  "BPAHA_2021": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "GG23F_2007": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1100,
+    "samples": 1
+  },
+  "GF12S_2003": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver"
+    ],
+    "weightInKg": 1250,
+    "samples": 1
+  },
+  "DMAAL_2021": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "CORE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": 1430,
+    "samples": 1
+  },
+  "BPBCL_2021": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "EVOLVE",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1650,
+    "samples": 1
+  },
+  "YZ02Z_2006": {
+    "model": "TRIBUTE",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "STD (NON GCC)",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1500,
+    "samples": 1
+  },
+  "BPAKL_2021": {
+    "model": "MAZDA 3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SE",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "NDAC7_2016": {
+    "model": "MX-5",
+    "bodyType": "CONVERTIBLE",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "BM1L7_2015": {
+    "model": "6",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": 1200,
+    "samples": 1
+  },
+  "BPABL_2022": {
+    "model": "MAZDA 3 SEDAN",
+    "bodyType": "Sedan",
+    "cylinders": 0,
+    "regionalSpec": "GCC",
+    "trim": "SV",
+    "trim_confidence": 1.0,
+    "color": "gray and black",
+    "colors": [
+      "gray and black"
+    ],
+    "weightInKg": 1400,
+    "samples": 1
+  },
+  "DM2VV_2021": {
+    "model": "CX-30",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "URBANE",
+    "trim_confidence": 1.0,
+    "color": null,
+    "colors": [],
+    "weightInKg": 3000,
+    "samples": 1
+  },
+  "ND6EA_2016": {
+    "model": "MX-5",
+    "bodyType": "COUPE",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "SPORT",
+    "trim_confidence": 1.0,
+    "color": "gray",
+    "colors": [
+      "gray"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "GG34F_2004": {
+    "model": "6 ULTRA",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "GCC",
+    "trim": "1",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "BPAKL_2022": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "INTENSE",
+    "trim_confidence": 1.0,
+    "color": "silver",
+    "colors": [
+      "silver"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "KK2HD_2024": {
+    "model": "CX-5",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "IGNITE",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "VABBM_2024": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "red",
+    "colors": [
+      "red"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "BPBNM_2019": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "S PREFERRED",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "GL1VM_2018": {
+    "model": "6 ULTRA",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "S",
+    "trim_confidence": 1.0,
+    "color": "blue",
+    "colors": [
+      "blue"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "KK2HD_2025": {
+    "model": "CX-90",
+    "bodyType": "SUV",
+    "cylinders": 6,
+    "regionalSpec": "GCC",
+    "trim": "PREMIIUM",
+    "trim_confidence": 1.0,
+    "color": "gray",
+    "colors": [
+      "gray"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "BN1L7_2017": {
+    "model": "3",
+    "bodyType": "HATCHBACK",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "black",
+    "colors": [
+      "black",
+      "gray"
+    ],
+    "weightInKg": null,
+    "samples": 2
+  },
+  "NA353_1996": {
+    "model": "MX-5",
+    "bodyType": "COUPE",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": null,
+    "trim_confidence": null,
+    "color": "black",
+    "colors": [
+      "black"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "DKDB7_2021": {
+    "model": "CX-3",
+    "bodyType": "SUV",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "GT",
+    "trim_confidence": 1.0,
+    "color": "white",
+    "colors": [
+      "white"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "BK12G_2008": {
+    "model": "3",
+    "bodyType": "SEDAN",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": "V",
+    "trim_confidence": 1.0,
+    "color": "golden",
+    "colors": [
+      "golden"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  },
+  "NA353_1994": {
+    "model": "MX-5",
+    "bodyType": "COUPE",
+    "cylinders": 4,
+    "regionalSpec": "Non-GCC",
+    "trim": null,
+    "trim_confidence": null,
+    "color": "green",
+    "colors": [
+      "green"
+    ],
+    "weightInKg": null,
+    "samples": 1
+  }
+}
