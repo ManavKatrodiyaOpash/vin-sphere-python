@@ -7,6 +7,7 @@ from .styles import is_european_format
 # =====================================================
 
 bmw_patterns = load_brand_patterns("bmw")
+# audi_patterns = load_brand_patterns("audi")
 chevrolet_patterns = load_brand_patterns("chevrolet")
 ford_patterns = load_brand_patterns("ford")
 gmc_patterns = load_brand_patterns("gmc")
@@ -26,6 +27,51 @@ suzuki_patterns = load_brand_patterns("suzuki")
 tesla_patterns = load_brand_patterns("tesla")
 toyota_patterns = load_brand_patterns("toyota")
 volkswagen_patterns = load_brand_patterns("volkswagen")
+
+def _apply_pattern(vin, patterns, brand_name, result):
+    """Generic pattern engine: lookup VDS+year in brand patterns, inject fields, return hit bool."""
+    try:
+        current_year_int = int(result.get("model_year", 0))
+    except:
+        current_year_int = 0
+
+    vds_5 = vin[3:8]
+    lookup_key = f"{vds_5}_{current_year_int}"
+
+    if lookup_key not in patterns:
+        result["notes"].append(
+            f"{brand_name}: pattern not found in VDS database. Running structural rule decoder."
+        )
+        return False
+
+    p = patterns[lookup_key]
+    result["notes"].append(f"{brand_name} match found in Pattern Engine (VDS+Year Matrix).")
+
+    if p.get("model"):
+        result["series_line"] = p["model"]
+    if p.get("bodyType"):
+        result["body_type"] = p["bodyType"]
+    if p.get("cylinders"):
+        result["cylinder"] = str(p["cylinders"])
+    if p.get("regionalSpec"):
+        result["regional_space"] = p["regionalSpec"]
+    if p.get("trim"):
+        result["trim"] = p["trim"]
+    if p.get("color"):
+        result["color"] = p["color"]
+    if p.get("weightInKg"):
+        result["weight"] = str(p["weightInKg"])
+    if p.get("number_of_doors") or p.get("doors"):
+        result["number_of_doors"] = str(p.get("number_of_doors") or p.get("doors"))
+    if p.get("driveType") or p.get("drive_type"):
+        result["drive_type"] = p.get("drive_type") or p.get("driveType")
+    if p.get("Transmission") or p.get("transmission"):
+        result["Transmission"] = p.get("Transmission") or p.get("transmission")
+    if p.get("possible_trims"):
+        result["possible_trims_list"] = p["possible_trims"]
+
+    return True
+
 
 def decode_toyota(vin, rules, result):
     """Hybrid Toyota Decoder: Pattern Engine + Structural Fallback Decoder"""
@@ -72,92 +118,7 @@ def decode_toyota(vin, rules, result):
 
     lookup_key = f"{vds_5}_{current_year_int}"
 
-    if lookup_key in toyota_patterns:
-
-        pattern_rule = toyota_patterns[lookup_key]
-
-        result["notes"].append(
-            "Toyota Match Found in Pattern Engine (VDS+Year Matrix)."
-        )
-
-        result["series_line"] = (
-            pattern_rule.get("model")
-            or result["series_line"]
-        )
-
-        result["body_type"] = (
-            pattern_rule.get("bodyType")
-            or result["body_type"]
-        )
-
-        result["cylinder"] = (
-            str(pattern_rule.get("cylinders"))
-            if pattern_rule.get("cylinders")
-            else result["cylinder"]
-        )
-
-        result["regional_space"] = (
-            pattern_rule.get("regionalSpec")
-            or result["regional_space"]
-        )
-
-        result["trim"] = (
-            pattern_rule.get("trim")
-            or result["trim"]
-        )
-
-        result["color"] = (
-            pattern_rule.get("color")
-            or result["color"]
-        )
-
-        result["weight"] = (
-            str(pattern_rule.get("weightInKg"))
-            if pattern_rule.get("weightInKg")
-            else result["weight"]
-        )
-
-        # doors
-        if (
-            "doors" in pattern_rule
-            or "number_of_doors" in pattern_rule
-        ):
-            result["number_of_doors"] = str(
-                pattern_rule.get("number_of_doors")
-                or pattern_rule.get("doors")
-            )
-
-        # drive type
-        if (
-            "driveType" in pattern_rule
-            or "drive_type" in pattern_rule
-        ):
-            result["drive_type"] = (
-                pattern_rule.get("drive_type")
-                or pattern_rule.get("driveType")
-            )
-
-        # transmission
-        if (
-            "Transmission" in pattern_rule
-            or "transmission" in pattern_rule
-        ):
-            result["Transmission"] = (
-                pattern_rule.get("Transmission")
-                or pattern_rule.get("transmission")
-            )
-
-        # possible trims
-        if "possible_trims" in pattern_rule:
-            result["possible_trims_list"] = (
-                pattern_rule["possible_trims"]
-            )
-
-    else:
-
-        result["notes"].append(
-            "Pattern not found in VDS database. Running structural rule decoder."
-        )
+    _apply_pattern(vin, toyota_patterns, "Toyota", result)
 
     # -------------------------------------------------
     # STRUCTURAL FALLBACK DECODER
@@ -426,6 +387,13 @@ def decode_nissan(vin, rules, result):
     year_val = year_map.get(pos10)
     if year_val:
         result["model_year"] = str(year_val)
+
+    _apply_pattern(vin, nissan_patterns, "Nissan", result)
+
+    year_map = rules.get("position_10_model_year", {})
+    year_val = year_map.get(pos10)
+    if year_val:
+        result["model_year"] = str(year_val)
     model_year_int = int(year_val) if year_val else 0
 
     # is_truck_wmi: covers ALL truck/mpv/van type strings in Nissan JSON
@@ -549,6 +517,8 @@ def decode_bmw(vin, rules, result):
     pos4 = vin[3]; pos5 = vin[4]; pos6 = vin[5]
     pos7 = vin[6]; pos8 = vin[7]
 
+    _apply_pattern(vin, bmw_patterns, "BMW", result)
+
     p4 = rules.get("position_4_model_series", {}).get(pos4)
     if p4: result["series_line"] = p4
 
@@ -573,6 +543,8 @@ def decode_bmw(vin, rules, result):
 
 def decode_audi(vin, rules, result):
     pos7 = vin[6]; pos8 = vin[7]
+
+    _apply_pattern(vin, audi_patterns, "Audi", result)
 
     if is_european_format(vin):
         result["model_generation"] = "European Format — pos4-6: ZZZ filler (no data)"
@@ -605,6 +577,8 @@ def decode_hyundai(vin, rules, result):
     pos4 = vin[3]; pos5 = vin[4]; pos6 = vin[5]
     pos7 = vin[6]; pos8 = vin[7]; pos10 = vin[9]
     pos9 = vin[8]
+
+    _apply_pattern(vin, hyundai_patterns, "Hyundai", result)
 
     p4 = rules.get("position_4_model_line", {}).get(pos4)
     if p4: result["series_line"] = p4
@@ -722,6 +696,8 @@ def decode_hyundai(vin, rules, result):
 def decode_mercedes(vin, rules, result):
     pos7 = vin[6]; pos8 = vin[7]
 
+    _apply_pattern(vin, mercedes_benz_patterns, "Mercedes-Benz", result)
+
     if is_european_format(vin):
         result["model_generation"] = "European Format — pos4-6: ZZZ filler (no data)"
         euro = rules.get("euro_format", {})
@@ -753,6 +729,8 @@ def decode_ford(vin, rules, result):
     pos4 = vin[3]; pos5 = vin[4]; pos6 = vin[5]
     pos7 = vin[6]; pos8 = vin[7]
 
+    _apply_pattern(vin, ford_patterns, "Ford", result)
+
     p4 = rules.get("position_4_model_line", {}).get(pos4)
     if p4: result["series_line"] = p4
 
@@ -778,6 +756,8 @@ def decode_ford(vin, rules, result):
 def decode_volkswagen(vin, rules, result):
     pos7 = vin[6]; pos8 = vin[7]
 
+    _apply_pattern(vin, volkswagen_patterns, "Volkswagen", result)
+
     if is_european_format(vin):
         result["model_generation"] = "European Format — pos4-6: ZZZ filler (no data)"
         euro = rules.get("euro_format", {})
@@ -800,6 +780,89 @@ def decode_volkswagen(vin, rules, result):
         if p8: result["model_platform"] = p8
         result["notes"].append("VW US/Mexico-format VIN: full NHTSA pos4-8 encoding.")
     return result
+
+# =====================================================
+# PATTERN-ONLY DECODERS (no separate structural JSON)
+# =====================================================
+
+def decode_lexus(vin, rules, result):
+    _apply_pattern(vin, lexus_patterns, "Lexus", result)
+    p11 = rules.get("position_11_plant", {}).get(vin[10]) or rules.get("position_11_plants", {}).get(vin[10])
+    if p11: result["plant"] = p11
+    return result
+
+def decode_honda(vin, rules, result):
+    _apply_pattern(vin, honda_patterns, "Honda", result)
+    p11 = rules.get("position_11_plant", {}).get(vin[10]) or rules.get("position_11_plants", {}).get(vin[10])
+    if p11: result["plant"] = p11
+    return result
+
+def decode_kia(vin, rules, result):
+    _apply_pattern(vin, kia_patterns, "Kia", result)
+    p11 = rules.get("position_11_plant", {}).get(vin[10]) or rules.get("position_11_plants", {}).get(vin[10])
+    if p11: result["plant"] = p11
+    return result
+
+def decode_mitsubishi(vin, rules, result):
+    _apply_pattern(vin, mitsubishi_patterns, "Mitsubishi", result)
+    p11 = rules.get("position_11_plant", {}).get(vin[10]) or rules.get("position_11_plants", {}).get(vin[10])
+    if p11: result["plant"] = p11
+    return result
+
+def decode_chevrolet(vin, rules, result):
+    _apply_pattern(vin, chevrolet_patterns, "Chevrolet", result)
+    p11 = rules.get("position_11_plant", {}).get(vin[10]) or rules.get("position_11_plants", {}).get(vin[10])
+    if p11: result["plant"] = p11
+    return result
+
+def decode_gmc(vin, rules, result):
+    _apply_pattern(vin, gmc_patterns, "GMC", result)
+    p11 = rules.get("position_11_plant", {}).get(vin[10]) or rules.get("position_11_plants", {}).get(vin[10])
+    if p11: result["plant"] = p11
+    return result
+
+def decode_land_rover(vin, rules, result):
+    _apply_pattern(vin, land_rover_patterns, "Land Rover", result)
+    p11 = rules.get("position_11_plant", {}).get(vin[10]) or rules.get("position_11_plants", {}).get(vin[10])
+    if p11: result["plant"] = p11
+    return result
+
+def decode_suzuki(vin, rules, result):
+    _apply_pattern(vin, suzuki_patterns, "Suzuki", result)
+    p11 = rules.get("position_11_plant", {}).get(vin[10]) or rules.get("position_11_plants", {}).get(vin[10])
+    if p11: result["plant"] = p11
+    return result
+
+def decode_jeep(vin, rules, result):
+    _apply_pattern(vin, jeep_patterns, "Jeep", result)
+    p11 = rules.get("position_11_plant", {}).get(vin[10]) or rules.get("position_11_plants", {}).get(vin[10])
+    if p11: result["plant"] = p11
+    return result
+
+def decode_mazda(vin, rules, result):
+    _apply_pattern(vin, mazda_patterns, "Mazda", result)
+    p11 = rules.get("position_11_plant", {}).get(vin[10]) or rules.get("position_11_plants", {}).get(vin[10])
+    if p11: result["plant"] = p11
+    return result
+
+def decode_infiniti(vin, rules, result):
+    _apply_pattern(vin, infiniti_patterns, "Infiniti", result)
+    p11 = rules.get("position_11_plant", {}).get(vin[10]) or rules.get("position_11_plants", {}).get(vin[10])
+    if p11: result["plant"] = p11
+    return result
+
+def decode_tesla(vin, rules, result):
+    _apply_pattern(vin, tesla_patterns, "Tesla", result)
+    p11 = rules.get("position_11_plant", {}).get(vin[10]) or rules.get("position_11_plants", {}).get(vin[10])
+    if p11: result["plant"] = p11
+    return result
+
+def decode_jetour(vin, rules, result):
+    _apply_pattern(vin, jetour_patterns, "Jetour", result)
+    p11 = rules.get("position_11_plant", {}).get(vin[10]) or rules.get("position_11_plants", {}).get(vin[10])
+    if p11: result["plant"] = p11
+    return result
+
 
 # =====================================================
 # CORE DECODER — aligned with corrected JSON schema
@@ -881,7 +944,7 @@ def decode_vin(vin):
         result["model_year"] = str(year_val)
 
 
-    # ── NEW BRAND ROUTING ───────────────────────────
+    # ── BRAND ROUTING ───────────────────────────
     if mfr_name == "Toyota":
         result = decode_toyota(vin, rules, result)
     elif mfr_name == "Nissan":
@@ -898,6 +961,32 @@ def decode_vin(vin):
         result = decode_ford(vin, rules, result)
     elif mfr_name == "Volkswagen":
         result = decode_volkswagen(vin, rules, result)
+    elif mfr_name == "Lexus":
+        result = decode_lexus(vin, rules, result)
+    elif mfr_name == "Honda":
+        result = decode_honda(vin, rules, result)
+    elif mfr_name == "Kia":
+        result = decode_kia(vin, rules, result)
+    elif mfr_name == "Mitsubishi":
+        result = decode_mitsubishi(vin, rules, result)
+    elif mfr_name == "Chevrolet":
+        result = decode_chevrolet(vin, rules, result)
+    elif mfr_name == "GMC":
+        result = decode_gmc(vin, rules, result)
+    elif mfr_name == "Land Rover":
+        result = decode_land_rover(vin, rules, result)
+    elif mfr_name == "Suzuki":
+        result = decode_suzuki(vin, rules, result)
+    elif mfr_name == "Jeep":
+        result = decode_jeep(vin, rules, result)
+    elif mfr_name == "Mazda":
+        result = decode_mazda(vin, rules, result)
+    elif mfr_name == "Infiniti":
+        result = decode_infiniti(vin, rules, result)
+    elif mfr_name == "Tesla":
+        result = decode_tesla(vin, rules, result)
+    elif mfr_name == "Jetour":
+        result = decode_jetour(vin, rules, result)
     
     if result["plant"] == "Unknown":
         plant_lookup = rules.get("position_11_plant", {}).get(result["pos11"]) or rules.get("position_11_plants", {}).get(result["pos11"])
