@@ -18,7 +18,7 @@ st.set_page_config(
 @st.cache_data
 def load_toyota_patterns():
     """Loads the high-confidence statistical Toyota VDS patterns."""
-    json_file = "car_app_dev/toyota_vds_year_patterns_v3.json"
+    json_file = "../car_app_dev/toyota_vds_year_patterns_v3.json"
     with open(json_file, "r", encoding="utf-8") as f:
         return json.load(f)
     return {}
@@ -305,15 +305,15 @@ def get_manufacturer_file(vin):
         return None, None
     wmi = vin[:3]
     for fname, mfr in [
-        ("car_app_manav/nissan.json",     "Nissan"),
-        ("car_app_manav/toyota.json",     "Toyota"),
-        ("car_app_manav/honda.json",      "Honda"),
-        ("car_app_manav/bmw.json",        "BMW"),
-        ("car_app_manav/audi.json",       "Audi"),
-        ("car_app_manav/hyundai.json",    "Hyundai"),
-        ("car_app_manav/mercedes.json",   "Mercedes-Benz"),
-        ("car_app_manav/ford.json",       "Ford"),
-        ("car_app_manav/volkswagen.json", "Volkswagen"),
+        ("nissan.json",     "Nissan"),
+        ("toyota.json",     "Toyota"),
+        ("honda.json",      "Honda"),
+        ("bmw.json",        "BMW"),
+        ("audi.json",       "Audi"),
+        ("hyundai.json",    "Hyundai"),
+        ("mercedes.json",   "Mercedes-Benz"),
+        ("ford.json",       "Ford"),
+        ("volkswagen.json", "Volkswagen"),
     ]:
         rules = load_rules(fname)
         if rules and wmi in rules.get("wmi", {}):
@@ -370,6 +370,10 @@ def decode_toyota(vin, rules, result):
             result["drive_type"] = pattern_rule.get("drive_type") or pattern_rule.get("driveType")
         if "transmission" in pattern_rule or "Transmission" in pattern_rule:
             result["Transmission"] = pattern_rule.get("Transmission") or pattern_rule.get("transmission")
+        # if "color" in pattern_rule:
+        #     result["color"] = pattern_rule.get("color")
+        # if "weight" in pattern_rule:
+        #     result["weight"] = pattern_rule.get("weight")
         
         if "possible_trims" in pattern_rule:
             result["possible_trims_list"] = pattern_rule["possible_trims"]
@@ -899,7 +903,7 @@ if __name__ == "__main__":
                 
                 st.markdown(section("Vehicle Descriptor Section", rows), unsafe_allow_html=True)
 
-            with c2:
+
                 rows2 = info_row("Engine", r["engine"])
                 if r["restraint_system"] not in ["Unknown", "Not Available", None]:
                     rows2 += info_row("Restraint System", r["restraint_system"])
