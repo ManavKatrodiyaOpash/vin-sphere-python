@@ -1,7 +1,6 @@
 import streamlit as st
 import json
 import os
-import re
 
 st.set_page_config(
     page_title="VIN Decoder Pro",
