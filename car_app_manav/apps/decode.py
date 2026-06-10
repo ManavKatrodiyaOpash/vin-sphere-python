@@ -57,6 +57,8 @@ def _apply_pattern(vin, patterns, brand_name, result):
         result["regional_space"] = p["regionalSpec"]
     if p.get("trim"):
         result["trim"] = p["trim"]
+    if p.get("noOfPassengers"):
+        result["no_of_passengers"] = p["noOfPassengers"]
     if p.get("color"):
         result["color"] = p["color"]
     if p.get("weightInKg"):
@@ -920,7 +922,7 @@ def decode_vin(vin):
         "notes": [],
         
         "cylinder" : "Unknown", "color" : "Unknown", "weight" : "Unknown", 
-        "regional_space" : "Unknown", "no_of_passanger" : "Unknown"
+        "regional_space" : "Unknown", "no_of_passengers" : "Unknown"
     }
 
     if not rules:

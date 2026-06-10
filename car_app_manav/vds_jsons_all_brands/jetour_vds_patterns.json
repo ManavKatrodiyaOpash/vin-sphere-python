@@ -1,1293 +1,1378 @@
 {
-  "PBGGB_2024": {
-    "model": "DASHING",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUXURY",
-    "trim_confidence": 0.68,
-    "color": "black",
-    "colors": [
-      "black",
-      "white",
-      "grey",
-      "gray and black",
-      "blue"
-    ],
-    "weightInKg": 1716,
-    "samples": 1131
-  },
-  "DD24B_2025": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 0.91,
-    "color": "black",
-    "colors": [
-      "black",
-      "white",
-      "silver",
-      "blue",
-      "brown"
-    ],
-    "weightInKg": 1939,
-    "samples": 3181
-  },
-  "PBGFB_2023": {
-    "model": "X70",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 0.55,
-    "color": "white",
-    "colors": [
-      "white",
-      "blue",
-      "red",
-      "black",
-      "gray and black"
-    ],
-    "weightInKg": 1693,
-    "samples": 53
-  },
-  "PBGFB_2024": {
-    "model": "DASHING",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUXURY",
-    "trim_confidence": 0.37,
-    "color": "black",
-    "colors": [
-      "black",
-      "white",
-      "grey",
-      "gray and black",
-      "red"
-    ],
-    "weightInKg": 1902,
-    "samples": 202
-  },
-  "PBGJB_2024": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 0.8,
-    "color": "black",
-    "colors": [
-      "black",
-      "grey",
-      "blue",
-      "silver",
-      "gray and black"
-    ],
-    "weightInKg": 1870,
-    "samples": 1115
-  },
-  "DB21B_2023": {
-    "model": "X70S",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "STD",
-    "trim_confidence": 0.61,
-    "color": "white",
-    "colors": [
-      "white",
-      "black",
-      "blue",
-      "red",
-      "gray and black"
-    ],
-    "weightInKg": 1954,
-    "samples": 147
-  },
-  "DB21B_2026": {
-    "model": "X70 PLUS",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "COM",
-    "trim_confidence": 0.57,
-    "color": "black",
-    "colors": [
-      "black",
-      "white",
-      "grey",
-      "gray and black",
-      "green"
-    ],
-    "weightInKg": 1952,
-    "samples": 70
-  },
-  "DB21B_2022": {
-    "model": "X70S",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "STD",
-    "trim_confidence": 0.64,
-    "color": "blue",
-    "colors": [
-      "blue",
-      "white",
-      "black",
-      "pearl white",
-      "red"
-    ],
-    "weightInKg": 1731,
-    "samples": 36
-  },
-  "DB21B_2025": {
-    "model": "DASHING",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "STD",
-    "trim_confidence": 0.47,
-    "color": "black",
-    "colors": [
-      "black",
-      "white",
-      "grey",
-      "gray and black",
-      "green"
-    ],
-    "weightInKg": 1821,
-    "samples": 1024
-  },
-  "DD24B_2024": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 0.97,
-    "color": "black",
-    "colors": [
-      "black",
-      "grey",
-      "white",
-      "gray and black",
-      "golden"
-    ],
-    "weightInKg": 1873,
-    "samples": 62
-  },
-  "DB11B_2021": {
-    "model": "X90",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "TURBO",
-    "trim_confidence": 1.0,
-    "color": "black",
-    "colors": [
-      "black"
-    ],
-    "weightInKg": 1600,
-    "samples": 1
-  },
-  "GFBDL_2026": {
-    "model": "G700",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUXURY",
-    "trim_confidence": 0.87,
-    "color": "black",
-    "colors": [
-      "black",
-      "grey",
-      "white",
-      "brown",
-      "orange"
-    ],
-    "weightInKg": 2724,
-    "samples": 115
-  },
-  "PBGGB_2023": {
-    "model": "X70 PLUS",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "COM",
-    "trim_confidence": 0.5,
-    "color": "black",
-    "colors": [
-      "black",
-      "white",
-      "blue",
-      "grey",
-      "gray and black"
-    ],
-    "weightInKg": 1803,
-    "samples": 206
-  },
-  "PBGJB_2025": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 0.97,
-    "color": "black",
-    "colors": [
-      "black",
-      "blue",
-      "beige",
-      "silver",
-      "grey"
-    ],
-    "weightInKg": 1748,
-    "samples": 199
-  },
-  "DD24B_2026": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 0.83,
-    "color": "black",
-    "colors": [
-      "black",
-      "silver",
-      "white",
-      "brown",
-      "grey"
-    ],
-    "weightInKg": 2124,
-    "samples": 163
-  },
-  "PBGGB_2025": {
-    "model": "DASHING",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUXURY",
-    "trim_confidence": 0.79,
-    "color": "black",
-    "colors": [
-      "black",
-      "white",
-      "grey",
-      "gray and black",
-      "green"
-    ],
-    "weightInKg": 1605,
-    "samples": 48
-  },
-  "DB21B_2024": {
-    "model": "DASHING",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUXURY",
-    "trim_confidence": 0.4,
-    "color": "black",
-    "colors": [
-      "black",
-      "white",
-      "gray and black",
-      "grey",
-      "blue"
-    ],
-    "weightInKg": 1752,
-    "samples": 58
-  },
-  "D8218_2025": {
-    "model": "DASHING",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "STD",
-    "trim_confidence": 0.67,
-    "color": "gray and black",
-    "colors": [
-      "gray and black",
-      "white",
-      "grey"
-    ],
-    "weightInKg": 1503,
-    "samples": 3
-  },
-  "F4J16_2024": {
-    "model": "DASHING",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUXURY",
-    "trim_confidence": 0.43,
-    "color": "black",
-    "colors": [
-      "black",
-      "gray and black",
-      "white"
-    ],
-    "weightInKg": 1658,
-    "samples": 7
-  },
-  "BBDEL_2025": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 0.94,
-    "color": "black",
-    "colors": [
-      "black",
-      "silver",
-      "white",
-      "blue",
-      "grey"
-    ],
-    "weightInKg": 2015,
-    "samples": 69
-  },
-  "F4J20_2025": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 0.39,
-    "color": "black",
-    "colors": [
-      "black",
-      "blue",
-      "brown",
-      "gray and black",
-      "white"
-    ],
-    "weightInKg": 1979,
-    "samples": 25
-  },
-  "BDDEN_2025": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 0.96,
-    "color": "white",
-    "colors": [
-      "white",
-      "black",
-      "silver",
-      "gray and black",
-      "white / black"
-    ],
-    "weightInKg": 1875,
-    "samples": 24
-  },
-  "DB24B_2025": {
-    "model": "X90 PLUS",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUXURY",
-    "trim_confidence": 0.94,
-    "color": "black",
-    "colors": [
-      "black",
-      "white",
-      "grey",
-      "gray and black",
-      "blue"
-    ],
-    "weightInKg": 1741,
-    "samples": 78
-  },
-  "BDDEN_2026": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 0.92,
-    "color": "black",
-    "colors": [
-      "black",
-      "silver",
-      "white"
-    ],
-    "weightInKg": 1852,
-    "samples": 24
-  },
-  "W0WW0_2025": {
-    "model": "X50",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "PREMIUM",
-    "trim_confidence": 1.0,
-    "color": null,
-    "colors": [],
-    "weightInKg": 3000,
-    "samples": 1
-  },
-  "PBECB_2024": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 1.0,
-    "color": "black",
-    "colors": [
-      "black",
-      "grey",
-      "gray and black",
-      "silver",
-      "gray"
-    ],
-    "weightInKg": 1755,
-    "samples": 45
-  },
-  "PBGGB_2022": {
-    "model": "DASHING",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "STD",
-    "trim_confidence": 0.5,
-    "color": "black",
-    "colors": [
-      "black",
-      "grey"
-    ],
-    "weightInKg": 1580,
-    "samples": 2
-  },
-  "52222_2025": {
-    "model": "T1",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "STD",
-    "trim_confidence": 1.0,
-    "color": null,
-    "colors": [],
-    "weightInKg": 3000,
-    "samples": 1
-  },
-  "DB21B_2021": {
-    "model": "X70S",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "STD",
-    "trim_confidence": 0.67,
-    "color": "black",
-    "colors": [
-      "black",
-      "blue",
-      "brown",
-      "white"
-    ],
-    "weightInKg": 1802,
-    "samples": 12
-  },
-  "H4JZD_2026": {
-    "model": "G700",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "FLAGSHIP",
-    "trim_confidence": 1.0,
-    "color": "black",
-    "colors": [
-      "black"
-    ],
-    "weightInKg": null,
-    "samples": 1
-  },
-  "BBDEL_2026": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 1.0,
-    "color": "white",
-    "colors": [
-      "white",
-      "black"
-    ],
-    "weightInKg": 1889,
-    "samples": 4
-  },
-  "P86J8_2024": {
-    "model": "T2",
-    "bodyType": "Station",
-    "cylinders": 0,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 0.5,
-    "color": "black",
-    "colors": [
-      "black"
-    ],
-    "weightInKg": 1900,
-    "samples": 2
-  },
-  "BDDEN_2024": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 1.0,
-    "color": "black",
-    "colors": [
-      "black",
-      "gray and black",
-      "white"
-    ],
-    "weightInKg": 1782,
-    "samples": 7
-  },
-  "PBGFB_2022": {
-    "model": "X70S",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "STD",
-    "trim_confidence": 0.69,
-    "color": "white",
-    "colors": [
-      "white",
-      "black"
-    ],
-    "weightInKg": 1509,
-    "samples": 13
-  },
-  "PBDYB_2025": {
-    "model": "X70",
-    "bodyType": "Station",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 1.0,
-    "color": "white",
-    "colors": [
-      "white"
-    ],
-    "weightInKg": 1900,
-    "samples": 1
-  },
-  "DD248_2025": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 0.6,
-    "color": "black",
-    "colors": [
-      "black",
-      "white"
-    ],
-    "weightInKg": 2061,
-    "samples": 10
-  },
-  "EDDFS_2025": {
-    "model": "G700",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "COMFORT",
-    "trim_confidence": 0.4,
-    "color": "black",
-    "colors": [
-      "black"
-    ],
-    "weightInKg": 2280,
-    "samples": 5
-  },
-  "DB24B_2024": {
-    "model": "X90 PLUS",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUXURY",
-    "trim_confidence": 1.0,
-    "color": "grey",
-    "colors": [
-      "grey",
-      "gray and black",
-      "black"
-    ],
-    "weightInKg": 1972,
-    "samples": 5
-  },
-  "H4J15_2026": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 0.5,
-    "color": "black",
-    "colors": [
-      "black",
-      "white"
-    ],
-    "weightInKg": null,
-    "samples": 2
-  },
-  "F4J16_2025": {
-    "model": "DASHING",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "STD",
-    "trim_confidence": 0.33,
-    "color": "white",
-    "colors": [
-      "white",
-      "black",
-      "green",
-      "gray and black",
-      "grey"
-    ],
-    "weightInKg": 1520,
-    "samples": 15
-  },
-  "D8218_2026": {
-    "model": "X70",
-    "bodyType": "Station",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "FL",
-    "trim_confidence": 1.0,
-    "color": "white",
-    "colors": [
-      "white"
-    ],
-    "weightInKg": 1560,
-    "samples": 1
-  },
-  "P8668_2024": {
-    "model": "X 70 PLUS",
-    "bodyType": "Station",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "000",
-    "trim_confidence": 0.5,
-    "color": "white",
-    "colors": [
-      "white"
-    ],
-    "weightInKg": 2095,
-    "samples": 2
-  },
-  "PBGLB_2025": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 1.0,
-    "color": null,
-    "colors": [],
-    "weightInKg": 3000,
-    "samples": 1
-  },
-  "DB218_2025": {
-    "model": "DASHING",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUXURY",
-    "trim_confidence": 0.43,
-    "color": "white",
-    "colors": [
-      "white"
-    ],
-    "weightInKg": 2774,
-    "samples": 7
-  },
-  "F4J20_2026": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUXURY PLUS",
-    "trim_confidence": 0.55,
-    "color": "black",
-    "colors": [
-      "black",
-      "silver",
-      "green"
-    ],
-    "weightInKg": 2630,
-    "samples": 11
-  },
-  "BBDEE_2026": {
-    "model": "T1",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "COMFORT",
-    "trim_confidence": 1.0,
-    "color": "silver",
-    "colors": [
-      "silver"
-    ],
-    "weightInKg": null,
-    "samples": 1
-  },
-  "DD248_2026": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 1.0,
-    "color": "white",
-    "colors": [
-      "white"
-    ],
-    "weightInKg": 2450,
-    "samples": 1
-  },
-  "0B21B_2026": {
-    "model": "DASHING",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUXURY",
-    "trim_confidence": 1.0,
-    "color": "grey",
-    "colors": [
-      "grey"
-    ],
-    "weightInKg": null,
-    "samples": 1
-  },
-  "H4J20_2026": {
-    "model": "G700",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "COMFORT",
-    "trim_confidence": 0.5,
-    "color": "black",
-    "colors": [
-      "black",
-      "white",
-      "blue",
-      "dark blue"
-    ],
-    "weightInKg": 1500,
-    "samples": 12
-  },
-  "PBGJB_2023": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "COM",
-    "trim_confidence": 0.82,
-    "color": "black",
-    "colors": [
-      "black",
-      "grey",
-      "gray and black",
-      "blue"
-    ],
-    "weightInKg": 1561,
-    "samples": 17
-  },
-  "PBATB_2023": {
-    "model": "DASHING",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "COM",
-    "trim_confidence": 1.0,
-    "color": "white",
-    "colors": [
-      "white"
-    ],
-    "weightInKg": 1600,
-    "samples": 1
-  },
-  "CBKEL_2026": {
-    "model": "F700",
-    "bodyType": "SUV",
-    "cylinders": 0,
-    "regionalSpec": "GCC",
-    "trim": "STD",
-    "trim_confidence": 0.5,
-    "color": "white",
-    "colors": [
-      "white"
-    ],
-    "weightInKg": 1446,
-    "samples": 2
-  },
-  "PBG6B_2024": {
-    "model": "DASHING",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUXURY",
-    "trim_confidence": 1.0,
-    "color": "white",
-    "colors": [
-      "white"
-    ],
-    "weightInKg": 2000,
-    "samples": 1
-  },
-  "EDDEN_2025": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "COM",
-    "trim_confidence": 1.0,
-    "color": "grey",
-    "colors": [
-      "grey"
-    ],
-    "weightInKg": null,
-    "samples": 1
-  },
-  "F4J02_2025": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 1.0,
-    "color": "brown",
-    "colors": [
-      "brown"
-    ],
-    "weightInKg": 1600,
-    "samples": 1
-  },
-  "0024B_2024": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 1.0,
-    "color": null,
-    "colors": [],
-    "weightInKg": 3000,
-    "samples": 1
-  },
-  "BBDEL_2024": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 1.0,
-    "color": "black",
-    "colors": [
-      "black",
-      "grey"
-    ],
-    "weightInKg": 1945,
-    "samples": 3
-  },
-  "EQAMF_2025": {
-    "model": "X 50",
-    "bodyType": "Station",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "1551",
-    "trim_confidence": 1.0,
-    "color": "white",
-    "colors": [
-      "white"
-    ],
-    "weightInKg": 1420,
-    "samples": 1
-  },
-  "DD24V_2025": {
-    "model": "T 2",
-    "bodyType": "SUV",
-    "cylinders": 0,
-    "regionalSpec": "GCC",
-    "trim": "S",
-    "trim_confidence": 1.0,
-    "color": "black",
-    "colors": [
-      "black"
-    ],
-    "weightInKg": 1800,
-    "samples": 1
-  },
-  "BBDEE_2025": {
-    "model": "T1",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "STD",
-    "trim_confidence": 1.0,
-    "color": "white",
-    "colors": [
-      "white"
-    ],
-    "weightInKg": 1300,
-    "samples": 1
-  },
-  "DB24B_2026": {
-    "model": "T1",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUXURY",
-    "trim_confidence": 1.0,
-    "color": "black",
-    "colors": [
-      "black"
-    ],
-    "weightInKg": null,
-    "samples": 1
-  },
-  "OB21B_2026": {
-    "model": "DASHING",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUXURY",
-    "trim_confidence": 1.0,
-    "color": "grey",
-    "colors": [
-      "grey"
-    ],
-    "weightInKg": null,
-    "samples": 1
-  },
-  "F4J20_2024": {
-    "model": "T 2",
-    "bodyType": "Station",
-    "cylinders": null,
-    "regionalSpec": null,
-    "trim": null,
-    "trim_confidence": null,
-    "color": "black",
-    "colors": [
-      "black"
-    ],
-    "weightInKg": 2450,
-    "samples": 1
-  },
-  "PBECB_2025": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 1.0,
-    "color": "blue",
-    "colors": [
-      "blue"
-    ],
-    "weightInKg": 1800,
-    "samples": 1
-  },
-  "F4J20_2006": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": null,
-    "trim_confidence": null,
-    "color": "gray and black",
-    "colors": [
-      "gray and black"
-    ],
-    "weightInKg": 2450,
-    "samples": 1
-  },
-  "PBGJ8_2024": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 1.0,
-    "color": "gray and black",
-    "colors": [
-      "gray and black"
-    ],
-    "weightInKg": 1800,
-    "samples": 1
-  },
-  "P86F8_2023": {
-    "model": "X70",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "COM",
-    "trim_confidence": 1.0,
-    "color": "blue",
-    "colors": [
-      "blue"
-    ],
-    "weightInKg": 1600,
-    "samples": 1
-  },
-  "DB211_2025": {
-    "model": "DASHING",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUXURY",
-    "trim_confidence": 1.0,
-    "color": null,
-    "colors": [],
-    "weightInKg": 3000,
-    "samples": 1
-  },
-  "DB218_2023": {
-    "model": "X70",
-    "bodyType": "Light Vehicle",
-    "cylinders": null,
-    "regionalSpec": null,
-    "trim": null,
-    "trim_confidence": null,
-    "color": "white",
-    "colors": [
-      "white"
-    ],
-    "weightInKg": 2100,
-    "samples": 1
-  },
-  "F4J16_2026": {
-    "model": "X70",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "FL",
-    "trim_confidence": 1.0,
-    "color": "grey",
-    "colors": [
-      "grey"
-    ],
-    "weightInKg": null,
-    "samples": 1
-  },
-  "GFBDL_2025": {
-    "model": "G700",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUXURY",
-    "trim_confidence": 1.0,
-    "color": "white",
-    "colors": [
-      "white"
-    ],
-    "weightInKg": null,
-    "samples": 1
-  },
-  "PBGG8_2024": {
-    "model": "X70 PLUS",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "COM",
-    "trim_confidence": 1.0,
-    "color": "black",
-    "colors": [
-      "black"
-    ],
-    "weightInKg": 1100,
-    "samples": 1
-  },
-  "79P2N_2023": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "COM",
-    "trim_confidence": 1.0,
-    "color": "white / black",
-    "colors": [
-      "white / black"
-    ],
-    "weightInKg": 1700,
-    "samples": 1
-  },
-  "PBGGG_2024": {
-    "model": "DASHING",
-    "bodyType": "Station",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUXURY",
-    "trim_confidence": 1.0,
-    "color": "black",
-    "colors": [
-      "black"
-    ],
-    "weightInKg": 2000,
-    "samples": 1
-  },
-  "PB668_2023": {
-    "model": "DASHING",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "COM",
-    "trim_confidence": 1.0,
-    "color": "black",
-    "colors": [
-      "black"
-    ],
-    "weightInKg": 1560,
-    "samples": 1
-  },
-  "DD21B_2025": {
-    "model": "DASHING",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "Non-GCC",
-    "trim": "LUXURY",
-    "trim_confidence": 1.0,
-    "color": "gray",
-    "colors": [
-      "gray"
-    ],
-    "weightInKg": null,
-    "samples": 1
-  },
-  "DSRET_2025": {
-    "model": "X70",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "FL",
-    "trim_confidence": 1.0,
-    "color": null,
-    "colors": [],
-    "weightInKg": 3000,
-    "samples": 1
-  },
-  "P8GJB_2024": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 1.0,
-    "color": "gray and black",
-    "colors": [
-      "gray and black"
-    ],
-    "weightInKg": 1550,
-    "samples": 1
-  },
-  "33B12_2024": {
-    "model": "L7ULTRA/STATION",
-    "bodyType": "SUV",
-    "cylinders": 0,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 1.0,
-    "color": "black",
-    "colors": [
-      "black"
-    ],
-    "weightInKg": 2000,
-    "samples": 1
-  },
-  "P86F8_2024": {
-    "model": "X70",
-    "bodyType": "Station",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "COM",
-    "trim_confidence": 1.0,
-    "color": "black",
-    "colors": [
-      "black"
-    ],
-    "weightInKg": 1250,
-    "samples": 1
-  },
-  "FBGGB_2023": {
-    "model": "X70 PLUS",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 1.0,
-    "color": "white",
-    "colors": [
-      "white"
-    ],
-    "weightInKg": 1560,
-    "samples": 1
-  },
-  "PBEAB_2024": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 1.0,
-    "color": "grey",
-    "colors": [
-      "grey"
-    ],
-    "weightInKg": 1400,
-    "samples": 1
-  },
-  "CP515_2022": {
-    "model": "X70",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "TURBO",
-    "trim_confidence": 1.0,
-    "color": null,
-    "colors": [],
-    "weightInKg": 3000,
-    "samples": 1
-  },
-  "3E7EK_2025": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 1.0,
-    "color": "black",
-    "colors": [
-      "black"
-    ],
-    "weightInKg": 2000,
-    "samples": 1
-  },
-  "92RBC_2024": {
-    "model": "T2",
-    "bodyType": "SUV",
-    "cylinders": 4,
-    "regionalSpec": "GCC",
-    "trim": "LUX",
-    "trim_confidence": 1.0,
-    "color": "white",
-    "colors": [
-      "white"
-    ],
-    "weightInKg": 2630,
-    "samples": 1
-  }
+    "PBGGB_2024": {
+        "model": "DASHING",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUXURY",
+        "trim_confidence": 0.68,
+        "color": "black",
+        "colors": [
+            "black",
+            "white",
+            "grey",
+            "gray and black",
+            "blue"
+        ],
+        "weightInKg": 1716,
+        "samples": 1131,
+        "noOfPassengers": 5
+    },
+    "DD24B_2025": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 0.91,
+        "color": "black",
+        "colors": [
+            "black",
+            "white",
+            "silver",
+            "blue",
+            "brown"
+        ],
+        "weightInKg": 1939,
+        "samples": 3181,
+        "noOfPassengers": 5
+    },
+    "PBGFB_2023": {
+        "model": "X70",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 0.55,
+        "color": "white",
+        "colors": [
+            "white",
+            "blue",
+            "red",
+            "black",
+            "gray and black"
+        ],
+        "weightInKg": 1693,
+        "samples": 53,
+        "noOfPassengers": 7
+    },
+    "PBGFB_2024": {
+        "model": "DASHING",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUXURY",
+        "trim_confidence": 0.37,
+        "color": "black",
+        "colors": [
+            "black",
+            "white",
+            "grey",
+            "gray and black",
+            "red"
+        ],
+        "weightInKg": 1902,
+        "samples": 202,
+        "noOfPassengers": 5
+    },
+    "PBGJB_2024": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 0.8,
+        "color": "black",
+        "colors": [
+            "black",
+            "grey",
+            "blue",
+            "silver",
+            "gray and black"
+        ],
+        "weightInKg": 1870,
+        "samples": 1115,
+        "noOfPassengers": 5
+    },
+    "DB21B_2023": {
+        "model": "X70S",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "STD",
+        "trim_confidence": 0.61,
+        "color": "white",
+        "colors": [
+            "white",
+            "black",
+            "blue",
+            "red",
+            "gray and black"
+        ],
+        "weightInKg": 1954,
+        "samples": 147,
+        "noOfPassengers": 7
+    },
+    "DB21B_2026": {
+        "model": "X70 PLUS",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "COM",
+        "trim_confidence": 0.57,
+        "color": "black",
+        "colors": [
+            "black",
+            "white",
+            "grey",
+            "gray and black",
+            "green"
+        ],
+        "weightInKg": 1952,
+        "samples": 70,
+        "noOfPassengers": 5
+    },
+    "DB21B_2022": {
+        "model": "X70S",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "STD",
+        "trim_confidence": 0.64,
+        "color": "blue",
+        "colors": [
+            "blue",
+            "white",
+            "black",
+            "pearl white",
+            "red"
+        ],
+        "weightInKg": 1731,
+        "samples": 36,
+        "noOfPassengers": 7
+    },
+    "DB21B_2025": {
+        "model": "DASHING",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "STD",
+        "trim_confidence": 0.47,
+        "color": "black",
+        "colors": [
+            "black",
+            "white",
+            "grey",
+            "gray and black",
+            "green"
+        ],
+        "weightInKg": 1821,
+        "samples": 1024,
+        "noOfPassengers": 5
+    },
+    "DD24B_2024": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 0.97,
+        "color": "black",
+        "colors": [
+            "black",
+            "grey",
+            "white",
+            "gray and black",
+            "golden"
+        ],
+        "weightInKg": 1873,
+        "samples": 62,
+        "noOfPassengers": 5
+    },
+    "DB11B_2021": {
+        "model": "X90",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "TURBO",
+        "trim_confidence": 1.0,
+        "color": "black",
+        "colors": [
+            "black"
+        ],
+        "weightInKg": 1600,
+        "samples": 1,
+        "noOfPassengers": 7
+    },
+    "GFBDL_2026": {
+        "model": "G700",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUXURY",
+        "trim_confidence": 0.87,
+        "color": "black",
+        "colors": [
+            "black",
+            "grey",
+            "white",
+            "brown",
+            "orange"
+        ],
+        "weightInKg": 2724,
+        "samples": 115,
+        "noOfPassengers": 6
+    },
+    "PBGGB_2023": {
+        "model": "X70 PLUS",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "COM",
+        "trim_confidence": 0.5,
+        "color": "black",
+        "colors": [
+            "black",
+            "white",
+            "blue",
+            "grey",
+            "gray and black"
+        ],
+        "weightInKg": 1803,
+        "samples": 206,
+        "noOfPassengers": 7
+    },
+    "PBGJB_2025": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 0.97,
+        "color": "black",
+        "colors": [
+            "black",
+            "blue",
+            "beige",
+            "silver",
+            "grey"
+        ],
+        "weightInKg": 1748,
+        "samples": 199,
+        "noOfPassengers": 5
+    },
+    "DD24B_2026": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 0.83,
+        "color": "black",
+        "colors": [
+            "black",
+            "silver",
+            "white",
+            "brown",
+            "grey"
+        ],
+        "weightInKg": 2124,
+        "samples": 163,
+        "noOfPassengers": 5
+    },
+    "PBGGB_2025": {
+        "model": "DASHING",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUXURY",
+        "trim_confidence": 0.79,
+        "color": "black",
+        "colors": [
+            "black",
+            "white",
+            "grey",
+            "gray and black",
+            "green"
+        ],
+        "weightInKg": 1605,
+        "samples": 48,
+        "noOfPassengers": 5
+    },
+    "DB21B_2024": {
+        "model": "DASHING",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUXURY",
+        "trim_confidence": 0.4,
+        "color": "black",
+        "colors": [
+            "black",
+            "white",
+            "gray and black",
+            "grey",
+            "blue"
+        ],
+        "weightInKg": 1752,
+        "samples": 58,
+        "noOfPassengers": 5
+    },
+    "D8218_2025": {
+        "model": "DASHING",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "STD",
+        "trim_confidence": 0.67,
+        "color": "gray and black",
+        "colors": [
+            "gray and black",
+            "white",
+            "grey"
+        ],
+        "weightInKg": 1503,
+        "samples": 3,
+        "noOfPassengers": 5
+    },
+    "F4J16_2024": {
+        "model": "DASHING",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUXURY",
+        "trim_confidence": 0.43,
+        "color": "black",
+        "colors": [
+            "black",
+            "gray and black",
+            "white"
+        ],
+        "weightInKg": 1658,
+        "samples": 7,
+        "noOfPassengers": 5
+    },
+    "BBDEL_2025": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 0.94,
+        "color": "black",
+        "colors": [
+            "black",
+            "silver",
+            "white",
+            "blue",
+            "grey"
+        ],
+        "weightInKg": 2015,
+        "samples": 69,
+        "noOfPassengers": 5
+    },
+    "F4J20_2025": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 0.39,
+        "color": "black",
+        "colors": [
+            "black",
+            "blue",
+            "brown",
+            "gray and black",
+            "white"
+        ],
+        "weightInKg": 1979,
+        "samples": 25,
+        "noOfPassengers": 5
+    },
+    "BDDEN_2025": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 0.96,
+        "color": "white",
+        "colors": [
+            "white",
+            "black",
+            "silver",
+            "gray and black",
+            "white / black"
+        ],
+        "weightInKg": 1875,
+        "samples": 24,
+        "noOfPassengers": 5
+    },
+    "DB24B_2025": {
+        "model": "X90 PLUS",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUXURY",
+        "trim_confidence": 0.94,
+        "color": "black",
+        "colors": [
+            "black",
+            "white",
+            "grey",
+            "gray and black",
+            "blue"
+        ],
+        "weightInKg": 1741,
+        "samples": 78,
+        "noOfPassengers": 7
+    },
+    "BDDEN_2026": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 0.92,
+        "color": "black",
+        "colors": [
+            "black",
+            "silver",
+            "white"
+        ],
+        "weightInKg": 1852,
+        "samples": 24,
+        "noOfPassengers": 5
+    },
+    "W0WW0_2025": {
+        "model": "X50",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "PREMIUM",
+        "trim_confidence": 1.0,
+        "color": null,
+        "colors": [],
+        "weightInKg": 3000,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "PBECB_2024": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 1.0,
+        "color": "black",
+        "colors": [
+            "black",
+            "grey",
+            "gray and black",
+            "silver",
+            "gray"
+        ],
+        "weightInKg": 1755,
+        "samples": 45,
+        "noOfPassengers": 5
+    },
+    "PBGGB_2022": {
+        "model": "DASHING",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "STD",
+        "trim_confidence": 0.5,
+        "color": "black",
+        "colors": [
+            "black",
+            "grey"
+        ],
+        "weightInKg": 1580,
+        "samples": 2,
+        "noOfPassengers": 5
+    },
+    "52222_2025": {
+        "model": "T1",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "STD",
+        "trim_confidence": 1.0,
+        "color": null,
+        "colors": [],
+        "weightInKg": 3000,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "DB21B_2021": {
+        "model": "X70S",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "STD",
+        "trim_confidence": 0.67,
+        "color": "black",
+        "colors": [
+            "black",
+            "blue",
+            "brown",
+            "white"
+        ],
+        "weightInKg": 1802,
+        "samples": 12,
+        "noOfPassengers": 7
+    },
+    "H4JZD_2026": {
+        "model": "G700",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "FLAGSHIP",
+        "trim_confidence": 1.0,
+        "color": "black",
+        "colors": [
+            "black"
+        ],
+        "weightInKg": null,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "BBDEL_2026": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 1.0,
+        "color": "white",
+        "colors": [
+            "white",
+            "black"
+        ],
+        "weightInKg": 1889,
+        "samples": 4,
+        "noOfPassengers": 5
+    },
+    "P86J8_2024": {
+        "model": "T2",
+        "bodyType": "Station",
+        "cylinders": 0,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 0.5,
+        "color": "black",
+        "colors": [
+            "black"
+        ],
+        "weightInKg": 1900,
+        "samples": 2,
+        "noOfPassengers": 5
+    },
+    "BDDEN_2024": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 1.0,
+        "color": "black",
+        "colors": [
+            "black",
+            "gray and black",
+            "white"
+        ],
+        "weightInKg": 1782,
+        "samples": 7,
+        "noOfPassengers": 5
+    },
+    "PBGFB_2022": {
+        "model": "X70S",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "STD",
+        "trim_confidence": 0.69,
+        "color": "white",
+        "colors": [
+            "white",
+            "black"
+        ],
+        "weightInKg": 1509,
+        "samples": 13,
+        "noOfPassengers": 7
+    },
+    "PBDYB_2025": {
+        "model": "X70",
+        "bodyType": "Station",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 1.0,
+        "color": "white",
+        "colors": [
+            "white"
+        ],
+        "weightInKg": 1900,
+        "samples": 1,
+        "noOfPassengers": 7
+    },
+    "DD248_2025": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 0.6,
+        "color": "black",
+        "colors": [
+            "black",
+            "white"
+        ],
+        "weightInKg": 2061,
+        "samples": 10,
+        "noOfPassengers": 5
+    },
+    "EDDFS_2025": {
+        "model": "G700",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "COMFORT",
+        "trim_confidence": 0.4,
+        "color": "black",
+        "colors": [
+            "black"
+        ],
+        "weightInKg": 2280,
+        "samples": 5,
+        "noOfPassengers": 5
+    },
+    "DB24B_2024": {
+        "model": "X90 PLUS",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUXURY",
+        "trim_confidence": 1.0,
+        "color": "grey",
+        "colors": [
+            "grey",
+            "gray and black",
+            "black"
+        ],
+        "weightInKg": 1972,
+        "samples": 5,
+        "noOfPassengers": 7
+    },
+    "H4J15_2026": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 0.5,
+        "color": "black",
+        "colors": [
+            "black",
+            "white"
+        ],
+        "weightInKg": null,
+        "samples": 2,
+        "noOfPassengers": 5
+    },
+    "F4J16_2025": {
+        "model": "DASHING",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "STD",
+        "trim_confidence": 0.33,
+        "color": "white",
+        "colors": [
+            "white",
+            "black",
+            "green",
+            "gray and black",
+            "grey"
+        ],
+        "weightInKg": 1520,
+        "samples": 15,
+        "noOfPassengers": 5
+    },
+    "D8218_2026": {
+        "model": "X70",
+        "bodyType": "Station",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "FL",
+        "trim_confidence": 1.0,
+        "color": "white",
+        "colors": [
+            "white"
+        ],
+        "weightInKg": 1560,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "P8668_2024": {
+        "model": "X 70 PLUS",
+        "bodyType": "Station",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "000",
+        "trim_confidence": 0.5,
+        "color": "white",
+        "colors": [
+            "white"
+        ],
+        "weightInKg": 2095,
+        "samples": 2,
+        "noOfPassengers": 5
+    },
+    "PBGLB_2025": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 1.0,
+        "color": null,
+        "colors": [],
+        "weightInKg": 3000,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "DB218_2025": {
+        "model": "DASHING",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUXURY",
+        "trim_confidence": 0.43,
+        "color": "white",
+        "colors": [
+            "white"
+        ],
+        "weightInKg": 2774,
+        "samples": 7,
+        "noOfPassengers": 5
+    },
+    "F4J20_2026": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUXURY PLUS",
+        "trim_confidence": 0.55,
+        "color": "black",
+        "colors": [
+            "black",
+            "silver",
+            "green"
+        ],
+        "weightInKg": 2630,
+        "samples": 11,
+        "noOfPassengers": 5
+    },
+    "BBDEE_2026": {
+        "model": "T1",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "COMFORT",
+        "trim_confidence": 1.0,
+        "color": "silver",
+        "colors": [
+            "silver"
+        ],
+        "weightInKg": null,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "DD248_2026": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 1.0,
+        "color": "white",
+        "colors": [
+            "white"
+        ],
+        "weightInKg": 2450,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "0B21B_2026": {
+        "model": "DASHING",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUXURY",
+        "trim_confidence": 1.0,
+        "color": "grey",
+        "colors": [
+            "grey"
+        ],
+        "weightInKg": null,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "H4J20_2026": {
+        "model": "G700",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "COMFORT",
+        "trim_confidence": 0.5,
+        "color": "black",
+        "colors": [
+            "black",
+            "white",
+            "blue",
+            "dark blue"
+        ],
+        "weightInKg": 1500,
+        "samples": 12,
+        "noOfPassengers": 5
+    },
+    "PBGJB_2023": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "COM",
+        "trim_confidence": 0.82,
+        "color": "black",
+        "colors": [
+            "black",
+            "grey",
+            "gray and black",
+            "blue"
+        ],
+        "weightInKg": 1561,
+        "samples": 17,
+        "noOfPassengers": 5
+    },
+    "PBATB_2023": {
+        "model": "DASHING",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "COM",
+        "trim_confidence": 1.0,
+        "color": "white",
+        "colors": [
+            "white"
+        ],
+        "weightInKg": 1600,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "CBKEL_2026": {
+        "model": "F700",
+        "bodyType": "SUV",
+        "cylinders": 0,
+        "regionalSpec": "GCC",
+        "trim": "STD",
+        "trim_confidence": 0.5,
+        "color": "white",
+        "colors": [
+            "white"
+        ],
+        "weightInKg": 1446,
+        "samples": 2,
+        "noOfPassengers": 5
+    },
+    "PBG6B_2024": {
+        "model": "DASHING",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUXURY",
+        "trim_confidence": 1.0,
+        "color": "white",
+        "colors": [
+            "white"
+        ],
+        "weightInKg": 2000,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "EDDEN_2025": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "COM",
+        "trim_confidence": 1.0,
+        "color": "grey",
+        "colors": [
+            "grey"
+        ],
+        "weightInKg": null,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "F4J02_2025": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 1.0,
+        "color": "brown",
+        "colors": [
+            "brown"
+        ],
+        "weightInKg": 1600,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "0024B_2024": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 1.0,
+        "color": null,
+        "colors": [],
+        "weightInKg": 3000,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "BBDEL_2024": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 1.0,
+        "color": "black",
+        "colors": [
+            "black",
+            "grey"
+        ],
+        "weightInKg": 1945,
+        "samples": 3,
+        "noOfPassengers": 5
+    },
+    "EQAMF_2025": {
+        "model": "X 50",
+        "bodyType": "Station",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "1551",
+        "trim_confidence": 1.0,
+        "color": "white",
+        "colors": [
+            "white"
+        ],
+        "weightInKg": 1420,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "DD24V_2025": {
+        "model": "T 2",
+        "bodyType": "SUV",
+        "cylinders": 0,
+        "regionalSpec": "GCC",
+        "trim": "S",
+        "trim_confidence": 1.0,
+        "color": "black",
+        "colors": [
+            "black"
+        ],
+        "weightInKg": 1800,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "BBDEE_2025": {
+        "model": "T1",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "STD",
+        "trim_confidence": 1.0,
+        "color": "white",
+        "colors": [
+            "white"
+        ],
+        "weightInKg": 1300,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "DB24B_2026": {
+        "model": "T1",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUXURY",
+        "trim_confidence": 1.0,
+        "color": "black",
+        "colors": [
+            "black"
+        ],
+        "weightInKg": null,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "OB21B_2026": {
+        "model": "DASHING",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUXURY",
+        "trim_confidence": 1.0,
+        "color": "grey",
+        "colors": [
+            "grey"
+        ],
+        "weightInKg": null,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "F4J20_2024": {
+        "model": "T 2",
+        "bodyType": "Station",
+        "cylinders": null,
+        "regionalSpec": null,
+        "trim": null,
+        "trim_confidence": null,
+        "color": "black",
+        "colors": [
+            "black"
+        ],
+        "weightInKg": 2450,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "PBECB_2025": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 1.0,
+        "color": "blue",
+        "colors": [
+            "blue"
+        ],
+        "weightInKg": 1800,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "F4J20_2006": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": null,
+        "trim_confidence": null,
+        "color": "gray and black",
+        "colors": [
+            "gray and black"
+        ],
+        "weightInKg": 2450,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "PBGJ8_2024": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 1.0,
+        "color": "gray and black",
+        "colors": [
+            "gray and black"
+        ],
+        "weightInKg": 1800,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "P86F8_2023": {
+        "model": "X70",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "COM",
+        "trim_confidence": 1.0,
+        "color": "blue",
+        "colors": [
+            "blue"
+        ],
+        "weightInKg": 1600,
+        "samples": 1,
+        "noOfPassengers": 7
+    },
+    "DB211_2025": {
+        "model": "DASHING",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUXURY",
+        "trim_confidence": 1.0,
+        "color": null,
+        "colors": [],
+        "weightInKg": 3000,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "DB218_2023": {
+        "model": "X70",
+        "bodyType": "Light Vehicle",
+        "cylinders": null,
+        "regionalSpec": null,
+        "trim": null,
+        "trim_confidence": null,
+        "color": "white",
+        "colors": [
+            "white"
+        ],
+        "weightInKg": 2100,
+        "samples": 1,
+        "noOfPassengers": 7
+    },
+    "F4J16_2026": {
+        "model": "X70",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "FL",
+        "trim_confidence": 1.0,
+        "color": "grey",
+        "colors": [
+            "grey"
+        ],
+        "weightInKg": null,
+        "samples": 1,
+        "noOfPassengers": 7
+    },
+    "GFBDL_2025": {
+        "model": "G700",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUXURY",
+        "trim_confidence": 1.0,
+        "color": "white",
+        "colors": [
+            "white"
+        ],
+        "weightInKg": null,
+        "samples": 1,
+        "noOfPassengers": 6
+    },
+    "PBGG8_2024": {
+        "model": "X70 PLUS",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "COM",
+        "trim_confidence": 1.0,
+        "color": "black",
+        "colors": [
+            "black"
+        ],
+        "weightInKg": 1100,
+        "samples": 1,
+        "noOfPassengers": 7
+    },
+    "79P2N_2023": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "COM",
+        "trim_confidence": 1.0,
+        "color": "white / black",
+        "colors": [
+            "white / black"
+        ],
+        "weightInKg": 1700,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "PBGGG_2024": {
+        "model": "DASHING",
+        "bodyType": "Station",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUXURY",
+        "trim_confidence": 1.0,
+        "color": "black",
+        "colors": [
+            "black"
+        ],
+        "weightInKg": 2000,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "PB668_2023": {
+        "model": "DASHING",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "COM",
+        "trim_confidence": 1.0,
+        "color": "black",
+        "colors": [
+            "black"
+        ],
+        "weightInKg": 1560,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "DD21B_2025": {
+        "model": "DASHING",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "Non-GCC",
+        "trim": "LUXURY",
+        "trim_confidence": 1.0,
+        "color": "gray",
+        "colors": [
+            "gray"
+        ],
+        "weightInKg": null,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "DSRET_2025": {
+        "model": "X70",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "FL",
+        "trim_confidence": 1.0,
+        "color": null,
+        "colors": [],
+        "weightInKg": 3000,
+        "samples": 1,
+        "noOfPassengers": 7
+    },
+    "P8GJB_2024": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 1.0,
+        "color": "gray and black",
+        "colors": [
+            "gray and black"
+        ],
+        "weightInKg": 1550,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "33B12_2024": {
+        "model": "L7ULTRA/STATION",
+        "bodyType": "SUV",
+        "cylinders": 0,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 1.0,
+        "color": "black",
+        "colors": [
+            "black"
+        ],
+        "weightInKg": 2000,
+        "samples": 1,
+        "noOfPassengers": 6
+    },
+    "P86F8_2024": {
+        "model": "X70",
+        "bodyType": "Station",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "COM",
+        "trim_confidence": 1.0,
+        "color": "black",
+        "colors": [
+            "black"
+        ],
+        "weightInKg": 1250,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "FBGGB_2023": {
+        "model": "X70 PLUS",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 1.0,
+        "color": "white",
+        "colors": [
+            "white"
+        ],
+        "weightInKg": 1560,
+        "samples": 1,
+        "noOfPassengers": 7
+    },
+    "PBEAB_2024": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 1.0,
+        "color": "grey",
+        "colors": [
+            "grey"
+        ],
+        "weightInKg": 1400,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "CP515_2022": {
+        "model": "X70",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "TURBO",
+        "trim_confidence": 1.0,
+        "color": null,
+        "colors": [],
+        "weightInKg": 3000,
+        "samples": 1,
+        "noOfPassengers": 2
+    },
+    "3E7EK_2025": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 1.0,
+        "color": "black",
+        "colors": [
+            "black"
+        ],
+        "weightInKg": 2000,
+        "samples": 1,
+        "noOfPassengers": 5
+    },
+    "92RBC_2024": {
+        "model": "T2",
+        "bodyType": "SUV",
+        "cylinders": 4,
+        "regionalSpec": "GCC",
+        "trim": "LUX",
+        "trim_confidence": 1.0,
+        "color": "white",
+        "colors": [
+            "white"
+        ],
+        "weightInKg": 2630,
+        "samples": 1,
+        "noOfPassengers": 5
+    }
 }

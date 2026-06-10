@@ -88,7 +88,7 @@ if __name__ == "__main__":
                 
                 rows += info_row("WMI", f'<span class="badge badge-blue">{r["wmi"]}</span>')
                 
-                rows += info_row("WMI Entity", r["wmi_description"])
+                # rows += info_row("WMI Entity", r["wmi_description"])
                 
                 st.markdown(section("World Manufacturer Identifier", rows), unsafe_allow_html=True)
                 
@@ -129,6 +129,8 @@ if __name__ == "__main__":
                     
                 if r["cylinder"] not in ["Unknown", "Not Available", None]:
                     rows += info_row("Cylinders", r["cylinder"])
+                
+                rows += info_row("No Of Passengers", r["no_of_passengers"])
                     
                 rows += info_row("Color", r["color"])
                 
@@ -217,4 +219,19 @@ if __name__ == "__main__":
 
             # Debug Expander
             with st.expander("Raw Decoded Object Context Map"):
-                st.json(r)
+                allowed_keys = [
+                    "manufacturer",
+                    "series_line",
+                    "model_year",
+                    "trim",
+                    "body_type",
+                    "regional_space",
+                    "cylinder",
+                    "color",
+                    "country",
+                    "weight",
+                    "no_of_passengers",
+                    "vin"
+                ]
+                filtered_r = {k: r[k] for k in allowed_keys if k in r}
+                st.json(filtered_r)
