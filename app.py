@@ -25,7 +25,7 @@ from chat_cat.predict import decode_vin
 
 # Define fallback model and lookup paths
 MODEL_DIR = str(project_root / "chat_cat" / "models")
-LOOKUP_DATA_PATH = project_root / "Data" / "lookup_data.csv"
+LOOKUP_DATA_PATH = project_root / "lookup_data.csv"
 
 st.title("VIN Decoder (ML Model)")
 
