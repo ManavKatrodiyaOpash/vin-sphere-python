@@ -1,15 +1,4 @@
 {
-"meta":{"test_sets":["test"],"test_metrics":[{"best_value":"Max","name":"Accuracy"},{"best_value":"Min","name":"MultiClass"}],"learn_metrics":[{"best_value":"Max","name":"Accuracy"},{"best_value":"Min","name":"MultiClass"}],"launch_mode":"Train","parameters":"","iteration_count":200,"learn_sets":["learn"],"name":"experiment"},
+"meta":{"test_sets":["test"],"test_metrics":[{"best_value":"Min","name":"MultiClass"}],"learn_metrics":[{"best_value":"Min","name":"MultiClass"}],"launch_mode":"Train","parameters":"","iteration_count":150,"learn_sets":["learn"],"name":"experiment"},
 "iterations":[
-{"learn":[0.6009265387,5.115181622],"iteration":0,"passed_time":11.29703647,"remaining_time":2248.110258,"test":[0.6521432351,5.098679166]},
-{"learn":[0.7176893259,4.927672678],"iteration":1,"passed_time":21.09746958,"remaining_time":2088.649489,"test":[0.7690194794,4.897117768]},
-{"learn":[0.7016167155,4.754631422],"iteration":2,"passed_time":29.17055506,"remaining_time":1915.533116,"test":[0.7450646373,4.709969428]},
-{"learn":[0.6814786802,4.585717718],"iteration":3,"passed_time":38.11315157,"remaining_time":1867.544427,"test":[0.7255499836,4.527516558]},
-{"learn":[0.7121111846,4.417539858],"iteration":4,"passed_time":47.5712672,"remaining_time":1855.279421,"test":[0.7588186377,4.344460391]},
-{"learn":[0.7104093788,4.265500932],"iteration":5,"passed_time":56.36001778,"remaining_time":1822.307242,"test":[0.7584708817,4.180533041]},
-{"learn":[0.7110711922,4.1104915],"iteration":6,"passed_time":66.50627239,"remaining_time":1833.672939,"test":[0.7595040698,4.012906743]},
-{"learn":[0.7109766474,3.961556016],"iteration":7,"passed_time":76.15384206,"remaining_time":1827.692209,"test":[0.7581432855,3.853510201]},
-{"learn":[0.7392455328,3.817026549],"iteration":8,"passed_time":85.47260781,"remaining_time":1813.918677,"test":[0.7840788247,3.699978967]},
-{"learn":[0.7148529829,3.683072903],"iteration":9,"passed_time":92.75986016,"remaining_time":1762.437343,"test":[0.7578358491,3.557117086]},
-{"learn":[0.7002930888,3.554590883],"iteration":10,"passed_time":101.3180159,"remaining_time":1740.827727,"test":[0.7442733664,3.417729169]}
 ]}

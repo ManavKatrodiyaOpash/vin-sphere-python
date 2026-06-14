@@ -12,10 +12,10 @@ logger = logging.getLogger(__name__)
 # Column mapping to support both prompt specifications and actual dataset columns (e.g. data_methaq)
 COLUMN_MAPPING = {
     "VIN": ["VIN", "chassisNumber", "ChassisNumber", "vin"],
-    "MAKE": ["MAKE", "make", "Make"],
-    "MODEL": ["MODEL", "model", "Model"],
-    "TRIM": ["TRIM", "trim", "Trim"],
-    "BODY_TYPE": ["BODY_TYPE", "bodyType", "BodyType", "body_type"],
+    "MAKE": ["MAKE", "make", "Make", "make_grouped"],
+    "MODEL": ["MODEL", "model", "Model", "model_final", "model_final_raw"],
+    "TRIM": ["TRIM", "trim", "Trim", "trim_raw"],
+    "BODY_TYPE": ["BODY_TYPE", "bodyType", "BodyType", "body_type", "bodyType_raw"],
     "REGIONAL_SPEC": ["regionalSpec", "regional_spec", "regionalSpec"],
     "CYLINDERS": ["CYLINDERS", "cylinders", "Cylinders"],
     "FUEL_TYPE": ["FUEL_TYPE", "fuelType", "fuel_type"],
@@ -24,6 +24,7 @@ COLUMN_MAPPING = {
     "ORIGIN": ["origin", "Origin", "ORIGIN"],
     "NO_OF_PASSENGERS": ["noOfPassengers", "no_of_passengers"],
     "WEIGHT": ["weightInKg", "weight"],
+    "COLOR": ["color", "Color", "COLOR", "color_raw"],
 }
 
 def resolve_columns(df: pd.DataFrame) -> Dict[str, str]:
@@ -110,6 +111,9 @@ def normalize_name(label_type: str, value: Union[str, float, int, None]) -> str:
     elif label_type == "ORIGIN":
         return val.title()
         
+    elif label_type == "COLOR":
+        return val.title()
+        
     return val
 
 def extract_vin_features(df: pd.DataFrame, vin_col: str) -> pd.DataFrame:
@@ -154,6 +158,29 @@ def prepare_data(data_path: str, save_encoders_dir: str = "models") -> Tuple[pd.
     col_map = resolve_columns(df_raw)
     vin_col = col_map["VIN"]
     
+    # Recover CYLINDERS if missing
+    if "CYLINDERS" not in col_map:
+        dir_name = os.path.dirname(data_path)
+        # Try correctly_merged 1.csv first
+        candidate_files = ["correctly_merged 1.csv", "data_methaq(2.0).csv", "df_methaq.csv"]
+        for f_cand in candidate_files:
+            cand_path = os.path.join(dir_name, f_cand)
+            if os.path.exists(cand_path):
+                try:
+                    logger.info(f"CYLINDERS column is missing in input data. Attempting to merge from {cand_path}...")
+                    df_cand = pd.read_csv(cand_path, usecols=["chassisNumber", "cylinders"])
+                    df_cand.columns = ["chassisNumber", "cylinders"]
+                    # Drop duplicates in the candidate df to prevent row duplication
+                    df_cand = df_cand.drop_duplicates(subset=["chassisNumber"])
+                    
+                    if vin_col:
+                        df_raw = df_raw.merge(df_cand, left_on=vin_col, right_on="chassisNumber", how="left")
+                        col_map["CYLINDERS"] = "cylinders"
+                        logger.info("Successfully merged CYLINDERS column!")
+                        break
+                except Exception as e:
+                    logger.warning(f"Failed to merge CYLINDERS from {f_cand}: {e}")
+    
     # 1. Clean VINs & remove duplicates
     logger.info("Cleaning VINs and filtering to length 17...")
     df_raw[vin_col] = df_raw[vin_col].astype(str).str.upper().str.strip()
@@ -168,7 +195,7 @@ def prepare_data(data_path: str, save_encoders_dir: str = "models") -> Tuple[pd.
     
     # 3. Process targets: Normalize and Label Encode
     logger.info("Normalizing and encoding targets...")
-    targets = ["MAKE", "MODEL", "TRIM", "BODY_TYPE", "YEAR", "CYLINDERS", "ORIGIN", "NO_OF_PASSENGERS", "WEIGHT", "REGIONAL_SPEC"]
+    targets = ["MAKE", "MODEL", "TRIM", "BODY_TYPE", "YEAR", "CYLINDERS", "ORIGIN", "NO_OF_PASSENGERS", "WEIGHT", "REGIONAL_SPEC", "COLOR"]
     y_encoded = pd.DataFrame(index=df_clean.index)
     encoders = {}
     

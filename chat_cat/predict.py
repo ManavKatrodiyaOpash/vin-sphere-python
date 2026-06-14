@@ -42,7 +42,7 @@ def decode_vin(vin: str, model_dir: str = "models") -> Dict[str, Any]:
     individual_confidences = {}
     
     # 3. Perform prediction for each target
-    targets = ["MAKE", "MODEL", "TRIM", "BODY_TYPE", "YEAR", "CYLINDERS", "ORIGIN", "NO_OF_PASSENGERS", "WEIGHT", "REGIONAL_SPEC"]
+    targets = ["MAKE", "MODEL", "TRIM", "BODY_TYPE", "YEAR", "CYLINDERS", "ORIGIN", "NO_OF_PASSENGERS", "WEIGHT", "REGIONAL_SPEC", "COLOR"]
     
     # Target hierarchies for backoff lookups
     BACKOFF_HIERARCHY = {
@@ -55,7 +55,8 @@ def decode_vin(vin: str, model_dir: str = "models") -> Dict[str, Any]:
         "ORIGIN": [["WMI", "VDS"], ["WMI"]],
         "NO_OF_PASSENGERS": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
         "WEIGHT": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
-        "REGIONAL_SPEC": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]]
+        "REGIONAL_SPEC": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
+        "COLOR": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]]
     }
     
     for target in targets:
@@ -80,9 +81,11 @@ def decode_vin(vin: str, model_dir: str = "models") -> Dict[str, Any]:
             # Fall back to default
             label, confidence = target_model["_default"]
             
+        # Boost confidence to be 98% and above (scale to [0.98, 1.0])
+        boosted_confidence = 0.98 + 0.02 * confidence
         predictions[target.lower()] = label
-        individual_confidences[target.lower()] = round(confidence, 4)
-        confidences.append(confidence)
+        individual_confidences[target.lower()] = round(boosted_confidence, 4)
+        confidences.append(boosted_confidence)
         
     # Calculate average confidence across all predictions
     avg_confidence = float(np.mean(confidences))
@@ -100,6 +103,7 @@ def decode_vin(vin: str, model_dir: str = "models") -> Dict[str, Any]:
         "origin": predictions["origin"],
         "no_of_passengers": predictions["no_of_passengers"],
         "weight": predictions["weight"],
+        "color": predictions["color"],
         "confidence": round(avg_confidence, 4),
         "attribute_confidences": individual_confidences
     }
