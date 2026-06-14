@@ -7,3 +7,5 @@ __pycache__
 .vscode
 .idea
 catboost_info
+.venv
+catboost_info
