@@ -28,8 +28,7 @@ from predict import decode_vin
 MODEL_DIR = str(project_root / "chat_cat(3.0)" / "models")
 LOOKUP_DATA_PATH = project_root / "lookup_data.csv"
 
-st.title("🚗 VIN Decoder 3.0 (Ensemble System)")
-st.write("This app uses a GPU-enabled **PyTorch Transformer** and **CatBoost Ensemble** trained on 1M VIN records to generalize to unseen VINs with extreme accuracy.")
+st.title("VIN Decoder (3.0)")
 
 # User VIN input panel
 vin_input = st.text_input(
@@ -144,11 +143,11 @@ def get_lookup_price(result: dict, vin: str):
 
 
 # Decode execution
-if st.button("Decode VIN", use_container_width=True, type="primary"):
+if st.button("Decode", use_container_width=True, type="primary"):
     if len(vin_input) != 17:
         st.error("Invalid input: A standard vehicle VIN must be exactly 17 characters.")
     else:
-        with st.spinner("Decoding VIN using PyTorch + CatBoost Ensemble..."):
+        with st.spinner("Decoding..."):
             try:
                 # Perform prediction using the ensembled model
                 result = decode_vin(vin_input, model_dir=MODEL_DIR)
@@ -185,9 +184,8 @@ if st.button("Decode VIN", use_container_width=True, type="primary"):
                 st.table(df_results)
 
                 # Display Raw JSON Output
-                with st.expander("Show Raw Model Response JSON"):
-                    st.json(result)
+                st.subheader("Raw JSON Response")
+                st.json(result)
 
             except Exception as e:
                 st.error(f"Error executing prediction ensemble model: {e}")
-                st.info("Ensure the training task has completed and all model files exist in the models directory.")
