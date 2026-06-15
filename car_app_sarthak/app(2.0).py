@@ -7,7 +7,7 @@ import pandas as pd
 
 # Configure page metadata
 st.set_page_config(
-    page_title="VIN Decoder",
+    page_title="VIN Decoder 2.0",
     page_icon="",
     layout="centered"
 )
