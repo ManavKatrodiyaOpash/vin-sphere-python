@@ -151,35 +151,8 @@ if st.button("Decode", use_container_width=True):
                 # Format prediction results into a table
                 conf_dict = result.get("attribute_confidences", {})
                 price = get_lookup_price(result, vin_input)
-                price_display = "Not found" if price is None else f"{price:,.0f} AED"
+                price_display = "Not found" if price is None else f"{price:,.0f}"
                 result["lookup_price"] = None if price is None else float(price)
-
-                # Valuation calculations (Retail & Trade, with +/- 10% min/max)
-                if price is not None:
-                    retail_avg = round(price, -2)
-                    retail_min = round(retail_avg * 0.9, -2)
-                    retail_max = round(retail_avg * 1.1, -2)
-                    
-                    trade_avg = round(retail_avg * 0.92, -2)
-                    trade_min = round(trade_avg * 0.9, -2)
-                    trade_max = round(trade_avg * 1.1, -2)
-                    
-                    valuation_data = {
-                        "retail_price": {
-                            "average": int(retail_avg),
-                            "minimum": int(retail_min),
-                            "maximum": int(retail_max)
-                        },
-                        "trade_price": {
-                            "average": int(trade_avg),
-                            "minimum": int(trade_min),
-                            "maximum": int(trade_max)
-                        }
-                    }
-                else:
-                    valuation_data = None
-                
-                result["valuation"] = valuation_data
 
                 table_data = [
                     {"Attribute": "Make", "Predicted Value": result.get("make"), "Confidence": f"{conf_dict.get('make', 0.0) * 100:.2f}%"},
@@ -203,28 +176,6 @@ if st.button("Decode", use_container_width=True):
 
                 # Display Results Table
                 st.table(df_results)
-
-                # Display Our Price Valuation Dashboard if available
-                if valuation_data:
-                    st.subheader("Our Price")
-                    valuation_df = pd.DataFrame([
-                        {
-                            "Price Metric": "Minimum Price (-10%)",
-                            "Retail Price (AED)": f"{valuation_data['retail_price']['minimum']:,.0f}",
-                            "Trade Price (AED)": f"{valuation_data['trade_price']['minimum']:,.0f}"
-                        },
-                        {
-                            "Price Metric": "Average Price",
-                            "Retail Price (AED)": f"{valuation_data['retail_price']['average']:,.0f}",
-                            "Trade Price (AED)": f"{valuation_data['trade_price']['average']:,.0f}"
-                        },
-                        {
-                            "Price Metric": "Maximum Price (+10%)",
-                            "Retail Price (AED)": f"{valuation_data['retail_price']['maximum']:,.0f}",
-                            "Trade Price (AED)": f"{valuation_data['trade_price']['maximum']:,.0f}"
-                        }
-                    ])
-                    st.table(valuation_df)
 
                 # Display Raw JSON Output
                 st.subheader("Raw JSON Response")
