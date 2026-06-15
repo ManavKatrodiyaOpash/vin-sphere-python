@@ -1,6 +1,8 @@
 import sys
 import os
+import re
 import importlib.util
+from difflib import SequenceMatcher
 from pathlib import Path
 import streamlit as st
 import pandas as pd
@@ -28,8 +30,112 @@ sys.modules["predict"] = predict_module
 spec.loader.exec_module(predict_module)
 decode_vin = predict_module.decode_vin
 
-# Define fallback model directory path
+# Define fallback model directory path and lookup path
 MODEL_DIR = str(project_root / "chat_cat(2.0)" / "models")
+LOOKUP_DATA_PATH = project_root / "lookup_data.csv"
+
+@st.cache_data
+def load_price_lookup(csv_path: str) -> pd.DataFrame:
+    df = pd.read_csv(csv_path)
+    required_columns = {"make", "model", "year", "trim", "price"}
+    missing_columns = required_columns - set(df.columns)
+    if missing_columns:
+        raise ValueError(f"Missing columns in lookup CSV: {', '.join(sorted(missing_columns))}")
+
+    df = df.copy()
+    df["make_key"] = df["make"].apply(normalize_lookup_text)
+    df["model_key"] = df["model"].apply(normalize_lookup_text)
+    df["trim_key"] = df["trim"].apply(normalize_lookup_text)
+    df["year_key"] = df["year"].apply(normalize_lookup_year)
+    if "chassisNumber" in df.columns:
+        df["vin_key"] = df["chassisNumber"].apply(normalize_lookup_text)
+    else:
+        df["vin_key"] = ""
+    df["price"] = pd.to_numeric(df["price"], errors="coerce")
+    return df
+
+
+def normalize_lookup_text(value) -> str:
+    if value is None:
+        return ""
+    return re.sub(r"[^A-Z0-9]", "", str(value).upper())
+
+
+def normalize_lookup_year(value) -> str:
+    year = pd.to_numeric(pd.Series([value]), errors="coerce").iloc[0]
+    if pd.isna(year):
+        return ""
+    return str(int(year))
+
+
+def valid_price_rows(df: pd.DataFrame) -> pd.DataFrame:
+    return df[df["price"].notna() & (df["price"] > 0)]
+
+
+def select_price(df: pd.DataFrame):
+    df = valid_price_rows(df)
+    if df.empty:
+        return None
+    return float(df["price"].median())
+
+
+def get_lookup_price(result: dict, vin: str):
+    if not LOOKUP_DATA_PATH.exists():
+        return None
+        
+    lookup_df = load_price_lookup(str(LOOKUP_DATA_PATH))
+
+    vin_key = normalize_lookup_text(vin)
+    if vin_key:
+        vin_matches = lookup_df[lookup_df["vin_key"] == vin_key]
+        price = select_price(vin_matches)
+        if price is not None:
+            return price
+
+    base_matches = lookup_df[
+        (lookup_df["make_key"] == normalize_lookup_text(result.get("make")))
+        & (lookup_df["model_key"] == normalize_lookup_text(result.get("model")))
+        & (lookup_df["year_key"] == normalize_lookup_year(result.get("year")))
+    ]
+
+    if base_matches.empty:
+        return None
+
+    trim_key = normalize_lookup_text(result.get("trim"))
+    if trim_key:
+        exact_trim_matches = base_matches[base_matches["trim_key"] == trim_key]
+        price = select_price(exact_trim_matches)
+        if price is not None:
+            return price
+
+        contains_trim_matches = base_matches[
+            base_matches["trim_key"].apply(
+                lambda csv_trim: bool(csv_trim)
+                and (trim_key in csv_trim or csv_trim in trim_key)
+            )
+        ]
+        price = select_price(contains_trim_matches)
+        if price is not None:
+            return price
+
+        fuzzy_matches = base_matches.copy()
+        fuzzy_matches["trim_score"] = fuzzy_matches["trim_key"].apply(
+            lambda csv_trim: SequenceMatcher(None, trim_key, csv_trim).ratio()
+            if csv_trim
+            else 0.0
+        )
+        fuzzy_matches = fuzzy_matches[fuzzy_matches["trim_score"] >= 0.82]
+        if not fuzzy_matches.empty:
+            best_score = fuzzy_matches["trim_score"].max()
+            price = select_price(fuzzy_matches[fuzzy_matches["trim_score"] == best_score])
+            if price is not None:
+                return price
+
+    valid_base_matches = valid_price_rows(base_matches)
+    if valid_base_matches["trim_key"].nunique() == 1:
+        return select_price(valid_base_matches)
+
+    return None
 
 st.title("VIN Decoder (ML Model)")
 
@@ -55,6 +161,10 @@ if st.button("Decode", use_container_width=True):
                 # Format prediction results into a table
                 conf_dict = result.get("attribute_confidences", {})
                 
+                price = get_lookup_price(result, vin_input)
+                price_display = "Not found" if price is None else f"{price:,.0f} AED"
+                result["lookup_price"] = None if price is None else float(price)
+                
                 table_data = [
                     {"Attribute": "Make", "Predicted Value": result.get("make"), "Confidence": f"{conf_dict.get('make', 0.0)*100:.2f}%"},
                     {"Attribute": "Model", "Predicted Value": result.get("model"), "Confidence": f"{conf_dict.get('model', 0.0)*100:.2f}%"},
@@ -67,6 +177,7 @@ if st.button("Decode", use_container_width=True):
                     {"Attribute": "Weight (KG)", "Predicted Value": result.get("weight"), "Confidence": f"{conf_dict.get('weight', 0.0)*100:.2f}%"},
                     {"Attribute": "Regional Specs", "Predicted Value": result.get("regional_spec"), "Confidence": f"{conf_dict.get('regional_spec', 0.0)*100:.2f}%"},
                     {"Attribute": "Color", "Predicted Value": result.get("color"), "Confidence": f"{conf_dict.get('color', 0.0)*100:.2f}%"},
+                    {"Attribute": "Price", "Predicted Value": price_display, "Confidence": "Lookup"},
                 ]
                 
                 df_results = pd.DataFrame(table_data)
