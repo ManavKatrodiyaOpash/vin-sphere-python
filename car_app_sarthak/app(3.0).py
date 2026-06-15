@@ -8,16 +8,17 @@ import streamlit as st
 
 # Configure page metadata
 st.set_page_config(
-    page_title="VIN Decoder 3.0 (Ensemble)",
-    page_icon="🚗",
+    page_title="VIN Decoder 3.0",
+    page_icon="",
     layout="centered",
 )
 
 # Add project root and chat_cat(3.0) to Python path
-project_root = Path(__file__).resolve().parent
+app_dir = Path(__file__).resolve().parent
+project_root = app_dir.parent
 chat_cat_path = project_root / "chat_cat(3.0)"
-if str(project_root) not in sys.path:
-    sys.path.insert(0, str(project_root))
+if str(app_dir) not in sys.path:
+    sys.path.insert(0, str(app_dir))
 if str(chat_cat_path) not in sys.path:
     sys.path.insert(0, str(chat_cat_path))
 
