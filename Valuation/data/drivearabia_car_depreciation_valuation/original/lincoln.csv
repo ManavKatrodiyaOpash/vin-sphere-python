@@ -1,0 +1,67 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+lincoln-aviator,2022,Aviator Base,243495,245000,244248,"AED 243,495 - 245,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-aviator/2022/,2026-06-16T10:47:36Z
+lincoln-aviator,2022,Aviator Reserve,280245,282000,281122,"AED 280,245 - 282,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-aviator/2022/,2026-06-16T10:47:36Z
+lincoln-aviator,2022,Aviator Reserve 2,295995,296000,295998,"AED 295,995 - 296,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-aviator/2022/,2026-06-16T10:47:36Z
+lincoln-aviator,2022,Aviator Presidential,325395,326000,325698,"AED 325,395 - 326,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-aviator/2022/,2026-06-16T10:47:36Z
+lincoln-aviator,2023,Aviator Base,243495,245000,244248,"AED 243,495 - 245,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-aviator/2023/,2026-06-16T10:47:38Z
+lincoln-aviator,2023,Aviator Reserve,280245,282000,281122,"AED 280,245 - 282,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-aviator/2023/,2026-06-16T10:47:38Z
+lincoln-aviator,2023,Aviator Reserve 2,295995,296000,295998,"AED 295,995 - 296,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-aviator/2023/,2026-06-16T10:47:38Z
+lincoln-aviator,2023,Aviator Presidential,325395,326000,325698,"AED 325,395 - 326,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-aviator/2023/,2026-06-16T10:47:38Z
+lincoln-aviator,2024,Aviator Base,243495,245000,244248,"AED 243,495 - 245,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-aviator/2024/,2026-06-16T10:47:40Z
+lincoln-aviator,2024,Aviator Reserve,280245,282000,281122,"AED 280,245 - 282,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-aviator/2024/,2026-06-16T10:47:40Z
+lincoln-aviator,2024,Aviator Reserve 2,295995,296000,295998,"AED 295,995 - 296,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-aviator/2024/,2026-06-16T10:47:40Z
+lincoln-aviator,2024,Aviator Presidential,325395,326000,325698,"AED 325,395 - 326,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-aviator/2024/,2026-06-16T10:47:40Z
+lincoln-aviator,2025,3.0TC V6 Reserve 4WD,296000,300000,298000,"AED 296,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-aviator/2025/,2026-06-16T10:47:42Z
+lincoln-aviator,2025,3.0TC V6 Presidential 4WD,325395,326000,325698,"AED 325,395 - 326,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-aviator/2025/,2026-06-16T10:47:42Z
+lincoln-aviator,2026,3.0TC V6 Reserve 4WD,296000,300000,298000,"AED 296,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-aviator/2026/,2026-06-16T10:47:44Z
+lincoln-aviator,2026,3.0TC V6 Presidential 4WD,325395,326000,325698,"AED 325,395 - 326,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-aviator/2026/,2026-06-16T10:47:44Z
+lincoln-corsair,2022,2.0T Premier AWD,184695,185000,184848,"AED 184,695 - 185,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-corsair/2022/,2026-06-16T10:47:52Z
+lincoln-corsair,2022,2.0T Reserve AWD,209895,210000,209948,"AED 209,895 - 210,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-corsair/2022/,2026-06-16T10:47:52Z
+lincoln-corsair,2023,2.0T Base AWD,184695,185000,184848,"AED 184,695 - 185,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-corsair/2023/,2026-06-16T10:47:53Z
+lincoln-corsair,2023,2.0T Reserve AWD,209895,210000,209948,"AED 209,895 - 210,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-corsair/2023/,2026-06-16T10:47:53Z
+lincoln-nautilus,2022,2.0T Base,213045,214000,213522,"AED 213,045 - 214,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2022/,2026-06-16T10:48:27Z
+lincoln-nautilus,2022,2.7T Reserve 1,239295,240000,239648,"AED 239,295 - 240,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2022/,2026-06-16T10:48:27Z
+lincoln-nautilus,2022,2.7T Reserve 2,261345,262000,261672,"AED 261,345 - 262,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2022/,2026-06-16T10:48:27Z
+lincoln-nautilus,2023,2.0T Base,213045,214000,213522,"AED 213,045 - 214,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2023/,2026-06-16T10:48:29Z
+lincoln-nautilus,2023,2.7T Reserve 1,239295,240000,239648,"AED 239,295 - 240,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2023/,2026-06-16T10:48:29Z
+lincoln-nautilus,2023,2.7T Reserve 2,261345,262000,261672,"AED 261,345 - 262,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2023/,2026-06-16T10:48:29Z
+lincoln-nautilus,2024,2.0TC I4 Reserve 1 4WD,250845,251000,250922,"AED 250,845 - 251,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2024/,2026-06-16T10:48:31Z
+lincoln-nautilus,2024,2.0TC I4 Reserve 2 4WD,257145,258000,257572,"AED 257,145 - 258,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2024/,2026-06-16T10:48:31Z
+lincoln-nautilus,2024,2.0TC I4 Reserve 3 4WD,283395,285000,284198,"AED 283,395 - 285,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2024/,2026-06-16T10:48:31Z
+lincoln-nautilus,2024,2.0TC+E I4 Presidential 4WD,314895,316000,315448,"AED 314,895 - 316,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2024/,2026-06-16T10:48:31Z
+lincoln-nautilus,2025,2.0TC I4 Reserve 1 4WD,250845,251000,250922,"AED 250,845 - 251,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2025/,2026-06-16T10:48:33Z
+lincoln-nautilus,2025,2.0TC I4 Reserve 2 4WD,257145,258000,257572,"AED 257,145 - 258,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2025/,2026-06-16T10:48:33Z
+lincoln-nautilus,2025,2.0TC I4 Reserve 3 4WD,283395,285000,284198,"AED 283,395 - 285,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2025/,2026-06-16T10:48:33Z
+lincoln-nautilus,2025,2.0TC+E I4 Presidential 4WD,314895,316000,315448,"AED 314,895 - 316,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2025/,2026-06-16T10:48:33Z
+lincoln-nautilus,2026,2.0TC I4 Reserve 1 4WD,250845,251000,250922,"AED 250,845 - 251,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2026/,2026-06-16T10:48:35Z
+lincoln-nautilus,2026,2.0TC I4 Reserve 2 4WD,257145,258000,257572,"AED 257,145 - 258,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2026/,2026-06-16T10:48:35Z
+lincoln-nautilus,2026,2.0TC I4 Reserve 3 4WD,283395,285000,284198,"AED 283,395 - 285,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2026/,2026-06-16T10:48:35Z
+lincoln-nautilus,2026,2.0TC+E I4 Presidential 4WD,314895,316000,315448,"AED 314,895 - 316,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-nautilus/2026/,2026-06-16T10:48:35Z
+lincoln-navigator,2022,Select,364245,365000,364622,"AED 364,245 - 365,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator/2022/,2026-06-16T10:48:37Z
+lincoln-navigator,2022,Reserve,364245,365000,364622,"AED 364,245 - 365,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator/2022/,2026-06-16T10:48:37Z
+lincoln-navigator,2022,Presidential,398895,400000,399448,"AED 398,895 - 400,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator/2022/,2026-06-16T10:48:37Z
+lincoln-navigator,2023,Select,369495,370000,369748,"AED 369,495 - 370,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator/2023/,2026-06-16T10:48:39Z
+lincoln-navigator,2023,Reserve,411495,412000,411748,"AED 411,495 - 412,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator/2023/,2026-06-16T10:48:39Z
+lincoln-navigator,2023,Presidential,447195,448000,447598,"AED 447,195 - 448,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator/2023/,2026-06-16T10:48:39Z
+lincoln-navigator,2024,Select,369495,370000,369748,"AED 369,495 - 370,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator/2024/,2026-06-16T10:48:41Z
+lincoln-navigator,2024,Reserve,411495,412000,411748,"AED 411,495 - 412,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator/2024/,2026-06-16T10:48:41Z
+lincoln-navigator,2024,Presidential,447195,448000,447598,"AED 447,195 - 448,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator/2024/,2026-06-16T10:48:41Z
+lincoln-navigator,2025,Select,369495,370000,369748,"AED 369,495 - 370,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator/2025/,2026-06-16T10:48:43Z
+lincoln-navigator,2025,Reserve,411495,412000,411748,"AED 411,495 - 412,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator/2025/,2026-06-16T10:48:43Z
+lincoln-navigator,2025,Presidential,447195,448000,447598,"AED 447,195 - 448,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator/2025/,2026-06-16T10:48:43Z
+lincoln-navigator,2026,Select,369495,370000,369748,"AED 369,495 - 370,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator/2026/,2026-06-16T10:48:45Z
+lincoln-navigator,2026,Reserve,411495,412000,411748,"AED 411,495 - 412,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator/2026/,2026-06-16T10:48:45Z
+lincoln-navigator,2026,Presidential,447195,448000,447598,"AED 447,195 - 448,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator/2026/,2026-06-16T10:48:45Z
+lincoln-navigator-l,2022,Select,364245,365000,364622,"AED 364,245 - 365,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator-l/2022/,2026-06-16T10:48:47Z
+lincoln-navigator-l,2023,Select,375000,376000,375500,"AED 375,000 - 376,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator-l/2023/,2026-06-16T10:48:49Z
+lincoln-navigator-l,2023,Reserve,415000,416000,415500,"AED 415,000 - 416,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator-l/2023/,2026-06-16T10:48:49Z
+lincoln-navigator-l,2023,Presidential,450000,451000,450500,"AED 450,000 - 451,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator-l/2023/,2026-06-16T10:48:49Z
+lincoln-navigator-l,2024,Select,375000,376000,375500,"AED 375,000 - 376,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator-l/2024/,2026-06-16T10:48:51Z
+lincoln-navigator-l,2024,Reserve,415000,416000,415500,"AED 415,000 - 416,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator-l/2024/,2026-06-16T10:48:51Z
+lincoln-navigator-l,2024,Presidential,450000,451000,450500,"AED 450,000 - 451,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator-l/2024/,2026-06-16T10:48:51Z
+lincoln-navigator-l,2025,Select,375000,376000,375500,"AED 375,000 - 376,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator-l/2025/,2026-06-16T10:48:53Z
+lincoln-navigator-l,2025,Reserve,415000,416000,415500,"AED 415,000 - 416,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator-l/2025/,2026-06-16T10:48:53Z
+lincoln-navigator-l,2025,Presidential,450000,451000,450500,"AED 450,000 - 451,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator-l/2025/,2026-06-16T10:48:53Z
+lincoln-navigator-l,2026,Select,375000,376000,375500,"AED 375,000 - 376,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator-l/2026/,2026-06-16T10:48:55Z
+lincoln-navigator-l,2026,Reserve,415000,416000,415500,"AED 415,000 - 416,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator-l/2026/,2026-06-16T10:48:55Z
+lincoln-navigator-l,2026,Presidential,450000,451000,450500,"AED 450,000 - 451,000",AED,https://www.drivearabia.com/carprices/uae/lincoln/lincoln-navigator-l/2026/,2026-06-16T10:48:55Z

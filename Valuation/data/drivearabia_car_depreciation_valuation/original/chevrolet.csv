@@ -1,0 +1,986 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+chevrolet-avalanche,2008,5.3 V8 LT,165000,167500,166250,"AED 165,000 - 167,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-avalanche/2008/,2026-06-15T07:41:33Z
+chevrolet-avalanche,2008,5.3 V8 LTZ,177500,179000,178250,"AED 177,500 - 179,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-avalanche/2008/,2026-06-15T07:41:33Z
+chevrolet-avalanche,2009,5.3 V8 LT,165000,167500,166250,"AED 165,000 - 167,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-avalanche/2009/,2026-06-15T07:41:35Z
+chevrolet-avalanche,2009,5.3 V8 LTZ,177500,179000,178250,"AED 177,500 - 179,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-avalanche/2009/,2026-06-15T07:41:35Z
+chevrolet-avalanche,2010,5.3 V8 LT,165000,167500,166250,"AED 165,000 - 167,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-avalanche/2010/,2026-06-15T07:41:36Z
+chevrolet-avalanche,2010,5.3 V8 LTZ,177500,179000,178250,"AED 177,500 - 179,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-avalanche/2010/,2026-06-15T07:41:36Z
+chevrolet-avalanche,2011,5.3 V8 LT,165000,167500,166250,"AED 165,000 - 167,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-avalanche/2011/,2026-06-15T07:41:38Z
+chevrolet-avalanche,2011,5.3 V8 LTZ,177500,179000,178250,"AED 177,500 - 179,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-avalanche/2011/,2026-06-15T07:41:38Z
+chevrolet-avalanche,2012,5.3 V8 LT,165000,167500,166250,"AED 165,000 - 167,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-avalanche/2012/,2026-06-15T07:41:40Z
+chevrolet-avalanche,2012,5.3 V8 LTZ,177500,179000,178250,"AED 177,500 - 179,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-avalanche/2012/,2026-06-15T07:41:40Z
+chevrolet-avalanche,2013,5.3 V8 LT,165000,167500,166250,"AED 165,000 - 167,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-avalanche/2013/,2026-06-15T07:41:42Z
+chevrolet-avalanche,2013,5.3 V8 LTZ,177500,179000,178250,"AED 177,500 - 179,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-avalanche/2013/,2026-06-15T07:41:42Z
+chevrolet-aveo,2006,1.4 I4 Aveo LS,41000,42500,41750,"AED 41,000 - 42,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2006/,2026-06-15T07:42:11Z
+chevrolet-aveo,2006,1.4 I4 Aveo LT,45500,47000,46250,"AED 45,500 - 47,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2006/,2026-06-15T07:42:11Z
+chevrolet-aveo,2007,1.4 I4 Aveo LS,41000,42500,41750,"AED 41,000 - 42,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2007/,2026-06-15T07:42:13Z
+chevrolet-aveo,2007,1.4 I4 Aveo LT,45500,47000,46250,"AED 45,500 - 47,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2007/,2026-06-15T07:42:13Z
+chevrolet-aveo,2008,1.4 I4 Aveo LS,41000,42500,41750,"AED 41,000 - 42,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2008/,2026-06-15T07:42:15Z
+chevrolet-aveo,2008,1.4 I4 Aveo LT,45500,47000,46250,"AED 45,500 - 47,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2008/,2026-06-15T07:42:15Z
+chevrolet-aveo,2009,1.4 I4 Aveo LS,41000,42500,41750,"AED 41,000 - 42,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2009/,2026-06-15T07:42:17Z
+chevrolet-aveo,2009,1.4 I4 Aveo LT,45500,47000,46250,"AED 45,500 - 47,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2009/,2026-06-15T07:42:17Z
+chevrolet-aveo,2010,1.4 I4 Aveo LS,41000,44000,42500,"AED 41,000 - 44,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2010/,2026-06-15T07:42:19Z
+chevrolet-aveo,2010,1.4 I4 Aveo LT,48000,49500,48750,"AED 48,000 - 49,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2010/,2026-06-15T07:42:19Z
+chevrolet-aveo,2011,1.4 I4 Aveo LS,41000,44000,42500,"AED 41,000 - 44,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2011/,2026-06-15T07:42:21Z
+chevrolet-aveo,2011,1.4 I4 Aveo LT,48000,49500,48750,"AED 48,000 - 49,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2011/,2026-06-15T07:42:21Z
+chevrolet-aveo,2012,1.4 I4 Aveo LS,41000,44000,42500,"AED 41,000 - 44,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2012/,2026-06-15T07:42:23Z
+chevrolet-aveo,2012,1.4 I4 Aveo LT,48000,49500,48750,"AED 48,000 - 49,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2012/,2026-06-15T07:42:23Z
+chevrolet-aveo,2013,1.4 I4 Aveo LS,41000,44000,42500,"AED 41,000 - 44,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2013/,2026-06-15T07:42:24Z
+chevrolet-aveo,2013,1.4 I4 Aveo LT,48000,49500,48750,"AED 48,000 - 49,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2013/,2026-06-15T07:42:24Z
+chevrolet-aveo,2014,1.4 I4 Aveo LS,41000,44000,42500,"AED 41,000 - 44,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2014/,2026-06-15T07:42:26Z
+chevrolet-aveo,2014,1.4 I4 Aveo LT,48000,49500,48750,"AED 48,000 - 49,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2014/,2026-06-15T07:42:26Z
+chevrolet-aveo,2015,1.4 I4 Aveo LS,41000,44000,42500,"AED 41,000 - 44,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2015/,2026-06-15T07:42:28Z
+chevrolet-aveo,2015,1.4 I4 Aveo LT,48000,49500,48750,"AED 48,000 - 49,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2015/,2026-06-15T07:42:28Z
+chevrolet-aveo,2016,1.4 I4 Aveo LS,41000,44000,42500,"AED 41,000 - 44,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2016/,2026-06-15T07:42:30Z
+chevrolet-aveo,2016,1.4 I4 Aveo LT,48000,49500,48750,"AED 48,000 - 49,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2016/,2026-06-15T07:42:30Z
+chevrolet-aveo,2017,1.6 I4 Base,45920,46000,45960,"AED 45,920 - 46,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2017/,2026-06-15T07:42:32Z
+chevrolet-aveo,2017,1.6 I4 LS,47910,48000,47955,"AED 47,910 - 48,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2017/,2026-06-15T07:42:32Z
+chevrolet-aveo,2017,1.6 I4 LT,53630,55000,54315,"AED 53,630 - 55,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2017/,2026-06-15T07:42:32Z
+chevrolet-aveo,2018,1.6 I4 Base,45920,46000,45960,"AED 45,920 - 46,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2018/,2026-06-15T07:42:34Z
+chevrolet-aveo,2018,1.6 I4 LS,47910,48000,47955,"AED 47,910 - 48,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2018/,2026-06-15T07:42:34Z
+chevrolet-aveo,2018,1.6 I4 LT,53630,55000,54315,"AED 53,630 - 55,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2018/,2026-06-15T07:42:34Z
+chevrolet-aveo,2019,1.6 I4 Base,45920,46000,45960,"AED 45,920 - 46,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2019/,2026-06-15T07:42:36Z
+chevrolet-aveo,2019,1.6 I4 LS,47910,48000,47955,"AED 47,910 - 48,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2019/,2026-06-15T07:42:36Z
+chevrolet-aveo,2019,1.6 I4 LT,53630,55000,54315,"AED 53,630 - 55,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2019/,2026-06-15T07:42:36Z
+chevrolet-aveo,2020,1.6 I4 Base,45920,46000,45960,"AED 45,920 - 46,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2020/,2026-06-15T07:42:38Z
+chevrolet-aveo,2020,1.6 I4 LS,47910,48000,47955,"AED 47,910 - 48,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2020/,2026-06-15T07:42:38Z
+chevrolet-aveo,2020,1.6 I4 LT,52630,53000,52815,"AED 52,630 - 53,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo/2020/,2026-06-15T07:42:38Z
+chevrolet-aveo-hatchback,2017,1.6 I4 Hatchback LS,45000,47500,46250,"AED 45,000 - 47,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo-hatchback/2017/,2026-06-15T07:43:11Z
+chevrolet-aveo-hatchback,2017,1.6 I4 Hatchback LT,52500,55000,53750,"AED 52,500 - 55,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo-hatchback/2017/,2026-06-15T07:43:11Z
+chevrolet-aveo-hatchback,2018,1.6 I4 Hatchback LS,45000,47500,46250,"AED 45,000 - 47,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo-hatchback/2018/,2026-06-15T07:43:13Z
+chevrolet-aveo-hatchback,2018,1.6 I4 Hatchback LT,52500,55000,53750,"AED 52,500 - 55,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo-hatchback/2018/,2026-06-15T07:43:13Z
+chevrolet-aveo5,2010,1.4 I4 Aveo LS,41000,42500,41750,"AED 41,000 - 42,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo5/2010/,2026-06-15T07:43:42Z
+chevrolet-aveo5,2010,1.4 I4 Aveo LT,45500,47000,46250,"AED 45,500 - 47,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo5/2010/,2026-06-15T07:43:42Z
+chevrolet-aveo5,2011,1.4 I4 Aveo LS,41000,42500,41750,"AED 41,000 - 42,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo5/2011/,2026-06-15T07:43:44Z
+chevrolet-aveo5,2011,1.4 I4 Aveo LT,45500,47000,46250,"AED 45,500 - 47,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-aveo5/2011/,2026-06-15T07:43:44Z
+chevrolet-blazer,2019,2.5 I4 Blazer 1LT FWD,117700,120000,118850,"AED 117,700 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2019/,2026-06-15T07:44:30Z
+chevrolet-blazer,2019,3.6 V6 Blazer 2LT FWD,137000,138000,137500,"AED 137,000 - 138,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2019/,2026-06-15T07:44:30Z
+chevrolet-blazer,2019,3.6 V6 Blazer 3LT AWD,148000,149000,148500,"AED 148,000 - 149,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2019/,2026-06-15T07:44:30Z
+chevrolet-blazer,2019,3.6 V6 Blazer RS AWD,161000,162000,161500,"AED 161,000 - 162,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2019/,2026-06-15T07:44:30Z
+chevrolet-blazer,2019,3.6 V6 Blazer Premier AWD,173100,174000,173550,"AED 173,100 - 174,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2019/,2026-06-15T07:44:30Z
+chevrolet-blazer,2020,2.5 I4 Blazer 1LT FWD,117700,120000,118850,"AED 117,700 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2020/,2026-06-15T07:44:32Z
+chevrolet-blazer,2020,3.6 V6 Blazer 2LT FWD,137000,138000,137500,"AED 137,000 - 138,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2020/,2026-06-15T07:44:32Z
+chevrolet-blazer,2020,3.6 V6 Blazer 3LT AWD,148000,149000,148500,"AED 148,000 - 149,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2020/,2026-06-15T07:44:32Z
+chevrolet-blazer,2020,3.6 V6 Blazer RS AWD,161000,162000,161500,"AED 161,000 - 162,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2020/,2026-06-15T07:44:32Z
+chevrolet-blazer,2020,3.6 V6 Blazer Premier AWD,173100,174000,173550,"AED 173,100 - 174,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2020/,2026-06-15T07:44:32Z
+chevrolet-blazer,2021,2.5 I4 Blazer 1LT FWD,117700,120000,118850,"AED 117,700 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2021/,2026-06-15T07:44:34Z
+chevrolet-blazer,2021,3.6 V6 Blazer 2LT FWD,137000,138000,137500,"AED 137,000 - 138,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2021/,2026-06-15T07:44:34Z
+chevrolet-blazer,2021,3.6 V6 Blazer 3LT AWD,148000,149000,148500,"AED 148,000 - 149,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2021/,2026-06-15T07:44:34Z
+chevrolet-blazer,2021,3.6 V6 Blazer RS AWD,161000,162000,161500,"AED 161,000 - 162,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2021/,2026-06-15T07:44:34Z
+chevrolet-blazer,2021,3.6 V6 Blazer Premier AWD,173100,174000,173550,"AED 173,100 - 174,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2021/,2026-06-15T07:44:34Z
+chevrolet-blazer,2022,2.0TC I4 Blazer LT FWD,128800,130000,129400,"AED 128,800 - 130,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2022/,2026-06-15T07:44:36Z
+chevrolet-blazer,2022,3.6 V6 Blazer RS AWD,169900,170000,169950,"AED 169,900 - 170,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2022/,2026-06-15T07:44:36Z
+chevrolet-blazer,2022,3.6 V6 Blazer Premier AWD,178000,179000,178500,"AED 178,000 - 179,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2022/,2026-06-15T07:44:36Z
+chevrolet-blazer,2023,2.0TC I4 Blazer LT FWD,128800,130000,129400,"AED 128,800 - 130,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2023/,2026-06-15T07:44:38Z
+chevrolet-blazer,2023,3.6 V6 Blazer RS AWD,169900,170000,169950,"AED 169,900 - 170,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2023/,2026-06-15T07:44:38Z
+chevrolet-blazer,2023,3.6 V6 Blazer Premier AWD,178000,179000,178500,"AED 178,000 - 179,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2023/,2026-06-15T07:44:38Z
+chevrolet-blazer,2024,2.0TC I4 Blazer RS FWD,183000,184000,183500,"AED 183,000 - 184,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2024/,2026-06-15T07:44:40Z
+chevrolet-blazer,2024,3.6 V6 Blazer RS AWD,191000,192000,191500,"AED 191,000 - 192,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2024/,2026-06-15T07:44:40Z
+chevrolet-blazer,2024,3.6 V6 Blazer Premier AWD,192500,193000,192750,"AED 192,500 - 193,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2024/,2026-06-15T07:44:40Z
+chevrolet-blazer,2025,2.0TC I4 Blazer RS FWD,183000,184000,183500,"AED 183,000 - 184,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2025/,2026-06-15T07:44:42Z
+chevrolet-blazer,2025,3.6 V6 Blazer RS AWD,191000,192000,191500,"AED 191,000 - 192,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2025/,2026-06-15T07:44:42Z
+chevrolet-blazer,2025,3.6 V6 Blazer Premier AWD,192500,193000,192750,"AED 192,500 - 193,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2025/,2026-06-15T07:44:42Z
+chevrolet-blazer,2026,2.0TC I4 Blazer RS FWD,183000,184000,183500,"AED 183,000 - 184,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2026/,2026-06-15T07:44:44Z
+chevrolet-blazer,2026,3.6 V6 Blazer RS AWD,191000,192000,191500,"AED 191,000 - 192,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2026/,2026-06-15T07:44:44Z
+chevrolet-blazer,2026,3.6 V6 Blazer Premier AWD,192500,193000,192750,"AED 192,500 - 193,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-blazer/2026/,2026-06-15T07:44:44Z
+chevrolet-bolt,2019,65kWh Bolt FWD,174500,175000,174750,"AED 174,500 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-bolt/2019/,2026-06-15T07:45:13Z
+chevrolet-bolt,2020,65kWh Bolt FWD,174500,175000,174750,"AED 174,500 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-bolt/2020/,2026-06-15T07:45:15Z
+chevrolet-bolt,2021,65kWh Bolt FWD,174500,175000,174750,"AED 174,500 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-bolt/2021/,2026-06-15T07:45:17Z
+chevrolet-bolt,2022,65kWh Bolt FWD,174500,175000,174750,"AED 174,500 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-bolt/2022/,2026-06-15T07:45:19Z
+chevrolet-bolt-euv,2022,65KWh Bolt EUV FWD,174500,175000,174750,"AED 174,500 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-bolt-euv/2022/,2026-06-15T07:45:56Z
+chevrolet-bolt-euv,2023,65KWh Bolt EUV FWD,174500,175000,174750,"AED 174,500 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-bolt-euv/2023/,2026-06-15T07:45:58Z
+chevrolet-bolt-euv,2024,65KWh Bolt EUV FWD,174500,175000,174750,"AED 174,500 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-bolt-euv/2024/,2026-06-15T07:46:00Z
+chevrolet-camaro,2010,3.6 V6 Camaro LS,120000,122000,121000,"AED 120,000 - 122,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2010/,2026-06-15T07:46:21Z
+chevrolet-camaro,2010,3.6 V6 Camaro LT,148000,150000,149000,"AED 148,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2010/,2026-06-15T07:46:21Z
+chevrolet-camaro,2010,6.2 V8 Camaro SS,160000,180000,170000,"AED 160,000 - 180,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2010/,2026-06-15T07:46:21Z
+chevrolet-camaro,2011,3.6 V6 Camaro LS,120000,122000,121000,"AED 120,000 - 122,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2011/,2026-06-15T07:46:23Z
+chevrolet-camaro,2011,3.6 V6 Camaro LT,148000,150000,149000,"AED 148,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2011/,2026-06-15T07:46:23Z
+chevrolet-camaro,2011,6.2 V8 Camaro SS,160000,180000,170000,"AED 160,000 - 180,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2011/,2026-06-15T07:46:23Z
+chevrolet-camaro,2012,3.6 V6 Camaro LS,120000,122000,121000,"AED 120,000 - 122,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2012/,2026-06-15T07:46:24Z
+chevrolet-camaro,2012,3.6 V6 Camaro LT,148000,150000,149000,"AED 148,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2012/,2026-06-15T07:46:24Z
+chevrolet-camaro,2012,6.2 V8 Camaro SS,160000,180000,170000,"AED 160,000 - 180,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2012/,2026-06-15T07:46:24Z
+chevrolet-camaro,2013,3.6 V6 Camaro LT,132900,135000,133950,"AED 132,900 - 135,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2013/,2026-06-15T07:46:26Z
+chevrolet-camaro,2013,6.2 V8 Camaro SS,185000,189000,187000,"AED 185,000 - 189,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2013/,2026-06-15T07:46:26Z
+chevrolet-camaro,2013,6.2SC V8 Camaro ZL1,245000,250000,247500,"AED 245,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2013/,2026-06-15T07:46:26Z
+chevrolet-camaro,2014,3.6 V6 Camaro LT,132900,135000,133950,"AED 132,900 - 135,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2014/,2026-06-15T07:46:29Z
+chevrolet-camaro,2014,6.2 V8 Camaro SS,185000,189000,187000,"AED 185,000 - 189,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2014/,2026-06-15T07:46:29Z
+chevrolet-camaro,2014,6.2SC V8 Camaro ZL1,245000,250000,247500,"AED 245,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2014/,2026-06-15T07:46:29Z
+chevrolet-camaro,2015,3.6 V6 Camaro LT,132900,135000,133950,"AED 132,900 - 135,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2015/,2026-06-15T07:46:30Z
+chevrolet-camaro,2015,6.2 V8 Camaro SS,185000,189000,187000,"AED 185,000 - 189,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2015/,2026-06-15T07:46:30Z
+chevrolet-camaro,2015,6.2SC V8 Camaro ZL1,245000,250000,247500,"AED 245,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2015/,2026-06-15T07:46:30Z
+chevrolet-camaro,2016,2.0TC I4 Camaro 1LT,130000,135000,132500,"AED 130,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2016/,2026-06-15T07:46:32Z
+chevrolet-camaro,2016,3.6 V6 Camaro 2LT,155000,160000,157500,"AED 155,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2016/,2026-06-15T07:46:32Z
+chevrolet-camaro,2016,6.2 V8 Camaro SS,196000,220000,208000,"AED 196,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2016/,2026-06-15T07:46:32Z
+chevrolet-camaro,2017,2.0TC I4 Camaro 1LT,130000,135000,132500,"AED 130,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2017/,2026-06-15T07:46:34Z
+chevrolet-camaro,2017,3.6 V6 Camaro 2LT,155000,160000,157500,"AED 155,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2017/,2026-06-15T07:46:34Z
+chevrolet-camaro,2017,6.2 V8 Camaro SS,196000,220000,208000,"AED 196,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2017/,2026-06-15T07:46:34Z
+chevrolet-camaro,2018,2.0TC I4 Camaro 1LT,130000,135000,132500,"AED 130,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2018/,2026-06-15T07:46:36Z
+chevrolet-camaro,2018,3.6 V6 Camaro 2LT,155000,160000,157500,"AED 155,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2018/,2026-06-15T07:46:36Z
+chevrolet-camaro,2018,6.2 V8 Camaro SS,196000,220000,208000,"AED 196,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2018/,2026-06-15T07:46:36Z
+chevrolet-camaro,2019,3.6 V6 Camaro 1LT,145000,150000,147500,"AED 145,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2019/,2026-06-15T07:46:38Z
+chevrolet-camaro,2019,3.6 V6 Camaro 2LT,175000,180000,177500,"AED 175,000 - 180,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2019/,2026-06-15T07:46:38Z
+chevrolet-camaro,2019,6.2 V8 Camaro SS,227000,230000,228500,"AED 227,000 - 230,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2019/,2026-06-15T07:46:38Z
+chevrolet-camaro,2020,3.6 V6 Camaro 1LT,145000,150000,147500,"AED 145,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2020/,2026-06-15T07:46:40Z
+chevrolet-camaro,2020,3.6 V6 Camaro 2LT,175000,180000,177500,"AED 175,000 - 180,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2020/,2026-06-15T07:46:40Z
+chevrolet-camaro,2020,6.2 V8 Camaro SS,227000,230000,228500,"AED 227,000 - 230,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2020/,2026-06-15T07:46:40Z
+chevrolet-camaro,2021,3.6 V6 Camaro 1LT,145000,150000,147500,"AED 145,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2021/,2026-06-15T07:46:42Z
+chevrolet-camaro,2021,3.6 V6 Camaro 2LT,175000,180000,177500,"AED 175,000 - 180,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2021/,2026-06-15T07:46:42Z
+chevrolet-camaro,2021,6.2 V8 Camaro SS,227000,230000,228500,"AED 227,000 - 230,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2021/,2026-06-15T07:46:42Z
+chevrolet-camaro,2022,3.6 V6 Camaro 1LT,145000,150000,147500,"AED 145,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2022/,2026-06-15T07:46:44Z
+chevrolet-camaro,2022,3.6 V6 Camaro 2LT,175000,180000,177500,"AED 175,000 - 180,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2022/,2026-06-15T07:46:44Z
+chevrolet-camaro,2022,6.2 V8 Camaro SS,227000,230000,228500,"AED 227,000 - 230,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2022/,2026-06-15T07:46:44Z
+chevrolet-camaro,2023,3.6 V6 Camaro 1LT,162300,168000,165150,"AED 162,300 - 168,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2023/,2026-06-15T07:46:45Z
+chevrolet-camaro,2023,3.6 V6 Camaro 3LT,196000,200000,198000,"AED 196,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2023/,2026-06-15T07:46:45Z
+chevrolet-camaro,2023,6.2 V8 Camaro SS,237900,240000,238950,"AED 237,900 - 240,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro/2023/,2026-06-15T07:46:45Z
+chevrolet-camaro-convertible,2011,3.6 V8 Camaro Convertible LT,140000,150000,145000,"AED 140,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2011/,2026-06-15T07:47:09Z
+chevrolet-camaro-convertible,2011,6.2 V8 Camaro Convertible SS,175000,195000,185000,"AED 175,000 - 195,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2011/,2026-06-15T07:47:09Z
+chevrolet-camaro-convertible,2012,3.6 V8 Camaro Convertible LT,140000,150000,145000,"AED 140,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2012/,2026-06-15T07:47:11Z
+chevrolet-camaro-convertible,2012,6.2 V8 Camaro Convertible SS,175000,195000,185000,"AED 175,000 - 195,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2012/,2026-06-15T07:47:11Z
+chevrolet-camaro-convertible,2013,3.6 V6 Camaro Convertible LT,159000,160000,159500,"AED 159,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2013/,2026-06-15T07:47:13Z
+chevrolet-camaro-convertible,2013,6.2 V8 Camaro Convertible SS,200000,205000,202500,"AED 200,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2013/,2026-06-15T07:47:13Z
+chevrolet-camaro-convertible,2013,6.2SC V8 Camaro Convertible ZL1,260000,270000,265000,"AED 260,000 - 270,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2013/,2026-06-15T07:47:13Z
+chevrolet-camaro-convertible,2014,3.6 V6 Camaro Convertible LT,145000,150000,147500,"AED 145,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2014/,2026-06-15T07:47:15Z
+chevrolet-camaro-convertible,2014,6.2 V8 Camaro Convertible SS,205000,210000,207500,"AED 205,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2014/,2026-06-15T07:47:15Z
+chevrolet-camaro-convertible,2014,6.2 SC V8 Camaro Convertible ZL1,250000,255000,252500,"AED 250,000 - 255,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2014/,2026-06-15T07:47:15Z
+chevrolet-camaro-convertible,2015,3.6 V6 Camaro Convertible LT,145000,150000,147500,"AED 145,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2015/,2026-06-15T07:47:17Z
+chevrolet-camaro-convertible,2015,6.2 V8 Camaro Convertible SS,205000,210000,207500,"AED 205,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2015/,2026-06-15T07:47:17Z
+chevrolet-camaro-convertible,2015,6.2 SC V8 Camaro Convertible ZL1,250000,255000,252500,"AED 250,000 - 255,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2015/,2026-06-15T07:47:17Z
+chevrolet-camaro-convertible,2016,3.6 V6 Camaro Convertible LT,145000,150000,147500,"AED 145,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2016/,2026-06-15T07:47:19Z
+chevrolet-camaro-convertible,2016,6.2 V8 Camaro Convertible SS,205000,210000,207500,"AED 205,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2016/,2026-06-15T07:47:19Z
+chevrolet-camaro-convertible,2016,6.2 SC V8 Camaro Convertible ZL1,250000,255000,252500,"AED 250,000 - 255,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2016/,2026-06-15T07:47:19Z
+chevrolet-camaro-convertible,2017,3.6 V6 Camaro Convertible 1LT,,,135000,"AED 135,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2017/,2026-06-15T07:47:21Z
+chevrolet-camaro-convertible,2017,3.6 V6 Camaro Convertible 2LT,,,160000,"AED 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2017/,2026-06-15T07:47:21Z
+chevrolet-camaro-convertible,2017,6.2 V8 Camaro Convertible SS,200000,220000,210000,"AED 200,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2017/,2026-06-15T07:47:21Z
+chevrolet-camaro-convertible,2018,3.6 V6 Camaro Convertible 1LT,142300,143000,142650,"AED 142,300 - 143,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2018/,2026-06-15T07:47:22Z
+chevrolet-camaro-convertible,2018,3.6 V6 Camaro Convertible 2LT,165000,170000,167500,"AED 165,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2018/,2026-06-15T07:47:22Z
+chevrolet-camaro-convertible,2018,6.2 V8 Camaro Convertible SS,213000,245000,229000,"AED 213,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2018/,2026-06-15T07:47:22Z
+chevrolet-camaro-convertible,2019,3.6 V6 Camaro Convertible 1LT,142300,143000,142650,"AED 142,300 - 143,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2019/,2026-06-15T07:47:24Z
+chevrolet-camaro-convertible,2019,3.6 V6 Camaro Convertible 2LT,165000,170000,167500,"AED 165,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2019/,2026-06-15T07:47:24Z
+chevrolet-camaro-convertible,2019,6.2 V8 Camaro Convertible SS,213000,245000,229000,"AED 213,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2019/,2026-06-15T07:47:24Z
+chevrolet-camaro-convertible,2020,3.6 V6 Camaro Convertible 1LT,142300,143000,142650,"AED 142,300 - 143,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2020/,2026-06-15T07:47:26Z
+chevrolet-camaro-convertible,2020,3.6 V6 Camaro Convertible 2LT,165000,170000,167500,"AED 165,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2020/,2026-06-15T07:47:26Z
+chevrolet-camaro-convertible,2020,6.2 V8 Camaro Convertible SS,213000,245000,229000,"AED 213,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2020/,2026-06-15T07:47:26Z
+chevrolet-camaro-convertible,2021,3.6 V6 Camaro Convertible 1LT,142300,143000,142650,"AED 142,300 - 143,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2021/,2026-06-15T07:47:28Z
+chevrolet-camaro-convertible,2021,3.6 V6 Camaro Convertible 2LT,165000,170000,167500,"AED 165,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2021/,2026-06-15T07:47:28Z
+chevrolet-camaro-convertible,2021,6.2 V8 Camaro Convertible SS,213000,245000,229000,"AED 213,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2021/,2026-06-15T07:47:28Z
+chevrolet-camaro-convertible,2022,3.6 V6 Camaro Convertible 1LT,142300,143000,142650,"AED 142,300 - 143,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2022/,2026-06-15T07:47:30Z
+chevrolet-camaro-convertible,2022,3.6 V6 Camaro Convertible 2LT,165000,170000,167500,"AED 165,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2022/,2026-06-15T07:47:30Z
+chevrolet-camaro-convertible,2022,6.2 V8 Camaro Convertible SS,213000,245000,229000,"AED 213,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2022/,2026-06-15T07:47:30Z
+chevrolet-camaro-convertible,2023,3.6 V6 Camaro Convertible 1LT,142300,143000,142650,"AED 142,300 - 143,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2023/,2026-06-15T07:47:32Z
+chevrolet-camaro-convertible,2023,3.6 V6 Camaro Convertible 2LT,165000,170000,167500,"AED 165,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2023/,2026-06-15T07:47:32Z
+chevrolet-camaro-convertible,2023,6.2 V8 Camaro Convertible SS,213000,245000,229000,"AED 213,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-convertible/2023/,2026-06-15T07:47:32Z
+chevrolet-camaro-zl1,2013,6.2SC V8 Camaro ZL1,245000,250000,247500,"AED 245,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-zl1/2013/,2026-06-15T07:47:58Z
+chevrolet-camaro-zl1,2014,6.2SC V8 Camaro ZL1,245000,250000,247500,"AED 245,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-zl1/2014/,2026-06-15T07:47:59Z
+chevrolet-camaro-zl1,2015,6.2SC V8 Camaro ZL1,245000,250000,247500,"AED 245,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-zl1/2015/,2026-06-15T07:48:01Z
+chevrolet-camaro-zl1,2017,6.2SC V8 Camaro ZL1,255000,260000,257500,"AED 255,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-zl1/2017/,2026-06-15T07:48:04Z
+chevrolet-camaro-zl1,2018,6.2SC V8 Camaro ZL1,275000,280000,277500,"AED 275,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-zl1/2018/,2026-06-15T07:48:06Z
+chevrolet-camaro-zl1,2019,6.2SC V8 Camaro ZL1,275000,280000,277500,"AED 275,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-zl1/2019/,2026-06-15T07:48:08Z
+chevrolet-camaro-zl1,2020,6.2SC V8 Camaro ZL1,291900,292000,291950,"AED 291,900 - 292,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-zl1/2020/,2026-06-15T07:48:10Z
+chevrolet-camaro-zl1,2021,6.2SC V8 Camaro ZL1,291900,292000,291950,"AED 291,900 - 292,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-zl1/2021/,2026-06-15T07:48:12Z
+chevrolet-camaro-zl1,2022,6.2SC V8 Camaro ZL1,291900,292000,291950,"AED 291,900 - 292,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-zl1/2022/,2026-06-15T07:48:14Z
+chevrolet-camaro-zl1,2023,6.2SC V8 Camaro ZL1,291900,292000,291950,"AED 291,900 - 292,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-camaro-zl1/2023/,2026-06-15T07:48:16Z
+chevrolet-caprice,2005,3.8 V8 Caprice LS,69500,72000,70750,"AED 69,500 - 72,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2005/,2026-06-15T07:48:33Z
+chevrolet-caprice,2005,5.7 V8 Caprice LTZ,98000,105000,101500,"AED 98,000 - 105,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2005/,2026-06-15T07:48:33Z
+chevrolet-caprice,2005,5.7 V8 Caprice SS,128000,131000,129500,"AED 128,000 - 131,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2005/,2026-06-15T07:48:33Z
+chevrolet-caprice,2006,3.8 V8 Caprice LS,69500,72000,70750,"AED 69,500 - 72,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2006/,2026-06-15T07:48:35Z
+chevrolet-caprice,2006,5.7 V8 Caprice LTZ,98000,105000,101500,"AED 98,000 - 105,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2006/,2026-06-15T07:48:35Z
+chevrolet-caprice,2006,5.7 V8 Caprice SS,128000,131000,129500,"AED 128,000 - 131,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2006/,2026-06-15T07:48:35Z
+chevrolet-caprice,2007,3.6 V6 Caprice LS,100000,110000,105000,"AED 100,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2007/,2026-06-15T07:48:36Z
+chevrolet-caprice,2007,3.6 V8 Caprice LTZ,117000,125000,121000,"AED 117,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2007/,2026-06-15T07:48:36Z
+chevrolet-caprice,2007,6.0 V8 Caprice SS,155000,160000,157500,"AED 155,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2007/,2026-06-15T07:48:36Z
+chevrolet-caprice,2008,3.6 V6 Caprice LS,100000,110000,105000,"AED 100,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2008/,2026-06-15T07:48:38Z
+chevrolet-caprice,2008,3.6 V8 Caprice LTZ,117000,125000,121000,"AED 117,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2008/,2026-06-15T07:48:38Z
+chevrolet-caprice,2008,6.0 V8 Caprice SS,155000,160000,157500,"AED 155,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2008/,2026-06-15T07:48:38Z
+chevrolet-caprice,2009,3.6 V6 Caprice LS,100000,110000,105000,"AED 100,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2009/,2026-06-15T07:48:40Z
+chevrolet-caprice,2009,3.6 V8 Caprice LTZ,117000,125000,121000,"AED 117,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2009/,2026-06-15T07:48:40Z
+chevrolet-caprice,2009,6.0 V8 Caprice SS,155000,160000,157500,"AED 155,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2009/,2026-06-15T07:48:40Z
+chevrolet-caprice,2010,3.6 V6 Caprice LS,100000,110000,105000,"AED 100,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2010/,2026-06-15T07:48:42Z
+chevrolet-caprice,2010,3.6 V8 Caprice LTZ,117000,125000,121000,"AED 117,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2010/,2026-06-15T07:48:42Z
+chevrolet-caprice,2010,6.0 V8 Caprice SS,155000,160000,157500,"AED 155,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2010/,2026-06-15T07:48:42Z
+chevrolet-caprice,2011,3.6 V6 Caprice LS,100000,110000,105000,"AED 100,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2011/,2026-06-15T07:48:44Z
+chevrolet-caprice,2011,3.6 V8 Caprice LTZ,117000,125000,121000,"AED 117,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2011/,2026-06-15T07:48:44Z
+chevrolet-caprice,2011,6.0 V8 Caprice SS,155000,160000,157500,"AED 155,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2011/,2026-06-15T07:48:44Z
+chevrolet-caprice,2012,3.6 V6 Caprice LS,100000,110000,105000,"AED 100,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2012/,2026-06-15T07:48:46Z
+chevrolet-caprice,2012,3.6 V8 Caprice LTZ,117000,125000,121000,"AED 117,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2012/,2026-06-15T07:48:46Z
+chevrolet-caprice,2012,6.0 V8 Caprice SS,155000,160000,157500,"AED 155,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2012/,2026-06-15T07:48:46Z
+chevrolet-caprice,2013,3.6 V6 Caprice LS,100000,110000,105000,"AED 100,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2013/,2026-06-15T07:48:48Z
+chevrolet-caprice,2013,3.6 V8 Caprice LTZ,117000,125000,121000,"AED 117,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2013/,2026-06-15T07:48:48Z
+chevrolet-caprice,2013,6.0 V8 Caprice SS,155000,160000,157500,"AED 155,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2013/,2026-06-15T07:48:48Z
+chevrolet-caprice,2014,6.0 V8 Caprice LS,133900,135000,134450,"AED 133,900 - 135,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2014/,2026-06-15T07:48:50Z
+chevrolet-caprice,2014,6.0 V8 Caprice LTZ,150000,155000,152500,"AED 150,000 - 155,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2014/,2026-06-15T07:48:50Z
+chevrolet-caprice,2014,6.0 V8 Caprice SS,168700,170000,169350,"AED 168,700 - 170,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2014/,2026-06-15T07:48:50Z
+chevrolet-caprice,2014,6.0 V8 Caprice Royale,180000,190000,185000,"AED 180,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2014/,2026-06-15T07:48:50Z
+chevrolet-caprice,2015,6.0 V8 Caprice LS,133900,135000,134450,"AED 133,900 - 135,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2015/,2026-06-15T07:48:52Z
+chevrolet-caprice,2015,6.0 V8 Caprice LTZ,150000,155000,152500,"AED 150,000 - 155,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2015/,2026-06-15T07:48:52Z
+chevrolet-caprice,2015,6.0 V8 Caprice SS,168700,170000,169350,"AED 168,700 - 170,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2015/,2026-06-15T07:48:52Z
+chevrolet-caprice,2015,6.0 V8 Caprice Royale,180000,190000,185000,"AED 180,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2015/,2026-06-15T07:48:52Z
+chevrolet-caprice,2016,6.0 V8 Caprice LS,133900,135000,134450,"AED 133,900 - 135,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2016/,2026-06-15T07:48:53Z
+chevrolet-caprice,2016,6.0 V8 Caprice LTZ,150000,155000,152500,"AED 150,000 - 155,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2016/,2026-06-15T07:48:53Z
+chevrolet-caprice,2016,6.0 V8 Caprice SS,168700,170000,169350,"AED 168,700 - 170,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2016/,2026-06-15T07:48:53Z
+chevrolet-caprice,2016,6.0 V8 Caprice Royale,180000,190000,185000,"AED 180,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-caprice/2016/,2026-06-15T07:48:53Z
+chevrolet-captiva,2007,2.4 I4 LS,79900,81000,80450,"AED 79,900 - 81,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2007/,2026-06-15T07:49:21Z
+chevrolet-captiva,2007,2.4 I4 LT,95000,98000,96500,"AED 95,000 - 98,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2007/,2026-06-15T07:49:21Z
+chevrolet-captiva,2007,3.2 V6 LTZ,118000,120000,119000,"AED 118,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2007/,2026-06-15T07:49:21Z
+chevrolet-captiva,2008,2.4 I4 LS,79900,81000,80450,"AED 79,900 - 81,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2008/,2026-06-15T07:49:23Z
+chevrolet-captiva,2008,2.4 I4 LT,95000,98000,96500,"AED 95,000 - 98,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2008/,2026-06-15T07:49:23Z
+chevrolet-captiva,2008,3.2 V6 LTZ,118000,120000,119000,"AED 118,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2008/,2026-06-15T07:49:23Z
+chevrolet-captiva,2009,2.4 I4 LS,79900,81000,80450,"AED 79,900 - 81,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2009/,2026-06-15T07:49:25Z
+chevrolet-captiva,2009,2.4 I4 LT,95000,98000,96500,"AED 95,000 - 98,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2009/,2026-06-15T07:49:25Z
+chevrolet-captiva,2009,3.2 V6 LTZ,118000,120000,119000,"AED 118,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2009/,2026-06-15T07:49:25Z
+chevrolet-captiva,2010,2.4 I4 LS,79900,81000,80450,"AED 79,900 - 81,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2010/,2026-06-15T07:49:27Z
+chevrolet-captiva,2010,2.4 I4 LT,95000,98000,96500,"AED 95,000 - 98,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2010/,2026-06-15T07:49:27Z
+chevrolet-captiva,2010,3.2 V6 LTZ,118000,120000,119000,"AED 118,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2010/,2026-06-15T07:49:27Z
+chevrolet-captiva,2011,2.4 I4 LS,83000,84500,83750,"AED 83,000 - 84,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2011/,2026-06-15T07:49:28Z
+chevrolet-captiva,2011,2.4 I4 LT,94500,96000,95250,"AED 94,500 - 96,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2011/,2026-06-15T07:49:28Z
+chevrolet-captiva,2011,3.0 V6 LTZ,105000,120000,112500,"AED 105,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2011/,2026-06-15T07:49:28Z
+chevrolet-captiva,2012,2.4 I4 LS,83000,84500,83750,"AED 83,000 - 84,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2012/,2026-06-15T07:49:30Z
+chevrolet-captiva,2012,2.4 I4 LT,94500,96000,95250,"AED 94,500 - 96,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2012/,2026-06-15T07:49:30Z
+chevrolet-captiva,2012,3.0 V6 LTZ,105000,120000,112500,"AED 105,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2012/,2026-06-15T07:49:30Z
+chevrolet-captiva,2013,2.4 I4 LS,83000,84500,83750,"AED 83,000 - 84,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2013/,2026-06-15T07:49:32Z
+chevrolet-captiva,2013,2.4 I4 LT,94500,96000,95250,"AED 94,500 - 96,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2013/,2026-06-15T07:49:32Z
+chevrolet-captiva,2013,3.0 V6 LTZ,105000,120000,112500,"AED 105,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2013/,2026-06-15T07:49:32Z
+chevrolet-captiva,2014,2.4 I4 LS,83000,84500,83750,"AED 83,000 - 84,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2014/,2026-06-15T07:49:34Z
+chevrolet-captiva,2014,2.4 I4 LT,94500,96000,95250,"AED 94,500 - 96,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2014/,2026-06-15T07:49:34Z
+chevrolet-captiva,2014,3.0 V6 LTZ,105000,120000,112500,"AED 105,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2014/,2026-06-15T07:49:34Z
+chevrolet-captiva,2015,2.4 I4 LS,83000,84500,83750,"AED 83,000 - 84,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2015/,2026-06-15T07:49:36Z
+chevrolet-captiva,2015,2.4 I4 LT,94500,96000,95250,"AED 94,500 - 96,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2015/,2026-06-15T07:49:36Z
+chevrolet-captiva,2015,3.0 V6 LTZ,105000,120000,112500,"AED 105,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2015/,2026-06-15T07:49:36Z
+chevrolet-captiva,2016,2.4 I4 LS,83000,84500,83750,"AED 83,000 - 84,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2016/,2026-06-15T07:49:38Z
+chevrolet-captiva,2016,2.4 I4 LT,94500,96000,95250,"AED 94,500 - 96,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2016/,2026-06-15T07:49:38Z
+chevrolet-captiva,2016,3.0 V6 LTZ,105000,120000,112500,"AED 105,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2016/,2026-06-15T07:49:38Z
+chevrolet-captiva,2017,2.4 I4 LS,83000,84500,83750,"AED 83,000 - 84,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2017/,2026-06-15T07:49:40Z
+chevrolet-captiva,2017,2.4 I4 LT,94500,96000,95250,"AED 94,500 - 96,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2017/,2026-06-15T07:49:40Z
+chevrolet-captiva,2017,3.0 V6 LTZ,105000,120000,112500,"AED 105,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2017/,2026-06-15T07:49:40Z
+chevrolet-captiva,2021,1.5TC I4 LS,65300,66000,65650,"AED 65,300 - 66,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2021/,2026-06-15T07:49:45Z
+chevrolet-captiva,2021,1.5TC I4 LT,69900,70000,69950,"AED 69,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2021/,2026-06-15T07:49:45Z
+chevrolet-captiva,2021,1.5TC I4 Premier,74200,75000,74600,"AED 74,200 - 75,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2021/,2026-06-15T07:49:45Z
+chevrolet-captiva,2022,1.5TC I4 LS,65300,66000,65650,"AED 65,300 - 66,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2022/,2026-06-15T07:49:47Z
+chevrolet-captiva,2022,1.5TC I4 LT,69900,70000,69950,"AED 69,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2022/,2026-06-15T07:49:47Z
+chevrolet-captiva,2022,1.5TC I4 Premier,74200,75000,74600,"AED 74,200 - 75,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2022/,2026-06-15T07:49:47Z
+chevrolet-captiva,2023,1.5TC I4 LS,65300,66000,65650,"AED 65,300 - 66,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2023/,2026-06-15T07:49:49Z
+chevrolet-captiva,2023,1.5TC I4 LT,69900,70000,69950,"AED 69,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2023/,2026-06-15T07:49:49Z
+chevrolet-captiva,2023,1.5TC I4 Premier,74200,75000,74600,"AED 74,200 - 75,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2023/,2026-06-15T07:49:49Z
+chevrolet-captiva,2024,1.5TC I4 LS FWD,74900,75000,74950,"AED 74,900 - 75,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2024/,2026-06-15T07:49:50Z
+chevrolet-captiva,2024,1.5TC I4 LT FWD,78300,79000,78650,"AED 78,300 - 79,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2024/,2026-06-15T07:49:50Z
+chevrolet-captiva,2024,1.5TC I4 Premier FWD,91000,92000,91500,"AED 91,000 - 92,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2024/,2026-06-15T07:49:50Z
+chevrolet-captiva,2025,1.5TC I4 LS FWD,84000,86000,85000,"AED 84,000 - 86,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2025/,2026-06-15T07:49:52Z
+chevrolet-captiva,2025,1.5TC I4 LT FWD,88000,90000,89000,"AED 88,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2025/,2026-06-15T07:49:52Z
+chevrolet-captiva,2025,1.5TC I4 Premier FWD,99000,100000,99500,"AED 99,000 - 100,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2025/,2026-06-15T07:49:52Z
+chevrolet-captiva,2026,1.5TC I4 LS FWD,84000,86000,85000,"AED 84,000 - 86,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2026/,2026-06-15T07:49:54Z
+chevrolet-captiva,2026,1.5TC I4 LT FWD,88000,90000,89000,"AED 88,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2026/,2026-06-15T07:49:54Z
+chevrolet-captiva,2026,1.5TC I4 Midnight Edition FWD,92100,100000,96050,"AED 92,100 - 100,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2026/,2026-06-15T07:49:54Z
+chevrolet-captiva,2026,1.5TC I4 Premier FWD,99000,100000,99500,"AED 99,000 - 100,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva/2026/,2026-06-15T07:49:54Z
+chevrolet-captiva-ev,2026,LT,120000,130000,125000,"AED 120,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva-ev/2026/,2026-06-15T07:50:31Z
+chevrolet-captiva-ev,2026,Premier,130000,140000,135000,"AED 130,000 - 140,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva-ev/2026/,2026-06-15T07:50:31Z
+chevrolet-captiva-phev,2026,LT,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva-phev/2026/,2026-06-15T07:51:09Z
+chevrolet-captiva-phev,2026,Premier,109900,110000,109950,"AED 109,900 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-captiva-phev/2026/,2026-06-15T07:51:09Z
+chevrolet-colorado,2008,2.4 I4 Colorado 2.4,54000,70000,62000,"AED 54,000 - 70,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-colorado/2008/,2026-06-15T07:51:26Z
+chevrolet-colorado,2009,2.4 I4 Colorado 2.4,54000,70000,62000,"AED 54,000 - 70,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-colorado/2009/,2026-06-15T07:51:27Z
+chevrolet-colorado,2010,2.4 I4 Colorado 2.4,54000,70000,62000,"AED 54,000 - 70,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-colorado/2010/,2026-06-15T07:51:29Z
+chevrolet-colorado,2011,2.4 I4 Colorado 2.4,54000,70000,62000,"AED 54,000 - 70,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-colorado/2011/,2026-06-15T07:51:32Z
+chevrolet-colorado,2012,2.4 I4 Colorado 2.4,87000,90000,88500,"AED 87,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-colorado/2012/,2026-06-15T07:51:34Z
+chevrolet-colorado,2012,3.6 V6 Colorado V6,101000,103000,102000,"AED 101,000 - 103,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-colorado/2012/,2026-06-15T07:51:34Z
+chevrolet-colorado,2013,2.4 I4 Colorado 2.4,87000,90000,88500,"AED 87,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-colorado/2013/,2026-06-15T07:51:35Z
+chevrolet-colorado,2013,3.6 V6 Colorado V6,101000,103000,102000,"AED 101,000 - 103,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-colorado/2013/,2026-06-15T07:51:35Z
+chevrolet-colorado,2014,2.4 I4 Colorado 2.4,87000,90000,88500,"AED 87,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-colorado/2014/,2026-06-15T07:51:37Z
+chevrolet-colorado,2014,3.6 V6 Colorado V6,101000,103000,102000,"AED 101,000 - 103,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-colorado/2014/,2026-06-15T07:51:37Z
+chevrolet-corvette,2005,6.0 V8 Corvette Coupe,213000,220000,216500,"AED 213,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2005/,2026-06-15T07:52:04Z
+chevrolet-corvette,2005,6.0 V8 Corvette Convertible,219000,225000,222000,"AED 219,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2005/,2026-06-15T07:52:04Z
+chevrolet-corvette,2005,7.0 V8 Corvette Z06,295000,300000,297500,"AED 295,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2005/,2026-06-15T07:52:04Z
+chevrolet-corvette,2006,6.0 V8 Corvette Coupe,213000,220000,216500,"AED 213,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2006/,2026-06-15T07:52:06Z
+chevrolet-corvette,2006,6.0 V8 Corvette Convertible,219000,225000,222000,"AED 219,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2006/,2026-06-15T07:52:06Z
+chevrolet-corvette,2006,7.0 V8 Corvette Z06,295000,300000,297500,"AED 295,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2006/,2026-06-15T07:52:06Z
+chevrolet-corvette,2007,6.0 V8 Corvette Coupe,213000,220000,216500,"AED 213,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2007/,2026-06-15T07:52:08Z
+chevrolet-corvette,2007,6.0 V8 Corvette Convertible,219000,225000,222000,"AED 219,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2007/,2026-06-15T07:52:08Z
+chevrolet-corvette,2007,7.0 V8 Corvette Z06,295000,300000,297500,"AED 295,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2007/,2026-06-15T07:52:08Z
+chevrolet-corvette,2008,6.2 V8 Coupe,230000,250000,240000,"AED 230,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2008/,2026-06-15T07:52:10Z
+chevrolet-corvette,2008,6.2 V8 Convertible,250000,275000,262500,"AED 250,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2008/,2026-06-15T07:52:10Z
+chevrolet-corvette,2008,7.0 V8 Corvette Z06,315000,330000,322500,"AED 315,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2008/,2026-06-15T07:52:10Z
+chevrolet-corvette,2008,6.2SC V8 Corvette ZR1,490000,510000,500000,"AED 490,000 - 510,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2008/,2026-06-15T07:52:10Z
+chevrolet-corvette,2009,6.2 V8 Coupe,230000,250000,240000,"AED 230,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2009/,2026-06-15T07:52:12Z
+chevrolet-corvette,2009,6.2 V8 Convertible,250000,275000,262500,"AED 250,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2009/,2026-06-15T07:52:12Z
+chevrolet-corvette,2009,7.0 V8 Corvette Z06,315000,330000,322500,"AED 315,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2009/,2026-06-15T07:52:12Z
+chevrolet-corvette,2009,6.2SC V8 Corvette ZR1,490000,510000,500000,"AED 490,000 - 510,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2009/,2026-06-15T07:52:12Z
+chevrolet-corvette,2010,6.2 V8 Coupe,230000,250000,240000,"AED 230,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2010/,2026-06-15T07:52:14Z
+chevrolet-corvette,2010,6.2 V8 Convertible,250000,275000,262500,"AED 250,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2010/,2026-06-15T07:52:14Z
+chevrolet-corvette,2010,7.0 V8 Corvette Z06,315000,330000,322500,"AED 315,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2010/,2026-06-15T07:52:14Z
+chevrolet-corvette,2010,6.2SC V8 Corvette ZR1,490000,510000,500000,"AED 490,000 - 510,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2010/,2026-06-15T07:52:14Z
+chevrolet-corvette,2011,6.2 V8 Coupe,230000,250000,240000,"AED 230,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2011/,2026-06-15T07:52:16Z
+chevrolet-corvette,2011,6.2 V8 Convertible,250000,275000,262500,"AED 250,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2011/,2026-06-15T07:52:16Z
+chevrolet-corvette,2011,7.0 V8 Corvette Z06,315000,330000,322500,"AED 315,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2011/,2026-06-15T07:52:16Z
+chevrolet-corvette,2011,6.2SC V8 Corvette ZR1,490000,510000,500000,"AED 490,000 - 510,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2011/,2026-06-15T07:52:16Z
+chevrolet-corvette,2012,6.2 V8 Coupe,230000,250000,240000,"AED 230,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2012/,2026-06-15T07:52:18Z
+chevrolet-corvette,2012,6.2 V8 Convertible,250000,275000,262500,"AED 250,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2012/,2026-06-15T07:52:18Z
+chevrolet-corvette,2012,7.0 V8 Corvette Z06,315000,330000,322500,"AED 315,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2012/,2026-06-15T07:52:18Z
+chevrolet-corvette,2012,6.2SC V8 Corvette ZR1,490000,510000,500000,"AED 490,000 - 510,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2012/,2026-06-15T07:52:18Z
+chevrolet-corvette,2013,6.2 V8 Coupe,230000,250000,240000,"AED 230,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2013/,2026-06-15T07:52:19Z
+chevrolet-corvette,2013,6.2 V8 Convertible,250000,275000,262500,"AED 250,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2013/,2026-06-15T07:52:19Z
+chevrolet-corvette,2013,7.0 V8 Corvette Z06,315000,330000,322500,"AED 315,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2013/,2026-06-15T07:52:19Z
+chevrolet-corvette,2013,6.2SC V8 Corvette ZR1,490000,510000,500000,"AED 490,000 - 510,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2013/,2026-06-15T07:52:19Z
+chevrolet-corvette,2014,6.2 V8 Corvette Z51,330000,332000,331000,"AED 330,000 - 332,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2014/,2026-06-15T07:52:21Z
+chevrolet-corvette,2015,6.2 V8 Corvette Z51,330000,332000,331000,"AED 330,000 - 332,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2015/,2026-06-15T07:52:23Z
+chevrolet-corvette,2016,6.2 V8 Corvette Z51,330000,332000,331000,"AED 330,000 - 332,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2016/,2026-06-15T07:52:25Z
+chevrolet-corvette,2017,6.2 V8 Stingray Z51,330000,350000,340000,"AED 330,000 - 350,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2017/,2026-06-15T07:52:27Z
+chevrolet-corvette,2017,6.2 V8 Grand Sport,350000,370000,360000,"AED 350,000 - 370,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2017/,2026-06-15T07:52:27Z
+chevrolet-corvette,2018,6.2 V8 Stingray Z51,330000,350000,340000,"AED 330,000 - 350,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2018/,2026-06-15T07:52:29Z
+chevrolet-corvette,2018,6.2 V8 Grand Sport,350000,370000,360000,"AED 350,000 - 370,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2018/,2026-06-15T07:52:29Z
+chevrolet-corvette,2019,6.2 V8 Stingray Z51,297000,350000,323500,"AED 297,000 - 350,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2019/,2026-06-15T07:52:31Z
+chevrolet-corvette,2019,6.2 V8 Grand Sport,350000,370000,360000,"AED 350,000 - 370,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2019/,2026-06-15T07:52:31Z
+chevrolet-corvette,2020,6.2 V8 1LT Coupe,289900,290000,289950,"AED 289,900 - 290,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2020/,2026-06-15T07:52:33Z
+chevrolet-corvette,2020,6.2 V8 3LT Coupe,343500,345000,344250,"AED 343,500 - 345,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2020/,2026-06-15T07:52:33Z
+chevrolet-corvette,2020,6.2 V8 2LT Convertible,360000,361000,360500,"AED 360,000 - 361,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2020/,2026-06-15T07:52:33Z
+chevrolet-corvette,2021,6.2 V8 1LT Coupe,289900,290000,289950,"AED 289,900 - 290,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2021/,2026-06-15T07:52:35Z
+chevrolet-corvette,2021,6.2 V8 3LT Coupe,343500,345000,344250,"AED 343,500 - 345,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2021/,2026-06-15T07:52:35Z
+chevrolet-corvette,2021,6.2 V8 2LT Convertible,360000,361000,360500,"AED 360,000 - 361,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2021/,2026-06-15T07:52:35Z
+chevrolet-corvette,2022,6.2 V8 1LT Coupe,289900,290000,289950,"AED 289,900 - 290,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2022/,2026-06-15T07:52:36Z
+chevrolet-corvette,2022,6.2 V8 3LT Coupe,343500,345000,344250,"AED 343,500 - 345,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2022/,2026-06-15T07:52:36Z
+chevrolet-corvette,2022,6.2 V8 2LT Convertible,360000,361000,360500,"AED 360,000 - 361,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2022/,2026-06-15T07:52:36Z
+chevrolet-corvette,2023,6.2 V8 1LT Coupe,289900,290000,289950,"AED 289,900 - 290,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2023/,2026-06-15T07:52:38Z
+chevrolet-corvette,2023,6.2 V8 3LT Coupe,343500,345000,344250,"AED 343,500 - 345,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2023/,2026-06-15T07:52:38Z
+chevrolet-corvette,2023,6.2 V8 2LT Convertible,360000,361000,360500,"AED 360,000 - 361,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2023/,2026-06-15T07:52:38Z
+chevrolet-corvette,2024,6.2 V8 1LT Coupe,339000,350000,344500,"AED 339,000 - 350,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2024/,2026-06-15T07:52:40Z
+chevrolet-corvette,2024,6.2 V8 2LT Convertible,418800,420000,419400,"AED 418,800 - 420,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2024/,2026-06-15T07:52:40Z
+chevrolet-corvette,2024,6.2 V8 3LT Coupe,449000,450000,449500,"AED 449,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2024/,2026-06-15T07:52:40Z
+chevrolet-corvette,2025,6.2 V8 1LT Coupe RWD,339000,350000,344500,"AED 339,000 - 350,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2025/,2026-06-15T07:52:42Z
+chevrolet-corvette,2025,6.2 V8 2LT Convertible RWD,418800,420000,419400,"AED 418,800 - 420,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2025/,2026-06-15T07:52:42Z
+chevrolet-corvette,2025,6.2 V8 3LT Coupe RWD,500000,510000,505000,"AED 500,000 - 510,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2025/,2026-06-15T07:52:42Z
+chevrolet-corvette,2025,e-Ray RWD,695000,700000,697500,"AED 695,000 - 700,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2025/,2026-06-15T07:52:42Z
+chevrolet-corvette,2025,Z06 RWD,765000,780000,772500,"AED 765,000 - 780,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2025/,2026-06-15T07:52:42Z
+chevrolet-corvette,2026,6.2 V8 1LT Coupe RWD,339000,350000,344500,"AED 339,000 - 350,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2026/,2026-06-15T07:52:44Z
+chevrolet-corvette,2026,6.2 V8 2LT Convertible RWD,418800,420000,419400,"AED 418,800 - 420,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2026/,2026-06-15T07:52:44Z
+chevrolet-corvette,2026,6.2 V8 3LT Coupe RWD,500000,510000,505000,"AED 500,000 - 510,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2026/,2026-06-15T07:52:44Z
+chevrolet-corvette,2026,e-Ray RWD,695000,700000,697500,"AED 695,000 - 700,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2026/,2026-06-15T07:52:44Z
+chevrolet-corvette,2026,Z06 RWD,765000,780000,772500,"AED 765,000 - 780,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-corvette/2026/,2026-06-15T07:52:44Z
+chevrolet-cruze,2010,1.8 I4 Cruze LS,53000,54500,53750,"AED 53,000 - 54,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze/2010/,2026-06-15T07:53:02Z
+chevrolet-cruze,2010,1.8 I4 Cruze LT,68500,70000,69250,"AED 68,500 - 70,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze/2010/,2026-06-15T07:53:02Z
+chevrolet-cruze,2011,1.8 I4 Cruze LS,53000,54500,53750,"AED 53,000 - 54,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze/2011/,2026-06-15T07:53:04Z
+chevrolet-cruze,2011,1.8 I4 Cruze LT,68500,70000,69250,"AED 68,500 - 70,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze/2011/,2026-06-15T07:53:04Z
+chevrolet-cruze,2012,1.8 I4 Cruze LS,53000,54500,53750,"AED 53,000 - 54,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze/2012/,2026-06-15T07:53:06Z
+chevrolet-cruze,2012,1.8 I4 Cruze LT,68500,70000,69250,"AED 68,500 - 70,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze/2012/,2026-06-15T07:53:06Z
+chevrolet-cruze,2013,1.8 I4 Cruze LS,61000,62500,61750,"AED 61,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze/2013/,2026-06-15T07:53:08Z
+chevrolet-cruze,2013,1.8 I4 Cruze LT,72500,74000,73250,"AED 72,500 - 74,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze/2013/,2026-06-15T07:53:08Z
+chevrolet-cruze,2014,1.8 I4 Cruze LS,61000,62500,61750,"AED 61,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze/2014/,2026-06-15T07:53:10Z
+chevrolet-cruze,2014,1.8 I4 Cruze LT,72500,74000,73250,"AED 72,500 - 74,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze/2014/,2026-06-15T07:53:10Z
+chevrolet-cruze,2015,1.8 I4 Cruze LS,61000,62500,61750,"AED 61,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze/2015/,2026-06-15T07:53:12Z
+chevrolet-cruze,2015,1.8 I4 Cruze LT,72500,74000,73250,"AED 72,500 - 74,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze/2015/,2026-06-15T07:53:12Z
+chevrolet-cruze,2016,1.8 I4 Cruze LS,57000,58500,57750,"AED 57,000 - 58,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze/2016/,2026-06-15T07:53:14Z
+chevrolet-cruze,2016,1.8 I4 Cruze LT,72500,74000,73250,"AED 72,500 - 74,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze/2016/,2026-06-15T07:53:14Z
+chevrolet-cruze,2017,1.8 I4 Cruze LS,57000,58500,57750,"AED 57,000 - 58,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze/2017/,2026-06-15T07:53:16Z
+chevrolet-cruze,2017,1.8 I4 Cruze LT,72500,74000,73250,"AED 72,500 - 74,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze/2017/,2026-06-15T07:53:16Z
+chevrolet-cruze-hatchback,2013,1.8 I4 Cruze Hatchback LS,61000,62500,61750,"AED 61,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze-hatchback/2013/,2026-06-15T07:53:48Z
+chevrolet-cruze-hatchback,2013,1.8 I4 Cruze Hatchback LT,72500,74000,73250,"AED 72,500 - 74,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze-hatchback/2013/,2026-06-15T07:53:48Z
+chevrolet-cruze-hatchback,2014,1.8 I4 Cruze Hatchback LS,61000,62500,61750,"AED 61,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze-hatchback/2014/,2026-06-15T07:53:50Z
+chevrolet-cruze-hatchback,2014,1.8 I4 Cruze Hatchback LT,72500,74000,73250,"AED 72,500 - 74,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze-hatchback/2014/,2026-06-15T07:53:50Z
+chevrolet-cruze-hatchback,2015,1.8 I4 Cruze Hatchback LS,61000,62500,61750,"AED 61,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze-hatchback/2015/,2026-06-15T07:53:51Z
+chevrolet-cruze-hatchback,2015,1.8 I4 Cruze Hatchback LT,72500,74000,73250,"AED 72,500 - 74,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-cruze-hatchback/2015/,2026-06-15T07:53:51Z
+chevrolet-csv-cr8,2008,6.0 V8 CSV CR8 LS2,162000,169000,165500,"AED 162,000 - 169,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-csv-cr8/2008/,2026-06-15T07:54:20Z
+chevrolet-csv-cr8,2008,6.2 V8 CSV CR8 LS3,178000,185000,181500,"AED 178,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-csv-cr8/2008/,2026-06-15T07:54:20Z
+chevrolet-csv-cr8,2009,6.2 V8 CSV CR8 6MT,178000,180000,179000,"AED 178,000 - 180,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-csv-cr8/2009/,2026-06-15T07:54:22Z
+chevrolet-csv-cr8,2009,6.2 V8 CSV CR8 6AT,183000,185000,184000,"AED 183,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-csv-cr8/2009/,2026-06-15T07:54:22Z
+chevrolet-csv-cr8,2010,6.2 V8 CSV CR8 6MT,178000,180000,179000,"AED 178,000 - 180,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-csv-cr8/2010/,2026-06-15T07:54:24Z
+chevrolet-csv-cr8,2010,6.2 V8 CSV CR8 6AT,183000,185000,184000,"AED 183,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-csv-cr8/2010/,2026-06-15T07:54:24Z
+chevrolet-epica,2007,2.0 I6 Epica CDX,64000,71000,67500,"AED 64,000 - 71,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-epica/2007/,2026-06-15T07:54:59Z
+chevrolet-epica,2007,2.5 I6 Epica CDXi,77000,80000,78500,"AED 77,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-epica/2007/,2026-06-15T07:54:59Z
+chevrolet-epica,2008,2.0 I6 Epica CDX,64000,71000,67500,"AED 64,000 - 71,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-epica/2008/,2026-06-15T07:55:01Z
+chevrolet-epica,2008,2.5 I6 Epica CDXi,77000,80000,78500,"AED 77,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-epica/2008/,2026-06-15T07:55:01Z
+chevrolet-epica,2009,2.0 I6 Epica CDX,64000,71000,67500,"AED 64,000 - 71,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-epica/2009/,2026-06-15T07:55:02Z
+chevrolet-epica,2009,2.5 I6 Epica CDXi,77000,80000,78500,"AED 77,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-epica/2009/,2026-06-15T07:55:02Z
+chevrolet-epica,2010,2.0 I6 Epica CDX,64000,71000,67500,"AED 64,000 - 71,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-epica/2010/,2026-06-15T07:55:04Z
+chevrolet-epica,2010,2.5 I6 Epica CDXi,77000,80000,78500,"AED 77,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-epica/2010/,2026-06-15T07:55:04Z
+chevrolet-epica,2011,2.0 I6 Epica CDX,64000,71000,67500,"AED 64,000 - 71,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-epica/2011/,2026-06-15T07:55:06Z
+chevrolet-epica,2011,2.5 I6 Epica CDXi,77000,80000,78500,"AED 77,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-epica/2011/,2026-06-15T07:55:06Z
+chevrolet-equinox,2018,1.5TC I4 Equinox FWD LS,81700,82000,81850,"AED 81,700 - 82,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-equinox/2018/,2026-06-15T07:55:51Z
+chevrolet-equinox,2018,1.5TC I4 Equinox AWD LT,109000,110000,109500,"AED 109,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-equinox/2018/,2026-06-15T07:55:51Z
+chevrolet-equinox,2018,2.0TC I4 Equinox AWD Premier,121000,122000,121500,"AED 121,000 - 122,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-equinox/2018/,2026-06-15T07:55:51Z
+chevrolet-equinox,2019,1.5TC I4 Equinox FWD LS,81700,82000,81850,"AED 81,700 - 82,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-equinox/2019/,2026-06-15T07:55:53Z
+chevrolet-equinox,2019,1.5TC I4 Equinox AWD LT,109000,110000,109500,"AED 109,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-equinox/2019/,2026-06-15T07:55:53Z
+chevrolet-equinox,2019,2.0TC I4 Equinox AWD Premier,121000,122000,121500,"AED 121,000 - 122,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-equinox/2019/,2026-06-15T07:55:53Z
+chevrolet-equinox,2020,1.5TC I4 Equinox FWD LS,81700,82000,81850,"AED 81,700 - 82,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-equinox/2020/,2026-06-15T07:55:55Z
+chevrolet-equinox,2020,1.5TC I4 Equinox AWD LT,109000,110000,109500,"AED 109,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-equinox/2020/,2026-06-15T07:55:55Z
+chevrolet-equinox,2020,2.0TC I4 Equinox AWD Premier,121000,122000,121500,"AED 121,000 - 122,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-equinox/2020/,2026-06-15T07:55:55Z
+chevrolet-equinox,2021,1.5TC I4 Equinox FWD LS,81700,82000,81850,"AED 81,700 - 82,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-equinox/2021/,2026-06-15T07:55:57Z
+chevrolet-equinox,2021,1.5TC I4 Equinox AWD LT,109000,110000,109500,"AED 109,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-equinox/2021/,2026-06-15T07:55:57Z
+chevrolet-equinox,2021,2.0TC I4 Equinox AWD Premier,121000,122000,121500,"AED 121,000 - 122,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-equinox/2021/,2026-06-15T07:55:57Z
+chevrolet-equinox,2022,1.5TC I4 Equinox FWD LS,81700,82000,81850,"AED 81,700 - 82,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-equinox/2022/,2026-06-15T07:55:59Z
+chevrolet-equinox,2022,1.5TC I4 Equinox AWD LT,109000,110000,109500,"AED 109,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-equinox/2022/,2026-06-15T07:55:59Z
+chevrolet-equinox,2022,2.0TC I4 Equinox AWD Premier,121000,122000,121500,"AED 121,000 - 122,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-equinox/2022/,2026-06-15T07:55:59Z
+chevrolet-equinox-ev,2025,85 kWh RS FWD,200000,201000,200500,"AED 200,000 - 201,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-equinox-ev/2025/,2026-06-15T07:56:39Z
+chevrolet-equinox-ev,2026,RS FWD,183000,201000,192000,"AED 183,000 - 201,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-equinox-ev/2026/,2026-06-15T07:56:41Z
+chevrolet-express,2023,6.6 V8 2500 Express RWD,143500,152000,147750,"AED 143,500 - 152,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-express/2023/,2026-06-15T07:57:14Z
+chevrolet-express,2024,6.6 V8 2500 Express RWD,143500,150000,146750,"AED 143,500 - 150,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-express/2024/,2026-06-15T07:57:16Z
+chevrolet-groove,2022,1.5 I4 Groove LT,59700,60000,59850,"AED 59,700 - 60,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-groove/2022/,2026-06-15T07:57:50Z
+chevrolet-groove,2022,1.5 I4 Groove Premier,66600,67000,66800,"AED 66,600 - 67,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-groove/2022/,2026-06-15T07:57:50Z
+chevrolet-groove,2023,1.5 I4 Groove LT,59700,60000,59850,"AED 59,700 - 60,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-groove/2023/,2026-06-15T07:57:52Z
+chevrolet-groove,2023,1.5 I4 Groove Premier,66600,67000,66800,"AED 66,600 - 67,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-groove/2023/,2026-06-15T07:57:52Z
+chevrolet-groove,2024,1.5 I4 Groove LT FWD,60500,62000,61250,"AED 60,500 - 62,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-groove/2024/,2026-06-15T07:57:54Z
+chevrolet-groove,2024,1.5 I4 Groove Premier FWD,68500,70000,69250,"AED 68,500 - 70,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-groove/2024/,2026-06-15T07:57:54Z
+chevrolet-groove,2025,1.5 I4 Groove LT FWD,58000,59000,58500,"AED 58,000 - 59,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-groove/2025/,2026-06-15T07:57:56Z
+chevrolet-groove,2025,1.5 I4 Groove Premier FWD,68500,70000,69250,"AED 68,500 - 70,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-groove/2025/,2026-06-15T07:57:56Z
+chevrolet-groove,2026,1.5 I4 Groove LT FWD,68000,69000,68500,"AED 68,000 - 69,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-groove/2026/,2026-06-15T07:57:57Z
+chevrolet-groove,2026,1.5 I4 Groove RS FWD,78500,80000,79250,"AED 78,500 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-groove/2026/,2026-06-15T07:57:57Z
+chevrolet-impala,2014,3.6 V6 Impala LS,109600,110000,109800,"AED 109,600 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2014/,2026-06-15T07:58:21Z
+chevrolet-impala,2014,3.6 V6 Impala LT,120600,121000,120800,"AED 120,600 - 121,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2014/,2026-06-15T07:58:21Z
+chevrolet-impala,2014,3.6 V6 Impala Premier,141000,142000,141500,"AED 141,000 - 142,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2014/,2026-06-15T07:58:21Z
+chevrolet-impala,2015,3.6 V6 Impala LS,109600,110000,109800,"AED 109,600 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2015/,2026-06-15T07:58:23Z
+chevrolet-impala,2015,3.6 V6 Impala LT,120600,121000,120800,"AED 120,600 - 121,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2015/,2026-06-15T07:58:23Z
+chevrolet-impala,2015,3.6 V6 Impala Premier,141000,142000,141500,"AED 141,000 - 142,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2015/,2026-06-15T07:58:23Z
+chevrolet-impala,2016,3.6 V6 Impala LS,109600,110000,109800,"AED 109,600 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2016/,2026-06-15T07:58:25Z
+chevrolet-impala,2016,3.6 V6 Impala LT,120600,121000,120800,"AED 120,600 - 121,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2016/,2026-06-15T07:58:25Z
+chevrolet-impala,2016,3.6 V6 Impala Premier,141000,142000,141500,"AED 141,000 - 142,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2016/,2026-06-15T07:58:25Z
+chevrolet-impala,2017,3.6 V6 Impala LS,109600,110000,109800,"AED 109,600 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2017/,2026-06-15T07:58:27Z
+chevrolet-impala,2017,3.6 V6 Impala LT,120600,121000,120800,"AED 120,600 - 121,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2017/,2026-06-15T07:58:27Z
+chevrolet-impala,2017,3.6 V6 Impala Premier,141000,142000,141500,"AED 141,000 - 142,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2017/,2026-06-15T07:58:27Z
+chevrolet-impala,2018,3.6 V6 Impala LS,109600,110000,109800,"AED 109,600 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2018/,2026-06-15T07:58:28Z
+chevrolet-impala,2018,3.6 V6 Impala LT,120600,121000,120800,"AED 120,600 - 121,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2018/,2026-06-15T07:58:28Z
+chevrolet-impala,2018,3.6 V6 Impala Premier,141000,142000,141500,"AED 141,000 - 142,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2018/,2026-06-15T07:58:28Z
+chevrolet-impala,2019,3.6 V6 Impala LS,109600,110000,109800,"AED 109,600 - 110,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2019/,2026-06-15T07:58:30Z
+chevrolet-impala,2019,3.6 V6 Impala LT,120600,121000,120800,"AED 120,600 - 121,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2019/,2026-06-15T07:58:30Z
+chevrolet-impala,2019,3.6 V6 Impala Premier,141000,142000,141500,"AED 141,000 - 142,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-impala/2019/,2026-06-15T07:58:30Z
+chevrolet-lumina,2005,3.6 V6 Lumina LS,65000,67500,66250,"AED 65,000 - 67,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2005/,2026-06-15T07:58:52Z
+chevrolet-lumina,2005,3.6 V6 Lumina LTZ,75000,78000,76500,"AED 75,000 - 78,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2005/,2026-06-15T07:58:52Z
+chevrolet-lumina,2005,5.7 V8 Lumina SS Coupe,120000,122000,121000,"AED 120,000 - 122,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2005/,2026-06-15T07:58:52Z
+chevrolet-lumina,2005,5.7 V8 Lumina SS,128000,130000,129000,"AED 128,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2005/,2026-06-15T07:58:52Z
+chevrolet-lumina,2006,3.6 V6 Lumina LS,65000,67500,66250,"AED 65,000 - 67,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2006/,2026-06-15T07:58:54Z
+chevrolet-lumina,2006,3.6 V6 Lumina LTZ,75000,78000,76500,"AED 75,000 - 78,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2006/,2026-06-15T07:58:54Z
+chevrolet-lumina,2006,5.7 V8 Lumina SS Coupe,120000,122000,121000,"AED 120,000 - 122,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2006/,2026-06-15T07:58:54Z
+chevrolet-lumina,2006,5.7 V8 Lumina SS,128000,130000,129000,"AED 128,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2006/,2026-06-15T07:58:54Z
+chevrolet-lumina,2007,3.6 V6 Lumina LTZ,80000,82500,81250,"AED 80,000 - 82,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2007/,2026-06-15T07:58:56Z
+chevrolet-lumina,2007,3.6 V6 Lumina S,99500,101000,100250,"AED 99,500 - 101,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2007/,2026-06-15T07:58:56Z
+chevrolet-lumina,2007,6.0 V8 Lumina SS,130000,135000,132500,"AED 130,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2007/,2026-06-15T07:58:56Z
+chevrolet-lumina,2008,3.6 V6 Lumina LTZ,80000,82500,81250,"AED 80,000 - 82,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2008/,2026-06-15T07:58:58Z
+chevrolet-lumina,2008,3.6 V6 Lumina S,99500,101000,100250,"AED 99,500 - 101,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2008/,2026-06-15T07:58:58Z
+chevrolet-lumina,2008,6.0 V8 Lumina SS,130000,135000,132500,"AED 130,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2008/,2026-06-15T07:58:58Z
+chevrolet-lumina,2009,3.6 V6 Lumina LTZ,80000,82500,81250,"AED 80,000 - 82,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2009/,2026-06-15T07:59:00Z
+chevrolet-lumina,2009,3.6 V6 Lumina S,99500,101000,100250,"AED 99,500 - 101,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2009/,2026-06-15T07:59:00Z
+chevrolet-lumina,2009,6.0 V8 Lumina SS,130000,135000,132500,"AED 130,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2009/,2026-06-15T07:59:00Z
+chevrolet-lumina,2010,3.6 V6 Lumina LTZ,90000,92500,91250,"AED 90,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2010/,2026-06-15T07:59:02Z
+chevrolet-lumina,2010,3.6 V6 Lumina S,103500,105000,104250,"AED 103,500 - 105,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2010/,2026-06-15T07:59:02Z
+chevrolet-lumina,2010,6.0 V8 Lumina SS,130000,135000,132500,"AED 130,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2010/,2026-06-15T07:59:02Z
+chevrolet-lumina,2011,3.6 V6 Lumina LTZ,90000,92500,91250,"AED 90,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2011/,2026-06-15T07:59:04Z
+chevrolet-lumina,2011,3.6 V6 Lumina S,103500,105000,104250,"AED 103,500 - 105,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2011/,2026-06-15T07:59:04Z
+chevrolet-lumina,2011,6.0 V8 Lumina SS,130000,135000,132500,"AED 130,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-lumina/2011/,2026-06-15T07:59:04Z
+chevrolet-malibu,2010,2.4 I4 Malibu LS,79000,80000,79500,"AED 79,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2010/,2026-06-15T07:59:40Z
+chevrolet-malibu,2010,2.4 I4 Malibu LT,87000,89000,88000,"AED 87,000 - 89,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2010/,2026-06-15T07:59:40Z
+chevrolet-malibu,2010,3.0 V6 Malibu LTZ,98000,99000,98500,"AED 98,000 - 99,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2010/,2026-06-15T07:59:40Z
+chevrolet-malibu,2011,2.4 I4 Malibu LS,79000,80000,79500,"AED 79,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2011/,2026-06-15T07:59:42Z
+chevrolet-malibu,2011,2.4 I4 Malibu LT,87000,89000,88000,"AED 87,000 - 89,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2011/,2026-06-15T07:59:42Z
+chevrolet-malibu,2011,3.0 V6 Malibu LTZ,98000,99000,98500,"AED 98,000 - 99,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2011/,2026-06-15T07:59:42Z
+chevrolet-malibu,2012,2.4 I4 Malibu LS,79000,80000,79500,"AED 79,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2012/,2026-06-15T07:59:44Z
+chevrolet-malibu,2012,2.4 I4 Malibu LT,87000,89000,88000,"AED 87,000 - 89,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2012/,2026-06-15T07:59:44Z
+chevrolet-malibu,2012,3.0 V6 Malibu LTZ,98000,99000,98500,"AED 98,000 - 99,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2012/,2026-06-15T07:59:44Z
+chevrolet-malibu,2013,2.4 I4 Malibu LS,68900,80000,74450,"AED 68,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2013/,2026-06-15T07:59:45Z
+chevrolet-malibu,2013,2.4 I4 Malibu LT,89000,90500,89750,"AED 89,000 - 90,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2013/,2026-06-15T07:59:45Z
+chevrolet-malibu,2013,3.0 V6 Malibu LTZ,98000,100000,99000,"AED 98,000 - 100,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2013/,2026-06-15T07:59:45Z
+chevrolet-malibu,2014,2.4 I4 Malibu LS,68900,80000,74450,"AED 68,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2014/,2026-06-15T07:59:47Z
+chevrolet-malibu,2014,2.4 I4 Malibu LT,89000,90500,89750,"AED 89,000 - 90,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2014/,2026-06-15T07:59:47Z
+chevrolet-malibu,2014,3.0 V6 Malibu LTZ,98000,100000,99000,"AED 98,000 - 100,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2014/,2026-06-15T07:59:47Z
+chevrolet-malibu,2015,2.4 I4 Malibu LS,68900,80000,74450,"AED 68,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2015/,2026-06-15T07:59:49Z
+chevrolet-malibu,2015,2.4 I4 Malibu LT,89000,90500,89750,"AED 89,000 - 90,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2015/,2026-06-15T07:59:49Z
+chevrolet-malibu,2015,3.0 V6 Malibu LTZ,98000,100000,99000,"AED 98,000 - 100,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2015/,2026-06-15T07:59:49Z
+chevrolet-malibu,2016,2.4 I4 Malibu LS,68900,80000,74450,"AED 68,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2016/,2026-06-15T07:59:51Z
+chevrolet-malibu,2016,2.4 I4 Malibu LT,89000,90500,89750,"AED 89,000 - 90,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2016/,2026-06-15T07:59:51Z
+chevrolet-malibu,2016,3.0 V6 Malibu LTZ,98000,100000,99000,"AED 98,000 - 100,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2016/,2026-06-15T07:59:51Z
+chevrolet-malibu,2017,2.5 I4 Malibu LS,69900,73000,71450,"AED 69,900 - 73,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2017/,2026-06-15T07:59:53Z
+chevrolet-malibu,2017,2.5 I4 Malibu LT,76000,87000,81500,"AED 76,000 - 87,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2017/,2026-06-15T07:59:53Z
+chevrolet-malibu,2017,2.0TC I4 Malibu LTZ,96000,113000,104500,"AED 96,000 - 113,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2017/,2026-06-15T07:59:53Z
+chevrolet-malibu,2018,2.5 I4 Malibu LS,79500,80000,79750,"AED 79,500 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2018/,2026-06-15T07:59:55Z
+chevrolet-malibu,2018,2.5 I4 Malibu LT,105000,112500,108750,"AED 105,000 - 112,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2018/,2026-06-15T07:59:55Z
+chevrolet-malibu,2018,2.0TC I4 Malibu LT,116000,117000,116500,"AED 116,000 - 117,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2018/,2026-06-15T07:59:55Z
+chevrolet-malibu,2018,2.5 I4 Malibu LTZ,119000,126500,122750,"AED 119,000 - 126,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2018/,2026-06-15T07:59:55Z
+chevrolet-malibu,2018,2.0TC I4 Malibu LTZ,129500,137000,133250,"AED 129,500 - 137,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2018/,2026-06-15T07:59:55Z
+chevrolet-malibu,2019,1.5TC I4 Malibu LS,79940,80000,79970,"AED 79,940 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2019/,2026-06-15T07:59:56Z
+chevrolet-malibu,2019,1.5TC I4 Malibu LT,90540,91000,90770,"AED 90,540 - 91,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2019/,2026-06-15T07:59:56Z
+chevrolet-malibu,2019,2.0TC I4 Malibu LT,96720,97000,96860,"AED 96,720 - 97,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2019/,2026-06-15T07:59:56Z
+chevrolet-malibu,2019,1.5TC I4 Malibu Premier,108260,109000,108630,"AED 108,260 - 109,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2019/,2026-06-15T07:59:56Z
+chevrolet-malibu,2019,2.0TC I4 Malibu Premier,135240,136000,135620,"AED 135,240 - 136,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2019/,2026-06-15T07:59:56Z
+chevrolet-malibu,2020,1.5TC I4 Malibu LS,79940,80000,79970,"AED 79,940 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2020/,2026-06-15T07:59:58Z
+chevrolet-malibu,2020,1.5TC I4 Malibu LT,90540,91000,90770,"AED 90,540 - 91,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2020/,2026-06-15T07:59:58Z
+chevrolet-malibu,2020,2.0TC I4 Malibu LT,96720,97000,96860,"AED 96,720 - 97,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2020/,2026-06-15T07:59:58Z
+chevrolet-malibu,2020,1.5TC I4 Malibu Premier,108260,109000,108630,"AED 108,260 - 109,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2020/,2026-06-15T07:59:58Z
+chevrolet-malibu,2020,2.0TC I4 Malibu Premier,135240,136000,135620,"AED 135,240 - 136,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2020/,2026-06-15T07:59:58Z
+chevrolet-malibu,2021,1.5TC I4 Malibu LS,79940,80000,79970,"AED 79,940 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2021/,2026-06-15T08:00:00Z
+chevrolet-malibu,2021,1.5TC I4 Malibu LT,90540,91000,90770,"AED 90,540 - 91,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2021/,2026-06-15T08:00:00Z
+chevrolet-malibu,2021,2.0TC I4 Malibu LT,96720,97000,96860,"AED 96,720 - 97,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2021/,2026-06-15T08:00:00Z
+chevrolet-malibu,2021,1.5TC I4 Malibu Premier,108260,109000,108630,"AED 108,260 - 109,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2021/,2026-06-15T08:00:00Z
+chevrolet-malibu,2021,2.0TC I4 Malibu Premier,135240,136000,135620,"AED 135,240 - 136,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2021/,2026-06-15T08:00:00Z
+chevrolet-malibu,2022,1.5TC I4 Malibu LS,79940,80000,79970,"AED 79,940 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2022/,2026-06-15T08:00:02Z
+chevrolet-malibu,2022,1.5TC I4 Malibu LT,90540,91000,90770,"AED 90,540 - 91,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2022/,2026-06-15T08:00:02Z
+chevrolet-malibu,2022,2.0TC I4 Malibu LT,96720,97000,96860,"AED 96,720 - 97,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2022/,2026-06-15T08:00:02Z
+chevrolet-malibu,2022,1.5TC I4 Malibu Premier,108260,109000,108630,"AED 108,260 - 109,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2022/,2026-06-15T08:00:02Z
+chevrolet-malibu,2022,2.0TC I4 Malibu Premier,135240,136000,135620,"AED 135,240 - 136,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-malibu/2022/,2026-06-15T08:00:02Z
+chevrolet-optra,2003,1.6 I4 Optra LS,51500,53000,52250,"AED 51,500 - 53,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-optra/2003/,2026-06-15T08:00:17Z
+chevrolet-optra,2003,1.8 I4 Optra LT,58000,60000,59000,"AED 58,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-optra/2003/,2026-06-15T08:00:17Z
+chevrolet-optra,2004,1.6 I4 Optra LS,51500,53000,52250,"AED 51,500 - 53,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-optra/2004/,2026-06-15T08:00:19Z
+chevrolet-optra,2004,1.8 I4 Optra LT,58000,60000,59000,"AED 58,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-optra/2004/,2026-06-15T08:00:19Z
+chevrolet-optra,2005,1.6 I4 Optra LS,51500,53000,52250,"AED 51,500 - 53,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-optra/2005/,2026-06-15T08:00:21Z
+chevrolet-optra,2005,1.8 I4 Optra LT,58000,60000,59000,"AED 58,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-optra/2005/,2026-06-15T08:00:21Z
+chevrolet-optra,2006,1.6 I4 Optra LS,51500,53000,52250,"AED 51,500 - 53,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-optra/2006/,2026-06-15T08:00:23Z
+chevrolet-optra,2006,1.8 I4 Optra LT,58000,60000,59000,"AED 58,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-optra/2006/,2026-06-15T08:00:23Z
+chevrolet-optra,2007,1.6 I4 Optra LS,51500,53000,52250,"AED 51,500 - 53,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-optra/2007/,2026-06-15T08:00:25Z
+chevrolet-optra,2007,1.8 I4 Optra LT,58000,60000,59000,"AED 58,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-optra/2007/,2026-06-15T08:00:25Z
+chevrolet-optra,2008,1.6 I4 Optra LS,51500,53000,52250,"AED 51,500 - 53,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-optra/2008/,2026-06-15T08:00:27Z
+chevrolet-optra,2008,1.8 I4 Optra LT,58000,60000,59000,"AED 58,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-optra/2008/,2026-06-15T08:00:27Z
+chevrolet-optra,2009,1.6 I4 Optra LS,51500,53000,52250,"AED 51,500 - 53,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-optra/2009/,2026-06-15T08:00:29Z
+chevrolet-optra,2009,1.8 I4 Optra LT,58000,60000,59000,"AED 58,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-optra/2009/,2026-06-15T08:00:29Z
+chevrolet-optra,2010,1.6 I4 Optra LS,51500,53000,52250,"AED 51,500 - 53,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-optra/2010/,2026-06-15T08:00:31Z
+chevrolet-optra,2010,1.8 I4 Optra LT,58000,60000,59000,"AED 58,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-optra/2010/,2026-06-15T08:00:31Z
+chevrolet-silverado,2003,4.8 V8 LT,105000,116000,110500,"AED 105,000 - 116,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2003/,2026-06-15T08:01:00Z
+chevrolet-silverado,2003,5.3 V8 LTZ,114000,130000,122000,"AED 114,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2003/,2026-06-15T08:01:00Z
+chevrolet-silverado,2004,4.8 V8 LT,105000,116000,110500,"AED 105,000 - 116,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2004/,2026-06-15T08:01:02Z
+chevrolet-silverado,2004,5.3 V8 LTZ,114000,130000,122000,"AED 114,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2004/,2026-06-15T08:01:02Z
+chevrolet-silverado,2005,4.8 V8 LT,105000,116000,110500,"AED 105,000 - 116,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2005/,2026-06-15T08:01:04Z
+chevrolet-silverado,2005,5.3 V8 LTZ,114000,130000,122000,"AED 114,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2005/,2026-06-15T08:01:04Z
+chevrolet-silverado,2006,4.8 V8 LT,105000,116000,110500,"AED 105,000 - 116,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2006/,2026-06-15T08:01:06Z
+chevrolet-silverado,2006,5.3 V8 LTZ,114000,130000,122000,"AED 114,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2006/,2026-06-15T08:01:06Z
+chevrolet-silverado,2007,4.8 V8 LT,100000,119000,109500,"AED 100,000 - 119,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2007/,2026-06-15T08:01:08Z
+chevrolet-silverado,2007,5.3 V8 LTZ,116000,130000,123000,"AED 116,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2007/,2026-06-15T08:01:08Z
+chevrolet-silverado,2008,4.8 V8 LT,100000,119000,109500,"AED 100,000 - 119,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2008/,2026-06-15T08:01:10Z
+chevrolet-silverado,2008,5.3 V8 LTZ,116000,130000,123000,"AED 116,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2008/,2026-06-15T08:01:10Z
+chevrolet-silverado,2009,4.8 V8 LT,100000,119000,109500,"AED 100,000 - 119,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2009/,2026-06-15T08:01:12Z
+chevrolet-silverado,2009,5.3 V8 LTZ,116000,130000,123000,"AED 116,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2009/,2026-06-15T08:01:12Z
+chevrolet-silverado,2010,4.8 V8 LT,100000,119000,109500,"AED 100,000 - 119,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2010/,2026-06-15T08:01:14Z
+chevrolet-silverado,2010,5.3 V8 LTZ,116000,130000,123000,"AED 116,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2010/,2026-06-15T08:01:14Z
+chevrolet-silverado,2011,4.8 V8 LT,100000,119000,109500,"AED 100,000 - 119,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2011/,2026-06-15T08:01:15Z
+chevrolet-silverado,2011,5.3 V8 LTZ,116000,130000,123000,"AED 116,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2011/,2026-06-15T08:01:15Z
+chevrolet-silverado,2012,4.8 V8 LT,100000,119000,109500,"AED 100,000 - 119,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2012/,2026-06-15T08:01:17Z
+chevrolet-silverado,2012,5.3 V8 LTZ,116000,130000,123000,"AED 116,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2012/,2026-06-15T08:01:17Z
+chevrolet-silverado,2013,4.8 V8 LT,100000,119000,109500,"AED 100,000 - 119,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2013/,2026-06-15T08:01:19Z
+chevrolet-silverado,2013,5.3 V8 LTZ,116000,130000,123000,"AED 116,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2013/,2026-06-15T08:01:19Z
+chevrolet-silverado,2014,4.3 V8 LT,108000,120000,114000,"AED 108,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2014/,2026-06-15T08:01:21Z
+chevrolet-silverado,2014,5.3 V8 LT Z71,121000,125000,123000,"AED 121,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2014/,2026-06-15T08:01:21Z
+chevrolet-silverado,2014,6.2 V8 High Country,198400,200000,199200,"AED 198,400 - 200,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2014/,2026-06-15T08:01:21Z
+chevrolet-silverado,2015,4.3 V8 LT,108000,120000,114000,"AED 108,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2015/,2026-06-15T08:01:23Z
+chevrolet-silverado,2015,5.3 V8 LT Z71,121000,125000,123000,"AED 121,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2015/,2026-06-15T08:01:23Z
+chevrolet-silverado,2015,6.2 V8 High Country,198400,200000,199200,"AED 198,400 - 200,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2015/,2026-06-15T08:01:23Z
+chevrolet-silverado,2016,4.3 V8 LT,108000,120000,114000,"AED 108,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2016/,2026-06-15T08:01:25Z
+chevrolet-silverado,2016,5.3 V8 LT Z71,121000,125000,123000,"AED 121,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2016/,2026-06-15T08:01:25Z
+chevrolet-silverado,2016,6.2 V8 High Country,198400,200000,199200,"AED 198,400 - 200,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2016/,2026-06-15T08:01:25Z
+chevrolet-silverado,2017,4.3 V8 LT,108000,120000,114000,"AED 108,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2017/,2026-06-15T08:01:27Z
+chevrolet-silverado,2017,5.3 V8 LT Z71,121000,125000,123000,"AED 121,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2017/,2026-06-15T08:01:27Z
+chevrolet-silverado,2017,6.2 V8 High Country,198400,200000,199200,"AED 198,400 - 200,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2017/,2026-06-15T08:01:27Z
+chevrolet-silverado,2018,4.3 V8 LT,108000,120000,114000,"AED 108,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2018/,2026-06-15T08:01:29Z
+chevrolet-silverado,2018,5.3 V8 LT Z71,121000,125000,123000,"AED 121,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2018/,2026-06-15T08:01:29Z
+chevrolet-silverado,2018,6.2 V8 High Country,198400,200000,199200,"AED 198,400 - 200,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2018/,2026-06-15T08:01:29Z
+chevrolet-silverado,2019,4.3 V8 WT,106800,115000,110900,"AED 106,800 - 115,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2019/,2026-06-15T08:01:31Z
+chevrolet-silverado,2019,2.7TC I4 LT,147300,160000,153650,"AED 147,300 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2019/,2026-06-15T08:01:31Z
+chevrolet-silverado,2019,5.3 V8 Trailboss,152700,162000,157350,"AED 152,700 - 162,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2019/,2026-06-15T08:01:31Z
+chevrolet-silverado,2019,5.3 V8 RST,158000,165000,161500,"AED 158,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2019/,2026-06-15T08:01:31Z
+chevrolet-silverado,2019,5.3 V8 LTZ,187600,195000,191300,"AED 187,600 - 195,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2019/,2026-06-15T08:01:31Z
+chevrolet-silverado,2019,6.2 V8 High Country,219400,225000,222200,"AED 219,400 - 225,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2019/,2026-06-15T08:01:31Z
+chevrolet-silverado,2020,4.3 V6 WT,106800,115000,110900,"AED 106,800 - 115,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2020/,2026-06-15T08:01:33Z
+chevrolet-silverado,2020,2.7TC I4 LT,136300,145000,140650,"AED 136,300 - 145,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2020/,2026-06-15T08:01:33Z
+chevrolet-silverado,2020,5.3 V8 RST,147100,165000,156050,"AED 147,100 - 165,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2020/,2026-06-15T08:01:33Z
+chevrolet-silverado,2020,5.3 V8 Trailboss,154200,162000,158100,"AED 154,200 - 162,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2020/,2026-06-15T08:01:33Z
+chevrolet-silverado,2020,5.3 V8 LTZ,190300,195000,192650,"AED 190,300 - 195,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2020/,2026-06-15T08:01:33Z
+chevrolet-silverado,2020,6.2 V8 High Country,221600,225000,223300,"AED 221,600 - 225,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2020/,2026-06-15T08:01:33Z
+chevrolet-silverado,2021,4.3 V6 WT,106800,115000,110900,"AED 106,800 - 115,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2021/,2026-06-15T08:01:35Z
+chevrolet-silverado,2021,2.7TC I4 LT,136300,145000,140650,"AED 136,300 - 145,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2021/,2026-06-15T08:01:35Z
+chevrolet-silverado,2021,5.3 V8 RST,147100,165000,156050,"AED 147,100 - 165,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2021/,2026-06-15T08:01:35Z
+chevrolet-silverado,2021,5.3 V8 Trailboss,154200,162000,158100,"AED 154,200 - 162,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2021/,2026-06-15T08:01:35Z
+chevrolet-silverado,2021,6.2 V8 Trailboss,185000,195000,190000,"AED 185,000 - 195,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2021/,2026-06-15T08:01:35Z
+chevrolet-silverado,2021,5.3 V8 LTZ,190300,195000,192650,"AED 190,300 - 195,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2021/,2026-06-15T08:01:35Z
+chevrolet-silverado,2021,6.2 V8 High Country,221600,225000,223300,"AED 221,600 - 225,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2021/,2026-06-15T08:01:35Z
+chevrolet-silverado,2022,4.3 V6 WT,106800,115000,110900,"AED 106,800 - 115,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2022/,2026-06-15T08:01:37Z
+chevrolet-silverado,2022,2.7TC I4 LT,146200,147000,146600,"AED 146,200 - 147,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2022/,2026-06-15T08:01:37Z
+chevrolet-silverado,2022,5.3 V8 Trailboss,167400,168000,167700,"AED 167,400 - 168,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2022/,2026-06-15T08:01:37Z
+chevrolet-silverado,2022,6.2 V8 ZR2,227300,228000,227650,"AED 227,300 - 228,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2022/,2026-06-15T08:01:37Z
+chevrolet-silverado,2022,6.2 V8 High Country,239900,240000,239950,"AED 239,900 - 240,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2022/,2026-06-15T08:01:37Z
+chevrolet-silverado,2023,4.3 V6 WT,106800,115000,110900,"AED 106,800 - 115,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2023/,2026-06-15T08:01:39Z
+chevrolet-silverado,2023,2.7TC I4 LT,146200,147000,146600,"AED 146,200 - 147,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2023/,2026-06-15T08:01:39Z
+chevrolet-silverado,2023,5.3 V8 Trailboss,167400,168000,167700,"AED 167,400 - 168,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2023/,2026-06-15T08:01:39Z
+chevrolet-silverado,2023,6.2 V8 ZR2,227300,228000,227650,"AED 227,300 - 228,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2023/,2026-06-15T08:01:39Z
+chevrolet-silverado,2023,6.2 V8 High Country,239900,240000,239950,"AED 239,900 - 240,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2023/,2026-06-15T08:01:39Z
+chevrolet-silverado,2024,4.3 V6 WT,106800,115000,110900,"AED 106,800 - 115,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2024/,2026-06-15T08:01:41Z
+chevrolet-silverado,2024,2.7TC I4 LT,146200,147000,146600,"AED 146,200 - 147,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2024/,2026-06-15T08:01:41Z
+chevrolet-silverado,2024,5.3 V8 Trailboss,167400,168000,167700,"AED 167,400 - 168,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2024/,2026-06-15T08:01:41Z
+chevrolet-silverado,2024,6.2 V8 ZR2,227300,228000,227650,"AED 227,300 - 228,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2024/,2026-06-15T08:01:41Z
+chevrolet-silverado,2024,6.2 V8 High Country,239900,240000,239950,"AED 239,900 - 240,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2024/,2026-06-15T08:01:41Z
+chevrolet-silverado,2025,4.3 V6 WT,106800,115000,110900,"AED 106,800 - 115,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2025/,2026-06-15T08:01:42Z
+chevrolet-silverado,2025,2.7TC I4 LT,146200,147000,146600,"AED 146,200 - 147,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2025/,2026-06-15T08:01:42Z
+chevrolet-silverado,2025,5.3 V8 Trailboss,167400,168000,167700,"AED 167,400 - 168,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2025/,2026-06-15T08:01:42Z
+chevrolet-silverado,2025,6.2 V8 ZR2,227300,228000,227650,"AED 227,300 - 228,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2025/,2026-06-15T08:01:42Z
+chevrolet-silverado,2025,6.2 V8 High Country,239900,240000,239950,"AED 239,900 - 240,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2025/,2026-06-15T08:01:42Z
+chevrolet-silverado,2026,2.7T LT,162700,163000,162850,"AED 162,700 - 163,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2026/,2026-06-15T08:01:44Z
+chevrolet-silverado,2026,5.3L LT,170000,175000,172500,"AED 170,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2026/,2026-06-15T08:01:44Z
+chevrolet-silverado,2026,5.3L RST,174300,176000,175150,"AED 174,300 - 176,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2026/,2026-06-15T08:01:44Z
+chevrolet-silverado,2026,5.3L Trail Boss,190000,192000,191000,"AED 190,000 - 192,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2026/,2026-06-15T08:01:44Z
+chevrolet-silverado,2026,5.3L LTZ,222400,225000,223700,"AED 222,400 - 225,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2026/,2026-06-15T08:01:44Z
+chevrolet-silverado,2026,6.2L ZR2,250900,252000,251450,"AED 250,900 - 252,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2026/,2026-06-15T08:01:44Z
+chevrolet-silverado,2026,6.2L High Country,260400,262000,261200,"AED 260,400 - 262,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-silverado/2026/,2026-06-15T08:01:44Z
+chevrolet-sonic,2012,1.6 I4 Sonic LS,43000,44500,43750,"AED 43,000 - 44,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-sonic/2012/,2026-06-15T08:02:05Z
+chevrolet-sonic,2012,1.6 I4 Sonic LT,55500,57000,56250,"AED 55,500 - 57,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-sonic/2012/,2026-06-15T08:02:05Z
+chevrolet-sonic,2013,1.6 I4 Sonic LS,43000,44500,43750,"AED 43,000 - 44,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-sonic/2013/,2026-06-15T08:02:07Z
+chevrolet-sonic,2013,1.6 I4 Sonic LT,55500,57000,56250,"AED 55,500 - 57,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-sonic/2013/,2026-06-15T08:02:07Z
+chevrolet-sonic,2014,1.6 I4 Sonic LS,43000,44500,43750,"AED 43,000 - 44,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-sonic/2014/,2026-06-15T08:02:09Z
+chevrolet-sonic,2014,1.6 I4 Sonic LT,55500,57000,56250,"AED 55,500 - 57,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-sonic/2014/,2026-06-15T08:02:09Z
+chevrolet-sonic,2015,1.6 I4 Sonic LS,43000,44500,43750,"AED 43,000 - 44,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-sonic/2015/,2026-06-15T08:02:11Z
+chevrolet-sonic,2015,1.6 I4 Sonic LT,55500,57000,56250,"AED 55,500 - 57,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-sonic/2015/,2026-06-15T08:02:11Z
+chevrolet-sonic,2016,1.6 I4 Sonic LS,43000,44500,43750,"AED 43,000 - 44,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-sonic/2016/,2026-06-15T08:02:12Z
+chevrolet-sonic,2016,1.6 I4 Sonic LT,55500,57000,56250,"AED 55,500 - 57,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-sonic/2016/,2026-06-15T08:02:12Z
+chevrolet-sonic-hatchback,2012,1.6 I4 Sonic Hatchback,55000,57000,56000,"AED 55,000 - 57,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-sonic-hatchback/2012/,2026-06-15T08:02:45Z
+chevrolet-sonic-hatchback,2013,1.6 I4 Sonic Hatchback,55000,57000,56000,"AED 55,000 - 57,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-sonic-hatchback/2013/,2026-06-15T08:02:47Z
+chevrolet-sonic-hatchback,2014,1.6 I4 Sonic Hatchback,55000,57000,56000,"AED 55,000 - 57,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-sonic-hatchback/2014/,2026-06-15T08:02:49Z
+chevrolet-sonic-hatchback,2015,1.6 I4 Sonic Hatchback,55000,57000,56000,"AED 55,000 - 57,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-sonic-hatchback/2015/,2026-06-15T08:02:51Z
+chevrolet-sonic-hatchback,2016,1.6 I4 Sonic Hatchback,55000,57000,56000,"AED 55,000 - 57,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-sonic-hatchback/2016/,2026-06-15T08:02:53Z
+chevrolet-spark,2005,0.8 I3 Spark LS,35000,36000,35500,"AED 35,000 - 36,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2005/,2026-06-15T08:03:18Z
+chevrolet-spark,2005,1.0 I4 Spark LT,39000,40000,39500,"AED 39,000 - 40,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2005/,2026-06-15T08:03:18Z
+chevrolet-spark,2006,0.8 I3 Spark LS,35000,36000,35500,"AED 35,000 - 36,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2006/,2026-06-15T08:03:20Z
+chevrolet-spark,2006,1.0 I4 Spark LT,39000,40000,39500,"AED 39,000 - 40,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2006/,2026-06-15T08:03:20Z
+chevrolet-spark,2007,0.8 I3 Spark LS,35000,36000,35500,"AED 35,000 - 36,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2007/,2026-06-15T08:03:22Z
+chevrolet-spark,2007,1.0 I4 Spark LT,39000,40000,39500,"AED 39,000 - 40,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2007/,2026-06-15T08:03:22Z
+chevrolet-spark,2008,0.8 I3 Spark LS,35000,36000,35500,"AED 35,000 - 36,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2008/,2026-06-15T08:03:24Z
+chevrolet-spark,2008,1.0 I4 Spark LT,39000,40000,39500,"AED 39,000 - 40,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2008/,2026-06-15T08:03:24Z
+chevrolet-spark,2009,0.8 I3 Spark LS,35000,36000,35500,"AED 35,000 - 36,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2009/,2026-06-15T08:03:26Z
+chevrolet-spark,2009,1.0 I4 Spark LT,39000,40000,39500,"AED 39,000 - 40,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2009/,2026-06-15T08:03:26Z
+chevrolet-spark,2010,0.8 I3 Spark LS,35000,36000,35500,"AED 35,000 - 36,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2010/,2026-06-15T08:03:28Z
+chevrolet-spark,2010,1.0 I4 Spark LT,39000,40000,39500,"AED 39,000 - 40,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2010/,2026-06-15T08:03:28Z
+chevrolet-spark,2011,1.0 I4 Spark LS,28700,30000,29350,"AED 28,700 - 30,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2011/,2026-06-15T08:03:30Z
+chevrolet-spark,2011,1.0 I4 Spark LT,36500,38000,37250,"AED 36,500 - 38,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2011/,2026-06-15T08:03:30Z
+chevrolet-spark,2012,1.0 I4 Spark LS,28700,30000,29350,"AED 28,700 - 30,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2012/,2026-06-15T08:03:32Z
+chevrolet-spark,2012,1.0 I4 Spark LT,36500,38000,37250,"AED 36,500 - 38,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2012/,2026-06-15T08:03:32Z
+chevrolet-spark,2013,1.0 I4 Spark LS,28700,30000,29350,"AED 28,700 - 30,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2013/,2026-06-15T08:03:33Z
+chevrolet-spark,2013,1.0 I4 Spark LT,36500,38000,37250,"AED 36,500 - 38,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2013/,2026-06-15T08:03:33Z
+chevrolet-spark,2014,1.0 I4 Spark LS,28700,30000,29350,"AED 28,700 - 30,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2014/,2026-06-15T08:03:35Z
+chevrolet-spark,2014,1.0 I4 Spark LT,36500,38000,37250,"AED 36,500 - 38,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2014/,2026-06-15T08:03:35Z
+chevrolet-spark,2015,1.0 I4 Spark LS,28700,30000,29350,"AED 28,700 - 30,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2015/,2026-06-15T08:03:37Z
+chevrolet-spark,2015,1.0 I4 Spark LT,36500,38000,37250,"AED 36,500 - 38,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2015/,2026-06-15T08:03:37Z
+chevrolet-spark,2016,1.4 I4 Spark LS,40000,41500,40750,"AED 40,000 - 41,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2016/,2026-06-15T08:03:39Z
+chevrolet-spark,2016,1.4 I4 Spark LT,43500,45000,44250,"AED 43,500 - 45,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2016/,2026-06-15T08:03:39Z
+chevrolet-spark,2017,1.4 I4 LS manual,34000,35000,34500,"AED 34,000 - 35,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2017/,2026-06-15T08:03:42Z
+chevrolet-spark,2017,1.4 I4 LS CVT,37000,38000,37500,"AED 37,000 - 38,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2017/,2026-06-15T08:03:42Z
+chevrolet-spark,2017,1.4 I4 LT,43500,44000,43750,"AED 43,500 - 44,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2017/,2026-06-15T08:03:42Z
+chevrolet-spark,2018,1.4 I4 Spark LS,35700,38000,36850,"AED 35,700 - 38,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2018/,2026-06-15T08:03:43Z
+chevrolet-spark,2018,1.4 I4 Spark LT,45000,46000,45500,"AED 45,000 - 46,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2018/,2026-06-15T08:03:43Z
+chevrolet-spark,2019,1.4 I4 Spark LS,41700,45000,43350,"AED 41,700 - 45,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2019/,2026-06-15T08:03:46Z
+chevrolet-spark,2019,1.4 I4 Spark LT,45000,49000,47000,"AED 45,000 - 49,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2019/,2026-06-15T08:03:46Z
+chevrolet-spark,2020,1.4 I4 Spark LS,41700,45000,43350,"AED 41,700 - 45,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2020/,2026-06-15T08:03:47Z
+chevrolet-spark,2020,1.4 I4 Spark LT,45000,49000,47000,"AED 45,000 - 49,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2020/,2026-06-15T08:03:47Z
+chevrolet-spark,2021,1.4 I4 Spark LS,41700,45000,43350,"AED 41,700 - 45,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2021/,2026-06-15T08:03:49Z
+chevrolet-spark,2021,1.4 I4 Spark LT,45000,49000,47000,"AED 45,000 - 49,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2021/,2026-06-15T08:03:49Z
+chevrolet-spark,2022,1.4 I4 Spark LS,41700,45000,43350,"AED 41,700 - 45,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2022/,2026-06-15T08:03:51Z
+chevrolet-spark,2022,1.4 I4 Spark LT,45000,49000,47000,"AED 45,000 - 49,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark/2022/,2026-06-15T08:03:51Z
+chevrolet-spark-euv,2026,42 kWh Active RWD,79900,80000,79950,"AED 79,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-spark-euv/2026/,2026-06-15T08:04:32Z
+chevrolet-suburban,2007,5.3 V8 Suburban LS,155000,158000,156500,"AED 155,000 - 158,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2007/,2026-06-15T08:04:48Z
+chevrolet-suburban,2007,5.3 V8 Suburban LT,169000,171000,170000,"AED 169,000 - 171,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2007/,2026-06-15T08:04:48Z
+chevrolet-suburban,2007,5.3 V8 Suburban LTZ,173000,175000,174000,"AED 173,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2007/,2026-06-15T08:04:48Z
+chevrolet-suburban,2007,6.0 V8 Suburban 2500 LT,208000,210000,209000,"AED 208,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2007/,2026-06-15T08:04:48Z
+chevrolet-suburban,2008,5.3 V8 Suburban LS,155000,158000,156500,"AED 155,000 - 158,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2008/,2026-06-15T08:04:50Z
+chevrolet-suburban,2008,5.3 V8 Suburban LT,169000,171000,170000,"AED 169,000 - 171,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2008/,2026-06-15T08:04:50Z
+chevrolet-suburban,2008,5.3 V8 Suburban LTZ,173000,175000,174000,"AED 173,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2008/,2026-06-15T08:04:50Z
+chevrolet-suburban,2008,6.0 V8 Suburban 2500 LT,208000,210000,209000,"AED 208,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2008/,2026-06-15T08:04:50Z
+chevrolet-suburban,2009,5.3 V8 Suburban LS,155000,158000,156500,"AED 155,000 - 158,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2009/,2026-06-15T08:04:51Z
+chevrolet-suburban,2009,5.3 V8 Suburban LT,169000,171000,170000,"AED 169,000 - 171,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2009/,2026-06-15T08:04:51Z
+chevrolet-suburban,2009,5.3 V8 Suburban LTZ,173000,175000,174000,"AED 173,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2009/,2026-06-15T08:04:51Z
+chevrolet-suburban,2009,6.0 V8 Suburban 2500 LT,208000,210000,209000,"AED 208,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2009/,2026-06-15T08:04:51Z
+chevrolet-suburban,2010,5.3 V8 Suburban LS,155000,158000,156500,"AED 155,000 - 158,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2010/,2026-06-15T08:04:53Z
+chevrolet-suburban,2010,5.3 V8 Suburban LT,169000,171000,170000,"AED 169,000 - 171,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2010/,2026-06-15T08:04:53Z
+chevrolet-suburban,2010,5.3 V8 Suburban LTZ,173000,175000,174000,"AED 173,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2010/,2026-06-15T08:04:53Z
+chevrolet-suburban,2010,6.0 V8 Suburban 2500 LT,208000,210000,209000,"AED 208,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2010/,2026-06-15T08:04:53Z
+chevrolet-suburban,2011,5.3 V8 Suburban LS,155000,158000,156500,"AED 155,000 - 158,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2011/,2026-06-15T08:04:55Z
+chevrolet-suburban,2011,5.3 V8 Suburban LT,169000,171000,170000,"AED 169,000 - 171,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2011/,2026-06-15T08:04:55Z
+chevrolet-suburban,2011,5.3 V8 Suburban LTZ,173000,175000,174000,"AED 173,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2011/,2026-06-15T08:04:55Z
+chevrolet-suburban,2011,6.0 V8 Suburban 2500 LT,208000,210000,209000,"AED 208,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2011/,2026-06-15T08:04:55Z
+chevrolet-suburban,2012,5.3 V8 Suburban LS,155000,158000,156500,"AED 155,000 - 158,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2012/,2026-06-15T08:04:57Z
+chevrolet-suburban,2012,5.3 V8 Suburban LT,169000,171000,170000,"AED 169,000 - 171,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2012/,2026-06-15T08:04:57Z
+chevrolet-suburban,2012,5.3 V8 Suburban LTZ,173000,175000,174000,"AED 173,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2012/,2026-06-15T08:04:57Z
+chevrolet-suburban,2012,6.0 V8 Suburban 2500 LT,208000,210000,209000,"AED 208,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2012/,2026-06-15T08:04:57Z
+chevrolet-suburban,2013,5.3 V8 Suburban LS,155000,158000,156500,"AED 155,000 - 158,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2013/,2026-06-15T08:04:59Z
+chevrolet-suburban,2013,5.3 V8 Suburban LT,169000,171000,170000,"AED 169,000 - 171,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2013/,2026-06-15T08:04:59Z
+chevrolet-suburban,2013,5.3 V8 Suburban LTZ,173000,175000,174000,"AED 173,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2013/,2026-06-15T08:04:59Z
+chevrolet-suburban,2013,6.0 V8 Suburban 2500 LT,208000,210000,209000,"AED 208,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2013/,2026-06-15T08:04:59Z
+chevrolet-suburban,2014,5.3 V8 Suburban LS,155000,158000,156500,"AED 155,000 - 158,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2014/,2026-06-15T08:05:01Z
+chevrolet-suburban,2014,5.3 V8 Suburban LT,169000,171000,170000,"AED 169,000 - 171,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2014/,2026-06-15T08:05:01Z
+chevrolet-suburban,2014,5.3 V8 Suburban LTZ,173000,175000,174000,"AED 173,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2014/,2026-06-15T08:05:01Z
+chevrolet-suburban,2014,6.0 V8 Suburban 2500 LT,208000,210000,209000,"AED 208,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2014/,2026-06-15T08:05:01Z
+chevrolet-suburban,2015,5.3 V8 Suburban LS 2WD,166000,169000,167500,"AED 166,000 - 169,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2015/,2026-06-15T08:05:03Z
+chevrolet-suburban,2015,5.3 V8 Suburban LS 4WD,178000,181000,179500,"AED 178,000 - 181,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2015/,2026-06-15T08:05:03Z
+chevrolet-suburban,2015,5.3 V8 Suburban LT 2WD,183000,186000,184500,"AED 183,000 - 186,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2015/,2026-06-15T08:05:03Z
+chevrolet-suburban,2015,5.3 V8 Suburban LT 4WD,194000,197000,195500,"AED 194,000 - 197,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2015/,2026-06-15T08:05:03Z
+chevrolet-suburban,2015,5.3 V8 Suburban LTZ 2WD,233000,236000,234500,"AED 233,000 - 236,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2015/,2026-06-15T08:05:03Z
+chevrolet-suburban,2015,5.3 V8 Suburban LTZ 4WD,242000,245000,243500,"AED 242,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2015/,2026-06-15T08:05:03Z
+chevrolet-suburban,2016,5.3 V8 Suburban LS 2WD,166000,169000,167500,"AED 166,000 - 169,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2016/,2026-06-15T08:05:05Z
+chevrolet-suburban,2016,5.3 V8 Suburban LS 4WD,178000,181000,179500,"AED 178,000 - 181,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2016/,2026-06-15T08:05:05Z
+chevrolet-suburban,2016,5.3 V8 Suburban LT 2WD,183000,186000,184500,"AED 183,000 - 186,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2016/,2026-06-15T08:05:05Z
+chevrolet-suburban,2016,5.3 V8 Suburban LT 4WD,194000,197000,195500,"AED 194,000 - 197,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2016/,2026-06-15T08:05:05Z
+chevrolet-suburban,2016,5.3 V8 Suburban LTZ 2WD,233000,236000,234500,"AED 233,000 - 236,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2016/,2026-06-15T08:05:05Z
+chevrolet-suburban,2016,5.3 V8 Suburban LTZ 4WD,242000,245000,243500,"AED 242,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2016/,2026-06-15T08:05:05Z
+chevrolet-suburban,2017,5.3 V8 Suburban LS 2WD,166000,169000,167500,"AED 166,000 - 169,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2017/,2026-06-15T08:05:07Z
+chevrolet-suburban,2017,5.3 V8 Suburban LS 4WD,178000,181000,179500,"AED 178,000 - 181,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2017/,2026-06-15T08:05:07Z
+chevrolet-suburban,2017,5.3 V8 Suburban LT 2WD,183000,186000,184500,"AED 183,000 - 186,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2017/,2026-06-15T08:05:07Z
+chevrolet-suburban,2017,5.3 V8 Suburban LT 4WD,194000,197000,195500,"AED 194,000 - 197,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2017/,2026-06-15T08:05:07Z
+chevrolet-suburban,2017,5.3 V8 Suburban LTZ 2WD,233000,236000,234500,"AED 233,000 - 236,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2017/,2026-06-15T08:05:07Z
+chevrolet-suburban,2017,5.3 V8 Suburban LTZ 4WD,242000,245000,243500,"AED 242,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2017/,2026-06-15T08:05:07Z
+chevrolet-suburban,2018,5.3 V8 Suburban LS 2WD,166000,169000,167500,"AED 166,000 - 169,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2018/,2026-06-15T08:05:09Z
+chevrolet-suburban,2018,5.3 V8 Suburban LS 4WD,178000,181000,179500,"AED 178,000 - 181,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2018/,2026-06-15T08:05:09Z
+chevrolet-suburban,2018,5.3 V8 Suburban LT 2WD,183000,186000,184500,"AED 183,000 - 186,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2018/,2026-06-15T08:05:09Z
+chevrolet-suburban,2018,5.3 V8 Suburban LT 4WD,194000,197000,195500,"AED 194,000 - 197,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2018/,2026-06-15T08:05:09Z
+chevrolet-suburban,2018,5.3 V8 Suburban LTZ 2WD,233000,236000,234500,"AED 233,000 - 236,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2018/,2026-06-15T08:05:09Z
+chevrolet-suburban,2018,5.3 V8 Suburban LTZ 4WD,242000,245000,243500,"AED 242,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2018/,2026-06-15T08:05:09Z
+chevrolet-suburban,2019,5.3 V8 Suburban LS 2WD,166000,169000,167500,"AED 166,000 - 169,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2019/,2026-06-15T08:05:10Z
+chevrolet-suburban,2019,5.3 V8 Suburban LS 4WD,178000,181000,179500,"AED 178,000 - 181,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2019/,2026-06-15T08:05:10Z
+chevrolet-suburban,2019,5.3 V8 Suburban LT 2WD,183000,186000,184500,"AED 183,000 - 186,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2019/,2026-06-15T08:05:10Z
+chevrolet-suburban,2019,5.3 V8 Suburban LT 4WD,194000,197000,195500,"AED 194,000 - 197,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2019/,2026-06-15T08:05:10Z
+chevrolet-suburban,2019,5.3 V8 Suburban LTZ 2WD,233000,236000,234500,"AED 233,000 - 236,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2019/,2026-06-15T08:05:10Z
+chevrolet-suburban,2019,5.3 V8 Suburban LTZ 4WD,242000,245000,243500,"AED 242,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2019/,2026-06-15T08:05:10Z
+chevrolet-suburban,2020,5.3 V8 Suburban LS 4WD,190100,192000,191050,"AED 190,100 - 192,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2020/,2026-06-15T08:05:12Z
+chevrolet-suburban,2020,5.3 V8 Suburban LT 4WD,207300,208000,207650,"AED 207,300 - 208,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2020/,2026-06-15T08:05:12Z
+chevrolet-suburban,2020,5.3 V8 Suburban Premier 4WD,265500,266000,265750,"AED 265,500 - 266,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2020/,2026-06-15T08:05:12Z
+chevrolet-suburban,2021,5.3 V8 Suburban LS,190000,195000,192500,"AED 190,000 - 195,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2021/,2026-06-15T08:05:14Z
+chevrolet-suburban,2021,5.3 V8 Suburban LT,207300,210000,208650,"AED 207,300 - 210,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2021/,2026-06-15T08:05:14Z
+chevrolet-suburban,2021,5.3 V8 Suburban Premier,265000,270000,267500,"AED 265,000 - 270,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2021/,2026-06-15T08:05:14Z
+chevrolet-suburban,2022,5.3 V8 Suburban LS,197100,198000,197550,"AED 197,100 - 198,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2022/,2026-06-15T08:05:16Z
+chevrolet-suburban,2022,5.3 V8 Suburban LT,212100,213000,212550,"AED 212,100 - 213,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2022/,2026-06-15T08:05:16Z
+chevrolet-suburban,2022,5.3 V8 Suburban Premier,276100,277000,276550,"AED 276,100 - 277,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2022/,2026-06-15T08:05:16Z
+chevrolet-suburban,2022,6.2 V8 Suburban Premier,285000,290000,287500,"AED 285,000 - 290,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2022/,2026-06-15T08:05:16Z
+chevrolet-suburban,2023,5.3 V8 Suburban LS,197100,198000,197550,"AED 197,100 - 198,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2023/,2026-06-15T08:05:18Z
+chevrolet-suburban,2023,5.3 V8 Suburban LT,212100,213000,212550,"AED 212,100 - 213,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2023/,2026-06-15T08:05:18Z
+chevrolet-suburban,2023,5.3 V8 Suburban Premier,276100,277000,276550,"AED 276,100 - 277,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2023/,2026-06-15T08:05:18Z
+chevrolet-suburban,2023,6.2 V8 Suburban Premier,285000,290000,287500,"AED 285,000 - 290,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2023/,2026-06-15T08:05:18Z
+chevrolet-suburban,2024,5.3 V8 Suburban LS,254000,260000,257000,"AED 254,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2024/,2026-06-15T08:05:20Z
+chevrolet-suburban,2024,5.3 V8 Suburban LT,285000,290000,287500,"AED 285,000 - 290,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2024/,2026-06-15T08:05:20Z
+chevrolet-suburban,2024,5.3 V8 Suburban Premier,324000,325000,324500,"AED 324,000 - 325,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2024/,2026-06-15T08:05:20Z
+chevrolet-suburban,2024,6.2 V8 Suburban Premier,310000,330000,320000,"AED 330,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2024/,2026-06-15T08:05:20Z
+chevrolet-suburban,2025,5.3 V8 Suburban LS,254000,260000,257000,"AED 254,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2025/,2026-06-15T08:05:22Z
+chevrolet-suburban,2025,5.3 V8 Suburban LT,285000,290000,287500,"AED 285,000 - 290,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2025/,2026-06-15T08:05:22Z
+chevrolet-suburban,2025,5.3 V8 Suburban Premier,324000,325000,324500,"AED 324,000 - 325,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2025/,2026-06-15T08:05:22Z
+chevrolet-suburban,2025,6.2 V8 Suburban Premier,310000,330000,320000,"AED 330,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2025/,2026-06-15T08:05:22Z
+chevrolet-suburban,2026,5.3 V8 Suburban LS,254000,260000,257000,"AED 254,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2026/,2026-06-15T08:05:24Z
+chevrolet-suburban,2026,5.3 V8 Suburban LT,285000,290000,287500,"AED 285,000 - 290,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2026/,2026-06-15T08:05:24Z
+chevrolet-suburban,2026,5.3 V8 Suburban Premier,324000,325000,324500,"AED 324,000 - 325,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2026/,2026-06-15T08:05:24Z
+chevrolet-suburban,2026,6.2 V8 Suburban Premier,310000,330000,320000,"AED 330,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-suburban/2026/,2026-06-15T08:05:24Z
+chevrolet-t-series,2002,2.4 I4 T-Series 2.4,40000,54000,47000,"AED 40,000 - 54,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-t-series/2002/,2026-06-15T08:05:33Z
+chevrolet-t-series,2002,2.5TD I4 T-Series 2.5TD,44000,52000,48000,"AED 44,000 - 52,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-t-series/2002/,2026-06-15T08:05:33Z
+chevrolet-t-series,2002,3.0TD I4 T-Series 3.0TD,50000,60000,55000,"AED 50,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-t-series/2002/,2026-06-15T08:05:33Z
+chevrolet-t-series,2003,2.4 I4 T-Series 2.4,40000,54000,47000,"AED 40,000 - 54,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-t-series/2003/,2026-06-15T08:05:35Z
+chevrolet-t-series,2003,2.5TD I4 T-Series 2.5TD,44000,52000,48000,"AED 44,000 - 52,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-t-series/2003/,2026-06-15T08:05:35Z
+chevrolet-t-series,2003,3.0TD I4 T-Series 3.0TD,50000,60000,55000,"AED 50,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-t-series/2003/,2026-06-15T08:05:35Z
+chevrolet-t-series,2004,2.4 I4 T-Series 2.4,40000,54000,47000,"AED 40,000 - 54,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-t-series/2004/,2026-06-15T08:05:37Z
+chevrolet-t-series,2004,2.5TD I4 T-Series 2.5TD,44000,52000,48000,"AED 44,000 - 52,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-t-series/2004/,2026-06-15T08:05:37Z
+chevrolet-t-series,2004,3.0TD I4 T-Series 3.0TD,50000,60000,55000,"AED 50,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-t-series/2004/,2026-06-15T08:05:37Z
+chevrolet-t-series,2005,2.4 I4 T-Series 2.4,40000,54000,47000,"AED 40,000 - 54,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-t-series/2005/,2026-06-15T08:05:39Z
+chevrolet-t-series,2005,2.5TD I4 T-Series 2.5TD,44000,52000,48000,"AED 44,000 - 52,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-t-series/2005/,2026-06-15T08:05:39Z
+chevrolet-t-series,2005,3.0TD I4 T-Series 3.0TD,50000,60000,55000,"AED 50,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-t-series/2005/,2026-06-15T08:05:39Z
+chevrolet-t-series,2006,2.4 I4 T-Series 2.4,40000,54000,47000,"AED 40,000 - 54,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-t-series/2006/,2026-06-15T08:05:41Z
+chevrolet-t-series,2006,2.5TD I4 T-Series 2.5TD,44000,52000,48000,"AED 44,000 - 52,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-t-series/2006/,2026-06-15T08:05:41Z
+chevrolet-t-series,2006,3.0TD I4 T-Series 3.0TD,50000,60000,55000,"AED 50,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-t-series/2006/,2026-06-15T08:05:41Z
+chevrolet-tahoe,2007,5.3 V8 Tahoe LS,152000,155500,153750,"AED 152,000 - 155,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2007/,2026-06-15T08:06:20Z
+chevrolet-tahoe,2007,5.3 V8 Tahoe LT,162500,166000,164250,"AED 162,500 - 166,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2007/,2026-06-15T08:06:20Z
+chevrolet-tahoe,2007,5.3 V8 Tahoe Z71,176500,178000,177250,"AED 176,500 - 178,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2007/,2026-06-15T08:06:20Z
+chevrolet-tahoe,2007,5.3 V8 Tahoe LTZ,204500,206000,205250,"AED 204,500 - 206,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2007/,2026-06-15T08:06:20Z
+chevrolet-tahoe,2008,5.3 V8 Tahoe LS,152000,155500,153750,"AED 152,000 - 155,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2008/,2026-06-15T08:06:22Z
+chevrolet-tahoe,2008,5.3 V8 Tahoe LT,162500,166000,164250,"AED 162,500 - 166,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2008/,2026-06-15T08:06:22Z
+chevrolet-tahoe,2008,5.3 V8 Tahoe Z71,176500,178000,177250,"AED 176,500 - 178,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2008/,2026-06-15T08:06:22Z
+chevrolet-tahoe,2008,5.3 V8 Tahoe LTZ,204500,206000,205250,"AED 204,500 - 206,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2008/,2026-06-15T08:06:22Z
+chevrolet-tahoe,2009,5.3 V8 Tahoe LS,152000,155500,153750,"AED 152,000 - 155,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2009/,2026-06-15T08:06:24Z
+chevrolet-tahoe,2009,5.3 V8 Tahoe LT,162500,166000,164250,"AED 162,500 - 166,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2009/,2026-06-15T08:06:24Z
+chevrolet-tahoe,2009,5.3 V8 Tahoe Z71,176500,178000,177250,"AED 176,500 - 178,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2009/,2026-06-15T08:06:24Z
+chevrolet-tahoe,2009,5.3 V8 Tahoe LTZ,204500,206000,205250,"AED 204,500 - 206,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2009/,2026-06-15T08:06:24Z
+chevrolet-tahoe,2010,5.3 V8 Tahoe LS,152000,155500,153750,"AED 152,000 - 155,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2010/,2026-06-15T08:06:26Z
+chevrolet-tahoe,2010,5.3 V8 Tahoe LT,162500,166000,164250,"AED 162,500 - 166,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2010/,2026-06-15T08:06:26Z
+chevrolet-tahoe,2010,5.3 V8 Tahoe Z71,176500,178000,177250,"AED 176,500 - 178,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2010/,2026-06-15T08:06:26Z
+chevrolet-tahoe,2010,5.3 V8 Tahoe LTZ,204500,206000,205250,"AED 204,500 - 206,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2010/,2026-06-15T08:06:26Z
+chevrolet-tahoe,2011,5.3 V8 Tahoe LS,152000,155500,153750,"AED 152,000 - 155,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2011/,2026-06-15T08:06:28Z
+chevrolet-tahoe,2011,5.3 V8 Tahoe LT,162500,166000,164250,"AED 162,500 - 166,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2011/,2026-06-15T08:06:28Z
+chevrolet-tahoe,2011,5.3 V8 Tahoe Z71,176500,178000,177250,"AED 176,500 - 178,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2011/,2026-06-15T08:06:28Z
+chevrolet-tahoe,2011,5.3 V8 Tahoe LTZ,204500,206000,205250,"AED 204,500 - 206,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2011/,2026-06-15T08:06:28Z
+chevrolet-tahoe,2012,5.3 V8 Tahoe LS,152000,155500,153750,"AED 152,000 - 155,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2012/,2026-06-15T08:06:29Z
+chevrolet-tahoe,2012,5.3 V8 Tahoe LT,162500,166000,164250,"AED 162,500 - 166,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2012/,2026-06-15T08:06:29Z
+chevrolet-tahoe,2012,5.3 V8 Tahoe Z71,176500,178000,177250,"AED 176,500 - 178,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2012/,2026-06-15T08:06:29Z
+chevrolet-tahoe,2012,5.3 V8 Tahoe LTZ,204500,206000,205250,"AED 204,500 - 206,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2012/,2026-06-15T08:06:29Z
+chevrolet-tahoe,2013,5.3 V8 Tahoe LS,152000,155500,153750,"AED 152,000 - 155,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2013/,2026-06-15T08:06:31Z
+chevrolet-tahoe,2013,5.3 V8 Tahoe LT,162500,166000,164250,"AED 162,500 - 166,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2013/,2026-06-15T08:06:31Z
+chevrolet-tahoe,2013,5.3 V8 Tahoe Z71,176500,178000,177250,"AED 176,500 - 178,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2013/,2026-06-15T08:06:31Z
+chevrolet-tahoe,2013,5.3 V8 Tahoe LTZ,204500,206000,205250,"AED 204,500 - 206,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2013/,2026-06-15T08:06:31Z
+chevrolet-tahoe,2014,5.3 V8 Tahoe LS,152000,155500,153750,"AED 152,000 - 155,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2014/,2026-06-15T08:06:33Z
+chevrolet-tahoe,2014,5.3 V8 Tahoe LT,162500,166000,164250,"AED 162,500 - 166,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2014/,2026-06-15T08:06:33Z
+chevrolet-tahoe,2014,5.3 V8 Tahoe Z71,176500,178000,177250,"AED 176,500 - 178,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2014/,2026-06-15T08:06:33Z
+chevrolet-tahoe,2014,5.3 V8 Tahoe LTZ,204500,206000,205250,"AED 204,500 - 206,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2014/,2026-06-15T08:06:33Z
+chevrolet-tahoe,2015,5.3 V8 Tahoe LS 2WD,157000,160000,158500,"AED 157,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2015/,2026-06-15T08:06:36Z
+chevrolet-tahoe,2015,5.3 V8 Tahoe LS 4WD,168000,171000,169500,"AED 168,000 - 171,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2015/,2026-06-15T08:06:36Z
+chevrolet-tahoe,2015,5.3 V8 Tahoe LT 2WD,173000,176000,174500,"AED 173,000 - 176,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2015/,2026-06-15T08:06:36Z
+chevrolet-tahoe,2015,5.3 V8 Tahoe LT 4WD,184000,187000,185500,"AED 184,000 - 187,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2015/,2026-06-15T08:06:36Z
+chevrolet-tahoe,2015,5.3 V8 Tahoe LTZ 2WD,223000,226000,224500,"AED 223,000 - 226,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2015/,2026-06-15T08:06:36Z
+chevrolet-tahoe,2015,5.3 V8 Tahoe LTZ 4WD,232000,245000,238500,"AED 232,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2015/,2026-06-15T08:06:36Z
+chevrolet-tahoe,2016,5.3 V8 Tahoe LS 2WD,157000,160000,158500,"AED 157,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2016/,2026-06-15T08:06:38Z
+chevrolet-tahoe,2016,5.3 V8 Tahoe LS 4WD,168000,171000,169500,"AED 168,000 - 171,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2016/,2026-06-15T08:06:38Z
+chevrolet-tahoe,2016,5.3 V8 Tahoe LT 2WD,173000,176000,174500,"AED 173,000 - 176,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2016/,2026-06-15T08:06:38Z
+chevrolet-tahoe,2016,5.3 V8 Tahoe LT 4WD,184000,187000,185500,"AED 184,000 - 187,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2016/,2026-06-15T08:06:38Z
+chevrolet-tahoe,2016,5.3 V8 Tahoe LTZ 2WD,223000,226000,224500,"AED 223,000 - 226,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2016/,2026-06-15T08:06:38Z
+chevrolet-tahoe,2016,5.3 V8 Tahoe LTZ 4WD,232000,245000,238500,"AED 232,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2016/,2026-06-15T08:06:38Z
+chevrolet-tahoe,2017,5.3 V8 Tahoe LS 2WD,157000,160000,158500,"AED 157,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2017/,2026-06-15T08:06:40Z
+chevrolet-tahoe,2017,5.3 V8 Tahoe LS 4WD,168000,171000,169500,"AED 168,000 - 171,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2017/,2026-06-15T08:06:40Z
+chevrolet-tahoe,2017,5.3 V8 Tahoe LT 2WD,173000,176000,174500,"AED 173,000 - 176,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2017/,2026-06-15T08:06:40Z
+chevrolet-tahoe,2017,5.3 V8 Tahoe LT 4WD,184000,187000,185500,"AED 184,000 - 187,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2017/,2026-06-15T08:06:40Z
+chevrolet-tahoe,2017,5.3 V8 Tahoe LTZ 2WD,223000,226000,224500,"AED 223,000 - 226,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2017/,2026-06-15T08:06:40Z
+chevrolet-tahoe,2017,5.3 V8 Tahoe LTZ 4WD,232000,245000,238500,"AED 232,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2017/,2026-06-15T08:06:40Z
+chevrolet-tahoe,2018,5.3 V8 Tahoe LS 2WD,161000,162000,161500,"AED 161,000 - 162,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2018/,2026-06-15T08:06:41Z
+chevrolet-tahoe,2018,5.3 V8 Tahoe LS 4WD,168000,171000,169500,"AED 168,000 - 171,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2018/,2026-06-15T08:06:41Z
+chevrolet-tahoe,2018,5.3 V8 Tahoe LT 2WD,173000,176000,174500,"AED 173,000 - 176,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2018/,2026-06-15T08:06:41Z
+chevrolet-tahoe,2018,5.3 V8 Tahoe LT 4WD,184000,187000,185500,"AED 184,000 - 187,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2018/,2026-06-15T08:06:41Z
+chevrolet-tahoe,2018,5.3 V8 Tahoe LTZ 2WD,223000,226000,224500,"AED 223,000 - 226,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2018/,2026-06-15T08:06:41Z
+chevrolet-tahoe,2018,5.3 V8 Tahoe LTZ 4WD,232000,245000,238500,"AED 232,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2018/,2026-06-15T08:06:41Z
+chevrolet-tahoe,2019,5.3 V8 Tahoe LS 2WD,176800,177000,176900,"AED 176,800 - 177,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2019/,2026-06-15T08:06:43Z
+chevrolet-tahoe,2019,5.3 V8 Tahoe LS 4WD,195000,196000,195500,"AED 195,000 - 196,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2019/,2026-06-15T08:06:43Z
+chevrolet-tahoe,2019,5.3 V8 Tahoe LT 2WD,211000,212000,211500,"AED 211,000 - 212,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2019/,2026-06-15T08:06:43Z
+chevrolet-tahoe,2019,5.3 V8 Tahoe LT 4WD,222500,223000,222750,"AED 222,500 - 223,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2019/,2026-06-15T08:06:43Z
+chevrolet-tahoe,2019,5.3 V8 Tahoe LTZ 2WD,260000,261000,260500,"AED 260,000 - 261,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2019/,2026-06-15T08:06:43Z
+chevrolet-tahoe,2019,5.3 V8 Tahoe LTZ 4WD,265000,266000,265500,"AED 265,000 - 266,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2019/,2026-06-15T08:06:43Z
+chevrolet-tahoe,2019,6.2 V8 Tahoe RST,290000,310000,300000,"AED 290,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2019/,2026-06-15T08:06:43Z
+chevrolet-tahoe,2020,5.3 V8 Tahoe LS 4WD,179300,190000,184650,"AED 179,300 - 190,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2020/,2026-06-15T08:06:45Z
+chevrolet-tahoe,2020,5.3 V8 Tahoe LT 4WD,195500,205000,200250,"AED 195,500 - 205,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2020/,2026-06-15T08:06:45Z
+chevrolet-tahoe,2020,5.3 V8 Tahoe Premier 4WD,253600,266000,259800,"AED 253,600 - 266,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2020/,2026-06-15T08:06:45Z
+chevrolet-tahoe,2020,6.2 V8 Tahoe RST,289400,290000,289700,"AED 289,400 - 290,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2020/,2026-06-15T08:06:45Z
+chevrolet-tahoe,2021,5.3 V8 Tahoe LS,184900,185000,184950,"AED 184,900 - 185,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2021/,2026-06-15T08:06:47Z
+chevrolet-tahoe,2021,5.3 V8 Tahoe LT,198900,199000,198950,"AED 198,900 - 199,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2021/,2026-06-15T08:06:47Z
+chevrolet-tahoe,2021,5.3 V8 Tahoe Z71,236900,237000,236950,"AED 236,900 - 237,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2021/,2026-06-15T08:06:47Z
+chevrolet-tahoe,2021,5.3 V8 Tahoe Premier,264200,265000,264600,"AED 264,200 - 265,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2021/,2026-06-15T08:06:47Z
+chevrolet-tahoe,2022,5.3 V8 Tahoe LS,187000,188000,187500,"AED 187,000 - 188,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2022/,2026-06-15T08:06:49Z
+chevrolet-tahoe,2022,5.3 V8 Tahoe LT,202100,203000,202550,"AED 202,100 - 203,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2022/,2026-06-15T08:06:49Z
+chevrolet-tahoe,2022,5.3 V8 Tahoe Z71,239200,240000,239600,"AED 239,200 - 240,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2022/,2026-06-15T08:06:49Z
+chevrolet-tahoe,2022,6.2 V8 Tahoe Z71,248000,250000,249000,"AED 248,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2022/,2026-06-15T08:06:49Z
+chevrolet-tahoe,2022,6.2 V8 Tahoe RST,250800,251000,250900,"AED 250,800 - 251,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2022/,2026-06-15T08:06:49Z
+chevrolet-tahoe,2022,6.2 V8 Tahoe Premier,266000,267000,266500,"AED 266,000 - 267,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2022/,2026-06-15T08:06:49Z
+chevrolet-tahoe,2023,5.3 V8 Tahoe LS,187000,188000,187500,"AED 187,000 - 188,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2023/,2026-06-15T08:06:51Z
+chevrolet-tahoe,2023,5.3 V8 Tahoe LT,204700,205000,204850,"AED 204,700 - 205,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2023/,2026-06-15T08:06:51Z
+chevrolet-tahoe,2023,5.3 V8 Tahoe Z71,261600,262000,261800,"AED 261,600 - 262,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2023/,2026-06-15T08:06:51Z
+chevrolet-tahoe,2023,6.2 V8 Tahoe Z71,270000,275000,272500,"AED 270,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2023/,2026-06-15T08:06:51Z
+chevrolet-tahoe,2023,6.2 V8 Tahoe RST,273500,274000,273750,"AED 273,500 - 274,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2023/,2026-06-15T08:06:51Z
+chevrolet-tahoe,2023,6.2 V8 Tahoe Premier,286600,287000,286800,"AED 286,600 - 287,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2023/,2026-06-15T08:06:51Z
+chevrolet-tahoe,2024,5.3 V8 Tahoe LS,246000,250000,248000,"AED 246,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2024/,2026-06-15T08:06:53Z
+chevrolet-tahoe,2024,5.3 V8 Tahoe LT,260000,270000,265000,"AED 260,000 - 270,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2024/,2026-06-15T08:06:53Z
+chevrolet-tahoe,2024,5.3 V8 Tahoe Z71,261600,262000,261800,"AED 261,600 - 262,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2024/,2026-06-15T08:06:53Z
+chevrolet-tahoe,2024,6.2 V8 Tahoe Z71,275000,283000,279000,"AED 275,000 - 283,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2024/,2026-06-15T08:06:53Z
+chevrolet-tahoe,2024,6.2 V8 Tahoe RST,294000,300000,297000,"AED 294,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2024/,2026-06-15T08:06:53Z
+chevrolet-tahoe,2024,6.2 V8 Tahoe Premier,310000,360500,335250,"AED 310,000 - 360,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2024/,2026-06-15T08:06:53Z
+chevrolet-tahoe,2025,5.3 V8 LT 4WD,251000,259000,255000,"AED 251,000 - 259,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2025/,2026-06-15T08:06:55Z
+chevrolet-tahoe,2025,5.3 V8 RST 4WD,287000,294000,290500,"AED 287,000 - 294,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2025/,2026-06-15T08:06:55Z
+chevrolet-tahoe,2025,6.2 V8 Premier 4WD,302000,310000,306000,"AED 302,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2025/,2026-06-15T08:06:55Z
+chevrolet-tahoe,2026,5.3 LS,231600,232000,231800,"AED 231,600 - 232,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2026/,2026-06-15T08:06:56Z
+chevrolet-tahoe,2026,5.3 LT,235800,236000,235900,"AED 235,800 - 236,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2026/,2026-06-15T08:06:56Z
+chevrolet-tahoe,2026,6.2 Premier,313500,315000,314250,"AED 313,500 - 315,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-tahoe/2026/,2026-06-15T08:06:56Z
+chevrolet-trailblazer,2002,4.2 I6 Trailblazer LS,86000,95000,90500,"AED 86,000 - 95,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2002/,2026-06-15T08:07:06Z
+chevrolet-trailblazer,2002,5.3 V8 Trailblazer LT,125000,127000,126000,"AED 125,000 - 127,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2002/,2026-06-15T08:07:06Z
+chevrolet-trailblazer,2003,4.2 I6 Trailblazer LS,86000,95000,90500,"AED 86,000 - 95,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2003/,2026-06-15T08:07:09Z
+chevrolet-trailblazer,2003,5.3 V8 Trailblazer LT,125000,127000,126000,"AED 125,000 - 127,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2003/,2026-06-15T08:07:09Z
+chevrolet-trailblazer,2004,4.2 I6 Trailblazer LS,86000,95000,90500,"AED 86,000 - 95,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2004/,2026-06-15T08:07:10Z
+chevrolet-trailblazer,2004,5.3 V8 Trailblazer LT,125000,127000,126000,"AED 125,000 - 127,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2004/,2026-06-15T08:07:10Z
+chevrolet-trailblazer,2005,4.2 I6 Trailblazer LS,86000,95000,90500,"AED 86,000 - 95,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2005/,2026-06-15T08:07:12Z
+chevrolet-trailblazer,2005,5.3 V8 Trailblazer LT,125000,127000,126000,"AED 125,000 - 127,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2005/,2026-06-15T08:07:12Z
+chevrolet-trailblazer,2006,4.2 I6 Trailblazer LS,95000,103000,99000,"AED 95,000 - 103,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2006/,2026-06-15T08:07:14Z
+chevrolet-trailblazer,2006,5.3 Trailblazer LT,123000,127000,125000,"AED 123,000 - 127,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2006/,2026-06-15T08:07:14Z
+chevrolet-trailblazer,2007,4.2 I6 Trailblazer LS,95000,103000,99000,"AED 95,000 - 103,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2007/,2026-06-15T08:07:16Z
+chevrolet-trailblazer,2007,5.3 Trailblazer LT,123000,127000,125000,"AED 123,000 - 127,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2007/,2026-06-15T08:07:16Z
+chevrolet-trailblazer,2008,4.2 I6 Trailblazer LS,95000,103000,99000,"AED 95,000 - 103,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2008/,2026-06-15T08:07:18Z
+chevrolet-trailblazer,2008,5.3 Trailblazer LT,123000,127000,125000,"AED 123,000 - 127,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2008/,2026-06-15T08:07:18Z
+chevrolet-trailblazer,2009,4.2 I6 Trailblazer LS,95000,103000,99000,"AED 95,000 - 103,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2009/,2026-06-15T08:07:20Z
+chevrolet-trailblazer,2009,5.3 Trailblazer LT,123000,127000,125000,"AED 123,000 - 127,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2009/,2026-06-15T08:07:20Z
+chevrolet-trailblazer,2013,3.6 V6 Trailblazer LT,113000,115000,114000,"AED 113,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2013/,2026-06-15T08:07:25Z
+chevrolet-trailblazer,2013,3.6 V6 Trailblazer LTZ,127000,129000,128000,"AED 127,000 - 129,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2013/,2026-06-15T08:07:25Z
+chevrolet-trailblazer,2014,3.6 V6 Trailblazer LT,113000,115000,114000,"AED 113,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2014/,2026-06-15T08:07:27Z
+chevrolet-trailblazer,2014,3.6 V6 Trailblazer LTZ,127000,129000,128000,"AED 127,000 - 129,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2014/,2026-06-15T08:07:27Z
+chevrolet-trailblazer,2015,3.6 V6 Trailblazer LT,113000,115000,114000,"AED 113,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2015/,2026-06-15T08:07:29Z
+chevrolet-trailblazer,2015,3.6 V6 Trailblazer LTZ,127000,129000,128000,"AED 127,000 - 129,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2015/,2026-06-15T08:07:29Z
+chevrolet-trailblazer,2016,3.6 V6 Trailblazer LT,113000,115000,114000,"AED 113,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2016/,2026-06-15T08:07:31Z
+chevrolet-trailblazer,2016,3.6 V6 Trailblazer LTZ,127000,129000,128000,"AED 127,000 - 129,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2016/,2026-06-15T08:07:31Z
+chevrolet-trailblazer,2017,3.6 V6 Trailblazer LT,98400,101000,99700,"AED 98,400 - 101,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2017/,2026-06-15T08:07:33Z
+chevrolet-trailblazer,2017,3.6 V6 Trailblazer LTZ,127000,129000,128000,"AED 127,000 - 129,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2017/,2026-06-15T08:07:33Z
+chevrolet-trailblazer,2018,3.6 V6 Trailblazer LT,98400,101000,99700,"AED 98,400 - 101,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2018/,2026-06-15T08:07:35Z
+chevrolet-trailblazer,2018,3.6 V6 Trailblazer LTZ,127000,129000,128000,"AED 127,000 - 129,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2018/,2026-06-15T08:07:35Z
+chevrolet-trailblazer,2019,3.6 V6 Trailblazer LT,107000,109000,108000,"AED 107,000 - 109,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2019/,2026-06-15T08:07:37Z
+chevrolet-trailblazer,2019,3.6 V6 Trailblazer LTZ,129000,131000,130000,"AED 129,000 - 131,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trailblazer/2019/,2026-06-15T08:07:37Z
+chevrolet-traverse,2009,3.6 V6 Traverse LS,120000,121500,120750,"AED 120,000 - 121,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2009/,2026-06-15T08:08:02Z
+chevrolet-traverse,2009,3.6 V6 Traverse LT cloth,140000,142000,141000,"AED 140,000 - 142,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2009/,2026-06-15T08:08:02Z
+chevrolet-traverse,2009,3.6 V6 Traverse LT leather,150000,151500,150750,"AED 150,000 - 151,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2009/,2026-06-15T08:08:02Z
+chevrolet-traverse,2009,3.6 V6 Traverse LTZ,158500,160000,159250,"AED 158,500 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2009/,2026-06-15T08:08:02Z
+chevrolet-traverse,2010,3.6 V6 Traverse LS,120000,121500,120750,"AED 120,000 - 121,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2010/,2026-06-15T08:08:04Z
+chevrolet-traverse,2010,3.6 V6 Traverse LT cloth,140000,142000,141000,"AED 140,000 - 142,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2010/,2026-06-15T08:08:04Z
+chevrolet-traverse,2010,3.6 V6 Traverse LT leather,150000,151500,150750,"AED 150,000 - 151,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2010/,2026-06-15T08:08:04Z
+chevrolet-traverse,2010,3.6 V6 Traverse LTZ,158500,160000,159250,"AED 158,500 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2010/,2026-06-15T08:08:04Z
+chevrolet-traverse,2011,3.6 V6 Traverse LS,120000,121500,120750,"AED 120,000 - 121,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2011/,2026-06-15T08:08:07Z
+chevrolet-traverse,2011,3.6 V6 Traverse LT cloth,140000,142000,141000,"AED 140,000 - 142,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2011/,2026-06-15T08:08:07Z
+chevrolet-traverse,2011,3.6 V6 Traverse LT leather,150000,151500,150750,"AED 150,000 - 151,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2011/,2026-06-15T08:08:07Z
+chevrolet-traverse,2011,3.6 V6 Traverse LTZ,158500,160000,159250,"AED 158,500 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2011/,2026-06-15T08:08:07Z
+chevrolet-traverse,2012,3.6 V6 Traverse LS,120000,121500,120750,"AED 120,000 - 121,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2012/,2026-06-15T08:08:08Z
+chevrolet-traverse,2012,3.6 V6 Traverse LT cloth,140000,142000,141000,"AED 140,000 - 142,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2012/,2026-06-15T08:08:08Z
+chevrolet-traverse,2012,3.6 V6 Traverse LT leather,150000,151500,150750,"AED 150,000 - 151,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2012/,2026-06-15T08:08:08Z
+chevrolet-traverse,2012,3.6 V6 Traverse LTZ,158500,160000,159250,"AED 158,500 - 160,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2012/,2026-06-15T08:08:08Z
+chevrolet-traverse,2013,3.6 V6 Traverse LS,116000,118000,117000,"AED 116,000 - 118,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2013/,2026-06-15T08:08:10Z
+chevrolet-traverse,2013,3.6 V6 Traverse LT cloth,139000,141000,140000,"AED 139,000 - 141,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2013/,2026-06-15T08:08:10Z
+chevrolet-traverse,2013,3.6 V6 Traverse LT leather,145000,146500,145750,"AED 145,000 - 146,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2013/,2026-06-15T08:08:10Z
+chevrolet-traverse,2013,3.6 V6 Traverse LTZ,161500,163000,162250,"AED 161,500 - 163,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2013/,2026-06-15T08:08:10Z
+chevrolet-traverse,2014,3.6 V6 Traverse LS,116000,118000,117000,"AED 116,000 - 118,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2014/,2026-06-15T08:08:12Z
+chevrolet-traverse,2014,3.6 V6 Traverse LT cloth,139000,141000,140000,"AED 139,000 - 141,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2014/,2026-06-15T08:08:12Z
+chevrolet-traverse,2014,3.6 V6 Traverse LT leather,145000,146500,145750,"AED 145,000 - 146,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2014/,2026-06-15T08:08:12Z
+chevrolet-traverse,2014,3.6 V6 Traverse LTZ,161500,163000,162250,"AED 161,500 - 163,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2014/,2026-06-15T08:08:12Z
+chevrolet-traverse,2015,3.6 V6 Traverse LS,116000,118000,117000,"AED 116,000 - 118,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2015/,2026-06-15T08:08:14Z
+chevrolet-traverse,2015,3.6 V6 Traverse LT cloth,139000,141000,140000,"AED 139,000 - 141,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2015/,2026-06-15T08:08:14Z
+chevrolet-traverse,2015,3.6 V6 Traverse LT leather,145000,146500,145750,"AED 145,000 - 146,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2015/,2026-06-15T08:08:14Z
+chevrolet-traverse,2015,3.6 V6 Traverse LTZ,161500,163000,162250,"AED 161,500 - 163,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2015/,2026-06-15T08:08:14Z
+chevrolet-traverse,2016,3.6 V6 Traverse LS,116000,118000,117000,"AED 116,000 - 118,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2016/,2026-06-15T08:08:16Z
+chevrolet-traverse,2016,3.6 V6 Traverse LT cloth,139000,141000,140000,"AED 139,000 - 141,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2016/,2026-06-15T08:08:16Z
+chevrolet-traverse,2016,3.6 V6 Traverse LT leather,145000,146500,145750,"AED 145,000 - 146,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2016/,2026-06-15T08:08:16Z
+chevrolet-traverse,2016,3.6 V6 Traverse LTZ,161500,163000,162250,"AED 161,500 - 163,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2016/,2026-06-15T08:08:16Z
+chevrolet-traverse,2017,3.6 V6 Traverse LS,116000,118000,117000,"AED 116,000 - 118,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2017/,2026-06-15T08:08:18Z
+chevrolet-traverse,2017,3.6 V6 Traverse LT cloth,139000,141000,140000,"AED 139,000 - 141,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2017/,2026-06-15T08:08:18Z
+chevrolet-traverse,2017,3.6 V6 Traverse LT leather,145000,146500,145750,"AED 145,000 - 146,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2017/,2026-06-15T08:08:18Z
+chevrolet-traverse,2017,3.6 V6 Traverse LTZ,161500,163000,162250,"AED 161,500 - 163,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2017/,2026-06-15T08:08:18Z
+chevrolet-traverse,2018,3.6 V6 Traverse LS,125000,130000,127500,"AED 125,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2018/,2026-06-15T08:08:20Z
+chevrolet-traverse,2018,3.6 V6 Traverse LT cloth,135000,140000,137500,"AED 135,000 - 140,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2018/,2026-06-15T08:08:20Z
+chevrolet-traverse,2018,3.6 V6 Traverse LT leather,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2018/,2026-06-15T08:08:20Z
+chevrolet-traverse,2018,3.6 V6 Traverse Premier,170000,175000,172500,"AED 170,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2018/,2026-06-15T08:08:20Z
+chevrolet-traverse,2018,3.6 V6 Traverse High Country,195000,200000,197500,"AED 195,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2018/,2026-06-15T08:08:20Z
+chevrolet-traverse,2019,3.6 V6 Traverse LS,124100,125000,124550,"AED 124,100 - 125,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2019/,2026-06-15T08:08:22Z
+chevrolet-traverse,2019,3.6 V6 Traverse LT cloth,140000,145000,142500,"AED 140,000 - 145,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2019/,2026-06-15T08:08:22Z
+chevrolet-traverse,2019,3.6 V6 Traverse LT leather,150000,155000,152500,"AED 150,000 - 155,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2019/,2026-06-15T08:08:22Z
+chevrolet-traverse,2019,3.6 V6 Traverse Premier,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2019/,2026-06-15T08:08:22Z
+chevrolet-traverse,2019,3.6 V6 Traverse High Country,185000,200000,192500,"AED 185,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2019/,2026-06-15T08:08:22Z
+chevrolet-traverse,2020,3.6 V6 Traverse LS,126400,127000,126700,"AED 126,400 - 127,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2020/,2026-06-15T08:08:24Z
+chevrolet-traverse,2020,3.6 V6 Traverse LT,130300,131000,130650,"AED 130,300 - 131,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2020/,2026-06-15T08:08:24Z
+chevrolet-traverse,2020,3.6 V6 Traverse LT leather,155700,156000,155850,"AED 155,700 - 156,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2020/,2026-06-15T08:08:24Z
+chevrolet-traverse,2020,3.6 V6 Traverse Premier,163800,170000,166900,"AED 163,800 - 170,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2020/,2026-06-15T08:08:24Z
+chevrolet-traverse,2020,3.6 V6 Traverse High Country,198400,199000,198700,"AED 198,400 - 199,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2020/,2026-06-15T08:08:24Z
+chevrolet-traverse,2021,3.6 V6 Traverse LS,126400,127000,126700,"AED 126,400 - 127,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2021/,2026-06-15T08:08:26Z
+chevrolet-traverse,2021,3.6 V6 Traverse LT,130300,131000,130650,"AED 130,300 - 131,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2021/,2026-06-15T08:08:26Z
+chevrolet-traverse,2021,3.6 V6 Traverse LT leather,155700,156000,155850,"AED 155,700 - 156,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2021/,2026-06-15T08:08:26Z
+chevrolet-traverse,2021,3.6 V6 Traverse Premier,163800,170000,166900,"AED 163,800 - 170,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2021/,2026-06-15T08:08:26Z
+chevrolet-traverse,2021,3.6 V6 Traverse High Country,198400,199000,198700,"AED 198,400 - 199,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2021/,2026-06-15T08:08:26Z
+chevrolet-traverse,2022,3.6 V6 LS FWD,132400,133000,132700,"AED 132,400 - 133,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2022/,2026-06-15T08:08:28Z
+chevrolet-traverse,2022,3.6 V6 LT FWD,136100,137000,136550,"AED 136,100 - 137,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2022/,2026-06-15T08:08:28Z
+chevrolet-traverse,2022,3.6 V6 LT Leather FWD,161500,162000,161750,"AED 161,500 - 162,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2022/,2026-06-15T08:08:28Z
+chevrolet-traverse,2022,3.6 V6 RS FWD,174800,175000,174900,"AED 174,800 - 175,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2022/,2026-06-15T08:08:28Z
+chevrolet-traverse,2022,3.6 V6 Premier FWD,181000,182000,181500,"AED 181,000 - 182,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2022/,2026-06-15T08:08:28Z
+chevrolet-traverse,2022,3.6 V6 High Country AWD,206800,207000,206900,"AED 206,800 - 207,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2022/,2026-06-15T08:08:28Z
+chevrolet-traverse,2023,3.6 V6 LS FWD,137600,138000,137800,"AED 137,600 - 138,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2023/,2026-06-15T08:08:30Z
+chevrolet-traverse,2023,3.6 V6 LT Leather FWD,167600,168000,167800,"AED 167,600 - 168,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2023/,2026-06-15T08:08:30Z
+chevrolet-traverse,2023,3.6 V6 RS FWD,179500,180000,179750,"AED 179,500 - 180,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2023/,2026-06-15T08:08:30Z
+chevrolet-traverse,2023,3.6 V6 Premier FWD,185900,186000,185950,"AED 185,900 - 186,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2023/,2026-06-15T08:08:30Z
+chevrolet-traverse,2024,2.5TC I4 LT FWD,186000,189000,187500,"AED 186,000 - 189,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2024/,2026-06-15T08:08:31Z
+chevrolet-traverse,2024,2.5TC I4 Z71 4WD,214000,216000,215000,"AED 214,000 - 216,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2024/,2026-06-15T08:08:31Z
+chevrolet-traverse,2025,2.5TC I4 LT FWD,186000,189000,187500,"AED 186,000 - 189,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2025/,2026-06-15T08:08:33Z
+chevrolet-traverse,2025,2.5TC I4 Z71 4WD,214000,216000,215000,"AED 214,000 - 216,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2025/,2026-06-15T08:08:33Z
+chevrolet-traverse,2026,2.5TC I4 LT FWD,186000,189000,187500,"AED 186,000 - 189,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2026/,2026-06-15T08:08:35Z
+chevrolet-traverse,2026,2.5TC I4 Z71 4WD,214000,216000,215000,"AED 214,000 - 216,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-traverse/2026/,2026-06-15T08:08:35Z
+chevrolet-trax,2014,1.8 I4 Trax FWD LT/LTZ,68500,75000,71750,"AED 68,500 - 75,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trax/2014/,2026-06-15T08:08:58Z
+chevrolet-trax,2014,1.8 I4 Trax AWD LT/LTZ,75000,83000,79000,"AED 75,000 - 83,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trax/2014/,2026-06-15T08:08:58Z
+chevrolet-trax,2015,1.8 I4 Trax FWD LT/LTZ,68500,75000,71750,"AED 68,500 - 75,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trax/2015/,2026-06-15T08:09:00Z
+chevrolet-trax,2015,1.8 I4 Trax AWD LT/LTZ,75000,83000,79000,"AED 75,000 - 83,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trax/2015/,2026-06-15T08:09:00Z
+chevrolet-trax,2016,1.8 I4 Trax FWD LT/LTZ,68500,75000,71750,"AED 68,500 - 75,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trax/2016/,2026-06-15T08:09:02Z
+chevrolet-trax,2016,1.8 I4 Trax AWD LT/LTZ,75000,83000,79000,"AED 75,000 - 83,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trax/2016/,2026-06-15T08:09:02Z
+chevrolet-trax,2017,1.8 I4 Trax FWD LT,66100,67500,66800,"AED 66,100 - 67,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trax/2017/,2026-06-15T08:09:04Z
+chevrolet-trax,2017,1.8 I4 Trax AWD Premier,83500,85000,84250,"AED 83,500 - 85,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trax/2017/,2026-06-15T08:09:04Z
+chevrolet-trax,2018,1.8 I4 Trax FWD LT,66100,67500,66800,"AED 66,100 - 67,500",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trax/2018/,2026-06-15T08:09:06Z
+chevrolet-trax,2018,1.8 I4 Trax AWD Premier,83500,85000,84250,"AED 83,500 - 85,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trax/2018/,2026-06-15T08:09:06Z
+chevrolet-trax,2019,1.8 I4 Trax FWD LT,67000,69000,68000,"AED 67,000 - 69,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trax/2019/,2026-06-15T08:09:08Z
+chevrolet-trax,2019,1.8 I4 Trax AWD Premier,88000,89000,88500,"AED 88,000 - 89,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trax/2019/,2026-06-15T08:09:08Z
+chevrolet-trax,2020,1.8 I4 Trax FWD LT,67000,69000,68000,"AED 67,000 - 69,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trax/2020/,2026-06-15T08:09:10Z
+chevrolet-trax,2020,1.8 I4 Trax AWD Premier,88000,89000,88500,"AED 88,000 - 89,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-trax/2020/,2026-06-15T08:09:10Z
+chevrolet-uplander,2005,3.5 V6 Uplander LS,75000,77000,76000,"AED 75,000 - 77,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-uplander/2005/,2026-06-15T08:09:30Z
+chevrolet-uplander,2005,3.9 V6 Uplander LT1,102000,105000,103500,"AED 102,000 - 105,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-uplander/2005/,2026-06-15T08:09:30Z
+chevrolet-uplander,2006,3.5 V6 Uplander LS,75000,77000,76000,"AED 75,000 - 77,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-uplander/2006/,2026-06-15T08:09:32Z
+chevrolet-uplander,2006,3.9 V6 Uplander LT1,102000,105000,103500,"AED 102,000 - 105,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-uplander/2006/,2026-06-15T08:09:32Z
+chevrolet-uplander,2007,3.5 V6 Uplander LS,75000,77000,76000,"AED 75,000 - 77,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-uplander/2007/,2026-06-15T08:09:34Z
+chevrolet-uplander,2007,3.9 V6 Uplander LT1,102000,105000,103500,"AED 102,000 - 105,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-uplander/2007/,2026-06-15T08:09:34Z
+chevrolet-uplander,2008,3.9 V6 Uplander LS,75000,80000,77500,"AED 75,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-uplander/2008/,2026-06-15T08:09:36Z
+chevrolet-uplander,2008,3.9 V6 Uplander LT1,102000,105000,103500,"AED 102,000 - 105,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-uplander/2008/,2026-06-15T08:09:36Z
+chevrolet-uplander,2009,3.9 V6 Uplander LS,75000,80000,77500,"AED 75,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-uplander/2009/,2026-06-15T08:09:38Z
+chevrolet-uplander,2009,3.9 V6 Uplander LT1,102000,105000,103500,"AED 102,000 - 105,000",AED,https://www.drivearabia.com/carprices/uae/chevrolet/chevrolet-uplander/2009/,2026-06-15T08:09:38Z

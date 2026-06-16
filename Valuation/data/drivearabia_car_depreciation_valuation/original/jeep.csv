@@ -1,0 +1,95 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+jeep-cherokee,2022,Sport 4x2,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-cherokee/2022/,2026-06-16T10:24:39Z
+jeep-cherokee,2022,Longitude 4x4,109900,110000,109950,"AED 109,900 - 110,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-cherokee/2022/,2026-06-16T10:24:39Z
+jeep-cherokee,2022,Trailhawk 4x4,129000,130000,129500,"AED 129,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-cherokee/2022/,2026-06-16T10:24:39Z
+jeep-cherokee,2022,Limited 4x4,120000,129900,124950,"AED 129,900 - 120,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-cherokee/2022/,2026-06-16T10:24:39Z
+jeep-commander,2026,Limited Plus,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-commander/2026/,2026-06-16T10:24:51Z
+jeep-commander,2026,Overland,159900,160000,159950,"AED 159,900 - 160,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-commander/2026/,2026-06-16T10:24:51Z
+jeep-compass,2022,Longitude,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-compass/2022/,2026-06-16T10:24:53Z
+jeep-compass,2022,Trailhawk,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-compass/2022/,2026-06-16T10:24:53Z
+jeep-compass,2022,Limited,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-compass/2022/,2026-06-16T10:24:53Z
+jeep-gladiator,2022,Gladiator Sport,179000,185000,182000,"AED 179,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-gladiator/2022/,2026-06-16T10:25:00Z
+jeep-gladiator,2022,Gladiator Overland,198000,217000,207500,"AED 198,000 - 217,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-gladiator/2022/,2026-06-16T10:25:00Z
+jeep-gladiator,2022,Sand Runner,234900,235000,234950,"AED 234,900 - 235,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-gladiator/2022/,2026-06-16T10:25:00Z
+jeep-gladiator,2022,Rubicon,250000,251000,250500,"AED 250,000 - 251,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-gladiator/2022/,2026-06-16T10:25:00Z
+jeep-gladiator,2023,Gladiator Sport,179000,185000,182000,"AED 179,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-gladiator/2023/,2026-06-16T10:25:02Z
+jeep-gladiator,2023,Gladiator Overland,198000,217000,207500,"AED 198,000 - 217,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-gladiator/2023/,2026-06-16T10:25:02Z
+jeep-gladiator,2023,Sand Runner,234900,235000,234950,"AED 234,900 - 235,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-gladiator/2023/,2026-06-16T10:25:02Z
+jeep-gladiator,2023,Rubicon,250000,251000,250500,"AED 250,000 - 251,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-gladiator/2023/,2026-06-16T10:25:02Z
+jeep-gladiator,2024,3.6 V6 Gladiator Sport 4WD,204900,205000,204950,"AED 204,900 - 205,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-gladiator/2024/,2026-06-16T10:25:04Z
+jeep-gladiator,2024,3.6 V6 Sand Runner 4WD,254900,255000,254950,"AED 254,900 - 255,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-gladiator/2024/,2026-06-16T10:25:04Z
+jeep-gladiator,2025,3.6 V6 Sport 4WD,204900,205000,204950,"AED 204,900 - 205,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-gladiator/2025/,2026-06-16T10:25:07Z
+jeep-gladiator,2025,3.6 V6 Sand Runner 4WD,254900,255000,254950,"AED 254,900 - 255,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-gladiator/2025/,2026-06-16T10:25:07Z
+jeep-grand-cherokee,2022,V6 Altitude,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee/2022/,2026-06-16T10:25:10Z
+jeep-grand-cherokee,2022,V6 Limited Plus,219900,220000,219950,"AED 219,900 - 220,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee/2022/,2026-06-16T10:25:10Z
+jeep-grand-cherokee,2022,V6 Overland,259900,260000,259950,"AED 259,900 - 260,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee/2022/,2026-06-16T10:25:10Z
+jeep-grand-cherokee,2023,V6 Altitude,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee/2023/,2026-06-16T10:25:12Z
+jeep-grand-cherokee,2023,V6 Limited Plus,219900,220000,219950,"AED 219,900 - 220,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee/2023/,2026-06-16T10:25:12Z
+jeep-grand-cherokee,2023,V6 Overland,259900,260000,259950,"AED 259,900 - 260,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee/2023/,2026-06-16T10:25:12Z
+jeep-grand-cherokee,2024,3.6 V6 Altitude 4WD,220000,222000,221000,"AED 220,000 - 222,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee/2024/,2026-06-16T10:25:14Z
+jeep-grand-cherokee,2024,3.6 V6 Limited Plus 4WD,240000,241000,240500,"AED 240,000 - 241,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee/2024/,2026-06-16T10:25:14Z
+jeep-grand-cherokee,2024,3.6 V6 Overland 4WD,280000,281000,280500,"AED 280,000 - 281,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee/2024/,2026-06-16T10:25:14Z
+jeep-grand-cherokee,2024,3.6 V6 Summit Reserve 4WD,309900,310000,309950,"AED 309,900 - 310,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee/2024/,2026-06-16T10:25:14Z
+jeep-grand-cherokee,2025,3.6 V6 Limited Plus 4WD,240000,241000,240500,"AED 240,000 - 241,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee/2025/,2026-06-16T10:25:16Z
+jeep-grand-cherokee,2025,3.6 V6 Summit Reserve 4WD,280000,281000,280500,"AED 280,000 - 281,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee/2025/,2026-06-16T10:25:16Z
+jeep-grand-cherokee,2025,3.6 V6 Overland 4WD,280000,281000,280500,"AED 280,000 - 281,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee/2025/,2026-06-16T10:25:16Z
+jeep-grand-cherokee,2026,3.6 V6 Limited Plus 4WD,240000,241000,240500,"AED 240,000 - 241,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee/2026/,2026-06-16T10:25:18Z
+jeep-grand-cherokee,2026,3.6 V6 Summit Reserve 4WD,280000,281000,280500,"AED 280,000 - 281,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee/2026/,2026-06-16T10:25:18Z
+jeep-grand-cherokee,2026,3.6 V6 Overland 4WD,280000,281000,280500,"AED 280,000 - 281,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee/2026/,2026-06-16T10:25:18Z
+jeep-grand-cherokee-l,2023,3.6L V6 Altitude 4WD,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee-l/2023/,2026-06-16T10:25:22Z
+jeep-grand-cherokee-l,2023,3.6L V6 Limited 4WD,209900,210000,209950,"AED 209,900 - 210,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee-l/2023/,2026-06-16T10:25:22Z
+jeep-grand-cherokee-l,2023,3.6L V6 Limited Plus 4WD,244900,245000,244950,"AED 244,900 - 245,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee-l/2023/,2026-06-16T10:25:22Z
+jeep-grand-cherokee-l,2023,5.7L V8 Summit Reserve 4WD,279900,280000,279950,"AED 279,900 - 280,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee-l/2023/,2026-06-16T10:25:22Z
+jeep-grand-cherokee-l,2024,3.6L V6 Limited Plus 4WD,239999,250000,245000,"AED 239,999 - 250,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee-l/2024/,2026-06-16T10:25:24Z
+jeep-grand-cherokee-l,2024,5.7L V8 Summit Reserve 4WD,299900,300000,299950,"AED 299,900 - 300,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee-l/2024/,2026-06-16T10:25:24Z
+jeep-grand-cherokee-l,2025,3.6L V6 Limited Plus 4WD,249999,250000,250000,"AED 249,999 - 250,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee-l/2025/,2026-06-16T10:25:26Z
+jeep-grand-cherokee-l,2025,5.7L V8 Summit Reserve 4WD,300000,335000,317500,"AED 335,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee-l/2025/,2026-06-16T10:25:26Z
+jeep-grand-cherokee-l,2026,3.6L V6 Limited Plus 4WD,249999,250000,250000,"AED 249,999 - 250,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee-l/2026/,2026-06-16T10:25:28Z
+jeep-grand-cherokee-l,2026,5.7L V8 Summit Reserve 4WD,300000,335000,317500,"AED 335,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-cherokee-l/2026/,2026-06-16T10:25:28Z
+jeep-grand-wagoneer,2023,Ultra Premium,485000,500000,492500,"AED 485,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-wagoneer/2023/,2026-06-16T10:25:43Z
+jeep-grand-wagoneer,2023,Premium Max,525000,530000,527500,"AED 525,000 - 530,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-wagoneer/2023/,2026-06-16T10:25:43Z
+jeep-grand-wagoneer,2024,3.0TC I6 Ultra Premium 4WD,515000,520000,517500,"AED 515,000 - 520,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-wagoneer/2024/,2026-06-16T10:25:45Z
+jeep-grand-wagoneer,2024,3.0TC I6 Premium Max 4WD,535000,540000,537500,"AED 535,000 - 540,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-wagoneer/2024/,2026-06-16T10:25:45Z
+jeep-grand-wagoneer,2025,3.0TC I6 Ultra Premium 4WD,515000,520000,517500,"AED 515,000 - 520,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-wagoneer/2025/,2026-06-16T10:25:47Z
+jeep-grand-wagoneer,2025,3.0TC I6 Premium Max 4WD,535000,540000,537500,"AED 535,000 - 540,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-wagoneer/2025/,2026-06-16T10:25:47Z
+jeep-grand-wagoneer,2026,3.0TC I6 Ultra Premium 4WD,515000,520000,517500,"AED 515,000 - 520,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-wagoneer/2026/,2026-06-16T10:25:49Z
+jeep-grand-wagoneer,2026,3.0TC I6 Premium Max 4WD,535000,540000,537500,"AED 535,000 - 540,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-grand-wagoneer/2026/,2026-06-16T10:25:49Z
+jeep-renegade,2022,Sport 4x2,79900,80000,79950,"AED 79,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-renegade/2022/,2026-06-16T10:25:57Z
+jeep-renegade,2022,Longitude 4x2,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-renegade/2022/,2026-06-16T10:25:57Z
+jeep-renegade,2022,Trailhawk 4x4,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-renegade/2022/,2026-06-16T10:25:57Z
+jeep-renegade,2022,Limited 4x4,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-renegade/2022/,2026-06-16T10:25:57Z
+jeep-wrangler,2022,Sport,144900,145000,144950,"AED 144,900 - 145,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler/2022/,2026-06-16T10:26:03Z
+jeep-wrangler,2022,Sahara,176900,177000,176950,"AED 176,900 - 177,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler/2022/,2026-06-16T10:26:03Z
+jeep-wrangler,2022,Rubicon,192900,193000,192950,"AED 192,900 - 193,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler/2022/,2026-06-16T10:26:03Z
+jeep-wrangler,2023,Sport,144900,145000,144950,"AED 144,900 - 145,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler/2023/,2026-06-16T10:26:05Z
+jeep-wrangler,2023,Sahara,176900,177000,176950,"AED 176,900 - 177,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler/2023/,2026-06-16T10:26:05Z
+jeep-wrangler,2023,Rubicon,192900,193000,192950,"AED 192,900 - 193,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler/2023/,2026-06-16T10:26:05Z
+jeep-wrangler,2024,2.0TC I4 Sport 4WD,207900,208000,207950,"AED 207,900 - 208,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler/2024/,2026-06-16T10:26:07Z
+jeep-wrangler,2024,2.0TC I4 Sahara 4WD,220000,225000,222500,"AED 220,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler/2024/,2026-06-16T10:26:07Z
+jeep-wrangler,2024,3.6L V6 Rubicon 4WD,260000,262000,261000,"AED 260,000 - 262,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler/2024/,2026-06-16T10:26:07Z
+jeep-wrangler,2025,2.0TC I4 Sport 4WD,195900,208000,201950,"AED 195,900 - 208,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler/2025/,2026-06-16T10:26:09Z
+jeep-wrangler,2025,2.0TC I4 Sahara 4WD,220000,225000,222500,"AED 220,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler/2025/,2026-06-16T10:26:09Z
+jeep-wrangler,2025,3.6L V6 Rubicon 4WD,265900,268000,266950,"AED 265,900 - 268,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler/2025/,2026-06-16T10:26:09Z
+jeep-wrangler,2026,Sport,195900,208000,201950,"AED 195,900 - 208,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler/2026/,2026-06-16T10:26:11Z
+jeep-wrangler,2026,Sahara,220000,225000,222500,"AED 220,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler/2026/,2026-06-16T10:26:11Z
+jeep-wrangler,2026,Rubicon,265900,268000,266950,"AED 265,900 - 268,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler/2026/,2026-06-16T10:26:11Z
+jeep-wrangler-rubicon-392,2022,6.4L Rubicon 392,310000,320000,315000,"AED 310,000 - 320,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-rubicon-392/2022/,2026-06-16T10:26:13Z
+jeep-wrangler-rubicon-392,2023,6.4L Rubicon 392,310000,320000,315000,"AED 310,000 - 320,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-rubicon-392/2023/,2026-06-16T10:26:15Z
+jeep-wrangler-rubicon-392,2024,6.4L Rubicon 392 4WD,400000,410000,405000,"AED 400,000 - 410,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-rubicon-392/2024/,2026-06-16T10:26:17Z
+jeep-wrangler-rubicon-392,2025,6.4L Rubicon 392 4WD,400000,410000,405000,"AED 400,000 - 410,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-rubicon-392/2025/,2026-06-16T10:26:19Z
+jeep-wrangler-rubicon-392,2026,6.4L Rubicon 392 4WD,400000,410000,405000,"AED 400,000 - 410,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-rubicon-392/2026/,2026-06-16T10:26:21Z
+jeep-wrangler-unlimited,2022,Sport,159900,160000,159950,"AED 159,900 - 160,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-unlimited/2022/,2026-06-16T10:26:23Z
+jeep-wrangler-unlimited,2022,Sahara,189900,190000,189950,"AED 189,900 - 190,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-unlimited/2022/,2026-06-16T10:26:23Z
+jeep-wrangler-unlimited,2022,Rubicon,207900,208000,207950,"AED 207,900 - 208,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-unlimited/2022/,2026-06-16T10:26:23Z
+jeep-wrangler-unlimited,2023,Sport,159900,160000,159950,"AED 159,900 - 160,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-unlimited/2023/,2026-06-16T10:26:25Z
+jeep-wrangler-unlimited,2023,Sahara,189900,190000,189950,"AED 189,900 - 190,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-unlimited/2023/,2026-06-16T10:26:25Z
+jeep-wrangler-unlimited,2023,Rubicon,207900,208000,207950,"AED 207,900 - 208,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-unlimited/2023/,2026-06-16T10:26:25Z
+jeep-wrangler-unlimited,2024,2.0TC I4 Sport 4WD,207500,208000,207750,"AED 207,500 - 208,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-unlimited/2024/,2026-06-16T10:26:27Z
+jeep-wrangler-unlimited,2024,2.0TC I4 Sahara 4WD,260000,261000,260500,"AED 260,000 - 261,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-unlimited/2024/,2026-06-16T10:26:27Z
+jeep-wrangler-unlimited,2024,3.6L V6 Rubicon 4WD,290000,291000,290500,"AED 290,000 - 291,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-unlimited/2024/,2026-06-16T10:26:27Z
+jeep-wrangler-unlimited,2025,2.0TC I4 Sport 4WD,207500,208000,207750,"AED 207,500 - 208,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-unlimited/2025/,2026-06-16T10:26:29Z
+jeep-wrangler-unlimited,2025,2.0TC I4 Sahara 4WD,260000,261000,260500,"AED 260,000 - 261,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-unlimited/2025/,2026-06-16T10:26:29Z
+jeep-wrangler-unlimited,2025,3.6L V6 Rubicon 4WD,290000,291000,290500,"AED 290,000 - 291,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-unlimited/2025/,2026-06-16T10:26:29Z
+jeep-wrangler-unlimited,2026,Sport,207500,208000,207750,"AED 207,500 - 208,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-unlimited/2026/,2026-06-16T10:26:31Z
+jeep-wrangler-unlimited,2026,Sahara,260000,261000,260500,"AED 260,000 - 261,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-unlimited/2026/,2026-06-16T10:26:31Z
+jeep-wrangler-unlimited,2026,Rubicon,290000,291000,290500,"AED 290,000 - 291,000",AED,https://www.drivearabia.com/carprices/uae/jeep/jeep-wrangler-unlimited/2026/,2026-06-16T10:26:31Z
