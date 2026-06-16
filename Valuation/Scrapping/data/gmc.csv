@@ -1,0 +1,100 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+gmc-acadia,2022,3.6L SLE FWD,136900,137000,136950,"AED 136,900 - 137,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-acadia/2022/,2026-06-16T09:31:04Z
+gmc-acadia,2022,3.6L AT4 4WD,151900,152000,151950,"AED 151,900 - 152,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-acadia/2022/,2026-06-16T09:31:04Z
+gmc-acadia,2022,3.6L SLT 4WD,160000,161000,160500,"AED 160,000 - 161,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-acadia/2022/,2026-06-16T09:31:04Z
+gmc-acadia,2022,3.6L Denali 4WD,194100,195000,194550,"AED 194,100 - 195,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-acadia/2022/,2026-06-16T09:31:04Z
+gmc-acadia,2023,3.6L SLE FWD,136900,137000,136950,"AED 136,900 - 137,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-acadia/2023/,2026-06-16T09:31:06Z
+gmc-acadia,2023,3.6L AT4 4WD,151900,152000,151950,"AED 151,900 - 152,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-acadia/2023/,2026-06-16T09:31:06Z
+gmc-acadia,2023,3.6L SLT 4WD,160000,161000,160500,"AED 160,000 - 161,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-acadia/2023/,2026-06-16T09:31:06Z
+gmc-acadia,2023,3.6L Denali 4WD,194100,195000,194550,"AED 194,100 - 195,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-acadia/2023/,2026-06-16T09:31:06Z
+gmc-acadia,2024,3.6L SLE FWD,136900,137000,136950,"AED 136,900 - 137,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-acadia/2024/,2026-06-16T09:31:08Z
+gmc-acadia,2024,3.6L AT4 4WD,151900,152000,151950,"AED 151,900 - 152,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-acadia/2024/,2026-06-16T09:31:08Z
+gmc-acadia,2024,3.6L SLT 4WD,160000,161000,160500,"AED 160,000 - 161,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-acadia/2024/,2026-06-16T09:31:08Z
+gmc-acadia,2024,3.6L Denali 4WD,194100,195000,194550,"AED 194,100 - 195,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-acadia/2024/,2026-06-16T09:31:08Z
+gmc-acadia,2025,3.6L V6 AT4 4WD,199000,200000,199500,"AED 199,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-acadia/2025/,2026-06-16T09:31:10Z
+gmc-acadia,2025,3.6L V6 Denali 4WD,231000,232000,231500,"AED 231,000 - 232,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-acadia/2025/,2026-06-16T09:31:10Z
+gmc-acadia,2026,3.6L V6 AT4 4WD,199000,200000,199500,"AED 199,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-acadia/2026/,2026-06-16T09:31:12Z
+gmc-acadia,2026,3.6L V6 Denali 4WD,231000,232000,231500,"AED 231,000 - 232,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-acadia/2026/,2026-06-16T09:31:12Z
+gmc-canyon,2024,2.7TC I4 AT4X 4WD,232000,235000,233500,"AED 232,000 - 235,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-canyon/2024/,2026-06-16T09:31:16Z
+gmc-canyon,2025,2.7TC I4 AT4X 4WD,232000,235000,233500,"AED 232,000 - 235,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-canyon/2025/,2026-06-16T09:31:18Z
+gmc-canyon,2026,2.7TC I4 AT4X 4WD,232000,235000,233500,"AED 232,000 - 235,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-canyon/2026/,2026-06-16T09:31:20Z
+gmc-hummer-ev-pickup,2024,200kWh 4WD,564000,565000,564500,"AED 564,000 - 565,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-hummer-ev-pickup/2024/,2026-06-16T09:31:30Z
+gmc-hummer-ev-pickup,2025,200kWh 4WD,564000,565000,564500,"AED 564,000 - 565,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-hummer-ev-pickup/2025/,2026-06-16T09:31:32Z
+gmc-hummer-ev-pickup,2026,200kWh 4WD,564000,565000,564500,"AED 564,000 - 565,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-hummer-ev-pickup/2026/,2026-06-16T09:31:33Z
+gmc-hummer-ev-suv,2024,200kWh SUV 4WD,551000,671000,611000,"AED 551,000 - 671,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-hummer-ev-suv/2024/,2026-06-16T09:31:38Z
+gmc-hummer-ev-suv,2025,200kWh SUV 4WD,551000,671000,611000,"AED 551,000 - 671,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-hummer-ev-suv/2025/,2026-06-16T09:31:39Z
+gmc-hummer-ev-suv,2026,200kWh SUV 4WD,551000,671000,611000,"AED 551,000 - 671,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-hummer-ev-suv/2026/,2026-06-16T09:31:41Z
+gmc-sierra-1500,2022,2.7T SLE,152700,153000,152850,"AED 152,700 - 153,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2022/,2026-06-16T09:31:49Z
+gmc-sierra-1500,2022,2.7T Elevation,170000,171000,170500,"AED 170,000 - 171,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2022/,2026-06-16T09:31:49Z
+gmc-sierra-1500,2022,5.3L AT4,187800,188000,187900,"AED 187,800 - 188,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2022/,2026-06-16T09:31:49Z
+gmc-sierra-1500,2022,5.3L SLT,209600,210000,209800,"AED 209,600 - 210,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2022/,2026-06-16T09:31:49Z
+gmc-sierra-1500,2022,6.2L AT4,210000,215000,212500,"AED 210,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2022/,2026-06-16T09:31:49Z
+gmc-sierra-1500,2022,6.2L Denali,255300,256000,255650,"AED 255,300 - 256,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2022/,2026-06-16T09:31:49Z
+gmc-sierra-1500,2022,6.2L AT4X,255300,256000,255650,"AED 255,300 - 256,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2022/,2026-06-16T09:31:49Z
+gmc-sierra-1500,2022,6.2L Denali Ultimate,283200,284000,283600,"AED 283,200 - 284,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2022/,2026-06-16T09:31:49Z
+gmc-sierra-1500,2023,2.7T SLE,152700,153000,152850,"AED 152,700 - 153,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2023/,2026-06-16T09:31:51Z
+gmc-sierra-1500,2023,2.7T Elevation,170000,171000,170500,"AED 170,000 - 171,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2023/,2026-06-16T09:31:51Z
+gmc-sierra-1500,2023,5.3L AT4,187800,188000,187900,"AED 187,800 - 188,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2023/,2026-06-16T09:31:51Z
+gmc-sierra-1500,2023,5.3L SLT,209600,210000,209800,"AED 209,600 - 210,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2023/,2026-06-16T09:31:51Z
+gmc-sierra-1500,2023,6.2L AT4,210000,215000,212500,"AED 210,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2023/,2026-06-16T09:31:51Z
+gmc-sierra-1500,2023,6.2L Denali,255300,256000,255650,"AED 255,300 - 256,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2023/,2026-06-16T09:31:51Z
+gmc-sierra-1500,2023,6.2L AT4X,255300,256000,255650,"AED 255,300 - 256,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2023/,2026-06-16T09:31:51Z
+gmc-sierra-1500,2023,6.2L Denali Ultimate,283200,284000,283600,"AED 283,200 - 284,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2023/,2026-06-16T09:31:51Z
+gmc-sierra-1500,2024,2.7T SLE,152700,153000,152850,"AED 152,700 - 153,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2024/,2026-06-16T09:31:53Z
+gmc-sierra-1500,2024,2.7T Elevation,170000,171000,170500,"AED 170,000 - 171,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2024/,2026-06-16T09:31:53Z
+gmc-sierra-1500,2024,5.3L AT4,187800,188000,187900,"AED 187,800 - 188,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2024/,2026-06-16T09:31:53Z
+gmc-sierra-1500,2024,5.3L SLT,209600,210000,209800,"AED 209,600 - 210,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2024/,2026-06-16T09:31:53Z
+gmc-sierra-1500,2024,6.2L AT4,210000,215000,212500,"AED 210,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2024/,2026-06-16T09:31:53Z
+gmc-sierra-1500,2024,6.2L Denali,255300,256000,255650,"AED 255,300 - 256,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2024/,2026-06-16T09:31:53Z
+gmc-sierra-1500,2024,6.2L AT4X,255300,256000,255650,"AED 255,300 - 256,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2024/,2026-06-16T09:31:53Z
+gmc-sierra-1500,2024,6.2L Denali Ultimate,283200,284000,283600,"AED 283,200 - 284,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2024/,2026-06-16T09:31:53Z
+gmc-sierra-1500,2025,2.7TC I4 SLE 4WD,175000,177000,176000,"AED 175,000 - 177,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2025/,2026-06-16T09:31:55Z
+gmc-sierra-1500,2025,2.7TC I4 Elevation 4WD,199500,200000,199750,"AED 199,500 - 200,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2025/,2026-06-16T09:31:55Z
+gmc-sierra-1500,2025,5.3L V8 AT4 4WD,204200,207000,205600,"AED 204,200 - 207,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2025/,2026-06-16T09:31:55Z
+gmc-sierra-1500,2025,5.3L V8 SLT 4WD,226400,230000,228200,"AED 226,400 - 230,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2025/,2026-06-16T09:31:55Z
+gmc-sierra-1500,2025,6.2L V8 Denali 4WD,278600,283000,280800,"AED 278,600 - 283,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2025/,2026-06-16T09:31:55Z
+gmc-sierra-1500,2025,6.2L V8 AT4X 4WD,279500,285000,282250,"AED 279,500 - 285,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2025/,2026-06-16T09:31:55Z
+gmc-sierra-1500,2025,6.2L V8 Denali Ultimate 4WD,303900,306000,304950,"AED 303,900 - 306,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2025/,2026-06-16T09:31:55Z
+gmc-sierra-1500,2026,2.7TC I4 SLE 4WD,175000,177000,176000,"AED 175,000 - 177,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2026/,2026-06-16T09:31:57Z
+gmc-sierra-1500,2026,2.7TC I4 Elevation 4WD,199500,200000,199750,"AED 199,500 - 200,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2026/,2026-06-16T09:31:57Z
+gmc-sierra-1500,2026,5.3L V8 AT4 4WD,204200,207000,205600,"AED 204,200 - 207,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2026/,2026-06-16T09:31:57Z
+gmc-sierra-1500,2026,5.3L V8 SLT 4WD,226400,230000,228200,"AED 226,400 - 230,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2026/,2026-06-16T09:31:57Z
+gmc-sierra-1500,2026,6.2L V8 Denali 4WD,278600,283000,280800,"AED 278,600 - 283,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2026/,2026-06-16T09:31:57Z
+gmc-sierra-1500,2026,6.2L V8 AT4X 4WD,279500,285000,282250,"AED 279,500 - 285,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2026/,2026-06-16T09:31:57Z
+gmc-sierra-1500,2026,6.2L V8 Denali Ultimate 4WD,303900,306000,304950,"AED 303,900 - 306,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-sierra-1500/2026/,2026-06-16T09:31:57Z
+gmc-terrain,2022,1.5T SLE FWD,96100,97000,96550,"AED 96,100 - 97,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-terrain/2022/,2026-06-16T09:31:59Z
+gmc-terrain,2022,1.5T SLT FWD,110000,111000,110500,"AED 110,000 - 111,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-terrain/2022/,2026-06-16T09:31:59Z
+gmc-terrain,2022,1.5T AT4 4WD,121000,121700,121350,"AED 121,700 - 121,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-terrain/2022/,2026-06-16T09:31:59Z
+gmc-terrain,2022,1.5T Denali 4WD,146700,147000,146850,"AED 146,700 - 147,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-terrain/2022/,2026-06-16T09:31:59Z
+gmc-terrain,2023,1.5T SLE FWD,96100,97000,96550,"AED 96,100 - 97,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-terrain/2023/,2026-06-16T09:32:01Z
+gmc-terrain,2023,1.5T SLT FWD,110000,111000,110500,"AED 110,000 - 111,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-terrain/2023/,2026-06-16T09:32:01Z
+gmc-terrain,2023,1.5T AT4 4WD,121000,121700,121350,"AED 121,700 - 121,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-terrain/2023/,2026-06-16T09:32:01Z
+gmc-terrain,2023,1.5T Denali 4WD,146700,147000,146850,"AED 146,700 - 147,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-terrain/2023/,2026-06-16T09:32:01Z
+gmc-terrain,2024,1.5T SLE FWD,96100,97000,96550,"AED 96,100 - 97,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-terrain/2024/,2026-06-16T09:32:03Z
+gmc-terrain,2024,1.5T SLT FWD,110000,111000,110500,"AED 110,000 - 111,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-terrain/2024/,2026-06-16T09:32:03Z
+gmc-terrain,2024,1.5T AT4 4WD,121000,121700,121350,"AED 121,700 - 121,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-terrain/2024/,2026-06-16T09:32:03Z
+gmc-terrain,2024,1.5T Denali 4WD,146700,147000,146850,"AED 146,700 - 147,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-terrain/2024/,2026-06-16T09:32:03Z
+gmc-terrain,2026,Elevation,115000,120000,117500,"AED 115,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-terrain/2026/,2026-06-16T09:32:05Z
+gmc-terrain,2026,Denali,157000,165000,161000,"AED 157,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-terrain/2026/,2026-06-16T09:32:05Z
+gmc-yukon,2022,5.3L V8 SLE RWD,197000,199000,198000,"AED 197,000 - 199,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2022/,2026-06-16T09:32:07Z
+gmc-yukon,2022,5.3L V8 SLE 4WD,210000,215000,212500,"AED 210,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2022/,2026-06-16T09:32:07Z
+gmc-yukon,2022,5.3L V8 SLT 2WD,212100,215000,213550,"AED 212,100 - 215,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2022/,2026-06-16T09:32:07Z
+gmc-yukon,2022,5.3L V8 SLT 4WD,230000,240000,235000,"AED 230,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2022/,2026-06-16T09:32:07Z
+gmc-yukon,2022,5.3L V8 AT4 4WD,253200,255000,254100,"AED 253,200 - 255,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2022/,2026-06-16T09:32:07Z
+gmc-yukon,2022,6.2L V8 AT4 4WD,275000,280000,277500,"AED 275,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2022/,2026-06-16T09:32:07Z
+gmc-yukon,2022,6.2L V8 Denali 4WD,299100,300000,299550,"AED 299,100 - 300,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2022/,2026-06-16T09:32:07Z
+gmc-yukon,2023,5.3L V8 SLE RWD,197000,199000,198000,"AED 197,000 - 199,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2023/,2026-06-16T09:32:09Z
+gmc-yukon,2023,5.3L V8 SLE 4WD,210000,215000,212500,"AED 210,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2023/,2026-06-16T09:32:09Z
+gmc-yukon,2023,5.3L V8 SLT 2WD,212100,215000,213550,"AED 212,100 - 215,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2023/,2026-06-16T09:32:09Z
+gmc-yukon,2023,5.3L V8 SLT 4WD,230000,240000,235000,"AED 230,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2023/,2026-06-16T09:32:09Z
+gmc-yukon,2023,5.3L V8 AT4 4WD,253200,255000,254100,"AED 253,200 - 255,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2023/,2026-06-16T09:32:09Z
+gmc-yukon,2023,6.2L V8 AT4 4WD,275000,280000,277500,"AED 275,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2023/,2026-06-16T09:32:09Z
+gmc-yukon,2023,6.2L V8 Denali 4WD,299100,300000,299550,"AED 299,100 - 300,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2023/,2026-06-16T09:32:09Z
+gmc-yukon,2024,5.3L V8 AT4 4WD,300000,315000,307500,"AED 300,000 - 315,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2024/,2026-06-16T09:32:11Z
+gmc-yukon,2024,6.2L V8 Denali 4WD,324000,347000,335500,"AED 324,000 - 347,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2024/,2026-06-16T09:32:11Z
+gmc-yukon,2025,5.3L V8 AT4 4WD,320000,330000,325000,"AED 320,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2025/,2026-06-16T09:32:13Z
+gmc-yukon,2025,6.2L V8 Denali 4WD,375000,380000,377500,"AED 375,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2025/,2026-06-16T09:32:13Z
+gmc-yukon,2026,5.3L Elevation,252100,260000,256050,"AED 252,100 - 260,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2026/,2026-06-16T09:32:15Z
+gmc-yukon,2026,5.3L AT4,303800,330000,316900,"AED 303,800 - 330,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2026/,2026-06-16T09:32:15Z
+gmc-yukon,2026,6.2L AT4 X,342600,343000,342800,"AED 342,600 - 343,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2026/,2026-06-16T09:32:15Z
+gmc-yukon,2026,6.2L Denali,357800,365000,361400,"AED 357,800 - 365,000",AED,https://www.drivearabia.com/carprices/uae/gmc/gmc-yukon/2026/,2026-06-16T09:32:15Z

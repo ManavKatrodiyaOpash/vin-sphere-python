@@ -1,0 +1,61 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+changan-alsvin,2022,1.5 I4 Standard,32900,35000,33950,"AED 32,900 - 35,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-alsvin/2022/,2026-06-16T10:33:50Z
+changan-alsvin,2022,1.5 I4 Full option,36900,40000,38450,"AED 36,900 - 40,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-alsvin/2022/,2026-06-16T10:33:50Z
+changan-alsvin,2023,1.5 I4 Standard FWD,32900,35000,33950,"AED 32,900 - 35,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-alsvin/2023/,2026-06-16T10:33:52Z
+changan-alsvin,2023,1.5 I4 Full Option FWD,36900,40000,38450,"AED 36,900 - 40,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-alsvin/2023/,2026-06-16T10:33:52Z
+changan-alsvin,2024,1.5 I4 Advance FWD,42900,43900,43400,"AED 42,900 - 43,900",AED,https://www.drivearabia.com/carprices/uae/changan/changan-alsvin/2024/,2026-06-16T10:33:54Z
+changan-alsvin,2025,1.5 I4 Advance FWD,42900,43900,43400,"AED 42,900 - 43,900",AED,https://www.drivearabia.com/carprices/uae/changan/changan-alsvin/2025/,2026-06-16T10:33:56Z
+changan-alsvin,2026,1.5 I4 Advance FWD,42900,43900,43400,"AED 42,900 - 43,900",AED,https://www.drivearabia.com/carprices/uae/changan/changan-alsvin/2026/,2026-06-16T10:33:58Z
+changan-cs35-plus,2022,1.4TC I4 Trend,53600,54000,53800,"AED 53,600 - 54,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs35-plus/2022/,2026-06-16T10:34:06Z
+changan-cs35-plus,2022,1.4TC I4 Smart,57600,58000,57800,"AED 57,600 - 58,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs35-plus/2022/,2026-06-16T10:34:06Z
+changan-cs35-plus,2022,1.4TC I4 Limited,70000,73000,71500,"AED 70,000 - 73,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs35-plus/2022/,2026-06-16T10:34:06Z
+changan-cs35-plus,2023,1.4TC I4 Trend,53600,54000,53800,"AED 53,600 - 54,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs35-plus/2023/,2026-06-16T10:34:08Z
+changan-cs35-plus,2023,1.4TC I4 Smart,57600,58000,57800,"AED 57,600 - 58,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs35-plus/2023/,2026-06-16T10:34:08Z
+changan-cs35-plus,2023,1.4TC I4 Limited,70000,73000,71500,"AED 70,000 - 73,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs35-plus/2023/,2026-06-16T10:34:08Z
+changan-cs35-plus,2024,1.4TC I4 Trend FWD,61900,62900,62400,"AED 61,900 - 62,900",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs35-plus/2024/,2026-06-16T10:34:10Z
+changan-cs35-plus,2024,1.4TC I4 Limited FWD,74000,75000,74500,"AED 74,000 - 75,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs35-plus/2024/,2026-06-16T10:34:10Z
+changan-cs35-plus,2025,1.4TC I4 Trend FWD,63000,64000,63500,"AED 63,000 - 64,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs35-plus/2025/,2026-06-16T10:34:12Z
+changan-cs35-plus,2025,1.4TC I4 Limited FWD,73500,75000,74250,"AED 73,500 - 75,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs35-plus/2025/,2026-06-16T10:34:12Z
+changan-cs35-plus,2026,1.4TC I4 Trend FWD,63000,64000,63500,"AED 63,000 - 64,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs35-plus/2026/,2026-06-16T10:34:14Z
+changan-cs35-plus,2026,1.4TC I4 Limited FWD,73500,75000,74250,"AED 73,500 - 75,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs35-plus/2026/,2026-06-16T10:34:14Z
+changan-cs75-plus,2022,2.0TC I4 CS75 Plus Sport,128000,131250,129625,"AED 128,000 - 131,250",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs75-plus/2022/,2026-06-16T10:34:21Z
+changan-cs75-plus,2023,2.0TC I4 CS75 Plus Sport,128000,131250,129625,"AED 128,000 - 131,250",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs75-plus/2023/,2026-06-16T10:34:23Z
+changan-cs75-plus,2024,2.0TC I4 CS75 Plus Sport,115500,116000,115750,"AED 115,500 - 116,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs75-plus/2024/,2026-06-16T10:34:25Z
+changan-cs75-plus,2025,2.0TC I4 CS75 Plus Sport,115500,116000,115750,"AED 115,500 - 116,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs75-plus/2025/,2026-06-16T10:34:27Z
+changan-cs75-plus,2026,2.0TC I4 CS75 Plus Sport,115500,116000,115750,"AED 115,500 - 116,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs75-plus/2026/,2026-06-16T10:34:29Z
+changan-cs85,2022,2.0TC I4 Premium,141750,142000,141875,"AED 141,750 - 142,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs85/2022/,2026-06-16T10:34:31Z
+changan-cs85,2023,2.0TC I4 Premium,141750,142000,141875,"AED 141,750 - 142,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs85/2023/,2026-06-16T10:34:33Z
+changan-cs85,2024,2.0TC I4 Premium FWD,105000,106000,105500,"AED 105,000 - 106,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs85/2024/,2026-06-16T10:34:35Z
+changan-cs85,2025,2.0TC I4 Premium FWD,105000,106000,105500,"AED 105,000 - 106,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs85/2025/,2026-06-16T10:34:37Z
+changan-cs95,2022,2.0TC I4 Classic,89500,90000,89750,"AED 89,500 - 90,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs95/2022/,2026-06-16T10:34:40Z
+changan-cs95,2022,2.0TC I4 Platinum,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs95/2022/,2026-06-16T10:34:40Z
+changan-cs95,2022,2.0TC I4 Royal,130000,131000,130500,"AED 130,000 - 131,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs95/2022/,2026-06-16T10:34:40Z
+changan-cs95,2023,2.0TC I4 Classic,89500,90000,89750,"AED 89,500 - 90,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs95/2023/,2026-06-16T10:34:42Z
+changan-cs95,2023,2.0TC I4 Platinum,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs95/2023/,2026-06-16T10:34:42Z
+changan-cs95,2023,2.0TC I4 Royal,130000,131000,130500,"AED 130,000 - 131,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs95/2023/,2026-06-16T10:34:42Z
+changan-cs95,2024,2.0TC I4 Royal 4WD,133350,134000,133675,"AED 133,350 - 134,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs95/2024/,2026-06-16T10:34:44Z
+changan-cs95,2025,2.0TC I4 Royal 4WD,133350,134000,133675,"AED 133,350 - 134,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs95/2025/,2026-06-16T10:34:46Z
+changan-cs95,2026,2.0TC I4 Royal 4WD,133350,134000,133675,"AED 133,350 - 134,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-cs95/2026/,2026-06-16T10:34:48Z
+changan-eado,2022,1.4TC I4 Plus Sport,80000,81000,80500,"AED 80,000 - 81,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-eado/2022/,2026-06-16T10:34:50Z
+changan-eado,2023,1.4TC I4 Plus Sport,80000,81000,80500,"AED 80,000 - 81,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-eado/2023/,2026-06-16T10:34:52Z
+changan-eado,2024,1.5TC I4 Trend Plus Sport FWD,63000,65000,64000,"AED 63,000 - 65,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-eado/2024/,2026-06-16T10:34:54Z
+changan-eado,2024,1.5TC I4 Limited Plus Sport FWD,73500,74500,74000,"AED 73,500 - 74,500",AED,https://www.drivearabia.com/carprices/uae/changan/changan-eado/2024/,2026-06-16T10:34:54Z
+changan-eado,2025,1.5TC I4 Trend Plus Sport FWD,63000,65000,64000,"AED 63,000 - 65,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-eado/2025/,2026-06-16T10:34:56Z
+changan-eado,2025,1.5TC I4 Limited Plus Sport FWD,73500,74500,74000,"AED 73,500 - 74,500",AED,https://www.drivearabia.com/carprices/uae/changan/changan-eado/2025/,2026-06-16T10:34:56Z
+changan-eado,2026,1.5TC I4 Trend Plus Sport FWD,63000,65000,64000,"AED 63,000 - 65,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-eado/2026/,2026-06-16T10:34:57Z
+changan-eado,2026,1.5TC I4 Limited Plus Sport FWD,73500,74500,74000,"AED 73,500 - 74,500",AED,https://www.drivearabia.com/carprices/uae/changan/changan-eado/2026/,2026-06-16T10:34:57Z
+changan-uni-k,2023,2.0TC I4 Limited,180000,181000,180500,"AED 180,000 - 181,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-uni-k/2023/,2026-06-16T10:35:01Z
+changan-uni-k,2024,2.0TC I4 Limited,180000,181000,180500,"AED 180,000 - 181,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-uni-k/2024/,2026-06-16T10:35:03Z
+changan-uni-k,2025,2.0TC I4 Elite 4WD,129000,139000,134000,"AED 129,000 - 139,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-uni-k/2025/,2026-06-16T10:35:05Z
+changan-uni-k,2026,2.0TC I4 Elite 4WD,129000,139000,134000,"AED 129,000 - 139,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-uni-k/2026/,2026-06-16T10:35:06Z
+changan-uni-t,2023,1.5TC I4 Limited,130000,131000,130500,"AED 130,000 - 131,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-uni-t/2023/,2026-06-16T10:35:10Z
+changan-uni-t,2023,1.5TC I4 Sport,150000,151000,150500,"AED 150,000 - 151,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-uni-t/2023/,2026-06-16T10:35:10Z
+changan-uni-t,2024,1.5TC I4 Limited,130000,131000,130500,"AED 130,000 - 131,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-uni-t/2024/,2026-06-16T10:35:12Z
+changan-uni-t,2024,1.5TC I4 Sport,150000,151000,150500,"AED 150,000 - 151,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-uni-t/2024/,2026-06-16T10:35:12Z
+changan-uni-t,2025,1.5TC I4 Limited,105000,106000,105500,"AED 105,000 - 106,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-uni-t/2025/,2026-06-16T10:35:14Z
+changan-uni-t,2025,1.5TC I4 Sport,115000,116000,115500,"AED 115,000 - 116,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-uni-t/2025/,2026-06-16T10:35:14Z
+changan-uni-t,2026,1.5TC I4 Limited,105000,106000,105500,"AED 105,000 - 106,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-uni-t/2026/,2026-06-16T10:35:16Z
+changan-uni-t,2026,1.5TC I4 Sport,115000,116000,115500,"AED 115,000 - 116,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-uni-t/2026/,2026-06-16T10:35:16Z
+changan-uni-v,2024,1.5TC I4 Uni-V FWD,130000,131000,130500,"AED 130,000 - 131,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-uni-v/2024/,2026-06-16T10:35:20Z
+changan-uni-v,2025,2.0TC I4 Uni-V FWD,120000,121000,120500,"AED 120,000 - 121,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-uni-v/2025/,2026-06-16T10:35:22Z
+changan-uni-v,2026,2.0TC I4 Uni-V FWD,120000,121000,120500,"AED 120,000 - 121,000",AED,https://www.drivearabia.com/carprices/uae/changan/changan-uni-v/2026/,2026-06-16T10:35:24Z

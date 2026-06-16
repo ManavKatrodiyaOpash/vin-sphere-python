@@ -163,93 +163,6 @@ def get_lookup_price(result: dict, vin: str):
     return None
 
 
-@st.cache_data
-def load_filled_price_lookup(csv_path: str) -> pd.DataFrame:
-    df = pd.read_csv(csv_path, low_memory=False)
-    df = df.copy()
-    df["make_key"] = df["make"].apply(normalize_lookup_text)
-    df["model_key"] = df["model"].apply(normalize_lookup_text)
-    df["trim_key"] = df["trim"].apply(normalize_lookup_text)
-    df["year_key"] = df["year"].apply(normalize_lookup_year)
-    if "chassisNumber" in df.columns:
-        df["vin_key"] = df["chassisNumber"].apply(normalize_lookup_text)
-    else:
-        df["vin_key"] = ""
-    df["price_filled"] = pd.to_numeric(df["price_filled"], errors="coerce")
-    return df
-
-
-def select_filled_price(df: pd.DataFrame):
-    valid_df = df[df["price_filled"].notna() & (df["price_filled"] > 0)]
-    if valid_df.empty:
-        return None, None
-    median_price = float(valid_df["price_filled"].median())
-    mode_series = valid_df["price_fill_method"].mode()
-    method = mode_series.iloc[0] if not mode_series.empty else "unknown"
-    return median_price, method
-
-
-def get_filled_lookup_price(result: dict, vin: str):
-    filled_csv_path = project_root / "vc" / "lookup_data_filled.csv"
-    if not filled_csv_path.exists():
-        return None, None
-    try:
-        lookup_df = load_filled_price_lookup(str(filled_csv_path))
-    except Exception:
-        return None, None
-
-    vin_key = normalize_lookup_text(vin)
-    if vin_key:
-        vin_matches = lookup_df[lookup_df["vin_key"] == vin_key]
-        price, method = select_filled_price(vin_matches)
-        if price is not None:
-            return price, method
-
-    base_matches = lookup_df[
-        (lookup_df["make_key"] == normalize_lookup_text(result.get("make")))
-        & (lookup_df["model_key"] == normalize_lookup_text(result.get("model")))
-        & (lookup_df["year_key"] == normalize_lookup_year(result.get("year")))
-    ]
-
-    if base_matches.empty:
-        return None, None
-
-    trim_key = normalize_lookup_text(result.get("trim"))
-    if trim_key:
-        exact_trim_matches = base_matches[base_matches["trim_key"] == trim_key]
-        price, method = select_filled_price(exact_trim_matches)
-        if price is not None:
-            return price, method
-
-        contains_trim_matches = base_matches[
-            base_matches["trim_key"].apply(
-                lambda csv_trim: bool(csv_trim)
-                and (trim_key in csv_trim or csv_trim in trim_key)
-            )
-        ]
-        price, method = select_filled_price(contains_trim_matches)
-        if price is not None:
-            return price, method
-
-        fuzzy_matches = base_matches.copy()
-        fuzzy_matches["trim_score"] = fuzzy_matches["trim_key"].apply(
-            lambda csv_trim: SequenceMatcher(None, trim_key, csv_trim).ratio()
-            if csv_trim
-            else 0.0
-        )
-        fuzzy_matches = fuzzy_matches[fuzzy_matches["trim_score"] >= 0.82]
-        if not fuzzy_matches.empty:
-            best_score = fuzzy_matches["trim_score"].max()
-            price, method = select_filled_price(fuzzy_matches[fuzzy_matches["trim_score"] == best_score])
-            if price is not None:
-                return price, method
-
-    valid_base_matches = base_matches[base_matches["price_filled"].notna() & (base_matches["price_filled"] > 0)]
-    if valid_base_matches["trim_key"].nunique() == 1:
-        return select_filled_price(valid_base_matches)
-
-    return None, None
-
 
 @st.cache_resource
 def load_ml_price_model(model_path: str):
@@ -401,18 +314,9 @@ if st.button("Decode", use_container_width=True):
                 price_display = "Not found" if price is None else f"{price:,.0f}"
                 result["lookup_price"] = None if price is None else float(price)
 
-                filled_price, filled_method = get_filled_lookup_price(result, vin_input)
-                if filled_price is None:
-                    filled_price_display = "Not found"
-                else:
-                    filled_price_display = f"{filled_price:,.0f} (Method: {filled_method})"
-                result["filled_price"] = None if filled_price is None else float(filled_price)
-                result["price_fill_method"] = filled_method
-
                 # Calculate dynamic, data-driven confidence based on price variance for the make/model
                 try:
-                    filled_csv_path = project_root / "vc" / "lookup_data_filled.csv"
-                    lookup_df = load_filled_price_lookup(str(filled_csv_path))
+                    lookup_df = load_price_lookup(str(LOOKUP_DATA_PATH))
                     
                     make_key = normalize_lookup_text(result.get("make"))
                     model_key = normalize_lookup_text(result.get("model"))
@@ -422,7 +326,7 @@ if st.button("Decode", use_container_width=True):
                         (lookup_df["model_key"] == model_key)
                     ]
                     
-                    prices = model_matches["price_filled"].dropna()
+                    prices = model_matches["price"].dropna()
                     if len(prices) > 1:
                         std_val = prices.std()
                         mean_val = prices.mean()
@@ -477,7 +381,6 @@ if st.button("Decode", use_container_width=True):
                     {"Attribute": "Weight (KG)", "Predicted Value": result.get("weight"), "Confidence": f"{conf_dict.get('weight', 0.0) * 100:.2f}%"},
                     {"Attribute": "Regional Specs", "Predicted Value": result.get("regional_spec"), "Confidence": f"{conf_dict.get('regional_spec', 0.0) * 100:.2f}%"},
                     {"Attribute": "Price", "Predicted Value": price_display, "Confidence": "Lookup"},
-                    {"Attribute": "Price (Filled)", "Predicted Value": filled_price_display, "Confidence": "Lookup"},
                     {"Attribute": "Price (ML Model)", "Predicted Value": ml_price_display, "Confidence": ml_conf_display},
                 ]
                 table_data.extend(dep_rows)
