@@ -212,6 +212,34 @@ def get_ml_predicted_price(result: dict) -> float:
         return None
 
 
+def calculate_valuation(price: float) -> dict:
+    if price is None or pd.isna(price):
+        return None
+    try:
+        retail_avg = round(price, -2)
+        retail_min = round(retail_avg * 0.9, -2)
+        retail_max = round(retail_avg * 1.1, -2)
+        
+        trade_avg = round(retail_avg * 0.92, -2)
+        trade_min = round(trade_avg * 0.9, -2)
+        trade_max = round(trade_avg * 1.1, -2)
+        
+        return {
+            "retail_price": {
+                "average": int(retail_avg),
+                "minimum": int(retail_min),
+                "maximum": int(retail_max)
+            },
+            "trade_price": {
+                "average": int(trade_avg),
+                "minimum": int(trade_min),
+                "maximum": int(trade_max)
+            }
+        }
+    except Exception:
+        return None
+
+
 @st.cache_data
 def load_all_depreciation_lookups(paths_dict: dict) -> dict:
     dfs = {}
@@ -372,6 +400,13 @@ if st.button("Decode", use_container_width=True):
                 dep_values = get_depreciated_values_by_file(result)
                 result["depreciated_values"] = dep_values
 
+                # Calculate valuations (min/avg/max for retail & trade)
+                result["lookup_price_valuation"] = calculate_valuation(price)
+                result["ml_price_valuation"] = calculate_valuation(ml_price)
+                result["depreciated_price_valuations"] = {
+                    filename: calculate_valuation(val) for filename, val in dep_values.items()
+                } if dep_values else {}
+
                 dep_rows = []
                 if not dep_values:
                     dep_rows.append({"Attribute": "Depreciated Value", "Predicted Value": "Not found", "Confidence": "Lookup"})
@@ -381,7 +416,7 @@ if st.button("Decode", use_container_width=True):
                         dep_rows.append({
                             "Attribute": f"Depreciated Value ({display_name})",
                             "Predicted Value": f"{val:,.0f}",
-                            "Confidence": "Lookup"
+                            "Confidence": "Scraped Data"
                         })
 
                 table_data = [
@@ -406,6 +441,57 @@ if st.button("Decode", use_container_width=True):
 
                 # Display Results Table
                 st.table(df_results)
+
+                # Render Valuation Dashboard
+                has_any_valuation = (price is not None) or (ml_price is not None) or bool(dep_values)
+                if has_any_valuation:
+                    st.subheader("Market Valuation Dashboard")
+                    tab_titles = []
+                    if price is not None:
+                        tab_titles.append("Market Lookup")
+                    if ml_price is not None:
+                        tab_titles.append("ML Model Prediction")
+                    if dep_values:
+                        tab_titles.append("Depreciation Lookup")
+                        
+                    tabs = st.tabs(tab_titles)
+                    tab_index = 0
+                    
+                    if price is not None:
+                        with tabs[tab_index]:
+                            val = result["lookup_price_valuation"]
+                            st.write("**Retail Price vs. Trade Price (Lookup)**")
+                            st.table(pd.DataFrame([
+                                {"Price Metric": "Minimum Price (-10%)", "Retail Price (AED)": f"{val['retail_price']['minimum']:,.0f}", "Trade Price (AED)": f"{val['trade_price']['minimum']:,.0f}"},
+                                {"Price Metric": "Average Price", "Retail Price (AED)": f"{val['retail_price']['average']:,.0f}", "Trade Price (AED)": f"{val['trade_price']['average']:,.0f}"},
+                                {"Price Metric": "Maximum Price (+10%)", "Retail Price (AED)": f"{val['retail_price']['maximum']:,.0f}", "Trade Price (AED)": f"{val['trade_price']['maximum']:,.0f}"}
+                            ]))
+                            tab_index += 1
+                            
+                    if ml_price is not None:
+                        with tabs[tab_index]:
+                            val = result["ml_price_valuation"]
+                            st.write("**Retail Price vs. Trade Price (ML Model)**")
+                            st.table(pd.DataFrame([
+                                {"Price Metric": "Minimum Price (-10%)", "Retail Price (AED)": f"{val['retail_price']['minimum']:,.0f}", "Trade Price (AED)": f"{val['trade_price']['minimum']:,.0f}"},
+                                {"Price Metric": "Average Price", "Retail Price (AED)": f"{val['retail_price']['average']:,.0f}", "Trade Price (AED)": f"{val['trade_price']['average']:,.0f}"},
+                                {"Price Metric": "Maximum Price (+10%)", "Retail Price (AED)": f"{val['retail_price']['maximum']:,.0f}", "Trade Price (AED)": f"{val['trade_price']['maximum']:,.0f}"}
+                            ]))
+                            tab_index += 1
+                            
+                    if dep_values:
+                        with tabs[tab_index]:
+                            st.write("**Retail Price vs. Trade Price (Depreciation)**")
+                            for filename, dep_val in dep_values.items():
+                                val = result["depreciated_price_valuations"][filename]
+                                display_name = filename.rsplit('.', 1)[0]
+                                st.write(f"**Source File: `{display_name}`**")
+                                st.table(pd.DataFrame([
+                                    {"Price Metric": "Minimum Price (-10%)", "Retail Price (AED)": f"{val['retail_price']['minimum']:,.0f}", "Trade Price (AED)": f"{val['trade_price']['minimum']:,.0f}"},
+                                    {"Price Metric": "Average Price", "Retail Price (AED)": f"{val['retail_price']['average']:,.0f}", "Trade Price (AED)": f"{val['trade_price']['average']:,.0f}"},
+                                    {"Price Metric": "Maximum Price (+10%)", "Retail Price (AED)": f"{val['retail_price']['maximum']:,.0f}", "Trade Price (AED)": f"{val['trade_price']['maximum']:,.0f}"}
+                                ]))
+                            tab_index += 1
 
                 # Display Raw JSON Output
                 st.subheader("Raw JSON Response")
