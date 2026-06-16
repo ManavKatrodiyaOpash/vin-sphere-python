@@ -219,9 +219,24 @@ def load_all_depreciation_lookups(paths_dict: dict) -> dict:
         if Path(path).exists():
             try:
                 dfs[name] = pd.read_csv(path)
+                continue
+            except Exception:
+                pass
+        
+        # Fallback to GitHub raw URL for Vercel deployment (try current dev branch first)
+        github_url = f"https://raw.githubusercontent.com/sarthak-opash/vin-sphere-python/dev-sarthak/Valuation/data/{name}"
+        try:
+            dfs[name] = pd.read_csv(github_url)
+        except Exception:
+            # Secondary fallback: try the main branch in case of merge
+            main_url = f"https://raw.githubusercontent.com/sarthak-opash/vin-sphere-python/main/Valuation/data/{name}"
+            try:
+                dfs[name] = pd.read_csv(main_url)
             except Exception:
                 pass
     return dfs
+
+
 
 
 def find_matches_in_df(df: pd.DataFrame, result: dict) -> pd.DataFrame:
