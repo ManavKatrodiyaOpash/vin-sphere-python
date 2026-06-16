@@ -28,13 +28,28 @@ MODEL_DIR = str(project_root / "chat_cat" / "models")
 LOOKUP_DATA_PATH = project_root / "lookup_data.csv"
 DEPRECIATION_CSV_PATHS = {
     "audi_dep.csv": project_root / "Valuation" / "data" / "audi_dep.csv",
+    "byd_dep.csv": project_root / "Valuation" / "data" / "byd_dep.csv",
     "chevelorate_dep.csv": project_root / "Valuation" / "data" / "chevelorate_dep.csv",
     "drivearabia_toyota_prices_newest.csv": project_root / "Valuation" / "data" / "drivearabia_toyota_prices_newest.csv",
     "drivearabia_toyota_prices.csv": project_root / "Valuation" / "data" / "drivearabia_toyota_prices.csv",
     "ford_dep.csv": project_root / "Valuation" / "data" / "ford_dep.csv",
+    "gmc_dep.csv": project_root / "Valuation" / "data" / "gmc_dep.csv",
     "honda_dep.csv": project_root / "Valuation" / "data" / "honda_dep.csv",
     "hyundai_dep.csv": project_root / "Valuation" / "data" / "hyundai_dep.csv",
-    "toyota_dep.csv": project_root / "Valuation" / "data" / "toyota_dep.csv"
+    "infiniti_dep.csv": project_root / "Valuation" / "data" / "infiniti_dep.csv",
+    "jeep_dep.csv": project_root / "Valuation" / "data" / "jeep_dep.csv",
+    "kia_dep.csv": project_root / "Valuation" / "data" / "kia_dep.csv",
+    "lexus_dep.csv": project_root / "Valuation" / "data" / "lexus_dep.csv",
+    "lincoln_dep.csv": project_root / "Valuation" / "data" / "lincoln_dep.csv",
+    "mazda_dep.csv": project_root / "Valuation" / "data" / "mazda_dep.csv",
+    "mini_dep.csv": project_root / "Valuation" / "data" / "mini_dep.csv",
+    "mitsubishi_dep.csv": project_root / "Valuation" / "data" / "mitsubishi_dep.csv",
+    "porsche_dep.csv": project_root / "Valuation" / "data" / "porsche_dep.csv",
+    "rox_dep.csv": project_root / "Valuation" / "data" / "rox_dep.csv",
+    "suzuki_dep.csv": project_root / "Valuation" / "data" / "suzuki_dep.csv",
+    "tesla_dep.csv": project_root / "Valuation" / "data" / "tesla_dep.csv",
+    "toyota_dep.csv": project_root / "Valuation" / "data" / "toyota_dep.csv",
+    "volkswagen_dep.csv": project_root / "Valuation" / "data" / "volkswagen_dep.csv"
 }
 
 st.title("VIN Decoder (ML Model)")
