@@ -1,0 +1,936 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+audi-a1,2011,1.4TC I4 TFSI 122,90000,120000,105000,"AED 90,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a1/2011/,2026-06-12T11:24:36Z
+audi-a1,2011,1.4TSC I4 TFSI 185,130000,140000,135000,"AED 130,000 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a1/2011/,2026-06-12T11:24:36Z
+audi-a1,2012,1.4TC I4 TFSI 122,90000,120000,105000,"AED 90,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a1/2012/,2026-06-12T11:24:38Z
+audi-a1,2012,1.4TSC I4 TFSI 185,130000,140000,135000,"AED 130,000 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a1/2012/,2026-06-12T11:24:38Z
+audi-a1,2013,1.4TC I4 TFSI 122,90000,120000,105000,"AED 90,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a1/2013/,2026-06-12T11:24:40Z
+audi-a1,2013,1.4TSC I4 TFSI 185,130000,140000,135000,"AED 130,000 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a1/2013/,2026-06-12T11:24:40Z
+audi-a1,2014,1.4TC I4 TFSI 122,90000,120000,105000,"AED 90,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a1/2014/,2026-06-12T11:24:42Z
+audi-a1,2014,1.4TSC I4 TFSI 185,130000,140000,135000,"AED 130,000 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a1/2014/,2026-06-12T11:24:42Z
+audi-a1,2015,1.4TC I4 TFSI 122,90000,120000,105000,"AED 90,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a1/2015/,2026-06-12T11:24:44Z
+audi-a1,2015,1.4TSC I4 TFSI 185,130000,140000,135000,"AED 130,000 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a1/2015/,2026-06-12T11:24:44Z
+audi-a1,2016,1.4TC I4 TFSI 122,90000,120000,105000,"AED 90,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a1/2016/,2026-06-12T11:24:46Z
+audi-a1,2016,1.4TSC I4 TFSI 185,130000,140000,135000,"AED 130,000 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a1/2016/,2026-06-12T11:24:46Z
+audi-a3,2004,1.8 I4 1.8 FSI,86000,101000,93500,"AED 86,000 - 101,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2004/,2026-06-12T11:25:41Z
+audi-a3,2004,2.0 I4 2.0 FSI,99000,121000,110000,"AED 99,000 - 121,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2004/,2026-06-12T11:25:41Z
+audi-a3,2004,3.2 V6 3.2 VR6 Quattro,133000,138600,135800,"AED 133,000 - 138,600",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2004/,2026-06-12T11:25:41Z
+audi-a3,2005,1.8 I4 1.8 FSI,86000,101000,93500,"AED 86,000 - 101,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2005/,2026-06-12T11:25:43Z
+audi-a3,2005,2.0 I4 2.0 FSI,99000,121000,110000,"AED 99,000 - 121,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2005/,2026-06-12T11:25:43Z
+audi-a3,2005,3.2 V6 3.2 VR6 Quattro,133000,138600,135800,"AED 133,000 - 138,600",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2005/,2026-06-12T11:25:43Z
+audi-a3,2006,1.8 I4 1.8 FSI,86000,101000,93500,"AED 86,000 - 101,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2006/,2026-06-12T11:25:45Z
+audi-a3,2006,2.0 I4 2.0 FSI,99000,121000,110000,"AED 99,000 - 121,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2006/,2026-06-12T11:25:45Z
+audi-a3,2006,3.2 V6 3.2 VR6 Quattro,133000,138600,135800,"AED 133,000 - 138,600",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2006/,2026-06-12T11:25:45Z
+audi-a3,2007,1.8 I4 1.8 FSI,86000,101000,93500,"AED 86,000 - 101,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2007/,2026-06-12T11:25:47Z
+audi-a3,2007,2.0 I4 2.0 FSI,99000,121000,110000,"AED 99,000 - 121,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2007/,2026-06-12T11:25:47Z
+audi-a3,2007,3.2 V6 3.2 VR6 Quattro,133000,138600,135800,"AED 133,000 - 138,600",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2007/,2026-06-12T11:25:47Z
+audi-a3,2008,1.8 I4 1.8 FSI,86000,101000,93500,"AED 86,000 - 101,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2008/,2026-06-12T11:25:49Z
+audi-a3,2008,2.0 I4 2.0 FSI,99000,121000,110000,"AED 99,000 - 121,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2008/,2026-06-12T11:25:49Z
+audi-a3,2008,3.2 V6 3.2 VR6 Quattro,133000,138600,135800,"AED 133,000 - 138,600",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2008/,2026-06-12T11:25:49Z
+audi-a3,2009,1.8TC I4 1.8 TFSI,108400,112000,110200,"AED 108,400 - 112,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2009/,2026-06-12T11:25:51Z
+audi-a3,2009,2.0TC I4 2.0 TFSI,120000,125000,122500,"AED 120,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2009/,2026-06-12T11:25:51Z
+audi-a3,2010,1.8TC I4 1.8 TFSI,108400,112000,110200,"AED 108,400 - 112,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2010/,2026-06-12T11:25:53Z
+audi-a3,2010,2.0TC I4 2.0 TFSI,120000,125000,122500,"AED 120,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2010/,2026-06-12T11:25:53Z
+audi-a3,2011,1.8TC I4 1.8 TFSI,108400,112000,110200,"AED 108,400 - 112,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2011/,2026-06-12T11:25:55Z
+audi-a3,2011,2.0TC I4 2.0 TFSI,120000,125000,122500,"AED 120,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2011/,2026-06-12T11:25:55Z
+audi-a3,2012,1.8TC I4 1.8 TFSI,108400,112000,110200,"AED 108,400 - 112,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2012/,2026-06-12T11:25:57Z
+audi-a3,2012,2.0TC I4 2.0 TFSI,120000,125000,122500,"AED 120,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3/2012/,2026-06-12T11:25:57Z
+audi-a3-sedan,2014,1.4TC I4 30 TFSI,92000,99500,95750,"AED 92,000 - 99,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2014/,2026-06-12T11:26:46Z
+audi-a3-sedan,2014,1.8TC I4 40 TFSI,109500,132500,121000,"AED 109,500 - 132,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2014/,2026-06-12T11:26:46Z
+audi-a3-sedan,2014,1.8TC I4 40 TFSI Quattro,119500,142500,131000,"AED 119,500 - 142,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2014/,2026-06-12T11:26:46Z
+audi-a3-sedan,2015,1.4TC I4 30 TFSI,92000,99500,95750,"AED 92,000 - 99,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2015/,2026-06-12T11:26:48Z
+audi-a3-sedan,2015,1.8TC I4 40 TFSI,109500,132500,121000,"AED 109,500 - 132,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2015/,2026-06-12T11:26:48Z
+audi-a3-sedan,2015,1.8TC I4 40 TFSI Quattro,119500,142500,131000,"AED 119,500 - 142,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2015/,2026-06-12T11:26:48Z
+audi-a3-sedan,2016,1.4TC I4 30 TFSI,92000,99500,95750,"AED 92,000 - 99,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2016/,2026-06-12T11:26:50Z
+audi-a3-sedan,2016,1.8TC I4 40 TFSI,109500,132500,121000,"AED 109,500 - 132,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2016/,2026-06-12T11:26:50Z
+audi-a3-sedan,2016,1.8TC I4 40 TFSI Quattro,119500,142500,131000,"AED 119,500 - 142,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2016/,2026-06-12T11:26:50Z
+audi-a3-sedan,2017,1.4TC I4 30 TFSI,92000,99500,95750,"AED 92,000 - 99,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2017/,2026-06-12T11:26:52Z
+audi-a3-sedan,2017,1.8TC I4 40 TFSI,109500,132500,121000,"AED 109,500 - 132,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2017/,2026-06-12T11:26:52Z
+audi-a3-sedan,2017,1.8TC I4 40 TFSI Quattro,119500,142500,131000,"AED 119,500 - 142,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2017/,2026-06-12T11:26:52Z
+audi-a3-sedan,2018,1.4TC I4 30 TFSI,92000,99500,95750,"AED 92,000 - 99,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2018/,2026-06-12T11:26:54Z
+audi-a3-sedan,2018,1.8TC I4 40 TFSI,109500,132500,121000,"AED 109,500 - 132,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2018/,2026-06-12T11:26:54Z
+audi-a3-sedan,2018,1.8TC I4 40 TFSI Quattro,119500,142500,131000,"AED 119,500 - 142,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2018/,2026-06-12T11:26:54Z
+audi-a3-sedan,2019,1.4TC I4 30 TFSI,92000,99500,95750,"AED 92,000 - 99,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2019/,2026-06-12T11:26:56Z
+audi-a3-sedan,2019,1.8TC I4 40 TFSI,109500,132500,121000,"AED 109,500 - 132,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2019/,2026-06-12T11:26:56Z
+audi-a3-sedan,2019,1.8TC I4 40 TFSI Quattro,119500,142500,131000,"AED 119,500 - 142,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2019/,2026-06-12T11:26:56Z
+audi-a3-sedan,2020,1.4TC I4 30 TFSI,92000,99500,95750,"AED 92,000 - 99,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2020/,2026-06-12T11:26:58Z
+audi-a3-sedan,2020,1.8TC I4 40 TFSI,109500,132500,121000,"AED 109,500 - 132,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2020/,2026-06-12T11:26:58Z
+audi-a3-sedan,2020,1.8TC I4 40 TFSI Quattro,119500,142500,131000,"AED 119,500 - 142,500",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2020/,2026-06-12T11:26:58Z
+audi-a3-sedan,2021,1.4TC I4 35 TFSI,115000,120000,117500,"AED 115,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2021/,2026-06-12T11:27:00Z
+audi-a3-sedan,2022,1.4TC I4 35 TFSI,115000,120000,117500,"AED 115,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2022/,2026-06-12T11:27:02Z
+audi-a3-sedan,2023,1.4TC I4 35 TFSI,115000,120000,117500,"AED 115,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2023/,2026-06-12T11:27:04Z
+audi-a3-sedan,2024,1.4TC I4 35 TFSI FWD,115000,120000,117500,"AED 115,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2024/,2026-06-12T11:27:06Z
+audi-a3-sedan,2025,1.4TC I4 35 TFSI FWD,149900,179900,164900,"AED 149,900 - 179,900",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2025/,2026-06-12T11:27:08Z
+audi-a3-sedan,2026,1.4TC I4 35 TFSI FWD,149900,179900,164900,"AED 149,900 - 179,900",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a3-sedan/2026/,2026-06-12T11:27:11Z
+audi-a4,2001,2.0 I4 2.0 FSI,100000,115000,107500,"AED 100,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2001/,2026-06-12T11:27:20Z
+audi-a4,2001,1.8TC I4 1.8 TFSI,125000,138000,131500,"AED 125,000 - 138,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2001/,2026-06-12T11:27:20Z
+audi-a4,2001,2.4 V6 2.4 FSI,148000,155000,151500,"AED 148,000 - 155,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2001/,2026-06-12T11:27:20Z
+audi-a4,2001,3.0 V6 3.0 FSI,198000,215000,206500,"AED 198,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2001/,2026-06-12T11:27:20Z
+audi-a4,2001,4.2 V8 4.2 FSI Quattro,233000,238000,235500,"AED 233,000 - 238,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2001/,2026-06-12T11:27:20Z
+audi-a4,2002,2.0 I4 2.0 FSI,100000,115000,107500,"AED 100,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2002/,2026-06-12T11:27:23Z
+audi-a4,2002,1.8TC I4 1.8 TFSI,125000,138000,131500,"AED 125,000 - 138,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2002/,2026-06-12T11:27:23Z
+audi-a4,2002,2.4 V6 2.4 FSI,148000,155000,151500,"AED 148,000 - 155,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2002/,2026-06-12T11:27:23Z
+audi-a4,2002,3.0 V6 3.0 FSI,198000,215000,206500,"AED 198,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2002/,2026-06-12T11:27:23Z
+audi-a4,2002,4.2 V8 4.2 FSI Quattro,233000,238000,235500,"AED 233,000 - 238,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2002/,2026-06-12T11:27:23Z
+audi-a4,2003,2.0 I4 2.0 FSI,100000,115000,107500,"AED 100,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2003/,2026-06-12T11:27:25Z
+audi-a4,2003,1.8TC I4 1.8 TFSI,125000,138000,131500,"AED 125,000 - 138,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2003/,2026-06-12T11:27:25Z
+audi-a4,2003,2.4 V6 2.4 FSI,148000,155000,151500,"AED 148,000 - 155,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2003/,2026-06-12T11:27:25Z
+audi-a4,2003,3.0 V6 3.0 FSI,198000,215000,206500,"AED 198,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2003/,2026-06-12T11:27:25Z
+audi-a4,2003,4.2 V8 4.2 FSI Quattro,233000,238000,235500,"AED 233,000 - 238,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2003/,2026-06-12T11:27:25Z
+audi-a4,2004,2.0 I4 2.0 FSI,100000,115000,107500,"AED 100,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2004/,2026-06-12T11:27:27Z
+audi-a4,2004,1.8TC I4 1.8 TFSI,125000,138000,131500,"AED 125,000 - 138,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2004/,2026-06-12T11:27:27Z
+audi-a4,2004,2.4 V6 2.4 FSI,148000,155000,151500,"AED 148,000 - 155,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2004/,2026-06-12T11:27:27Z
+audi-a4,2004,3.0 V6 3.0 FSI,198000,215000,206500,"AED 198,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2004/,2026-06-12T11:27:27Z
+audi-a4,2004,4.2 V8 4.2 FSI Quattro,233000,238000,235500,"AED 233,000 - 238,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2004/,2026-06-12T11:27:27Z
+audi-a4,2005,2.0 I4 2.0 FSI,109000,122000,115500,"AED 109,000 - 122,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2005/,2026-06-12T11:27:29Z
+audi-a4,2005,1.8TC I4 1.8 TFSI,135000,148000,141500,"AED 135,000 - 148,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2005/,2026-06-12T11:27:29Z
+audi-a4,2005,2.0TC I4 2.0 TFSI,155000,167000,161000,"AED 155,000 - 167,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2005/,2026-06-12T11:27:29Z
+audi-a4,2005,3.2 V6 3.2 FSI Quattro,209000,225000,217000,"AED 209,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2005/,2026-06-12T11:27:29Z
+audi-a4,2005,4.2 V8 4.2 FSI Quattro,285000,290000,287500,"AED 285,000 - 290,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2005/,2026-06-12T11:27:29Z
+audi-a4,2006,2.0 I4 2.0 FSI,109000,122000,115500,"AED 109,000 - 122,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2006/,2026-06-12T11:27:31Z
+audi-a4,2006,1.8TC I4 1.8 TFSI,135000,148000,141500,"AED 135,000 - 148,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2006/,2026-06-12T11:27:31Z
+audi-a4,2006,2.0TC I4 2.0 TFSI,155000,167000,161000,"AED 155,000 - 167,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2006/,2026-06-12T11:27:31Z
+audi-a4,2006,3.2 V6 3.2 FSI Quattro,209000,225000,217000,"AED 209,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2006/,2026-06-12T11:27:31Z
+audi-a4,2006,4.2 V8 4.2 FSI Quattro,285000,290000,287500,"AED 285,000 - 290,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2006/,2026-06-12T11:27:31Z
+audi-a4,2007,2.0 I4 2.0 FSI,109000,122000,115500,"AED 109,000 - 122,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2007/,2026-06-12T11:27:33Z
+audi-a4,2007,1.8TC I4 1.8 TFSI,135000,148000,141500,"AED 135,000 - 148,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2007/,2026-06-12T11:27:33Z
+audi-a4,2007,2.0TC I4 2.0 TFSI,155000,167000,161000,"AED 155,000 - 167,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2007/,2026-06-12T11:27:33Z
+audi-a4,2007,3.2 V6 3.2 FSI Quattro,209000,225000,217000,"AED 209,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2007/,2026-06-12T11:27:33Z
+audi-a4,2007,4.2 V8 4.2 FSI Quattro,285000,290000,287500,"AED 285,000 - 290,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2007/,2026-06-12T11:27:33Z
+audi-a4,2008,2.0 I4 2.0 FSI,109000,122000,115500,"AED 109,000 - 122,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2008/,2026-06-12T11:27:35Z
+audi-a4,2008,1.8TC I4 1.8 TFSI,135000,148000,141500,"AED 135,000 - 148,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2008/,2026-06-12T11:27:35Z
+audi-a4,2008,2.0TC I4 2.0 TFSI,155000,167000,161000,"AED 155,000 - 167,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2008/,2026-06-12T11:27:35Z
+audi-a4,2008,3.2 V6 3.2 FSI Quattro,209000,225000,217000,"AED 209,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2008/,2026-06-12T11:27:35Z
+audi-a4,2008,4.2 V8 4.2 FSI Quattro,285000,290000,287500,"AED 285,000 - 290,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2008/,2026-06-12T11:27:35Z
+audi-a4,2009,1.8TC I4 1.8 TFSI,134000,136000,135000,"AED 134,000 - 136,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2009/,2026-06-12T11:27:37Z
+audi-a4,2009,2.0TC I4 2.0 TFSI,139900,145000,142450,"AED 139,900 - 145,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2009/,2026-06-12T11:27:37Z
+audi-a4,2009,2.0TC I4 2.0 TFSI Quattro,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2009/,2026-06-12T11:27:37Z
+audi-a4,2009,3.2 V6 3.2 FSI Quattro,185000,200000,192500,"AED 185,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2009/,2026-06-12T11:27:37Z
+audi-a4,2010,1.8TC I4 1.8 TFSI,134000,136000,135000,"AED 134,000 - 136,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2010/,2026-06-12T11:27:39Z
+audi-a4,2010,2.0TC I4 2.0 TFSI,139900,145000,142450,"AED 139,900 - 145,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2010/,2026-06-12T11:27:39Z
+audi-a4,2010,2.0TC I4 2.0 TFSI Quattro,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2010/,2026-06-12T11:27:39Z
+audi-a4,2010,3.2 V6 3.2 FSI Quattro,185000,200000,192500,"AED 185,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2010/,2026-06-12T11:27:39Z
+audi-a4,2011,1.8TC I4 1.8 TFSI,134000,136000,135000,"AED 134,000 - 136,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2011/,2026-06-12T11:27:41Z
+audi-a4,2011,2.0TC I4 2.0 TFSI,139900,145000,142450,"AED 139,900 - 145,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2011/,2026-06-12T11:27:41Z
+audi-a4,2011,2.0TC I4 2.0 TFSI Quattro,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2011/,2026-06-12T11:27:41Z
+audi-a4,2011,3.2 V6 3.2 FSI Quattro,185000,200000,192500,"AED 185,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2011/,2026-06-12T11:27:41Z
+audi-a4,2012,1.8TC I4 1.8 TFSI,134000,136000,135000,"AED 134,000 - 136,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2012/,2026-06-12T11:27:43Z
+audi-a4,2012,2.0TC I4 2.0 TFSI,139900,145000,142450,"AED 139,900 - 145,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2012/,2026-06-12T11:27:43Z
+audi-a4,2012,2.0TC I4 2.0 TFSI Quattro,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2012/,2026-06-12T11:27:43Z
+audi-a4,2012,3.2 V6 3.2 FSI Quattro,185000,200000,192500,"AED 185,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2012/,2026-06-12T11:27:43Z
+audi-a4,2013,1.8TC I4 1.8 TFSI,140000,150000,145000,"AED 140,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2013/,2026-06-12T11:27:46Z
+audi-a4,2013,2.0TC I4 2.0 TFSI Quattro,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2013/,2026-06-12T11:27:46Z
+audi-a4,2013,3.0SC V6 3.0 TFSI Quattro,177000,205000,191000,"AED 177,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2013/,2026-06-12T11:27:46Z
+audi-a4,2014,1.8TC I4 1.8 TFSI,140000,150000,145000,"AED 140,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2014/,2026-06-12T11:27:49Z
+audi-a4,2014,2.0TC I4 2.0 TFSI Quattro,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2014/,2026-06-12T11:27:49Z
+audi-a4,2014,3.0SC V6 3.0 TFSI Quattro,177000,205000,191000,"AED 177,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2014/,2026-06-12T11:27:49Z
+audi-a4,2015,1.8TC I4 1.8 TFSI,140000,150000,145000,"AED 140,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2015/,2026-06-12T11:27:51Z
+audi-a4,2015,2.0TC I4 2.0 TFSI Quattro,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2015/,2026-06-12T11:27:51Z
+audi-a4,2015,3.0SC V6 3.0 TFSI Quattro,177000,205000,191000,"AED 177,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2015/,2026-06-12T11:27:51Z
+audi-a4,2016,1.4TC I4 35 TFSI,138000,155000,146500,"AED 138,000 - 155,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2016/,2026-06-12T11:27:53Z
+audi-a4,2016,2.0TC I4 40 TFSI,146000,160000,153000,"AED 146,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2016/,2026-06-12T11:27:53Z
+audi-a4,2016,2.0TC I4 45 TFSI Quattro,178000,185000,181500,"AED 178,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2016/,2026-06-12T11:27:53Z
+audi-a4,2017,1.4TC I4 35 TFSI,138000,155000,146500,"AED 138,000 - 155,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2017/,2026-06-12T11:27:55Z
+audi-a4,2017,2.0TC I4 40 TFSI,146000,160000,153000,"AED 146,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2017/,2026-06-12T11:27:55Z
+audi-a4,2017,2.0TC I4 45 TFSI Quattro,178000,185000,181500,"AED 178,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2017/,2026-06-12T11:27:55Z
+audi-a4,2018,1.4TC I4 35 TFSI,138000,155000,146500,"AED 138,000 - 155,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2018/,2026-06-12T11:27:58Z
+audi-a4,2018,2.0TC I4 40 TFSI,146000,160000,153000,"AED 146,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2018/,2026-06-12T11:27:58Z
+audi-a4,2018,2.0TC I4 45 TFSI Quattro,178000,185000,181500,"AED 178,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2018/,2026-06-12T11:27:58Z
+audi-a4,2019,1.4TC I4 35 TFSI,138000,155000,146500,"AED 138,000 - 155,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2019/,2026-06-12T11:27:59Z
+audi-a4,2019,2.0TC I4 40 TFSI,146000,160000,153000,"AED 146,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2019/,2026-06-12T11:27:59Z
+audi-a4,2019,2.0TC I4 45 TFSI Quattro,178000,185000,181500,"AED 178,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2019/,2026-06-12T11:27:59Z
+audi-a4,2020,2.0TC I4 35 TFSI,164325,165000,164662,"AED 164,325 - 165,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2020/,2026-06-12T11:28:01Z
+audi-a4,2020,2.0TC I4 35 TFSI S-line,168000,169000,168500,"AED 168,000 - 169,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2020/,2026-06-12T11:28:01Z
+audi-a4,2020,2.0TC I4 40 TFSI,174000,175000,174500,"AED 174,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2020/,2026-06-12T11:28:01Z
+audi-a4,2020,2.0TC I4 40 TFSI S-line,178000,179000,178500,"AED 178,000 - 179,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2020/,2026-06-12T11:28:01Z
+audi-a4,2021,2.0TC I4 35 TFSI,180000,185000,182500,"AED 180,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2021/,2026-06-12T11:28:04Z
+audi-a4,2021,2.0TC I4 35 TFSI S-line,194250,195000,194625,"AED 194,250 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2021/,2026-06-12T11:28:04Z
+audi-a4,2021,2.0TC I4 40 TFSI,200000,205000,202500,"AED 200,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2021/,2026-06-12T11:28:04Z
+audi-a4,2021,2.0TC I4 40 TFSI S-line,220000,230000,225000,"AED 220,000 - 230,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2021/,2026-06-12T11:28:04Z
+audi-a4,2022,2.0TC I4 35 TFSI,180000,185000,182500,"AED 180,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2022/,2026-06-12T11:28:06Z
+audi-a4,2022,2.0TC I4 35 TFSI S-line,194250,195000,194625,"AED 194,250 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2022/,2026-06-12T11:28:06Z
+audi-a4,2022,2.0TC I4 40 TFSI,200000,205000,202500,"AED 200,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2022/,2026-06-12T11:28:06Z
+audi-a4,2022,2.0TC I4 40 TFSI S-line,220000,230000,225000,"AED 220,000 - 230,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2022/,2026-06-12T11:28:06Z
+audi-a4,2023,2.0TC I4 35 TFSI,180000,185000,182500,"AED 180,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2023/,2026-06-12T11:28:08Z
+audi-a4,2023,2.0TC I4 35 TFSI S-line,194250,195000,194625,"AED 194,250 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2023/,2026-06-12T11:28:08Z
+audi-a4,2023,2.0TC I4 40 TFSI,200000,205000,202500,"AED 200,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2023/,2026-06-12T11:28:08Z
+audi-a4,2023,2.0TC I4 40 TFSI S-line,220000,230000,225000,"AED 220,000 - 230,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2023/,2026-06-12T11:28:08Z
+audi-a4,2024,2.0TC I4 35 TFSI FWD,180000,185000,182500,"AED 180,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2024/,2026-06-12T11:28:10Z
+audi-a4,2024,2.0TC I4 35 TFSI S-line FWD,194250,195000,194625,"AED 194,250 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2024/,2026-06-12T11:28:10Z
+audi-a4,2024,2.0TC I4 40 TFSI 4WD,200000,205000,202500,"AED 200,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2024/,2026-06-12T11:28:10Z
+audi-a4,2024,2.0TC I4 40 TFSI S-line 4WD,220000,230000,225000,"AED 220,000 - 230,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a4/2024/,2026-06-12T11:28:10Z
+audi-a5,2025,2.0TC I4 40 TFSI FWD,249900,275000,262450,"AED 249,900 - 275,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5/2025/,2026-06-12T11:28:53Z
+audi-a5,2026,2.0TC I4 40 TFSI FWD,249900,275000,262450,"AED 249,900 - 275,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5/2026/,2026-06-12T11:28:55Z
+audi-a5-cabriolet,2010,2.0TC I4 45 TFSI,238000,259000,248500,"AED 238,000 - 259,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2010/,2026-06-12T11:29:17Z
+audi-a5-cabriolet,2011,2.0TC I4 45 TFSI,238000,259000,248500,"AED 238,000 - 259,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2011/,2026-06-12T11:29:19Z
+audi-a5-cabriolet,2012,2.0TC I4 45 TFSI,238000,259000,248500,"AED 238,000 - 259,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2012/,2026-06-12T11:29:21Z
+audi-a5-cabriolet,2013,1.8TC I4 35 TFSI,195500,216000,205750,"AED 195,500 - 216,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2013/,2026-06-12T11:29:23Z
+audi-a5-cabriolet,2013,2.0TC I4 45 TFSI Quattro,214000,245000,229500,"AED 214,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2013/,2026-06-12T11:29:23Z
+audi-a5-cabriolet,2013,3.0SC V6 55 TFSI Quattro,239700,260000,249850,"AED 239,700 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2013/,2026-06-12T11:29:23Z
+audi-a5-cabriolet,2014,1.8TC I4 35 TFSI,195500,216000,205750,"AED 195,500 - 216,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2014/,2026-06-12T11:29:25Z
+audi-a5-cabriolet,2014,2.0TC I4 45 TFSI Quattro,214000,245000,229500,"AED 214,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2014/,2026-06-12T11:29:25Z
+audi-a5-cabriolet,2014,3.0SC V6 55 TFSI Quattro,239700,260000,249850,"AED 239,700 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2014/,2026-06-12T11:29:25Z
+audi-a5-cabriolet,2015,1.8TC I4 35 TFSI,195500,216000,205750,"AED 195,500 - 216,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2015/,2026-06-12T11:29:27Z
+audi-a5-cabriolet,2015,2.0TC I4 45 TFSI Quattro,214000,245000,229500,"AED 214,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2015/,2026-06-12T11:29:27Z
+audi-a5-cabriolet,2015,3.0SC V6 55 TFSI Quattro,239700,260000,249850,"AED 239,700 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2015/,2026-06-12T11:29:27Z
+audi-a5-cabriolet,2016,1.8TC I4 35 TFSI,195500,216000,205750,"AED 195,500 - 216,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2016/,2026-06-12T11:29:29Z
+audi-a5-cabriolet,2016,2.0TC I4 45 TFSI Quattro,214000,245000,229500,"AED 214,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2016/,2026-06-12T11:29:29Z
+audi-a5-cabriolet,2016,3.0SC V6 55 TFSI Quattro,239700,260000,249850,"AED 239,700 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2016/,2026-06-12T11:29:29Z
+audi-a5-cabriolet,2017,2.0TC I4 45 TFSI,196000,198000,197000,"AED 196,000 - 198,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2017/,2026-06-12T11:29:32Z
+audi-a5-cabriolet,2017,2.0TC I4 45 TFSI Quattro,218000,220000,219000,"AED 218,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2017/,2026-06-12T11:29:32Z
+audi-a5-cabriolet,2018,2.0TC I4 45 TFSI,196000,198000,197000,"AED 196,000 - 198,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2018/,2026-06-12T11:29:34Z
+audi-a5-cabriolet,2018,2.0TC I4 45 TFSI Quattro,218000,220000,219000,"AED 218,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2018/,2026-06-12T11:29:34Z
+audi-a5-cabriolet,2019,2.0TC I4 45 TFSI,196000,198000,197000,"AED 196,000 - 198,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2019/,2026-06-12T11:29:36Z
+audi-a5-cabriolet,2019,2.0TC I4 45 TFSI Quattro,218000,220000,219000,"AED 218,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2019/,2026-06-12T11:29:36Z
+audi-a5-cabriolet,2020,2.0TC I4 45 TFSI,196000,198000,197000,"AED 196,000 - 198,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2020/,2026-06-12T11:29:38Z
+audi-a5-cabriolet,2020,2.0TC I4 45 TFSI Quattro,218000,220000,219000,"AED 218,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2020/,2026-06-12T11:29:38Z
+audi-a5-cabriolet,2021,2.0TC I4 45 TFSI,196000,198000,197000,"AED 196,000 - 198,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2021/,2026-06-12T11:29:40Z
+audi-a5-cabriolet,2021,2.0TC I4 45 TFSI Quattro,218000,220000,219000,"AED 218,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2021/,2026-06-12T11:29:40Z
+audi-a5-cabriolet,2022,2.0TC I4 45 TFSI,196000,198000,197000,"AED 196,000 - 198,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2022/,2026-06-12T11:29:42Z
+audi-a5-cabriolet,2022,2.0TC I4 45 TFSI Quattro,218000,220000,219000,"AED 218,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2022/,2026-06-12T11:29:42Z
+audi-a5-cabriolet,2023,2.0TC I4 45 TFSI,196000,198000,197000,"AED 196,000 - 198,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2023/,2026-06-12T11:29:44Z
+audi-a5-cabriolet,2023,2.0TC I4 45 TFSI Quattro,218000,220000,219000,"AED 218,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2023/,2026-06-12T11:29:44Z
+audi-a5-cabriolet,2024,2.0TC I4 45 TFSI FWD,196000,198000,197000,"AED 196,000 - 198,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2024/,2026-06-12T11:29:46Z
+audi-a5-cabriolet,2024,2.0TC I4 45 TFSI Quattro 4WD,218000,220000,219000,"AED 218,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-cabriolet/2024/,2026-06-12T11:29:46Z
+audi-a5-coupe,2008,3.2 V6 3.2 FSI,210000,220000,215000,"AED 210,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2008/,2026-06-12T11:30:09Z
+audi-a5-coupe,2008,3.2 V6 3.2 FSI Quattro,290000,295000,292500,"AED 290,000 - 295,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2008/,2026-06-12T11:30:09Z
+audi-a5-coupe,2009,3.2 V6 3.2 FSI,210000,220000,215000,"AED 210,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2009/,2026-06-12T11:30:11Z
+audi-a5-coupe,2009,3.2 V6 3.2 FSI Quattro,290000,295000,292500,"AED 290,000 - 295,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2009/,2026-06-12T11:30:11Z
+audi-a5-coupe,2010,2.0TC I4 2.0 TFSI,195000,210000,202500,"AED 195,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2010/,2026-06-12T11:30:14Z
+audi-a5-coupe,2010,3.2 V6 3.2 FSI,235000,240000,237500,"AED 235,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2010/,2026-06-12T11:30:14Z
+audi-a5-coupe,2010,3.2 V6 3.2 FSI Quattro,242000,250000,246000,"AED 242,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2010/,2026-06-12T11:30:14Z
+audi-a5-coupe,2011,2.0TC I4 2.0 TFSI,195000,210000,202500,"AED 195,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2011/,2026-06-12T11:30:16Z
+audi-a5-coupe,2011,3.2 V6 3.2 FSI,235000,240000,237500,"AED 235,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2011/,2026-06-12T11:30:16Z
+audi-a5-coupe,2011,3.2 V6 3.2 FSI Quattro,242000,250000,246000,"AED 242,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2011/,2026-06-12T11:30:16Z
+audi-a5-coupe,2012,2.0TC I4 2.0 TFSI,195000,210000,202500,"AED 195,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2012/,2026-06-12T11:30:18Z
+audi-a5-coupe,2012,3.2 V6 3.2 FSI,235000,240000,237500,"AED 235,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2012/,2026-06-12T11:30:18Z
+audi-a5-coupe,2012,3.2 V6 3.2 FSI Quattro,242000,250000,246000,"AED 242,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2012/,2026-06-12T11:30:18Z
+audi-a5-coupe,2013,1.8TC I4 35 TFSI,175500,250000,212750,"AED 175,500 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2013/,2026-06-12T11:30:20Z
+audi-a5-coupe,2013,2.0TC I4 40 TFSI,196000,225000,210500,"AED 196,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2013/,2026-06-12T11:30:20Z
+audi-a5-coupe,2013,3.0SC V6 55 TFSI,224700,255000,239850,"AED 224,700 - 255,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2013/,2026-06-12T11:30:20Z
+audi-a5-coupe,2014,1.8TC I4 35 TFSI,175500,250000,212750,"AED 175,500 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2014/,2026-06-12T11:30:22Z
+audi-a5-coupe,2014,2.0TC I4 40 TFSI,196000,225000,210500,"AED 196,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2014/,2026-06-12T11:30:22Z
+audi-a5-coupe,2014,3.0SC V6 55 TFSI,224700,255000,239850,"AED 224,700 - 255,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2014/,2026-06-12T11:30:22Z
+audi-a5-coupe,2015,1.8TC I4 35 TFSI,175500,250000,212750,"AED 175,500 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2015/,2026-06-12T11:30:24Z
+audi-a5-coupe,2015,2.0TC I4 40 TFSI,196000,225000,210500,"AED 196,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2015/,2026-06-12T11:30:24Z
+audi-a5-coupe,2015,3.0SC V6 55 TFSI,224700,255000,239850,"AED 224,700 - 255,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2015/,2026-06-12T11:30:24Z
+audi-a5-coupe,2016,1.8TC I4 35 TFSI,175500,250000,212750,"AED 175,500 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2016/,2026-06-12T11:30:26Z
+audi-a5-coupe,2016,2.0TC I4 40 TFSI,196000,225000,210500,"AED 196,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2016/,2026-06-12T11:30:26Z
+audi-a5-coupe,2016,3.0SC V6 55 TFSI,224700,255000,239850,"AED 224,700 - 255,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2016/,2026-06-12T11:30:26Z
+audi-a5-coupe,2017,2.0TC I4 40 TFSI,188000,205000,196500,"AED 188,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2017/,2026-06-12T11:30:28Z
+audi-a5-coupe,2017,2.0TC I4 45 TFSI S-Line,250000,255000,252500,"AED 250,000 - 255,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2017/,2026-06-12T11:30:28Z
+audi-a5-coupe,2018,2.0TC I4 40 TFSI,188000,205000,196500,"AED 188,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2018/,2026-06-12T11:30:30Z
+audi-a5-coupe,2018,2.0TC I4 45 TFSI S-Line,250000,255000,252500,"AED 250,000 - 255,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2018/,2026-06-12T11:30:30Z
+audi-a5-coupe,2019,2.0TC I4 40 TFSI,188000,205000,196500,"AED 188,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2019/,2026-06-12T11:30:33Z
+audi-a5-coupe,2019,2.0TC I4 45 TFSI S-Line,250000,255000,252500,"AED 250,000 - 255,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2019/,2026-06-12T11:30:33Z
+audi-a5-coupe,2020,2.0TC I4 40 TFSI,188000,205000,196500,"AED 188,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2020/,2026-06-12T11:30:35Z
+audi-a5-coupe,2020,2.0TC I4 45 TFSI S-Line,250000,255000,252500,"AED 250,000 - 255,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2020/,2026-06-12T11:30:35Z
+audi-a5-coupe,2021,2.0TC I4 40 TFSI,190000,200000,195000,"AED 190,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2021/,2026-06-12T11:30:37Z
+audi-a5-coupe,2021,2.0TC I4 40 TFSI S-line,236000,237000,236500,"AED 236,000 - 237,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2021/,2026-06-12T11:30:37Z
+audi-a5-coupe,2021,2.0TC I4 45 TFSI S-Line,260000,261000,260500,"AED 260,000 - 261,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2021/,2026-06-12T11:30:37Z
+audi-a5-coupe,2022,2.0TC I4 40 TFSI,190000,200000,195000,"AED 190,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2022/,2026-06-12T11:30:40Z
+audi-a5-coupe,2022,2.0TC I4 40 TFSI S-line,236000,237000,236500,"AED 236,000 - 237,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2022/,2026-06-12T11:30:40Z
+audi-a5-coupe,2022,2.0TC I4 45 TFSI S-Line,260000,261000,260500,"AED 260,000 - 261,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2022/,2026-06-12T11:30:40Z
+audi-a5-coupe,2023,2.0TC I4 40 TFSI,190000,200000,195000,"AED 190,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2023/,2026-06-12T11:30:42Z
+audi-a5-coupe,2023,2.0TC I4 40 TFSI S-line,236000,237000,236500,"AED 236,000 - 237,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2023/,2026-06-12T11:30:42Z
+audi-a5-coupe,2023,2.0TC I4 45 TFSI S-Line,260000,261000,260500,"AED 260,000 - 261,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2023/,2026-06-12T11:30:42Z
+audi-a5-coupe,2024,2.0TC I4 40 TFSI FWD,190000,200000,195000,"AED 190,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2024/,2026-06-12T11:30:44Z
+audi-a5-coupe,2024,2.0TC I4 40 TFSI S-Line FWD,236000,237000,236500,"AED 236,000 - 237,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2024/,2026-06-12T11:30:44Z
+audi-a5-coupe,2024,2.0TC I4 45 TFSI S-Line 4WD,260000,261000,260500,"AED 260,000 - 261,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-coupe/2024/,2026-06-12T11:30:44Z
+audi-a5-sportback,2010,2.0TC I4 45 TFSI Quattro,180000,250000,215000,"AED 180,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2010/,2026-06-12T11:31:10Z
+audi-a5-sportback,2011,2.0TC I4 45 TFSI Quattro,180000,250000,215000,"AED 180,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2011/,2026-06-12T11:31:12Z
+audi-a5-sportback,2012,2.0TC I4 45 TFSI Quattro,180000,250000,215000,"AED 180,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2012/,2026-06-12T11:31:14Z
+audi-a5-sportback,2013,1.8TC I4 35 TFSI,165400,195000,180200,"AED 165,400 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2013/,2026-06-12T11:31:16Z
+audi-a5-sportback,2013,2.0TC I4 45 TFSI Quattro,184000,215000,199500,"AED 184,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2013/,2026-06-12T11:31:16Z
+audi-a5-sportback,2013,3.0SC V6 55 TFSI Quattro,209600,240000,224800,"AED 209,600 - 240,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2013/,2026-06-12T11:31:16Z
+audi-a5-sportback,2014,1.8TC I4 35 TFSI,165400,195000,180200,"AED 165,400 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2014/,2026-06-12T11:31:18Z
+audi-a5-sportback,2014,2.0TC I4 45 TFSI Quattro,184000,215000,199500,"AED 184,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2014/,2026-06-12T11:31:18Z
+audi-a5-sportback,2014,3.0SC V6 55 TFSI Quattro,209600,240000,224800,"AED 209,600 - 240,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2014/,2026-06-12T11:31:18Z
+audi-a5-sportback,2015,1.8TC I4 35 TFSI,165400,195000,180200,"AED 165,400 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2015/,2026-06-12T11:31:21Z
+audi-a5-sportback,2015,2.0TC I4 45 TFSI Quattro,184000,215000,199500,"AED 184,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2015/,2026-06-12T11:31:21Z
+audi-a5-sportback,2015,3.0SC V6 55 TFSI Quattro,209600,240000,224800,"AED 209,600 - 240,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2015/,2026-06-12T11:31:21Z
+audi-a5-sportback,2016,1.8TC I4 35 TFSI,165400,195000,180200,"AED 165,400 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2016/,2026-06-12T11:31:23Z
+audi-a5-sportback,2016,2.0TC I4 45 TFSI Quattro,184000,215000,199500,"AED 184,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2016/,2026-06-12T11:31:23Z
+audi-a5-sportback,2016,3.0SC V6 55 TFSI Quattro,209600,240000,224800,"AED 209,600 - 240,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2016/,2026-06-12T11:31:23Z
+audi-a5-sportback,2017,2.0TC I4 40 TFSI,187600,200000,193800,"AED 187,600 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2017/,2026-06-12T11:31:26Z
+audi-a5-sportback,2017,2.0TC I4 45 TFSI S-Line Quattro,254000,255000,254500,"AED 254,000 - 255,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2017/,2026-06-12T11:31:26Z
+audi-a5-sportback,2018,2.0TC I4 40 TFSI,187600,200000,193800,"AED 187,600 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2018/,2026-06-12T11:31:29Z
+audi-a5-sportback,2018,2.0TC I4 45 TFSI S-Line Quattro,254000,255000,254500,"AED 254,000 - 255,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2018/,2026-06-12T11:31:29Z
+audi-a5-sportback,2019,2.0TC I4 40 TFSI,187600,200000,193800,"AED 187,600 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2019/,2026-06-12T11:31:31Z
+audi-a5-sportback,2019,2.0TC I4 45 TFSI S-Line Quattro,254000,255000,254500,"AED 254,000 - 255,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2019/,2026-06-12T11:31:31Z
+audi-a5-sportback,2020,2.0TC I4 40 TFSI,187600,200000,193800,"AED 187,600 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2020/,2026-06-12T11:31:33Z
+audi-a5-sportback,2020,2.0TC I4 40 TFSI S-line,226000,227000,226500,"AED 226,000 - 227,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2020/,2026-06-12T11:31:33Z
+audi-a5-sportback,2020,2.0TC I4 45 TFSI S-Line,254000,255000,254500,"AED 254,000 - 255,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2020/,2026-06-12T11:31:33Z
+audi-a5-sportback,2021,2.0TC I4 40 TFSI,190000,200000,195000,"AED 190,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2021/,2026-06-12T11:31:35Z
+audi-a5-sportback,2021,2.0TC I4 40 TFSI S-line,236000,237000,236500,"AED 236,000 - 237,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2021/,2026-06-12T11:31:35Z
+audi-a5-sportback,2021,2.0TC I4 45 TFSI S-Line,260000,261000,260500,"AED 260,000 - 261,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2021/,2026-06-12T11:31:35Z
+audi-a5-sportback,2022,2.0TC I4 40 TFSI,190000,200000,195000,"AED 190,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2022/,2026-06-12T11:31:38Z
+audi-a5-sportback,2022,2.0TC I4 40 TFSI S-line,236000,237000,236500,"AED 236,000 - 237,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2022/,2026-06-12T11:31:38Z
+audi-a5-sportback,2022,2.0TC I4 45 TFSI S-Line,260000,261000,260500,"AED 260,000 - 261,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2022/,2026-06-12T11:31:38Z
+audi-a5-sportback,2023,2.0TC I4 40 TFSI,190000,200000,195000,"AED 190,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2023/,2026-06-12T11:31:40Z
+audi-a5-sportback,2023,2.0TC I4 40 TFSI S-line,236000,237000,236500,"AED 236,000 - 237,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2023/,2026-06-12T11:31:40Z
+audi-a5-sportback,2023,2.0TC I4 45 TFSI S-Line,260000,261000,260500,"AED 260,000 - 261,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a5-sportback/2023/,2026-06-12T11:31:40Z
+audi-a6,2005,2.4 V6 2.4 FSI,153000,175000,164000,"AED 153,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2005/,2026-06-12T11:31:58Z
+audi-a6,2005,2.0TC I4 2.0 TFSI,172000,181000,176500,"AED 172,000 - 181,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2005/,2026-06-12T11:31:58Z
+audi-a6,2005,3.2 V6 3.2 FSI,178000,195000,186500,"AED 178,000 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2005/,2026-06-12T11:31:58Z
+audi-a6,2005,3.2 V6 3.2 FSI Quattro,198000,203000,200500,"AED 198,000 - 203,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2005/,2026-06-12T11:31:58Z
+audi-a6,2005,4.2 V8 4.2 FSI Quattro,275000,280000,277500,"AED 275,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2005/,2026-06-12T11:31:58Z
+audi-a6,2005,5.2TC V10 5.2 TFSI S6,335000,340000,337500,"AED 335,000 - 340,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2005/,2026-06-12T11:31:58Z
+audi-a6,2006,2.4 V6 2.4 FSI,153000,175000,164000,"AED 153,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2006/,2026-06-12T11:32:00Z
+audi-a6,2006,2.0TC I4 2.0 TFSI,172000,181000,176500,"AED 172,000 - 181,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2006/,2026-06-12T11:32:00Z
+audi-a6,2006,3.2 V6 3.2 FSI,178000,195000,186500,"AED 178,000 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2006/,2026-06-12T11:32:00Z
+audi-a6,2006,3.2 V6 3.2 FSI Quattro,198000,203000,200500,"AED 198,000 - 203,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2006/,2026-06-12T11:32:00Z
+audi-a6,2006,4.2 V8 4.2 FSI Quattro,275000,280000,277500,"AED 275,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2006/,2026-06-12T11:32:00Z
+audi-a6,2006,5.2TC V10 5.2 TFSI S6,335000,340000,337500,"AED 335,000 - 340,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2006/,2026-06-12T11:32:00Z
+audi-a6,2007,2.4 V6 2.4 FSI,153000,175000,164000,"AED 153,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2007/,2026-06-12T11:32:02Z
+audi-a6,2007,2.0TC I4 2.0 TFSI,172000,181000,176500,"AED 172,000 - 181,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2007/,2026-06-12T11:32:02Z
+audi-a6,2007,3.2 V6 3.2 FSI,178000,195000,186500,"AED 178,000 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2007/,2026-06-12T11:32:02Z
+audi-a6,2007,3.2 V6 3.2 FSI Quattro,198000,203000,200500,"AED 198,000 - 203,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2007/,2026-06-12T11:32:02Z
+audi-a6,2007,4.2 V8 4.2 FSI Quattro,275000,280000,277500,"AED 275,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2007/,2026-06-12T11:32:02Z
+audi-a6,2007,5.2TC V10 5.2 TFSI S6,335000,340000,337500,"AED 335,000 - 340,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2007/,2026-06-12T11:32:02Z
+audi-a6,2008,2.4 V6 2.4 FSI,153000,175000,164000,"AED 153,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2008/,2026-06-12T11:32:04Z
+audi-a6,2008,2.0TC I4 2.0 TFSI,172000,181000,176500,"AED 172,000 - 181,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2008/,2026-06-12T11:32:04Z
+audi-a6,2008,3.2 V6 3.2 FSI,178000,195000,186500,"AED 178,000 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2008/,2026-06-12T11:32:04Z
+audi-a6,2008,3.2 V6 3.2 FSI Quattro,198000,203000,200500,"AED 198,000 - 203,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2008/,2026-06-12T11:32:04Z
+audi-a6,2008,4.2 V8 4.2 FSI Quattro,275000,280000,277500,"AED 275,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2008/,2026-06-12T11:32:04Z
+audi-a6,2008,5.2TC V10 5.2 TFSI S6,335000,340000,337500,"AED 335,000 - 340,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2008/,2026-06-12T11:32:04Z
+audi-a6,2009,2.0TC I4 2.0 TFSI,159000,185000,172000,"AED 159,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2009/,2026-06-12T11:32:07Z
+audi-a6,2009,2.8 V6 2.8 FSI,199000,215000,207000,"AED 199,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2009/,2026-06-12T11:32:07Z
+audi-a6,2009,3.0SC V6 3.0 TFSI,305000,335000,320000,"AED 305,000 - 335,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2009/,2026-06-12T11:32:07Z
+audi-a6,2009,5.0TC V10 5.0 TFSI S6,470000,480000,475000,"AED 470,000 - 480,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2009/,2026-06-12T11:32:07Z
+audi-a6,2010,2.0TC I4 2.0 TFSI,159000,185000,172000,"AED 159,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2010/,2026-06-12T11:32:09Z
+audi-a6,2010,2.8 V6 2.8 FSI,199000,215000,207000,"AED 199,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2010/,2026-06-12T11:32:09Z
+audi-a6,2010,3.0SC V6 3.0 TFSI,305000,335000,320000,"AED 305,000 - 335,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2010/,2026-06-12T11:32:09Z
+audi-a6,2010,5.0TC V10 5.0 TFSI S6,470000,480000,475000,"AED 470,000 - 480,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2010/,2026-06-12T11:32:09Z
+audi-a6,2011,2.0TC I4 2.0 TFSI,159000,185000,172000,"AED 159,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2011/,2026-06-12T11:32:11Z
+audi-a6,2011,2.8 V6 2.8 FSI,199000,215000,207000,"AED 199,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2011/,2026-06-12T11:32:11Z
+audi-a6,2011,3.0SC V6 3.0 TFSI,305000,335000,320000,"AED 305,000 - 335,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2011/,2026-06-12T11:32:11Z
+audi-a6,2011,5.0TC V10 5.0 TFSI S6,470000,480000,475000,"AED 470,000 - 480,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2011/,2026-06-12T11:32:11Z
+audi-a6,2012,2.0TC I4 40 TFSI,163900,220000,191950,"AED 163,900 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2012/,2026-06-12T11:32:13Z
+audi-a6,2012,2.8 V6 35 FSI,192000,240000,216000,"AED 192,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2012/,2026-06-12T11:32:13Z
+audi-a6,2012,3.0SC V6 50 TFSI,236000,300000,268000,"AED 236,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2012/,2026-06-12T11:32:13Z
+audi-a6,2012,4.0TC V8 60 TFSI,299000,350000,324500,"AED 299,000 - 350,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2012/,2026-06-12T11:32:13Z
+audi-a6,2013,2.0TC I4 40 TFSI,163900,220000,191950,"AED 163,900 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2013/,2026-06-12T11:32:15Z
+audi-a6,2013,2.8 V6 35 FSI,192000,240000,216000,"AED 192,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2013/,2026-06-12T11:32:15Z
+audi-a6,2013,3.0SC V6 50 TFSI,236000,300000,268000,"AED 236,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2013/,2026-06-12T11:32:15Z
+audi-a6,2013,4.0TC V8 60 TFSI,299000,350000,324500,"AED 299,000 - 350,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2013/,2026-06-12T11:32:15Z
+audi-a6,2014,2.0TC I4 40 TFSI,163900,220000,191950,"AED 163,900 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2014/,2026-06-12T11:32:17Z
+audi-a6,2014,2.8 V6 35 FSI,192000,240000,216000,"AED 192,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2014/,2026-06-12T11:32:17Z
+audi-a6,2014,3.0SC V6 50 TFSI,236000,300000,268000,"AED 236,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2014/,2026-06-12T11:32:17Z
+audi-a6,2014,4.0TC V8 60 TFSI,299000,350000,324500,"AED 299,000 - 350,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2014/,2026-06-12T11:32:17Z
+audi-a6,2015,2.0TC I4 40 TFSI,163900,220000,191950,"AED 163,900 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2015/,2026-06-12T11:32:19Z
+audi-a6,2015,2.8 V6 35 FSI,192000,240000,216000,"AED 192,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2015/,2026-06-12T11:32:19Z
+audi-a6,2015,3.0SC V6 50 TFSI,236000,300000,268000,"AED 236,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2015/,2026-06-12T11:32:19Z
+audi-a6,2015,4.0TC V8 60 TFSI,299000,350000,324500,"AED 299,000 - 350,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2015/,2026-06-12T11:32:19Z
+audi-a6,2016,1.8TC I4 35 TFSI,179500,220000,199750,"AED 179,500 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2016/,2026-06-12T11:32:21Z
+audi-a6,2016,2.0TC I4 40 TFSI,201500,250000,225750,"AED 201,500 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2016/,2026-06-12T11:32:21Z
+audi-a6,2016,2.8 V6 35 FSI,209500,230000,219750,"AED 209,500 - 230,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2016/,2026-06-12T11:32:21Z
+audi-a6,2016,3.0SC V6 55 TFSI,247000,300000,273500,"AED 247,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2016/,2026-06-12T11:32:21Z
+audi-a6,2017,1.8TC I4 35 TFSI,179500,220000,199750,"AED 179,500 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2017/,2026-06-12T11:32:23Z
+audi-a6,2017,2.0TC I4 40 TFSI,201500,250000,225750,"AED 201,500 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2017/,2026-06-12T11:32:23Z
+audi-a6,2017,2.8 V6 35 FSI,209500,230000,219750,"AED 209,500 - 230,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2017/,2026-06-12T11:32:23Z
+audi-a6,2017,3.0SC V6 55 TFSI,247000,300000,273500,"AED 247,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2017/,2026-06-12T11:32:23Z
+audi-a6,2018,1.8TC I4 35 TFSI,179500,220000,199750,"AED 179,500 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2018/,2026-06-12T11:32:25Z
+audi-a6,2018,2.0TC I4 40 TFSI,201500,250000,225750,"AED 201,500 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2018/,2026-06-12T11:32:25Z
+audi-a6,2018,2.8 V6 35 FSI,209500,230000,219750,"AED 209,500 - 230,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2018/,2026-06-12T11:32:25Z
+audi-a6,2018,3.0SC V6 55 TFSI,247000,300000,273500,"AED 247,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2018/,2026-06-12T11:32:25Z
+audi-a6,2019,3.0SC V6 55TFSI,258000,280000,269000,"AED 258,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2019/,2026-06-12T11:32:27Z
+audi-a6,2020,2.0TC+H I4 40 TFSI,190000,191000,190500,"AED 190,000 - 191,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2020/,2026-06-12T11:32:30Z
+audi-a6,2020,2.0TC+H I4 45 TFSI,199500,200000,199750,"AED 199,500 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2020/,2026-06-12T11:32:30Z
+audi-a6,2020,2.0TC+H I4 45 TFSI Quattro,234045,255000,244522,"AED 234,045 - 255,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2020/,2026-06-12T11:32:30Z
+audi-a6,2020,3.0SC+H V6 55 TFSI Quattro,275000,295000,285000,"AED 275,000 - 295,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2020/,2026-06-12T11:32:30Z
+audi-a6,2021,2.0TC+H I4 40 TFSI,190000,191000,190500,"AED 190,000 - 191,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2021/,2026-06-12T11:32:32Z
+audi-a6,2021,2.0TC+H I4 45 TFSI,199500,200000,199750,"AED 199,500 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2021/,2026-06-12T11:32:32Z
+audi-a6,2021,2.0TC+H I4 40 TFSI S-Line,210000,211000,210500,"AED 210,000 - 211,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2021/,2026-06-12T11:32:32Z
+audi-a6,2021,2.0TC+H I4 45 TFSI Quattro,234045,255000,244522,"AED 234,045 - 255,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2021/,2026-06-12T11:32:32Z
+audi-a6,2022,2.0TC+H I4 40 TFSI,190000,191000,190500,"AED 190,000 - 191,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2022/,2026-06-12T11:32:34Z
+audi-a6,2022,2.0TC+H I4 45 TFSI,199500,200000,199750,"AED 199,500 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2022/,2026-06-12T11:32:34Z
+audi-a6,2022,2.0TC+H I4 45 TFSI Quattro,234045,255000,244522,"AED 234,045 - 255,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2022/,2026-06-12T11:32:34Z
+audi-a6,2023,2.0TC+H I4 40 TFSI,190000,191000,190500,"AED 190,000 - 191,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2023/,2026-06-12T11:32:36Z
+audi-a6,2023,2.0TC+H I4 45 TFSI,199500,200000,199750,"AED 199,500 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2023/,2026-06-12T11:32:36Z
+audi-a6,2023,2.0TC+H I4 45 TFSI Quattro,234045,255000,244522,"AED 234,045 - 255,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2023/,2026-06-12T11:32:36Z
+audi-a6,2024,2.0TC+H I4 40 TFSI FWD,190000,191000,190500,"AED 190,000 - 191,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2024/,2026-06-12T11:32:38Z
+audi-a6,2024,2.0TC+H I4 45 TFSI FWD,199500,200000,199750,"AED 199,500 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2024/,2026-06-12T11:32:38Z
+audi-a6,2024,2.0TC+H I4 45 TFSI Quattro 4WD,234045,255000,244522,"AED 234,045 - 255,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6/2024/,2026-06-12T11:32:38Z
+audi-a6-sportback-e-tron,2025,75.8 kWh base 4WD,309900,310000,309950,"AED 309,900 - 310,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a6-sportback-e-tron/2025/,2026-06-12T11:33:22Z
+audi-a7,2011,2.8 V6 35 FSI,238000,260000,249000,"AED 238,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2011/,2026-06-12T11:33:47Z
+audi-a7,2011,3.0SC V6 50 TFSI,265000,400000,332500,"AED 265,000 - 400,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2011/,2026-06-12T11:33:47Z
+audi-a7,2011,4.0TC V8 60TFSI,335000,360000,347500,"AED 335,000 - 360,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2011/,2026-06-12T11:33:47Z
+audi-a7,2012,2.8 V6 35 FSI,238000,260000,249000,"AED 238,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2012/,2026-06-12T11:33:49Z
+audi-a7,2012,3.0SC V6 50 TFSI,265000,400000,332500,"AED 265,000 - 400,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2012/,2026-06-12T11:33:49Z
+audi-a7,2012,4.0TC V8 60TFSI,335000,360000,347500,"AED 335,000 - 360,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2012/,2026-06-12T11:33:49Z
+audi-a7,2013,2.8 V6 35 FSI,238000,260000,249000,"AED 238,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2013/,2026-06-12T11:33:51Z
+audi-a7,2013,3.0SC V6 50 TFSI,265000,400000,332500,"AED 265,000 - 400,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2013/,2026-06-12T11:33:51Z
+audi-a7,2013,4.0TC V8 60TFSI,335000,360000,347500,"AED 335,000 - 360,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2013/,2026-06-12T11:33:51Z
+audi-a7,2014,2.8 V6 35 FSI,238000,260000,249000,"AED 238,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2014/,2026-06-12T11:33:53Z
+audi-a7,2014,3.0SC V6 50 TFSI,265000,400000,332500,"AED 265,000 - 400,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2014/,2026-06-12T11:33:53Z
+audi-a7,2014,4.0TC V8 60TFSI,335000,360000,347500,"AED 335,000 - 360,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2014/,2026-06-12T11:33:53Z
+audi-a7,2015,2.8 V6 35 FSI,238000,260000,249000,"AED 238,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2015/,2026-06-12T11:33:57Z
+audi-a7,2015,3.0SC V6 50 TFSI,265000,400000,332500,"AED 265,000 - 400,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2015/,2026-06-12T11:33:57Z
+audi-a7,2016,2.0TC I4 40 TFSI,244300,280000,262150,"AED 244,300 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2016/,2026-06-12T11:33:59Z
+audi-a7,2016,2.8 V6 35 FSI,252100,280000,266050,"AED 252,100 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2016/,2026-06-12T11:33:59Z
+audi-a7,2016,3.0SC V6 50 TFSI,281400,320000,300700,"AED 281,400 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2016/,2026-06-12T11:33:59Z
+audi-a7,2017,2.0TC I4 40 TFSI,244300,280000,262150,"AED 244,300 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2017/,2026-06-12T11:34:01Z
+audi-a7,2017,2.8 V6 35 FSI,252100,280000,266050,"AED 252,100 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2017/,2026-06-12T11:34:01Z
+audi-a7,2017,3.0SC V6 50 TFSI,281400,320000,300700,"AED 281,400 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2017/,2026-06-12T11:34:01Z
+audi-a7,2018,2.0TC I4 40 TFSI,244300,280000,262150,"AED 244,300 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2018/,2026-06-12T11:34:03Z
+audi-a7,2018,2.8 V6 35 FSI,252100,280000,266050,"AED 252,100 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2018/,2026-06-12T11:34:03Z
+audi-a7,2018,3.0SC V6 50 TFSI,281400,320000,300700,"AED 281,400 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2018/,2026-06-12T11:34:03Z
+audi-a7,2019,3.0TC V6 55 TFSI Quattro,390600,391000,390800,"AED 390,600 - 391,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2019/,2026-06-12T11:34:06Z
+audi-a7,2020,3.0TC V6 55 TFSI Quattro,390600,391000,390800,"AED 390,600 - 391,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2020/,2026-06-12T11:34:08Z
+audi-a7,2021,3.0TC V6 55 TFSI Quattro,390600,391000,390800,"AED 390,600 - 391,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2021/,2026-06-12T11:34:10Z
+audi-a7,2022,3.0TC V6 55 TFSI Quattro,390600,391000,390800,"AED 390,600 - 391,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2022/,2026-06-12T11:34:12Z
+audi-a7,2023,3.0TC V6 55 TFSI Quattro,390600,391000,390800,"AED 390,600 - 391,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2023/,2026-06-12T11:34:14Z
+audi-a7,2024,3.0TC V6 55 TFSI Quattro 4WD,390600,391000,390800,"AED 390,600 - 391,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2024/,2026-06-12T11:34:16Z
+audi-a7,2025,3.0TC V6 55 TFSI Quattro 4WD,390600,391000,390800,"AED 390,600 - 391,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a7/2025/,2026-06-12T11:34:18Z
+audi-a8,2004,2.8 V6 2.8 FSI,240000,268000,254000,"AED 240,000 - 268,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2004/,2026-06-12T11:34:34Z
+audi-a8,2004,3.2 V6 3.2 FSI,255000,281000,268000,"AED 255,000 - 281,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2004/,2026-06-12T11:34:34Z
+audi-a8,2004,4.2 V8 4.2 FSI,295000,318000,306500,"AED 295,000 - 318,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2004/,2026-06-12T11:34:34Z
+audi-a8,2004,5.2 V10 S8 5.2 FSI,435000,438000,436500,"AED 435,000 - 438,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2004/,2026-06-12T11:34:34Z
+audi-a8,2005,2.8 V6 2.8 FSI,240000,268000,254000,"AED 240,000 - 268,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2005/,2026-06-12T11:34:36Z
+audi-a8,2005,3.2 V6 3.2 FSI,255000,281000,268000,"AED 255,000 - 281,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2005/,2026-06-12T11:34:36Z
+audi-a8,2005,4.2 V8 4.2 FSI,295000,318000,306500,"AED 295,000 - 318,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2005/,2026-06-12T11:34:36Z
+audi-a8,2005,5.2 V10 S8 5.2 FSI,435000,438000,436500,"AED 435,000 - 438,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2005/,2026-06-12T11:34:36Z
+audi-a8,2006,2.8 V6 2.8 FSI,240000,268000,254000,"AED 240,000 - 268,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2006/,2026-06-12T11:34:38Z
+audi-a8,2006,3.2 V6 3.2 FSI,255000,281000,268000,"AED 255,000 - 281,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2006/,2026-06-12T11:34:38Z
+audi-a8,2006,4.2 V8 4.2 FSI,295000,318000,306500,"AED 295,000 - 318,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2006/,2026-06-12T11:34:38Z
+audi-a8,2006,5.2 V10 S8 5.2 FSI,435000,438000,436500,"AED 435,000 - 438,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2006/,2026-06-12T11:34:38Z
+audi-a8,2007,2.8 V6 2.8 FSI,240000,268000,254000,"AED 240,000 - 268,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2007/,2026-06-12T11:34:40Z
+audi-a8,2007,3.2 V6 3.2 FSI,255000,281000,268000,"AED 255,000 - 281,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2007/,2026-06-12T11:34:40Z
+audi-a8,2007,4.2 V8 4.2 FSI,295000,318000,306500,"AED 295,000 - 318,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2007/,2026-06-12T11:34:40Z
+audi-a8,2007,5.2 V10 S8 5.2 FSI,435000,438000,436500,"AED 435,000 - 438,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2007/,2026-06-12T11:34:40Z
+audi-a8,2008,2.8 V6 2.8 FSI,240000,268000,254000,"AED 240,000 - 268,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2008/,2026-06-12T11:34:42Z
+audi-a8,2008,3.2 V6 3.2 FSI,255000,281000,268000,"AED 255,000 - 281,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2008/,2026-06-12T11:34:42Z
+audi-a8,2008,4.2 V8 4.2 FSI,295000,318000,306500,"AED 295,000 - 318,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2008/,2026-06-12T11:34:42Z
+audi-a8,2008,5.2 V10 S8 5.2 FSI,435000,438000,436500,"AED 435,000 - 438,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2008/,2026-06-12T11:34:42Z
+audi-a8,2009,2.8 V6 2.8 FSI,240000,268000,254000,"AED 240,000 - 268,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2009/,2026-06-12T11:34:44Z
+audi-a8,2009,3.2 V6 3.2 FSI,255000,281000,268000,"AED 255,000 - 281,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2009/,2026-06-12T11:34:44Z
+audi-a8,2009,4.2 V8 4.2 FSI,295000,318000,306500,"AED 295,000 - 318,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2009/,2026-06-12T11:34:44Z
+audi-a8,2009,5.2 V10 S8 5.2 FSI,435000,438000,436500,"AED 435,000 - 438,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2009/,2026-06-12T11:34:44Z
+audi-a8,2010,2.8 V6 2.8 FSI,240000,268000,254000,"AED 240,000 - 268,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2010/,2026-06-12T11:34:46Z
+audi-a8,2010,3.2 V6 3.2 FSI,255000,281000,268000,"AED 255,000 - 281,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2010/,2026-06-12T11:34:46Z
+audi-a8,2010,4.2 V8 4.2 FSI,295000,318000,306500,"AED 295,000 - 318,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2010/,2026-06-12T11:34:46Z
+audi-a8,2010,5.2 V10 S8 5.2 FSI,435000,438000,436500,"AED 435,000 - 438,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2010/,2026-06-12T11:34:46Z
+audi-a8,2011,3.0SC V6 55 TFSI Quattro,310000,497000,403500,"AED 310,000 - 497,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2011/,2026-06-12T11:34:48Z
+audi-a8,2011,4.0TC V8 60 TFSI Quattro,369000,556000,462500,"AED 369,000 - 556,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2011/,2026-06-12T11:34:48Z
+audi-a8,2011,6.3 W12 A8 L W12 Quattro,535000,765000,650000,"AED 535,000 - 765,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2011/,2026-06-12T11:34:48Z
+audi-a8,2012,3.0SC V6 55 TFSI Quattro,310000,497000,403500,"AED 310,000 - 497,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2012/,2026-06-12T11:34:50Z
+audi-a8,2012,4.0TC V8 60 TFSI Quattro,369000,556000,462500,"AED 369,000 - 556,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2012/,2026-06-12T11:34:50Z
+audi-a8,2012,6.3 W12 A8 L W12 Quattro,535000,765000,650000,"AED 535,000 - 765,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2012/,2026-06-12T11:34:50Z
+audi-a8,2013,3.0SC V6 55 TFSI Quattro,310000,497000,403500,"AED 310,000 - 497,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2013/,2026-06-12T11:34:52Z
+audi-a8,2013,4.0TC V8 60 TFSI Quattro,369000,556000,462500,"AED 369,000 - 556,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2013/,2026-06-12T11:34:52Z
+audi-a8,2013,6.3 W12 A8 L W12 Quattro,535000,765000,650000,"AED 535,000 - 765,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2013/,2026-06-12T11:34:52Z
+audi-a8,2014,3.0SC V6 55 TFSI Quattro,325000,497000,411000,"AED 325,000 - 497,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2014/,2026-06-12T11:34:54Z
+audi-a8,2014,4.0TC V8 60 TFSI Quattro,384000,456000,420000,"AED 384,000 - 456,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2014/,2026-06-12T11:34:54Z
+audi-a8,2014,6.3 W12 A8 L W12 Quattro,550000,665000,607500,"AED 550,000 - 665,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2014/,2026-06-12T11:34:54Z
+audi-a8,2015,3.0SC V6 55 TFSI Quattro,325000,497000,411000,"AED 325,000 - 497,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2015/,2026-06-12T11:34:57Z
+audi-a8,2015,4.0TC V8 60 TFSI Quattro,384000,456000,420000,"AED 384,000 - 456,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2015/,2026-06-12T11:34:57Z
+audi-a8,2015,6.3 W12 A8 L W12 Quattro,550000,665000,607500,"AED 550,000 - 665,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2015/,2026-06-12T11:34:57Z
+audi-a8,2016,3.0SC V6 55 TFSI Quattro,325000,497000,411000,"AED 325,000 - 497,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2016/,2026-06-12T11:34:59Z
+audi-a8,2016,4.0TC V8 60 TFSI Quattro,384000,456000,420000,"AED 384,000 - 456,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2016/,2026-06-12T11:34:59Z
+audi-a8,2016,6.3 W12 A8 L W12 Quattro,550000,665000,607500,"AED 550,000 - 665,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2016/,2026-06-12T11:34:59Z
+audi-a8,2017,3.0SC V6 55 TFSI Quattro,325000,497000,411000,"AED 325,000 - 497,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2017/,2026-06-12T11:35:02Z
+audi-a8,2017,4.0TC V8 60 TFSI Quattro,384000,456000,420000,"AED 384,000 - 456,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2017/,2026-06-12T11:35:02Z
+audi-a8,2017,6.3 W12 A8 L W12 Quattro,550000,665000,607500,"AED 550,000 - 665,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2017/,2026-06-12T11:35:02Z
+audi-a8,2018,3.0TC V6 55 TFSI Quattro,357000,400000,378500,"AED 357,000 - 400,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2018/,2026-06-12T11:35:04Z
+audi-a8,2018,3.0TC V6 55 TFSI Quattro LWB,380000,450000,415000,"AED 380,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2018/,2026-06-12T11:35:04Z
+audi-a8,2019,3.0TC V6 55 TFSI Quattro,357000,400000,378500,"AED 357,000 - 400,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2019/,2026-06-12T11:35:07Z
+audi-a8,2019,3.0TC V6 55 TFSI Quattro LWB,380000,450000,415000,"AED 380,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2019/,2026-06-12T11:35:07Z
+audi-a8,2020,3.0TC V6 55 TFSI Quattro,362500,370000,366250,"AED 362,500 - 370,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2020/,2026-06-12T11:35:09Z
+audi-a8,2020,4.0TC V8 60 TFSI LWB,380000,450000,415000,"AED 380,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2020/,2026-06-12T11:35:09Z
+audi-a8,2020,3.0TC V6 55 TFSI Quattro LWB,385000,390000,387500,"AED 385,000 - 390,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2020/,2026-06-12T11:35:09Z
+audi-a8,2021,3.0TC V6 55 TFSI Quattro,362500,370000,366250,"AED 362,500 - 370,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2021/,2026-06-12T11:35:11Z
+audi-a8,2021,4.0TC V8 60 TFSI Quattro LWB,380000,450000,415000,"AED 380,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2021/,2026-06-12T11:35:11Z
+audi-a8,2021,3.0TC V6 55 TFSI Quattro LWB,385000,390000,387500,"AED 385,000 - 390,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2021/,2026-06-12T11:35:11Z
+audi-a8,2022,3.0TC V6 55 TFSI Quattro,362500,370000,366250,"AED 362,500 - 370,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2022/,2026-06-12T11:35:13Z
+audi-a8,2022,4.0TC V8 60 TFSI Quattro LWB,380000,450000,415000,"AED 380,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2022/,2026-06-12T11:35:13Z
+audi-a8,2022,3.0TC V6 55 TFSI Quattro LWB,385000,390000,387500,"AED 385,000 - 390,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2022/,2026-06-12T11:35:13Z
+audi-a8,2023,3.0TC V6 55 TFSI Quattro 4WD,362500,370000,366250,"AED 362,500 - 370,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2023/,2026-06-12T11:35:15Z
+audi-a8,2023,4.0TC V8 60 TFSI Quattro LWB 4WD,380000,450000,415000,"AED 380,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2023/,2026-06-12T11:35:15Z
+audi-a8,2023,3.0TC V6 55 TFSI Quattro LWB 4WD,385000,390000,387500,"AED 385,000 - 390,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2023/,2026-06-12T11:35:15Z
+audi-a8,2024,3.0TC V6 55 TFSI Quattro 4WD,362500,370000,366250,"AED 362,500 - 370,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2024/,2026-06-12T11:35:17Z
+audi-a8,2024,4.0TC V8 60 TFSI Quattro LWB 4WD,380000,450000,415000,"AED 380,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2024/,2026-06-12T11:35:17Z
+audi-a8,2024,3.0TC V6 55 TFSI Quattro LWB 4WD,385000,390000,387500,"AED 385,000 - 390,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2024/,2026-06-12T11:35:17Z
+audi-a8,2025,3.0TC V6 55 TFSI Quattro 4WD,362500,370000,366250,"AED 362,500 - 370,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2025/,2026-06-12T11:35:19Z
+audi-a8,2025,4.0TC V8 60 TFSI Quattro LWB 4WD,380000,450000,415000,"AED 380,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2025/,2026-06-12T11:35:19Z
+audi-a8,2025,3.0TC V6 55 TFSI Quattro LWB 4WD,385000,390000,387500,"AED 385,000 - 390,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2025/,2026-06-12T11:35:19Z
+audi-a8,2026,3.0TC V6 55 TFSI Quattro 4WD,362500,370000,366250,"AED 362,500 - 370,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2026/,2026-06-12T11:35:21Z
+audi-a8,2026,4.0TC V8 60 TFSI Quattro LWB 4WD,380000,450000,415000,"AED 380,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2026/,2026-06-12T11:35:21Z
+audi-a8,2026,3.0TC V6 55 TFSI Quattro LWB 4WD,385000,390000,387500,"AED 385,000 - 390,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-a8/2026/,2026-06-12T11:35:21Z
+audi-e-tron,2020,95kWh E-Tron 4WD,450000,500000,475000,"AED 450,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-e-tron/2020/,2026-06-12T11:35:56Z
+audi-e-tron,2021,95kWh E-Tron,450000,500000,475000,"AED 450,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-e-tron/2021/,2026-06-12T11:35:58Z
+audi-e-tron,2022,95kWh E-Tron,450000,500000,475000,"AED 450,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-e-tron/2022/,2026-06-12T11:36:00Z
+audi-e-tron,2023,95kWh E-Tron,450000,500000,475000,"AED 450,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-e-tron/2023/,2026-06-12T11:36:04Z
+audi-e-tron-gt-quattro,2024,93.4kWh e-tron GT quattro,489900,530000,509950,"AED 489,900 - 530,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-e-tron-gt-quattro/2024/,2026-06-12T11:36:51Z
+audi-e-tron-gt-quattro,2025,93.4kWh e-tron GT quattro,489900,530000,509950,"AED 489,900 - 530,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-e-tron-gt-quattro/2025/,2026-06-12T11:36:53Z
+audi-e-tron-gt-quattro,2026,93.4kWh e-tron GT quattro,489900,530000,509950,"AED 489,900 - 530,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-e-tron-gt-quattro/2026/,2026-06-12T11:36:55Z
+audi-e-tron-sportback,2021,95kWh 55 Quattro,457000,500000,478500,"AED 457,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-e-tron-sportback/2021/,2026-06-12T11:37:34Z
+audi-e-tron-sportback,2022,95kWh 55 Quattro,392000,405000,398500,"AED 392,000 - 405,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-e-tron-sportback/2022/,2026-06-12T11:37:36Z
+audi-e-tron-sportback,2022,95kWh S-Line 55 Quattro,461000,470000,465500,"AED 461,000 - 470,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-e-tron-sportback/2022/,2026-06-12T11:37:36Z
+audi-e-tron-sportback,2023,95kWh 55 Quattro,392000,405000,398500,"AED 392,000 - 405,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-e-tron-sportback/2023/,2026-06-12T11:37:39Z
+audi-e-tron-sportback,2023,95kWh S-Line 55 Quattro,461000,470000,465500,"AED 461,000 - 470,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-e-tron-sportback/2023/,2026-06-12T11:37:39Z
+audi-q2,2017,1.0TC I4 30 TFSI,105500,111000,108250,"AED 105,500 - 111,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q2/2017/,2026-06-12T11:38:14Z
+audi-q2,2017,1.4TC I4 35 TFSI,117000,125000,121000,"AED 117,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q2/2017/,2026-06-12T11:38:14Z
+audi-q2,2018,1.0TC I4 30 TFSI,105500,111000,108250,"AED 105,500 - 111,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q2/2018/,2026-06-12T11:38:17Z
+audi-q2,2018,1.4TC I4 35 TFSI,117000,125000,121000,"AED 117,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q2/2018/,2026-06-12T11:38:17Z
+audi-q2,2019,1.0TC I4 30 TFSI,105500,111000,108250,"AED 105,500 - 111,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q2/2019/,2026-06-12T11:38:20Z
+audi-q2,2019,1.4TC I4 35 TFSI,117000,125000,121000,"AED 117,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q2/2019/,2026-06-12T11:38:20Z
+audi-q2,2024,1.4TC I4 35 TFSI,139900,155000,147450,"AED 139,900 - 155,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q2/2024/,2026-06-12T11:38:27Z
+audi-q2,2025,1.4TC I4 35 TFSI,139900,155000,147450,"AED 139,900 - 155,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q2/2025/,2026-06-12T11:38:29Z
+audi-q2,2026,1.4TC I4 35 TFSI,139900,155000,147450,"AED 139,900 - 155,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q2/2026/,2026-06-12T11:38:31Z
+audi-q3,2012,1.4TC I4 35 TFSI,121000,150000,135500,"AED 121,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2012/,2026-06-12T11:38:57Z
+audi-q3,2012,2.0TC I4 S-Line 40 TFSI,137000,180000,158500,"AED 137,000 - 180,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2012/,2026-06-12T11:38:57Z
+audi-q3,2012,2.0TC I4 S-Line 45 TFSI,146000,210000,178000,"AED 146,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2012/,2026-06-12T11:38:57Z
+audi-q3,2013,1.4TC I4 35 TFSI,121000,150000,135500,"AED 121,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2013/,2026-06-12T11:39:00Z
+audi-q3,2013,2.0TC I4 S-Line 40 TFSI,137000,180000,158500,"AED 137,000 - 180,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2013/,2026-06-12T11:39:00Z
+audi-q3,2013,2.0TC I4 S-Line 45 TFSI,146000,210000,178000,"AED 146,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2013/,2026-06-12T11:39:00Z
+audi-q3,2014,1.4TC I4 35 TFSI,121000,150000,135500,"AED 121,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2014/,2026-06-12T11:39:02Z
+audi-q3,2014,2.0TC I4 S-Line 40 TFSI,137000,180000,158500,"AED 137,000 - 180,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2014/,2026-06-12T11:39:02Z
+audi-q3,2014,2.0TC I4 S-Line 45 TFSI,146000,210000,178000,"AED 146,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2014/,2026-06-12T11:39:02Z
+audi-q3,2015,1.4TC I4 35 TFSI,122500,140000,131250,"AED 122,500 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2015/,2026-06-12T11:39:04Z
+audi-q3,2015,2.0TC I4 S-Line 40 TFSI,131000,150000,140500,"AED 131,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2015/,2026-06-12T11:39:04Z
+audi-q3,2015,2.0TC I4 S-Line 45 TFSI,139500,210000,174750,"AED 139,500 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2015/,2026-06-12T11:39:04Z
+audi-q3,2016,1.4TC I4 35 TFSI,122500,140000,131250,"AED 122,500 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2016/,2026-06-12T11:39:07Z
+audi-q3,2016,2.0TC I4 S-Line 40 TFSI,131000,150000,140500,"AED 131,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2016/,2026-06-12T11:39:07Z
+audi-q3,2016,2.0TC I4 S-Line 45 TFSI,139500,210000,174750,"AED 139,500 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2016/,2026-06-12T11:39:07Z
+audi-q3,2017,1.4TC I4 35 TFSI,122500,140000,131250,"AED 122,500 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2017/,2026-06-12T11:39:09Z
+audi-q3,2017,2.0TC I4 S-Line 40 TFSI,131000,150000,140500,"AED 131,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2017/,2026-06-12T11:39:09Z
+audi-q3,2017,2.0TC I4 S-Line 45 TFSI,139500,210000,174750,"AED 139,500 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2017/,2026-06-12T11:39:09Z
+audi-q3,2018,1.4TC I4 35 TFSI,122500,140000,131250,"AED 122,500 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2018/,2026-06-12T11:39:11Z
+audi-q3,2018,2.0TC I4 S-Line 40 TFSI,131000,150000,140500,"AED 131,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2018/,2026-06-12T11:39:11Z
+audi-q3,2018,2.0TC I4 S-Line 45 TFSI,139500,210000,174750,"AED 139,500 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2018/,2026-06-12T11:39:11Z
+audi-q3,2019,1.4TC I4 35 TFSI,122500,140000,131250,"AED 122,500 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2019/,2026-06-12T11:39:14Z
+audi-q3,2019,2.0TC I4 S-Line 40 TFSI,131000,150000,140500,"AED 131,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2019/,2026-06-12T11:39:14Z
+audi-q3,2019,2.0TC I4 S-Line 45 TFSI,139500,210000,174750,"AED 139,500 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2019/,2026-06-12T11:39:14Z
+audi-q3,2020,1.4TC I4 35 TFSI,144000,160000,152000,"AED 144,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2020/,2026-06-12T11:39:16Z
+audi-q3,2020,2.0TC I4 S-Line 45 TFSI,185000,188000,186500,"AED 185,000 - 188,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2020/,2026-06-12T11:39:16Z
+audi-q3,2021,1.4TC I4 35 TFSI,144000,160000,152000,"AED 144,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2021/,2026-06-12T11:39:18Z
+audi-q3,2021,1.4TC I4 S-Line 35 TFSI,185000,188000,186500,"AED 185,000 - 188,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2021/,2026-06-12T11:39:18Z
+audi-q3,2021,2.0TC I4 S-Line 45 TFSI,200000,210000,205000,"AED 200,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2021/,2026-06-12T11:39:18Z
+audi-q3,2022,1.4TC I4 35 TFSI,144000,160000,152000,"AED 144,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2022/,2026-06-12T11:39:21Z
+audi-q3,2022,1.4TC I4 S-Line 35 TFSI,185000,188000,186500,"AED 185,000 - 188,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2022/,2026-06-12T11:39:21Z
+audi-q3,2022,2.0TC I4 S-Line 45 TFSI,200000,210000,205000,"AED 200,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2022/,2026-06-12T11:39:21Z
+audi-q3,2023,1.4TC I4 35 TFSI,144000,160000,152000,"AED 144,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2023/,2026-06-12T11:39:23Z
+audi-q3,2023,1.4TC I4 S-Line 35 TFSI,185000,188000,186500,"AED 185,000 - 188,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2023/,2026-06-12T11:39:23Z
+audi-q3,2023,2.0TC I4 S-Line 45 TFSI,200000,210000,205000,"AED 200,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2023/,2026-06-12T11:39:23Z
+audi-q3,2024,1.4TC I4 35 TFSI FWD,144000,160000,152000,"AED 144,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2024/,2026-06-12T11:39:26Z
+audi-q3,2024,1.4TC I4 S-Line 35 TFSI FWD,185000,188000,186500,"AED 185,000 - 188,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2024/,2026-06-12T11:39:26Z
+audi-q3,2024,2.0TC I4 S-Line 45 TFSI 4WD,200000,210000,205000,"AED 200,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2024/,2026-06-12T11:39:26Z
+audi-q3,2025,1.4TC I4 35 TFSI FWD,144000,160000,152000,"AED 144,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2025/,2026-06-12T11:39:28Z
+audi-q3,2025,1.4TC I4 S-Line 35 TFSI FWD,185000,188000,186500,"AED 185,000 - 188,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2025/,2026-06-12T11:39:28Z
+audi-q3,2025,2.0TC I4 S-Line 45 TFSI 4WD,200000,210000,205000,"AED 200,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2025/,2026-06-12T11:39:28Z
+audi-q3,2026,1.4TC I4 35 TFSI FWD,144000,160000,152000,"AED 144,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2026/,2026-06-12T11:39:30Z
+audi-q3,2026,1.4TC I4 S-Line 35 TFSI FWD,185000,188000,186500,"AED 185,000 - 188,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2026/,2026-06-12T11:39:30Z
+audi-q3,2026,2.0TC I4 S-Line 45 TFSI 4WD,200000,210000,205000,"AED 200,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3/2026/,2026-06-12T11:39:30Z
+audi-q3-sportback,2020,1.4TC I4 35 TFSI,144000,160000,152000,"AED 144,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3-sportback/2020/,2026-06-12T11:40:10Z
+audi-q3-sportback,2020,1.4TC I4 S-Line 35 TFSI,185000,188000,186500,"AED 185,000 - 188,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3-sportback/2020/,2026-06-12T11:40:10Z
+audi-q3-sportback,2020,2.0TC I4 S-Line 45 TFSI,200000,210000,205000,"AED 200,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3-sportback/2020/,2026-06-12T11:40:10Z
+audi-q3-sportback,2021,1.4TC I4 35 TFSI,144000,160000,152000,"AED 144,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3-sportback/2021/,2026-06-12T11:40:12Z
+audi-q3-sportback,2021,1.4TC I4 S-Line 35 TFSI,185000,188000,186500,"AED 185,000 - 188,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3-sportback/2021/,2026-06-12T11:40:12Z
+audi-q3-sportback,2021,2.0TC I4 S-Line 45 TFSI,200000,210000,205000,"AED 200,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3-sportback/2021/,2026-06-12T11:40:12Z
+audi-q3-sportback,2022,1.4TC I4 35 TFSI,144000,160000,152000,"AED 144,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3-sportback/2022/,2026-06-12T11:40:14Z
+audi-q3-sportback,2022,1.4TC I4 S-Line 35 TFSI,185000,188000,186500,"AED 185,000 - 188,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3-sportback/2022/,2026-06-12T11:40:14Z
+audi-q3-sportback,2022,2.0TC I4 S-Line 45 TFSI,200000,210000,205000,"AED 200,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3-sportback/2022/,2026-06-12T11:40:14Z
+audi-q3-sportback,2023,1.4TC I4 35 TFSI,144000,160000,152000,"AED 144,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3-sportback/2023/,2026-06-12T11:40:16Z
+audi-q3-sportback,2023,1.4TC I4 S-Line 35 TFSI,185000,188000,186500,"AED 185,000 - 188,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3-sportback/2023/,2026-06-12T11:40:16Z
+audi-q3-sportback,2023,2.0TC I4 S-Line 45 TFSI,200000,210000,205000,"AED 200,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3-sportback/2023/,2026-06-12T11:40:16Z
+audi-q3-sportback,2024,2.0TC I4 S-Line 45 TFSI,228900,235000,231950,"AED 228,900 - 235,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3-sportback/2024/,2026-06-12T11:40:18Z
+audi-q3-sportback,2025,2.0TC I4 S-Line 45 TFSI,228900,235000,231950,"AED 228,900 - 235,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3-sportback/2025/,2026-06-12T11:40:21Z
+audi-q3-sportback,2026,2.0TC I4 S-Line 45 TFSI,228900,235000,231950,"AED 228,900 - 235,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q3-sportback/2026/,2026-06-12T11:40:23Z
+audi-q5,2009,2.0TC I4 2.0 TFSI,166000,190000,178000,"AED 166,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2009/,2026-06-12T11:40:45Z
+audi-q5,2009,3.2 V6 3.2 FSI,203000,220000,211500,"AED 203,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2009/,2026-06-12T11:40:45Z
+audi-q5,2010,2.0TC I4 2.0 TFSI,166000,190000,178000,"AED 166,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2010/,2026-06-12T11:40:47Z
+audi-q5,2010,3.2 V6 3.2 FSI,203000,220000,211500,"AED 203,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2010/,2026-06-12T11:40:47Z
+audi-q5,2011,2.0TC I4 2.0 TFSI,166000,190000,178000,"AED 166,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2011/,2026-06-12T11:40:50Z
+audi-q5,2011,3.2 V6 3.2 FSI,203000,220000,211500,"AED 203,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2011/,2026-06-12T11:40:50Z
+audi-q5,2012,2.0TC I4 2.0 TFSI,166000,190000,178000,"AED 166,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2012/,2026-06-12T11:40:52Z
+audi-q5,2012,3.2 V6 3.2 FSI,203000,220000,211500,"AED 203,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2012/,2026-06-12T11:40:52Z
+audi-q5,2013,2.0TC I4 45 TFSI,169900,195000,182450,"AED 169,900 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2013/,2026-06-12T11:40:54Z
+audi-q5,2013,3.0SC V6 55 TFSI,207000,220000,213500,"AED 207,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2013/,2026-06-12T11:40:54Z
+audi-q5,2014,2.0TC I4 45 TFSI,169900,195000,182450,"AED 169,900 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2014/,2026-06-12T11:40:56Z
+audi-q5,2014,3.0SC V6 55 TFSI,207000,220000,213500,"AED 207,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2014/,2026-06-12T11:40:56Z
+audi-q5,2015,2.0TC I4 45 TFSI,169900,195000,182450,"AED 169,900 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2015/,2026-06-12T11:40:59Z
+audi-q5,2015,3.0SC V6 55 TFSI,207000,220000,213500,"AED 207,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2015/,2026-06-12T11:40:59Z
+audi-q5,2016,2.0TC I4 45 TFSI,169900,195000,182450,"AED 169,900 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2016/,2026-06-12T11:41:01Z
+audi-q5,2016,3.0SC V6 55 TFSI,212000,220000,216000,"AED 212,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2016/,2026-06-12T11:41:01Z
+audi-q5,2017,2.0TC I4 45 TFSI,169900,195000,182450,"AED 169,900 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2017/,2026-06-12T11:41:03Z
+audi-q5,2017,3.0SC V6 55 TFSI,212000,220000,216000,"AED 212,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2017/,2026-06-12T11:41:03Z
+audi-q5,2018,2.0TC I4 45 TFSI Quattro,183900,260000,221950,"AED 183,900 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2018/,2026-06-12T11:41:05Z
+audi-q5,2019,2.0TC I4 45 TFSI Quattro,183900,260000,221950,"AED 183,900 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2019/,2026-06-12T11:41:07Z
+audi-q5,2020,2.0TC I4 45 TFSI Quattro,210000,215000,212500,"AED 210,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2020/,2026-06-12T11:41:09Z
+audi-q5,2021,2.0TC I4 45 TFSI Quattro,210000,215000,212500,"AED 210,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2021/,2026-06-12T11:41:11Z
+audi-q5,2022,2.0TC I4 45 TFSI Quattro,210000,215000,212500,"AED 210,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2022/,2026-06-12T11:41:14Z
+audi-q5,2023,2.0TC I4 45 TFSI Quattro,210000,215000,212500,"AED 210,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2023/,2026-06-12T11:41:16Z
+audi-q5,2024,2.0TC I4 45 TFSI Quattro 4WD,210000,215000,212500,"AED 210,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2024/,2026-06-12T11:41:18Z
+audi-q5,2025,2.0TC I4 40 TFSI 4WD,289900,330000,309950,"AED 289,900 - 330,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2025/,2026-06-12T11:41:20Z
+audi-q5,2025,2.0TC I4 40 TFSI Sportback 4WD,329900,350000,339950,"AED 329,900 - 350,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2025/,2026-06-12T11:41:20Z
+audi-q5,2026,2.0TC I4 40 TFSI 4WD,289900,330000,309950,"AED 289,900 - 330,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2026/,2026-06-12T11:41:23Z
+audi-q5,2026,2.0TC I4 40 TFSI Sportback 4WD,329900,350000,339950,"AED 329,900 - 350,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q5/2026/,2026-06-12T11:41:23Z
+audi-q6-e-tron,2025,83 kWh Q6 e-tron 4WD,305000,310000,307500,"AED 305,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q6-e-tron/2025/,2026-06-12T11:42:06Z
+audi-q6-e-tron,2026,83 kWh Q6 e-tron 4WD,305000,310000,307500,"AED 305,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q6-e-tron/2026/,2026-06-12T11:42:10Z
+audi-q7,2007,3.6 V6 3.6 FSI,199000,232000,215500,"AED 199,000 - 232,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2007/,2026-06-12T11:42:29Z
+audi-q7,2007,4.2 V8 4.2 FSI,262000,280000,271000,"AED 262,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2007/,2026-06-12T11:42:29Z
+audi-q7,2008,3.6 V6 3.6 FSI,199000,232000,215500,"AED 199,000 - 232,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2008/,2026-06-12T11:42:32Z
+audi-q7,2008,4.2 V8 4.2 FSI,262000,280000,271000,"AED 262,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2008/,2026-06-12T11:42:32Z
+audi-q7,2009,3.6 V6 3.6 FSI,199000,232000,215500,"AED 199,000 - 232,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2009/,2026-06-12T11:42:34Z
+audi-q7,2009,4.2 V8 4.2 FSI,262000,280000,271000,"AED 262,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2009/,2026-06-12T11:42:34Z
+audi-q7,2010,3.6 V6 3.2 FSI,205000,250000,227500,"AED 205,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2010/,2026-06-12T11:42:36Z
+audi-q7,2010,3.0SC V6 TFSI,209000,250000,229500,"AED 209,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2010/,2026-06-12T11:42:36Z
+audi-q7,2010,3.0SC V6 TFSI S-Line,248000,270000,259000,"AED 248,000 - 270,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2010/,2026-06-12T11:42:36Z
+audi-q7,2010,4.2 V8 4.2 FSI,260000,280000,270000,"AED 260,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2010/,2026-06-12T11:42:36Z
+audi-q7,2010,4.2TD V8 TDI,278000,310000,294000,"AED 278,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2010/,2026-06-12T11:42:36Z
+audi-q7,2010,6.0TD V12 TDI,489000,520000,504500,"AED 489,000 - 520,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2010/,2026-06-12T11:42:36Z
+audi-q7,2011,3.6 V6 3.2 FSI,205000,250000,227500,"AED 205,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2011/,2026-06-12T11:42:38Z
+audi-q7,2011,3.0SC V6 TFSI,209000,250000,229500,"AED 209,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2011/,2026-06-12T11:42:38Z
+audi-q7,2011,3.0SC V6 TFSI S-Line,248000,270000,259000,"AED 248,000 - 270,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2011/,2026-06-12T11:42:38Z
+audi-q7,2011,4.2 V8 4.2 FSI,260000,280000,270000,"AED 260,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2011/,2026-06-12T11:42:38Z
+audi-q7,2011,4.2TD V8 TDI,278000,310000,294000,"AED 278,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2011/,2026-06-12T11:42:38Z
+audi-q7,2011,6.0TD V12 TDI,489000,520000,504500,"AED 489,000 - 520,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2011/,2026-06-12T11:42:38Z
+audi-q7,2012,3.0SC V6 3.0 TFSI,219000,260000,239500,"AED 219,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2012/,2026-06-12T11:42:41Z
+audi-q7,2012,3.0SC V6 3.0 TFSI S-Line,249500,280000,264750,"AED 249,500 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2012/,2026-06-12T11:42:41Z
+audi-q7,2012,4.2TD V8 4.2 TDI,278600,320000,299300,"AED 278,600 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2012/,2026-06-12T11:42:41Z
+audi-q7,2012,6.0TD V12 6.0 TDI,494500,520000,507250,"AED 494,500 - 520,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2012/,2026-06-12T11:42:41Z
+audi-q7,2013,3.0SC V6 3.0 TFSI,219000,260000,239500,"AED 219,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2013/,2026-06-12T11:42:43Z
+audi-q7,2013,3.0SC V6 3.0 TFSI S-Line,249500,280000,264750,"AED 249,500 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2013/,2026-06-12T11:42:43Z
+audi-q7,2013,4.2TD V8 4.2 TDI,278600,320000,299300,"AED 278,600 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2013/,2026-06-12T11:42:43Z
+audi-q7,2013,6.0TD V12 6.0 TDI,494500,520000,507250,"AED 494,500 - 520,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2013/,2026-06-12T11:42:43Z
+audi-q7,2014,3.0SC V6 3.0 TFSI,219000,260000,239500,"AED 219,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2014/,2026-06-12T11:42:45Z
+audi-q7,2014,3.0SC V6 3.0 TFSI S-Line,249500,280000,264750,"AED 249,500 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2014/,2026-06-12T11:42:45Z
+audi-q7,2014,4.2TD V8 4.2 TDI,278600,320000,299300,"AED 278,600 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2014/,2026-06-12T11:42:45Z
+audi-q7,2014,6.0TD V12 6.0 TDI,494500,520000,507250,"AED 494,500 - 520,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2014/,2026-06-12T11:42:45Z
+audi-q7,2015,3.0SC V6 3.0 TFSI,219000,260000,239500,"AED 219,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2015/,2026-06-12T11:42:48Z
+audi-q7,2015,3.0SC V6 3.0 TFSI S-Line,249500,280000,264750,"AED 249,500 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2015/,2026-06-12T11:42:48Z
+audi-q7,2015,4.2TD V8 4.2 TDI,278600,320000,299300,"AED 278,600 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2015/,2026-06-12T11:42:48Z
+audi-q7,2015,6.0TD V12 6.0 TDI,494500,520000,507250,"AED 494,500 - 520,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2015/,2026-06-12T11:42:48Z
+audi-q7,2016,3.0SC V6 55 TFSI,275000,330000,302500,"AED 275,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2016/,2026-06-12T11:42:50Z
+audi-q7,2017,3.0SC V6 55 TFSI,275000,330000,302500,"AED 275,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2017/,2026-06-12T11:42:52Z
+audi-q7,2018,3.0SC V6 55 TFSI,275000,330000,302500,"AED 275,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2018/,2026-06-12T11:42:55Z
+audi-q7,2019,3.0SC V6 55 TFSI,275000,330000,302500,"AED 275,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2019/,2026-06-12T11:42:57Z
+audi-q7,2020,2.0TC+E I4 45 TFSI,275000,292000,283500,"AED 275,000 - 292,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2020/,2026-06-12T11:42:59Z
+audi-q7,2020,3.0TC+E V6 55 TFSI,320000,330000,325000,"AED 320,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2020/,2026-06-12T11:42:59Z
+audi-q7,2021,2.0TC+E I4 45 TFSI,275000,292000,283500,"AED 275,000 - 292,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2021/,2026-06-12T11:43:01Z
+audi-q7,2021,3.0TC+E V6 55 TFSI,320000,330000,325000,"AED 320,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2021/,2026-06-12T11:43:01Z
+audi-q7,2022,2.0TC+E I4 45 TFSI,310000,330000,320000,"AED 310,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2022/,2026-06-12T11:43:04Z
+audi-q7,2022,3.0TC+E V6 55 TFSI,380000,395000,387500,"AED 380,000 - 395,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2022/,2026-06-12T11:43:04Z
+audi-q7,2023,2.0TC+E I4 45 TFSI,310000,330000,320000,"AED 310,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2023/,2026-06-12T11:43:06Z
+audi-q7,2023,3.0TC+E V6 55 TFSI,380000,395000,387500,"AED 380,000 - 395,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2023/,2026-06-12T11:43:06Z
+audi-q7,2024,2.0TC+E I4 45 TFSI 4WD,339000,340000,339500,"AED 339,000 - 340,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2024/,2026-06-12T11:43:08Z
+audi-q7,2024,3.0TC+E V6 55 TFSI 4WD,400000,415000,407500,"AED 400,000 - 415,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2024/,2026-06-12T11:43:08Z
+audi-q7,2025,2.0TC+E I4 45 TFSI 4WD,339000,340000,339500,"AED 339,000 - 340,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2025/,2026-06-12T11:43:10Z
+audi-q7,2025,3.0TC+E V6 55 TFSI 4WD,400000,415000,407500,"AED 400,000 - 415,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2025/,2026-06-12T11:43:10Z
+audi-q7,2026,2.0TC+E I4 45 TFSI 4WD,339000,340000,339500,"AED 339,000 - 340,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2026/,2026-06-12T11:43:12Z
+audi-q7,2026,3.0TC+E V6 55 TFSI 4WD,400000,415000,407500,"AED 400,000 - 415,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q7/2026/,2026-06-12T11:43:12Z
+audi-q8,2019,3.0SC V6 55 TFSI,315000,380000,347500,"AED 315,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q8/2019/,2026-06-12T11:43:49Z
+audi-q8,2020,3.0SC V6 55 TFSI,315000,380000,347500,"AED 315,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q8/2020/,2026-06-12T11:43:51Z
+audi-q8,2021,3.0SC V6 55 TFSI,315000,380000,347500,"AED 315,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q8/2021/,2026-06-12T11:43:53Z
+audi-q8,2022,3.0T 55 TFSI,378000,380000,379000,"AED 378,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q8/2022/,2026-06-12T11:43:55Z
+audi-q8,2023,3.0TC V6 55 TFSI 4WD,378000,380000,379000,"AED 378,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q8/2023/,2026-06-12T11:43:57Z
+audi-q8,2024,3.0TC V6 55 TFSI 4WD,378000,380000,379000,"AED 378,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q8/2024/,2026-06-12T11:43:59Z
+audi-q8,2025,3.0TC V6 55 TFSI 4WD,378000,380000,379000,"AED 378,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q8/2025/,2026-06-12T11:44:01Z
+audi-q8,2026,3.0TC V6 55 TFSI 4WD,378000,380000,379000,"AED 378,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q8/2026/,2026-06-12T11:44:03Z
+audi-q8-e-tron,2024,114 kWh E-Tron,397900,430000,413950,"AED 397,900 - 430,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q8-e-tron/2024/,2026-06-12T11:44:45Z
+audi-q8-e-tron,2025,114 kWh E-Tron,397900,430000,413950,"AED 397,900 - 430,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q8-e-tron/2025/,2026-06-12T11:44:48Z
+audi-q8-e-tron,2026,114 kWh E-Tron,397900,430000,413950,"AED 397,900 - 430,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q8-e-tron/2026/,2026-06-12T11:44:50Z
+audi-q8-e-tron-sportback,2024,114kWh S-Line 55 Quattro,459900,525000,492450,"AED 459,900 - 525,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q8-e-tron-sportback/2024/,2026-06-12T11:45:35Z
+audi-q8-e-tron-sportback,2025,114kWh S-Line 55 4WD,459900,525000,492450,"AED 459,900 - 525,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q8-e-tron-sportback/2025/,2026-06-12T11:45:37Z
+audi-q8-e-tron-sportback,2026,114kWh S-Line 55 4WD,459900,525000,492450,"AED 459,900 - 525,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-q8-e-tron-sportback/2026/,2026-06-12T11:45:40Z
+audi-r8,2008,4.2 V8 Coupe,469000,500000,484500,"AED 469,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2008/,2026-06-12T11:46:00Z
+audi-r8,2008,5.2 V10 Coupe AWD,537500,555000,546250,"AED 537,500 - 555,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2008/,2026-06-12T11:46:00Z
+audi-r8,2008,5.2 V10 Spyder AWD,592500,620000,606250,"AED 592,500 - 620,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2008/,2026-06-12T11:46:00Z
+audi-r8,2009,4.2 V8 Coupe,469000,500000,484500,"AED 469,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2009/,2026-06-12T11:46:03Z
+audi-r8,2009,5.2 V10 Coupe AWD,537500,555000,546250,"AED 537,500 - 555,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2009/,2026-06-12T11:46:03Z
+audi-r8,2009,5.2 V10 Spyder AWD,592500,620000,606250,"AED 592,500 - 620,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2009/,2026-06-12T11:46:03Z
+audi-r8,2010,4.2 V8 Coupe,469000,500000,484500,"AED 469,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2010/,2026-06-12T11:46:05Z
+audi-r8,2010,5.2 V10 Coupe AWD,537500,555000,546250,"AED 537,500 - 555,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2010/,2026-06-12T11:46:05Z
+audi-r8,2010,5.2 V10 Spyder AWD,592500,620000,606250,"AED 592,500 - 620,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2010/,2026-06-12T11:46:05Z
+audi-r8,2011,4.2 V8 Coupe,469000,500000,484500,"AED 469,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2011/,2026-06-12T11:46:07Z
+audi-r8,2011,5.2 V10 Coupe AWD,537500,555000,546250,"AED 537,500 - 555,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2011/,2026-06-12T11:46:07Z
+audi-r8,2011,5.2 V10 Spyder AWD,592500,620000,606250,"AED 592,500 - 620,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2011/,2026-06-12T11:46:07Z
+audi-r8,2012,4.2 V8 Coupe,469000,500000,484500,"AED 469,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2012/,2026-06-12T11:46:11Z
+audi-r8,2012,5.2 V10 Coupe,537500,555000,546250,"AED 537,500 - 555,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2012/,2026-06-12T11:46:11Z
+audi-r8,2012,5.2 V10 Spyder,592500,620000,606250,"AED 592,500 - 620,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2012/,2026-06-12T11:46:11Z
+audi-r8,2013,4.2 V8 Coupe,405000,500000,452500,"AED 405,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2013/,2026-06-12T11:46:13Z
+audi-r8,2013,5.2 V10 Coupe AWD,537500,555000,546250,"AED 537,500 - 555,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2013/,2026-06-12T11:46:13Z
+audi-r8,2013,5.2 V10 Spyder AWD,592500,620000,606250,"AED 592,500 - 620,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2013/,2026-06-12T11:46:13Z
+audi-r8,2014,4.2 V8 Coupe,405000,500000,452500,"AED 405,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2014/,2026-06-12T11:46:17Z
+audi-r8,2014,5.2 V10 Coupe AWD,537500,555000,546250,"AED 537,500 - 555,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2014/,2026-06-12T11:46:17Z
+audi-r8,2014,5.2 V10 Spyder AWD,592500,620000,606250,"AED 592,500 - 620,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2014/,2026-06-12T11:46:17Z
+audi-r8,2015,4.2 V8 Coupe,405000,500000,452500,"AED 405,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2015/,2026-06-12T11:46:19Z
+audi-r8,2015,5.2 V10 Coupe AWD,537500,555000,546250,"AED 537,500 - 555,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2015/,2026-06-12T11:46:19Z
+audi-r8,2015,5.2 V10 Plus AWD,595000,620000,607500,"AED 595,000 - 620,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2015/,2026-06-12T11:46:19Z
+audi-r8,2016,5.2 V10 R8 AWD,549000,630000,589500,"AED 549,000 - 630,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2016/,2026-06-12T11:46:22Z
+audi-r8,2016,5.2 V10 R8 Plus AWD,629000,680000,654500,"AED 629,000 - 680,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2016/,2026-06-12T11:46:22Z
+audi-r8,2017,5.2 V10 R8 AWD,549000,630000,589500,"AED 549,000 - 630,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2017/,2026-06-12T11:46:24Z
+audi-r8,2017,5.2 V10 R8 Plus AWD,629000,680000,654500,"AED 629,000 - 680,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2017/,2026-06-12T11:46:24Z
+audi-r8,2018,5.2 V10 R8 AWD,549000,630000,589500,"AED 549,000 - 630,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2018/,2026-06-12T11:46:27Z
+audi-r8,2018,5.2 V10 R8 Plus AWD,629000,680000,654500,"AED 629,000 - 680,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2018/,2026-06-12T11:46:27Z
+audi-r8,2019,5.2 V10 R8 AWD,582225,630000,606112,"AED 582,225 - 630,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2019/,2026-06-12T11:46:29Z
+audi-r8,2019,5.2 V10 R8 Plus AWD,650000,680000,665000,"AED 650,000 - 680,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2019/,2026-06-12T11:46:29Z
+audi-r8,2020,5.2 V10 R8 RWD,567000,568000,567500,"AED 567,000 - 568,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2020/,2026-06-12T11:46:32Z
+audi-r8,2020,5.2 V10 R8 AWD,582225,630000,606112,"AED 582,225 - 630,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2020/,2026-06-12T11:46:32Z
+audi-r8,2020,5.2 V10 R8 Plus AWD,650000,680000,665000,"AED 650,000 - 680,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2020/,2026-06-12T11:46:32Z
+audi-r8,2021,5.2 V10 R8 RWD,567000,568000,567500,"AED 567,000 - 568,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2021/,2026-06-12T11:46:35Z
+audi-r8,2021,5.2 V10 R8 AWD,582225,630000,606112,"AED 582,225 - 630,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2021/,2026-06-12T11:46:35Z
+audi-r8,2021,5.2 V10 R8 Plus AWD,650000,680000,665000,"AED 650,000 - 680,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2021/,2026-06-12T11:46:35Z
+audi-r8,2022,5.2 V10 R8 RWD,567000,568000,567500,"AED 567,000 - 568,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2022/,2026-06-12T11:46:37Z
+audi-r8,2022,5.2 V10 R8 AWD,582225,630000,606112,"AED 582,225 - 630,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2022/,2026-06-12T11:46:37Z
+audi-r8,2022,5.2 V10 R8 Plus AWD,650000,680000,665000,"AED 650,000 - 680,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2022/,2026-06-12T11:46:37Z
+audi-r8,2023,5.2 V10 R8 RWD,567000,568000,567500,"AED 567,000 - 568,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2023/,2026-06-12T11:46:40Z
+audi-r8,2023,5.2 V10 R8 AWD,582225,630000,606112,"AED 582,225 - 630,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2023/,2026-06-12T11:46:40Z
+audi-r8,2023,5.2 V10 R8 Plus AWD,650000,680000,665000,"AED 650,000 - 680,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2023/,2026-06-12T11:46:40Z
+audi-r8,2024,5.2 V10 R8 RWD,567000,568000,567500,"AED 567,000 - 568,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2024/,2026-06-12T11:46:42Z
+audi-r8,2024,5.2 V10 R8 Plus 4WD,650000,680000,665000,"AED 650,000 - 680,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8/2024/,2026-06-12T11:46:42Z
+audi-r8-spyder,2011,4.2 V8 R8 Spyder AWD,455000,500000,477500,"AED 455,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8-spyder/2011/,2026-06-12T11:47:10Z
+audi-r8-spyder,2011,5.2 V10 R8 Spyder AWD,592500,620000,606250,"AED 592,500 - 620,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8-spyder/2011/,2026-06-12T11:47:10Z
+audi-r8-spyder,2012,4.2 V8 R8 Spyder AWD,455000,500000,477500,"AED 455,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8-spyder/2012/,2026-06-12T11:47:12Z
+audi-r8-spyder,2012,5.2 V10 R8 Spyder AWD,592500,620000,606250,"AED 592,500 - 620,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8-spyder/2012/,2026-06-12T11:47:12Z
+audi-r8-spyder,2013,4.2 V8 R8 Spyder AWD,455000,500000,477500,"AED 455,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8-spyder/2013/,2026-06-12T11:47:14Z
+audi-r8-spyder,2013,5.2 V10 R8 Spyder AWD,592500,620000,606250,"AED 592,500 - 620,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8-spyder/2013/,2026-06-12T11:47:14Z
+audi-r8-spyder,2014,4.2 V8 R8 Spyder AWD,455000,500000,477500,"AED 455,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8-spyder/2014/,2026-06-12T11:47:16Z
+audi-r8-spyder,2014,5.2 V10 R8 Spyder AWD,592500,620000,606250,"AED 592,500 - 620,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8-spyder/2014/,2026-06-12T11:47:16Z
+audi-r8-spyder,2015,4.2 V8 R8 Spyder AWD,455000,500000,477500,"AED 455,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8-spyder/2015/,2026-06-12T11:47:19Z
+audi-r8-spyder,2015,5.2 V10 R8 Spyder AWD,592500,620000,606250,"AED 592,500 - 620,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8-spyder/2015/,2026-06-12T11:47:19Z
+audi-r8-spyder,2016,4.2 V8 R8 Spyder AWD,455000,500000,477500,"AED 455,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8-spyder/2016/,2026-06-12T11:47:21Z
+audi-r8-spyder,2016,5.2 V10 R8 Spyder AWD,592500,620000,606250,"AED 592,500 - 620,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-r8-spyder/2016/,2026-06-12T11:47:21Z
+audi-rs-3,2016,2.5TC I5 RS 3 Sportback,211000,225000,218000,"AED 211,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3/2016/,2026-06-12T11:48:08Z
+audi-rs-3,2017,2.5TC I5 RS 3 Sportback,211000,225000,218000,"AED 211,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3/2017/,2026-06-12T11:48:10Z
+audi-rs-3,2018,2.5TC I5 RS 3 Sportback,235000,240000,237500,"AED 235,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3/2018/,2026-06-12T11:48:12Z
+audi-rs-3,2019,2.5TC I5 RS 3 Sportback,235000,240000,237500,"AED 235,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3/2019/,2026-06-12T11:48:15Z
+audi-rs-3,2022,2.5TC I5 RS 3 Sportback,285600,286000,285800,"AED 285,600 - 286,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3/2022/,2026-06-12T11:48:20Z
+audi-rs-3,2023,2.5TC I5 RS 3 Sportback,285600,286000,285800,"AED 285,600 - 286,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3/2023/,2026-06-12T11:48:22Z
+audi-rs-3,2024,2.5TC I5 Sportback 4WD,325000,350000,337500,"AED 325,000 - 350,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3/2024/,2026-06-12T11:48:25Z
+audi-rs-3,2025,2.5TC I5 Sportback 4WD,325000,350000,337500,"AED 325,000 - 350,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3/2025/,2026-06-12T11:48:27Z
+audi-rs-3,2026,2.5TC I5 Sportback 4WD,325000,350000,337500,"AED 325,000 - 350,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3/2026/,2026-06-12T11:48:29Z
+audi-rs-3-sedan,2018,2.5TC I5 RS 3 Sedan,227000,242000,234500,"AED 227,000 - 242,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3-sedan/2018/,2026-06-12T11:49:06Z
+audi-rs-3-sedan,2019,2.5TC I5 RS 3 Sedan,227000,242000,234500,"AED 227,000 - 242,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3-sedan/2019/,2026-06-12T11:49:09Z
+audi-rs-3-sedan,2022,2.5TC I5 RS 3 Sedan,285600,286000,285800,"AED 285,600 - 286,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3-sedan/2022/,2026-06-12T11:49:15Z
+audi-rs-3-sedan,2023,2.5TC I5 RS 3 Sedan,285600,286000,285800,"AED 285,600 - 286,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3-sedan/2023/,2026-06-12T11:49:17Z
+audi-rs-3-sedan,2024,2.5TC I5 Sedan 4WD,285600,286000,285800,"AED 285,600 - 286,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3-sedan/2024/,2026-06-12T11:49:20Z
+audi-rs-3-sedan,2025,2.5TC I5 RS3 4WD,325000,326000,325500,"AED 325,000 - 326,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3-sedan/2025/,2026-06-12T11:49:22Z
+audi-rs-3-sedan,2025,2.5TC I5 Carbon Package 4WD,349000,351000,350000,"AED 349,000 - 351,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3-sedan/2025/,2026-06-12T11:49:22Z
+audi-rs-3-sedan,2026,2.5TC I5 RS3 4WD,325000,326000,325500,"AED 325,000 - 326,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3-sedan/2026/,2026-06-12T11:49:24Z
+audi-rs-3-sedan,2026,2.5TC I5 Carbon Package 4WD,349000,351000,350000,"AED 349,000 - 351,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-3-sedan/2026/,2026-06-12T11:49:24Z
+audi-rs-4,2006,4.2 V8 RS 4 Quattro,280000,320000,300000,"AED 280,000 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-4/2006/,2026-06-12T11:49:43Z
+audi-rs-4,2007,4.2 V8 RS 4 Quattro,280000,320000,300000,"AED 280,000 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-4/2007/,2026-06-12T11:49:46Z
+audi-rs-4,2008,4.2 V8 RS 4 Quattro,280000,320000,300000,"AED 280,000 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-4/2008/,2026-06-12T11:49:48Z
+audi-rs-4,2013,4.2 V8 RS 4 Quattro,290000,320000,305000,"AED 290,000 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-4/2013/,2026-06-12T11:49:57Z
+audi-rs-4,2014,4.2 V8 RS 4 Quattro,290000,320000,305000,"AED 290,000 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-4/2014/,2026-06-12T11:49:59Z
+audi-rs-4,2015,4.2 V8 RS 4 Quattro,290000,320000,305000,"AED 290,000 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-4/2015/,2026-06-12T11:50:02Z
+audi-rs-4,2016,4.2 V8 RS 4 Quattro,290000,320000,305000,"AED 290,000 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-4/2016/,2026-06-12T11:50:04Z
+audi-rs-5,2013,4.2 V8 RS 5 Quattro,351000,400000,375500,"AED 351,000 - 400,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-5/2013/,2026-06-12T11:51:01Z
+audi-rs-5,2014,4.2 V8 RS 5 Quattro,351000,400000,375500,"AED 351,000 - 400,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-5/2014/,2026-06-12T11:51:04Z
+audi-rs-5,2015,4.2 V8 RS 5 Quattro,351000,400000,375500,"AED 351,000 - 400,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-5/2015/,2026-06-12T11:51:07Z
+audi-rs-5,2016,4.2 V8 RS 5 Quattro,351000,400000,375500,"AED 351,000 - 400,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-5/2016/,2026-06-12T11:51:09Z
+audi-rs-5,2018,2.9TC V6 RS 5 Quattro,377000,420000,398500,"AED 377,000 - 420,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-5/2018/,2026-06-12T11:51:14Z
+audi-rs-5,2019,2.9TC V6 RS 5 Quattro,377000,420000,398500,"AED 377,000 - 420,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-5/2019/,2026-06-12T11:51:17Z
+audi-rs-5,2020,2.9TC V6 RS 5 Quattro,377000,420000,398500,"AED 377,000 - 420,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-5/2020/,2026-06-12T11:51:20Z
+audi-rs-5,2021,2.9TC V6 RS 5 Quattro,377000,420000,398500,"AED 377,000 - 420,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-5/2021/,2026-06-12T11:51:22Z
+audi-rs-5,2022,2.9TC V6 RS 5 Quattro,377000,420000,398500,"AED 377,000 - 420,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-5/2022/,2026-06-12T11:51:25Z
+audi-rs-5,2023,2.9TC V6 RS 5 Quattro,377000,420000,398500,"AED 377,000 - 420,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-5/2023/,2026-06-12T11:51:27Z
+audi-rs-5,2024,2.9TC V6 RS 5 Quattro 4WD,377000,420000,398500,"AED 377,000 - 420,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-5/2024/,2026-06-12T11:51:31Z
+audi-rs-5-sportback,2020,2.9TC V6 RS 5 Sportback Quattro,377000,420000,398500,"AED 377,000 - 420,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-5-sportback/2020/,2026-06-12T11:52:16Z
+audi-rs-5-sportback,2021,2.9TC V6 RS 5 Sportback Quattro,377000,420000,398500,"AED 377,000 - 420,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-5-sportback/2021/,2026-06-12T11:52:18Z
+audi-rs-5-sportback,2022,2.9TC V6 RS 5 Sportback Quattro,377000,420000,398500,"AED 377,000 - 420,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-5-sportback/2022/,2026-06-12T11:52:20Z
+audi-rs-5-sportback,2023,2.9TC V6 RS 5 Sportback Quattro,377000,420000,398500,"AED 377,000 - 420,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-5-sportback/2023/,2026-06-12T11:52:23Z
+audi-rs-5-sportback,2024,2.9TC V6 RS 5 Sportback Quattro,479900,500000,489950,"AED 479,900 - 500,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-5-sportback/2024/,2026-06-12T11:52:25Z
+audi-rs-6,2014,4.0TC V8 RS 6 Quattro,538000,540000,539000,"AED 538,000 - 540,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-6/2014/,2026-06-12T11:52:59Z
+audi-rs-6,2015,4.0TC V8 RS 6 Quattro,538000,540000,539000,"AED 538,000 - 540,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-6/2015/,2026-06-12T11:53:01Z
+audi-rs-6,2016,4.0TC V8 RS 6 Quattro,538000,540000,539000,"AED 538,000 - 540,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-6/2016/,2026-06-12T11:53:03Z
+audi-rs-6,2017,4.0TC V8 RS 6 Quattro,538000,540000,539000,"AED 538,000 - 540,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-6/2017/,2026-06-12T11:53:06Z
+audi-rs-6,2018,4.0TC V8 RS 6 Quattro,538000,540000,539000,"AED 538,000 - 540,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-6/2018/,2026-06-12T11:53:08Z
+audi-rs-6,2020,4.0TC V8 RS 6 Quattro,538000,540000,539000,"AED 538,000 - 540,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-6/2020/,2026-06-12T11:53:12Z
+audi-rs-6,2021,4.0TC V8 RS 6 Quattro,589000,610000,599500,"AED 589,000 - 610,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-6/2021/,2026-06-12T11:53:14Z
+audi-rs-6,2022,4.0TC V8 RS 6 Quattro,589000,610000,599500,"AED 589,000 - 610,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-6/2022/,2026-06-12T11:53:17Z
+audi-rs-6,2023,4.0TC V8 RS 6 Quattro,589000,610000,599500,"AED 589,000 - 610,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-6/2023/,2026-06-12T11:53:19Z
+audi-rs-6,2024,4.0TC V8 RS 6 Quattro 4WD,589000,610000,599500,"AED 589,000 - 610,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-6/2024/,2026-06-12T11:53:22Z
+audi-rs-7,2014,4.0TC V8 RS 7 Quattro,475000,510000,492500,"AED 475,000 - 510,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-7/2014/,2026-06-12T11:53:55Z
+audi-rs-7,2015,4.0TC V8 RS 7 Quattro,475000,510000,492500,"AED 475,000 - 510,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-7/2015/,2026-06-12T11:53:57Z
+audi-rs-7,2016,4.0TC V8 RS 7 Quattro,475000,510000,492500,"AED 475,000 - 510,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-7/2016/,2026-06-12T11:53:59Z
+audi-rs-7,2017,4.0TC V8 RS 7 Quattro,475000,510000,492500,"AED 475,000 - 510,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-7/2017/,2026-06-12T11:54:01Z
+audi-rs-7,2018,4.0TC V8 RS 7 Quattro,475000,510000,492500,"AED 475,000 - 510,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-7/2018/,2026-06-12T11:54:03Z
+audi-rs-7,2019,4.0TC V8 RS 7 Quattro,475000,510000,492500,"AED 475,000 - 510,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-7/2019/,2026-06-12T11:54:05Z
+audi-rs-7,2020,4.0TC V8 RS 7 Quattro,500000,510000,505000,"AED 500,000 - 510,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-7/2020/,2026-06-12T11:54:07Z
+audi-rs-7,2021,4.0TC V8 RS 7 Quattro,599000,610000,604500,"AED 599,000 - 610,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-7/2021/,2026-06-12T11:54:09Z
+audi-rs-7,2022,4.0TC V8 RS 7 Quattro,599000,610000,604500,"AED 599,000 - 610,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-7/2022/,2026-06-12T11:54:11Z
+audi-rs-7,2023,4.0TC V8 RS 7 Quattro 4WD,599000,610000,604500,"AED 599,000 - 610,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-7/2023/,2026-06-12T11:54:13Z
+audi-rs-7,2024,4.0TC V8 RS 7 Quattro 4WD,599000,610000,604500,"AED 599,000 - 610,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-7/2024/,2026-06-12T11:54:15Z
+audi-rs-e-tron-gt,2022,93.4kWh E-Tron GT,552311,650000,601156,"AED 552,311 - 650,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-e-tron-gt/2022/,2026-06-12T11:54:56Z
+audi-rs-e-tron-gt,2023,93.4kWh E-Tron GT,552311,650000,601156,"AED 552,311 - 650,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-e-tron-gt/2023/,2026-06-12T11:54:58Z
+audi-rs-e-tron-gt,2024,93.4kWh E-Tron GT,624900,650000,637450,"AED 624,900 - 650,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-e-tron-gt/2024/,2026-06-12T11:55:00Z
+audi-rs-e-tron-gt,2025,93.4kWh E-Tron GT,624900,650000,637450,"AED 624,900 - 650,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-e-tron-gt/2025/,2026-06-12T11:55:02Z
+audi-rs-e-tron-gt,2026,E-Tron GT,624900,650000,637450,"AED 624,900 - 650,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-e-tron-gt/2026/,2026-06-12T11:55:04Z
+audi-rs-q3,2016,2.5TC I5 RS Q3 Base,231500,233000,232250,"AED 231,500 - 233,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q3/2016/,2026-06-12T11:55:32Z
+audi-rs-q3,2016,2.5TC I5 RS Q3 Full options,258000,260000,259000,"AED 258,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q3/2016/,2026-06-12T11:55:32Z
+audi-rs-q3,2017,2.5TC I5 RS Q3 Base,231500,233000,232250,"AED 231,500 - 233,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q3/2017/,2026-06-12T11:55:34Z
+audi-rs-q3,2017,2.5TC I5 RS Q3 Full options,258000,260000,259000,"AED 258,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q3/2017/,2026-06-12T11:55:34Z
+audi-rs-q3,2018,2.5TC I5 RS Q3 Base,231500,233000,232250,"AED 231,500 - 233,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q3/2018/,2026-06-12T11:55:36Z
+audi-rs-q3,2018,2.5TC I5 RS Q3 Full options,258000,260000,259000,"AED 258,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q3/2018/,2026-06-12T11:55:36Z
+audi-rs-q3,2021,2.5TC I5 RS Q3 Base,255000,260000,257500,"AED 255,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q3/2021/,2026-06-12T11:55:41Z
+audi-rs-q3,2021,2.5TC I5 RS Q3 Full options,281000,299250,290125,"AED 281,000 - 299,250",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q3/2021/,2026-06-12T11:55:41Z
+audi-rs-q3,2022,2.5TC I5 RS Q3 Base,255000,260000,257500,"AED 255,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q3/2022/,2026-06-12T11:55:43Z
+audi-rs-q3,2022,2.5TC I5 RS Q3 Full options,281000,299250,290125,"AED 281,000 - 299,250",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q3/2022/,2026-06-12T11:55:43Z
+audi-rs-q3,2023,2.5TC I5 RS Q3 Base,255000,260000,257500,"AED 255,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q3/2023/,2026-06-12T11:55:45Z
+audi-rs-q3,2023,2.5TC I5 RS Q3 Full options,281000,299250,290125,"AED 281,000 - 299,250",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q3/2023/,2026-06-12T11:55:45Z
+audi-rs-q3,2024,2.5TC I5 RS Q3,318000,380000,349000,"AED 318,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q3/2024/,2026-06-12T11:55:47Z
+audi-rs-q3,2025,2.5TC I5 RS Q3,318000,380000,349000,"AED 318,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q3/2025/,2026-06-12T11:55:49Z
+audi-rs-q8,2021,4.0TC+E V8 RS Q8,624750,735000,679875,"AED 624,750 - 735,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q8/2021/,2026-06-12T11:56:23Z
+audi-rs-q8,2022,4.0TC+E V8 RS Q8,635000,650000,642500,"AED 635,000 - 650,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q8/2022/,2026-06-12T11:56:25Z
+audi-rs-q8,2023,4.0TC+E V8 RS Q8,635000,650000,642500,"AED 635,000 - 650,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q8/2023/,2026-06-12T11:56:27Z
+audi-rs-q8,2024,4.0TC+E V8 RS Q8,635000,650000,642500,"AED 635,000 - 650,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q8/2024/,2026-06-12T11:56:29Z
+audi-rs-q8,2025,4.0TC+E V8 RS 4WD,635000,650000,642500,"AED 635,000 - 650,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q8/2025/,2026-06-12T11:56:31Z
+audi-rs-q8,2025,4.0TC+E V8 RS Performance 4WD,799900,800000,799950,"AED 799,900 - 800,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q8/2025/,2026-06-12T11:56:31Z
+audi-rs-q8,2026,4.0TC+E V8 RS 4WD,635000,650000,642500,"AED 635,000 - 650,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q8/2026/,2026-06-12T11:56:33Z
+audi-rs-q8,2026,4.0TC+E V8 RS Performance 4WD,799900,800000,799950,"AED 799,900 - 800,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-rs-q8/2026/,2026-06-12T11:56:33Z
+audi-s-q5,2016,3.0SC V6 S Q5,237400,270000,253700,"AED 237,400 - 270,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q5/2016/,2026-06-12T11:56:58Z
+audi-s-q5,2017,3.0SC V6 S Q5,237400,270000,253700,"AED 237,400 - 270,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q5/2017/,2026-06-12T11:57:00Z
+audi-s-q5,2018,3.0TC V6 S Q5,278000,280000,279000,"AED 278,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q5/2018/,2026-06-12T11:57:02Z
+audi-s-q5,2019,3.0TC V6 S Q5,278000,280000,279000,"AED 278,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q5/2019/,2026-06-12T11:57:04Z
+audi-s-q5,2020,3.0TC V6 S Q5,278000,280000,279000,"AED 278,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q5/2020/,2026-06-12T11:57:06Z
+audi-s-q5,2021,3.0TC V6 S Q5,278000,280000,279000,"AED 278,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q5/2021/,2026-06-12T11:57:08Z
+audi-s-q5,2022,3.0TC V6 S Q5,278000,280000,279000,"AED 278,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q5/2022/,2026-06-12T11:57:10Z
+audi-s-q5,2023,3.0TC V6 SQ5,316050,320000,318025,"AED 316,050 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q5/2023/,2026-06-12T11:57:12Z
+audi-s-q5,2023,3.0TC V6 SQ5 Sportback,326500,328000,327250,"AED 326,500 - 328,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q5/2023/,2026-06-12T11:57:12Z
+audi-s-q5,2024,3.0TC V6 SQ5,316050,320000,318025,"AED 316,050 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q5/2024/,2026-06-12T11:57:14Z
+audi-s-q5,2024,3.0TC V6 SQ5 Sportback,326500,328000,327250,"AED 326,500 - 328,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q5/2024/,2026-06-12T11:57:14Z
+audi-s-q5,2025,3.0TC V6 SQ5,316050,320000,318025,"AED 316,050 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q5/2025/,2026-06-12T11:57:16Z
+audi-s-q5,2025,3.0TC V6 SQ5 Sportback,326500,328000,327250,"AED 326,500 - 328,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q5/2025/,2026-06-12T11:57:16Z
+audi-s-q5,2026,3.0TC V6 SQ5 Sportback,359900,360000,359950,"AED 359,900 - 360,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q5/2026/,2026-06-12T11:57:18Z
+audi-s-q5,2026,3.0TC V6 SQ5,359900,360000,359950,"AED 359,900 - 360,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q5/2026/,2026-06-12T11:57:18Z
+audi-s-q7,2022,4.0TC V8 S Q7,527000,530000,528500,"AED 527,000 - 530,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q7/2022/,2026-06-12T11:57:50Z
+audi-s-q7,2023,4.0TC V8 S Q7,527000,530000,528500,"AED 527,000 - 530,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q7/2023/,2026-06-12T11:57:52Z
+audi-s-q7,2024,4.0T V8 SQ7 4WD,529900,535000,532450,"AED 529,900 - 535,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q7/2024/,2026-06-12T11:57:54Z
+audi-s-q7,2025,4.0T V8 SQ7 4WD,529900,535000,532450,"AED 529,900 - 535,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q7/2025/,2026-06-12T11:57:56Z
+audi-s-q7,2026,SQ7 4WD,529900,535000,532450,"AED 529,900 - 535,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q7/2026/,2026-06-12T11:57:58Z
+audi-s-q8,2022,4.0TC V8 SQ8,537000,540000,538500,"AED 537,000 - 540,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q8/2022/,2026-06-12T11:58:31Z
+audi-s-q8,2023,4.0TC V8 SQ8,537000,540000,538500,"AED 537,000 - 540,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q8/2023/,2026-06-12T11:58:33Z
+audi-s-q8,2024,4.0TC V8 SQ8,537000,540000,538500,"AED 537,000 - 540,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q8/2024/,2026-06-12T11:58:35Z
+audi-s-q8,2025,4.0TC V8 SQ8,537000,540000,538500,"AED 537,000 - 540,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q8/2025/,2026-06-12T11:58:36Z
+audi-s-q8,2026,4.0TC V8 SQ8,537000,540000,538500,"AED 537,000 - 540,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s-q8/2026/,2026-06-12T11:58:38Z
+audi-s3,2015,2.0TC I4 S3 Quattro,150000,200000,175000,"AED 150,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s3/2015/,2026-06-12T11:59:03Z
+audi-s3,2016,2.0TC I4 S3 Quattro,150000,200000,175000,"AED 150,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s3/2016/,2026-06-12T11:59:05Z
+audi-s3,2017,2.0TC I4 S3 Quattro,150000,200000,175000,"AED 150,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s3/2017/,2026-06-12T11:59:07Z
+audi-s3,2018,2.0TC I4 S3 Quattro,150000,200000,175000,"AED 150,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s3/2018/,2026-06-12T11:59:09Z
+audi-s3,2019,2.0TC I4 S3 Quattro,150000,200000,175000,"AED 150,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s3/2019/,2026-06-12T11:59:11Z
+audi-s3,2021,2.0TC I4 S3 Quattro,175000,200000,187500,"AED 175,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s3/2021/,2026-06-12T11:59:14Z
+audi-s3,2022,2.0TC I4 S3 Quattro,175000,200000,187500,"AED 175,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s3/2022/,2026-06-12T11:59:16Z
+audi-s3,2023,2.0TC I4 S3 Quattro,175000,200000,187500,"AED 175,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s3/2023/,2026-06-12T11:59:18Z
+audi-s3,2024,2.0TC I4 Quattro 4WD,175000,200000,187500,"AED 175,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s3/2024/,2026-06-12T11:59:19Z
+audi-s3,2025,2.0TC I4 Quattro 4WD,175000,200000,187500,"AED 175,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s3/2025/,2026-06-12T11:59:21Z
+audi-s3,2026,2.0TC I4 Quattro 4WD,175000,200000,187500,"AED 175,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s3/2026/,2026-06-12T11:59:23Z
+audi-s3-sportback,2024,2.0T.C l4 S-tronic TFSI 4WD,239900,260000,249950,"AED 239,900 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s3-sportback/2024/,2026-06-12T11:59:58Z
+audi-s3-sportback,2025,2.0T.C l4 S-tronic TFSI 4WD,239900,260000,249950,"AED 239,900 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s3-sportback/2025/,2026-06-12T12:00:00Z
+audi-s3-sportback,2026,2.0T.C l4 S-tronic TFSI 4WD,239900,260000,249950,"AED 239,900 - 260,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s3-sportback/2026/,2026-06-12T12:00:02Z
+audi-s4,2020,3.0TC V6 S4 55 TFSI,274000,276000,275000,"AED 274,000 - 276,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s4/2020/,2026-06-12T12:00:32Z
+audi-s4,2021,3.0TC V6 S4 55 TFSI,274000,276000,275000,"AED 274,000 - 276,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s4/2021/,2026-06-12T12:00:34Z
+audi-s4,2022,3.0TC V6 S4 55 TFSI,274000,276000,275000,"AED 274,000 - 276,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s4/2022/,2026-06-12T12:00:36Z
+audi-s4,2023,3.0TC V6 S4 55 TFSI,274000,276000,275000,"AED 274,000 - 276,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s4/2023/,2026-06-12T12:00:38Z
+audi-s4,2024,3.0TC V6 S4 55 TFSI 4WD,274000,276000,275000,"AED 274,000 - 276,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s4/2024/,2026-06-12T12:00:39Z
+audi-s5,2009,4.2 V8 S5 Quattro,295000,310000,302500,"AED 295,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s5/2009/,2026-06-12T12:00:59Z
+audi-s5,2010,4.2 V8 S5 Quattro,295000,310000,302500,"AED 295,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s5/2010/,2026-06-12T12:01:01Z
+audi-s5,2011,4.2 V8 S5 Quattro,295000,310000,302500,"AED 295,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s5/2011/,2026-06-12T12:01:03Z
+audi-s5,2012,4.2 V8 S5 Quattro,295000,310000,302500,"AED 295,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s5/2012/,2026-06-12T12:01:05Z
+audi-s5,2013,3.0SC V6 S5 Quattro,295000,310000,302500,"AED 295,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s5/2013/,2026-06-12T12:01:07Z
+audi-s5,2014,3.0SC V6 S5 Quattro,295000,310000,302500,"AED 295,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s5/2014/,2026-06-12T12:01:09Z
+audi-s5,2015,3.0SC V6 S5 Quattro,295000,310000,302500,"AED 295,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s5/2015/,2026-06-12T12:01:11Z
+audi-s5,2016,3.0SC V6 S5 Quattro,295000,310000,302500,"AED 295,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s5/2016/,2026-06-12T12:01:13Z
+audi-s5,2017,3.0TC V6 S5 Quattro,277500,320000,298750,"AED 277,500 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s5/2017/,2026-06-12T12:01:15Z
+audi-s5,2018,3.0TC V6 S5 Quattro,277500,320000,298750,"AED 277,500 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s5/2018/,2026-06-12T12:01:17Z
+audi-s5,2019,3.0TC V6 S5 Quattro,277500,320000,298750,"AED 277,500 - 320,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s5/2019/,2026-06-12T12:01:19Z
+audi-s5,2020,3.0TC V6 S5 Quattro,369900,380000,374950,"AED 369,900 - 380,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s5/2020/,2026-06-12T12:01:21Z
+audi-s5,2021,3.0TC V6 S5 Quattro,369900,380000,374950,"AED 369,900 - 380,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s5/2021/,2026-06-12T12:01:23Z
+audi-s5,2022,3.0TC V6 S5 Quattro,369900,380000,374950,"AED 369,900 - 380,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s5/2022/,2026-06-12T12:01:25Z
+audi-s5,2023,3.0TC V6 S5 Quattro,369900,380000,374950,"AED 369,900 - 380,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s5/2023/,2026-06-12T12:01:28Z
+audi-s5,2024,3.0TC V6 S5 Quattro,369900,380000,374950,"AED 369,900 - 380,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s5/2024/,2026-06-12T12:01:29Z
+audi-s5,2025,3.0TC I4 40 TFSI 4WD,359900,365000,362450,"AED 359,900 - 365,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s5/2025/,2026-06-12T12:01:31Z
+audi-s6,2015,4.0TC V8 S6 TFSI,310000,330000,320000,"AED 310,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s6/2015/,2026-06-12T12:02:00Z
+audi-s6,2016,4.0TC V8 S6 TFSI,310000,330000,320000,"AED 310,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s6/2016/,2026-06-12T12:02:02Z
+audi-s6,2017,4.0TC V8 S6 TFSI,310000,330000,320000,"AED 310,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s6/2017/,2026-06-12T12:02:05Z
+audi-s6,2018,4.0TC V8 S6 TFSI,310000,330000,320000,"AED 310,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s6/2018/,2026-06-12T12:02:07Z
+audi-s6,2020,2.9TC V6 S6 TFSI,357000,358000,357500,"AED 357,000 - 358,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s6/2020/,2026-06-12T12:02:10Z
+audi-s6,2021,2.9TC V6 S6 TFSI,357000,358000,357500,"AED 357,000 - 358,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s6/2021/,2026-06-12T12:02:12Z
+audi-s6,2022,2.9TC V6 S6 TFSI,357000,358000,357500,"AED 357,000 - 358,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s6/2022/,2026-06-12T12:02:14Z
+audi-s6,2023,2.9TC V6 S6 TFSI,357000,358000,357500,"AED 357,000 - 358,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s6/2023/,2026-06-12T12:02:16Z
+audi-s6,2024,2.9TC V6 S6 TFSI 4WD,357000,358000,357500,"AED 357,000 - 358,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s6/2024/,2026-06-12T12:02:18Z
+audi-s7,2013,4.0TC V8 S7 Quattro,335000,360000,347500,"AED 335,000 - 360,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s7/2013/,2026-06-12T12:03:27Z
+audi-s7,2014,4.0TC V8 S7 Quattro,335000,360000,347500,"AED 335,000 - 360,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s7/2014/,2026-06-12T12:03:29Z
+audi-s7,2015,4.0TC V8 S7 Quattro,335000,360000,347500,"AED 335,000 - 360,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s7/2015/,2026-06-12T12:03:31Z
+audi-s7,2016,4.0TC V8 S7 Quattro,335000,360000,347500,"AED 335,000 - 360,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s7/2016/,2026-06-12T12:03:33Z
+audi-s7,2017,4.0TC V8 S7 Quattro,335000,360000,347500,"AED 335,000 - 360,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s7/2017/,2026-06-12T12:03:35Z
+audi-s7,2024,4.0TC V6 S7 Quattro,449000,559000,504000,"AED 449,000 - 559,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s7/2024/,2026-06-12T12:03:44Z
+audi-s8,2007,5.2 V10 S8 Quattro,420000,450000,435000,"AED 420,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2007/,2026-06-12T12:04:04Z
+audi-s8,2008,5.2 V10 S8 Quattro,420000,450000,435000,"AED 420,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2008/,2026-06-12T12:04:05Z
+audi-s8,2009,5.2 V10 S8 Quattro,420000,450000,435000,"AED 420,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2009/,2026-06-12T12:04:08Z
+audi-s8,2010,5.2 V10 S8 Quattro,420000,450000,435000,"AED 420,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2010/,2026-06-12T12:04:10Z
+audi-s8,2011,5.2 V10 S8 Quattro,420000,450000,435000,"AED 420,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2011/,2026-06-12T12:04:12Z
+audi-s8,2013,4.0TC V8 S8 Quattro,473000,550000,511500,"AED 473,000 - 550,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2013/,2026-06-12T12:04:15Z
+audi-s8,2014,4.0TC V8 S8 Quattro,478000,550000,514000,"AED 478,000 - 550,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2014/,2026-06-12T12:04:17Z
+audi-s8,2015,4.0TC V8 S8 Quattro,478000,550000,514000,"AED 478,000 - 550,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2015/,2026-06-12T12:04:19Z
+audi-s8,2016,4.0TC V8 S8 Quattro,483000,550000,516500,"AED 483,000 - 550,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2016/,2026-06-12T12:04:21Z
+audi-s8,2016,4.0TC V8 S8 Plus Quattro,590000,600000,595000,"AED 590,000 - 600,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2016/,2026-06-12T12:04:21Z
+audi-s8,2017,4.0TC V8 S8 Quattro,483000,550000,516500,"AED 483,000 - 550,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2017/,2026-06-12T12:04:23Z
+audi-s8,2017,4.0TC V8 S8 Plus Quattro,590000,600000,595000,"AED 590,000 - 600,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2017/,2026-06-12T12:04:23Z
+audi-s8,2020,4.0TC+H V8 S8 Quattro,571000,630000,600500,"AED 571,000 - 630,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2020/,2026-06-12T12:04:27Z
+audi-s8,2021,4.0TC+H V8 S8 Quattro,571000,630000,600500,"AED 571,000 - 630,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2021/,2026-06-12T12:04:29Z
+audi-s8,2022,4.0TC+H V8 S8 Quattro,571000,630000,600500,"AED 571,000 - 630,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2022/,2026-06-12T12:04:31Z
+audi-s8,2024,4.0TC+H V8 S8 Quattro,571000,630000,600500,"AED 571,000 - 630,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2024/,2026-06-12T12:04:35Z
+audi-s8,2025,4.0TC+H V8 S8 4WD,571000,630000,600500,"AED 571,000 - 630,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2025/,2026-06-12T12:04:37Z
+audi-s8,2026,4.0TC+H V8 S8 4WD,571000,630000,600500,"AED 571,000 - 630,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-s8/2026/,2026-06-12T12:04:39Z
+audi-sq8-e-tron-sportback,2024,114kWh SQ8 Sportback,479900,610000,544950,"AED 479,900 - 610,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-sq8-e-tron-sportback/2024/,2026-06-12T12:05:17Z
+audi-sq8-e-tron-sportback,2025,114kWh SQ8 Sportback 4WD,479900,610000,544950,"AED 479,900 - 610,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-sq8-e-tron-sportback/2025/,2026-06-12T12:05:19Z
+audi-sq8-e-tron-sportback,2026,114kWh SQ8 Sportback 4WD,479900,610000,544950,"AED 479,900 - 610,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-sq8-e-tron-sportback/2026/,2026-06-12T12:05:21Z
+audi-tt,1999,1.8TC I4 1.8 TFSI,120000,128000,124000,"AED 120,000 - 128,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/1999/,2026-06-12T12:05:28Z
+audi-tt,1999,1.8TC I4 1.8 TFSI Quattro,133000,140000,136500,"AED 133,000 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/1999/,2026-06-12T12:05:28Z
+audi-tt,1999,3.2 V6 3.2 FSI Quattro,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/1999/,2026-06-12T12:05:28Z
+audi-tt,2000,1.8TC I4 1.8 TFSI,120000,128000,124000,"AED 120,000 - 128,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2000/,2026-06-12T12:05:30Z
+audi-tt,2000,1.8TC I4 1.8 TFSI Quattro,133000,140000,136500,"AED 133,000 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2000/,2026-06-12T12:05:30Z
+audi-tt,2000,3.2 V6 3.2 FSI Quattro,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2000/,2026-06-12T12:05:30Z
+audi-tt,2001,1.8TC I4 1.8 TFSI,120000,128000,124000,"AED 120,000 - 128,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2001/,2026-06-12T12:05:32Z
+audi-tt,2001,1.8TC I4 1.8 TFSI Quattro,133000,140000,136500,"AED 133,000 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2001/,2026-06-12T12:05:32Z
+audi-tt,2001,3.2 V6 3.2 FSI Quattro,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2001/,2026-06-12T12:05:32Z
+audi-tt,2002,1.8TC I4 1.8 TFSI,120000,128000,124000,"AED 120,000 - 128,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2002/,2026-06-12T12:05:35Z
+audi-tt,2002,1.8TC I4 1.8 TFSI Quattro,133000,140000,136500,"AED 133,000 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2002/,2026-06-12T12:05:35Z
+audi-tt,2002,3.2 V6 3.2 FSI Quattro,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2002/,2026-06-12T12:05:35Z
+audi-tt,2003,1.8TC I4 1.8 TFSI,120000,128000,124000,"AED 120,000 - 128,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2003/,2026-06-12T12:05:37Z
+audi-tt,2003,1.8TC I4 1.8 TFSI Quattro,133000,140000,136500,"AED 133,000 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2003/,2026-06-12T12:05:37Z
+audi-tt,2003,3.2 V6 3.2 FSI Quattro,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2003/,2026-06-12T12:05:37Z
+audi-tt,2004,1.8TC I4 1.8 TFSI,120000,128000,124000,"AED 120,000 - 128,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2004/,2026-06-12T12:05:39Z
+audi-tt,2004,1.8TC I4 1.8 TFSI Quattro,133000,140000,136500,"AED 133,000 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2004/,2026-06-12T12:05:39Z
+audi-tt,2004,3.2 V6 3.2 FSI Quattro,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2004/,2026-06-12T12:05:39Z
+audi-tt,2005,1.8TC I4 1.8 TFSI,120000,128000,124000,"AED 120,000 - 128,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2005/,2026-06-12T12:05:41Z
+audi-tt,2005,1.8TC I4 1.8 TFSI Quattro,133000,140000,136500,"AED 133,000 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2005/,2026-06-12T12:05:41Z
+audi-tt,2005,3.2 V6 3.2 FSI Quattro,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2005/,2026-06-12T12:05:41Z
+audi-tt,2006,1.8TC I4 1.8 TFSI,120000,128000,124000,"AED 120,000 - 128,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2006/,2026-06-12T12:05:43Z
+audi-tt,2006,1.8TC I4 1.8 TFSI Quattro,133000,140000,136500,"AED 133,000 - 140,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2006/,2026-06-12T12:05:43Z
+audi-tt,2006,3.2 V6 3.2 FSI Quattro,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2006/,2026-06-12T12:05:43Z
+audi-tt,2007,2.0TC I4 TT FWD,149000,170000,159500,"AED 149,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2007/,2026-06-12T12:05:45Z
+audi-tt,2007,3.2 V6 TT AWD Quattro,177000,205000,191000,"AED 177,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2007/,2026-06-12T12:05:45Z
+audi-tt,2007,2.5TC I5 TT RS Quattro,237000,250000,243500,"AED 237,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2007/,2026-06-12T12:05:45Z
+audi-tt,2008,2.0TC I4 TT FWD,149000,170000,159500,"AED 149,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2008/,2026-06-12T12:05:47Z
+audi-tt,2008,3.2 V6 TT AWD Quattro,177000,205000,191000,"AED 177,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2008/,2026-06-12T12:05:47Z
+audi-tt,2008,2.5TC I5 TT RS Quattro,237000,250000,243500,"AED 237,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2008/,2026-06-12T12:05:47Z
+audi-tt,2009,2.0TC I4 TT FWD,149000,170000,159500,"AED 149,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2009/,2026-06-12T12:05:49Z
+audi-tt,2009,3.2 V6 TT AWD Quattro,177000,205000,191000,"AED 177,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2009/,2026-06-12T12:05:49Z
+audi-tt,2009,2.5TC I5 TT RS Quattro,237000,250000,243500,"AED 237,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2009/,2026-06-12T12:05:49Z
+audi-tt,2010,2.0TC I4 TT FWD,149000,170000,159500,"AED 149,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2010/,2026-06-12T12:05:51Z
+audi-tt,2010,3.2 V6 TT AWD Quattro,177000,205000,191000,"AED 177,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2010/,2026-06-12T12:05:51Z
+audi-tt,2010,2.5TC I5 TT RS Quattro,237000,250000,243500,"AED 237,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2010/,2026-06-12T12:05:51Z
+audi-tt,2011,2.0TC I4 TT FWD,149000,170000,159500,"AED 149,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2011/,2026-06-12T12:05:53Z
+audi-tt,2011,3.2 V6 TT AWD Quattro,177000,205000,191000,"AED 177,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2011/,2026-06-12T12:05:53Z
+audi-tt,2011,2.5TC I5 TT RS Quattro,237000,250000,243500,"AED 237,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2011/,2026-06-12T12:05:53Z
+audi-tt,2012,2.0TC I4 TT FWD,149000,170000,159500,"AED 149,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2012/,2026-06-12T12:05:55Z
+audi-tt,2012,3.2 V6 TT AWD Quattro,177000,205000,191000,"AED 177,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2012/,2026-06-12T12:05:55Z
+audi-tt,2012,2.5TC I5 TT RS Quattro,237000,250000,243500,"AED 237,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2012/,2026-06-12T12:05:55Z
+audi-tt,2013,2.0TC I4 TT FWD,149000,170000,159500,"AED 149,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2013/,2026-06-12T12:05:57Z
+audi-tt,2013,3.2 V6 TT AWD Quattro,177000,205000,191000,"AED 177,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2013/,2026-06-12T12:05:57Z
+audi-tt,2013,2.5TC I5 TT RS Quattro,237000,250000,243500,"AED 237,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2013/,2026-06-12T12:05:57Z
+audi-tt,2014,2.0TC I4 TT FWD,149000,170000,159500,"AED 149,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2014/,2026-06-12T12:05:59Z
+audi-tt,2014,3.2 V6 TT AWD Quattro,177000,205000,191000,"AED 177,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2014/,2026-06-12T12:05:59Z
+audi-tt,2014,2.5TC I5 TT RS Quattro,237000,250000,243500,"AED 237,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2014/,2026-06-12T12:05:59Z
+audi-tt,2015,2.0TC I4 TT FWD,183500,195000,189250,"AED 183,500 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2015/,2026-06-12T12:06:01Z
+audi-tt,2015,2.0TC I4 TT AWD Quattro,202000,210000,206000,"AED 202,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2015/,2026-06-12T12:06:01Z
+audi-tt,2016,2.0TC I4 TT FWD,183500,195000,189250,"AED 183,500 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2016/,2026-06-12T12:06:03Z
+audi-tt,2016,2.0TC I4 TT AWD Quattro,202000,210000,206000,"AED 202,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2016/,2026-06-12T12:06:03Z
+audi-tt,2017,2.0TC I4 TT FWD,183500,195000,189250,"AED 183,500 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2017/,2026-06-12T12:06:05Z
+audi-tt,2017,2.0TC I4 TT AWD Quattro,202000,210000,206000,"AED 202,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2017/,2026-06-12T12:06:05Z
+audi-tt,2018,2.0TC I4 TT FWD,183500,195000,189250,"AED 183,500 - 195,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2018/,2026-06-12T12:06:07Z
+audi-tt,2018,2.0TC I4 TT AWD Quattro,202000,210000,206000,"AED 202,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2018/,2026-06-12T12:06:07Z
+audi-tt,2018,2.5TC I5 TT RS,306400,308000,307200,"AED 306,400 - 308,000",AED,https://www.drivearabia.com/carprices/uae/audi/audi-tt/2018/,2026-06-12T12:06:07Z

@@ -26,6 +26,31 @@ from chat_cat.predict import decode_vin
 # Define fallback model and lookup paths
 MODEL_DIR = str(project_root / "chat_cat" / "models")
 LOOKUP_DATA_PATH = project_root / "lookup_data.csv"
+DEPRECIATION_CSV_PATHS = {
+    "audi_dep.csv": project_root / "Valuation" / "data" / "audi_dep.csv",
+    "byd_dep.csv": project_root / "Valuation" / "data" / "byd_dep.csv",
+    "chevelorate_dep.csv": project_root / "Valuation" / "data" / "chevelorate_dep.csv",
+    "drivearabia_toyota_prices_newest.csv": project_root / "Valuation" / "data" / "drivearabia_toyota_prices_newest.csv",
+    "drivearabia_toyota_prices.csv": project_root / "Valuation" / "data" / "drivearabia_toyota_prices.csv",
+    "ford_dep.csv": project_root / "Valuation" / "data" / "ford_dep.csv",
+    "gmc_dep.csv": project_root / "Valuation" / "data" / "gmc_dep.csv",
+    "honda_dep.csv": project_root / "Valuation" / "data" / "honda_dep.csv",
+    "hyundai_dep.csv": project_root / "Valuation" / "data" / "hyundai_dep.csv",
+    "infiniti_dep.csv": project_root / "Valuation" / "data" / "infiniti_dep.csv",
+    "jeep_dep.csv": project_root / "Valuation" / "data" / "jeep_dep.csv",
+    "kia_dep.csv": project_root / "Valuation" / "data" / "kia_dep.csv",
+    "lexus_dep.csv": project_root / "Valuation" / "data" / "lexus_dep.csv",
+    "lincoln_dep.csv": project_root / "Valuation" / "data" / "lincoln_dep.csv",
+    "mazda_dep.csv": project_root / "Valuation" / "data" / "mazda_dep.csv",
+    "mini_dep.csv": project_root / "Valuation" / "data" / "mini_dep.csv",
+    "mitsubishi_dep.csv": project_root / "Valuation" / "data" / "mitsubishi_dep.csv",
+    "porsche_dep.csv": project_root / "Valuation" / "data" / "porsche_dep.csv",
+    "rox_dep.csv": project_root / "Valuation" / "data" / "rox_dep.csv",
+    "suzuki_dep.csv": project_root / "Valuation" / "data" / "suzuki_dep.csv",
+    "tesla_dep.csv": project_root / "Valuation" / "data" / "tesla_dep.csv",
+    "toyota_dep.csv": project_root / "Valuation" / "data" / "toyota_dep.csv",
+    "volkswagen_dep.csv": project_root / "Valuation" / "data" / "volkswagen_dep.csv"
+}
 
 st.title("VIN Decoder (ML Model)")
 
@@ -138,6 +163,138 @@ def get_lookup_price(result: dict, vin: str):
     return None
 
 
+
+@st.cache_resource
+def load_ml_price_model(model_path: str):
+    from catboost import CatBoostRegressor
+    model = CatBoostRegressor()
+    model.load_model(model_path)
+    return model
+
+
+def get_ml_predicted_price(result: dict) -> float:
+    model_path = project_root / "Valuation_ml" / "price_model.cbm"
+    if not model_path.exists():
+        return None
+    try:
+        model = load_ml_price_model(str(model_path))
+    except Exception:
+        return None
+
+    make = str(result.get("make", "")).strip().upper()
+    model_name = str(result.get("model", "")).strip().upper()
+    trim = str(result.get("trim", "")).strip()
+    if not trim or trim.upper() in ["NAN", "NONE", "UNKNOWN", ""]:
+        trim = "UNKNOWN"
+    else:
+        trim = trim.upper()
+
+    year_val = pd.to_numeric(result.get("year"), errors="coerce")
+    if pd.isna(year_val):
+        return None
+
+    ref_year = 2026
+    age = max(ref_year - int(year_val), 0)
+
+    input_df = pd.DataFrame([{
+        "make": make,
+        "model": model_name,
+        "trim": trim,
+        "age": age
+    }])
+
+    try:
+        import numpy as np
+        pred_log = model.predict(input_df)[0]
+        pred_price = np.expm1(pred_log)
+        return float(pred_price)
+    except Exception:
+        return None
+
+
+@st.cache_data
+def load_all_depreciation_lookups(paths_dict: dict) -> dict:
+    dfs = {}
+    for name, path in paths_dict.items():
+        if Path(path).exists():
+            try:
+                dfs[name] = pd.read_csv(path)
+            except Exception:
+                pass
+    return dfs
+
+
+def find_matches_in_df(df: pd.DataFrame, result: dict) -> pd.DataFrame:
+    make = str(result.get("make", "")).strip().lower()
+    model = str(result.get("model", "")).strip().lower().replace(" ", "-")
+    if make:
+        if not model.startswith(f"{make}-"):
+            model_slug = f"{make}-{model}"
+        else:
+            model_slug = model
+    else:
+        model_slug = model
+        
+    year = result.get("year")
+    try:
+        year_val = int(pd.to_numeric(year))
+    except Exception:
+        return pd.DataFrame()
+        
+    matches = df[(df["model_slug"] == model_slug) & (df["year"] == year_val)]
+    if matches.empty:
+        matches = df[df["model_slug"].str.contains(model, case=False, na=False) & (df["year"] == year_val)]
+        if matches.empty:
+            return pd.DataFrame()
+            
+    trim = str(result.get("trim", "")).strip().upper()
+    
+    def normalize_trim(val):
+        if pd.isna(val):
+            return ""
+        return re.sub(r"[^A-Z0-9]", "", str(val).upper())
+        
+    trim_key = normalize_trim(trim)
+    
+    best_match = None
+    if trim_key:
+        exact_matches = matches[matches["trim_name"].apply(normalize_trim) == trim_key]
+        if not exact_matches.empty:
+            best_match = exact_matches
+        else:
+            contains_matches = matches[matches["trim_name"].apply(lambda x: trim_key in normalize_trim(x) or normalize_trim(x) in trim_key)]
+            if not contains_matches.empty:
+                best_match = contains_matches
+            else:
+                matches_copy = matches.copy()
+                matches_copy["score"] = matches_copy["trim_name"].apply(
+                    lambda x: SequenceMatcher(None, trim_key, normalize_trim(x)).ratio() if x else 0.0
+                )
+                fuzzy_matches = matches_copy[matches_copy["score"] >= 0.82]
+                if not fuzzy_matches.empty:
+                    best_score = fuzzy_matches["score"].max()
+                    best_match = fuzzy_matches[fuzzy_matches["score"] == best_score]
+                    
+    if best_match is None or best_match.empty:
+        best_match = matches
+        
+    return best_match
+
+
+def get_depreciated_values_by_file(result: dict) -> dict:
+    dfs_dict = load_all_depreciation_lookups(DEPRECIATION_CSV_PATHS)
+    matched_values = {}
+    
+    for filename, df in dfs_dict.items():
+        matched_df = find_matches_in_df(df, result)
+        if not matched_df.empty and "depreciated_value" in matched_df.columns:
+            valid_vals = matched_df["depreciated_value"].dropna()
+            if not valid_vals.empty:
+                matched_values[filename] = float(valid_vals.median())
+                
+    return matched_values
+
+
 # Verification safety check
 if st.button("Decode", use_container_width=True):
     if len(vin_input) != 17:
@@ -150,9 +307,67 @@ if st.button("Decode", use_container_width=True):
 
                 # Format prediction results into a table
                 conf_dict = result.get("attribute_confidences", {})
+                # Display overall confidence score
+                overall_conf = result.get("confidence", 0.0) * 100
+
                 price = get_lookup_price(result, vin_input)
                 price_display = "Not found" if price is None else f"{price:,.0f}"
                 result["lookup_price"] = None if price is None else float(price)
+
+                # Calculate dynamic, data-driven confidence based on price variance for the make/model
+                try:
+                    lookup_df = load_price_lookup(str(LOOKUP_DATA_PATH))
+                    
+                    make_key = normalize_lookup_text(result.get("make"))
+                    model_key = normalize_lookup_text(result.get("model"))
+                    
+                    model_matches = lookup_df[
+                        (lookup_df["make_key"] == make_key) & 
+                        (lookup_df["model_key"] == model_key)
+                    ]
+                    
+                    prices = model_matches["price"].dropna()
+                    if len(prices) > 1:
+                        std_val = prices.std()
+                        mean_val = prices.mean()
+                        if mean_val > 0:
+                            coef_var = std_val / mean_val
+                            model_confidence = max(100.0 - (coef_var * 50.0), 60.0)
+                            model_confidence = min(model_confidence, 98.0)
+                        else:
+                            model_confidence = 94.50
+                    else:
+                        model_confidence = 94.50
+                except Exception:
+                    model_confidence = 94.50
+
+                ml_price = get_ml_predicted_price(result)
+                if ml_price is None:
+                    ml_price_display = "Not found"
+                    ml_conf_display = "Not found"
+                    ml_predicted_conf = None
+                else:
+                    ml_price_display = f"{ml_price:,.0f}"
+                    ml_joint_conf = (overall_conf / 100.0) * model_confidence
+                    ml_conf_display = f"{ml_joint_conf:.2f}%"
+                    ml_predicted_conf = float(ml_joint_conf / 100.0)
+                result["ml_predicted_price"] = None if ml_price is None else float(ml_price)
+                result["ml_predicted_price_confidence"] = ml_predicted_conf
+
+                dep_values = get_depreciated_values_by_file(result)
+                result["depreciated_values"] = dep_values
+
+                dep_rows = []
+                if not dep_values:
+                    dep_rows.append({"Attribute": "Depreciated Value", "Predicted Value": "Not found", "Confidence": "Lookup"})
+                else:
+                    for filename, val in dep_values.items():
+                        display_name = filename.rsplit('.', 1)[0]
+                        dep_rows.append({
+                            "Attribute": f"Depreciated Value ({display_name})",
+                            "Predicted Value": f"{val:,.0f}",
+                            "Confidence": "Lookup"
+                        })
 
                 table_data = [
                     {"Attribute": "Make", "Predicted Value": result.get("make"), "Confidence": f"{conf_dict.get('make', 0.0) * 100:.2f}%"},
@@ -166,12 +381,12 @@ if st.button("Decode", use_container_width=True):
                     {"Attribute": "Weight (KG)", "Predicted Value": result.get("weight"), "Confidence": f"{conf_dict.get('weight', 0.0) * 100:.2f}%"},
                     {"Attribute": "Regional Specs", "Predicted Value": result.get("regional_spec"), "Confidence": f"{conf_dict.get('regional_spec', 0.0) * 100:.2f}%"},
                     {"Attribute": "Price", "Predicted Value": price_display, "Confidence": "Lookup"},
+                    {"Attribute": "Price (ML Model)", "Predicted Value": ml_price_display, "Confidence": ml_conf_display},
                 ]
+                table_data.extend(dep_rows)
 
                 df_results = pd.DataFrame(table_data)
 
-                # Display overall confidence score
-                overall_conf = result.get("confidence", 0.0) * 100
                 st.subheader(f"Overall Confidence: {overall_conf:.2f}%")
 
                 # Display Results Table

@@ -1,0 +1,321 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+toyota-avalon,2022,SE Plus,144900,145000,144950,"AED 144,900 - 145,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-avalon/2022/,2026-06-12T07:54:47Z
+toyota-avalon,2022,Limited,164900,165000,164950,"AED 164,900 - 165,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-avalon/2022/,2026-06-12T07:54:47Z
+toyota-c-hr,2022,1.8L GX Hybrid,86900,87000,86950,"AED 86,900 - 87,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-c-hr/2022/,2026-06-12T07:54:58Z
+toyota-c-hr,2022,1.8L VX Hybrid,93900,94000,93950,"AED 93,900 - 94,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-c-hr/2022/,2026-06-12T07:54:58Z
+toyota-c-hr,2023,1.8L GX,92900,93000,92950,"AED 92,900 - 93,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-c-hr/2023/,2026-06-12T07:55:00Z
+toyota-c-hr,2023,1.8L VX,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-c-hr/2023/,2026-06-12T07:55:00Z
+toyota-camry,2022,2.5 S,98900,99000,98950,"AED 98,900 - 99,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2022/,2026-06-12T07:55:06Z
+toyota-camry,2022,2.5 SE,106900,107000,106950,"AED 106,900 - 107,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2022/,2026-06-12T07:55:06Z
+toyota-camry,2022,3.5 SE,126900,127000,126950,"AED 126,900 - 127,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2022/,2026-06-12T07:55:06Z
+toyota-camry,2022,3.5 Sport,132900,133000,132950,"AED 132,900 - 133,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2022/,2026-06-12T07:55:06Z
+toyota-camry,2022,Hybrid,137900,138000,137950,"AED 137,900 - 138,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2022/,2026-06-12T07:55:06Z
+toyota-camry,2023,2.5 S,98900,99000,98950,"AED 98,900 - 99,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2023/,2026-06-12T07:55:08Z
+toyota-camry,2023,2.5 SE,107900,108000,107950,"AED 107,900 - 108,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2023/,2026-06-12T07:55:08Z
+toyota-camry,2023,3.5 SE,126900,127000,126950,"AED 126,900 - 127,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2023/,2026-06-12T07:55:08Z
+toyota-camry,2023,3.5 Sport,132900,133000,132950,"AED 132,900 - 133,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2023/,2026-06-12T07:55:08Z
+toyota-camry,2023,Hybrid,139900,140000,139950,"AED 139,900 - 140,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2023/,2026-06-12T07:55:08Z
+toyota-camry,2024,2.5L I4 SE FWD,111900,112000,111950,"AED 111,900 - 112,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2024/,2026-06-12T07:55:10Z
+toyota-camry,2024,3.5L V6 40th Anniversary FWD,133900,134000,133950,"AED 133,900 - 134,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2024/,2026-06-12T07:55:10Z
+toyota-camry,2024,3.5L V6 Sport FWD,130000,138900,134450,"AED 138,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2024/,2026-06-12T07:55:10Z
+toyota-camry,2024,2.5H I4 Limited FWD,142900,143000,142950,"AED 142,900 - 143,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2024/,2026-06-12T07:55:10Z
+toyota-camry,2025,2.5L I4 E FWD,109900,110000,109950,"AED 109,900 - 110,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2025/,2026-06-12T07:55:12Z
+toyota-camry,2025,2.5L I4 XLE FWD,119900,120000,119950,"AED 119,900 - 120,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2025/,2026-06-12T07:55:12Z
+toyota-camry,2025,2.5H I4 XLE FWD,123900,124000,123950,"AED 123,900 - 124,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2025/,2026-06-12T07:55:12Z
+toyota-camry,2025,2.5L I4 GLE FWD,136900,137000,136950,"AED 136,900 - 137,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2025/,2026-06-12T07:55:12Z
+toyota-camry,2025,2.5H I4 GLE FWD,139900,140000,139950,"AED 139,900 - 140,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2025/,2026-06-12T07:55:12Z
+toyota-camry,2026,XLE,122900,124000,123450,"AED 122,900 - 124,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2026/,2026-06-12T07:55:14Z
+toyota-camry,2026,XLE Hybrid,125900,127000,126450,"AED 125,900 - 127,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2026/,2026-06-12T07:55:14Z
+toyota-camry,2026,GLE,139900,140000,139950,"AED 139,900 - 140,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2026/,2026-06-12T07:55:14Z
+toyota-camry,2026,Sport,141900,142000,141950,"AED 141,900 - 142,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2026/,2026-06-12T07:55:14Z
+toyota-camry,2026,GLE Hybrid,141900,143000,142450,"AED 141,900 - 143,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2026/,2026-06-12T07:55:14Z
+toyota-camry,2026,Sport Hybrid,143900,144000,143950,"AED 143,900 - 144,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2026/,2026-06-12T07:55:14Z
+toyota-camry,2026,Limited Hybrid,151900,152000,151950,"AED 151,900 - 152,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-camry/2026/,2026-06-12T07:55:14Z
+toyota-corolla,2022,1.6 XLi,71900,72000,71950,"AED 71,900 - 72,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2022/,2026-06-12T07:55:15Z
+toyota-corolla,2022,2.0 XLi,77900,78000,77950,"AED 77,900 - 78,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2022/,2026-06-12T07:55:15Z
+toyota-corolla,2022,1.6 GLi,78900,79000,78950,"AED 78,900 - 79,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2022/,2026-06-12T07:55:15Z
+toyota-corolla,2022,1.8 hybrid,83900,95900,89900,"AED 83,900 - 95,900",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2022/,2026-06-12T07:55:15Z
+toyota-corolla,2023,1.6 XLi,73900,75900,74900,"AED 73,900 - 75,900",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2023/,2026-06-12T07:55:17Z
+toyota-corolla,2023,2.0 XLi,77900,78000,77950,"AED 77,900 - 78,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2023/,2026-06-12T07:55:17Z
+toyota-corolla,2023,1.6 GLi,80900,81000,80950,"AED 80,900 - 81,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2023/,2026-06-12T07:55:17Z
+toyota-corolla,2023,1.8 hybrid,85900,86000,85950,"AED 85,900 - 86,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2023/,2026-06-12T07:55:17Z
+toyota-corolla,2024,1.6 XLi,74900,75900,75400,"AED 74,900 - 75,900",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2024/,2026-06-12T07:55:19Z
+toyota-corolla,2024,2.0 XLi,77900,78000,77950,"AED 77,900 - 78,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2024/,2026-06-12T07:55:19Z
+toyota-corolla,2024,1.6 GLi,80900,81000,80950,"AED 80,900 - 81,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2024/,2026-06-12T07:55:19Z
+toyota-corolla,2024,1.8 hybrid,85900,86000,85950,"AED 85,900 - 86,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2024/,2026-06-12T07:55:19Z
+toyota-corolla,2025,1.6 I4 XLi FWD,76900,77900,77400,"AED 76,900 - 77,900",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2025/,2026-06-12T07:55:21Z
+toyota-corolla,2025,1.6 I4 GLi FWD,82900,83000,82950,"AED 82,900 - 83,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2025/,2026-06-12T07:55:21Z
+toyota-corolla,2025,2.0 I4 XLi FWD,83900,84000,83950,"AED 83,900 - 84,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2025/,2026-06-12T07:55:21Z
+toyota-corolla,2025,1.8H I4 Hybrid FWD,87900,88000,87950,"AED 87,900 - 88,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2025/,2026-06-12T07:55:21Z
+toyota-corolla,2026,1.6 I4 XLi FWD,76900,77900,77400,"AED 76,900 - 77,900",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2026/,2026-06-12T07:55:23Z
+toyota-corolla,2026,1.6 I4 GLi FWD,82900,83000,82950,"AED 82,900 - 83,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2026/,2026-06-12T07:55:23Z
+toyota-corolla,2026,2.0 I4 XLi FWD,83900,84000,83950,"AED 83,900 - 84,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2026/,2026-06-12T07:55:23Z
+toyota-corolla,2026,1.8H I4 Hybrid FWD,87900,88000,87950,"AED 87,900 - 88,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla/2026/,2026-06-12T07:55:23Z
+toyota-corolla-cross,2022,XL,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla-cross/2022/,2026-06-12T07:55:25Z
+toyota-corolla-cross,2022,GL,100900,101000,100950,"AED 100,900 - 101,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla-cross/2022/,2026-06-12T07:55:25Z
+toyota-corolla-cross,2023,XL,91900,92000,91950,"AED 91,900 - 92,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla-cross/2023/,2026-06-12T07:55:27Z
+toyota-corolla-cross,2023,GL,106900,107000,106950,"AED 106,900 - 107,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla-cross/2023/,2026-06-12T07:55:27Z
+toyota-corolla-cross,2024,1.8H I4 XL FWD,92000,94900,93450,"AED 94,900 - 92,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla-cross/2024/,2026-06-12T07:55:29Z
+toyota-corolla-cross,2024,1.8H I4 GL FWD,109900,110000,109950,"AED 109,900 - 110,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla-cross/2024/,2026-06-12T07:55:29Z
+toyota-corolla-cross,2025,1.8H I4 XL FWD,96900,97000,96950,"AED 96,900 - 97,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla-cross/2025/,2026-06-12T07:55:31Z
+toyota-corolla-cross,2025,1.8H I4 GLI FWD,111900,112000,111950,"AED 111,900 - 112,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla-cross/2025/,2026-06-12T07:55:31Z
+toyota-corolla-cross,2026,1.8H I4 XL FWD,96900,97000,96950,"AED 96,900 - 97,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla-cross/2026/,2026-06-12T07:55:33Z
+toyota-corolla-cross,2026,1.8H I4 GLI FWD,111900,112000,111950,"AED 111,900 - 112,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-corolla-cross/2026/,2026-06-12T07:55:33Z
+toyota-crown,2023,2.4H I4 XLE,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-crown/2023/,2026-06-12T07:55:36Z
+toyota-crown,2023,2.4H I4 Platinum,229900,230000,229950,"AED 229,900 - 230,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-crown/2023/,2026-06-12T07:55:36Z
+toyota-crown,2024,2.4H I4 XLE,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-crown/2024/,2026-06-12T07:55:38Z
+toyota-crown,2024,2.4H I4 Platinum,229900,230000,229950,"AED 229,900 - 230,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-crown/2024/,2026-06-12T07:55:38Z
+toyota-crown,2025,2.4H I4 XLE,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-crown/2025/,2026-06-12T07:55:40Z
+toyota-crown,2025,2.4H I4 Platinum,229900,230000,229950,"AED 229,900 - 230,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-crown/2025/,2026-06-12T07:55:40Z
+toyota-crown,2026,2.4H I4 Platinum,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-crown/2026/,2026-06-12T07:55:41Z
+toyota-fj-cruiser,2022,GXR,150000,151000,150500,"AED 150,000 - 151,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fj-cruiser/2022/,2026-06-12T07:55:43Z
+toyota-fj-cruiser,2022,Adventure X,175000,176000,175500,"AED 175,000 - 176,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fj-cruiser/2022/,2026-06-12T07:55:43Z
+toyota-fj-cruiser,2023,GXR,156900,157000,156950,"AED 156,900 - 157,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fj-cruiser/2023/,2026-06-12T07:55:45Z
+toyota-fj-cruiser,2023,Adventure X,187900,188000,187950,"AED 187,900 - 188,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fj-cruiser/2023/,2026-06-12T07:55:45Z
+toyota-fj-cruiser,2026,FJ 4WD,125000,150000,137500,"AED 125,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fj-cruiser/2026/,2026-06-12T07:55:50Z
+toyota-fortuner,2022,2.7L EXR,122900,123000,122950,"AED 122,900 - 123,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fortuner/2022/,2026-06-12T07:55:51Z
+toyota-fortuner,2022,4.0L GXR,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fortuner/2022/,2026-06-12T07:55:51Z
+toyota-fortuner,2022,4.0L VXR,165900,166000,165950,"AED 165,900 - 166,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fortuner/2022/,2026-06-12T07:55:51Z
+toyota-fortuner,2023,2.7L EXR,122900,123000,122950,"AED 122,900 - 123,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fortuner/2023/,2026-06-12T07:55:53Z
+toyota-fortuner,2023,4.0L GXR,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fortuner/2023/,2026-06-12T07:55:53Z
+toyota-fortuner,2023,4.0L VXR,165900,166000,165950,"AED 165,900 - 166,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fortuner/2023/,2026-06-12T07:55:53Z
+toyota-fortuner,2024,2.7L EXR,122900,123000,122950,"AED 122,900 - 123,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fortuner/2024/,2026-06-12T07:55:55Z
+toyota-fortuner,2024,4.0L GXR,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fortuner/2024/,2026-06-12T07:55:55Z
+toyota-fortuner,2024,4.0L VXR,165900,166000,165950,"AED 165,900 - 166,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fortuner/2024/,2026-06-12T07:55:55Z
+toyota-fortuner,2025,2.7L EXR 4WD,127900,128000,127950,"AED 127,900 - 128,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fortuner/2025/,2026-06-12T07:55:57Z
+toyota-fortuner,2025,4.0L GXR 4WD,153900,154000,153950,"AED 153,900 - 154,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fortuner/2025/,2026-06-12T07:55:57Z
+toyota-fortuner,2025,4.0L VXR 4WD,165900,166000,165950,"AED 165,900 - 166,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fortuner/2025/,2026-06-12T07:55:57Z
+toyota-fortuner,2026,2.7L EXR 4WD,128900,129000,128950,"AED 128,900 - 129,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fortuner/2026/,2026-06-12T07:55:59Z
+toyota-fortuner,2026,4.0L GXR 4WD,154900,155000,154950,"AED 154,900 - 155,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fortuner/2026/,2026-06-12T07:55:59Z
+toyota-fortuner,2026,4.0L VXR 4WD,173900,174000,173950,"AED 173,900 - 174,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-fortuner/2026/,2026-06-12T07:55:59Z
+toyota-gr-corolla,2026,manual AWD,182900,183000,182950,"AED 182,900 - 183,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-gr-corolla/2026/,2026-06-12T07:56:05Z
+toyota-gr-corolla,2026,automatic AWD,184900,185000,184950,"AED 184,900 - 185,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-gr-corolla/2026/,2026-06-12T07:56:05Z
+toyota-gr-yaris,2026,GR86 MT,167900,168000,167950,"AED 167,900 - 168,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-gr-yaris/2026/,2026-06-12T07:56:12Z
+toyota-gr-yaris,2026,GR 86 AT,169900,170000,169950,"AED 169,900 - 170,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-gr-yaris/2026/,2026-06-12T07:56:12Z
+toyota-gr86,2024,2.4 I4 manual RWD,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-gr86/2024/,2026-06-12T07:56:16Z
+toyota-gr86,2024,2.4 I4 auto RWD,159900,160000,159950,"AED 159,900 - 160,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-gr86/2024/,2026-06-12T07:56:16Z
+toyota-gr86,2024,2.4 I4 brembo RWD,169900,170000,169950,"AED 169,900 - 170,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-gr86/2024/,2026-06-12T07:56:16Z
+toyota-gr86,2025,2.4 I4 manual RWD,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-gr86/2025/,2026-06-12T07:56:18Z
+toyota-gr86,2025,2.4 I4 auto RWD,162900,163000,162950,"AED 162,900 - 163,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-gr86/2025/,2026-06-12T07:56:18Z
+toyota-gr86,2025,2.4 I4 brembo RWD,172900,173000,172950,"AED 172,900 - 173,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-gr86/2025/,2026-06-12T07:56:18Z
+toyota-gr86,2026,AT,162900,164900,163900,"AED 162,900 - 164,900",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-gr86/2026/,2026-06-12T07:56:20Z
+toyota-granvia,2022,SE,177000,178000,177500,"AED 177,000 - 178,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-granvia/2022/,2026-06-12T07:56:22Z
+toyota-granvia,2022,Premium,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-granvia/2022/,2026-06-12T07:56:22Z
+toyota-granvia,2023,SE,177000,178000,177500,"AED 177,000 - 178,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-granvia/2023/,2026-06-12T07:56:24Z
+toyota-granvia,2023,Premium,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-granvia/2023/,2026-06-12T07:56:24Z
+toyota-granvia,2024,SE,177000,178000,177500,"AED 177,000 - 178,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-granvia/2024/,2026-06-12T07:56:26Z
+toyota-granvia,2024,Premium,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-granvia/2024/,2026-06-12T07:56:26Z
+toyota-granvia,2025,3.5L V6 Premium RWD,211900,212000,211950,"AED 211,900 - 212,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-granvia/2025/,2026-06-12T07:56:28Z
+toyota-granvia,2026,Premium RWD,215900,216000,215950,"AED 215,900 - 216,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-granvia/2026/,2026-06-12T07:56:30Z
+toyota-hiace,2022,3.5L panel van,103900,105000,104450,"AED 103,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hiace/2022/,2026-06-12T07:56:31Z
+toyota-hiace,2022,3.5L high roof panel van,123900,125000,124450,"AED 123,900 - 125,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hiace/2022/,2026-06-12T07:56:31Z
+toyota-hiace,2022,3.5L commuter van,136900,138000,137450,"AED 136,900 - 138,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hiace/2022/,2026-06-12T07:56:31Z
+toyota-hiace,2023,3.5L panel van,103900,105000,104450,"AED 103,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hiace/2023/,2026-06-12T07:56:33Z
+toyota-hiace,2023,3.5L high roof panel van,123900,125000,124450,"AED 123,900 - 125,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hiace/2023/,2026-06-12T07:56:33Z
+toyota-hiace,2023,3.5L commuter van,136900,138000,137450,"AED 136,900 - 138,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hiace/2023/,2026-06-12T07:56:33Z
+toyota-hiace,2024,3.5L panel van,103900,105000,104450,"AED 103,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hiace/2024/,2026-06-12T07:56:35Z
+toyota-hiace,2024,3.5L high roof panel van,123900,125000,124450,"AED 123,900 - 125,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hiace/2024/,2026-06-12T07:56:35Z
+toyota-hiace,2024,3.5L commuter van,136900,138000,137450,"AED 136,900 - 138,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hiace/2024/,2026-06-12T07:56:35Z
+toyota-hiace,2025,3.5L V6 commuter MT RWD,142900,143000,142950,"AED 142,900 - 143,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hiace/2025/,2026-06-12T07:56:37Z
+toyota-hiace,2025,3.5L V6 commuter AT RWD,148900,150000,149450,"AED 148,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hiace/2025/,2026-06-12T07:56:37Z
+toyota-hiace,2026,3.5L V6 Panel Van MT RWD,131900,135900,133900,"AED 131,900 - 135,900",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hiace/2026/,2026-06-12T07:56:39Z
+toyota-hiace,2026,3.5L V6 commuter MT RWD,144900,145000,144950,"AED 144,900 - 145,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hiace/2026/,2026-06-12T07:56:39Z
+toyota-hiace,2026,3.5L V6 commuter AT RWD,150900,151000,150950,"AED 150,900 - 151,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hiace/2026/,2026-06-12T07:56:39Z
+toyota-highlander,2022,GXR 4WD,154900,155000,154950,"AED 154,900 - 155,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-highlander/2022/,2026-06-12T07:56:41Z
+toyota-highlander,2022,VXR 4WD,179900,180000,179950,"AED 179,900 - 180,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-highlander/2022/,2026-06-12T07:56:41Z
+toyota-highlander,2023,2.5H I4 GXR 4WD,169900,170000,169950,"AED 169,900 - 170,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-highlander/2023/,2026-06-12T07:56:43Z
+toyota-highlander,2023,2.5H I4 VXR 4WD,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-highlander/2023/,2026-06-12T07:56:43Z
+toyota-highlander,2024,2.5H I4 GXR 4WD,169900,170000,169950,"AED 169,900 - 170,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-highlander/2024/,2026-06-12T07:56:45Z
+toyota-highlander,2024,2.5H I4 VXR 4WD,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-highlander/2024/,2026-06-12T07:56:45Z
+toyota-highlander,2025,2.5H I4 GXR 4WD,169900,170000,169950,"AED 169,900 - 170,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-highlander/2025/,2026-06-12T07:56:47Z
+toyota-highlander,2025,2.5H I4 VXR 4WD,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-highlander/2025/,2026-06-12T07:56:47Z
+toyota-hilux,2022,2.7 Single Cab 4x2,77700,78000,77850,"AED 77,700 - 78,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2022/,2026-06-12T07:56:50Z
+toyota-hilux,2022,2.7 Double Cab 4x2,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2022/,2026-06-12T07:56:50Z
+toyota-hilux,2022,2.7 Single Cab 4x4,99250,100000,99625,"AED 99,250 - 100,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2022/,2026-06-12T07:56:50Z
+toyota-hilux,2022,2.7 Double Cab 4x4,115000,116000,115500,"AED 115,000 - 116,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2022/,2026-06-12T07:56:50Z
+toyota-hilux,2022,4.0 V6 Hilux GR Sport,147900,148000,147950,"AED 147,900 - 148,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2022/,2026-06-12T07:56:50Z
+toyota-hilux,2023,2.7 Single Cab 4x2,77700,78000,77850,"AED 77,700 - 78,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2023/,2026-06-12T07:56:52Z
+toyota-hilux,2023,2.7 Double Cab 4x2,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2023/,2026-06-12T07:56:52Z
+toyota-hilux,2023,2.7 Single Cab 4x4,99250,100000,99625,"AED 99,250 - 100,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2023/,2026-06-12T07:56:52Z
+toyota-hilux,2023,2.7 Double Cab 4x4,115000,116000,115500,"AED 115,000 - 116,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2023/,2026-06-12T07:56:52Z
+toyota-hilux,2023,4.0 V6 Hilux GR Sport,147900,148000,147950,"AED 147,900 - 148,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2023/,2026-06-12T07:56:52Z
+toyota-hilux,2024,2.7 Single Cab 4x2,77700,78000,77850,"AED 77,700 - 78,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2024/,2026-06-12T07:56:54Z
+toyota-hilux,2024,2.7 Double Cab 4x2,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2024/,2026-06-12T07:56:54Z
+toyota-hilux,2024,2.7 Single Cab 4x4,99250,100000,99625,"AED 99,250 - 100,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2024/,2026-06-12T07:56:54Z
+toyota-hilux,2024,2.7 Double Cab 4x4,115000,116000,115500,"AED 115,000 - 116,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2024/,2026-06-12T07:56:54Z
+toyota-hilux,2024,4.0 V6 Hilux GR Sport,147900,148000,147950,"AED 147,900 - 148,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2024/,2026-06-12T07:56:54Z
+toyota-hilux,2025,2.7 Single Cab 4x2,77700,78000,77850,"AED 77,700 - 78,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2025/,2026-06-12T07:56:55Z
+toyota-hilux,2025,2.7 Double Cab 4x2,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2025/,2026-06-12T07:56:55Z
+toyota-hilux,2025,2.7 Single Cab 4x4,99250,100000,99625,"AED 99,250 - 100,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2025/,2026-06-12T07:56:55Z
+toyota-hilux,2025,2.7 Double Cab 4x4,115000,116000,115500,"AED 115,000 - 116,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2025/,2026-06-12T07:56:55Z
+toyota-hilux,2025,4.0 V6 Hilux GR Sport,147900,148000,147950,"AED 147,900 - 148,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2025/,2026-06-12T07:56:55Z
+toyota-hilux,2026,2.7 Single Cab 4x2,77700,78000,77850,"AED 77,700 - 78,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2026/,2026-06-12T07:56:57Z
+toyota-hilux,2026,2.7 Double Cab 4x2,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2026/,2026-06-12T07:56:57Z
+toyota-hilux,2026,2.7 Single Cab 4x4,99250,100000,99625,"AED 99,250 - 100,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2026/,2026-06-12T07:56:57Z
+toyota-hilux,2026,2.7 Double Cab 4x4,115000,116000,115500,"AED 115,000 - 116,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2026/,2026-06-12T07:56:57Z
+toyota-hilux,2026,4.0 V6 Hilux GR Sport,147900,148000,147950,"AED 147,900 - 148,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-hilux/2026/,2026-06-12T07:56:57Z
+toyota-innova,2022,SE,99650,100000,99825,"AED 99,650 - 100,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-innova/2022/,2026-06-12T07:56:59Z
+toyota-innova,2022,SE,105550,106000,105775,"AED 105,550 - 106,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-innova/2022/,2026-06-12T07:56:59Z
+toyota-innova,2023,2.0H I4 HEV FWD,137900,138900,138400,"AED 137,900 - 138,900",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-innova/2023/,2026-06-12T07:57:01Z
+toyota-innova,2026,2.0H I4 HEV FWD,126900,138900,132900,"AED 126,900 - 138,900",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-innova/2026/,2026-06-12T07:57:05Z
+toyota-land-cruiser,2022,4.0 V6 EXR,229900,230000,229950,"AED 229,900 - 230,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2022/,2026-06-12T07:57:07Z
+toyota-land-cruiser,2022,4.0 V6 GXR,259900,260000,259950,"AED 259,900 - 260,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2022/,2026-06-12T07:57:07Z
+toyota-land-cruiser,2022,4.0 V6 VXR,289900,290000,289950,"AED 289,900 - 290,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2022/,2026-06-12T07:57:07Z
+toyota-land-cruiser,2022,3.5T V6 EXR,297900,298000,297950,"AED 297,900 - 298,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2022/,2026-06-12T07:57:07Z
+toyota-land-cruiser,2022,3.5T V6 GXR,319900,320000,319950,"AED 319,900 - 320,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2022/,2026-06-12T07:57:07Z
+toyota-land-cruiser,2022,3.5T V6 VXR,354900,355000,354950,"AED 354,900 - 355,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2022/,2026-06-12T07:57:07Z
+toyota-land-cruiser,2023,4.0 V6 EXR 4WD,238900,239000,238950,"AED 238,900 - 239,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2023/,2026-06-12T07:57:09Z
+toyota-land-cruiser,2023,4.0 V6 GXR 4WD,269900,270000,269950,"AED 269,900 - 270,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2023/,2026-06-12T07:57:09Z
+toyota-land-cruiser,2023,3.5TC V6 EXR 4WD,307900,308000,307950,"AED 307,900 - 308,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2023/,2026-06-12T07:57:09Z
+toyota-land-cruiser,2023,3.5TC V6 Black Edition 4WD,307900,308000,307950,"AED 307,900 - 308,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2023/,2026-06-12T07:57:09Z
+toyota-land-cruiser,2023,4.0 V6 VXR 4WD,308900,309000,308950,"AED 308,900 - 309,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2023/,2026-06-12T07:57:09Z
+toyota-land-cruiser,2023,3.5TC V6 GXR 4WD,329900,330000,329950,"AED 329,900 - 330,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2023/,2026-06-12T07:57:09Z
+toyota-land-cruiser,2023,3.5TC V6 VXR 4WD,377900,378000,377950,"AED 377,900 - 378,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2023/,2026-06-12T07:57:09Z
+toyota-land-cruiser,2024,4.0 V6 EXR 4WD,238900,239000,238950,"AED 238,900 - 239,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2024/,2026-06-12T07:57:11Z
+toyota-land-cruiser,2024,4.0 V6 GXR 4WD,269900,270000,269950,"AED 269,900 - 270,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2024/,2026-06-12T07:57:11Z
+toyota-land-cruiser,2024,3.5TC V6 EXR 4WD,307900,308000,307950,"AED 307,900 - 308,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2024/,2026-06-12T07:57:11Z
+toyota-land-cruiser,2024,3.5TC V6 Black Edition 4WD,307900,308000,307950,"AED 307,900 - 308,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2024/,2026-06-12T07:57:11Z
+toyota-land-cruiser,2024,4.0 V6 VXR 4WD,308900,309000,308950,"AED 308,900 - 309,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2024/,2026-06-12T07:57:11Z
+toyota-land-cruiser,2024,3.5TC V6 GXR 4WD,329900,330000,329950,"AED 329,900 - 330,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2024/,2026-06-12T07:57:11Z
+toyota-land-cruiser,2024,3.5TC V6 VXR 4WD,377900,378000,377950,"AED 377,900 - 378,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2024/,2026-06-12T07:57:11Z
+toyota-land-cruiser,2025,4.0 V6 EXR 4WD,238900,239000,238950,"AED 238,900 - 239,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2025/,2026-06-12T07:57:13Z
+toyota-land-cruiser,2025,4.0 V6 GXR 4WD,269900,270000,269950,"AED 269,900 - 270,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2025/,2026-06-12T07:57:13Z
+toyota-land-cruiser,2025,3.5TC V6 EXR 4WD,307900,308000,307950,"AED 307,900 - 308,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2025/,2026-06-12T07:57:13Z
+toyota-land-cruiser,2025,3.5TC V6 Black Edition 4WD,307900,308000,307950,"AED 307,900 - 308,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2025/,2026-06-12T07:57:13Z
+toyota-land-cruiser,2025,4.0 V6 VXR 4WD,308900,309000,308950,"AED 308,900 - 309,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2025/,2026-06-12T07:57:13Z
+toyota-land-cruiser,2025,3.5TC V6 GXR 4WD,329900,330000,329950,"AED 329,900 - 330,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2025/,2026-06-12T07:57:13Z
+toyota-land-cruiser,2025,3.5TC V6 VXR 4WD,377900,378000,377950,"AED 377,900 - 378,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2025/,2026-06-12T07:57:13Z
+toyota-land-cruiser,2025,3.5TC V6 VXR Hybrid 4WD,389900,390000,389950,"AED 389,900 - 390,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2025/,2026-06-12T07:57:13Z
+toyota-land-cruiser,2025,3.5TC V6 GR-S Hybrid 4WD,409900,410000,409950,"AED 409,900 - 410,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2025/,2026-06-12T07:57:13Z
+toyota-land-cruiser,2026,4.0 V6 EXR 4WD,239900,240000,239950,"AED 239,900 - 240,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2026/,2026-06-12T07:57:15Z
+toyota-land-cruiser,2026,4.0 V6 GXR 4WD,274900,275000,274950,"AED 274,900 - 275,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2026/,2026-06-12T07:57:15Z
+toyota-land-cruiser,2026,3.5TC V6 Black Edition 4WD,307900,308000,307950,"AED 307,900 - 308,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2026/,2026-06-12T07:57:15Z
+toyota-land-cruiser,2026,4.0 V6 VXR 4WD,316900,317000,316950,"AED 316,900 - 317,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2026/,2026-06-12T07:57:15Z
+toyota-land-cruiser,2026,3.5TC V6 GXR 4WD,335900,336000,335950,"AED 335,900 - 336,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2026/,2026-06-12T07:57:15Z
+toyota-land-cruiser,2026,3.5TC V6 VXR 4WD,379900,380000,379950,"AED 379,900 - 380,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2026/,2026-06-12T07:57:15Z
+toyota-land-cruiser,2026,3.5TC V6 VXR Hybrid 4WD,389900,390000,389950,"AED 389,900 - 390,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2026/,2026-06-12T07:57:15Z
+toyota-land-cruiser,2026,3.5TC V6 GR-S Hybrid 4WD,409900,410000,409950,"AED 409,900 - 410,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser/2026/,2026-06-12T07:57:15Z
+toyota-land-cruiser-70,2022,3-door,150700,151000,150850,"AED 150,700 - 151,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-70/2022/,2026-06-12T07:57:17Z
+toyota-land-cruiser-70,2022,LC70 Overlander 5-door,190000,190500,190250,"AED 190,000 - 190,500",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-70/2022/,2026-06-12T07:57:17Z
+toyota-land-cruiser-70,2023,3-door,150700,151000,150850,"AED 150,700 - 151,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-70/2023/,2026-06-12T07:57:19Z
+toyota-land-cruiser-70,2023,LC70 Overlander 5-door,190000,190500,190250,"AED 190,000 - 190,500",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-70/2023/,2026-06-12T07:57:19Z
+toyota-land-cruiser-70,2024,4.0L V6 3-door 4WD,169900,171000,170450,"AED 169,900 - 171,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-70/2024/,2026-06-12T07:57:21Z
+toyota-land-cruiser-70,2024,4.0L V6 5-door 4WD,179900,181000,180450,"AED 179,900 - 181,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-70/2024/,2026-06-12T07:57:21Z
+toyota-land-cruiser-70,2025,4.0L V6 3-door 4WD,172900,173000,172950,"AED 172,900 - 173,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-70/2025/,2026-06-12T07:57:23Z
+toyota-land-cruiser-70,2025,4.0L V6 5-door 4WD,182900,183000,182950,"AED 182,900 - 183,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-70/2025/,2026-06-12T07:57:23Z
+toyota-land-cruiser-70,2026,4.0L V6 3-door 4WD,177900,178000,177950,"AED 177,900 - 178,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-70/2026/,2026-06-12T07:57:24Z
+toyota-land-cruiser-70,2026,4.0L V6 5-door 4WD,187900,188000,187950,"AED 187,900 - 188,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-70/2026/,2026-06-12T07:57:24Z
+toyota-land-cruiser-gr-sport,2023,3.5TC V6 GR 4WD,412900,413000,412950,"AED 412,900 - 413,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-gr-sport/2023/,2026-06-12T07:57:28Z
+toyota-land-cruiser-gr-sport,2024,3.5TC V6 GR 4WD,412900,413000,412950,"AED 412,900 - 413,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-gr-sport/2024/,2026-06-12T07:57:30Z
+toyota-land-cruiser-gr-sport,2025,3.5TC V6 GR 4WD,399900,412900,406400,"AED 399,900 - 412,900",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-gr-sport/2025/,2026-06-12T07:57:32Z
+toyota-land-cruiser-gr-sport,2025,3.5TC+E V6 GR 4WD,409900,410000,409950,"AED 409,900 - 410,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-gr-sport/2025/,2026-06-12T07:57:32Z
+toyota-land-cruiser-gr-sport,2026,3.5TC V6 GR 4WD,399900,412900,406400,"AED 399,900 - 412,900",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-gr-sport/2026/,2026-06-12T07:57:35Z
+toyota-land-cruiser-gr-sport,2026,3.5TC+E V6 GR 4WD,409900,410000,409950,"AED 409,900 - 410,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-gr-sport/2026/,2026-06-12T07:57:35Z
+toyota-land-cruiser-pickup,2022,4-door,141750,142000,141875,"AED 141,750 - 142,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-pickup/2022/,2026-06-12T07:57:37Z
+toyota-land-cruiser-pickup,2022,2-door,151200,152000,151600,"AED 151,200 - 152,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-pickup/2022/,2026-06-12T07:57:37Z
+toyota-land-cruiser-pickup,2022,Overlander 4-door,195000,196000,195500,"AED 195,000 - 196,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-pickup/2022/,2026-06-12T07:57:37Z
+toyota-land-cruiser-pickup,2023,4-door,141750,142000,141875,"AED 141,750 - 142,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-pickup/2023/,2026-06-12T07:57:39Z
+toyota-land-cruiser-pickup,2023,2-door,151200,152000,151600,"AED 151,200 - 152,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-pickup/2023/,2026-06-12T07:57:39Z
+toyota-land-cruiser-pickup,2023,Overlander 4-door,195000,196000,195500,"AED 195,000 - 196,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-pickup/2023/,2026-06-12T07:57:39Z
+toyota-land-cruiser-pickup,2024,4-door,141750,142000,141875,"AED 141,750 - 142,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-pickup/2024/,2026-06-12T07:57:40Z
+toyota-land-cruiser-pickup,2024,2-door,151200,152000,151600,"AED 151,200 - 152,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-pickup/2024/,2026-06-12T07:57:40Z
+toyota-land-cruiser-pickup,2024,Overlander 4-door,195000,196000,195500,"AED 195,000 - 196,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-pickup/2024/,2026-06-12T07:57:40Z
+toyota-land-cruiser-prado,2022,4.0 V6 EXR,165900,166000,165950,"AED 165,900 - 166,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2022/,2026-06-12T07:57:45Z
+toyota-land-cruiser-prado,2022,4.0 V6 GXR,183900,184000,183950,"AED 183,900 - 184,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2022/,2026-06-12T07:57:45Z
+toyota-land-cruiser-prado,2022,4.0 V6 VXR,198900,199000,198950,"AED 198,900 - 199,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2022/,2026-06-12T07:57:45Z
+toyota-land-cruiser-prado,2023,4.0 V6 EXR,167900,168000,167950,"AED 167,900 - 168,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2023/,2026-06-12T07:57:47Z
+toyota-land-cruiser-prado,2023,4.0 V6 GXR,183900,184000,183950,"AED 183,900 - 184,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2023/,2026-06-12T07:57:47Z
+toyota-land-cruiser-prado,2023,4.0 V6 VXR,200900,201000,200950,"AED 200,900 - 201,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2023/,2026-06-12T07:57:47Z
+toyota-land-cruiser-prado,2023,4.0 V6 Limited,229900,230000,229950,"AED 229,900 - 230,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2023/,2026-06-12T07:57:47Z
+toyota-land-cruiser-prado,2024,2.4TC I4 TXR 4WD,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2024/,2026-06-12T07:57:49Z
+toyota-land-cruiser-prado,2024,2.4TC I4 GXR 4WD,219900,220000,219950,"AED 219,900 - 220,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2024/,2026-06-12T07:57:49Z
+toyota-land-cruiser-prado,2024,2.4TC I4 GXL 4WD,229900,230000,229950,"AED 229,900 - 230,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2024/,2026-06-12T07:57:49Z
+toyota-land-cruiser-prado,2024,2.4TC I4 Adventure 4WD,254900,255000,254950,"AED 254,900 - 255,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2024/,2026-06-12T07:57:49Z
+toyota-land-cruiser-prado,2024,2.4 TC I4 Adventure First Edition 4WD,264900,265000,264950,"AED 264,900 - 265,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2024/,2026-06-12T07:57:49Z
+toyota-land-cruiser-prado,2025,2.4TC I4 TXR 4WD,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2025/,2026-06-12T07:57:51Z
+toyota-land-cruiser-prado,2025,2.4TC I4 GXR 4WD,219900,220000,219950,"AED 219,900 - 220,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2025/,2026-06-12T07:57:51Z
+toyota-land-cruiser-prado,2025,2.4TC I4 GXL 4WD,229900,230000,229950,"AED 229,900 - 230,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2025/,2026-06-12T07:57:51Z
+toyota-land-cruiser-prado,2025,2.4TC I4 Adventure 4WD,254900,255000,254950,"AED 254,900 - 255,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2025/,2026-06-12T07:57:51Z
+toyota-land-cruiser-prado,2025,2.4 TC I4 VXR 4WD,264900,265000,264950,"AED 264,900 - 265,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2025/,2026-06-12T07:57:51Z
+toyota-land-cruiser-prado,2026,2.4TC I4 TXR 4WD,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2026/,2026-06-12T07:57:53Z
+toyota-land-cruiser-prado,2026,2.4TC I4 GXR 4WD,219900,220000,219950,"AED 219,900 - 220,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2026/,2026-06-12T07:57:53Z
+toyota-land-cruiser-prado,2026,2.4TC I4 GXL 4WD,229900,230000,229950,"AED 229,900 - 230,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2026/,2026-06-12T07:57:53Z
+toyota-land-cruiser-prado,2026,2.4TC I4 Adventure 4WD,254900,255000,254950,"AED 254,900 - 255,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2026/,2026-06-12T07:57:53Z
+toyota-land-cruiser-prado,2026,2.4 TC I4 VXR 4WD,264900,265000,264950,"AED 264,900 - 265,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado/2026/,2026-06-12T07:57:53Z
+toyota-land-cruiser-prado-swb,2023,2.7 I4 SWB 4WD,160000,161000,160500,"AED 160,000 - 161,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-land-cruiser-prado-swb/2023/,2026-06-12T07:57:57Z
+toyota-liteace,2022,1.5 I4 GL FWD,68900,71000,69950,"AED 68,900 - 71,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-liteace/2022/,2026-06-12T07:58:02Z
+toyota-liteace,2023,1.5 I4 GL FWD,74900,75000,74950,"AED 74,900 - 75,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-liteace/2023/,2026-06-12T07:58:04Z
+toyota-liteace,2024,1.5 I4 GL FWD,74900,75000,74950,"AED 74,900 - 75,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-liteace/2024/,2026-06-12T07:58:06Z
+toyota-liteace,2025,1.5 I4 GL FWD,74900,75000,74950,"AED 74,900 - 75,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-liteace/2025/,2026-06-12T07:58:08Z
+toyota-raize,2022,1.2L E,57900,60000,58950,"AED 57,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-raize/2022/,2026-06-12T07:58:22Z
+toyota-raize,2022,1.0T E,61900,62000,61950,"AED 61,900 - 62,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-raize/2022/,2026-06-12T07:58:22Z
+toyota-raize,2022,1.0T G,63900,64000,63950,"AED 63,900 - 64,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-raize/2022/,2026-06-12T07:58:22Z
+toyota-raize,2023,1.2L I3 E 2WD,61900,62000,61950,"AED 61,900 - 62,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-raize/2023/,2026-06-12T07:58:24Z
+toyota-raize,2023,1.0TC I3 G 2WD,66900,67000,66950,"AED 66,900 - 67,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-raize/2023/,2026-06-12T07:58:24Z
+toyota-raize,2024,1.2L I3 E 2WD,61900,62000,61950,"AED 61,900 - 62,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-raize/2024/,2026-06-12T07:58:26Z
+toyota-raize,2024,1.0TC I3 G 2WD,66900,67000,66950,"AED 66,900 - 67,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-raize/2024/,2026-06-12T07:58:26Z
+toyota-raize,2025,1.2L I3 E 2WD,61900,62000,61950,"AED 61,900 - 62,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-raize/2025/,2026-06-12T07:58:28Z
+toyota-raize,2025,1.0TC I3 G 2WD,66900,67000,66950,"AED 66,900 - 67,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-raize/2025/,2026-06-12T07:58:28Z
+toyota-raize,2026,1.2L I3 E 2WD,63900,64000,63950,"AED 63,900 - 64,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-raize/2026/,2026-06-12T07:58:30Z
+toyota-raize,2026,1.0TC I3 G 2WD,66900,67000,66950,"AED 66,900 - 67,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-raize/2026/,2026-06-12T07:58:30Z
+toyota-rav-4,2022,2.5L EX,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2022/,2026-06-12T07:58:32Z
+toyota-rav-4,2022,2.5L EXR,102900,103000,102950,"AED 102,900 - 103,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2022/,2026-06-12T07:58:32Z
+toyota-rav-4,2022,2.5L Adventure,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2022/,2026-06-12T07:58:32Z
+toyota-rav-4,2022,2.5 Hybrid,139900,140000,139950,"AED 139,900 - 140,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2022/,2026-06-12T07:58:32Z
+toyota-rav-4,2023,2.5L I4 EX 2WD,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2023/,2026-06-12T07:58:33Z
+toyota-rav-4,2023,2.5L I4 EXR 2WD,112900,113000,112950,"AED 112,900 - 113,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2023/,2026-06-12T07:58:33Z
+toyota-rav-4,2023,2.5H I4 EXR Hybrid 4WD,120900,121000,120950,"AED 120,900 - 121,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2023/,2026-06-12T07:58:33Z
+toyota-rav-4,2023,2.5L I4 VX 2WD,123900,124000,123950,"AED 123,900 - 124,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2023/,2026-06-12T07:58:33Z
+toyota-rav-4,2023,2.5L I4 Adventure 4WD,139900,140000,139950,"AED 139,900 - 140,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2023/,2026-06-12T07:58:33Z
+toyota-rav-4,2023,2.5H I4 VXR Hybrid 4WD,152900,153000,152950,"AED 152,900 - 153,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2023/,2026-06-12T07:58:33Z
+toyota-rav-4,2024,2.5L I4 EX 2WD,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2024/,2026-06-12T07:58:35Z
+toyota-rav-4,2024,2.5L I4 EXR 2WD,112900,113000,112950,"AED 112,900 - 113,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2024/,2026-06-12T07:58:35Z
+toyota-rav-4,2024,2.5H I4 EXR Hybrid 4WD,120900,121000,120950,"AED 120,900 - 121,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2024/,2026-06-12T07:58:35Z
+toyota-rav-4,2024,2.5L I4 VX 2WD,123900,124000,123950,"AED 123,900 - 124,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2024/,2026-06-12T07:58:35Z
+toyota-rav-4,2024,2.5L I4 Adventure 4WD,139900,140000,139950,"AED 139,900 - 140,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2024/,2026-06-12T07:58:35Z
+toyota-rav-4,2024,2.5H I4 VXR Hybrid 4WD,152900,153000,152950,"AED 152,900 - 153,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2024/,2026-06-12T07:58:35Z
+toyota-rav-4,2025,2.5L I4 EX 2WD,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2025/,2026-06-12T07:58:37Z
+toyota-rav-4,2025,2.5L I4 EXR 2WD,112900,113000,112950,"AED 112,900 - 113,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2025/,2026-06-12T07:58:37Z
+toyota-rav-4,2025,2.5H I4 EXR Hybrid 4WD,120900,121000,120950,"AED 120,900 - 121,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2025/,2026-06-12T07:58:37Z
+toyota-rav-4,2025,2.5L I4 VX 2WD,123900,124000,123950,"AED 123,900 - 124,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2025/,2026-06-12T07:58:37Z
+toyota-rav-4,2025,2.5L I4 Adventure 4WD,139900,140000,139950,"AED 139,900 - 140,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2025/,2026-06-12T07:58:37Z
+toyota-rav-4,2025,2.5H I4 VXR Hybrid 4WD,152900,153000,152950,"AED 152,900 - 153,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2025/,2026-06-12T07:58:37Z
+toyota-rav-4,2026,2.0 EX FWD,105900,106000,105950,"AED 105,900 - 106,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2026/,2026-06-12T07:58:39Z
+toyota-rav-4,2026,2.0 EXR FWD,113900,114000,113950,"AED 113,900 - 114,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2026/,2026-06-12T07:58:39Z
+toyota-rav-4,2026,2.5H HEV EX 2WD,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2026/,2026-06-12T07:58:39Z
+toyota-rav-4,2026,2.5 HEV EXR AWD,122900,123000,122950,"AED 122,900 - 123,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2026/,2026-06-12T07:58:39Z
+toyota-rav-4,2026,2.5H Adventure AWD,142900,143000,142950,"AED 142,900 - 143,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rav-4/2026/,2026-06-12T07:58:39Z
+toyota-rush,2022,EX,68500,69000,68750,"AED 68,500 - 69,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rush/2022/,2026-06-12T07:58:41Z
+toyota-rush,2022,GX,73000,74000,73500,"AED 73,000 - 74,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rush/2022/,2026-06-12T07:58:41Z
+toyota-rush,2023,EX,69900,70000,69950,"AED 69,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rush/2023/,2026-06-12T07:58:43Z
+toyota-rush,2023,GX,74900,75000,74950,"AED 74,900 - 75,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-rush/2023/,2026-06-12T07:58:43Z
+toyota-supra,2022,2.0T GR,179900,180000,179950,"AED 179,900 - 180,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-supra/2022/,2026-06-12T07:58:54Z
+toyota-supra,2022,3.0T GR,199000,200000,199500,"AED 199,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-supra/2022/,2026-06-12T07:58:54Z
+toyota-supra,2022,3.0T GR Blue Edition,204900,205000,204950,"AED 204,900 - 205,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-supra/2022/,2026-06-12T07:58:54Z
+toyota-supra,2023,2.0T GR,179900,180000,179950,"AED 179,900 - 180,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-supra/2023/,2026-06-12T07:58:56Z
+toyota-supra,2023,3.0T GR auto,207000,213000,210000,"AED 207,000 - 213,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-supra/2023/,2026-06-12T07:58:56Z
+toyota-supra,2023,3.0T GR manual,207900,213000,210450,"AED 207,900 - 213,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-supra/2023/,2026-06-12T07:58:56Z
+toyota-supra,2024,3.0TC V6 GR RWD auto,216000,218000,217000,"AED 216,000 - 218,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-supra/2024/,2026-06-12T07:58:58Z
+toyota-supra,2024,3.0T GR RWD manual,216000,218000,217000,"AED 216,000 - 218,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-supra/2024/,2026-06-12T07:58:58Z
+toyota-supra,2025,3.0TC V6 GR RWD auto,216000,218000,217000,"AED 216,000 - 218,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-supra/2025/,2026-06-12T07:59:00Z
+toyota-supra,2025,3.0T GR RWD manual,216000,218000,217000,"AED 216,000 - 218,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-supra/2025/,2026-06-12T07:59:00Z
+toyota-supra,2026,3.0TC V6 GR RWD auto,238900,259900,249400,"AED 238,900 - 259,900",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-supra/2026/,2026-06-12T07:59:02Z
+toyota-urban-cruiser,2023,1.5 I4 GL,76900,77000,76950,"AED 76,900 - 77,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-urban-cruiser/2023/,2026-06-12T07:59:05Z
+toyota-urban-cruiser,2023,1.5 I4 GLX,82900,83000,82950,"AED 82,900 - 83,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-urban-cruiser/2023/,2026-06-12T07:59:05Z
+toyota-urban-cruiser,2024,1.5 I4 GL,76900,77000,76950,"AED 76,900 - 77,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-urban-cruiser/2024/,2026-06-12T07:59:07Z
+toyota-urban-cruiser,2024,1.5 I4 GLX,82900,83000,82950,"AED 82,900 - 83,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-urban-cruiser/2024/,2026-06-12T07:59:07Z
+toyota-urban-cruiser,2025,1.5 I4 GL FWD,79900,80000,79950,"AED 79,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-urban-cruiser/2025/,2026-06-12T07:59:09Z
+toyota-urban-cruiser,2025,1.5 I4 GLX FWD,85900,86000,85950,"AED 85,900 - 86,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-urban-cruiser/2025/,2026-06-12T07:59:09Z
+toyota-urban-cruiser,2026,1.5 I4 GL FWD,79900,80000,79950,"AED 79,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-urban-cruiser/2026/,2026-06-12T07:59:11Z
+toyota-urban-cruiser,2026,1.5 I4 GLX FWD,85900,86000,85950,"AED 85,900 - 86,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-urban-cruiser/2026/,2026-06-12T07:59:11Z
+toyota-veloz,2023,1.5 I4 GX,79900,80000,79950,"AED 79,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-veloz/2023/,2026-06-12T07:59:14Z
+toyota-veloz,2024,1.5 I4 GX,79900,80000,79950,"AED 79,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-veloz/2024/,2026-06-12T07:59:16Z
+toyota-veloz,2025,1.5 I4 GX FWD,80900,81000,80950,"AED 80,900 - 81,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-veloz/2025/,2026-06-12T07:59:18Z
+toyota-veloz,2026,1.5 I4 GX FWD,80900,81000,80950,"AED 80,900 - 81,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-veloz/2026/,2026-06-12T07:59:19Z
+toyota-yaris-sedan,2022,1.5L CVT,59900,60000,59950,"AED 59,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-yaris-sedan/2022/,2026-06-12T07:59:33Z
+toyota-yaris-sedan,2023,1.5L I4 E FWD,63900,64000,63950,"AED 63,900 - 64,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-yaris-sedan/2023/,2026-06-12T07:59:35Z
+toyota-yaris-sedan,2023,1.5 I4 G FWD,73900,74000,73950,"AED 73,900 - 74,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-yaris-sedan/2023/,2026-06-12T07:59:35Z
+toyota-yaris-sedan,2025,1.5L I4 E FWD,63900,64000,63950,"AED 63,900 - 64,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-yaris-sedan/2025/,2026-06-12T07:59:38Z
+toyota-yaris-sedan,2025,1.5 I4 G FWD,73900,74000,73950,"AED 73,900 - 74,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-yaris-sedan/2025/,2026-06-12T07:59:38Z
+toyota-yaris-sedan,2026,E,64900,65000,64950,"AED 64,900 - 65,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-yaris-sedan/2026/,2026-06-12T07:59:39Z
+toyota-yaris-sedan,2026,G,74900,75000,74950,"AED 74,900 - 75,000",AED,https://www.drivearabia.com/carprices/uae/toyota/toyota-yaris-sedan/2026/,2026-06-12T07:59:39Z

@@ -1,0 +1,44 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+byd-atto-3,2024,60.5 kWh FWD,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-atto-3/2024/,2026-06-16T09:41:22Z
+byd-atto-3,2025,60.5 kWh Comfort FWD,94900,95000,94950,"AED 94,900 - 95,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-atto-3/2025/,2026-06-16T09:41:24Z
+byd-atto-3,2026,60.5 kWh Comfort FWD,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-atto-3/2026/,2026-06-16T09:41:26Z
+byd-atto-8,2026,Premium,159900,160000,159950,"AED 159,900 - 160,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-atto-8/2026/,2026-06-16T09:41:32Z
+byd-atto-8,2026,Performance,184900,185000,184950,"AED 184,900 - 185,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-atto-8/2026/,2026-06-16T09:41:32Z
+byd-f3,2022,1.5 I4 F3 Base,44275,48000,46138,"AED 44,275 - 48,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-f3/2022/,2026-06-16T09:41:34Z
+byd-f3,2022,1.5 I4 F3 Full Options,51500,54500,53000,"AED 51,500 - 54,500",AED,https://www.drivearabia.com/carprices/uae/byd/byd-f3/2022/,2026-06-16T09:41:34Z
+byd-han,2024,HAN 4WD,231900,233000,232450,"AED 231,900 - 233,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-han/2024/,2026-06-16T09:42:00Z
+byd-han,2025,85.4 kWh Premium 4WD,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-han/2025/,2026-06-16T09:42:02Z
+byd-han,2025,85.4 kWh Platinum 4WD,231900,232000,231950,"AED 231,900 - 232,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-han/2025/,2026-06-16T09:42:02Z
+byd-han,2026,85.4 kWh Premium 4WD,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-han/2026/,2026-06-16T09:42:03Z
+byd-han,2026,85.4 kWh Platinum 4WD,231900,232000,231950,"AED 231,900 - 232,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-han/2026/,2026-06-16T09:42:03Z
+byd-qin-plus,2024,1.5TC+E I4 FWD,90900,91000,90950,"AED 90,900 - 91,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-qin-plus/2024/,2026-06-16T09:42:08Z
+byd-qin-plus,2025,1.5TC+E I4 Design FWD,74900,75900,75400,"AED 74,900 - 75,900",AED,https://www.drivearabia.com/carprices/uae/byd/byd-qin-plus/2025/,2026-06-16T09:42:09Z
+byd-qin-plus,2026,1.5TC+E I4 Design FWD,74900,75900,75400,"AED 74,900 - 75,900",AED,https://www.drivearabia.com/carprices/uae/byd/byd-qin-plus/2026/,2026-06-16T09:42:11Z
+byd-seal,2024,82.5 kWh AWD,149900,159900,154900,"AED 149,900 - 159,900",AED,https://www.drivearabia.com/carprices/uae/byd/byd-seal/2024/,2026-06-16T09:42:28Z
+byd-seal,2025,82.5 kWh Design FWD,149900,159900,154900,"AED 149,900 - 159,900",AED,https://www.drivearabia.com/carprices/uae/byd/byd-seal/2025/,2026-06-16T09:42:30Z
+byd-seal,2025,82.5 kWh Premium FWD,164900,174900,169900,"AED 164,900 - 174,900",AED,https://www.drivearabia.com/carprices/uae/byd/byd-seal/2025/,2026-06-16T09:42:30Z
+byd-seal,2025,82.5 kWh Performance AWD,194900,204900,199900,"AED 194,900 - 204,900",AED,https://www.drivearabia.com/carprices/uae/byd/byd-seal/2025/,2026-06-16T09:42:30Z
+byd-seal,2026,82.5 kWh Design FWD,149900,159900,154900,"AED 149,900 - 159,900",AED,https://www.drivearabia.com/carprices/uae/byd/byd-seal/2026/,2026-06-16T09:42:31Z
+byd-seal,2026,82.5 kWh Premium FWD,164900,174900,169900,"AED 164,900 - 174,900",AED,https://www.drivearabia.com/carprices/uae/byd/byd-seal/2026/,2026-06-16T09:42:31Z
+byd-seal,2026,82.5 kWh Performance AWD,194900,204900,199900,"AED 194,900 - 204,900",AED,https://www.drivearabia.com/carprices/uae/byd/byd-seal/2026/,2026-06-16T09:42:31Z
+byd-seal-6,2026,Design,87900,88000,87950,"AED 87,900 - 88,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-seal-6/2026/,2026-06-16T09:42:38Z
+byd-seal-6,2026,Premium,95900,96000,95950,"AED 95,900 - 96,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-seal-6/2026/,2026-06-16T09:42:38Z
+byd-seal-7,2025,1.5TC+E I4 Design FWD,109900,119900,114900,"AED 109,900 - 119,900",AED,https://www.drivearabia.com/carprices/uae/byd/byd-seal-7/2025/,2026-06-16T09:42:43Z
+byd-seal-7,2025,1.5TC+E I4 Premium FWD,129900,139900,134900,"AED 129,900 - 139,900",AED,https://www.drivearabia.com/carprices/uae/byd/byd-seal-7/2025/,2026-06-16T09:42:43Z
+byd-seal-7,2026,1.5TC+E I4 Design FWD,109900,119900,114900,"AED 109,900 - 119,900",AED,https://www.drivearabia.com/carprices/uae/byd/byd-seal-7/2026/,2026-06-16T09:42:45Z
+byd-seal-7,2026,1.5TC+E I4 Premium FWD,129900,139900,134900,"AED 129,900 - 139,900",AED,https://www.drivearabia.com/carprices/uae/byd/byd-seal-7/2026/,2026-06-16T09:42:45Z
+byd-sealion-5,2026,Design,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-sealion-5/2026/,2026-06-16T09:42:51Z
+byd-sealion-5,2026,Premium,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-sealion-5/2026/,2026-06-16T09:42:51Z
+byd-sealion-7,2025,Premium,172900,173000,172950,"AED 172,900 - 173,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-sealion-7/2025/,2026-06-16T09:42:56Z
+byd-sealion-7,2025,Performance,192900,193000,192950,"AED 192,900 - 193,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-sealion-7/2025/,2026-06-16T09:42:56Z
+byd-sealion-7,2026,Premium,172900,173000,172950,"AED 172,900 - 173,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-sealion-7/2026/,2026-06-16T09:42:58Z
+byd-sealion-7,2026,Performance,192900,193000,192950,"AED 192,900 - 193,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-sealion-7/2026/,2026-06-16T09:42:58Z
+byd-shark-6,2026,base,165000,210000,187500,"AED 165,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-shark-6/2026/,2026-06-16T09:43:04Z
+byd-song-plus,2024,1.5H I4 FWD,119900,120000,119950,"AED 119,900 - 120,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-song-plus/2024/,2026-06-16T09:43:08Z
+byd-song-plus,2024,1.5H I4 AWD,143900,144000,143950,"AED 143,900 - 144,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-song-plus/2024/,2026-06-16T09:43:08Z
+byd-song-plus,2025,1.5H I4 Design FWD,119900,120000,119950,"AED 119,900 - 120,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-song-plus/2025/,2026-06-16T09:43:10Z
+byd-song-plus,2025,1.5H I4 Premium 4WD,144900,145000,144950,"AED 144,900 - 145,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-song-plus/2025/,2026-06-16T09:43:10Z
+byd-song-plus,2026,1.5H I4 Design FWD,119900,120000,119950,"AED 119,900 - 120,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-song-plus/2026/,2026-06-16T09:43:12Z
+byd-song-plus,2026,1.5H I4 Premium 4WD,144900,145000,144950,"AED 144,900 - 145,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-song-plus/2026/,2026-06-16T09:43:12Z
+byd-ti-7,2026,Premium,150000,156900,153450,"AED 156,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-ti-7/2026/,2026-06-16T09:43:25Z
+byd-ti-7,2026,Performance,169900,170000,169950,"AED 169,900 - 170,000",AED,https://www.drivearabia.com/carprices/uae/byd/byd-ti-7/2026/,2026-06-16T09:43:25Z

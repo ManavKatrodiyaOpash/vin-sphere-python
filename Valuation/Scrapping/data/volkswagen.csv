@@ -1,0 +1,114 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+volkswagen-amarok,2023,2.3TC I4 Comfortline 4WD,149900,153000,151450,"AED 149,900 - 153,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-amarok/2023/,2026-06-16T09:46:19Z
+volkswagen-amarok,2023,2.3TC I4 Highline 4WD,173728,176000,174864,"AED 173,728 - 176,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-amarok/2023/,2026-06-16T09:46:19Z
+volkswagen-amarok,2023,2.3TC I4 PanAmericana 4WD,190423,192000,191212,"AED 190,423 - 192,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-amarok/2023/,2026-06-16T09:46:19Z
+volkswagen-amarok,2023,2.3TC I4 Aventura 4WD,197405,200000,198702,"AED 197,405 - 200,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-amarok/2023/,2026-06-16T09:46:19Z
+volkswagen-amarok,2024,2.3TC I4 Comfortline 4WD,149900,153000,151450,"AED 149,900 - 153,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-amarok/2024/,2026-06-16T09:46:21Z
+volkswagen-amarok,2024,2.3TC I4 Highline 4WD,173728,176000,174864,"AED 173,728 - 176,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-amarok/2024/,2026-06-16T09:46:21Z
+volkswagen-amarok,2024,2.3TC I4 PanAmericana 4WD,190423,192000,191212,"AED 190,423 - 192,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-amarok/2024/,2026-06-16T09:46:21Z
+volkswagen-amarok,2024,2.3TC I4 Aventura 4WD,197405,200000,198702,"AED 197,405 - 200,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-amarok/2024/,2026-06-16T09:46:21Z
+volkswagen-amarok,2025,2.3TC I4 Comfortline 4WD,149900,153000,151450,"AED 149,900 - 153,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-amarok/2025/,2026-06-16T09:46:23Z
+volkswagen-amarok,2025,2.3TC I4 Highline 4WD,173728,176000,174864,"AED 173,728 - 176,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-amarok/2025/,2026-06-16T09:46:23Z
+volkswagen-amarok,2025,2.3TC I4 PanAmericana 4WD,190423,192000,191212,"AED 190,423 - 192,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-amarok/2025/,2026-06-16T09:46:23Z
+volkswagen-amarok,2025,2.3TC I4 Aventura 4WD,197405,200000,198702,"AED 197,405 - 200,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-amarok/2025/,2026-06-16T09:46:23Z
+volkswagen-amarok,2026,Life,144400,146400,145400,"AED 144,400 - 146,400",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-amarok/2026/,2026-06-16T09:46:25Z
+volkswagen-amarok,2026,Style,147900,149900,148900,"AED 147,900 - 149,900",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-amarok/2026/,2026-06-16T09:46:25Z
+volkswagen-amarok,2026,PanAmericana,169000,171000,170000,"AED 169,000 - 171,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-amarok/2026/,2026-06-16T09:46:25Z
+volkswagen-amarok,2026,Aventura,170400,172400,171400,"AED 170,400 - 172,400",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-amarok/2026/,2026-06-16T09:46:25Z
+volkswagen-golf-gti,2022,Sport,144900,145000,144950,"AED 144,900 - 145,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-golf-gti/2022/,2026-06-16T09:46:55Z
+volkswagen-golf-gti,2022,SEL,182000,183000,182500,"AED 182,000 - 183,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-golf-gti/2022/,2026-06-16T09:46:55Z
+volkswagen-golf-gti,2023,Sport,144900,145000,144950,"AED 144,900 - 145,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-golf-gti/2023/,2026-06-16T09:46:57Z
+volkswagen-golf-gti,2023,SEL,182000,183000,182500,"AED 182,000 - 183,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-golf-gti/2023/,2026-06-16T09:46:57Z
+volkswagen-golf-gti,2024,Sport,144900,145000,144950,"AED 144,900 - 145,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-golf-gti/2024/,2026-06-16T09:46:59Z
+volkswagen-golf-gti,2024,SEL,182000,183000,182500,"AED 182,000 - 183,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-golf-gti/2024/,2026-06-16T09:46:59Z
+volkswagen-golf-gti,2025,2.0TC I4 GTI FWD,137990,155000,146495,"AED 137,990 - 155,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-golf-gti/2025/,2026-06-16T09:47:01Z
+volkswagen-golf-gti,2026,P2 - Estoril Wheels,187000,189000,188000,"AED 187,000 - 189,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-golf-gti/2026/,2026-06-16T09:47:03Z
+volkswagen-golf-r,2025,2.0TC I4 R 4WD,197000,250000,223500,"AED 197,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-golf-r/2025/,2026-06-16T09:47:16Z
+volkswagen-golf-r,2026,base,194000,196000,195000,"AED 194,000 - 196,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-golf-r/2026/,2026-06-16T09:47:18Z
+volkswagen-golf-r,2026,Performance,210200,212200,211200,"AED 210,200 - 212,200",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-golf-r/2026/,2026-06-16T09:47:18Z
+volkswagen-golf-r,2026,Topline,238300,240300,239300,"AED 238,300 - 240,300",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-golf-r/2026/,2026-06-16T09:47:18Z
+volkswagen-jetta,2026,Trendline,93100,95100,94100,"AED 93,100 - 95,100",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-jetta/2026/,2026-06-16T09:47:30Z
+volkswagen-jetta,2026,Comfortline,100000,102000,101000,"AED 100,000 - 102,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-jetta/2026/,2026-06-16T09:47:30Z
+volkswagen-jetta,2026,Highline,110000,112000,111000,"AED 110,000 - 112,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-jetta/2026/,2026-06-16T09:47:30Z
+volkswagen-passat,2022,Comfortline,95000,99000,97000,"AED 95,000 - 99,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-passat/2022/,2026-06-16T09:47:38Z
+volkswagen-passat,2022,Trendline,109000,110000,109500,"AED 109,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-passat/2022/,2026-06-16T09:47:38Z
+volkswagen-passat,2022,Highline,123000,125000,124000,"AED 123,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-passat/2022/,2026-06-16T09:47:38Z
+volkswagen-passat,2026,Trendline,110300,112300,111300,"AED 110,300 - 112,300",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-passat/2026/,2026-06-16T09:47:44Z
+volkswagen-passat,2026,Comfortline,120600,122600,121600,"AED 120,600 - 122,600",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-passat/2026/,2026-06-16T09:47:44Z
+volkswagen-passat,2026,Highline,140000,142000,141000,"AED 140,000 - 142,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-passat/2026/,2026-06-16T09:47:44Z
+volkswagen-t-roc,2023,1.4T Life,94590,98000,96295,"AED 94,590 - 98,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-t-roc/2023/,2026-06-16T09:48:29Z
+volkswagen-t-roc,2023,1.4T Style,105000,106000,105500,"AED 105,000 - 106,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-t-roc/2023/,2026-06-16T09:48:29Z
+volkswagen-t-roc,2023,1.4T R-Line,131117,132000,131558,"AED 131,117 - 132,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-t-roc/2023/,2026-06-16T09:48:29Z
+volkswagen-t-roc,2024,1.4TC I4 Life FWD,94590,98000,96295,"AED 94,590 - 98,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-t-roc/2024/,2026-06-16T09:48:31Z
+volkswagen-t-roc,2024,1.4TC I4 Style FWD,105000,106000,105500,"AED 105,000 - 106,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-t-roc/2024/,2026-06-16T09:48:31Z
+volkswagen-t-roc,2024,1.4TC I4 R-Line FWD,131117,132000,131558,"AED 131,117 - 132,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-t-roc/2024/,2026-06-16T09:48:31Z
+volkswagen-t-roc,2025,1.4TC I4 Life FWD,94900,100900,97900,"AED 94,900 - 100,900",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-t-roc/2025/,2026-06-16T09:48:33Z
+volkswagen-t-roc,2025,1.4TC I4 Style FWD,110000,111000,110500,"AED 110,000 - 111,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-t-roc/2025/,2026-06-16T09:48:33Z
+volkswagen-t-roc,2025,1.4TC I4 R-Style FWD,125000,128000,126500,"AED 125,000 - 128,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-t-roc/2025/,2026-06-16T09:48:33Z
+volkswagen-t-roc,2026,Life Plus,94900,96900,95900,"AED 94,900 - 96,900",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-t-roc/2026/,2026-06-16T09:48:35Z
+volkswagen-t-roc,2026,Style,107400,109400,108400,"AED 107,400 - 109,400",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-t-roc/2026/,2026-06-16T09:48:35Z
+volkswagen-t-roc,2026,R-Line,119100,121200,120150,"AED 119,100 - 121,200",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-t-roc/2026/,2026-06-16T09:48:35Z
+volkswagen-teramont,2022,Trendline 2.0T,156156,157000,156578,"AED 156,156 - 157,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2022/,2026-06-16T09:48:37Z
+volkswagen-teramont,2022,Trendline 3.6,165000,166000,165500,"AED 165,000 - 166,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2022/,2026-06-16T09:48:37Z
+volkswagen-teramont,2022,Comfortline 3.6,185000,186000,185500,"AED 185,000 - 186,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2022/,2026-06-16T09:48:37Z
+volkswagen-teramont,2022,Highline 3.6,205000,206000,205500,"AED 205,000 - 206,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2022/,2026-06-16T09:48:37Z
+volkswagen-teramont,2023,Trendline 2.0T,156156,157000,156578,"AED 156,156 - 157,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2023/,2026-06-16T09:48:39Z
+volkswagen-teramont,2023,Trendline 3.6,165000,166000,165500,"AED 165,000 - 166,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2023/,2026-06-16T09:48:39Z
+volkswagen-teramont,2023,Comfortline 3.6,185000,186000,185500,"AED 185,000 - 186,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2023/,2026-06-16T09:48:39Z
+volkswagen-teramont,2023,Highline R-Line 3.6,205000,206000,205500,"AED 205,000 - 206,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2023/,2026-06-16T09:48:39Z
+volkswagen-teramont,2024,Trendline 2.0T,156156,157000,156578,"AED 156,156 - 157,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2024/,2026-06-16T09:48:41Z
+volkswagen-teramont,2024,Trendline 3.6,165000,166000,165500,"AED 165,000 - 166,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2024/,2026-06-16T09:48:41Z
+volkswagen-teramont,2024,Comfortline 3.6,185000,186000,185500,"AED 185,000 - 186,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2024/,2026-06-16T09:48:41Z
+volkswagen-teramont,2024,Highline R-Line 3.6,205000,206000,205500,"AED 205,000 - 206,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2024/,2026-06-16T09:48:41Z
+volkswagen-teramont,2025,2.0TC I4 Trendline 4WD,187600,190000,188800,"AED 187,600 - 190,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2025/,2026-06-16T09:48:43Z
+volkswagen-teramont,2025,2.0TC I4 Comfortline 4WD,200000,205000,202500,"AED 200,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2025/,2026-06-16T09:48:43Z
+volkswagen-teramont,2025,2.0TC I4 R-Line 4WD,210000,215000,212500,"AED 210,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2025/,2026-06-16T09:48:43Z
+volkswagen-teramont,2026,Trendline,167700,169700,168700,"AED 167,700 - 169,700",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2026/,2026-06-16T09:48:44Z
+volkswagen-teramont,2026,Comfortline,185800,187800,186800,"AED 185,800 - 187,800",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2026/,2026-06-16T09:48:44Z
+volkswagen-teramont,2026,Comfortline CC,189100,190100,189600,"AED 189,100 - 190,100",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2026/,2026-06-16T09:48:44Z
+volkswagen-teramont,2026,R-Line,211000,213000,212000,"AED 211,000 - 213,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2026/,2026-06-16T09:48:44Z
+volkswagen-teramont,2026,R-Line CC,214300,216300,215300,"AED 214,300 - 216,300",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-teramont/2026/,2026-06-16T09:48:44Z
+volkswagen-tiguan,2022,1.4 Trendline,91000,92000,91500,"AED 91,000 - 92,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2022/,2026-06-16T09:48:46Z
+volkswagen-tiguan,2022,1.4 Life,105000,110000,107500,"AED 105,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2022/,2026-06-16T09:48:46Z
+volkswagen-tiguan,2022,2.0 Life,115000,120000,117500,"AED 115,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2022/,2026-06-16T09:48:46Z
+volkswagen-tiguan,2022,2.0 Elegance,125000,130000,127500,"AED 125,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2022/,2026-06-16T09:48:46Z
+volkswagen-tiguan,2022,2.0 R-Line,135000,140000,137500,"AED 135,000 - 140,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2022/,2026-06-16T09:48:46Z
+volkswagen-tiguan,2023,1.4TC I4 Trend FWD,117600,118000,117800,"AED 117,600 - 118,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2023/,2026-06-16T09:48:48Z
+volkswagen-tiguan,2023,1.4TC I4 Life FWD,130000,135000,132500,"AED 130,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2023/,2026-06-16T09:48:48Z
+volkswagen-tiguan,2023,2.0TC I4 Life 4WD,145000,150000,147500,"AED 145,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2023/,2026-06-16T09:48:48Z
+volkswagen-tiguan,2023,2.0TC I4 Elegance 4WD,155000,160000,157500,"AED 155,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2023/,2026-06-16T09:48:48Z
+volkswagen-tiguan,2023,2.0TC I4 R-Line 4WD,165000,170000,167500,"AED 165,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2023/,2026-06-16T09:48:48Z
+volkswagen-tiguan,2024,1.4TC I4 Trend FWD,117600,118000,117800,"AED 117,600 - 118,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2024/,2026-06-16T09:48:50Z
+volkswagen-tiguan,2024,1.4TC I4 Life FWD,130000,135000,132500,"AED 130,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2024/,2026-06-16T09:48:50Z
+volkswagen-tiguan,2024,2.0TC I4 Life 4WD,145000,150000,147500,"AED 145,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2024/,2026-06-16T09:48:50Z
+volkswagen-tiguan,2024,2.0TC I4 Elegance 4WD,155000,160000,157500,"AED 155,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2024/,2026-06-16T09:48:50Z
+volkswagen-tiguan,2024,2.0TC I4 R-Line 4WD,165000,170000,167500,"AED 165,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2024/,2026-06-16T09:48:50Z
+volkswagen-tiguan,2025,1.4TC I4 Life FWD,113900,115000,114450,"AED 113,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2025/,2026-06-16T09:48:52Z
+volkswagen-tiguan,2025,1.4TC I4 R-Line FWD,152040,155000,153520,"AED 152,040 - 155,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2025/,2026-06-16T09:48:52Z
+volkswagen-tiguan,2026,Life,113800,115000,114400,"AED 113,800 - 115,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2026/,2026-06-16T09:48:54Z
+volkswagen-tiguan,2026,Life Plus,131400,132400,131900,"AED 131,400 - 132,400",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2026/,2026-06-16T09:48:54Z
+volkswagen-tiguan,2026,Elegance,141200,143200,142200,"AED 141,200 - 143,200",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2026/,2026-06-16T09:48:54Z
+volkswagen-tiguan,2026,Elegance 2.0L,160600,162600,161600,"AED 160,600 - 162,600",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2026/,2026-06-16T09:48:54Z
+volkswagen-tiguan,2026,R-Line,163300,165300,164300,"AED 163,300 - 165,300",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2026/,2026-06-16T09:48:54Z
+volkswagen-tiguan,2026,R-Line Black,164600,166600,165600,"AED 164,600 - 166,600",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2026/,2026-06-16T09:48:54Z
+volkswagen-tiguan,2026,R-Line Harman,166100,168100,167100,"AED 166,100 - 168,100",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2026/,2026-06-16T09:48:54Z
+volkswagen-tiguan,2026,R-Line Black 2,167100,169100,168100,"AED 167,100 - 169,100",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2026/,2026-06-16T09:48:54Z
+volkswagen-tiguan,2026,R-Line 2.0L,190400,192400,191400,"AED 190,400 - 192,400",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2026/,2026-06-16T09:48:54Z
+volkswagen-tiguan,2026,R-Line Black 2.0L,192000,194000,193000,"AED 192,000 - 194,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-tiguan/2026/,2026-06-16T09:48:54Z
+volkswagen-touareg,2024,2.0TC I4 Trend 4WD,204132,210000,207066,"AED 204,132 - 210,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-touareg/2024/,2026-06-16T09:49:00Z
+volkswagen-touareg,2024,3.0TC V6 Trend 4WD,220000,230000,225000,"AED 220,000 - 230,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-touareg/2024/,2026-06-16T09:49:00Z
+volkswagen-touareg,2024,3.0TC V6 Elegance 4WD,240000,245000,242500,"AED 240,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-touareg/2024/,2026-06-16T09:49:00Z
+volkswagen-touareg,2024,3.0TC V6 R-Line 4WD,260000,265000,262500,"AED 260,000 - 265,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-touareg/2024/,2026-06-16T09:49:00Z
+volkswagen-touareg,2025,2.0TC I4 Trend 4WD,204132,210000,207066,"AED 204,132 - 210,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-touareg/2025/,2026-06-16T09:49:02Z
+volkswagen-touareg,2025,3.0TC V6 Trend 4WD,220000,230000,225000,"AED 220,000 - 230,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-touareg/2025/,2026-06-16T09:49:02Z
+volkswagen-touareg,2025,3.0TC V6 Elegance 4WD,240000,245000,242500,"AED 240,000 - 245,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-touareg/2025/,2026-06-16T09:49:02Z
+volkswagen-touareg,2025,3.0TC V6 R-Line 4WD,260000,265000,262500,"AED 260,000 - 265,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-touareg/2025/,2026-06-16T09:49:02Z
+volkswagen-touareg,2026,Trend,191800,192800,192300,"AED 191,800 - 192,800",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-touareg/2026/,2026-06-16T09:49:04Z
+volkswagen-touareg,2026,Elegance CL,238000,240000,239000,"AED 238,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-touareg/2026/,2026-06-16T09:49:04Z
+volkswagen-touareg,2026,Elegance CL - Final Edition,253200,255200,254200,"AED 253,200 - 255,200",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-touareg/2026/,2026-06-16T09:49:04Z
+volkswagen-touareg,2026,R-Line Nevada,276400,278400,277400,"AED 276,400 - 278,400",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-touareg/2026/,2026-06-16T09:49:04Z
+volkswagen-touareg,2026,R-Line Braga,287600,289600,288600,"AED 287,600 - 289,600",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-touareg/2026/,2026-06-16T09:49:04Z
+volkswagen-touareg,2026,R-Line Nevada - Final Edition,289100,290100,289600,"AED 289,100 - 290,100",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-touareg/2026/,2026-06-16T09:49:04Z
+volkswagen-touareg,2026,R-Line Braga - Final Edition,300500,302500,301500,"AED 300,500 - 302,500",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-touareg/2026/,2026-06-16T09:49:04Z
+volkswagen-touareg,2026,R-Line Leeds,314100,316100,315100,"AED 314,100 - 316,100",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-touareg/2026/,2026-06-16T09:49:04Z
+volkswagen-touareg,2026,R-Line Leeds - Final Edition,326000,328000,327000,"AED 326,000 - 328,000",AED,https://www.drivearabia.com/carprices/uae/volkswagen/volkswagen-touareg/2026/,2026-06-16T09:49:04Z

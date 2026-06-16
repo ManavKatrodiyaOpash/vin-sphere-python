@@ -1,0 +1,118 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+peugeot-2008,2022,1.6 I4 Active Plus,69900,70000,69950,"AED 69,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-2008/2022/,2026-06-16T11:08:44Z
+peugeot-2008,2022,1.2TC I3 Allure Turbo,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-2008/2022/,2026-06-16T11:08:44Z
+peugeot-2008,2022,1.2TC I3 GT,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-2008/2022/,2026-06-16T11:08:44Z
+peugeot-2008,2023,1.6 I4 Active Plus,81900,82000,81950,"AED 81,900 - 82,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-2008/2023/,2026-06-16T11:08:47Z
+peugeot-2008,2023,1.2TC I3 Allure Turbo,101900,102000,101950,"AED 101,900 - 102,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-2008/2023/,2026-06-16T11:08:47Z
+peugeot-2008,2023,1.2TC I3 GT,111900,112000,111950,"AED 111,900 - 112,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-2008/2023/,2026-06-16T11:08:47Z
+peugeot-2008,2024,1.6 I4 Active Plus,81900,82000,81950,"AED 81,900 - 82,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-2008/2024/,2026-06-16T11:08:49Z
+peugeot-2008,2024,1.2TC I3 Allure Turbo,101900,102000,101950,"AED 101,900 - 102,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-2008/2024/,2026-06-16T11:08:49Z
+peugeot-2008,2024,1.2TC I3 GT,111900,112000,111950,"AED 111,900 - 112,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-2008/2024/,2026-06-16T11:08:49Z
+peugeot-2008,2025,1.6 I4 Active Plus,81900,82000,81950,"AED 81,900 - 82,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-2008/2025/,2026-06-16T11:08:51Z
+peugeot-2008,2025,1.2TC I3 Allure Turbo,101900,102000,101950,"AED 101,900 - 102,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-2008/2025/,2026-06-16T11:08:51Z
+peugeot-2008,2025,1.2TC I3 GT,111900,112000,111950,"AED 111,900 - 112,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-2008/2025/,2026-06-16T11:08:51Z
+peugeot-2008,2026,1.6 I4 Active Plus,81900,82000,81950,"AED 81,900 - 82,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-2008/2026/,2026-06-16T11:08:53Z
+peugeot-2008,2026,1.2TC I3 Allure Turbo,101900,102000,101950,"AED 101,900 - 102,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-2008/2026/,2026-06-16T11:08:53Z
+peugeot-2008,2026,1.2TC I3 GT,111900,112000,111950,"AED 111,900 - 112,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-2008/2026/,2026-06-16T11:08:53Z
+peugeot-208,2022,1.2TC I3 Active plus,66900,67000,66950,"AED 66,900 - 67,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-208/2022/,2026-06-16T11:09:07Z
+peugeot-208,2022,1.2TC I3 GT,79600,80000,79800,"AED 79,600 - 80,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-208/2022/,2026-06-16T11:09:07Z
+peugeot-208,2023,1.2TC I3 Active plus,75900,76000,75950,"AED 75,900 - 76,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-208/2023/,2026-06-16T11:09:09Z
+peugeot-208,2023,1.2TC I3 GT,86900,87000,86950,"AED 86,900 - 87,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-208/2023/,2026-06-16T11:09:09Z
+peugeot-208,2024,1.2TC I3 Active Plus FWD,75900,76000,75950,"AED 75,900 - 76,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-208/2024/,2026-06-16T11:09:11Z
+peugeot-208,2024,1.2TC I3 GT FWD,86900,87000,86950,"AED 86,900 - 87,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-208/2024/,2026-06-16T11:09:11Z
+peugeot-208,2025,1.2TC I3 Active Plus FWD,84900,86000,85450,"AED 84,900 - 86,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-208/2025/,2026-06-16T11:09:13Z
+peugeot-208,2025,1.2TC I3 GT FWD,86900,87000,86950,"AED 86,900 - 87,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-208/2025/,2026-06-16T11:09:13Z
+peugeot-3008,2022,1.6TC I4 Active,90000,94900,92450,"AED 94,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-3008/2022/,2026-06-16T11:09:17Z
+peugeot-3008,2022,1.6TC I4 Allure,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-3008/2022/,2026-06-16T11:09:17Z
+peugeot-3008,2022,1.6TC I4 GT Line,134900,135000,134950,"AED 134,900 - 135,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-3008/2022/,2026-06-16T11:09:17Z
+peugeot-3008,2023,1.6TC I4 Active,90000,109900,99950,"AED 90,000 - 109,900",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-3008/2023/,2026-06-16T11:09:19Z
+peugeot-3008,2023,1.6TC I4 GT,146900,147000,146950,"AED 146,900 - 147,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-3008/2023/,2026-06-16T11:09:19Z
+peugeot-3008,2024,1.6TC I4 Active FWD,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-3008/2024/,2026-06-16T11:09:21Z
+peugeot-3008,2024,1.6TC I4 GT FWD,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-3008/2024/,2026-06-16T11:09:21Z
+peugeot-3008,2025,1.6TC I4 Active FWD,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-3008/2025/,2026-06-16T11:09:23Z
+peugeot-3008,2025,1.6TC I4 GT FWD,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-3008/2025/,2026-06-16T11:09:23Z
+peugeot-3008,2026,1.6TC I4 Active FWD,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-3008/2026/,2026-06-16T11:09:25Z
+peugeot-3008,2026,1.6TC I4 GT FWD,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-3008/2026/,2026-06-16T11:09:25Z
+peugeot-3008-hybrid-4,2022,1.6TC+E I4 GT PHEV,179900,180000,179950,"AED 179,900 - 180,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-3008-hybrid-4/2022/,2026-06-16T11:09:27Z
+peugeot-3008-hybrid-4,2023,1.6TC+E I4 GT PHEV,179900,180000,179950,"AED 179,900 - 180,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-3008-hybrid-4/2023/,2026-06-16T11:09:29Z
+peugeot-3008-hybrid-4,2024,1.6TC+E I4 GT PHEV,179900,180000,179950,"AED 179,900 - 180,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-3008-hybrid-4/2024/,2026-06-16T11:09:31Z
+peugeot-408,2024,1.6TC I4 Allure FWD,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-408/2024/,2026-06-16T11:10:15Z
+peugeot-408,2024,1.6TC I4 GT FWD,139900,140000,139950,"AED 139,900 - 140,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-408/2024/,2026-06-16T11:10:15Z
+peugeot-408,2025,1.6TC I4 Allure FWD,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-408/2025/,2026-06-16T11:10:17Z
+peugeot-408,2025,1.6TC I4 GT FWD,139900,140000,139950,"AED 139,900 - 140,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-408/2025/,2026-06-16T11:10:17Z
+peugeot-408,2026,1.6TC I4 Allure FWD,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-408/2026/,2026-06-16T11:10:19Z
+peugeot-408,2026,1.6TC I4 GT FWD,139900,140000,139950,"AED 139,900 - 140,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-408/2026/,2026-06-16T11:10:19Z
+peugeot-5008,2022,1.6TC I4 Active plus,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-5008/2022/,2026-06-16T11:10:21Z
+peugeot-5008,2022,1.6TC I4 GT Line,151900,152000,151950,"AED 151,900 - 152,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-5008/2022/,2026-06-16T11:10:21Z
+peugeot-5008,2023,1.6TC I4 Active plus,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-5008/2023/,2026-06-16T11:10:23Z
+peugeot-5008,2023,1.6TC I4 GT Line,151900,152000,151950,"AED 151,900 - 152,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-5008/2023/,2026-06-16T11:10:23Z
+peugeot-5008,2024,1.6TC I4 Allure FWD,124900,125000,124950,"AED 124,900 - 125,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-5008/2024/,2026-06-16T11:10:25Z
+peugeot-5008,2024,1.6TC I4 GT Line FWD,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-5008/2024/,2026-06-16T11:10:25Z
+peugeot-5008,2025,1.6TC I4 Allure FWD,124900,125000,124950,"AED 124,900 - 125,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-5008/2025/,2026-06-16T11:10:27Z
+peugeot-5008,2025,1.6TC I4 GT Line FWD,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-5008/2025/,2026-06-16T11:10:27Z
+peugeot-5008,2026,1.6TC I4 Allure FWD,124900,125000,124950,"AED 124,900 - 125,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-5008/2026/,2026-06-16T11:10:29Z
+peugeot-5008,2026,1.6TC I4 GT Line FWD,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-5008/2026/,2026-06-16T11:10:29Z
+peugeot-508,2022,1.6TC I4 Active plus,109900,112000,110950,"AED 109,900 - 112,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-508/2022/,2026-06-16T11:10:32Z
+peugeot-508,2022,1.6TC I4 Allure Turbo,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-508/2022/,2026-06-16T11:10:32Z
+peugeot-508,2022,1.6TC I4 GT,139900,140000,139950,"AED 139,900 - 140,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-508/2022/,2026-06-16T11:10:32Z
+peugeot-508,2023,1.6TC I4 Active plus,111900,112000,111950,"AED 111,900 - 112,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-508/2023/,2026-06-16T11:10:34Z
+peugeot-508,2023,1.6TC I4 Allure Turbo,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-508/2023/,2026-06-16T11:10:34Z
+peugeot-508,2023,1.6TC I4 GT,156900,157000,156950,"AED 156,900 - 157,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-508/2023/,2026-06-16T11:10:34Z
+peugeot-508,2024,1.6TC I4 Active plus FWD,111900,112000,111950,"AED 111,900 - 112,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-508/2024/,2026-06-16T11:10:36Z
+peugeot-508,2024,1.6TC I4 Allure Turbo FWD,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-508/2024/,2026-06-16T11:10:36Z
+peugeot-508,2024,1.6TC I4 GT FWD,156900,157000,156950,"AED 156,900 - 157,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-508/2024/,2026-06-16T11:10:36Z
+peugeot-boxer,2022,2.2TD I4 L2H2,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-boxer/2022/,2026-06-16T11:10:46Z
+peugeot-boxer,2022,2.2TD I4 L2H4,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-boxer/2022/,2026-06-16T11:10:46Z
+peugeot-boxer,2023,2.2TD I4 L2H2,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-boxer/2023/,2026-06-16T11:10:48Z
+peugeot-boxer,2023,2.2TD I4 L2H3,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-boxer/2023/,2026-06-16T11:10:48Z
+peugeot-boxer,2024,2.2TD I4 L2H2,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-boxer/2024/,2026-06-16T11:10:50Z
+peugeot-boxer,2024,2.2TD I4 L2H3,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-boxer/2024/,2026-06-16T11:10:50Z
+peugeot-boxer,2025,2.2TD I4 L2H2,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-boxer/2025/,2026-06-16T11:10:53Z
+peugeot-boxer,2025,2.2TD I4 L2H3,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-boxer/2025/,2026-06-16T11:10:53Z
+peugeot-boxer,2026,2.2TD I4 L2H2,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-boxer/2026/,2026-06-16T11:10:55Z
+peugeot-boxer,2026,2.2TD I4 L2H3,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-boxer/2026/,2026-06-16T11:10:55Z
+peugeot-expert,2022,2.0TD I4 Van Manual,74900,75000,74950,"AED 74,900 - 75,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-expert/2022/,2026-06-16T11:11:13Z
+peugeot-expert,2022,2.0TD I4 Van Auto,79900,80000,79950,"AED 79,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-expert/2022/,2026-06-16T11:11:13Z
+peugeot-expert,2022,2.0TD I4 Combi Auto,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-expert/2022/,2026-06-16T11:11:13Z
+peugeot-expert,2023,2.0TD I4 Van Manual,74900,75000,74950,"AED 74,900 - 75,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-expert/2023/,2026-06-16T11:11:15Z
+peugeot-expert,2023,2.0TD I4 Van Auto,79900,80000,79950,"AED 79,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-expert/2023/,2026-06-16T11:11:15Z
+peugeot-expert,2023,2.0TD I4 Combi Auto,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-expert/2023/,2026-06-16T11:11:15Z
+peugeot-expert,2024,2.0TD I4 Van Manual,74900,75000,74950,"AED 74,900 - 75,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-expert/2024/,2026-06-16T11:11:17Z
+peugeot-expert,2024,2.0TD I4 Van Auto,79900,80000,79950,"AED 79,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-expert/2024/,2026-06-16T11:11:17Z
+peugeot-expert,2024,2.0TD I4 Combi Auto,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-expert/2024/,2026-06-16T11:11:17Z
+peugeot-expert,2025,2.0TD I4 Van Manual,74900,75000,74950,"AED 74,900 - 75,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-expert/2025/,2026-06-16T11:11:19Z
+peugeot-expert,2025,2.0TD I4 Van Auto,79900,80000,79950,"AED 79,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-expert/2025/,2026-06-16T11:11:19Z
+peugeot-expert,2025,2.0TD I4 Combi Auto,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-expert/2025/,2026-06-16T11:11:19Z
+peugeot-expert,2026,2.0TD I4 Van Manual,74900,75000,74950,"AED 74,900 - 75,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-expert/2026/,2026-06-16T11:11:21Z
+peugeot-expert,2026,2.0TD I4 Van Auto,79900,80000,79950,"AED 79,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-expert/2026/,2026-06-16T11:11:21Z
+peugeot-expert,2026,2.0TD I4 Combi Auto,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-expert/2026/,2026-06-16T11:11:21Z
+peugeot-landtrek,2022,2.4TC I4 RWD MT,77900,78000,77950,"AED 77,900 - 78,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2022/,2026-06-16T11:11:23Z
+peugeot-landtrek,2022,2.4TC I4 4WD MT,84900,85000,84950,"AED 84,900 - 85,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2022/,2026-06-16T11:11:23Z
+peugeot-landtrek,2022,2.4TC I4 RWD AT,86900,87000,86950,"AED 86,900 - 87,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2022/,2026-06-16T11:11:23Z
+peugeot-landtrek,2022,2.4TC I4 4WD AT,95900,96000,95950,"AED 95,900 - 96,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2022/,2026-06-16T11:11:23Z
+peugeot-landtrek,2023,2.4TC I4 RWD MT,77900,78000,77950,"AED 77,900 - 78,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2023/,2026-06-16T11:11:25Z
+peugeot-landtrek,2023,2.4TC I4 4WD MT,84900,85000,84950,"AED 84,900 - 85,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2023/,2026-06-16T11:11:25Z
+peugeot-landtrek,2023,2.4TC I4 RWD AT,86900,87000,86950,"AED 86,900 - 87,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2023/,2026-06-16T11:11:25Z
+peugeot-landtrek,2023,2.4TC I4 4WD AT,95900,96000,95950,"AED 95,900 - 96,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2023/,2026-06-16T11:11:25Z
+peugeot-landtrek,2024,2.4TC I4 RWD MT,77900,78000,77950,"AED 77,900 - 78,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2024/,2026-06-16T11:11:28Z
+peugeot-landtrek,2024,2.4TC I4 4WD MT,84900,85000,84950,"AED 84,900 - 85,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2024/,2026-06-16T11:11:28Z
+peugeot-landtrek,2024,2.4TC I4 RWD AT,86900,87000,86950,"AED 86,900 - 87,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2024/,2026-06-16T11:11:28Z
+peugeot-landtrek,2024,2.4TC I4 4WD AT,95900,96000,95950,"AED 95,900 - 96,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2024/,2026-06-16T11:11:28Z
+peugeot-landtrek,2025,2.4TC I4 RWD MT,77900,78000,77950,"AED 77,900 - 78,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2025/,2026-06-16T11:11:30Z
+peugeot-landtrek,2025,2.4TC I4 4WD MT,84900,85000,84950,"AED 84,900 - 85,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2025/,2026-06-16T11:11:30Z
+peugeot-landtrek,2025,2.4TC I4 RWD AT,86900,87000,86950,"AED 86,900 - 87,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2025/,2026-06-16T11:11:30Z
+peugeot-landtrek,2025,2.4TC I4 4WD AT,95900,96000,95950,"AED 95,900 - 96,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2025/,2026-06-16T11:11:30Z
+peugeot-landtrek,2026,2.4TC I4 RWD MT,77900,78000,77950,"AED 77,900 - 78,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2026/,2026-06-16T11:11:32Z
+peugeot-landtrek,2026,2.4TC I4 4WD MT,84900,85000,84950,"AED 84,900 - 85,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2026/,2026-06-16T11:11:32Z
+peugeot-landtrek,2026,2.4TC I4 RWD AT,86900,87000,86950,"AED 86,900 - 87,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2026/,2026-06-16T11:11:32Z
+peugeot-landtrek,2026,2.4TC I4 4WD AT,95900,96000,95950,"AED 95,900 - 96,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-landtrek/2026/,2026-06-16T11:11:32Z
+peugeot-partner,2023,1.6 Long petrol,64900,65000,64950,"AED 64,900 - 65,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-partner/2023/,2026-06-16T11:11:36Z
+peugeot-partner,2023,1.6 Long diesel,67900,68000,67950,"AED 67,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-partner/2023/,2026-06-16T11:11:36Z
+peugeot-partner,2024,1.6 Long petrol,64900,65000,64950,"AED 64,900 - 65,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-partner/2024/,2026-06-16T11:11:38Z
+peugeot-partner,2024,1.6 Long diesel,67900,68000,67950,"AED 67,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-partner/2024/,2026-06-16T11:11:38Z
+peugeot-partner,2025,1.6 Long diesel,68250,69000,68625,"AED 68,250 - 69,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-partner/2025/,2026-06-16T11:11:40Z
+peugeot-partner,2026,1.6 Long diesel,68250,69000,68625,"AED 68,250 - 69,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-partner/2026/,2026-06-16T11:11:42Z
+peugeot-traveller,2023,2.0TD I4 FWD,164900,166000,165450,"AED 164,900 - 166,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-traveller/2023/,2026-06-16T11:11:52Z
+peugeot-traveller,2024,2.0TD I4 FWD,164900,166000,165450,"AED 164,900 - 166,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-traveller/2024/,2026-06-16T11:11:54Z
+peugeot-traveller,2025,2.0TD I4 FWD,164900,166000,165450,"AED 164,900 - 166,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-traveller/2025/,2026-06-16T11:11:56Z
+peugeot-traveller,2026,2.0TD I4 FWD,164900,166000,165450,"AED 164,900 - 166,000",AED,https://www.drivearabia.com/carprices/uae/peugeot/peugeot-traveller/2026/,2026-06-16T11:11:58Z

@@ -1,0 +1,62 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+renault-arkana,2025,1.3TC I4 evolution FWD,83900,84000,83950,"AED 83,900 - 84,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-arkana/2025/,2026-06-16T10:37:30Z
+renault-arkana,2026,1.3TC I4 evolution FWD,83900,84000,83950,"AED 83,900 - 84,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-arkana/2026/,2026-06-16T10:37:32Z
+renault-duster,2022,1.6L 4x2 PE,51900,52000,51950,"AED 51,900 - 52,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2022/,2026-06-16T10:37:57Z
+renault-duster,2022,1.6L 4x2 Sport,56000,57000,56500,"AED 56,000 - 57,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2022/,2026-06-16T10:37:57Z
+renault-duster,2022,2.0L 4x4 PE,60100,61000,60550,"AED 60,100 - 61,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2022/,2026-06-16T10:37:57Z
+renault-duster,2022,1.6L 4x2 SE,61000,62000,61500,"AED 61,000 - 62,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2022/,2026-06-16T10:37:57Z
+renault-duster,2022,2.0L 4x4 SE,66900,67000,66950,"AED 66,900 - 67,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2022/,2026-06-16T10:37:57Z
+renault-duster,2022,1.6L 4x2 LE,66900,67000,66950,"AED 66,900 - 67,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2022/,2026-06-16T10:37:57Z
+renault-duster,2022,2.0L 4x4 LE,71900,72000,71950,"AED 71,900 - 72,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2022/,2026-06-16T10:37:57Z
+renault-duster,2023,1.6L 4x2 PE,51900,52000,51950,"AED 51,900 - 52,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2023/,2026-06-16T10:37:59Z
+renault-duster,2023,1.6L 4x2 Sport,56000,57000,56500,"AED 56,000 - 57,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2023/,2026-06-16T10:37:59Z
+renault-duster,2023,2.0L 4x4 PE,60100,61000,60550,"AED 60,100 - 61,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2023/,2026-06-16T10:37:59Z
+renault-duster,2023,1.6L 4x2 SE,61000,62000,61500,"AED 61,000 - 62,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2023/,2026-06-16T10:37:59Z
+renault-duster,2023,2.0L 4x4 SE,66900,67000,66950,"AED 66,900 - 67,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2023/,2026-06-16T10:37:59Z
+renault-duster,2023,1.6L 4x2 LE,66900,67000,66950,"AED 66,900 - 67,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2023/,2026-06-16T10:37:59Z
+renault-duster,2023,2.0L 4x4 LE,71900,72000,71950,"AED 71,900 - 72,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2023/,2026-06-16T10:37:59Z
+renault-duster,2024,1.6L 4x2 PE,51900,52000,51950,"AED 51,900 - 52,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2024/,2026-06-16T10:38:01Z
+renault-duster,2024,1.6L 4x2 Sport,56000,57000,56500,"AED 56,000 - 57,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2024/,2026-06-16T10:38:01Z
+renault-duster,2024,2.0L 4x4 PE,60100,61000,60550,"AED 60,100 - 61,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2024/,2026-06-16T10:38:01Z
+renault-duster,2024,1.6L 4x2 SE,61000,62000,61500,"AED 61,000 - 62,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2024/,2026-06-16T10:38:01Z
+renault-duster,2024,2.0L 4x4 SE,66900,67000,66950,"AED 66,900 - 67,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2024/,2026-06-16T10:38:01Z
+renault-duster,2024,1.6L 4x2 LE,66900,67000,66950,"AED 66,900 - 67,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2024/,2026-06-16T10:38:01Z
+renault-duster,2024,2.0L 4x4 LE,71900,72000,71950,"AED 71,900 - 72,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2024/,2026-06-16T10:38:01Z
+renault-duster,2025,1.6L I4 PE FWD,69900,70000,69950,"AED 69,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2025/,2026-06-16T10:38:03Z
+renault-duster,2025,1.6L I4 SE FWD,72000,73000,72500,"AED 72,000 - 73,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2025/,2026-06-16T10:38:03Z
+renault-duster,2025,1.6L I4 LE FWD,75500,76000,75750,"AED 75,500 - 76,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-duster/2025/,2026-06-16T10:38:03Z
+renault-express-van,2023,1.6 I4 FWD,75000,80000,77500,"AED 75,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-express-van/2023/,2026-06-16T10:38:13Z
+renault-express-van,2024,1.6 I4 FWD,75000,80000,77500,"AED 75,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-express-van/2024/,2026-06-16T10:38:15Z
+renault-express-van,2025,1.6 I4 FWD,75000,80000,77500,"AED 75,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-express-van/2025/,2026-06-16T10:38:17Z
+renault-express-van,2026,1.6 I4 FWD,75000,80000,77500,"AED 75,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-express-van/2026/,2026-06-16T10:38:19Z
+renault-koleos,2023,PE 4x2,85075,86000,85538,"AED 85,075 - 86,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-koleos/2023/,2026-06-16T10:38:28Z
+renault-koleos,2023,PE 4x4,95000,96000,95500,"AED 95,000 - 96,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-koleos/2023/,2026-06-16T10:38:28Z
+renault-koleos,2023,SE 4x4,106000,107000,106500,"AED 106,000 - 107,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-koleos/2023/,2026-06-16T10:38:28Z
+renault-koleos,2023,LE 4x4,119600,120000,119800,"AED 119,600 - 120,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-koleos/2023/,2026-06-16T10:38:28Z
+renault-koleos,2024,PE 4x2,85075,86000,85538,"AED 85,075 - 86,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-koleos/2024/,2026-06-16T10:38:30Z
+renault-koleos,2024,PE 4x4,95000,96000,95500,"AED 95,000 - 96,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-koleos/2024/,2026-06-16T10:38:30Z
+renault-koleos,2024,SE 4x4,106000,107000,106500,"AED 106,000 - 107,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-koleos/2024/,2026-06-16T10:38:30Z
+renault-koleos,2024,LE 4x4,119600,120000,119800,"AED 119,600 - 120,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-koleos/2024/,2026-06-16T10:38:30Z
+renault-koleos,2025,2.5 I4 PE FWD,79900,81000,80450,"AED 79,900 - 81,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-koleos/2025/,2026-06-16T10:38:32Z
+renault-koleos,2025,2.5 I4 PE 4WD,90000,94000,92000,"AED 90,000 - 94,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-koleos/2025/,2026-06-16T10:38:32Z
+renault-koleos,2025,2.5 I4 SE 4WD,106000,107000,106500,"AED 106,000 - 107,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-koleos/2025/,2026-06-16T10:38:32Z
+renault-koleos,2025,2.5 I4 LE 4WD,119600,120000,119800,"AED 119,600 - 120,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-koleos/2025/,2026-06-16T10:38:32Z
+renault-koleos,2026,2.0TC I4 Tecnho 2WD,127000,128000,127500,"AED 127,000 - 128,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-koleos/2026/,2026-06-16T10:38:34Z
+renault-koleos,2026,2.0TC I4 Iconic 4WD,137000,138000,137500,"AED 137,000 - 138,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-koleos/2026/,2026-06-16T10:38:34Z
+renault-master,2023,2.3TD I4 L3H1 RWD,65000,70000,67500,"AED 65,000 - 70,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-master/2023/,2026-06-16T10:39:00Z
+renault-master,2024,2.3TD I4 L3H1 RWD,65000,70000,67500,"AED 65,000 - 70,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-master/2024/,2026-06-16T10:39:02Z
+renault-master,2025,2.3TD I4 L3H1 RWD,65000,70000,67500,"AED 65,000 - 70,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-master/2025/,2026-06-16T10:39:04Z
+renault-megane,2022,1.6L Authentic,78367,79000,78684,"AED 78,367 - 79,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-megane/2022/,2026-06-16T10:39:07Z
+renault-megane,2022,1.6L Techno,95272,96000,95636,"AED 95,272 - 96,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-megane/2022/,2026-06-16T10:39:07Z
+renault-megane,2023,1.6L Authentic,78367,79000,78684,"AED 78,367 - 79,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-megane/2023/,2026-06-16T10:39:09Z
+renault-megane,2023,1.6L Techno,95272,96000,95636,"AED 95,272 - 96,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-megane/2023/,2026-06-16T10:39:09Z
+renault-megane,2024,1.6L Authentic,78367,79000,78684,"AED 78,367 - 79,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-megane/2024/,2026-06-16T10:39:11Z
+renault-megane,2024,1.6L Techno,95272,96000,95636,"AED 95,272 - 96,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-megane/2024/,2026-06-16T10:39:11Z
+renault-megane,2025,1.6L Authentic FWD,80500,81000,80750,"AED 80,500 - 81,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-megane/2025/,2026-06-16T10:39:13Z
+renault-megane,2025,1.6L Techno FWD,88500,89000,88750,"AED 88,500 - 89,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-megane/2025/,2026-06-16T10:39:13Z
+renault-megane-rs,2023,1.8TC I4 RS FWD,150000,175000,162500,"AED 150,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-megane-rs/2023/,2026-06-16T10:39:30Z
+renault-megane-rs,2024,1.8TC I4 RS FWD,175000,176000,175500,"AED 175,000 - 176,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-megane-rs/2024/,2026-06-16T10:39:32Z
+renault-symbol,2022,1.6L PE,41000,42000,41500,"AED 41,000 - 42,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-symbol/2022/,2026-06-16T10:39:53Z
+renault-symbol,2022,1.6L LE,51000,52000,51500,"AED 51,000 - 52,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-symbol/2022/,2026-06-16T10:39:53Z
+renault-symbol,2023,1.6L PE,41000,42000,41500,"AED 41,000 - 42,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-symbol/2023/,2026-06-16T10:39:55Z
+renault-symbol,2023,1.6L LE,51000,52000,51500,"AED 51,000 - 52,000",AED,https://www.drivearabia.com/carprices/uae/renault/renault-symbol/2023/,2026-06-16T10:39:55Z

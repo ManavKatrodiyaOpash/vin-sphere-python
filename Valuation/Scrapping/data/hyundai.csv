@@ -1,0 +1,416 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+hyundai-accent,2019,1.4L 11-GL,50800,51000,50900,"AED 50,800 - 51,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2019/,2026-06-12T10:40:06Z
+hyundai-accent,2019,1.6L 13-GL,52300,53000,52650,"AED 52,300 - 53,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2019/,2026-06-12T10:40:06Z
+hyundai-accent,2019,1.6L 16A-GL,59900,60000,59950,"AED 59,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2019/,2026-06-12T10:40:06Z
+hyundai-accent,2020,1.4L 11-GL,50800,51000,50900,"AED 50,800 - 51,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2020/,2026-06-12T10:40:07Z
+hyundai-accent,2020,1.6L 13-GL,52300,53000,52650,"AED 52,300 - 53,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2020/,2026-06-12T10:40:07Z
+hyundai-accent,2020,1.6L Comfort,59900,60000,59950,"AED 59,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2020/,2026-06-12T10:40:07Z
+hyundai-accent,2021,1.4L Smart,62000,63000,62500,"AED 62,000 - 63,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2021/,2026-06-12T10:40:10Z
+hyundai-accent,2021,1.6L Smart,65000,66000,65500,"AED 65,000 - 66,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2021/,2026-06-12T10:40:10Z
+hyundai-accent,2021,1.4L Smart Plus,70000,71000,70500,"AED 70,000 - 71,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2021/,2026-06-12T10:40:10Z
+hyundai-accent,2021,1.6L Comfort,73000,74000,73500,"AED 73,000 - 74,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2021/,2026-06-12T10:40:10Z
+hyundai-accent,2022,1.4L Smart,62000,63000,62500,"AED 62,000 - 63,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2022/,2026-06-12T10:40:12Z
+hyundai-accent,2022,1.6L Smart,65000,66000,65500,"AED 65,000 - 66,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2022/,2026-06-12T10:40:12Z
+hyundai-accent,2022,1.4L Smart Plus,70000,71000,70500,"AED 70,000 - 71,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2022/,2026-06-12T10:40:12Z
+hyundai-accent,2022,1.6L Comfort,73000,74000,73500,"AED 73,000 - 74,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2022/,2026-06-12T10:40:12Z
+hyundai-accent,2023,1.4L Smart,62000,63000,62500,"AED 62,000 - 63,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2023/,2026-06-12T10:40:14Z
+hyundai-accent,2023,1.6L Smart,65000,66000,65500,"AED 65,000 - 66,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2023/,2026-06-12T10:40:14Z
+hyundai-accent,2023,1.4L Smart Plus,70000,71000,70500,"AED 70,000 - 71,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2023/,2026-06-12T10:40:14Z
+hyundai-accent,2023,1.6L Comfort,73000,74000,73500,"AED 73,000 - 74,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2023/,2026-06-12T10:40:14Z
+hyundai-accent,2024,1.5 I4 Smart FWD,63000,64000,63500,"AED 63,000 - 64,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2024/,2026-06-12T10:40:16Z
+hyundai-accent,2024,1.5 I4 Comfort FWD,73000,75000,74000,"AED 73,000 - 75,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2024/,2026-06-12T10:40:16Z
+hyundai-accent,2024,1.5 I4 Premium FWD,92000,93000,92500,"AED 92,000 - 93,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2024/,2026-06-12T10:40:16Z
+hyundai-accent,2025,1.5 I4 Comfort FWD,73999,74999,74499,"AED 73,999 - 74,999",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2025/,2026-06-12T10:40:18Z
+hyundai-accent,2025,1.5 I4 Smart FWD,82000,83000,82500,"AED 82,000 - 83,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2025/,2026-06-12T10:40:18Z
+hyundai-accent,2026,1.5 I4 Comfort FWD,73999,74999,74499,"AED 73,999 - 74,999",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2026/,2026-06-12T10:40:20Z
+hyundai-accent,2026,1.5 I4 Smart FWD,82000,83000,82500,"AED 82,000 - 83,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-accent/2026/,2026-06-12T10:40:20Z
+hyundai-azera,2020,3.5L base,119400,120000,119700,"AED 119,400 - 120,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-azera/2020/,2026-06-12T10:41:49Z
+hyundai-azera,2020,3.5L mid options,136290,137000,136645,"AED 136,290 - 137,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-azera/2020/,2026-06-12T10:41:49Z
+hyundai-azera,2020,3.5 full options,149940,150000,149970,"AED 149,940 - 150,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-azera/2020/,2026-06-12T10:41:49Z
+hyundai-azera,2021,3.5L base,119400,120000,119700,"AED 119,400 - 120,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-azera/2021/,2026-06-12T10:41:51Z
+hyundai-azera,2021,3.5L mid options,136290,137000,136645,"AED 136,290 - 137,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-azera/2021/,2026-06-12T10:41:51Z
+hyundai-azera,2021,3.5 full options,149940,150000,149970,"AED 149,940 - 150,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-azera/2021/,2026-06-12T10:41:51Z
+hyundai-azera,2022,3.5L base,119400,120000,119700,"AED 119,400 - 120,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-azera/2022/,2026-06-12T10:41:54Z
+hyundai-azera,2022,3.5L mid options,136290,137000,136645,"AED 136,290 - 137,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-azera/2022/,2026-06-12T10:41:54Z
+hyundai-azera,2022,3.5 full options,149940,150000,149970,"AED 149,940 - 150,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-azera/2022/,2026-06-12T10:41:54Z
+hyundai-azera,2023,3.5L V6 Base FWD,180000,190000,185000,"AED 180,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-azera/2023/,2026-06-12T10:41:56Z
+hyundai-azera,2023,3.5L V6 Calligraphy FWD,190000,200000,195000,"AED 190,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-azera/2023/,2026-06-12T10:41:56Z
+hyundai-azera,2024,3.5L V6 Base FWD,180000,190000,185000,"AED 180,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-azera/2024/,2026-06-12T10:41:57Z
+hyundai-azera,2024,3.5L V6 Calligraphy FWD,190000,200000,195000,"AED 190,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-azera/2024/,2026-06-12T10:41:57Z
+hyundai-azera,2025,3.5L V6 Base FWD,180000,190000,185000,"AED 180,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-azera/2025/,2026-06-12T10:41:59Z
+hyundai-azera,2025,3.5L V6 Calligraphy FWD,190000,200000,195000,"AED 190,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-azera/2025/,2026-06-12T10:41:59Z
+hyundai-azera,2026,3.5L V6 Base FWD,180000,190000,185000,"AED 180,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-azera/2026/,2026-06-12T10:42:02Z
+hyundai-azera,2026,3.5L V6 Calligraphy FWD,190000,200000,195000,"AED 190,000 - 200,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-azera/2026/,2026-06-12T10:42:02Z
+hyundai-creta,2020,1.6L Smart,62900,63000,62950,"AED 62,900 - 63,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-creta/2020/,2026-06-12T10:44:11Z
+hyundai-creta,2020,1.6L Comfort,67800,68000,67900,"AED 67,800 - 68,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-creta/2020/,2026-06-12T10:44:11Z
+hyundai-creta,2020,1.6L Premium,77490,78000,77745,"AED 77,490 - 78,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-creta/2020/,2026-06-12T10:44:11Z
+hyundai-creta,2021,1.4TC,77490,78000,77745,"AED 77,490 - 78,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-creta/2021/,2026-06-12T10:44:13Z
+hyundai-creta,2022,1.4TC,77490,78000,77745,"AED 77,490 - 78,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-creta/2022/,2026-06-12T10:44:15Z
+hyundai-creta,2023,1.4TC,77490,78000,77745,"AED 77,490 - 78,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-creta/2023/,2026-06-12T10:44:17Z
+hyundai-creta,2024,1.4TC,77490,78000,77745,"AED 77,490 - 78,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-creta/2024/,2026-06-12T10:44:19Z
+hyundai-creta,2025,1.5L I4 Smart FWD,74999,75999,75499,"AED 74,999 - 75,999",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-creta/2025/,2026-06-12T10:44:21Z
+hyundai-creta,2026,1.5L I4 Smart FWD,74999,75999,75499,"AED 74,999 - 75,999",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-creta/2026/,2026-06-12T10:44:23Z
+hyundai-elantra,2012,1.6L Sedan,54500,61500,58000,"AED 54,500 - 61,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2012/,2026-06-12T10:44:51Z
+hyundai-elantra,2012,1.8L Sedan,56900,68000,62450,"AED 56,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2012/,2026-06-12T10:44:51Z
+hyundai-elantra,2013,1.6L Sedan,54500,61500,58000,"AED 54,500 - 61,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2013/,2026-06-12T10:44:53Z
+hyundai-elantra,2013,1.8L Sedan,56900,68000,62450,"AED 56,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2013/,2026-06-12T10:44:53Z
+hyundai-elantra,2014,1.6L Sedan,56500,58500,57500,"AED 56,500 - 58,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2014/,2026-06-12T10:44:55Z
+hyundai-elantra,2014,1.8L Sedan,59500,74900,67200,"AED 59,500 - 74,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2014/,2026-06-12T10:44:55Z
+hyundai-elantra,2015,1.6L Sedan,56500,58500,57500,"AED 56,500 - 58,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2015/,2026-06-12T10:44:57Z
+hyundai-elantra,2015,1.8L Sedan,59500,74900,67200,"AED 59,500 - 74,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2015/,2026-06-12T10:44:57Z
+hyundai-elantra,2016,1.6L Sedan,56500,58500,57500,"AED 56,500 - 58,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2016/,2026-06-12T10:44:59Z
+hyundai-elantra,2016,1.8L Sedan,62500,74900,68700,"AED 62,500 - 74,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2016/,2026-06-12T10:44:59Z
+hyundai-elantra,2017,1.6L Sedan,56500,58500,57500,"AED 56,500 - 58,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2017/,2026-06-12T10:45:01Z
+hyundai-elantra,2017,1.8L Sedan,62500,74900,68700,"AED 62,500 - 74,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2017/,2026-06-12T10:45:01Z
+hyundai-elantra,2018,1.6L Sedan,56500,58500,57500,"AED 56,500 - 58,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2018/,2026-06-12T10:45:03Z
+hyundai-elantra,2018,1.8L Sedan,62500,74900,68700,"AED 62,500 - 74,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2018/,2026-06-12T10:45:03Z
+hyundai-elantra,2019,1.6L GL,62800,63000,62900,"AED 62,800 - 63,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2019/,2026-06-12T10:45:05Z
+hyundai-elantra,2019,2.0L GLS,71400,71900,71650,"AED 71,400 - 71,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2019/,2026-06-12T10:45:05Z
+hyundai-elantra,2020,1.6L GL,62800,63000,62900,"AED 62,800 - 63,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2020/,2026-06-12T10:45:07Z
+hyundai-elantra,2020,2.0L GLS,71400,71900,71650,"AED 71,400 - 71,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2020/,2026-06-12T10:45:07Z
+hyundai-elantra,2022,1.6L Smart,75000,76000,75500,"AED 75,000 - 76,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2022/,2026-06-12T10:45:11Z
+hyundai-elantra,2022,1.6L TOP,78000,80000,79000,"AED 78,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2022/,2026-06-12T10:45:11Z
+hyundai-elantra,2022,2.0L TOP,87000,90000,88500,"AED 87,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2022/,2026-06-12T10:45:11Z
+hyundai-elantra,2023,1.6L Smart,75000,76000,75500,"AED 75,000 - 76,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2023/,2026-06-12T10:45:13Z
+hyundai-elantra,2023,1.6L TOP,78000,80000,79000,"AED 78,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2023/,2026-06-12T10:45:13Z
+hyundai-elantra,2023,2.0L TOP,87000,90000,88500,"AED 87,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2023/,2026-06-12T10:45:13Z
+hyundai-elantra,2024,1.6L I4 Smart FWD,75000,76000,75500,"AED 75,000 - 76,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2024/,2026-06-12T10:45:15Z
+hyundai-elantra,2024,1.6L I4 TOP FWD,78000,80000,79000,"AED 78,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2024/,2026-06-12T10:45:15Z
+hyundai-elantra,2024,2.0L I4 TOP FWD,87000,90000,88500,"AED 87,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2024/,2026-06-12T10:45:15Z
+hyundai-elantra,2025,1.6L I4 Smart FWD,75000,76000,75500,"AED 75,000 - 76,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2025/,2026-06-12T10:45:17Z
+hyundai-elantra,2025,1.6L I4 TOP FWD,78000,80000,79000,"AED 78,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2025/,2026-06-12T10:45:17Z
+hyundai-elantra,2025,2.0L I4 TOP FWD,87000,90000,88500,"AED 87,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2025/,2026-06-12T10:45:17Z
+hyundai-elantra,2026,1.6L I4 Smart FWD,75000,76000,75500,"AED 75,000 - 76,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2026/,2026-06-12T10:45:19Z
+hyundai-elantra,2026,1.6L I4 TOP FWD,78000,80000,79000,"AED 78,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2026/,2026-06-12T10:45:19Z
+hyundai-elantra,2026,2.0L I4 TOP FWD,87000,90000,88500,"AED 87,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-elantra/2026/,2026-06-12T10:45:19Z
+hyundai-genesis,2012,V8 Prada,238000,240000,239000,"AED 238,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-genesis/2012/,2026-06-12T10:46:25Z
+hyundai-genesis,2013,V8 Prada,238000,240000,239000,"AED 238,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-genesis/2013/,2026-06-12T10:46:27Z
+hyundai-genesis,2014,V8 Prada,238000,240000,239000,"AED 238,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-genesis/2014/,2026-06-12T10:46:29Z
+hyundai-grand-i10,2024,1.2 I4 I10 FWD,54000,55000,54500,"AED 54,000 - 55,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-i10/2024/,2026-06-12T10:48:53Z
+hyundai-grand-i10,2025,1.2 I4 Smart FWD,54000,55000,54500,"AED 54,000 - 55,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-i10/2025/,2026-06-12T10:48:55Z
+hyundai-grand-i10,2026,1.2 I4 Smart FWD,54000,55000,54500,"AED 54,000 - 55,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-i10/2026/,2026-06-12T10:48:56Z
+hyundai-grand-santa-fe,2014,2WD Base,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2014/,2026-06-12T10:49:20Z
+hyundai-grand-santa-fe,2014,4WD Base,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2014/,2026-06-12T10:49:20Z
+hyundai-grand-santa-fe,2014,4WD Mid,113900,116900,115400,"AED 113,900 - 116,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2014/,2026-06-12T10:49:20Z
+hyundai-grand-santa-fe,2014,4WD Top,134000,136000,135000,"AED 134,000 - 136,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2014/,2026-06-12T10:49:20Z
+hyundai-grand-santa-fe,2015,2WD Base,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2015/,2026-06-12T10:49:22Z
+hyundai-grand-santa-fe,2015,4WD Base,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2015/,2026-06-12T10:49:22Z
+hyundai-grand-santa-fe,2015,4WD Mid,113900,116900,115400,"AED 113,900 - 116,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2015/,2026-06-12T10:49:22Z
+hyundai-grand-santa-fe,2015,4WD Top,134000,136000,135000,"AED 134,000 - 136,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2015/,2026-06-12T10:49:22Z
+hyundai-grand-santa-fe,2016,2WD Base,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2016/,2026-06-12T10:49:24Z
+hyundai-grand-santa-fe,2016,4WD Base,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2016/,2026-06-12T10:49:24Z
+hyundai-grand-santa-fe,2016,4WD Mid,113900,116900,115400,"AED 113,900 - 116,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2016/,2026-06-12T10:49:24Z
+hyundai-grand-santa-fe,2016,4WD Top,134000,136000,135000,"AED 134,000 - 136,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2016/,2026-06-12T10:49:24Z
+hyundai-grand-santa-fe,2017,2WD Base,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2017/,2026-06-12T10:49:26Z
+hyundai-grand-santa-fe,2017,4WD Base,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2017/,2026-06-12T10:49:26Z
+hyundai-grand-santa-fe,2017,4WD Mid,113900,116900,115400,"AED 113,900 - 116,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2017/,2026-06-12T10:49:26Z
+hyundai-grand-santa-fe,2017,4WD Top,134000,136000,135000,"AED 134,000 - 136,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2017/,2026-06-12T10:49:26Z
+hyundai-grand-santa-fe,2018,2WD Base,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2018/,2026-06-12T10:49:27Z
+hyundai-grand-santa-fe,2018,4WD Base,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2018/,2026-06-12T10:49:27Z
+hyundai-grand-santa-fe,2018,4WD Mid,113900,116900,115400,"AED 113,900 - 116,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2018/,2026-06-12T10:49:27Z
+hyundai-grand-santa-fe,2018,4WD Top,134000,136000,135000,"AED 134,000 - 136,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2018/,2026-06-12T10:49:27Z
+hyundai-grand-santa-fe,2019,33L AWD Top,152250,153000,152625,"AED 152,250 - 153,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2019/,2026-06-12T10:49:29Z
+hyundai-grand-santa-fe,2020,3.3L AWD Top,152250,153000,152625,"AED 152,250 - 153,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-grand-santa-fe/2020/,2026-06-12T10:49:31Z
+hyundai-h1,2008,Van,66900,70000,68450,"AED 66,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2008/,2026-06-12T10:49:59Z
+hyundai-h1,2008,6-Seater,67900,68000,67950,"AED 67,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2008/,2026-06-12T10:49:59Z
+hyundai-h1,2008,12-Seater,72900,77900,75400,"AED 72,900 - 77,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2008/,2026-06-12T10:49:59Z
+hyundai-h1,2008,9-Seater,76900,85900,81400,"AED 76,900 - 85,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2008/,2026-06-12T10:49:59Z
+hyundai-h1,2008,12-Seater 2.5 Diesel,77900,80000,78950,"AED 77,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2008/,2026-06-12T10:49:59Z
+hyundai-h1,2009,Van,66900,70000,68450,"AED 66,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2009/,2026-06-12T10:50:01Z
+hyundai-h1,2009,6-Seater,67900,68000,67950,"AED 67,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2009/,2026-06-12T10:50:01Z
+hyundai-h1,2009,12-Seater,72900,77900,75400,"AED 72,900 - 77,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2009/,2026-06-12T10:50:01Z
+hyundai-h1,2009,9-Seater,76900,85900,81400,"AED 76,900 - 85,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2009/,2026-06-12T10:50:01Z
+hyundai-h1,2009,12-Seater 2.5 Diesel,77900,80000,78950,"AED 77,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2009/,2026-06-12T10:50:01Z
+hyundai-h1,2010,Van,66900,70000,68450,"AED 66,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2010/,2026-06-12T10:50:03Z
+hyundai-h1,2010,6-Seater,67900,68000,67950,"AED 67,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2010/,2026-06-12T10:50:03Z
+hyundai-h1,2010,12-Seater,72900,77900,75400,"AED 72,900 - 77,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2010/,2026-06-12T10:50:03Z
+hyundai-h1,2010,9-Seater,76900,85900,81400,"AED 76,900 - 85,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2010/,2026-06-12T10:50:03Z
+hyundai-h1,2010,12-Seater 2.5 Diesel,77900,80000,78950,"AED 77,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2010/,2026-06-12T10:50:03Z
+hyundai-h1,2011,Van,66900,70000,68450,"AED 66,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2011/,2026-06-12T10:50:05Z
+hyundai-h1,2011,6-Seater,67900,68000,67950,"AED 67,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2011/,2026-06-12T10:50:05Z
+hyundai-h1,2011,12-Seater,72900,77900,75400,"AED 72,900 - 77,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2011/,2026-06-12T10:50:05Z
+hyundai-h1,2011,9-Seater,76900,85900,81400,"AED 76,900 - 85,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2011/,2026-06-12T10:50:05Z
+hyundai-h1,2011,12-Seater 2.5 Diesel,77900,80000,78950,"AED 77,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2011/,2026-06-12T10:50:05Z
+hyundai-h1,2012,Van,66900,70000,68450,"AED 66,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2012/,2026-06-12T10:50:07Z
+hyundai-h1,2012,6-Seater,67900,68000,67950,"AED 67,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2012/,2026-06-12T10:50:07Z
+hyundai-h1,2012,12-Seater,72900,77900,75400,"AED 72,900 - 77,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2012/,2026-06-12T10:50:07Z
+hyundai-h1,2012,9-Seater,76900,85900,81400,"AED 76,900 - 85,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2012/,2026-06-12T10:50:07Z
+hyundai-h1,2012,12-Seater 2.5 Diesel,77900,80000,78950,"AED 77,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2012/,2026-06-12T10:50:07Z
+hyundai-h1,2013,Van,66900,70000,68450,"AED 66,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2013/,2026-06-12T10:50:09Z
+hyundai-h1,2013,6-Seater,67900,68000,67950,"AED 67,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2013/,2026-06-12T10:50:09Z
+hyundai-h1,2013,12-Seater,72900,77900,75400,"AED 72,900 - 77,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2013/,2026-06-12T10:50:09Z
+hyundai-h1,2013,9-Seater,76900,85900,81400,"AED 76,900 - 85,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2013/,2026-06-12T10:50:09Z
+hyundai-h1,2013,12-Seater 2.5 Diesel,77900,80000,78950,"AED 77,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2013/,2026-06-12T10:50:09Z
+hyundai-h1,2014,Van,66900,70000,68450,"AED 66,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2014/,2026-06-12T10:50:11Z
+hyundai-h1,2014,6-Seater,67900,68000,67950,"AED 67,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2014/,2026-06-12T10:50:11Z
+hyundai-h1,2014,12-Seater,72900,77900,75400,"AED 72,900 - 77,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2014/,2026-06-12T10:50:11Z
+hyundai-h1,2014,9-Seater,76900,85900,81400,"AED 76,900 - 85,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2014/,2026-06-12T10:50:11Z
+hyundai-h1,2014,12-Seater 2.5 Diesel,77900,80000,78950,"AED 77,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2014/,2026-06-12T10:50:11Z
+hyundai-h1,2015,Van,66900,70000,68450,"AED 66,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2015/,2026-06-12T10:50:13Z
+hyundai-h1,2015,6-Seater,67900,68000,67950,"AED 67,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2015/,2026-06-12T10:50:13Z
+hyundai-h1,2015,12-Seater,72900,77900,75400,"AED 72,900 - 77,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2015/,2026-06-12T10:50:13Z
+hyundai-h1,2015,9-Seater,76900,85900,81400,"AED 76,900 - 85,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2015/,2026-06-12T10:50:13Z
+hyundai-h1,2015,12-Seater 2.5 Diesel,77900,80000,78950,"AED 77,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2015/,2026-06-12T10:50:13Z
+hyundai-h1,2016,Van,66900,70000,68450,"AED 66,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2016/,2026-06-12T10:50:15Z
+hyundai-h1,2016,6-Seater,67900,68000,67950,"AED 67,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2016/,2026-06-12T10:50:15Z
+hyundai-h1,2016,12-Seater,72900,77900,75400,"AED 72,900 - 77,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2016/,2026-06-12T10:50:15Z
+hyundai-h1,2016,9-Seater,76900,85900,81400,"AED 76,900 - 85,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2016/,2026-06-12T10:50:15Z
+hyundai-h1,2016,12-Seater 2.5 Diesel,77900,80000,78950,"AED 77,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2016/,2026-06-12T10:50:15Z
+hyundai-h1,2017,Van,66900,70000,68450,"AED 66,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2017/,2026-06-12T10:50:17Z
+hyundai-h1,2017,6-Seater,67900,68000,67950,"AED 67,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2017/,2026-06-12T10:50:17Z
+hyundai-h1,2017,12-Seater,72900,77900,75400,"AED 72,900 - 77,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2017/,2026-06-12T10:50:17Z
+hyundai-h1,2017,9-Seater,76900,85900,81400,"AED 76,900 - 85,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2017/,2026-06-12T10:50:17Z
+hyundai-h1,2017,12-Seater 2.5 Diesel,77900,80000,78950,"AED 77,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2017/,2026-06-12T10:50:17Z
+hyundai-h1,2018,Van,66900,70000,68450,"AED 66,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2018/,2026-06-12T10:50:18Z
+hyundai-h1,2018,6-Seater,67900,68000,67950,"AED 67,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2018/,2026-06-12T10:50:18Z
+hyundai-h1,2018,12-Seater,72900,77900,75400,"AED 72,900 - 77,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2018/,2026-06-12T10:50:18Z
+hyundai-h1,2018,9-Seater,76900,85900,81400,"AED 76,900 - 85,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2018/,2026-06-12T10:50:18Z
+hyundai-h1,2018,12-Seater 2.5 Diesel,77900,80000,78950,"AED 77,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2018/,2026-06-12T10:50:18Z
+hyundai-h1,2019,Van,66900,70000,68450,"AED 66,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2019/,2026-06-12T10:50:20Z
+hyundai-h1,2019,6-Seater,67900,68000,67950,"AED 67,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2019/,2026-06-12T10:50:20Z
+hyundai-h1,2019,12-Seater,72900,77900,75400,"AED 72,900 - 77,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2019/,2026-06-12T10:50:20Z
+hyundai-h1,2019,9-Seater,76900,85900,81400,"AED 76,900 - 85,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2019/,2026-06-12T10:50:20Z
+hyundai-h1,2019,12-Seater 2.5 Diesel,77900,80000,78950,"AED 77,900 - 80,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2019/,2026-06-12T10:50:20Z
+hyundai-h1,2020,3-Seater Panel Van manual,80640,81000,80820,"AED 80,640 - 81,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2020/,2026-06-12T10:50:22Z
+hyundai-h1,2020,6-Seater Panel Van manual,82740,83000,82870,"AED 82,740 - 83,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2020/,2026-06-12T10:50:22Z
+hyundai-h1,2020,9-Seater Commuter Van auto,95970,125000,110485,"AED 95,970 - 125,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2020/,2026-06-12T10:50:22Z
+hyundai-h1,2020,12-Seater Commuter Van auto,98000,98500,98250,"AED 98,000 - 98,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2020/,2026-06-12T10:50:22Z
+hyundai-h1,2021,3-Seater Panel Van manual,80640,81000,80820,"AED 80,640 - 81,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2021/,2026-06-12T10:50:24Z
+hyundai-h1,2021,6-Seater Panel Van manual,82740,83000,82870,"AED 82,740 - 83,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2021/,2026-06-12T10:50:24Z
+hyundai-h1,2021,9-Seater Commuter Van auto,95970,125000,110485,"AED 95,970 - 125,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2021/,2026-06-12T10:50:24Z
+hyundai-h1,2021,12-Seater Commuter Van auto,98000,98500,98250,"AED 98,000 - 98,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2021/,2026-06-12T10:50:24Z
+hyundai-h1,2022,3-Seater Panel Van manual,80640,81000,80820,"AED 80,640 - 81,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2022/,2026-06-12T10:50:26Z
+hyundai-h1,2022,6-Seater Panel Van manual,82740,83000,82870,"AED 82,740 - 83,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2022/,2026-06-12T10:50:26Z
+hyundai-h1,2022,9-Seater Commuter Van auto,95970,125000,110485,"AED 95,970 - 125,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2022/,2026-06-12T10:50:26Z
+hyundai-h1,2022,12-Seater Commuter Van auto,98000,98500,98250,"AED 98,000 - 98,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-h1/2022/,2026-06-12T10:50:26Z
+hyundai-ioniq-5,2024,58 kWh Standard RWD,153000,163000,158000,"AED 153,000 - 163,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-ioniq-5/2024/,2026-06-12T10:54:11Z
+hyundai-ioniq-5,2025,58 kWh Standard RWD,153000,163000,158000,"AED 153,000 - 163,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-ioniq-5/2025/,2026-06-12T10:54:13Z
+hyundai-ioniq-5,2026,58 kWh Standard RWD,153000,163000,158000,"AED 153,000 - 163,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-ioniq-5/2026/,2026-06-12T10:54:15Z
+hyundai-kona,2020,2.0L Smart,62000,62500,62250,"AED 62,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2020/,2026-06-12T10:54:50Z
+hyundai-kona,2020,2.0L Comfort,70000,71000,70500,"AED 70,000 - 71,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2020/,2026-06-12T10:54:50Z
+hyundai-kona,2020,1.6T Smart,71000,72000,71500,"AED 71,000 - 72,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2020/,2026-06-12T10:54:50Z
+hyundai-kona,2020,2.0L Premium,80000,80500,80250,"AED 80,000 - 80,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2020/,2026-06-12T10:54:50Z
+hyundai-kona,2020,1.6T Sport,92000,92500,92250,"AED 92,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2020/,2026-06-12T10:54:50Z
+hyundai-kona,2021,2.0L Smart,62000,62500,62250,"AED 62,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2021/,2026-06-12T10:54:52Z
+hyundai-kona,2021,2.0L Comfort,70000,71000,70500,"AED 70,000 - 71,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2021/,2026-06-12T10:54:52Z
+hyundai-kona,2021,1.6T Smart,71000,72000,71500,"AED 71,000 - 72,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2021/,2026-06-12T10:54:52Z
+hyundai-kona,2021,2.0L Premium,80000,80500,80250,"AED 80,000 - 80,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2021/,2026-06-12T10:54:52Z
+hyundai-kona,2021,1.6T Sport,92000,92500,92250,"AED 92,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2021/,2026-06-12T10:54:52Z
+hyundai-kona,2022,2.0L Smart,62000,62500,62250,"AED 62,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2022/,2026-06-12T10:54:54Z
+hyundai-kona,2022,2.0L Comfort,70000,71000,70500,"AED 70,000 - 71,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2022/,2026-06-12T10:54:54Z
+hyundai-kona,2022,1.6T Smart,71000,72000,71500,"AED 71,000 - 72,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2022/,2026-06-12T10:54:54Z
+hyundai-kona,2022,2.0L Premium,80000,80500,80250,"AED 80,000 - 80,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2022/,2026-06-12T10:54:54Z
+hyundai-kona,2022,1.6T Sport,92000,92500,92250,"AED 92,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2022/,2026-06-12T10:54:54Z
+hyundai-kona,2023,2.0L Smart,62000,62500,62250,"AED 62,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2023/,2026-06-12T10:54:56Z
+hyundai-kona,2023,2.0L Comfort,70000,71000,70500,"AED 70,000 - 71,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2023/,2026-06-12T10:54:56Z
+hyundai-kona,2023,1.6T Smart,71000,72000,71500,"AED 71,000 - 72,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2023/,2026-06-12T10:54:56Z
+hyundai-kona,2023,2.0L Premium,80000,80500,80250,"AED 80,000 - 80,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2023/,2026-06-12T10:54:56Z
+hyundai-kona,2023,1.6T Sport,92000,92500,92250,"AED 92,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2023/,2026-06-12T10:54:56Z
+hyundai-kona,2024,2.0L Smart,62000,62500,62250,"AED 62,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2024/,2026-06-12T10:54:58Z
+hyundai-kona,2024,2.0L Comfort,70000,71000,70500,"AED 70,000 - 71,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2024/,2026-06-12T10:54:58Z
+hyundai-kona,2024,1.6T Smart,71000,72000,71500,"AED 71,000 - 72,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2024/,2026-06-12T10:54:58Z
+hyundai-kona,2024,2.0L Premium,80000,80500,80250,"AED 80,000 - 80,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2024/,2026-06-12T10:54:58Z
+hyundai-kona,2024,1.6T Sport,92000,92500,92250,"AED 92,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2024/,2026-06-12T10:54:58Z
+hyundai-kona,2025,2.0L Smart,62000,62500,62250,"AED 62,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2025/,2026-06-12T10:55:00Z
+hyundai-kona,2025,2.0L Comfort,70000,71000,70500,"AED 70,000 - 71,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2025/,2026-06-12T10:55:00Z
+hyundai-kona,2025,1.6T Smart,71000,72000,71500,"AED 71,000 - 72,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2025/,2026-06-12T10:55:00Z
+hyundai-kona,2025,2.0L Premium,80000,80500,80250,"AED 80,000 - 80,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2025/,2026-06-12T10:55:00Z
+hyundai-kona,2025,1.6T Sport,92000,92500,92250,"AED 92,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2025/,2026-06-12T10:55:00Z
+hyundai-kona,2026,2.0L Smart,62000,62500,62250,"AED 62,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2026/,2026-06-12T10:55:02Z
+hyundai-kona,2026,2.0L Comfort,70000,71000,70500,"AED 70,000 - 71,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2026/,2026-06-12T10:55:02Z
+hyundai-kona,2026,1.6T Smart,71000,72000,71500,"AED 71,000 - 72,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2026/,2026-06-12T10:55:02Z
+hyundai-kona,2026,2.0L Premium,80000,80500,80250,"AED 80,000 - 80,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2026/,2026-06-12T10:55:02Z
+hyundai-kona,2026,1.6T Sport,92000,92500,92250,"AED 92,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona/2026/,2026-06-12T10:55:02Z
+hyundai-kona-hybrid,2024,1.6 I4 Hybrid FWD,87900,89000,88450,"AED 87,900 - 89,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona-hybrid/2024/,2026-06-12T10:55:40Z
+hyundai-kona-hybrid,2025,1.6 I4 Hybrid FWD,87900,89000,88450,"AED 87,900 - 89,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-kona-hybrid/2025/,2026-06-12T10:55:42Z
+hyundai-palisade,2020,Smart,151200,154000,152600,"AED 151,200 - 154,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2020/,2026-06-12T10:57:03Z
+hyundai-palisade,2020,Comfort,173250,174000,173625,"AED 173,250 - 174,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2020/,2026-06-12T10:57:03Z
+hyundai-palisade,2020,Premium,183750,189000,186375,"AED 183,750 - 189,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2020/,2026-06-12T10:57:03Z
+hyundai-palisade,2021,Smart,151200,154000,152600,"AED 151,200 - 154,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2021/,2026-06-12T10:57:05Z
+hyundai-palisade,2021,Comfort,173250,174000,173625,"AED 173,250 - 174,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2021/,2026-06-12T10:57:05Z
+hyundai-palisade,2021,Premium,183750,189000,186375,"AED 183,750 - 189,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2021/,2026-06-12T10:57:05Z
+hyundai-palisade,2022,Smart,151200,154000,152600,"AED 151,200 - 154,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2022/,2026-06-12T10:57:07Z
+hyundai-palisade,2022,Comfort,173250,174000,173625,"AED 173,250 - 174,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2022/,2026-06-12T10:57:07Z
+hyundai-palisade,2022,Premium,183750,189000,186375,"AED 183,750 - 189,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2022/,2026-06-12T10:57:07Z
+hyundai-palisade,2023,Smart,151200,154000,152600,"AED 151,200 - 154,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2023/,2026-06-12T10:57:10Z
+hyundai-palisade,2023,Comfort,173250,174000,173625,"AED 173,250 - 174,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2023/,2026-06-12T10:57:10Z
+hyundai-palisade,2023,Premium,183750,189000,186375,"AED 183,750 - 189,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2023/,2026-06-12T10:57:10Z
+hyundai-palisade,2024,3.5 V6 Smart+ 4WD,155000,156000,155500,"AED 155,000 - 156,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2024/,2026-06-12T10:57:12Z
+hyundai-palisade,2024,3.8 V6 Premium 4WD,210000,213000,211500,"AED 210,000 - 213,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2024/,2026-06-12T10:57:12Z
+hyundai-palisade,2025,3.5 V6 Smart+ 4WD,155000,156000,155500,"AED 155,000 - 156,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2025/,2026-06-12T10:57:14Z
+hyundai-palisade,2025,3.8 V6 Premium 4WD,210000,213000,211500,"AED 210,000 - 213,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2025/,2026-06-12T10:57:14Z
+hyundai-palisade,2026,3.5 V6 Smart+ 4WD,155000,156000,155500,"AED 155,000 - 156,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2026/,2026-06-12T10:57:16Z
+hyundai-palisade,2026,3.8 V6 Premium 4WD,210000,213000,211500,"AED 210,000 - 213,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-palisade/2026/,2026-06-12T10:57:16Z
+hyundai-santa-fe,2013,2.4L 2WD,83900,86900,85400,"AED 83,900 - 86,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2013/,2026-06-12T10:57:45Z
+hyundai-santa-fe,2013,2.4L AWD,88900,92900,90900,"AED 88,900 - 92,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2013/,2026-06-12T10:57:45Z
+hyundai-santa-fe,2013,3.3L AWD,97900,123900,110900,"AED 97,900 - 123,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2013/,2026-06-12T10:57:45Z
+hyundai-santa-fe,2014,2.4L 2WD,83900,86900,85400,"AED 83,900 - 86,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2014/,2026-06-12T10:57:47Z
+hyundai-santa-fe,2014,2.4L AWD,88900,92900,90900,"AED 88,900 - 92,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2014/,2026-06-12T10:57:47Z
+hyundai-santa-fe,2014,3.3L AWD,97900,123900,110900,"AED 97,900 - 123,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2014/,2026-06-12T10:57:47Z
+hyundai-santa-fe,2015,2.4L 2WD,83900,86900,85400,"AED 83,900 - 86,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2015/,2026-06-12T10:57:49Z
+hyundai-santa-fe,2015,2.4L AWD,88900,92900,90900,"AED 88,900 - 92,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2015/,2026-06-12T10:57:49Z
+hyundai-santa-fe,2015,3.3L AWD,97900,123900,110900,"AED 97,900 - 123,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2015/,2026-06-12T10:57:49Z
+hyundai-santa-fe,2016,2.4L 2WD,83900,86900,85400,"AED 83,900 - 86,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2016/,2026-06-12T10:57:51Z
+hyundai-santa-fe,2016,2.4L AWD,88900,92900,90900,"AED 88,900 - 92,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2016/,2026-06-12T10:57:51Z
+hyundai-santa-fe,2016,3.3L AWD,97900,123900,110900,"AED 97,900 - 123,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2016/,2026-06-12T10:57:51Z
+hyundai-santa-fe,2017,2.4L 2WD,83900,86900,85400,"AED 83,900 - 86,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2017/,2026-06-12T10:57:53Z
+hyundai-santa-fe,2017,2.4L AWD,88900,92900,90900,"AED 88,900 - 92,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2017/,2026-06-12T10:57:53Z
+hyundai-santa-fe,2017,3.3L AWD,97900,123900,110900,"AED 97,900 - 123,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2017/,2026-06-12T10:57:53Z
+hyundai-santa-fe,2018,2.4L 2WD,83900,86900,85400,"AED 83,900 - 86,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2018/,2026-06-12T10:57:55Z
+hyundai-santa-fe,2018,2.4L AWD,88900,92900,90900,"AED 88,900 - 92,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2018/,2026-06-12T10:57:55Z
+hyundai-santa-fe,2018,3.3L AWD,97900,123900,110900,"AED 97,900 - 123,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2018/,2026-06-12T10:57:55Z
+hyundai-santa-fe,2020,2.4L FWD Smart,94260,94300,94280,"AED 94,260 - 94,300",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2020/,2026-06-12T10:57:59Z
+hyundai-santa-fe,2020,2.4L FWD Comfort,103740,104000,103870,"AED 103,740 - 104,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2020/,2026-06-12T10:57:59Z
+hyundai-santa-fe,2020,3.5L AWD Smart,114450,115000,114725,"AED 114,450 - 115,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2020/,2026-06-12T10:57:59Z
+hyundai-santa-fe,2020,3.5L AWD Comfort,128900,129000,128950,"AED 128,900 - 129,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2020/,2026-06-12T10:57:59Z
+hyundai-santa-fe,2020,3.5L AWD Premium,146900,147000,146950,"AED 146,900 - 147,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2020/,2026-06-12T10:57:59Z
+hyundai-santa-fe,2021,2.4L FWD Smart,94260,94300,94280,"AED 94,260 - 94,300",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2021/,2026-06-12T10:58:01Z
+hyundai-santa-fe,2021,2.4L FWD Comfort,103740,104000,103870,"AED 103,740 - 104,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2021/,2026-06-12T10:58:01Z
+hyundai-santa-fe,2021,3.5L AWD Smart,114450,115000,114725,"AED 114,450 - 115,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2021/,2026-06-12T10:58:01Z
+hyundai-santa-fe,2021,3.5L AWD Comfort,128900,129000,128950,"AED 128,900 - 129,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2021/,2026-06-12T10:58:01Z
+hyundai-santa-fe,2021,3.5L AWD Premium,146900,147000,146950,"AED 146,900 - 147,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2021/,2026-06-12T10:58:01Z
+hyundai-santa-fe,2022,2.4L FWD Smart,94260,94300,94280,"AED 94,260 - 94,300",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2022/,2026-06-12T10:58:03Z
+hyundai-santa-fe,2022,2.4L FWD Comfort,103740,104000,103870,"AED 103,740 - 104,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2022/,2026-06-12T10:58:03Z
+hyundai-santa-fe,2022,3.5L AWD Smart,114450,115000,114725,"AED 114,450 - 115,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2022/,2026-06-12T10:58:03Z
+hyundai-santa-fe,2022,3.5L AWD Comfort,128900,129000,128950,"AED 128,900 - 129,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2022/,2026-06-12T10:58:03Z
+hyundai-santa-fe,2022,3.5L AWD Premium,146900,147000,146950,"AED 146,900 - 147,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2022/,2026-06-12T10:58:03Z
+hyundai-santa-fe,2023,2.4L FWD Smart,94260,94300,94280,"AED 94,260 - 94,300",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2023/,2026-06-12T10:58:05Z
+hyundai-santa-fe,2023,2.4L FWD Comfort,103740,104000,103870,"AED 103,740 - 104,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2023/,2026-06-12T10:58:05Z
+hyundai-santa-fe,2023,3.5L AWD Smart,114450,115000,114725,"AED 114,450 - 115,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2023/,2026-06-12T10:58:05Z
+hyundai-santa-fe,2023,3.5L AWD Comfort,128900,129000,128950,"AED 128,900 - 129,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2023/,2026-06-12T10:58:05Z
+hyundai-santa-fe,2023,3.5L AWD Premium,146900,147000,146950,"AED 146,900 - 147,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2023/,2026-06-12T10:58:05Z
+hyundai-santa-fe,2024,2.5L I4 4WD,129000,135000,132000,"AED 129,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2024/,2026-06-12T10:58:07Z
+hyundai-santa-fe,2024,2.5TC I4 4WD,149000,155000,152000,"AED 149,000 - 155,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2024/,2026-06-12T10:58:07Z
+hyundai-santa-fe,2024,2.5TC I4 4WD Calligraphy,192000,193000,192500,"AED 192,000 - 193,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2024/,2026-06-12T10:58:07Z
+hyundai-santa-fe,2025,2.5L I4 FWD,129000,135000,132000,"AED 129,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2025/,2026-06-12T10:58:09Z
+hyundai-santa-fe,2025,2.5TC I4 4WD,149000,155000,152000,"AED 149,000 - 155,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2025/,2026-06-12T10:58:09Z
+hyundai-santa-fe,2025,2.5TC I4 Premium 4WD,180000,185000,182500,"AED 180,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2025/,2026-06-12T10:58:09Z
+hyundai-santa-fe,2025,2.5TC I4 Calligraphy 4WD,192000,193000,192500,"AED 192,000 - 193,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2025/,2026-06-12T10:58:09Z
+hyundai-santa-fe,2026,2.5L I4 FWD,129000,135000,132000,"AED 129,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2026/,2026-06-12T10:58:11Z
+hyundai-santa-fe,2026,2.5TC I4 4WD,149000,155000,152000,"AED 149,000 - 155,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2026/,2026-06-12T10:58:11Z
+hyundai-santa-fe,2026,2.5TC I4 Premium 4WD,180000,185000,182500,"AED 180,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2026/,2026-06-12T10:58:11Z
+hyundai-santa-fe,2026,2.5TC I4 Calligraphy 4WD,192000,193000,192500,"AED 192,000 - 193,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-santa-fe/2026/,2026-06-12T10:58:11Z
+hyundai-sonata,2013,2.4L base,67900,69900,68900,"AED 67,900 - 69,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2013/,2026-06-12T10:58:41Z
+hyundai-sonata,2013,2.4L mid,75000,79500,77250,"AED 75,000 - 79,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2013/,2026-06-12T10:58:41Z
+hyundai-sonata,2013,2.4L top,99000,100000,99500,"AED 99,000 - 100,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2013/,2026-06-12T10:58:41Z
+hyundai-sonata,2014,2.4L base,67900,69900,68900,"AED 67,900 - 69,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2014/,2026-06-12T10:58:43Z
+hyundai-sonata,2014,2.4L mid,75000,79500,77250,"AED 75,000 - 79,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2014/,2026-06-12T10:58:43Z
+hyundai-sonata,2014,2.4L top,99000,100000,99500,"AED 99,000 - 100,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2014/,2026-06-12T10:58:43Z
+hyundai-sonata,2015,GL,69900,80500,75200,"AED 69,900 - 80,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2015/,2026-06-12T10:58:45Z
+hyundai-sonata,2015,GLS,106000,107000,106500,"AED 106,000 - 107,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2015/,2026-06-12T10:58:45Z
+hyundai-sonata,2015,Turbo Sport,118000,120000,119000,"AED 118,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2015/,2026-06-12T10:58:45Z
+hyundai-sonata,2016,GL,69900,80500,75200,"AED 69,900 - 80,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2016/,2026-06-12T10:58:47Z
+hyundai-sonata,2016,GLS,106000,107000,106500,"AED 106,000 - 107,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2016/,2026-06-12T10:58:47Z
+hyundai-sonata,2016,Turbo Sport,118000,120000,119000,"AED 118,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2016/,2026-06-12T10:58:47Z
+hyundai-sonata,2017,GL,69900,80500,75200,"AED 69,900 - 80,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2017/,2026-06-12T10:58:49Z
+hyundai-sonata,2017,GLS,106000,107000,106500,"AED 106,000 - 107,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2017/,2026-06-12T10:58:49Z
+hyundai-sonata,2017,Turbo Sport,118000,120000,119000,"AED 118,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2017/,2026-06-12T10:58:49Z
+hyundai-sonata,2018,GL,69900,80500,75200,"AED 69,900 - 80,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2018/,2026-06-12T10:58:51Z
+hyundai-sonata,2018,GLS,106000,107000,106500,"AED 106,000 - 107,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2018/,2026-06-12T10:58:51Z
+hyundai-sonata,2018,Turbo Sport,118000,120000,119000,"AED 118,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2018/,2026-06-12T10:58:51Z
+hyundai-sonata,2019,GL,69900,80500,75200,"AED 69,900 - 80,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2019/,2026-06-12T10:58:53Z
+hyundai-sonata,2019,GLS,106000,107000,106500,"AED 106,000 - 107,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2019/,2026-06-12T10:58:53Z
+hyundai-sonata,2019,Turbo Sport,118000,120000,119000,"AED 118,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2019/,2026-06-12T10:58:53Z
+hyundai-sonata,2020,2.5L Smart,87000,87500,87250,"AED 87,000 - 87,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2020/,2026-06-12T10:58:55Z
+hyundai-sonata,2020,2.5L Smart Plus,92000,93000,92500,"AED 92,000 - 93,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2020/,2026-06-12T10:58:55Z
+hyundai-sonata,2020,2.5L Comfort,98000,99000,98500,"AED 98,000 - 99,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2020/,2026-06-12T10:58:55Z
+hyundai-sonata,2020,2.5L Premium,124000,124500,124250,"AED 124,000 - 124,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2020/,2026-06-12T10:58:55Z
+hyundai-sonata,2021,2.5L Smart,87000,87500,87250,"AED 87,000 - 87,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2021/,2026-06-12T10:58:57Z
+hyundai-sonata,2021,2.5L Smart Plus,92000,93000,92500,"AED 92,000 - 93,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2021/,2026-06-12T10:58:57Z
+hyundai-sonata,2021,2.5L Comfort,98000,99000,98500,"AED 98,000 - 99,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2021/,2026-06-12T10:58:57Z
+hyundai-sonata,2021,2.5L Premium,124000,124500,124250,"AED 124,000 - 124,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2021/,2026-06-12T10:58:57Z
+hyundai-sonata,2022,2.5L Smart,87000,87500,87250,"AED 87,000 - 87,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2022/,2026-06-12T10:58:59Z
+hyundai-sonata,2022,2.5L Smart Plus,92000,93000,92500,"AED 92,000 - 93,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2022/,2026-06-12T10:58:59Z
+hyundai-sonata,2022,2.5L Comfort,98000,99000,98500,"AED 98,000 - 99,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2022/,2026-06-12T10:58:59Z
+hyundai-sonata,2022,2.5L Premium,124000,124500,124250,"AED 124,000 - 124,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2022/,2026-06-12T10:58:59Z
+hyundai-sonata,2023,2.5L Smart,87000,87500,87250,"AED 87,000 - 87,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2023/,2026-06-12T10:59:01Z
+hyundai-sonata,2023,2.5L Smart Plus,92000,93000,92500,"AED 92,000 - 93,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2023/,2026-06-12T10:59:01Z
+hyundai-sonata,2023,2.5L Comfort,98000,99000,98500,"AED 98,000 - 99,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2023/,2026-06-12T10:59:01Z
+hyundai-sonata,2023,2.5L Premium,124000,124500,124250,"AED 124,000 - 124,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2023/,2026-06-12T10:59:01Z
+hyundai-sonata,2024,2.5L I4 Smart FWD,116000,117000,116500,"AED 116,000 - 117,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2024/,2026-06-12T10:59:03Z
+hyundai-sonata,2024,2.5L I4 Comfort FWD,124500,125000,124750,"AED 124,500 - 125,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2024/,2026-06-12T10:59:03Z
+hyundai-sonata,2024,2.5L I4 Premium FWD,146500,147500,147000,"AED 146,500 - 147,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2024/,2026-06-12T10:59:03Z
+hyundai-sonata,2025,2.5L I4 Smart FWD,116000,117000,116500,"AED 116,000 - 117,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2025/,2026-06-12T10:59:05Z
+hyundai-sonata,2025,2.5L I4 Comfort FWD,124500,125000,124750,"AED 124,500 - 125,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2025/,2026-06-12T10:59:05Z
+hyundai-sonata,2025,2.5L I4 Premium FWD,146500,147500,147000,"AED 146,500 - 147,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2025/,2026-06-12T10:59:05Z
+hyundai-sonata,2026,2.5L I4 Smart FWD,116000,117000,116500,"AED 116,000 - 117,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2026/,2026-06-12T10:59:07Z
+hyundai-sonata,2026,2.5L I4 Comfort FWD,124500,125000,124750,"AED 124,500 - 125,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2026/,2026-06-12T10:59:07Z
+hyundai-sonata,2026,2.5L I4 Premium FWD,146500,147500,147000,"AED 146,500 - 147,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-sonata/2026/,2026-06-12T10:59:07Z
+hyundai-stargazer,2025,1.5 l4 FWD Base,72500,78500,75500,"AED 72,500 - 78,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-stargazer/2025/,2026-06-12T10:59:47Z
+hyundai-stargazer,2025,1.5 l4 FWD Smart,75200,85500,80350,"AED 75,200 - 85,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-stargazer/2025/,2026-06-12T10:59:47Z
+hyundai-stargazer,2026,1.5 l4 FWD Base,72500,78500,75500,"AED 72,500 - 78,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-stargazer/2026/,2026-06-12T10:59:48Z
+hyundai-stargazer,2026,1.5 l4 FWD Smart,75200,85500,80350,"AED 75,200 - 85,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-stargazer/2026/,2026-06-12T10:59:48Z
+hyundai-staria,2022,3-seater Van,102900,103000,102950,"AED 102,900 - 103,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2022/,2026-06-12T11:00:25Z
+hyundai-staria,2022,5-seater Van,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2022/,2026-06-12T11:00:25Z
+hyundai-staria,2022,9-seater Comfort,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2022/,2026-06-12T11:00:25Z
+hyundai-staria,2022,11-seater Comfort,116900,117000,116950,"AED 116,900 - 117,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2022/,2026-06-12T11:00:25Z
+hyundai-staria,2022,9-seater Premium,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2022/,2026-06-12T11:00:25Z
+hyundai-staria,2022,7-seater Luxury,169900,170000,169950,"AED 169,900 - 170,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2022/,2026-06-12T11:00:25Z
+hyundai-staria,2023,3.5 V6 3-seater Van,102900,103000,102950,"AED 102,900 - 103,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2023/,2026-06-12T11:00:27Z
+hyundai-staria,2023,3.5 V6 5-seater Van,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2023/,2026-06-12T11:00:27Z
+hyundai-staria,2023,3.5 V6 9-seater Comfort,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2023/,2026-06-12T11:00:27Z
+hyundai-staria,2023,3.5 V6 11-seater Comfort,116900,117000,116950,"AED 116,900 - 117,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2023/,2026-06-12T11:00:27Z
+hyundai-staria,2023,3.5 V6 9-seater Premium,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2023/,2026-06-12T11:00:27Z
+hyundai-staria,2023,3.5 V6 7-seater Luxury,169900,170000,169950,"AED 169,900 - 170,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2023/,2026-06-12T11:00:27Z
+hyundai-staria,2024,3.5 V6 3-seater Van,102900,103000,102950,"AED 102,900 - 103,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2024/,2026-06-12T11:00:29Z
+hyundai-staria,2024,3.5 V6 5-seater Van,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2024/,2026-06-12T11:00:29Z
+hyundai-staria,2024,3.5 V6 9-seater Comfort,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2024/,2026-06-12T11:00:29Z
+hyundai-staria,2024,3.5 V6 11-seater Comfort,116900,117000,116950,"AED 116,900 - 117,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2024/,2026-06-12T11:00:29Z
+hyundai-staria,2024,3.5 V6 9-seater Premium,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2024/,2026-06-12T11:00:29Z
+hyundai-staria,2024,3.5 V6 7-seater Luxury,169900,170000,169950,"AED 169,900 - 170,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2024/,2026-06-12T11:00:29Z
+hyundai-staria,2025,3.5 V6 3-seater Van,102900,103000,102950,"AED 102,900 - 103,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2025/,2026-06-12T11:00:31Z
+hyundai-staria,2025,3.5 V6 5-seater Van,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2025/,2026-06-12T11:00:31Z
+hyundai-staria,2025,3.5 V6 9-seater Comfort,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2025/,2026-06-12T11:00:31Z
+hyundai-staria,2025,3.5 V6 11-seater Comfort,116900,117000,116950,"AED 116,900 - 117,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2025/,2026-06-12T11:00:31Z
+hyundai-staria,2025,3.5 V6 9-seater Premium,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2025/,2026-06-12T11:00:31Z
+hyundai-staria,2025,3.5 V6 7-seater Luxury,169900,170000,169950,"AED 169,900 - 170,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2025/,2026-06-12T11:00:31Z
+hyundai-staria,2026,3.5 V6 3-seater Van,102900,103000,102950,"AED 102,900 - 103,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2026/,2026-06-12T11:00:33Z
+hyundai-staria,2026,3.5 V6 5-seater Van,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2026/,2026-06-12T11:00:33Z
+hyundai-staria,2026,3.5 V6 9-seater Comfort,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2026/,2026-06-12T11:00:33Z
+hyundai-staria,2026,3.5 V6 11-seater Comfort,116900,117000,116950,"AED 116,900 - 117,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2026/,2026-06-12T11:00:33Z
+hyundai-staria,2026,3.5 V6 9-seater Premium,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2026/,2026-06-12T11:00:33Z
+hyundai-staria,2026,3.5 V6 7-seater Luxury,169900,170000,169950,"AED 169,900 - 170,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-staria/2026/,2026-06-12T11:00:33Z
+hyundai-tucson,2018,1.6L GL FWD,78500,78600,78550,"AED 78,500 - 78,600",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2018/,2026-06-12T11:02:44Z
+hyundai-tucson,2018,2.0L FWD,80900,81000,80950,"AED 80,900 - 81,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2018/,2026-06-12T11:02:44Z
+hyundai-tucson,2018,2.0L AWD,88000,90000,89000,"AED 88,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2018/,2026-06-12T11:02:44Z
+hyundai-tucson,2018,2.4L AWD,110000,110500,110250,"AED 110,000 - 110,500",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2018/,2026-06-12T11:02:44Z
+hyundai-tucson,2019,2.0L FWD,80640,87000,83820,"AED 80,640 - 87,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2019/,2026-06-12T11:02:46Z
+hyundai-tucson,2019,1.6L FWD,85000,86000,85500,"AED 85,000 - 86,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2019/,2026-06-12T11:02:46Z
+hyundai-tucson,2019,2.4L AWD,116000,117000,116500,"AED 116,000 - 117,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2019/,2026-06-12T11:02:46Z
+hyundai-tucson,2020,Smart 2.0,80640,81000,80820,"AED 80,640 - 81,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2020/,2026-06-12T11:02:48Z
+hyundai-tucson,2020,Comfort 1.6,85260,86000,85630,"AED 85,260 - 86,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2020/,2026-06-12T11:02:48Z
+hyundai-tucson,2020,Comfort 2.0,86940,87000,86970,"AED 86,940 - 87,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2020/,2026-06-12T11:02:48Z
+hyundai-tucson,2020,Premium 2.4,116240,117000,116620,"AED 116,240 - 117,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2020/,2026-06-12T11:02:48Z
+hyundai-tucson,2021,Smart 2.0,80640,81000,80820,"AED 80,640 - 81,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2021/,2026-06-12T11:02:50Z
+hyundai-tucson,2021,Comfort 1.6,85260,86000,85630,"AED 85,260 - 86,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2021/,2026-06-12T11:02:50Z
+hyundai-tucson,2021,Comfort 2.0,86940,87000,86970,"AED 86,940 - 87,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2021/,2026-06-12T11:02:50Z
+hyundai-tucson,2021,Premium 2.4,116240,117000,116620,"AED 116,240 - 117,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2021/,2026-06-12T11:02:50Z
+hyundai-tucson,2022,Comfort 2.0,87000,90000,88500,"AED 87,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2022/,2026-06-12T11:02:52Z
+hyundai-tucson,2022,Premium 1.6T,120000,125000,122500,"AED 120,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2022/,2026-06-12T11:02:52Z
+hyundai-tucson,2023,2.0L I4 Comfort FWD,87000,90000,88500,"AED 87,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2023/,2026-06-12T11:02:54Z
+hyundai-tucson,2023,1.6TC I4 Premium 4WD,120000,125000,122500,"AED 120,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2023/,2026-06-12T11:02:54Z
+hyundai-tucson,2024,2.0 I4 Comfort FWD,90000,95000,92500,"AED 90,000 - 95,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2024/,2026-06-12T11:02:56Z
+hyundai-tucson,2024,1.6TC I4 Premium 4WD,121000,125000,123000,"AED 121,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2024/,2026-06-12T11:02:56Z
+hyundai-tucson,2025,2.0 l4 FWD Smart,104500,113300,108900,"AED 104,500 - 113,300",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2025/,2026-06-12T11:02:58Z
+hyundai-tucson,2025,2.0 I4 FWD Comfort,106800,116000,111400,"AED 106,800 - 116,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2025/,2026-06-12T11:02:58Z
+hyundai-tucson,2025,2.0 I4 FWD Premium,108400,119200,113800,"AED 108,400 - 119,200",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2025/,2026-06-12T11:02:58Z
+hyundai-tucson,2025,1.6TC I4 4WD Premium,125000,136700,130850,"AED 125,000 - 136,700",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2025/,2026-06-12T11:02:58Z
+hyundai-tucson,2026,2.0 l4 FWD Smart,104500,113300,108900,"AED 104,500 - 113,300",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2026/,2026-06-12T11:03:00Z
+hyundai-tucson,2026,2.0 I4 FWD Comfort,106800,116000,111400,"AED 106,800 - 116,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2026/,2026-06-12T11:03:00Z
+hyundai-tucson,2026,2.0 I4 FWD Premium,108400,119200,113800,"AED 108,400 - 119,200",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2026/,2026-06-12T11:03:00Z
+hyundai-tucson,2026,1.6TC I4 4WD Premium,125000,136700,130850,"AED 125,000 - 136,700",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-tucson/2026/,2026-06-12T11:03:00Z
+hyundai-venue,2024,1.0TC I3 Standard FWD,61800,62000,61900,"AED 61,800 - 62,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-venue/2024/,2026-06-12T11:05:41Z
+hyundai-venue,2025,1.0TC I3 Standard FWD,61800,62000,61900,"AED 61,800 - 62,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-venue/2025/,2026-06-12T11:05:43Z
+hyundai-venue,2026,1.0TC I3 Standard FWD,61800,62000,61900,"AED 61,800 - 62,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-venue/2026/,2026-06-12T11:05:45Z
+hyundai-veracruz,2008,5-seater,96000,99900,97950,"AED 96,000 - 99,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-veracruz/2008/,2026-06-12T11:06:01Z
+hyundai-veracruz,2008,7-seater,110000,134000,122000,"AED 110,000 - 134,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-veracruz/2008/,2026-06-12T11:06:01Z
+hyundai-veracruz,2009,5-seater,96000,99900,97950,"AED 96,000 - 99,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-veracruz/2009/,2026-06-12T11:06:03Z
+hyundai-veracruz,2009,7-seater,110000,134000,122000,"AED 110,000 - 134,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-veracruz/2009/,2026-06-12T11:06:03Z
+hyundai-veracruz,2010,5-seater,96000,99900,97950,"AED 96,000 - 99,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-veracruz/2010/,2026-06-12T11:06:05Z
+hyundai-veracruz,2010,7-seater,110000,134000,122000,"AED 110,000 - 134,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-veracruz/2010/,2026-06-12T11:06:05Z
+hyundai-veracruz,2011,5-seater,96000,99900,97950,"AED 96,000 - 99,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-veracruz/2011/,2026-06-12T11:06:07Z
+hyundai-veracruz,2011,7-seater,110000,134000,122000,"AED 110,000 - 134,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-veracruz/2011/,2026-06-12T11:06:07Z
+hyundai-veracruz,2012,5-seater,96000,99900,97950,"AED 96,000 - 99,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-veracruz/2012/,2026-06-12T11:06:09Z
+hyundai-veracruz,2012,7-seater,110000,134000,122000,"AED 110,000 - 134,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-veracruz/2012/,2026-06-12T11:06:09Z
+hyundai-veracruz,2013,5-seater,96000,99900,97950,"AED 96,000 - 99,900",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-veracruz/2013/,2026-06-12T11:06:11Z
+hyundai-veracruz,2013,7-seater,110000,134000,122000,"AED 110,000 - 134,000",AED,https://www.drivearabia.com/carprices/uae/hyundai/hyundai-veracruz/2013/,2026-06-12T11:06:11Z
