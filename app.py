@@ -409,7 +409,7 @@ if st.button("Decode", use_container_width=True):
 
                 dep_rows = []
                 if not dep_values:
-                    dep_rows.append({"Attribute": "Depreciated Value", "Predicted Value": "Not found", "Confidence": "Lookup"})
+                    dep_rows.append({"Attribute": "Depreciated Value", "Predicted Value": "Not found", "Confidence": "Scraped Data"})
                 else:
                     for filename, val in dep_values.items():
                         display_name = filename.rsplit('.', 1)[0]
