@@ -1,0 +1,305 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+honda-accord,2011,2.4L sedan,89000,119900,104450,"AED 89,000 - 119,900",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2011/,2026-06-15T09:20:39Z
+honda-accord,2011,3.5L sedan,120000,138000,129000,"AED 120,000 - 138,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2011/,2026-06-15T09:20:39Z
+honda-accord,2012,2.4L sedan,89000,119900,104450,"AED 89,000 - 119,900",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2012/,2026-06-15T09:20:41Z
+honda-accord,2012,3.5L sedan,120000,138000,129000,"AED 120,000 - 138,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2012/,2026-06-15T09:20:41Z
+honda-accord,2013,2.4 DX/LX,85500,92500,89000,"AED 85,500 - 92,500",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2013/,2026-06-15T09:20:43Z
+honda-accord,2013,2.4 EX,103500,113500,108500,"AED 103,500 - 113,500",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2013/,2026-06-15T09:20:43Z
+honda-accord,2013,3.5 EX/Sport,126500,133500,130000,"AED 126,500 - 133,500",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2013/,2026-06-15T09:20:43Z
+honda-accord,2014,2.4 DX/LX,85500,92500,89000,"AED 85,500 - 92,500",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2014/,2026-06-15T09:20:44Z
+honda-accord,2014,2.4 EX,103500,113500,108500,"AED 103,500 - 113,500",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2014/,2026-06-15T09:20:44Z
+honda-accord,2014,3.5 EX/Sport,126500,133500,130000,"AED 126,500 - 133,500",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2014/,2026-06-15T09:20:44Z
+honda-accord,2015,2.4 LX,91000,96000,93500,"AED 91,000 - 96,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2015/,2026-06-15T09:20:46Z
+honda-accord,2015,2.4 EX,104000,116000,110000,"AED 104,000 - 116,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2015/,2026-06-15T09:20:46Z
+honda-accord,2015,3.5 EX/Sport,126000,129000,127500,"AED 126,000 - 129,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2015/,2026-06-15T09:20:46Z
+honda-accord,2016,2.4 LX,91000,96000,93500,"AED 91,000 - 96,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2016/,2026-06-15T09:20:48Z
+honda-accord,2016,2.4 EX,104000,116000,110000,"AED 104,000 - 116,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2016/,2026-06-15T09:20:48Z
+honda-accord,2016,3.5 EX/Sport,126000,129000,127500,"AED 126,000 - 129,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2016/,2026-06-15T09:20:48Z
+honda-accord,2017,2.4 DX,80000,85000,82500,"AED 80,000 - 85,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2017/,2026-06-15T09:20:50Z
+honda-accord,2017,2.4 LX,91000,96000,93500,"AED 91,000 - 96,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2017/,2026-06-15T09:20:50Z
+honda-accord,2017,2.4 EX,104000,116000,110000,"AED 104,000 - 116,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2017/,2026-06-15T09:20:50Z
+honda-accord,2017,3.5 EX/Sport,126000,129000,127500,"AED 126,000 - 129,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2017/,2026-06-15T09:20:50Z
+honda-accord,2018,1.5T LX,94900,95000,94950,"AED 94,900 - 95,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2018/,2026-06-15T09:20:52Z
+honda-accord,2018,1.5T LX Sport,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2018/,2026-06-15T09:20:52Z
+honda-accord,2018,1.5T EX,119900,120000,119950,"AED 119,900 - 120,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2018/,2026-06-15T09:20:52Z
+honda-accord,2018,2.0T Sport,141900,142000,141950,"AED 141,900 - 142,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2018/,2026-06-15T09:20:52Z
+honda-accord,2019,1.5T LX,94900,95000,94950,"AED 94,900 - 95,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2019/,2026-06-15T09:20:54Z
+honda-accord,2019,1.5T LX Sport,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2019/,2026-06-15T09:20:54Z
+honda-accord,2019,1.5T EX,119900,120000,119950,"AED 119,900 - 120,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2019/,2026-06-15T09:20:54Z
+honda-accord,2019,2.0T Sport,129900,142000,135950,"AED 129,900 - 142,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2019/,2026-06-15T09:20:54Z
+honda-accord,2020,1.5T LX,92900,95000,93950,"AED 92,900 - 95,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2020/,2026-06-15T09:20:56Z
+honda-accord,2020,1.5T LX Sport,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2020/,2026-06-15T09:20:56Z
+honda-accord,2020,1.5T EX,115000,116000,115500,"AED 115,000 - 116,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2020/,2026-06-15T09:20:56Z
+honda-accord,2020,1.5T EXL,120000,121000,120500,"AED 120,000 - 121,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2020/,2026-06-15T09:20:56Z
+honda-accord,2020,2.0T Sport,141900,142000,141950,"AED 141,900 - 142,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2020/,2026-06-15T09:20:56Z
+honda-accord,2021,1.5T LX,94900,95000,94950,"AED 94,900 - 95,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2021/,2026-06-15T09:20:57Z
+honda-accord,2021,1.5T LX Sport,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2021/,2026-06-15T09:20:57Z
+honda-accord,2021,1.5T EX,115000,116000,115500,"AED 115,000 - 116,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2021/,2026-06-15T09:20:57Z
+honda-accord,2021,1.5T EXL,120000,121000,120500,"AED 120,000 - 121,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2021/,2026-06-15T09:20:57Z
+honda-accord,2021,2.0T Sport,141900,142000,141950,"AED 141,900 - 142,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2021/,2026-06-15T09:20:57Z
+honda-accord,2022,1.5T LX,102900,103000,102950,"AED 102,900 - 103,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2022/,2026-06-15T09:20:59Z
+honda-accord,2022,1.5T LX Sport,109900,110000,109950,"AED 109,900 - 110,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2022/,2026-06-15T09:20:59Z
+honda-accord,2022,1.5T EX,119900,120000,119950,"AED 119,900 - 120,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2022/,2026-06-15T09:20:59Z
+honda-accord,2022,1.5T EX-L,124900,125000,124950,"AED 124,900 - 125,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2022/,2026-06-15T09:20:59Z
+honda-accord,2022,2.0T Sport,154900,155000,154950,"AED 154,900 - 155,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2022/,2026-06-15T09:20:59Z
+honda-accord,2023,1.5TC I4 LX,124900,125000,124950,"AED 124,900 - 125,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2023/,2026-06-15T09:21:01Z
+honda-accord,2023,1.5TC I4 EX,134900,135000,134950,"AED 134,900 - 135,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2023/,2026-06-15T09:21:01Z
+honda-accord,2023,1.5TC I4 EX-L,144900,145000,144950,"AED 144,900 - 145,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2023/,2026-06-15T09:21:01Z
+honda-accord,2023,2.0H I4 e:HEV Sport FWD,154900,165000,159950,"AED 154,900 - 165,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2023/,2026-06-15T09:21:01Z
+honda-accord,2023,2.0H I4 e:HEV EX-L FWD,164900,165000,164950,"AED 164,900 - 165,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2023/,2026-06-15T09:21:01Z
+honda-accord,2024,1.5TC I4 LX,125900,126000,125950,"AED 125,900 - 126,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2024/,2026-06-15T09:21:03Z
+honda-accord,2024,1.5TC I4 EX,135900,136000,135950,"AED 135,900 - 136,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2024/,2026-06-15T09:21:03Z
+honda-accord,2024,1.5TC I4 EX-L,145900,150000,147950,"AED 145,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2024/,2026-06-15T09:21:03Z
+honda-accord,2024,2.0H I4 e:HEV Sport FWD,155900,156000,155950,"AED 155,900 - 156,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2024/,2026-06-15T09:21:03Z
+honda-accord,2024,2.0H I4 e:HEV EX-L FWD,165900,166000,165950,"AED 165,900 - 166,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2024/,2026-06-15T09:21:03Z
+honda-accord,2025,1.5TC I4 LX,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2025/,2026-06-15T09:21:05Z
+honda-accord,2025,1.5TC I4 EX,124900,125000,124950,"AED 124,900 - 125,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2025/,2026-06-15T09:21:05Z
+honda-accord,2025,1.5TC I4 EX-L,139900,140000,139950,"AED 139,900 - 140,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2025/,2026-06-15T09:21:05Z
+honda-accord,2025,2.0H I4 e:HEV Sport FWD,154900,156000,155450,"AED 154,900 - 156,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2025/,2026-06-15T09:21:05Z
+honda-accord,2025,2.0H I4 e:HEV EX-L FWD,165900,166000,165950,"AED 165,900 - 166,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2025/,2026-06-15T09:21:05Z
+honda-accord,2026,1.5TC I4 LX,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2026/,2026-06-15T09:21:07Z
+honda-accord,2026,1.5TC I4 EX,124900,125000,124950,"AED 124,900 - 125,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2026/,2026-06-15T09:21:07Z
+honda-accord,2026,1.5TC I4 EX-L,139900,140000,139950,"AED 139,900 - 140,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2026/,2026-06-15T09:21:07Z
+honda-accord,2026,2.0H I4 e:HEV Sport FWD,154900,156000,155450,"AED 154,900 - 156,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2026/,2026-06-15T09:21:07Z
+honda-accord,2026,2.0H I4 e:HEV EX-L FWD,165900,166000,165950,"AED 165,900 - 166,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord/2026/,2026-06-15T09:21:07Z
+honda-accord-coupe,2011,2.4L coupe,105000,115000,110000,"AED 105,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord-coupe/2011/,2026-06-15T09:21:29Z
+honda-accord-coupe,2011,3.5L coupe,116000,125000,120500,"AED 116,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord-coupe/2011/,2026-06-15T09:21:29Z
+honda-accord-coupe,2012,2.4L coupe,105000,115000,110000,"AED 105,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord-coupe/2012/,2026-06-15T09:21:31Z
+honda-accord-coupe,2012,3.5L coupe,116000,125000,120500,"AED 116,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord-coupe/2012/,2026-06-15T09:21:31Z
+honda-accord-coupe,2013,2.4 Coupe,105300,106000,105650,"AED 105,300 - 106,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord-coupe/2013/,2026-06-15T09:21:33Z
+honda-accord-coupe,2013,3.5 Coupe,126000,135000,130500,"AED 126,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord-coupe/2013/,2026-06-15T09:21:33Z
+honda-accord-coupe,2014,2.4 Coupe,105300,106000,105650,"AED 105,300 - 106,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord-coupe/2014/,2026-06-15T09:21:35Z
+honda-accord-coupe,2014,3.5 Coupe,126000,135000,130500,"AED 126,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord-coupe/2014/,2026-06-15T09:21:35Z
+honda-accord-coupe,2015,2.4 Coupe,105300,106000,105650,"AED 105,300 - 106,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord-coupe/2015/,2026-06-15T09:21:37Z
+honda-accord-coupe,2015,3.5 Coupe,126000,135000,130500,"AED 126,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord-coupe/2015/,2026-06-15T09:21:37Z
+honda-accord-coupe,2016,2.4 Coupe,105300,106000,105650,"AED 105,300 - 106,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord-coupe/2016/,2026-06-15T09:21:39Z
+honda-accord-coupe,2016,3.5 Coupe,126000,135000,130500,"AED 126,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord-coupe/2016/,2026-06-15T09:21:39Z
+honda-accord-coupe,2017,2.4 Coupe,105300,106000,105650,"AED 105,300 - 106,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord-coupe/2017/,2026-06-15T09:21:41Z
+honda-accord-coupe,2017,3.5 Coupe,126000,135000,130500,"AED 126,000 - 135,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord-coupe/2017/,2026-06-15T09:21:41Z
+honda-accord-crosstour,2013,Touring,146500,147000,146750,"AED 146,500 - 147,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord-crosstour/2013/,2026-06-15T09:22:16Z
+honda-accord-crosstour,2014,Touring,146500,147000,146750,"AED 146,500 - 147,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-accord-crosstour/2014/,2026-06-15T09:22:18Z
+honda-city,2014,DX,57000,58000,57500,"AED 57,000 - 58,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2014/,2026-06-15T09:23:40Z
+honda-city,2014,LX,59000,60000,59500,"AED 59,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2014/,2026-06-15T09:23:40Z
+honda-city,2014,EX,66000,67000,66500,"AED 66,000 - 67,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2014/,2026-06-15T09:23:40Z
+honda-city,2015,DX,57000,58000,57500,"AED 57,000 - 58,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2015/,2026-06-15T09:23:42Z
+honda-city,2015,LX,59000,60000,59500,"AED 59,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2015/,2026-06-15T09:23:42Z
+honda-city,2015,EX,66000,67000,66500,"AED 66,000 - 67,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2015/,2026-06-15T09:23:42Z
+honda-city,2016,DX,57000,58000,57500,"AED 57,000 - 58,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2016/,2026-06-15T09:23:44Z
+honda-city,2016,LX,59000,60000,59500,"AED 59,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2016/,2026-06-15T09:23:44Z
+honda-city,2016,EX,66000,67000,66500,"AED 66,000 - 67,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2016/,2026-06-15T09:23:44Z
+honda-city,2017,DX,57000,58000,57500,"AED 57,000 - 58,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2017/,2026-06-15T09:23:45Z
+honda-city,2017,LX,59000,60000,59500,"AED 59,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2017/,2026-06-15T09:23:45Z
+honda-city,2017,EX,66000,67000,66500,"AED 66,000 - 67,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2017/,2026-06-15T09:23:45Z
+honda-city,2018,DX,53900,55000,54450,"AED 53,900 - 55,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2018/,2026-06-15T09:23:47Z
+honda-city,2018,LX,59000,60000,59500,"AED 59,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2018/,2026-06-15T09:23:47Z
+honda-city,2018,EX,66000,67000,66500,"AED 66,000 - 67,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2018/,2026-06-15T09:23:47Z
+honda-city,2019,DX,53900,55000,54450,"AED 53,900 - 55,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2019/,2026-06-15T09:23:49Z
+honda-city,2019,LX,59000,60000,59500,"AED 59,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2019/,2026-06-15T09:23:49Z
+honda-city,2019,EX,66000,67000,66500,"AED 66,000 - 67,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2019/,2026-06-15T09:23:49Z
+honda-city,2020,DX,54900,55000,54950,"AED 54,900 - 55,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2020/,2026-06-15T09:23:51Z
+honda-city,2020,LX,59000,60000,59500,"AED 59,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2020/,2026-06-15T09:23:51Z
+honda-city,2020,EX,66000,67000,66500,"AED 66,000 - 67,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2020/,2026-06-15T09:23:51Z
+honda-city,2021,DX,55900,58000,56950,"AED 55,900 - 58,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2021/,2026-06-15T09:23:53Z
+honda-city,2021,LX,59000,60000,59500,"AED 59,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2021/,2026-06-15T09:23:53Z
+honda-city,2021,EX,66000,67000,66500,"AED 66,000 - 67,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2021/,2026-06-15T09:23:53Z
+honda-city,2022,DX,55900,58000,56950,"AED 55,900 - 58,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2022/,2026-06-15T09:23:55Z
+honda-city,2022,LX,59000,60000,59500,"AED 59,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2022/,2026-06-15T09:23:55Z
+honda-city,2022,EX,66000,67000,66500,"AED 66,000 - 67,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2022/,2026-06-15T09:23:55Z
+honda-city,2023,1.5 I4 LX Sport,72500,73000,72750,"AED 72,500 - 73,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2023/,2026-06-15T09:23:57Z
+honda-city,2023,1.5 I4 Sport,84500,85000,84750,"AED 84,500 - 85,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2023/,2026-06-15T09:23:57Z
+honda-city,2024,1.5L I4 DX FWD,67900,68999,68450,"AED 67,900 - 68,999",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2024/,2026-06-15T09:23:59Z
+honda-city,2024,1.5L I4 LX FWD,72500,73000,72750,"AED 72,500 - 73,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2024/,2026-06-15T09:23:59Z
+honda-city,2024,1.5L I4 LX Sport FWD,75900,76000,75950,"AED 75,900 - 76,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2024/,2026-06-15T09:23:59Z
+honda-city,2025,1.5L I4 DX FWD,67900,68999,68450,"AED 67,900 - 68,999",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2025/,2026-06-15T09:24:01Z
+honda-city,2025,1.5L I4 LX Sport FWD,75900,76000,75950,"AED 75,900 - 76,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2025/,2026-06-15T09:24:01Z
+honda-city,2026,1.5L I4 DX FWD,67900,68999,68450,"AED 67,900 - 68,999",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2026/,2026-06-15T09:24:03Z
+honda-city,2026,1.5L I4 LX Sport FWD,75900,76000,75950,"AED 75,900 - 76,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-city/2026/,2026-06-15T09:24:03Z
+honda-civic,2013,LXi,70500,71000,70750,"AED 70,500 - 71,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2013/,2026-06-15T09:24:30Z
+honda-civic,2013,EXi,75500,79500,77500,"AED 75,500 - 79,500",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2013/,2026-06-15T09:24:30Z
+honda-civic,2013,VTi,85500,86000,85750,"AED 85,500 - 86,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2013/,2026-06-15T09:24:30Z
+honda-civic,2014,LXi,70500,71000,70750,"AED 70,500 - 71,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2014/,2026-06-15T09:24:32Z
+honda-civic,2014,EXi,75500,79500,77500,"AED 75,500 - 79,500",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2014/,2026-06-15T09:24:32Z
+honda-civic,2014,VTi,85500,86000,85750,"AED 85,500 - 86,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2014/,2026-06-15T09:24:32Z
+honda-civic,2015,LXi,70500,71000,70750,"AED 70,500 - 71,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2015/,2026-06-15T09:24:34Z
+honda-civic,2015,EXi,75500,79500,77500,"AED 75,500 - 79,500",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2015/,2026-06-15T09:24:34Z
+honda-civic,2015,VTi,85500,86000,85750,"AED 85,500 - 86,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2015/,2026-06-15T09:24:34Z
+honda-civic,2016,2.0 Base,72900,73000,72950,"AED 72,900 - 73,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2016/,2026-06-15T09:24:36Z
+honda-civic,2016,2.0 Top,78900,79000,78950,"AED 78,900 - 79,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2016/,2026-06-15T09:24:36Z
+honda-civic,2016,1.5 Turbo,95900,96000,95950,"AED 95,900 - 96,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2016/,2026-06-15T09:24:36Z
+honda-civic,2017,1.6 Base,67900,69900,68900,"AED 67,900 - 69,900",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2017/,2026-06-15T09:24:38Z
+honda-civic,2017,2.0 Base,72900,73000,72950,"AED 72,900 - 73,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2017/,2026-06-15T09:24:38Z
+honda-civic,2017,2.0 Top,78900,79000,78950,"AED 78,900 - 79,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2017/,2026-06-15T09:24:38Z
+honda-civic,2017,1.5 Turbo,95900,96000,95950,"AED 95,900 - 96,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2017/,2026-06-15T09:24:38Z
+honda-civic,2018,1.6 Base,67900,71000,69450,"AED 67,900 - 71,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2018/,2026-06-15T09:24:39Z
+honda-civic,2018,2.0 Top,84900,85000,84950,"AED 84,900 - 85,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2018/,2026-06-15T09:24:39Z
+honda-civic,2018,1.5 Turbo,97900,99000,98450,"AED 97,900 - 99,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2018/,2026-06-15T09:24:39Z
+honda-civic,2019,1.6 Base,69900,71000,70450,"AED 69,900 - 71,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2019/,2026-06-15T09:24:41Z
+honda-civic,2019,2.0 Top,86900,87000,86950,"AED 86,900 - 87,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2019/,2026-06-15T09:24:41Z
+honda-civic,2019,1.5 Turbo,98900,99000,98950,"AED 98,900 - 99,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2019/,2026-06-15T09:24:41Z
+honda-civic,2020,1.6 Base,65900,71000,68450,"AED 65,900 - 71,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2020/,2026-06-15T09:24:43Z
+honda-civic,2020,2.0 Base,72900,73000,72950,"AED 72,900 - 73,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2020/,2026-06-15T09:24:43Z
+honda-civic,2020,2.0 Top,80000,82000,81000,"AED 80,000 - 82,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2020/,2026-06-15T09:24:43Z
+honda-civic,2020,1.5 Turbo,97900,99000,98450,"AED 97,900 - 99,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2020/,2026-06-15T09:24:43Z
+honda-civic,2021,1.6 DX,67900,71000,69450,"AED 67,900 - 71,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2021/,2026-06-15T09:24:45Z
+honda-civic,2021,1.6 LX,72900,73000,72950,"AED 72,900 - 73,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2021/,2026-06-15T09:24:45Z
+honda-civic,2021,1.6 LX Sport,75000,76000,75500,"AED 75,000 - 76,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2021/,2026-06-15T09:24:45Z
+honda-civic,2021,2.0 EXI,86900,87000,86950,"AED 86,900 - 87,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2021/,2026-06-15T09:24:45Z
+honda-civic,2021,1.5 Turbo,99000,99900,99450,"AED 99,000 - 99,900",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2021/,2026-06-15T09:24:45Z
+honda-civic,2022,Sport 1.5T,123500,124000,123750,"AED 123,500 - 124,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2022/,2026-06-15T09:24:47Z
+honda-civic,2023,Sport 1.5T,126500,127000,126750,"AED 126,500 - 127,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2023/,2026-06-15T09:24:49Z
+honda-civic,2024,Sport 1.5T,126500,127000,126750,"AED 126,500 - 127,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2024/,2026-06-15T09:24:51Z
+honda-civic,2025,1.5TC I4 LX FWD,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2025/,2026-06-15T09:24:53Z
+honda-civic,2025,1.5TC I4 Sport FWD,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2025/,2026-06-15T09:24:53Z
+honda-civic,2026,1.5TC I4 LX FWD,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2026/,2026-06-15T09:24:55Z
+honda-civic,2026,1.5TC I4 Sport FWD,129000,130000,129500,"AED 129,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic/2026/,2026-06-15T09:24:55Z
+honda-civic-hatchback,2010,5-door,95000,100000,97500,"AED 95,000 - 100,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic-hatchback/2010/,2026-06-15T09:25:14Z
+honda-civic-hatchback,2010,Type-R,110000,115000,112500,"AED 110,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic-hatchback/2010/,2026-06-15T09:25:14Z
+honda-civic-hatchback,2011,5-door,95000,100000,97500,"AED 95,000 - 100,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic-hatchback/2011/,2026-06-15T09:25:17Z
+honda-civic-hatchback,2011,Type-R,110000,115000,112500,"AED 110,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic-hatchback/2011/,2026-06-15T09:25:17Z
+honda-civic-type-r,2023,2.0T I4 Type R,199500,205000,202250,"AED 199,500 - 205,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic-type-r/2023/,2026-06-15T09:26:07Z
+honda-civic-type-r,2025,2.0TC I4 Type R FWD,205000,207000,206000,"AED 205,000 - 207,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-civic-type-r/2025/,2026-06-15T09:26:10Z
+honda-cr-v,2012,CR-V LX,99500,100000,99750,"AED 99,500 - 100,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2012/,2026-06-15T09:26:40Z
+honda-cr-v,2012,CR-V EX,109500,120500,115000,"AED 109,500 - 120,500",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2012/,2026-06-15T09:26:40Z
+honda-cr-v,2013,CR-V LX,99500,100000,99750,"AED 99,500 - 100,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2013/,2026-06-15T09:26:42Z
+honda-cr-v,2013,CR-V EX,109500,120500,115000,"AED 109,500 - 120,500",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2013/,2026-06-15T09:26:42Z
+honda-cr-v,2014,CR-V LX,99500,100000,99750,"AED 99,500 - 100,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2014/,2026-06-15T09:26:44Z
+honda-cr-v,2014,CR-V EX,109500,120500,115000,"AED 109,500 - 120,500",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2014/,2026-06-15T09:26:44Z
+honda-cr-v,2015,CR-V LX 2WD,89900,91000,90450,"AED 89,900 - 91,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2015/,2026-06-15T09:26:45Z
+honda-cr-v,2015,CR-V LX 4WD,103900,105000,104450,"AED 103,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2015/,2026-06-15T09:26:45Z
+honda-cr-v,2015,CR-V EX/EX-L,113900,123900,118900,"AED 113,900 - 123,900",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2015/,2026-06-15T09:26:45Z
+honda-cr-v,2016,CR-V LX 2WD,89900,91000,90450,"AED 89,900 - 91,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2016/,2026-06-15T09:26:47Z
+honda-cr-v,2016,CR-V LX 4WD,103900,105000,104450,"AED 103,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2016/,2026-06-15T09:26:47Z
+honda-cr-v,2016,CR-V EX/EX-L,113900,123900,118900,"AED 113,900 - 123,900",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2016/,2026-06-15T09:26:47Z
+honda-cr-v,2017,2WD LX,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2017/,2026-06-15T09:26:49Z
+honda-cr-v,2017,2WD LX Plus,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2017/,2026-06-15T09:26:49Z
+honda-cr-v,2017,AWD EX Plus,113900,114000,113950,"AED 113,900 - 114,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2017/,2026-06-15T09:26:49Z
+honda-cr-v,2017,AWD Touring,125900,126000,125950,"AED 125,900 - 126,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2017/,2026-06-15T09:26:49Z
+honda-cr-v,2018,2WD LX,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2018/,2026-06-15T09:26:51Z
+honda-cr-v,2018,2WD LX Plus,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2018/,2026-06-15T09:26:51Z
+honda-cr-v,2018,AWD EX Plus,113900,114000,113950,"AED 113,900 - 114,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2018/,2026-06-15T09:26:51Z
+honda-cr-v,2018,AWD Touring,125900,126000,125950,"AED 125,900 - 126,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2018/,2026-06-15T09:26:51Z
+honda-cr-v,2019,2WD LX,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2019/,2026-06-15T09:26:53Z
+honda-cr-v,2019,2WD LX Plus,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2019/,2026-06-15T09:26:53Z
+honda-cr-v,2019,AWD EX Plus,113900,114000,113950,"AED 113,900 - 114,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2019/,2026-06-15T09:26:53Z
+honda-cr-v,2019,AWD Touring,125900,126000,125950,"AED 125,900 - 126,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2019/,2026-06-15T09:26:53Z
+honda-cr-v,2020,2WD DX,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2020/,2026-06-15T09:26:55Z
+honda-cr-v,2020,2WD LX,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2020/,2026-06-15T09:26:55Z
+honda-cr-v,2020,AWD EX,113900,114000,113950,"AED 113,900 - 114,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2020/,2026-06-15T09:26:55Z
+honda-cr-v,2020,AWD Touring,125900,126000,125950,"AED 125,900 - 126,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2020/,2026-06-15T09:26:55Z
+honda-cr-v,2021,2WD DX,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2021/,2026-06-15T09:26:56Z
+honda-cr-v,2021,2WD LX,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2021/,2026-06-15T09:26:56Z
+honda-cr-v,2021,AWD EX,113900,114000,113950,"AED 113,900 - 114,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2021/,2026-06-15T09:26:56Z
+honda-cr-v,2021,AWD Touring,125900,126000,125950,"AED 125,900 - 126,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2021/,2026-06-15T09:26:56Z
+honda-cr-v,2022,DX 2WD,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2022/,2026-06-15T09:26:58Z
+honda-cr-v,2022,EX AWD,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2022/,2026-06-15T09:26:58Z
+honda-cr-v,2022,Touring AWD,139900,140000,139950,"AED 139,900 - 140,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2022/,2026-06-15T09:26:58Z
+honda-cr-v,2023,2.4L I4 DX 2WD,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2023/,2026-06-15T09:27:00Z
+honda-cr-v,2023,2.4L I4 EX AWD,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2023/,2026-06-15T09:27:00Z
+honda-cr-v,2023,2.4L I4 Touring AWD,139900,140000,139950,"AED 139,900 - 140,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2023/,2026-06-15T09:27:00Z
+honda-cr-v,2024,1.5TC I4 DX 2WD,124900,125000,124950,"AED 124,900 - 125,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2024/,2026-06-15T09:27:02Z
+honda-cr-v,2024,1.5TC I4 LX 2WD,126900,127000,126950,"AED 126,900 - 127,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2024/,2026-06-15T09:27:02Z
+honda-cr-v,2024,1.5TC I4 EX AWD,145900,146000,145950,"AED 145,900 - 146,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2024/,2026-06-15T09:27:02Z
+honda-cr-v,2024,1.5TC I4 Touring AWD,160900,161000,160950,"AED 160,900 - 161,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2024/,2026-06-15T09:27:02Z
+honda-cr-v,2025,1.5TC I4 LX FWD,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2025/,2026-06-15T09:27:04Z
+honda-cr-v,2025,1.5TC I4 EX 4WD,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2025/,2026-06-15T09:27:04Z
+honda-cr-v,2025,1.5TC I4 Touring 4WD,164900,165000,164950,"AED 164,900 - 165,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2025/,2026-06-15T09:27:04Z
+honda-cr-v,2026,1.5TC I4 LX FWD,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2026/,2026-06-15T09:27:06Z
+honda-cr-v,2026,1.5TC I4 EX 4WD,149900,150000,149950,"AED 149,900 - 150,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2026/,2026-06-15T09:27:06Z
+honda-cr-v,2026,1.5TC I4 Touring 4WD,164900,165000,164950,"AED 164,900 - 165,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-cr-v/2026/,2026-06-15T09:27:06Z
+honda-hr-v,2020,DX,64000,69000,66500,"AED 64,000 - 69,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2020/,2026-06-15T09:28:13Z
+honda-hr-v,2020,LX,79000,80000,79500,"AED 79,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2020/,2026-06-15T09:28:13Z
+honda-hr-v,2020,EX,89000,90000,89500,"AED 89,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2020/,2026-06-15T09:28:13Z
+honda-hr-v,2021,DX,69900,70000,69950,"AED 69,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2021/,2026-06-15T09:28:15Z
+honda-hr-v,2021,LX,79000,80000,79500,"AED 79,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2021/,2026-06-15T09:28:15Z
+honda-hr-v,2021,EX,89000,90000,89500,"AED 89,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2021/,2026-06-15T09:28:15Z
+honda-hr-v,2022,DX,69900,70000,69950,"AED 69,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2022/,2026-06-15T09:28:17Z
+honda-hr-v,2022,LX,79000,80000,79500,"AED 79,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2022/,2026-06-15T09:28:17Z
+honda-hr-v,2022,EX,89000,90000,89500,"AED 89,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2022/,2026-06-15T09:28:17Z
+honda-hr-v,2023,1.5L I4 DX FWD,94900,95000,94950,"AED 94,900 - 95,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2023/,2026-06-15T09:28:19Z
+honda-hr-v,2023,1.5L I4 LX FWD,97900,98000,97950,"AED 97,900 - 98,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2023/,2026-06-15T09:28:19Z
+honda-hr-v,2023,1.5L I4 EX FWD,107900,108000,107950,"AED 107,900 - 108,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2023/,2026-06-15T09:28:19Z
+honda-hr-v,2024,1.5L I4 LX FWD,94150,95000,94575,"AED 94,150 - 95,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2024/,2026-06-15T09:28:21Z
+honda-hr-v,2024,1.5L I4 EX FWD,104150,105000,104575,"AED 104,150 - 105,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2024/,2026-06-15T09:28:21Z
+honda-hr-v,2025,1.5L I4 LX FWD,94150,95000,94575,"AED 94,150 - 95,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2025/,2026-06-15T09:28:23Z
+honda-hr-v,2025,1.5L I4 EX FWD,104150,105000,104575,"AED 104,150 - 105,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2025/,2026-06-15T09:28:23Z
+honda-hr-v,2026,1.5L I4 LX FWD,94150,95000,94575,"AED 94,150 - 95,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2026/,2026-06-15T09:28:25Z
+honda-hr-v,2026,1.5L I4 EX FWD,104150,105000,104575,"AED 104,150 - 105,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-hr-v/2026/,2026-06-15T09:28:25Z
+honda-odyssey,2013,LX,130000,131000,130500,"AED 130,000 - 131,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey/2013/,2026-06-15T09:30:54Z
+honda-odyssey,2013,EXL,145500,150000,147750,"AED 145,500 - 150,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey/2013/,2026-06-15T09:30:54Z
+honda-odyssey,2013,Touring,170500,171000,170750,"AED 170,500 - 171,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey/2013/,2026-06-15T09:30:54Z
+honda-odyssey,2014,LX,130000,131000,130500,"AED 130,000 - 131,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey/2014/,2026-06-15T09:30:56Z
+honda-odyssey,2014,EXL,145500,150000,147750,"AED 145,500 - 150,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey/2014/,2026-06-15T09:30:56Z
+honda-odyssey,2014,Touring,170500,171000,170750,"AED 170,500 - 171,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey/2014/,2026-06-15T09:30:56Z
+honda-odyssey,2015,LX,130000,131000,130500,"AED 130,000 - 131,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey/2015/,2026-06-15T09:30:57Z
+honda-odyssey,2015,EXL,145500,150000,147750,"AED 145,500 - 150,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey/2015/,2026-06-15T09:30:57Z
+honda-odyssey,2015,Touring,170500,171000,170750,"AED 170,500 - 171,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey/2015/,2026-06-15T09:30:57Z
+honda-odyssey,2016,LX,130000,131000,130500,"AED 130,000 - 131,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey/2016/,2026-06-15T09:30:59Z
+honda-odyssey,2016,EXL,145500,150000,147750,"AED 145,500 - 150,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey/2016/,2026-06-15T09:30:59Z
+honda-odyssey,2016,Touring,170500,171000,170750,"AED 170,500 - 171,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey/2016/,2026-06-15T09:30:59Z
+honda-odyssey,2017,LX,130000,131000,130500,"AED 130,000 - 131,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey/2017/,2026-06-15T09:31:01Z
+honda-odyssey,2017,EXL,145500,150000,147750,"AED 145,500 - 150,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey/2017/,2026-06-15T09:31:01Z
+honda-odyssey,2017,Touring,170500,171000,170750,"AED 170,500 - 171,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey/2017/,2026-06-15T09:31:01Z
+honda-odyssey-j,2018,EX,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey-j/2018/,2026-06-15T09:31:45Z
+honda-odyssey-j,2018,EX-V,132900,133000,132950,"AED 132,900 - 133,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey-j/2018/,2026-06-15T09:31:45Z
+honda-odyssey-j,2019,EX,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey-j/2019/,2026-06-15T09:31:47Z
+honda-odyssey-j,2019,EX-V,132900,133000,132950,"AED 132,900 - 133,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey-j/2019/,2026-06-15T09:31:47Z
+honda-odyssey-j,2020,EX,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey-j/2020/,2026-06-15T09:31:49Z
+honda-odyssey-j,2020,EX-V,132900,133000,132950,"AED 132,900 - 133,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey-j/2020/,2026-06-15T09:31:49Z
+honda-odyssey-j,2021,EX,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey-j/2021/,2026-06-15T09:31:51Z
+honda-odyssey-j,2021,EX-V,132900,133000,132950,"AED 132,900 - 133,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey-j/2021/,2026-06-15T09:31:51Z
+honda-odyssey-j,2022,EX,104900,105000,104950,"AED 104,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey-j/2022/,2026-06-15T09:31:53Z
+honda-odyssey-j,2022,EX-V,132900,133000,132950,"AED 132,900 - 133,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-odyssey-j/2022/,2026-06-15T09:31:53Z
+honda-pilot,2012,EX,127800,147500,137650,"AED 127,800 - 147,500",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2012/,2026-06-15T09:32:21Z
+honda-pilot,2012,Touring,160500,161000,160750,"AED 160,500 - 161,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2012/,2026-06-15T09:32:21Z
+honda-pilot,2013,EX,127800,147500,137650,"AED 127,800 - 147,500",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2013/,2026-06-15T09:32:23Z
+honda-pilot,2013,Touring,160500,161000,160750,"AED 160,500 - 161,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2013/,2026-06-15T09:32:23Z
+honda-pilot,2014,EX,127800,147500,137650,"AED 127,800 - 147,500",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2014/,2026-06-15T09:32:25Z
+honda-pilot,2014,Touring,160500,161000,160750,"AED 160,500 - 161,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2014/,2026-06-15T09:32:25Z
+honda-pilot,2015,EX,127800,147500,137650,"AED 127,800 - 147,500",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2015/,2026-06-15T09:32:27Z
+honda-pilot,2015,Touring,160500,161000,160750,"AED 160,500 - 161,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2015/,2026-06-15T09:32:27Z
+honda-pilot,2016,EX 2WD,130000,132000,131000,"AED 130,000 - 132,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2016/,2026-06-15T09:32:29Z
+honda-pilot,2016,EX AWD,140000,142000,141000,"AED 140,000 - 142,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2016/,2026-06-15T09:32:29Z
+honda-pilot,2016,EX-L AWD,160000,162000,161000,"AED 160,000 - 162,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2016/,2026-06-15T09:32:29Z
+honda-pilot,2016,Touring AWD,180000,182000,181000,"AED 180,000 - 182,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2016/,2026-06-15T09:32:29Z
+honda-pilot,2017,EX 2WD,130000,132000,131000,"AED 130,000 - 132,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2017/,2026-06-15T09:32:30Z
+honda-pilot,2017,EX AWD,140000,142000,141000,"AED 140,000 - 142,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2017/,2026-06-15T09:32:30Z
+honda-pilot,2017,EX-L AWD,160000,162000,161000,"AED 160,000 - 162,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2017/,2026-06-15T09:32:30Z
+honda-pilot,2017,Touring AWD,180000,182000,181000,"AED 180,000 - 182,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2017/,2026-06-15T09:32:30Z
+honda-pilot,2018,EX 2WD,115900,130000,122950,"AED 115,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2018/,2026-06-15T09:32:32Z
+honda-pilot,2018,EX-L AWD,145900,146000,145950,"AED 145,900 - 146,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2018/,2026-06-15T09:32:32Z
+honda-pilot,2018,Touring AWD,155900,157000,156450,"AED 155,900 - 157,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2018/,2026-06-15T09:32:32Z
+honda-pilot,2019,EX 2WD,124900,132000,128450,"AED 124,900 - 132,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2019/,2026-06-15T09:32:34Z
+honda-pilot,2019,EX-L AWD,145900,146000,145950,"AED 145,900 - 146,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2019/,2026-06-15T09:32:34Z
+honda-pilot,2019,Touring AWD,155900,157000,156450,"AED 155,900 - 157,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2019/,2026-06-15T09:32:34Z
+honda-pilot,2020,EX 2WD,119900,132000,125950,"AED 119,900 - 132,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2020/,2026-06-15T09:32:36Z
+honda-pilot,2020,EX-L AWD,145900,146000,145950,"AED 145,900 - 146,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2020/,2026-06-15T09:32:36Z
+honda-pilot,2020,Touring AWD,155900,157000,156450,"AED 155,900 - 157,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2020/,2026-06-15T09:32:36Z
+honda-pilot,2021,EX 2WD,119900,132000,125950,"AED 119,900 - 132,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2021/,2026-06-15T09:32:38Z
+honda-pilot,2021,EX-L AWD,145900,146000,145950,"AED 145,900 - 146,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2021/,2026-06-15T09:32:38Z
+honda-pilot,2021,Touring AWD,155900,157000,156450,"AED 155,900 - 157,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2021/,2026-06-15T09:32:38Z
+honda-pilot,2022,EX 2WD,119900,132000,125950,"AED 119,900 - 132,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2022/,2026-06-15T09:32:40Z
+honda-pilot,2022,EX-L AWD,145900,146000,145950,"AED 145,900 - 146,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2022/,2026-06-15T09:32:40Z
+honda-pilot,2022,Touring AWD,155900,157000,156450,"AED 155,900 - 157,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2022/,2026-06-15T09:32:40Z
+honda-pilot,2023,EX 2WD,174900,175000,174950,"AED 174,900 - 175,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2023/,2026-06-15T09:32:41Z
+honda-pilot,2023,Sport AWD,197900,198000,197950,"AED 197,900 - 198,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2023/,2026-06-15T09:32:41Z
+honda-pilot,2023,EX-L AWD,207900,208000,207950,"AED 207,900 - 208,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2023/,2026-06-15T09:32:41Z
+honda-pilot,2024,EX 2WD,176000,178000,177000,"AED 176,000 - 178,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2024/,2026-06-15T09:32:43Z
+honda-pilot,2024,Sport AWD,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2024/,2026-06-15T09:32:43Z
+honda-pilot,2024,EX-L AWD,212900,215000,213950,"AED 212,900 - 215,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2024/,2026-06-15T09:32:43Z
+honda-pilot,2025,EX 2WD,176000,178000,177000,"AED 176,000 - 178,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2025/,2026-06-15T09:32:45Z
+honda-pilot,2025,Sport AWD,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2025/,2026-06-15T09:32:45Z
+honda-pilot,2025,EX-L AWD,212900,215000,213950,"AED 212,900 - 215,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2025/,2026-06-15T09:32:45Z
+honda-pilot,2026,EX 2WD,176000,178000,177000,"AED 176,000 - 178,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2026/,2026-06-15T09:32:47Z
+honda-pilot,2026,Sport AWD,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2026/,2026-06-15T09:32:47Z
+honda-pilot,2026,EX-L AWD,212900,215000,213950,"AED 212,900 - 215,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-pilot/2026/,2026-06-15T09:32:47Z
+honda-zr-v,2023,I4 FWD LX,119900,120000,119950,"AED 119,900 - 120,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-zr-v/2023/,2026-06-15T09:34:04Z
+honda-zr-v,2023,I4 FWD EX,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-zr-v/2023/,2026-06-15T09:34:04Z
+honda-zr-v,2024,1.5TC I4 FWD LX,119900,120000,119950,"AED 119,900 - 120,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-zr-v/2024/,2026-06-15T09:34:06Z
+honda-zr-v,2024,1.5TC I4 FWD EX,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-zr-v/2024/,2026-06-15T09:34:06Z
+honda-zr-v,2024,1.5TC I4 FWD EX Sport,134900,135000,134950,"AED 134,900 - 135,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-zr-v/2024/,2026-06-15T09:34:06Z
+honda-zr-v,2025,1.5TC I4 FWD LX,119900,120000,119950,"AED 119,900 - 120,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-zr-v/2025/,2026-06-15T09:34:08Z
+honda-zr-v,2025,1.5TC I4 FWD EX,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-zr-v/2025/,2026-06-15T09:34:08Z
+honda-zr-v,2025,1.5TC I4 FWD EX Sport,134900,135000,134950,"AED 134,900 - 135,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-zr-v/2025/,2026-06-15T09:34:08Z
+honda-zr-v,2026,1.5TC I4 FWD LX,119900,120000,119950,"AED 119,900 - 120,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-zr-v/2026/,2026-06-15T09:34:10Z
+honda-zr-v,2026,1.5TC I4 FWD EX,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-zr-v/2026/,2026-06-15T09:34:10Z
+honda-zr-v,2026,1.5TC I4 FWD EX Sport,134900,135000,134950,"AED 134,900 - 135,000",AED,https://www.drivearabia.com/carprices/uae/honda/honda-zr-v/2026/,2026-06-15T09:34:10Z

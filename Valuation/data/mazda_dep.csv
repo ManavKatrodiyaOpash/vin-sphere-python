@@ -1,0 +1,93 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at,make,model_name,model,annual_dep_rate,car_age,depreciated_value
+mazda-2,2022,S Grade,47900,48000,47950,"AED 47,900 - 48,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-2/2022/,2026-06-16T09:27:24Z,MAZDA,MAZDA2,,,4,
+mazda-2,2022,V Grade,51900,52000,51950,"AED 51,900 - 52,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-2/2022/,2026-06-16T09:27:24Z,MAZDA,MAZDA2,,,4,
+mazda-2,2022,R Grade,58900,59000,58950,"AED 58,900 - 59,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-2/2022/,2026-06-16T09:27:24Z,MAZDA,MAZDA2,,,4,
+mazda-3,2023,2.0 Allure,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-3/2023/,2026-06-16T09:27:40Z,MAZDA,MAZDA3,,,3,
+mazda-3,2023,2.0 Intense,110000,115000,112500,"AED 110,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-3/2023/,2026-06-16T09:27:40Z,MAZDA,MAZDA3,,,3,
+mazda-3,2024,2.0 Allure,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-3/2024/,2026-06-16T09:27:42Z,MAZDA,MAZDA3,,,2,
+mazda-3,2024,2.0 Intense,110000,115000,112500,"AED 110,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-3/2024/,2026-06-16T09:27:42Z,MAZDA,MAZDA3,,,2,
+mazda-3,2025,2.0 l4 Allure FWD,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-3/2025/,2026-06-16T09:27:44Z,MAZDA,MAZDA3,,,1,
+mazda-3,2025,2.0 l4 Intense FWD,109000,110000,109500,"AED 109,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-3/2025/,2026-06-16T09:27:44Z,MAZDA,MAZDA3,,,1,
+mazda-3,2026,Intense FWD,109000,110000,109500,"AED 109,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-3/2026/,2026-06-16T09:27:45Z,MAZDA,MAZDA3,,,0,
+mazda-3-sedan,2022,2.0L Evolve,81000,82000,81500,"AED 81,000 - 82,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-3-sedan/2022/,2026-06-16T09:27:47Z,MAZDA,NAN,,,4,
+mazda-3-sedan,2022,2.0L Avant,95900,96000,95950,"AED 95,900 - 96,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-3-sedan/2022/,2026-06-16T09:27:47Z,MAZDA,NAN,,,4,
+mazda-3-sedan,2023,2.0L Evolve,81000,82000,81500,"AED 81,000 - 82,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-3-sedan/2023/,2026-06-16T09:27:49Z,MAZDA,NAN,,,3,
+mazda-3-sedan,2023,2.0L Avant,95900,96000,95950,"AED 95,900 - 96,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-3-sedan/2023/,2026-06-16T09:27:49Z,MAZDA,NAN,,,3,
+mazda-3-sedan,2024,2.0L l4 Evolve FWD,82000,86000,84000,"AED 86,000 - 82,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-3-sedan/2024/,2026-06-16T09:27:51Z,MAZDA,NAN,,,2,
+mazda-3-sedan,2025,2.0L l4 Select FWD,75000,76000,75500,"AED 75,000 - 76,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-3-sedan/2025/,2026-06-16T09:27:53Z,MAZDA,NAN,,,1,
+mazda-3-sedan,2025,2.0L l4 Evolve FWD,90000,91000,90500,"AED 90,000 - 91,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-3-sedan/2025/,2026-06-16T09:27:53Z,MAZDA,NAN,,,1,
+mazda-3-sedan,2026,2.0L l4 Select FWD,76000,77000,76500,"AED 76,000 - 77,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-3-sedan/2026/,2026-06-16T09:27:55Z,MAZDA,NAN,,,0,
+mazda-3-sedan,2026,2.0L l4 Evolve FWD,90000,91000,90500,"AED 90,000 - 91,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-3-sedan/2026/,2026-06-16T09:27:55Z,MAZDA,NAN,,,0,
+mazda-6,2022,2.5L S,84900,85000,84950,"AED 84,900 - 85,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2022/,2026-06-16T09:27:57Z,MAZDA,MAZDA6,,,4,
+mazda-6,2022,2.5L V,94900,96000,95450,"AED 94,900 - 96,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2022/,2026-06-16T09:27:57Z,MAZDA,MAZDA6,,,4,
+mazda-6,2022,2.5L V Plus,96900,97000,96950,"AED 96,900 - 97,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2022/,2026-06-16T09:27:57Z,MAZDA,MAZDA6,,,4,
+mazda-6,2022,2.5L R Grade,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2022/,2026-06-16T09:27:57Z,MAZDA,MAZDA6,,,4,
+mazda-6,2022,2.5L Sports Turbo,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2022/,2026-06-16T09:27:57Z,MAZDA,MAZDA6,,,4,
+mazda-6,2023,2.5L S,84900,85000,84950,"AED 84,900 - 85,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2023/,2026-06-16T09:27:58Z,MAZDA,MAZDA6,,,3,
+mazda-6,2023,2.5L V,94900,96000,95450,"AED 94,900 - 96,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2023/,2026-06-16T09:27:58Z,MAZDA,MAZDA6,,,3,
+mazda-6,2023,2.5L V Plus,96900,97000,96950,"AED 96,900 - 97,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2023/,2026-06-16T09:27:58Z,MAZDA,MAZDA6,,,3,
+mazda-6,2023,2.5L R Grade,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2023/,2026-06-16T09:27:58Z,MAZDA,MAZDA6,,,3,
+mazda-6,2023,2.5L Sports Turbo,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2023/,2026-06-16T09:27:58Z,MAZDA,MAZDA6,,,3,
+mazda-6,2024,2.5L S,84900,85000,84950,"AED 84,900 - 85,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2024/,2026-06-16T09:28:00Z,MAZDA,MAZDA6,,,2,
+mazda-6,2024,2.5L V,94900,96000,95450,"AED 94,900 - 96,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2024/,2026-06-16T09:28:00Z,MAZDA,MAZDA6,,,2,
+mazda-6,2024,2.5L V Plus,96900,97000,96950,"AED 96,900 - 97,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2024/,2026-06-16T09:28:00Z,MAZDA,MAZDA6,,,2,
+mazda-6,2024,2.5L R Grade,114900,115000,114950,"AED 114,900 - 115,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2024/,2026-06-16T09:28:00Z,MAZDA,MAZDA6,,,2,
+mazda-6,2024,2.5L Sports Turbo,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2024/,2026-06-16T09:28:00Z,MAZDA,MAZDA6,,,2,
+mazda-6,2025,2.5L I4 Pure FWD,90000,91000,90500,"AED 90,000 - 91,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2025/,2026-06-16T09:28:02Z,MAZDA,MAZDA6,,,1,
+mazda-6,2025,2.5L I4 Core FWD,96000,97000,96500,"AED 96,000 - 97,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2025/,2026-06-16T09:28:02Z,MAZDA,MAZDA6,,,1,
+mazda-6,2025,2.5L Luxe FWD,105000,106000,105500,"AED 105,000 - 106,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-6/2025/,2026-06-16T09:28:02Z,MAZDA,MAZDA6,,,1,
+mazda-cx-3,2022,GS 2WD,68000,69000,68500,"AED 68,000 - 69,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-3/2022/,2026-06-16T09:28:23Z,MAZDA,CX-3,CX-3,0.0847286804917558,4,48072.0
+mazda-cx-3,2022,GT 2WD,74000,75000,74500,"AED 74,000 - 75,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-3/2022/,2026-06-16T09:28:23Z,MAZDA,CX-3,CX-3,0.0847286804917558,4,52282.0
+mazda-cx-3,2022,GTL 2WD,78000,79000,78500,"AED 78,000 - 79,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-3/2022/,2026-06-16T09:28:23Z,MAZDA,CX-3,CX-3,0.0847286804917558,4,55090.0
+mazda-cx-3,2022,GTL AWD,93000,94000,93500,"AED 93,000 - 94,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-3/2022/,2026-06-16T09:28:23Z,MAZDA,CX-3,CX-3,0.0847286804917558,4,65616.0
+mazda-cx-3,2022,GTX AWD,100000,101000,100500,"AED 100,000 - 101,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-3/2022/,2026-06-16T09:28:23Z,MAZDA,CX-3,CX-3,0.0847286804917558,4,70529.0
+mazda-cx-3,2023,GS 2WD,68000,69000,68500,"AED 68,000 - 69,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-3/2023/,2026-06-16T09:28:25Z,MAZDA,CX-3,CX-3,0.0847286804917558,3,52522.0
+mazda-cx-3,2023,GT 2WD,74000,75000,74500,"AED 74,000 - 75,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-3/2023/,2026-06-16T09:28:25Z,MAZDA,CX-3,CX-3,0.0847286804917558,3,57122.0
+mazda-cx-3,2023,GTL 2WD,78000,79000,78500,"AED 78,000 - 79,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-3/2023/,2026-06-16T09:28:25Z,MAZDA,CX-3,CX-3,0.0847286804917558,3,60189.0
+mazda-cx-3,2023,GTL AWD,93000,94000,93500,"AED 93,000 - 94,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-3/2023/,2026-06-16T09:28:25Z,MAZDA,CX-3,CX-3,0.0847286804917558,3,71690.0
+mazda-cx-3,2023,GTX AWD,100000,101000,100500,"AED 100,000 - 101,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-3/2023/,2026-06-16T09:28:25Z,MAZDA,CX-3,CX-3,0.0847286804917558,3,77058.0
+mazda-cx-3,2024,2.0 I4 GT 2WD,79900,80900,80400,"AED 79,900 - 80,900",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-3/2024/,2026-06-16T09:28:27Z,MAZDA,CX-3,CX-3,0.0847286804917558,2,67353.0
+mazda-cx-3,2025,2.0 I4 GT 2WD,79900,80900,80400,"AED 79,900 - 80,900",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-3/2025/,2026-06-16T09:28:29Z,MAZDA,CX-3,CX-3,0.0847286804917558,1,73588.0
+mazda-cx-3,2026,2.0 I4 GT 2WD,79000,80000,79500,"AED 79,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-3/2026/,2026-06-16T09:28:30Z,MAZDA,CX-3,CX-3,0.0847286804917558,0,79500.0
+mazda-cx-30,2022,2.0 Trend FWD,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-30/2022/,2026-06-16T09:28:32Z,MAZDA,CX-30,CX-30,0.0551902909726158,4,71677.0
+mazda-cx-30,2022,2.0 Elite FWD,94000,95000,94500,"AED 94,000 - 95,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-30/2022/,2026-06-16T09:28:32Z,MAZDA,CX-30,CX-30,0.0551902909726158,4,75302.0
+mazda-cx-30,2022,2.0 Urbane AWD,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-30/2022/,2026-06-16T09:28:32Z,MAZDA,CX-30,CX-30,0.0551902909726158,4,79645.0
+mazda-cx-30,2023,2.0 Trend FWD,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-30/2023/,2026-06-16T09:28:34Z,MAZDA,CX-30,CX-30,0.0551902909726158,3,75864.0
+mazda-cx-30,2023,2.0 Elite FWD,94000,95000,94500,"AED 94,000 - 95,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-30/2023/,2026-06-16T09:28:34Z,MAZDA,CX-30,CX-30,0.0551902909726158,3,79701.0
+mazda-cx-30,2023,2.0 Urbane AWD,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-30/2023/,2026-06-16T09:28:34Z,MAZDA,CX-30,CX-30,0.0551902909726158,3,84298.0
+mazda-cx-30,2024,2.0 Trend FWD,89900,90000,89950,"AED 89,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-30/2024/,2026-06-16T09:28:36Z,MAZDA,CX-30,CX-30,0.0551902909726158,2,80295.0
+mazda-cx-30,2024,2.0 Elite FWD,94000,95000,94500,"AED 94,000 - 95,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-30/2024/,2026-06-16T09:28:36Z,MAZDA,CX-30,CX-30,0.0551902909726158,2,84357.0
+mazda-cx-30,2024,2.0 Urbane AWD,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-30/2024/,2026-06-16T09:28:36Z,MAZDA,CX-30,CX-30,0.0551902909726158,2,89222.0
+mazda-cx-30,2025,2.0 Elite FWD,92000,93000,92500,"AED 92,000 - 93,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-30/2025/,2026-06-16T09:28:38Z,MAZDA,CX-30,CX-30,0.0551902909726158,1,87395.0
+mazda-cx-30,2025,2.0 Urbane FWD,95000,97000,96000,"AED 95,000 - 97,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-30/2025/,2026-06-16T09:28:38Z,MAZDA,CX-30,CX-30,0.0551902909726158,1,90702.0
+mazda-cx-30,2025,2.0 Trend AWD,99900,105000,102450,"AED 99,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-30/2025/,2026-06-16T09:28:38Z,MAZDA,CX-30,CX-30,0.0551902909726158,1,96796.0
+mazda-cx-30,2026,2.0 Elite FWD,93000,95000,94000,"AED 93,000 - 95,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-30/2026/,2026-06-16T09:28:39Z,MAZDA,CX-30,CX-30,0.0551902909726158,0,94000.0
+mazda-cx-30,2026,2.0 Urbane FWD,95000,97000,96000,"AED 95,000 - 97,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-30/2026/,2026-06-16T09:28:39Z,MAZDA,CX-30,CX-30,0.0551902909726158,0,96000.0
+mazda-cx-30,2026,2.0 Trend AWD,99900,105000,102450,"AED 99,900 - 105,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-30/2026/,2026-06-16T09:28:39Z,MAZDA,CX-30,CX-30,0.0551902909726158,0,102450.0
+mazda-cx-5,2022,GS FWD,88900,90000,89450,"AED 88,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-5/2022/,2026-06-16T09:28:41Z,MAZDA,CX-5,CX-5,0.1002652109576455,4,58619.0
+mazda-cx-5,2022,GT AWD,103900,104000,103950,"AED 103,900 - 104,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-5/2022/,2026-06-16T09:28:41Z,MAZDA,CX-5,CX-5,0.1002652109576455,4,68121.0
+mazda-cx-5,2022,GTX AWD,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-5/2022/,2026-06-16T09:28:41Z,MAZDA,CX-5,CX-5,0.1002652109576455,4,85160.0
+mazda-cx-5,2023,GS FWD,88900,90000,89450,"AED 88,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-5/2023/,2026-06-16T09:28:43Z,MAZDA,CX-5,CX-5,0.1002652109576455,3,65151.0
+mazda-cx-5,2023,GT AWD,103900,104000,103950,"AED 103,900 - 104,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-5/2023/,2026-06-16T09:28:43Z,MAZDA,CX-5,CX-5,0.1002652109576455,3,75713.0
+mazda-cx-5,2023,GTX AWD,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-5/2023/,2026-06-16T09:28:43Z,MAZDA,CX-5,CX-5,0.1002652109576455,3,94650.0
+mazda-cx-5,2024,GS FWD,88900,90000,89450,"AED 88,900 - 90,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-5/2024/,2026-06-16T09:28:45Z,MAZDA,CX-5,CX-5,0.1002652109576455,2,72412.0
+mazda-cx-5,2024,GT AWD,103900,104000,103950,"AED 103,900 - 104,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-5/2024/,2026-06-16T09:28:45Z,MAZDA,CX-5,CX-5,0.1002652109576455,2,84150.0
+mazda-cx-5,2024,GTX AWD,129900,130000,129950,"AED 129,900 - 130,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-5/2024/,2026-06-16T09:28:45Z,MAZDA,CX-5,CX-5,0.1002652109576455,2,105197.0
+mazda-cx-5,2025,2.5 I4 GL FWD,104000,114000,109000,"AED 104,000 - 114,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-5/2025/,2026-06-16T09:28:47Z,MAZDA,CX-5,CX-5,0.1002652109576455,1,98071.0
+mazda-cx-5,2026,GL FWD,104000,105000,104500,"AED 104,000 - 105,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-5/2026/,2026-06-16T09:28:49Z,MAZDA,CX-5,CX-5,0.1002652109576455,0,104500.0
+mazda-cx-5,2026,GT AWD,110000,115000,112500,"AED 110,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-5/2026/,2026-06-16T09:28:49Z,MAZDA,CX-5,CX-5,0.1002652109576455,0,112500.0
+mazda-cx-5,2026,Trend Plus AWD,115000,120000,117500,"AED 115,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-5/2026/,2026-06-16T09:28:49Z,MAZDA,CX-5,CX-5,0.1002652109576455,0,117500.0
+mazda-cx-5,2026,Sport Plus AWD,120000,125000,122500,"AED 120,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-5/2026/,2026-06-16T09:28:49Z,MAZDA,CX-5,CX-5,0.1002652109576455,0,122500.0
+mazda-cx-5,2026,Signature AWD,125000,130000,127500,"AED 125,000 - 130,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-5/2026/,2026-06-16T09:28:49Z,MAZDA,CX-5,CX-5,0.1002652109576455,0,127500.0
+mazda-cx-60,2024,3.3H I6 4WD,204000,205000,204500,"AED 204,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-60/2024/,2026-06-16T09:28:53Z,MAZDA,CX-60,CX-60,0.12900604008074615,2,155140.0
+mazda-cx-60,2025,3.3H I6 base 4WD,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-60/2025/,2026-06-16T09:28:55Z,MAZDA,CX-60,CX-60,0.12900604008074615,1,141537.0
+mazda-cx-60,2025,3.3H I6 full options 4WD,204000,205000,204500,"AED 204,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-60/2025/,2026-06-16T09:28:55Z,MAZDA,CX-60,CX-60,0.12900604008074615,1,178118.0
+mazda-cx-60,2026,3.3H I6 base 4WD,165000,166000,165500,"AED 165,000 - 166,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-60/2026/,2026-06-16T09:28:57Z,MAZDA,CX-60,CX-60,0.12900604008074615,0,165500.0
+mazda-cx-60,2026,3.3H I6 full options 4WD,204000,205000,204500,"AED 204,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-60/2026/,2026-06-16T09:28:57Z,MAZDA,CX-60,CX-60,0.12900604008074615,0,204500.0
+mazda-cx-90,2024,3.3TC I6 High Plus 4WD,290800,291000,290900,"AED 290,800 - 291,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-90/2024/,2026-06-16T09:29:15Z,MAZDA,CX-90,CX-90,0.0738304650975208,2,249531.0
+mazda-cx-90,2025,3.3TC I6 Preferred Plus 4WD,165000,170000,167500,"AED 165,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-90/2025/,2026-06-16T09:29:17Z,MAZDA,CX-90,CX-90,0.0738304650975208,1,155133.0
+mazda-cx-90,2025,3.3TC I6 Premiun 4WD,210000,215000,212500,"AED 210,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-90/2025/,2026-06-16T09:29:17Z,MAZDA,CX-90,CX-90,0.0738304650975208,1,196811.0
+mazda-cx-90,2025,3.3TC I6 Premium Plus 4WD,230000,231000,230500,"AED 230,000 - 231,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-90/2025/,2026-06-16T09:29:17Z,MAZDA,CX-90,CX-90,0.0738304650975208,1,213482.0
+mazda-cx-90,2026,3.3TC I6 Preferred Plus 4WD,169000,170000,169500,"AED 169,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-90/2026/,2026-06-16T09:29:19Z,MAZDA,CX-90,CX-90,0.0738304650975208,0,169500.0
+mazda-cx-90,2026,3.3TC I6 Premiun 4WD,210000,215000,212500,"AED 210,000 - 215,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-90/2026/,2026-06-16T09:29:19Z,MAZDA,CX-90,CX-90,0.0738304650975208,0,212500.0
+mazda-cx-90,2026,3.3TC I6 Premium Plus 4WD,230000,231000,230500,"AED 230,000 - 231,000",AED,https://www.drivearabia.com/carprices/uae/mazda/mazda-cx-90/2026/,2026-06-16T09:29:19Z,MAZDA,CX-90,CX-90,0.0738304650975208,0,230500.0

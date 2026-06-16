@@ -1,0 +1,259 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+bmw-1-series,2024,2.0TC I4 FWD,204510,210000,207255,"AED 204,510 - 210,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-1-series/2024/,2026-06-16T10:07:35Z
+bmw-1-series,2025,1.5TC I3 118i FWD,204510,210000,207255,"AED 204,510 - 210,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-1-series/2025/,2026-06-16T10:07:36Z
+bmw-1-series,2026,1.5TC I3 118i FWD,204510,210000,207255,"AED 204,510 - 210,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-1-series/2026/,2026-06-16T10:07:38Z
+bmw-2-series,2025,1.5TC I3 218i RWD,195000,220000,207500,"AED 195,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-2-series/2025/,2026-06-16T10:07:46Z
+bmw-2-series,2025,2.0TC I4 230i RWD,220000,240000,230000,"AED 220,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-2-series/2025/,2026-06-16T10:07:46Z
+bmw-2-series,2025,3.0TC I6 M240i 4WD,280000,300000,290000,"AED 280,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-2-series/2025/,2026-06-16T10:07:46Z
+bmw-2-series,2026,1.5TC I3 218i RWD,195000,220000,207500,"AED 195,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-2-series/2026/,2026-06-16T10:07:48Z
+bmw-2-series,2026,2.0TC I4 230i RWD,220000,240000,230000,"AED 220,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-2-series/2026/,2026-06-16T10:07:48Z
+bmw-2-series,2026,3.0TC I6 M240i 4WD,280000,300000,290000,"AED 280,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-2-series/2026/,2026-06-16T10:07:48Z
+bmw-2-series-convertible,2022,2.0TC I4 220i Convertible,195000,220000,207500,"AED 195,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-2-series-convertible/2022/,2026-06-16T10:07:57Z
+bmw-2-series-convertible,2022,2.0TC I4 230i Convertible,220000,240000,230000,"AED 220,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-2-series-convertible/2022/,2026-06-16T10:07:57Z
+bmw-2-series-convertible,2022,3.0TC I6 M240i Convertible,280000,300000,290000,"AED 280,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-2-series-convertible/2022/,2026-06-16T10:07:57Z
+bmw-3-series,2022,2.0TC I4 320I M Sport,175000,185000,180000,"AED 175,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-3-series/2022/,2026-06-16T10:08:10Z
+bmw-3-series,2023,2.0TC I4 320i M Sport RWD,175000,185000,180000,"AED 175,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-3-series/2023/,2026-06-16T10:08:12Z
+bmw-3-series,2023,2.0TC I4 330i RWD,199000,235000,217000,"AED 199,000 - 235,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-3-series/2023/,2026-06-16T10:08:12Z
+bmw-3-series,2024,2.0TC I4 320i M Sport RWD,175000,185000,180000,"AED 175,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-3-series/2024/,2026-06-16T10:08:14Z
+bmw-3-series,2024,2.0TC I4 330i RWD,199000,235000,217000,"AED 199,000 - 235,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-3-series/2024/,2026-06-16T10:08:14Z
+bmw-3-series,2025,2.0TC I4 320i M Sport RWD,175000,185000,180000,"AED 175,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-3-series/2025/,2026-06-16T10:08:16Z
+bmw-3-series,2025,2.0TC I4 330i RWD,199000,235000,217000,"AED 199,000 - 235,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-3-series/2025/,2026-06-16T10:08:16Z
+bmw-3-series,2026,2.0TC I4 320i M Sport RWD,175000,185000,180000,"AED 175,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-3-series/2026/,2026-06-16T10:08:17Z
+bmw-3-series,2026,2.0TC I4 330i RWD,199000,235000,217000,"AED 199,000 - 235,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-3-series/2026/,2026-06-16T10:08:17Z
+bmw-4-series,2022,3.0TC I6 M 440i,250000,275000,262500,"AED 250,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series/2022/,2026-06-16T10:08:31Z
+bmw-4-series,2023,3.0TC I6 M 440i,250000,275000,262500,"AED 250,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series/2023/,2026-06-16T10:08:33Z
+bmw-4-series,2024,3.0TC I6 M 440i,250000,275000,262500,"AED 250,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series/2024/,2026-06-16T10:08:35Z
+bmw-4-series,2025,2.0TC I4 420i RWD,250000,255000,252500,"AED 250,000 - 255,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series/2025/,2026-06-16T10:08:37Z
+bmw-4-series,2025,2.0TC I4 430i RWD,270000,275000,272500,"AED 270,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series/2025/,2026-06-16T10:08:37Z
+bmw-4-series,2025,3.0TC I6 M 440i 4WD,320000,330000,325000,"AED 320,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series/2025/,2026-06-16T10:08:37Z
+bmw-4-series,2026,2.0TC I4 420i RWD,250000,255000,252500,"AED 250,000 - 255,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series/2026/,2026-06-16T10:08:39Z
+bmw-4-series,2026,2.0TC I4 430i RWD,270000,275000,272500,"AED 270,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series/2026/,2026-06-16T10:08:39Z
+bmw-4-series,2026,3.0TC I6 M 440i 4WD,320000,330000,325000,"AED 320,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series/2026/,2026-06-16T10:08:39Z
+bmw-4-series-convertible,2022,430i Convertible,210000,225000,217500,"AED 210,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series-convertible/2022/,2026-06-16T10:08:41Z
+bmw-4-series-convertible,2023,430i Convertible,210000,225000,217500,"AED 210,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series-convertible/2023/,2026-06-16T10:08:43Z
+bmw-4-series-convertible,2023,M 440i Convertible,260000,275000,267500,"AED 260,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series-convertible/2023/,2026-06-16T10:08:43Z
+bmw-4-series-convertible,2024,430i Convertible,210000,225000,217500,"AED 210,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series-convertible/2024/,2026-06-16T10:08:44Z
+bmw-4-series-convertible,2024,M 440i Convertible,260000,275000,267500,"AED 260,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series-convertible/2024/,2026-06-16T10:08:44Z
+bmw-4-series-convertible,2025,430i Convertible,210000,225000,217500,"AED 210,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series-convertible/2025/,2026-06-16T10:08:46Z
+bmw-4-series-convertible,2025,M 440i Convertible,260000,275000,267500,"AED 260,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series-convertible/2025/,2026-06-16T10:08:46Z
+bmw-4-series-convertible,2026,420i Convertible M Sport,330000,335000,332500,"AED 330,000 - 335,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series-convertible/2026/,2026-06-16T10:08:48Z
+bmw-4-series-convertible,2026,430i Convertible M Sport,374000,380000,377000,"AED 374,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-4-series-convertible/2026/,2026-06-16T10:08:48Z
+bmw-5-series,2024,2.0TC I4 520i RWD,299000,305000,302000,"AED 299,000 - 305,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-5-series/2024/,2026-06-16T10:09:00Z
+bmw-5-series,2024,2.0TC I4 530i RWD,350000,380000,365000,"AED 350,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-5-series/2024/,2026-06-16T10:09:00Z
+bmw-5-series,2025,2.0TC I4 520i RWD,299000,305000,302000,"AED 299,000 - 305,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-5-series/2025/,2026-06-16T10:09:02Z
+bmw-5-series,2025,2.0TC I4 530i RWD,350000,380000,365000,"AED 350,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-5-series/2025/,2026-06-16T10:09:02Z
+bmw-5-series,2026,2.0TC I4 520i RWD,299000,305000,302000,"AED 299,000 - 305,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-5-series/2026/,2026-06-16T10:09:04Z
+bmw-5-series,2026,2.0TC I4 530i RWD,350000,380000,365000,"AED 350,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-5-series/2026/,2026-06-16T10:09:04Z
+bmw-6-series-gran-turismo,2022,3.0TC I6 640i xDrive,425000,435000,430000,"AED 425,000 - 435,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-6-series-gran-turismo/2022/,2026-06-16T10:09:29Z
+bmw-6-series-gran-turismo,2023,3.0TC I6 640i xDrive,425000,435000,430000,"AED 425,000 - 435,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-6-series-gran-turismo/2023/,2026-06-16T10:09:31Z
+bmw-7-series,2022,2.0TC I4 730 Li,398000,420000,409000,"AED 398,000 - 420,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-7-series/2022/,2026-06-16T10:09:37Z
+bmw-7-series,2022,3.0TC I6 740 Li,507000,520000,513500,"AED 507,000 - 520,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-7-series/2022/,2026-06-16T10:09:37Z
+bmw-7-series,2022,4.4TC V8 750 Li,602000,620000,611000,"AED 602,000 - 620,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-7-series/2022/,2026-06-16T10:09:37Z
+bmw-7-series,2023,3.0TC+E I6 735i sDrive,540000,545000,542500,"AED 540,000 - 545,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-7-series/2023/,2026-06-16T10:09:39Z
+bmw-7-series,2023,3.0TC+E I6 740i sDrive,585000,590000,587500,"AED 585,000 - 590,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-7-series/2023/,2026-06-16T10:09:39Z
+bmw-7-series,2023,4.4TC+E V8 760i xDrive,675000,680000,677500,"AED 675,000 - 680,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-7-series/2023/,2026-06-16T10:09:39Z
+bmw-7-series,2024,3.0TC+E I6 735i sDrive,540000,545000,542500,"AED 540,000 - 545,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-7-series/2024/,2026-06-16T10:09:40Z
+bmw-7-series,2024,3.0TC+E I6 740i sDrive,585000,590000,587500,"AED 585,000 - 590,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-7-series/2024/,2026-06-16T10:09:40Z
+bmw-7-series,2024,4.4TC+E V8 760i xDrive,675000,680000,677500,"AED 675,000 - 680,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-7-series/2024/,2026-06-16T10:09:40Z
+bmw-7-series,2025,3.0TC+E I6 735i sDrive RWD,540000,545000,542500,"AED 540,000 - 545,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-7-series/2025/,2026-06-16T10:09:42Z
+bmw-7-series,2025,3.0TC+E I6 740i sDrive RWD,585000,590000,587500,"AED 585,000 - 590,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-7-series/2025/,2026-06-16T10:09:42Z
+bmw-7-series,2025,4.4TC+E V8 760i xDrive 4WD,675000,680000,677500,"AED 675,000 - 680,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-7-series/2025/,2026-06-16T10:09:42Z
+bmw-7-series,2026,3.0TC+E I6 735i sDrive RWD,540000,545000,542500,"AED 540,000 - 545,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-7-series/2026/,2026-06-16T10:09:44Z
+bmw-7-series,2026,3.0TC+E I6 740i sDrive RWD,585000,590000,587500,"AED 585,000 - 590,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-7-series/2026/,2026-06-16T10:09:44Z
+bmw-7-series,2026,4.4TC+E V8 760i xDrive 4WD,675000,680000,677500,"AED 675,000 - 680,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-7-series/2026/,2026-06-16T10:09:44Z
+bmw-8-series,2022,4.4TC V8 850i xDrive,550000,560000,555000,"AED 550,000 - 560,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series/2022/,2026-06-16T10:09:46Z
+bmw-8-series,2023,4.4TC V8 850i xDrive,550000,560000,555000,"AED 550,000 - 560,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series/2023/,2026-06-16T10:09:48Z
+bmw-8-series,2024,4.4TC V8 850i xDrive,550000,560000,555000,"AED 550,000 - 560,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series/2024/,2026-06-16T10:09:50Z
+bmw-8-series,2025,4.4TC V8 850i xDrive,550000,560000,555000,"AED 550,000 - 560,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series/2025/,2026-06-16T10:09:52Z
+bmw-8-series,2026,4.4TC V8 850i xDrive,550000,560000,555000,"AED 550,000 - 560,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series/2026/,2026-06-16T10:09:54Z
+bmw-8-series-convertible,2022,4.4TC V8 850i xDrive,580000,600000,590000,"AED 580,000 - 600,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series-convertible/2022/,2026-06-16T10:09:56Z
+bmw-8-series-convertible,2023,3.0TC I6 840i xDrive,460000,470000,465000,"AED 460,000 - 470,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series-convertible/2023/,2026-06-16T10:09:58Z
+bmw-8-series-convertible,2023,4.4TC V8 850i xDrive,580000,600000,590000,"AED 580,000 - 600,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series-convertible/2023/,2026-06-16T10:09:58Z
+bmw-8-series-convertible,2024,3.0TC I6 840i xDrive,460000,470000,465000,"AED 460,000 - 470,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series-convertible/2024/,2026-06-16T10:10:00Z
+bmw-8-series-convertible,2024,4.4TC V8 850i xDrive,580000,600000,590000,"AED 580,000 - 600,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series-convertible/2024/,2026-06-16T10:10:00Z
+bmw-8-series-convertible,2025,3.0TC I6 840i xDrive,460000,470000,465000,"AED 460,000 - 470,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series-convertible/2025/,2026-06-16T10:10:02Z
+bmw-8-series-convertible,2025,4.4TC V8 850i xDrive,580000,600000,590000,"AED 580,000 - 600,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series-convertible/2025/,2026-06-16T10:10:02Z
+bmw-8-series-convertible,2026,3.0TC I6 840i xDrive,460000,470000,465000,"AED 460,000 - 470,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series-convertible/2026/,2026-06-16T10:10:04Z
+bmw-8-series-convertible,2026,4.4TC V8 850i xDrive,580000,600000,590000,"AED 580,000 - 600,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series-convertible/2026/,2026-06-16T10:10:04Z
+bmw-8-series-gran-coupe,2022,4.4TC V8 850i xDrive,555000,560000,557500,"AED 555,000 - 560,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series-gran-coupe/2022/,2026-06-16T10:10:06Z
+bmw-8-series-gran-coupe,2023,4.4TC V8 850i xDrive,555000,560000,557500,"AED 555,000 - 560,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series-gran-coupe/2023/,2026-06-16T10:10:08Z
+bmw-8-series-gran-coupe,2024,4.4TC V8 850i xDrive,555000,560000,557500,"AED 555,000 - 560,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series-gran-coupe/2024/,2026-06-16T10:10:10Z
+bmw-8-series-gran-coupe,2025,4.4TC V8 850i xDrive,555000,560000,557500,"AED 555,000 - 560,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series-gran-coupe/2025/,2026-06-16T10:10:12Z
+bmw-8-series-gran-coupe,2026,4.4TC V8 850i xDrive,555000,560000,557500,"AED 555,000 - 560,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-8-series-gran-coupe/2026/,2026-06-16T10:10:14Z
+bmw-i5,2024,eDrive RWD,340000,350000,345000,"AED 340,000 - 350,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-i5/2024/,2026-06-16T10:10:18Z
+bmw-i5,2024,m60 eDrive 4WD,430000,440000,435000,"AED 430,000 - 440,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-i5/2024/,2026-06-16T10:10:18Z
+bmw-i5,2025,eDrive RWD,340000,350000,345000,"AED 340,000 - 350,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-i5/2025/,2026-06-16T10:10:20Z
+bmw-i5,2025,m60 eDrive 4WD,430000,440000,435000,"AED 430,000 - 440,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-i5/2025/,2026-06-16T10:10:20Z
+bmw-i5,2026,eDrive RWD,340000,350000,345000,"AED 340,000 - 350,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-i5/2026/,2026-06-16T10:10:22Z
+bmw-i5,2026,m60 eDrive 4WD,430000,440000,435000,"AED 430,000 - 440,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-i5/2026/,2026-06-16T10:10:22Z
+bmw-i7,2023,i7 xDrive M60i,710000,720000,715000,"AED 710,000 - 720,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-i7/2023/,2026-06-16T10:10:25Z
+bmw-i7,2024,i7 xDrive M60i,710000,720000,715000,"AED 710,000 - 720,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-i7/2024/,2026-06-16T10:10:27Z
+bmw-i7,2025,i7 xDrive M60i,710000,720000,715000,"AED 710,000 - 720,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-i7/2025/,2026-06-16T10:10:29Z
+bmw-i7,2026,i7 xDrive M60i,710000,720000,715000,"AED 710,000 - 720,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-i7/2026/,2026-06-16T10:10:31Z
+bmw-i8,2022,1.5HTC I3 Roadster,600000,635000,617500,"AED 600,000 - 635,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-i8/2022/,2026-06-16T10:10:33Z
+bmw-ix,2022,iX xDrive40,475000,476000,475500,"AED 475,000 - 476,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-ix/2022/,2026-06-16T10:10:40Z
+bmw-ix,2022,iX xDrive50,510000,511000,510500,"AED 510,000 - 511,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-ix/2022/,2026-06-16T10:10:40Z
+bmw-ix,2023,iX xDrive40,475000,476000,475500,"AED 475,000 - 476,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-ix/2023/,2026-06-16T10:10:42Z
+bmw-ix,2023,iX xDrive50,510000,511000,510500,"AED 510,000 - 511,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-ix/2023/,2026-06-16T10:10:42Z
+bmw-ix,2024,iX xDrive40,475000,476000,475500,"AED 475,000 - 476,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-ix/2024/,2026-06-16T10:10:43Z
+bmw-ix,2024,iX xDrive50,510000,511000,510500,"AED 510,000 - 511,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-ix/2024/,2026-06-16T10:10:43Z
+bmw-ix,2025,71 kWh iX xDrive40 AWD,475000,485000,480000,"AED 475,000 - 485,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-ix/2025/,2026-06-16T10:10:46Z
+bmw-ix,2025,105 kWh iX xDrive50 AWD,510000,521000,515500,"AED 510,000 - 521,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-ix/2025/,2026-06-16T10:10:46Z
+bmw-ix,2026,71 kWh iX xDrive40 AWD,475000,485000,480000,"AED 475,000 - 485,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-ix/2026/,2026-06-16T10:10:47Z
+bmw-ix,2026,105 kWh iX xDrive50 AWD,510000,521000,515500,"AED 510,000 - 521,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-ix/2026/,2026-06-16T10:10:47Z
+bmw-ix1,2024,xDrive 30e M Sport,250000,275000,262500,"AED 250,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-ix1/2024/,2026-06-16T10:10:52Z
+bmw-ix1,2024,xDrive 30e M Sport Premium,260000,289000,274500,"AED 260,000 - 289,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-ix1/2024/,2026-06-16T10:10:52Z
+bmw-ix1,2025,2.0TC I4 sDrive20i,163000,175000,169000,"AED 163,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-ix1/2025/,2026-06-16T10:10:54Z
+bmw-ix1,2025,2.0TC I4 xDrive25i,190000,220000,205000,"AED 190,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-ix1/2025/,2026-06-16T10:10:54Z
+bmw-ix1,2026,2.0TC I4 sDrive20i,163000,175000,169000,"AED 163,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-ix1/2026/,2026-06-16T10:10:56Z
+bmw-ix1,2026,2.0TC I4 xDrive25i,190000,220000,205000,"AED 190,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-ix1/2026/,2026-06-16T10:10:56Z
+bmw-m2,2022,3.0TC I6 M2 Coupe,275000,290000,282500,"AED 275,000 - 290,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m2/2022/,2026-06-16T10:10:57Z
+bmw-m2,2023,3.0TC I6 M2 Coupe,385000,400000,392500,"AED 385,000 - 400,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m2/2023/,2026-06-16T10:10:59Z
+bmw-m2,2024,3.0TC I6 M2 Coupe,385000,400000,392500,"AED 385,000 - 400,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m2/2024/,2026-06-16T10:11:01Z
+bmw-m2,2025,3.0TC I6 M2 Coupe,385000,400000,392500,"AED 385,000 - 400,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m2/2025/,2026-06-16T10:11:03Z
+bmw-m2,2026,manual,385000,400000,392500,"AED 385,000 - 400,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m2/2026/,2026-06-16T10:11:05Z
+bmw-m2,2026,auto,390000,400000,395000,"AED 390,000 - 400,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m2/2026/,2026-06-16T10:11:05Z
+bmw-m3,2022,3.0TC I6 M3,450000,475000,462500,"AED 450,000 - 475,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m3/2022/,2026-06-16T10:11:07Z
+bmw-m3,2023,3.0TC I6 M3,450000,475000,462500,"AED 450,000 - 475,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m3/2023/,2026-06-16T10:11:09Z
+bmw-m3,2024,3.0TC I6 M3 RWD,450000,475000,462500,"AED 450,000 - 475,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m3/2024/,2026-06-16T10:11:11Z
+bmw-m3,2025,3.0TC I6 M3 RWD,450000,475000,462500,"AED 450,000 - 475,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m3/2025/,2026-06-16T10:11:13Z
+bmw-m3,2026,3.0TC I6 M3 RWD,450000,475000,462500,"AED 450,000 - 475,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m3/2026/,2026-06-16T10:11:15Z
+bmw-m4,2022,3.0TC I6 M4 Coupe,450000,475000,462500,"AED 450,000 - 475,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m4/2022/,2026-06-16T10:11:28Z
+bmw-m4,2023,3.0TC I6 M4 Coupe,450000,475000,462500,"AED 450,000 - 475,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m4/2023/,2026-06-16T10:11:30Z
+bmw-m4,2024,3.0TC I6 M4 Coupe,450000,475000,462500,"AED 450,000 - 475,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m4/2024/,2026-06-16T10:11:32Z
+bmw-m4,2025,3.0TC I6 M4 Coupe,450000,475000,462500,"AED 450,000 - 475,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m4/2025/,2026-06-16T10:11:34Z
+bmw-m4,2026,3.0TC I6 M4 Coupe,450000,475000,462500,"AED 450,000 - 475,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m4/2026/,2026-06-16T10:11:36Z
+bmw-m4-convertible,2022,3.0TC I6 M4 Convertible,475000,500000,487500,"AED 475,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m4-convertible/2022/,2026-06-16T10:11:38Z
+bmw-m4-convertible,2023,3.0TC I6 M4 Convertible,475000,500000,487500,"AED 475,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m4-convertible/2023/,2026-06-16T10:11:40Z
+bmw-m4-convertible,2024,3.0TC I6 M4 Convertible,475000,500000,487500,"AED 475,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m4-convertible/2024/,2026-06-16T10:11:42Z
+bmw-m4-convertible,2025,3.0TC I6 M4 Convertible RWD,475000,500000,487500,"AED 475,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m4-convertible/2025/,2026-06-16T10:11:44Z
+bmw-m4-convertible,2026,3.0TC I6 M4 Convertible RWD,475000,500000,487500,"AED 475,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m4-convertible/2026/,2026-06-16T10:11:46Z
+bmw-m5,2022,4.4TC V8 M5,599000,615000,607000,"AED 599,000 - 615,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m5/2022/,2026-06-16T10:11:48Z
+bmw-m5,2022,4.4TC V8 M5 Competition,650000,675000,662500,"AED 650,000 - 675,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m5/2022/,2026-06-16T10:11:48Z
+bmw-m5,2023,4.4TC V8 M5,599000,615000,607000,"AED 599,000 - 615,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m5/2023/,2026-06-16T10:11:50Z
+bmw-m5,2023,4.4TC V8 M5 Competition,650000,675000,662500,"AED 650,000 - 675,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m5/2023/,2026-06-16T10:11:50Z
+bmw-m5,2024,4.4TC V8 M5,599000,615000,607000,"AED 599,000 - 615,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m5/2024/,2026-06-16T10:11:52Z
+bmw-m5,2024,4.4TC V8 M5 Competition,650000,675000,662500,"AED 650,000 - 675,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m5/2024/,2026-06-16T10:11:52Z
+bmw-m5,2025,4.4TC V8 M5 4WD,650000,700000,675000,"AED 650,000 - 700,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m5/2025/,2026-06-16T10:11:54Z
+bmw-m5,2026,4.4TC V8 M5 4WD,650000,700000,675000,"AED 650,000 - 700,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m5/2026/,2026-06-16T10:11:56Z
+bmw-m8,2022,4.4TC V8 M8 Coupe,650000,700000,675000,"AED 650,000 - 700,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m8/2022/,2026-06-16T10:12:15Z
+bmw-m8,2022,4.4TC V8 M8 Competition,720000,750000,735000,"AED 720,000 - 750,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m8/2022/,2026-06-16T10:12:15Z
+bmw-m8,2023,4.4TC V8 M8 Coupe,650000,700000,675000,"AED 650,000 - 700,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m8/2023/,2026-06-16T10:12:17Z
+bmw-m8,2023,4.4TC V8 M8 Competition,720000,750000,735000,"AED 720,000 - 750,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m8/2023/,2026-06-16T10:12:17Z
+bmw-m8,2024,4.4TC V8 M8 Coupe,650000,700000,675000,"AED 650,000 - 700,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m8/2024/,2026-06-16T10:12:19Z
+bmw-m8,2024,4.4TC V8 M8 Competition,720000,750000,735000,"AED 720,000 - 750,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m8/2024/,2026-06-16T10:12:19Z
+bmw-m8-convertible,2022,4.4TC V8 M8 Convertible,680000,700000,690000,"AED 680,000 - 700,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m8-convertible/2022/,2026-06-16T10:12:25Z
+bmw-m8-convertible,2022,4.4TC V8 M8 Competition Convertible,740000,750000,745000,"AED 740,000 - 750,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m8-convertible/2022/,2026-06-16T10:12:25Z
+bmw-m8-convertible,2023,4.4TC V8 M8 Convertible,680000,700000,690000,"AED 680,000 - 700,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m8-convertible/2023/,2026-06-16T10:12:27Z
+bmw-m8-convertible,2023,4.4TC V8 M8 Competition Convertible,740000,750000,745000,"AED 740,000 - 750,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m8-convertible/2023/,2026-06-16T10:12:27Z
+bmw-m8-convertible,2024,4.4TC V8 M8 Convertible 4WD,680000,700000,690000,"AED 680,000 - 700,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m8-convertible/2024/,2026-06-16T10:12:28Z
+bmw-m8-convertible,2024,4.4TC V8 M8 Competition Convertible 4WD,740000,750000,745000,"AED 740,000 - 750,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m8-convertible/2024/,2026-06-16T10:12:28Z
+bmw-m8-gran-coupe,2022,4.4TC V8 M8 Gran Coupe Competition,720000,750000,735000,"AED 720,000 - 750,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m8-gran-coupe/2022/,2026-06-16T10:12:34Z
+bmw-m8-gran-coupe,2023,4.4TC V8 M8 Gran Coupe Competition 4WD,720000,750000,735000,"AED 720,000 - 750,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m8-gran-coupe/2023/,2026-06-16T10:12:36Z
+bmw-m8-gran-coupe,2024,4.4TC V8 M8 Gran Coupe Competition 4WD,720000,750000,735000,"AED 720,000 - 750,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-m8-gran-coupe/2024/,2026-06-16T10:12:38Z
+bmw-x1,2022,2.0TC I4 sDrive20i,163000,175000,169000,"AED 163,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x1/2022/,2026-06-16T10:12:44Z
+bmw-x1,2022,2.0TC I4 xDrive25i,190000,220000,205000,"AED 190,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x1/2022/,2026-06-16T10:12:44Z
+bmw-x1,2023,2.0TC I4 sDrive20i,163000,175000,169000,"AED 163,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x1/2023/,2026-06-16T10:12:46Z
+bmw-x1,2023,2.0TC I4 xDrive25i,190000,220000,205000,"AED 190,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x1/2023/,2026-06-16T10:12:46Z
+bmw-x1,2024,2.0TC I4 sDrive20i,204000,210000,207000,"AED 204,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x1/2024/,2026-06-16T10:12:48Z
+bmw-x1,2024,2.0TC I4 xDrive25i,223100,250000,236550,"AED 223,100 - 250,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x1/2024/,2026-06-16T10:12:48Z
+bmw-x1,2025,2.0TC I4 sDrive20i,204000,210000,207000,"AED 204,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x1/2025/,2026-06-16T10:12:50Z
+bmw-x1,2025,2.0TC I4 xDrive25i,223100,250000,236550,"AED 223,100 - 250,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x1/2025/,2026-06-16T10:12:50Z
+bmw-x1,2026,2.0TC I4 sDrive20i,204000,210000,207000,"AED 204,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x1/2026/,2026-06-16T10:12:52Z
+bmw-x1,2026,2.0TC I4 xDrive25i,223100,250000,236550,"AED 223,100 - 250,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x1/2026/,2026-06-16T10:12:52Z
+bmw-x2,2022,2.0TC I4 sDrive28i,180000,195000,187500,"AED 180,000 - 195,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x2/2022/,2026-06-16T10:12:54Z
+bmw-x2,2022,2.0TC I4 xDrive28i,225000,250000,237500,"AED 225,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x2/2022/,2026-06-16T10:12:54Z
+bmw-x2,2023,2.0TC I4 sDrive28i,180000,195000,187500,"AED 180,000 - 195,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x2/2023/,2026-06-16T10:12:56Z
+bmw-x2,2023,2.0TC I4 xDrive28i,225000,250000,237500,"AED 225,000 - 250,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x2/2023/,2026-06-16T10:12:56Z
+bmw-x2,2024,2.0TC I4 xDrive28i 4WD,200000,205000,202500,"AED 200,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x2/2024/,2026-06-16T10:12:58Z
+bmw-x2,2024,2.0TC I4 M35i 4WD,250000,255000,252500,"AED 250,000 - 255,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x2/2024/,2026-06-16T10:12:58Z
+bmw-x2,2025,2.0TC I4 xDrive28i 4WD,200000,205000,202500,"AED 200,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x2/2025/,2026-06-16T10:13:00Z
+bmw-x2,2025,2.0TC I4 M35i 4WD,250000,255000,252500,"AED 250,000 - 255,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x2/2025/,2026-06-16T10:13:00Z
+bmw-x2,2026,2.0TC I4 xDrive28i 4WD,200000,205000,202500,"AED 200,000 - 205,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x2/2026/,2026-06-16T10:13:02Z
+bmw-x2,2026,2.0TC I4 M35i 4WD,250000,255000,252500,"AED 250,000 - 255,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x2/2026/,2026-06-16T10:13:02Z
+bmw-x3,2022,2.0TC I4 xDrive30i,260000,280000,270000,"AED 260,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x3/2022/,2026-06-16T10:13:03Z
+bmw-x3,2022,3.0TC I6 M40i,300000,320000,310000,"AED 300,000 - 320,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x3/2022/,2026-06-16T10:13:03Z
+bmw-x3,2023,2.0TC I4 xDrive30i,260000,280000,270000,"AED 260,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x3/2023/,2026-06-16T10:13:05Z
+bmw-x3,2023,3.0TC I6 M40i,300000,320000,310000,"AED 300,000 - 320,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x3/2023/,2026-06-16T10:13:05Z
+bmw-x3,2024,2.0TC I4 xDrive30i 4WD,260000,280000,270000,"AED 260,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x3/2024/,2026-06-16T10:13:07Z
+bmw-x3,2024,3.0TC I6 M40i 4WD,300000,320000,310000,"AED 300,000 - 320,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x3/2024/,2026-06-16T10:13:07Z
+bmw-x3,2025,2.0TC I4 xDrive 30i 4WD,260000,280000,270000,"AED 260,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x3/2025/,2026-06-16T10:13:09Z
+bmw-x3,2025,3.0TC I6 M50 xDrive 4WD,384000,394000,389000,"AED 384,000 - 394,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x3/2025/,2026-06-16T10:13:09Z
+bmw-x3,2026,2.0TC I4 xDrive 30i 4WD,260000,280000,270000,"AED 260,000 - 280,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x3/2026/,2026-06-16T10:13:11Z
+bmw-x3,2026,3.0TC I6 M50 xDrive 4WD,384000,394000,389000,"AED 384,000 - 394,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x3/2026/,2026-06-16T10:13:11Z
+bmw-x4,2022,2.0TC I4 X4 20i,250000,275000,262500,"AED 250,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x4/2022/,2026-06-16T10:13:13Z
+bmw-x4,2022,2.0TC I4 X4 30i,315000,345000,330000,"AED 315,000 - 345,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x4/2022/,2026-06-16T10:13:13Z
+bmw-x4,2022,3.0TC I6 X4 M40i,349000,380000,364500,"AED 349,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x4/2022/,2026-06-16T10:13:13Z
+bmw-x4,2023,2.0TC I4 X4 20i,250000,275000,262500,"AED 250,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x4/2023/,2026-06-16T10:13:15Z
+bmw-x4,2023,2.0TC I4 X4 30i,315000,345000,330000,"AED 315,000 - 345,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x4/2023/,2026-06-16T10:13:15Z
+bmw-x4,2023,3.0TC I6 X4 M40i,349000,380000,364500,"AED 349,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x4/2023/,2026-06-16T10:13:15Z
+bmw-x4,2024,2.0TC I4 X4 20i,250000,275000,262500,"AED 250,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x4/2024/,2026-06-16T10:13:17Z
+bmw-x4,2024,2.0TC I4 X4 30i,315000,345000,330000,"AED 315,000 - 345,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x4/2024/,2026-06-16T10:13:17Z
+bmw-x4,2024,3.0TC I6 X4 M40i,349000,380000,364500,"AED 349,000 - 380,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x4/2024/,2026-06-16T10:13:17Z
+bmw-x5,2022,3.0TC I6 xDrive40i,391000,420000,405500,"AED 391,000 - 420,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5/2022/,2026-06-16T10:13:23Z
+bmw-x5,2022,4.4TC V8 xDrive50i,440000,450000,445000,"AED 440,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5/2022/,2026-06-16T10:13:23Z
+bmw-x5,2022,4.4TC V8 M50i,500000,520000,510000,"AED 500,000 - 520,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5/2022/,2026-06-16T10:13:23Z
+bmw-x5,2023,3.0TC I6 xDrive40i,391000,420000,405500,"AED 391,000 - 420,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5/2023/,2026-06-16T10:13:25Z
+bmw-x5,2023,4.4TC V8 xDrive50i,440000,450000,445000,"AED 440,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5/2023/,2026-06-16T10:13:25Z
+bmw-x5,2023,4.4TC V8 M50i,500000,520000,510000,"AED 500,000 - 520,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5/2023/,2026-06-16T10:13:25Z
+bmw-x5,2024,3.0TC I6 xDrive40i,391000,420000,405500,"AED 391,000 - 420,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5/2024/,2026-06-16T10:13:27Z
+bmw-x5,2024,4.4TC V8 xDrive50i,440000,450000,445000,"AED 440,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5/2024/,2026-06-16T10:13:27Z
+bmw-x5,2024,4.4TC V8 M50i,500000,520000,510000,"AED 500,000 - 520,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5/2024/,2026-06-16T10:13:27Z
+bmw-x5,2025,3.0TC I6 xDrive40i,391000,420000,405500,"AED 391,000 - 420,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5/2025/,2026-06-16T10:13:29Z
+bmw-x5,2025,4.4TC V8 xDrive50i,440000,450000,445000,"AED 440,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5/2025/,2026-06-16T10:13:29Z
+bmw-x5,2025,4.4TC V8 M50i,500000,520000,510000,"AED 500,000 - 520,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5/2025/,2026-06-16T10:13:29Z
+bmw-x5,2026,3.0TC I6 xDrive40i,391000,420000,405500,"AED 391,000 - 420,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5/2026/,2026-06-16T10:13:31Z
+bmw-x5,2026,4.4TC V8 xDrive50i,440000,450000,445000,"AED 440,000 - 450,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5/2026/,2026-06-16T10:13:31Z
+bmw-x5,2026,4.4TC V8 M50i,500000,520000,510000,"AED 500,000 - 520,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5/2026/,2026-06-16T10:13:31Z
+bmw-x5-m,2022,4.4TC V8 X5 M,650000,700000,675000,"AED 650,000 - 700,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5-m/2022/,2026-06-16T10:13:33Z
+bmw-x5-m,2023,4.4TC V8 X5 M,650000,700000,675000,"AED 650,000 - 700,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5-m/2023/,2026-06-16T10:13:35Z
+bmw-x5-m,2024,4.4TC V8 X5 M,650000,700000,675000,"AED 650,000 - 700,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5-m/2024/,2026-06-16T10:13:37Z
+bmw-x5-m,2025,4.4TC V8 X5 M,650000,700000,675000,"AED 650,000 - 700,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5-m/2025/,2026-06-16T10:13:39Z
+bmw-x5-m,2026,4.4TC V8 X5 M,650000,700000,675000,"AED 650,000 - 700,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x5-m/2026/,2026-06-16T10:13:41Z
+bmw-x6,2022,3.0TC I6 xDrive40i,400000,441000,420500,"AED 400,000 - 441,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x6/2022/,2026-06-16T10:13:43Z
+bmw-x6,2022,4.4TC V8 xDrive50i,460500,463000,461750,"AED 460,500 - 463,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x6/2022/,2026-06-16T10:13:43Z
+bmw-x6,2023,3.0TC I6 xDrive40i,400000,441000,420500,"AED 400,000 - 441,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x6/2023/,2026-06-16T10:13:44Z
+bmw-x6,2023,4.4TC V8 xDrive50i,460000,462000,461000,"AED 460,000 - 462,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x6/2023/,2026-06-16T10:13:44Z
+bmw-x6,2024,3.0TC I6 xDrive40i 4WD,400000,441000,420500,"AED 400,000 - 441,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x6/2024/,2026-06-16T10:13:46Z
+bmw-x6,2024,4.4TC V8 xDrive50i 4WD,460000,462000,461000,"AED 460,000 - 462,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x6/2024/,2026-06-16T10:13:46Z
+bmw-x6,2025,3.0TC I6 xDrive40i 4WD,400000,441000,420500,"AED 400,000 - 441,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x6/2025/,2026-06-16T10:13:48Z
+bmw-x6,2025,4.4TC V8 xDrive50i 4WD,460000,462000,461000,"AED 460,000 - 462,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x6/2025/,2026-06-16T10:13:48Z
+bmw-x6,2026,3.0TC I6 xDrive40i 4WD,400000,441000,420500,"AED 400,000 - 441,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x6/2026/,2026-06-16T10:13:50Z
+bmw-x6,2026,4.4TC V8 xDrive50i 4WD,460000,462000,461000,"AED 460,000 - 462,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x6/2026/,2026-06-16T10:13:50Z
+bmw-x6-m,2022,4.4TC V8 X6 M,650000,750000,700000,"AED 650,000 - 750,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x6-m/2022/,2026-06-16T10:13:52Z
+bmw-x6-m,2023,4.4TC V8 X6 M,650000,750000,700000,"AED 650,000 - 750,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x6-m/2023/,2026-06-16T10:13:54Z
+bmw-x6-m,2024,4.4TC V8 X6 M 4WD,650000,750000,700000,"AED 650,000 - 750,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x6-m/2024/,2026-06-16T10:13:56Z
+bmw-x6-m,2025,4.4TC V8 X6 M 4WD,650000,750000,700000,"AED 650,000 - 750,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x6-m/2025/,2026-06-16T10:13:58Z
+bmw-x6-m,2026,4.4TC V8 X6 M 4WD,650000,750000,700000,"AED 650,000 - 750,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x6-m/2026/,2026-06-16T10:14:00Z
+bmw-x7,2022,3.0TC I6 xDrive40i,496000,550000,523000,"AED 496,000 - 550,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x7/2022/,2026-06-16T10:14:02Z
+bmw-x7,2022,4.4TC V8 xDrive50i,550000,600000,575000,"AED 550,000 - 600,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x7/2022/,2026-06-16T10:14:02Z
+bmw-x7,2023,3.0 TC I6 xDrive40i,496000,550000,523000,"AED 496,000 - 550,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x7/2023/,2026-06-16T10:14:04Z
+bmw-x7,2023,4.4TC V8 xDrive50i,550000,600000,575000,"AED 550,000 - 600,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x7/2023/,2026-06-16T10:14:04Z
+bmw-x7,2023,4.4TC+E V8 M60i,600000,610000,605000,"AED 600,000 - 610,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x7/2023/,2026-06-16T10:14:04Z
+bmw-x7,2024,3.0 TC I6 xDrive40i,496000,550000,523000,"AED 496,000 - 550,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x7/2024/,2026-06-16T10:14:06Z
+bmw-x7,2024,4.4TC V8 xDrive50i,550000,600000,575000,"AED 550,000 - 600,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x7/2024/,2026-06-16T10:14:06Z
+bmw-x7,2024,4.4TC+E V8 M60i,600000,610000,605000,"AED 600,000 - 610,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x7/2024/,2026-06-16T10:14:06Z
+bmw-x7,2025,3.0 TC I6 xDrive40i,496000,550000,523000,"AED 496,000 - 550,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x7/2025/,2026-06-16T10:14:08Z
+bmw-x7,2025,4.4TC V8 xDrive50i,550000,600000,575000,"AED 550,000 - 600,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x7/2025/,2026-06-16T10:14:08Z
+bmw-x7,2025,4.4TC+E V8 M60i,600000,610000,605000,"AED 600,000 - 610,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x7/2025/,2026-06-16T10:14:08Z
+bmw-x7,2026,3.0 TC I6 xDrive40i,496000,550000,523000,"AED 496,000 - 550,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x7/2026/,2026-06-16T10:14:10Z
+bmw-x7,2026,4.4TC V8 xDrive50i,550000,600000,575000,"AED 550,000 - 600,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x7/2026/,2026-06-16T10:14:10Z
+bmw-x7,2026,4.4TC+E V8 M60i,600000,610000,605000,"AED 600,000 - 610,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-x7/2026/,2026-06-16T10:14:10Z
+bmw-xm,2023,4.4H V8 XM 4WD,600000,650000,625000,"AED 600,000 - 650,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-xm/2023/,2026-06-16T10:14:13Z
+bmw-xm,2024,4.4H V8 XM 4WD,600000,650000,625000,"AED 600,000 - 650,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-xm/2024/,2026-06-16T10:14:15Z
+bmw-xm,2025,4.4TC+E V8 XM 4WD,680000,725000,702500,"AED 680,000 - 725,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-xm/2025/,2026-06-16T10:14:17Z
+bmw-xm,2026,4.4TC+E V8 XM 4WD,680000,725000,702500,"AED 680,000 - 725,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-xm/2026/,2026-06-16T10:14:18Z
+bmw-z4,2022,2.0TC I4 sDrive 20i,230000,240000,235000,"AED 230,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-z4/2022/,2026-06-16T10:14:20Z
+bmw-z4,2022,2.0TC I4 sDrive 30i,250000,270000,260000,"AED 250,000 - 270,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-z4/2022/,2026-06-16T10:14:20Z
+bmw-z4,2022,3.0TC I6 M40i,300000,310000,305000,"AED 300,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-z4/2022/,2026-06-16T10:14:20Z
+bmw-z4,2023,2.0TC I4 sDrive 20i,230000,240000,235000,"AED 230,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-z4/2023/,2026-06-16T10:14:22Z
+bmw-z4,2023,2.0TC I4 sDrive 30i,250000,270000,260000,"AED 250,000 - 270,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-z4/2023/,2026-06-16T10:14:22Z
+bmw-z4,2023,3.0TC I6 M40i,300000,310000,305000,"AED 300,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-z4/2023/,2026-06-16T10:14:22Z
+bmw-z4,2024,2.0TC I4 sDrive 20i,230000,240000,235000,"AED 230,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-z4/2024/,2026-06-16T10:14:24Z
+bmw-z4,2024,2.0TC I4 sDrive 30i,250000,270000,260000,"AED 250,000 - 270,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-z4/2024/,2026-06-16T10:14:24Z
+bmw-z4,2024,3.0TC I6 M40i,300000,310000,305000,"AED 300,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-z4/2024/,2026-06-16T10:14:24Z
+bmw-z4,2025,2.0TC I4 sDrive 20i RWD,230000,240000,235000,"AED 230,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-z4/2025/,2026-06-16T10:14:26Z
+bmw-z4,2025,2.0TC I4 sDrive 30i RWD,250000,270000,260000,"AED 250,000 - 270,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-z4/2025/,2026-06-16T10:14:26Z
+bmw-z4,2025,3.0TC I6 M40i RWD,300000,310000,305000,"AED 300,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-z4/2025/,2026-06-16T10:14:26Z
+bmw-z4,2026,sDrive 20i,230000,240000,235000,"AED 230,000 - 240,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-z4/2026/,2026-06-16T10:14:28Z
+bmw-z4,2026,sDrive 30i,250000,270000,260000,"AED 250,000 - 270,000",AED,https://www.drivearabia.com/carprices/uae/bmw/bmw-z4/2026/,2026-06-16T10:14:28Z

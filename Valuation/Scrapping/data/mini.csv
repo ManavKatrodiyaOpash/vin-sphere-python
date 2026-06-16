@@ -1,0 +1,45 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+mini-clubman,2022,Cooper,146000,150000,148000,"AED 146,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-clubman/2022/,2026-06-16T09:38:22Z
+mini-clubman,2022,Cooper S,175000,185000,180000,"AED 175,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-clubman/2022/,2026-06-16T09:38:22Z
+mini-clubman,2023,Cooper,146000,150000,148000,"AED 146,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-clubman/2023/,2026-06-16T09:38:24Z
+mini-clubman,2023,Cooper S,175000,185000,180000,"AED 175,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-clubman/2023/,2026-06-16T09:38:24Z
+mini-cooper,2022,Cooper,145950,146000,145975,"AED 145,950 - 146,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper/2022/,2026-06-16T09:38:29Z
+mini-cooper,2022,Cooper S,166950,167000,166975,"AED 166,950 - 167,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper/2022/,2026-06-16T09:38:29Z
+mini-cooper,2022,Paddy Hopkirk,182600,183000,182800,"AED 182,600 - 183,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper/2022/,2026-06-16T09:38:29Z
+mini-cooper,2022,John Cooper Works,198450,199000,198725,"AED 198,450 - 199,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper/2022/,2026-06-16T09:38:29Z
+mini-cooper,2023,Cooper,145950,146000,145975,"AED 145,950 - 146,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper/2023/,2026-06-16T09:38:31Z
+mini-cooper,2023,Cooper S,166950,167000,166975,"AED 166,950 - 167,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper/2023/,2026-06-16T09:38:31Z
+mini-cooper,2023,Paddy Hopkirk,182600,183000,182800,"AED 182,600 - 183,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper/2023/,2026-06-16T09:38:31Z
+mini-cooper,2023,John Cooper Works,198450,199000,198725,"AED 198,450 - 199,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper/2023/,2026-06-16T09:38:31Z
+mini-cooper,2024,1.5TC I4 Cooper FWD,145950,146000,145975,"AED 145,950 - 146,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper/2024/,2026-06-16T09:38:33Z
+mini-cooper,2024,2.0TC I4 Cooper S FWD,166950,167000,166975,"AED 166,950 - 167,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper/2024/,2026-06-16T09:38:33Z
+mini-cooper,2024,2.0TC I4 John Cooper Works FWD,198450,199000,198725,"AED 198,450 - 199,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper/2024/,2026-06-16T09:38:33Z
+mini-cooper,2025,1.5TC I3 Cooper C FWD,140000,150000,145000,"AED 140,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper/2025/,2026-06-16T09:38:35Z
+mini-cooper,2025,2.0TC I4 Cooper S Luxury FWD,180000,190000,185000,"AED 180,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper/2025/,2026-06-16T09:38:35Z
+mini-cooper,2026,1.5TC I3 Cooper C FWD,140000,150000,145000,"AED 140,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper/2026/,2026-06-16T09:38:37Z
+mini-cooper,2026,2.0TC I4 Cooper S Luxury FWD,180000,190000,185000,"AED 180,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper/2026/,2026-06-16T09:38:37Z
+mini-cooper-5-door,2022,Cooper,140000,145000,142500,"AED 140,000 - 145,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper-5-door/2022/,2026-06-16T09:38:39Z
+mini-cooper-5-door,2022,Cooper S,170000,175000,172500,"AED 170,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper-5-door/2022/,2026-06-16T09:38:39Z
+mini-cooper-5-door,2023,Cooper,140000,145000,142500,"AED 140,000 - 145,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper-5-door/2023/,2026-06-16T09:38:41Z
+mini-cooper-5-door,2023,Cooper S,170000,175000,172500,"AED 170,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper-5-door/2023/,2026-06-16T09:38:41Z
+mini-cooper-5-door,2024,Cooper,140000,145000,142500,"AED 140,000 - 145,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper-5-door/2024/,2026-06-16T09:38:43Z
+mini-cooper-5-door,2024,Cooper S,170000,175000,172500,"AED 170,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper-5-door/2024/,2026-06-16T09:38:43Z
+mini-cooper-5-door,2025,1.5TC I3 Cooper C FWD,129000,139000,134000,"AED 129,000 - 139,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper-5-door/2025/,2026-06-16T09:38:45Z
+mini-cooper-5-door,2025,2.0TC I4 Cooper S FWD,159600,169600,164600,"AED 159,600 - 169,600",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper-5-door/2025/,2026-06-16T09:38:45Z
+mini-cooper-5-door,2026,1.5TC I3 Cooper C FWD,129000,139000,134000,"AED 129,000 - 139,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper-5-door/2026/,2026-06-16T09:38:47Z
+mini-cooper-5-door,2026,2.0TC I4 Cooper S FWD,159600,169600,164600,"AED 159,600 - 169,600",AED,https://www.drivearabia.com/carprices/uae/mini/mini-cooper-5-door/2026/,2026-06-16T09:38:47Z
+mini-countryman,2022,Cooper,135000,150000,142500,"AED 135,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-countryman/2022/,2026-06-16T09:38:49Z
+mini-countryman,2022,Cooper S,145000,165000,155000,"AED 145,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-countryman/2022/,2026-06-16T09:38:49Z
+mini-countryman,2023,Cooper,135000,150000,142500,"AED 135,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-countryman/2023/,2026-06-16T09:38:51Z
+mini-countryman,2023,Cooper S,145000,165000,155000,"AED 145,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-countryman/2023/,2026-06-16T09:38:51Z
+mini-countryman,2024,1.5TC I3 Cooper FWD,180750,190750,185750,"AED 180,750 - 190,750",AED,https://www.drivearabia.com/carprices/uae/mini/mini-countryman/2024/,2026-06-16T09:38:53Z
+mini-countryman,2024,2.0TC I4 Cooper S Luxury 4WD,220000,230000,225000,"AED 220,000 - 230,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-countryman/2024/,2026-06-16T09:38:53Z
+mini-countryman,2024,2.0TC I4 John Cooper Works 4WD,250950,260950,255950,"AED 250,950 - 260,950",AED,https://www.drivearabia.com/carprices/uae/mini/mini-countryman/2024/,2026-06-16T09:38:53Z
+mini-countryman,2025,1.5TC I3 Cooper FWD,180750,190750,185750,"AED 180,750 - 190,750",AED,https://www.drivearabia.com/carprices/uae/mini/mini-countryman/2025/,2026-06-16T09:38:55Z
+mini-countryman,2025,2.0TC I4 Cooper S Luxury 4WD,220000,230000,225000,"AED 220,000 - 230,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-countryman/2025/,2026-06-16T09:38:55Z
+mini-countryman,2025,2.0TC I4 John Cooper Works 4WD,250950,260950,255950,"AED 250,950 - 260,950",AED,https://www.drivearabia.com/carprices/uae/mini/mini-countryman/2025/,2026-06-16T09:38:55Z
+mini-countryman,2026,1.5TC I3 Cooper FWD,180750,190750,185750,"AED 180,750 - 190,750",AED,https://www.drivearabia.com/carprices/uae/mini/mini-countryman/2026/,2026-06-16T09:38:57Z
+mini-countryman,2026,2.0TC I4 Cooper S Luxury 4WD,220000,230000,225000,"AED 220,000 - 230,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-countryman/2026/,2026-06-16T09:38:57Z
+mini-countryman,2026,2.0TC I4 John Cooper Works 4WD,250950,260950,255950,"AED 250,950 - 260,950",AED,https://www.drivearabia.com/carprices/uae/mini/mini-countryman/2026/,2026-06-16T09:38:57Z
+mini-countryman-se,2025,64.6 kWh SE 4WD,250000,260000,255000,"AED 250,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-countryman-se/2025/,2026-06-16T09:39:02Z
+mini-countryman-se,2026,64.6 kWh SE 4WD,250000,260000,255000,"AED 250,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/mini/mini-countryman-se/2026/,2026-06-16T09:39:04Z
