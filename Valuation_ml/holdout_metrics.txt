@@ -1,0 +1,6 @@
+MAE=25603.32
+RMSE=97880.03
+MAPE=40.28%
+Hybrid_MAE=18014.28
+Hybrid_MAPE=41.10%
+Accuracy_Within_75_Percent=95.14%
