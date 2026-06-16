@@ -1,0 +1,91 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+suzuki-baleno,2022,1.4L GL,45000,46000,45500,"AED 45,000 - 46,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-baleno/2022/,2026-06-16T09:49:37Z
+suzuki-baleno,2022,1.4L GLX,49900,50000,49950,"AED 49,900 - 50,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-baleno/2022/,2026-06-16T09:49:37Z
+suzuki-baleno,2023,1.4L GL,45000,46000,45500,"AED 45,000 - 46,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-baleno/2023/,2026-06-16T09:49:39Z
+suzuki-baleno,2023,1.4L GLX,49900,50000,49950,"AED 49,900 - 50,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-baleno/2023/,2026-06-16T09:49:39Z
+suzuki-baleno,2024,1.5L I4 GL FWD,51900,56000,53950,"AED 51,900 - 56,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-baleno/2024/,2026-06-16T09:49:41Z
+suzuki-baleno,2024,1.5L I4 GLX FWD,59900,60000,59950,"AED 59,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-baleno/2024/,2026-06-16T09:49:41Z
+suzuki-baleno,2025,1.5L I4 GL FWD,54900,56000,55450,"AED 54,900 - 56,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-baleno/2025/,2026-06-16T09:49:43Z
+suzuki-baleno,2025,1.5L I4 GLX FWD,59900,60000,59950,"AED 59,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-baleno/2025/,2026-06-16T09:49:43Z
+suzuki-baleno,2026,1.5L I4 GL FWD,54900,56000,55450,"AED 54,900 - 56,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-baleno/2026/,2026-06-16T09:49:45Z
+suzuki-baleno,2026,1.5L I4 GLX FWD,59900,60000,59950,"AED 59,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-baleno/2026/,2026-06-16T09:49:45Z
+suzuki-ciaz,2022,1.5L GL,44900,46000,45450,"AED 44,900 - 46,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-ciaz/2022/,2026-06-16T09:49:59Z
+suzuki-ciaz,2022,1.5L GLX,51900,52000,51950,"AED 51,900 - 52,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-ciaz/2022/,2026-06-16T09:49:59Z
+suzuki-ciaz,2023,1.5L GL,44900,46000,45450,"AED 44,900 - 46,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-ciaz/2023/,2026-06-16T09:50:01Z
+suzuki-ciaz,2023,1.5L GLX,51900,52000,51950,"AED 51,900 - 52,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-ciaz/2023/,2026-06-16T09:50:01Z
+suzuki-ciaz,2024,1.5L I4 GL FWD,51900,54000,52950,"AED 51,900 - 54,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-ciaz/2024/,2026-06-16T09:50:03Z
+suzuki-ciaz,2024,1.5L I4 GLX FWD,60900,62000,61450,"AED 60,900 - 62,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-ciaz/2024/,2026-06-16T09:50:03Z
+suzuki-ciaz,2025,1.5L I4 GL FWD,51900,54000,52950,"AED 51,900 - 54,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-ciaz/2025/,2026-06-16T09:50:05Z
+suzuki-ciaz,2025,1.5L I4 GLX FWD,60900,62000,61450,"AED 60,900 - 62,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-ciaz/2025/,2026-06-16T09:50:05Z
+suzuki-dzire,2025,1.2L I4 GL FWD,49900,50000,49950,"AED 49,900 - 50,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-dzire/2025/,2026-06-16T09:50:12Z
+suzuki-dzire,2025,1.2L I4 GLX FWD,54900,55000,54950,"AED 54,900 - 55,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-dzire/2025/,2026-06-16T09:50:12Z
+suzuki-dzire,2026,1.2L I4 GL FWD,49900,50000,49950,"AED 49,900 - 50,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-dzire/2026/,2026-06-16T09:50:14Z
+suzuki-dzire,2026,1.2L I4 GLX FWD,54900,55000,54950,"AED 54,900 - 55,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-dzire/2026/,2026-06-16T09:50:14Z
+suzuki-ertiga,2024,1.5L I4 GL FWD,59900,61000,60450,"AED 59,900 - 61,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-ertiga/2024/,2026-06-16T09:50:20Z
+suzuki-ertiga,2024,1.5L I4 GLX FWD,64900,69000,66950,"AED 64,900 - 69,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-ertiga/2024/,2026-06-16T09:50:20Z
+suzuki-ertiga,2025,1.5L I4 GL FWD,59900,61000,60450,"AED 59,900 - 61,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-ertiga/2025/,2026-06-16T09:50:22Z
+suzuki-ertiga,2025,1.5L I4 GLX FWD,64900,69000,66950,"AED 64,900 - 69,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-ertiga/2025/,2026-06-16T09:50:22Z
+suzuki-ertiga,2026,1.5L I4 GL FWD,59900,61000,60450,"AED 59,900 - 61,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-ertiga/2026/,2026-06-16T09:50:24Z
+suzuki-ertiga,2026,1.5L I4 GLX FWD,64900,69000,66950,"AED 64,900 - 69,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-ertiga/2026/,2026-06-16T09:50:24Z
+suzuki-fronx,2024,1.5 GL 2WD,61900,67000,64450,"AED 61,900 - 67,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-fronx/2024/,2026-06-16T09:50:28Z
+suzuki-fronx,2024,1.5 GLX 2WD,69900,72000,70950,"AED 69,900 - 72,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-fronx/2024/,2026-06-16T09:50:28Z
+suzuki-fronx,2025,1.5 I4 GL 2WD,64900,66900,65900,"AED 64,900 - 66,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-fronx/2025/,2026-06-16T09:50:30Z
+suzuki-fronx,2025,1.5 I4 GLX 2WD,69900,71900,70900,"AED 69,900 - 71,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-fronx/2025/,2026-06-16T09:50:30Z
+suzuki-fronx,2026,1.5 I4 GL 2WD,64900,66900,65900,"AED 64,900 - 66,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-fronx/2026/,2026-06-16T09:50:32Z
+suzuki-fronx,2026,1.5 I4 GLX 2WD,69900,71900,70900,"AED 69,900 - 71,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-fronx/2026/,2026-06-16T09:50:32Z
+suzuki-grand-vitara,2022,3-door,77000,80000,78500,"AED 77,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-grand-vitara/2022/,2026-06-16T09:50:34Z
+suzuki-grand-vitara,2022,5-door,90850,91000,90925,"AED 90,850 - 91,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-grand-vitara/2022/,2026-06-16T09:50:34Z
+suzuki-grand-vitara,2024,1.5+E I4 GL 2WD,79900,89900,84900,"AED 79,900 - 89,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-grand-vitara/2024/,2026-06-16T09:50:37Z
+suzuki-grand-vitara,2024,1.5+E I4 GLX 2WD,84900,85900,85400,"AED 84,900 - 85,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-grand-vitara/2024/,2026-06-16T09:50:37Z
+suzuki-grand-vitara,2024,1.5+E I4 GLX 4WD,97900,98900,98400,"AED 97,900 - 98,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-grand-vitara/2024/,2026-06-16T09:50:37Z
+suzuki-grand-vitara,2025,1.5+E I4 GL 2WD,79900,89900,84900,"AED 79,900 - 89,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-grand-vitara/2025/,2026-06-16T09:50:39Z
+suzuki-grand-vitara,2025,1.5+E I4 GLX 2WD,84900,85900,85400,"AED 84,900 - 85,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-grand-vitara/2025/,2026-06-16T09:50:39Z
+suzuki-grand-vitara,2025,1.5+E I4 GLX 4WD,97900,98900,98400,"AED 97,900 - 98,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-grand-vitara/2025/,2026-06-16T09:50:39Z
+suzuki-grand-vitara,2026,1.5+E I4 GL 2WD,79900,89900,84900,"AED 79,900 - 89,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-grand-vitara/2026/,2026-06-16T09:50:41Z
+suzuki-grand-vitara,2026,1.5+E I4 GLX 2WD,84900,85900,85400,"AED 84,900 - 85,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-grand-vitara/2026/,2026-06-16T09:50:41Z
+suzuki-grand-vitara,2026,1.5+E I4 GLX 4WD,97900,98900,98400,"AED 97,900 - 98,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-grand-vitara/2026/,2026-06-16T09:50:41Z
+suzuki-jimny,2022,manual,72000,73000,72500,"AED 72,000 - 73,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny/2022/,2026-06-16T09:50:56Z
+suzuki-jimny,2022,auto,77800,78000,77900,"AED 77,800 - 78,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny/2022/,2026-06-16T09:50:56Z
+suzuki-jimny,2023,manual,72000,73000,72500,"AED 72,000 - 73,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny/2023/,2026-06-16T09:50:58Z
+suzuki-jimny,2023,auto,77800,78000,77900,"AED 77,800 - 78,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny/2023/,2026-06-16T09:50:58Z
+suzuki-jimny,2024,1.5 I4 GL 4WD,75000,76000,75500,"AED 75,000 - 76,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny/2024/,2026-06-16T09:51:00Z
+suzuki-jimny,2024,1.5 I4 GLX 4WD,79000,80000,79500,"AED 79,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny/2024/,2026-06-16T09:51:00Z
+suzuki-jimny,2025,1.5 I4 GL M/T 4WD,78900,80900,79900,"AED 78,900 - 80,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny/2025/,2026-06-16T09:51:02Z
+suzuki-jimny,2025,1.5 I4 GLX A/T 4WD,91900,92900,92400,"AED 91,900 - 92,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny/2025/,2026-06-16T09:51:02Z
+suzuki-jimny,2025,1.5 I4 ART Edition A/T 4WD,98900,113000,105950,"AED 98,900 - 113,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny/2025/,2026-06-16T09:51:02Z
+suzuki-jimny,2026,1.5 I4 GL M/T 4WD,78900,80900,79900,"AED 78,900 - 80,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny/2026/,2026-06-16T09:51:04Z
+suzuki-jimny,2026,1.5 I4 GLX A/T 4WD,91900,92900,92400,"AED 91,900 - 92,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny/2026/,2026-06-16T09:51:04Z
+suzuki-jimny,2026,1.5 I4 ART Edition A/T 4WD,98900,113000,105950,"AED 98,900 - 113,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny/2026/,2026-06-16T09:51:04Z
+suzuki-jimny-5-door,2024,1.5 l4 GL 4WD,76900,81000,78950,"AED 76,900 - 81,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny-5-door/2024/,2026-06-16T09:51:08Z
+suzuki-jimny-5-door,2024,1.5 I4 GL 4WD,85900,89000,87450,"AED 85,900 - 89,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny-5-door/2024/,2026-06-16T09:51:08Z
+suzuki-jimny-5-door,2024,1.5 I4 GLX 4WD,91900,96000,93950,"AED 91,900 - 96,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny-5-door/2024/,2026-06-16T09:51:08Z
+suzuki-jimny-5-door,2025,1.5 I4 GLX A/T 4WD,92900,93900,93400,"AED 92,900 - 93,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny-5-door/2025/,2026-06-16T09:51:10Z
+suzuki-jimny-5-door,2025,1.5 I4 ART Edition A/T 4WD,112000,114000,113000,"AED 112,000 - 114,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny-5-door/2025/,2026-06-16T09:51:10Z
+suzuki-jimny-5-door,2026,1.5 I4 GLX A/T 4WD,92900,93900,93400,"AED 92,900 - 93,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny-5-door/2026/,2026-06-16T09:51:12Z
+suzuki-jimny-5-door,2026,1.5 I4 ART Edition A/T 4WD,112000,114000,113000,"AED 112,000 - 114,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-jimny-5-door/2026/,2026-06-16T09:51:12Z
+suzuki-swift,2022,1.2L GL,49900,50000,49950,"AED 49,900 - 50,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift/2022/,2026-06-16T09:51:25Z
+suzuki-swift,2022,1.2 GLX,56500,57000,56750,"AED 56,500 - 57,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift/2022/,2026-06-16T09:51:25Z
+suzuki-swift,2023,1.2L GL,49900,50000,49950,"AED 49,900 - 50,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift/2023/,2026-06-16T09:51:26Z
+suzuki-swift,2023,1.2 GLX,56500,57000,56750,"AED 56,500 - 57,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift/2023/,2026-06-16T09:51:26Z
+suzuki-swift,2024,1.2L I4 GL FWD,53900,56000,54950,"AED 53,900 - 56,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift/2024/,2026-06-16T09:51:28Z
+suzuki-swift,2024,1.2 I4 GLX FWD,64900,68000,66450,"AED 64,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift/2024/,2026-06-16T09:51:28Z
+suzuki-swift,2025,1.2L I4 GL FWD,51900,53900,52900,"AED 51,900 - 53,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift/2025/,2026-06-16T09:51:30Z
+suzuki-swift,2025,1.2L I4 GL Plus FWD,54900,56900,55900,"AED 54,900 - 56,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift/2025/,2026-06-16T09:51:30Z
+suzuki-swift,2025,1.2 I4 GLX FWD,59900,61900,60900,"AED 59,900 - 61,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift/2025/,2026-06-16T09:51:30Z
+suzuki-swift,2026,1.2L I4 GL FWD,51900,53900,52900,"AED 51,900 - 53,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift/2026/,2026-06-16T09:51:32Z
+suzuki-swift,2026,1.2L I4 GL Plus FWD,54900,56900,55900,"AED 54,900 - 56,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift/2026/,2026-06-16T09:51:32Z
+suzuki-swift,2026,1.2 I4 GLX FWD,59900,61900,60900,"AED 59,900 - 61,900",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift/2026/,2026-06-16T09:51:32Z
+suzuki-swift-dzire,2022,1.2L GL,39900,40000,39950,"AED 39,900 - 40,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift-dzire/2022/,2026-06-16T09:51:35Z
+suzuki-swift-dzire,2022,1.2L GLX,46000,47000,46500,"AED 46,000 - 47,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift-dzire/2022/,2026-06-16T09:51:35Z
+suzuki-swift-dzire,2023,1.2L I4 GL FWD,44000,45000,44500,"AED 44,000 - 45,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift-dzire/2023/,2026-06-16T09:51:36Z
+suzuki-swift-dzire,2023,1.2L I4 GLX FWD,48000,50000,49000,"AED 48,000 - 50,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift-dzire/2023/,2026-06-16T09:51:36Z
+suzuki-swift-dzire,2024,1.2L I4 GL FWD,43900,45000,44450,"AED 43,900 - 45,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift-dzire/2024/,2026-06-16T09:51:38Z
+suzuki-swift-dzire,2024,1.2L I4 GLX FWD,48900,50000,49450,"AED 48,900 - 50,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-swift-dzire/2024/,2026-06-16T09:51:38Z
+suzuki-vitara,2022,2WD GLX,64900,65000,64950,"AED 64,900 - 65,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-vitara/2022/,2026-06-16T09:51:48Z
+suzuki-vitara,2022,2WD GLX+,67200,68000,67600,"AED 67,200 - 68,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-vitara/2022/,2026-06-16T09:51:48Z
+suzuki-vitara,2022,4WD GLX,72000,72500,72250,"AED 72,000 - 72,500",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-vitara/2022/,2026-06-16T09:51:48Z
+suzuki-vitara,2022,4WD GLX+,81000,81500,81250,"AED 81,000 - 81,500",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-vitara/2022/,2026-06-16T09:51:48Z
+suzuki-vitara,2023,2WD GLX,64900,65000,64950,"AED 64,900 - 65,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-vitara/2023/,2026-06-16T09:51:50Z
+suzuki-vitara,2023,2WD GLX+,67200,68000,67600,"AED 67,200 - 68,000",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-vitara/2023/,2026-06-16T09:51:50Z
+suzuki-vitara,2023,4WD GLX,72000,72500,72250,"AED 72,000 - 72,500",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-vitara/2023/,2026-06-16T09:51:50Z
+suzuki-vitara,2023,4WD GLX+,81000,81500,81250,"AED 81,000 - 81,500",AED,https://www.drivearabia.com/carprices/uae/suzuki/suzuki-vitara/2023/,2026-06-16T09:51:50Z

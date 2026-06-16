@@ -1,0 +1,766 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at,car_age,depreciated_value
+nissan-370z,2013,auto,139000,149000,144000,"AED 139,000 - 149,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-370z/2013/,2026-06-12T10:12:54Z,13,23557
+nissan-370z,2013,manual,144000,145000,144500,"AED 144,000 - 145,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-370z/2013/,2026-06-12T10:12:54Z,13,23638
+nissan-370z,2014,auto,139000,149000,144000,"AED 139,000 - 149,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-370z/2014/,2026-06-12T10:12:56Z,12,27077
+nissan-370z,2014,manual,144000,145000,144500,"AED 144,000 - 145,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-370z/2014/,2026-06-12T10:12:56Z,12,27171
+nissan-370z,2015,auto,139000,149000,144000,"AED 139,000 - 149,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-370z/2015/,2026-06-12T10:12:58Z,11,31122
+nissan-370z,2015,manual,144000,145000,144500,"AED 144,000 - 145,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-370z/2015/,2026-06-12T10:12:58Z,11,31231
+nissan-370z,2016,manual,127000,127500,127250,"AED 127,000 - 127,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-370z/2016/,2026-06-12T10:12:59Z,10,31612
+nissan-370z,2016,auto,139000,139500,139250,"AED 139,000 - 139,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-370z/2016/,2026-06-12T10:12:59Z,10,34593
+nissan-370z,2017,manual,127000,127500,127250,"AED 127,000 - 127,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-370z/2017/,2026-06-12T10:13:01Z,9,36335
+nissan-370z,2017,auto,139000,139500,139250,"AED 139,000 - 139,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-370z/2017/,2026-06-12T10:13:01Z,9,39762
+nissan-370z,2018,auto+navigation,151100,152000,151550,"AED 151,100 - 152,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-370z/2018/,2026-06-12T10:13:03Z,8,49740
+nissan-370z,2018,Nismo,189000,190000,189500,"AED 189,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-370z/2018/,2026-06-12T10:13:03Z,8,62196
+nissan-370z,2019,standard,149000,150000,149500,"AED 149,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-370z/2019/,2026-06-12T10:13:05Z,7,56400
+nissan-370z,2019,Nismo,178000,184500,181250,"AED 184,500 - 178,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-370z/2019/,2026-06-12T10:13:05Z,7,68377
+nissan-370z,2020,standard,149000,150000,149500,"AED 149,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-370z/2020/,2026-06-12T10:13:09Z,6,64827
+nissan-370z,2020,Nismo,184000,185000,184500,"AED 184,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-370z/2020/,2026-06-12T10:13:09Z,6,80004
+nissan-altima,2008,sedan,71500,102000,86750,"AED 71,500 - 102,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2008/,2026-06-12T10:14:21Z,18,4654
+nissan-altima,2009,sedan,71500,102000,86750,"AED 71,500 - 102,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2009/,2026-06-12T10:14:23Z,17,5475
+nissan-altima,2010,2.5L sedan,72000,90000,81000,"AED 72,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2010/,2026-06-12T10:14:25Z,16,6014
+nissan-altima,2010,3.5L sedan,95000,110000,102500,"AED 95,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2010/,2026-06-12T10:14:25Z,16,7611
+nissan-altima,2011,2.5L sedan,72000,90000,81000,"AED 72,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2011/,2026-06-12T10:14:27Z,15,7076
+nissan-altima,2011,3.5L sedan,95000,110000,102500,"AED 95,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2011/,2026-06-12T10:14:27Z,15,8954
+nissan-altima,2012,2.5L sedan,72000,90000,81000,"AED 72,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2012/,2026-06-12T10:14:28Z,14,8324
+nissan-altima,2012,3.5L sedan,95000,110000,102500,"AED 95,000 - 110,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2012/,2026-06-12T10:14:28Z,14,10534
+nissan-altima,2013,2.5 S,76000,78000,77000,"AED 76,000 - 78,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2013/,2026-06-12T10:14:30Z,13,9310
+nissan-altima,2013,2.5 SV,82500,83000,82750,"AED 82,500 - 83,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2013/,2026-06-12T10:14:30Z,13,10005
+nissan-altima,2013,2.5 SL,94500,95000,94750,"AED 94,500 - 95,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2013/,2026-06-12T10:14:30Z,13,11456
+nissan-altima,2013,3.5 SV,98000,99000,98500,"AED 98,000 - 99,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2013/,2026-06-12T10:14:30Z,13,11909
+nissan-altima,2013,3.5 SL,106000,107000,106500,"AED 106,000 - 107,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2013/,2026-06-12T10:14:30Z,13,12876
+nissan-altima,2014,2.5 S,76000,78000,77000,"AED 76,000 - 78,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2014/,2026-06-12T10:14:32Z,12,10953
+nissan-altima,2014,2.5 SV,82500,83000,82750,"AED 82,500 - 83,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2014/,2026-06-12T10:14:32Z,12,11771
+nissan-altima,2014,2.5 SL,94500,95000,94750,"AED 94,500 - 95,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2014/,2026-06-12T10:14:32Z,12,13477
+nissan-altima,2014,3.5 SV,98000,99000,98500,"AED 98,000 - 99,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2014/,2026-06-12T10:14:32Z,12,14011
+nissan-altima,2014,3.5 SL,106000,107000,106500,"AED 106,000 - 107,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2014/,2026-06-12T10:14:32Z,12,15149
+nissan-altima,2015,2.5 S,75000,77000,76000,"AED 75,000 - 77,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2015/,2026-06-12T10:14:34Z,11,12718
+nissan-altima,2015,2.5 SV,82500,83000,82750,"AED 82,500 - 83,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2015/,2026-06-12T10:14:34Z,11,13848
+nissan-altima,2015,2.5 SL,94500,95000,94750,"AED 94,500 - 95,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2015/,2026-06-12T10:14:34Z,11,15856
+nissan-altima,2015,3.5 SV,98000,99000,98500,"AED 98,000 - 99,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2015/,2026-06-12T10:14:34Z,11,16483
+nissan-altima,2015,3.5 SL,106000,107000,106500,"AED 106,000 - 107,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2015/,2026-06-12T10:14:34Z,11,17822
+nissan-altima,2016,2.5 S,75000,77000,76000,"AED 75,000 - 77,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2016/,2026-06-12T10:14:36Z,10,14962
+nissan-altima,2016,2.5 SV,82500,83000,82750,"AED 82,500 - 83,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2016/,2026-06-12T10:14:36Z,10,16291
+nissan-altima,2016,2.5 SL,94500,95000,94750,"AED 94,500 - 95,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2016/,2026-06-12T10:14:36Z,10,18654
+nissan-altima,2016,3.5 SV,98000,99000,98500,"AED 98,000 - 99,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2016/,2026-06-12T10:14:36Z,10,19392
+nissan-altima,2016,3.5 SL,106000,107000,106500,"AED 106,000 - 107,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2016/,2026-06-12T10:14:36Z,10,20967
+nissan-altima,2017,S,78000,80000,79000,"AED 78,000 - 80,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2017/,2026-06-12T10:14:38Z,9,18298
+nissan-altima,2017,SV,83500,84000,83750,"AED 83,500 - 84,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2017/,2026-06-12T10:14:38Z,9,19398
+nissan-altima,2017,SL,92000,95000,93500,"AED 92,000 - 95,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2017/,2026-06-12T10:14:38Z,9,21656
+nissan-altima,2018,S,80745,81000,80872,"AED 80,745 - 81,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2018/,2026-06-12T10:14:40Z,8,22037
+nissan-altima,2018,SV,87045,87100,87072,"AED 87,045 - 87,100",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2018/,2026-06-12T10:14:40Z,8,23726
+nissan-altima,2018,SL,96500,97000,96750,"AED 96,500 - 97,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2018/,2026-06-12T10:14:40Z,8,26363
+nissan-altima,2019,2.5 S base,84000,92400,88200,"AED 84,000 - 92,400",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2019/,2026-06-12T10:14:41Z,7,28275
+nissan-altima,2019,2.5 Sport,96600,97000,96800,"AED 96,600 - 97,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2019/,2026-06-12T10:14:41Z,7,31032
+nissan-altima,2019,2.5 SV,99225,100000,99612,"AED 99,225 - 100,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2019/,2026-06-12T10:14:41Z,7,31933
+nissan-altima,2019,2.5 SL,108000,116000,112000,"AED 108,000 - 116,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2019/,2026-06-12T10:14:41Z,7,35905
+nissan-altima,2020,2.5 S base,94900,95000,94950,"AED 94,900 - 95,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2020/,2026-06-12T10:14:43Z,6,35810
+nissan-altima,2020,2.5 Sport,98500,99000,98750,"AED 98,500 - 99,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2020/,2026-06-12T10:14:43Z,6,37244
+nissan-altima,2020,2.5 SV,102900,103000,102950,"AED 102,900 - 103,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2020/,2026-06-12T10:14:43Z,6,38828
+nissan-altima,2020,2.0T SV,110000,111000,110500,"AED 110,000 - 111,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2020/,2026-06-12T10:14:43Z,6,41675
+nissan-altima,2020,2.5 SL,119500,120000,119750,"AED 119,500 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2020/,2026-06-12T10:14:43Z,6,45164
+nissan-altima,2020,2.0T SL,127500,128000,127750,"AED 127,500 - 128,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2020/,2026-06-12T10:14:43Z,6,48181
+nissan-altima,2021,2.5 S base,94900,95000,94950,"AED 94,900 - 95,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2021/,2026-06-12T10:14:45Z,5,42130
+nissan-altima,2021,2.5 Sport,98500,99000,98750,"AED 98,500 - 99,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2021/,2026-06-12T10:14:45Z,5,43816
+nissan-altima,2021,2.5 SV,102900,103000,102950,"AED 102,900 - 103,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2021/,2026-06-12T10:14:45Z,5,45679
+nissan-altima,2021,2.0T SV,110000,111000,110500,"AED 110,000 - 111,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2021/,2026-06-12T10:14:45Z,5,49029
+nissan-altima,2021,2.5 SL,119500,120000,119750,"AED 119,500 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2021/,2026-06-12T10:14:45Z,5,53134
+nissan-altima,2021,2.0T SL,127500,128000,127750,"AED 127,500 - 128,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2021/,2026-06-12T10:14:45Z,5,56683
+nissan-altima,2022,2.5 S base,94900,95000,94950,"AED 94,900 - 95,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2022/,2026-06-12T10:14:47Z,4,49564
+nissan-altima,2022,2.5 Sport,98500,99000,98750,"AED 98,500 - 99,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2022/,2026-06-12T10:14:47Z,4,51548
+nissan-altima,2022,2.5 SV,102900,103000,102950,"AED 102,900 - 103,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2022/,2026-06-12T10:14:47Z,4,53741
+nissan-altima,2022,2.0T SV,110000,111000,110500,"AED 110,000 - 111,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2022/,2026-06-12T10:14:47Z,4,57682
+nissan-altima,2022,2.5 SL,119500,120000,119750,"AED 119,500 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2022/,2026-06-12T10:14:47Z,4,62510
+nissan-altima,2022,2.0T SL,127500,128000,127750,"AED 127,500 - 128,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2022/,2026-06-12T10:14:47Z,4,66686
+nissan-altima,2023,2.5L I4 S FWD,110000,111000,110500,"AED 110,000 - 111,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2023/,2026-06-12T10:14:52Z,3,67861
+nissan-altima,2023,2.5L I4 Sport FWD,119500,120000,119750,"AED 119,500 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2023/,2026-06-12T10:14:52Z,3,73541
+nissan-altima,2023,2.5L I4 SV FWD,120500,129500,125000,"AED 120,500 - 129,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2023/,2026-06-12T10:14:52Z,3,76766
+nissan-altima,2023,2.5L I4 SL FWD,136000,137000,136500,"AED 136,000 - 137,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2023/,2026-06-12T10:14:52Z,3,83828
+nissan-altima,2023,2.0TC I4 SL FWD,146500,147000,146750,"AED 146,500 - 147,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2023/,2026-06-12T10:14:52Z,3,90123
+nissan-altima,2025,2.5L I4 S FWD,109500,111000,110250,"AED 109,500 - 111,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2025/,2026-06-12T10:14:55Z,1,93712
+nissan-altima,2025,2.5L I4 Sport FWD,119500,120000,119750,"AED 119,500 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2025/,2026-06-12T10:14:55Z,1,101788
+nissan-altima,2025,2.5L I4 SV FWD,120500,129500,125000,"AED 120,500 - 129,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2025/,2026-06-12T10:14:55Z,1,106250
+nissan-altima,2025,2.5L I4 SL FWD,136000,137000,136500,"AED 136,000 - 137,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2025/,2026-06-12T10:14:55Z,1,116025
+nissan-altima,2025,2.0TC I4 SL FWD,146500,147000,146750,"AED 146,500 - 147,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2025/,2026-06-12T10:14:55Z,1,124738
+nissan-altima,2026,2.5L I4 S FWD,110500,111000,110750,"AED 110,500 - 111,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2026/,2026-06-12T10:14:57Z,0,110750
+nissan-altima,2026,2.5L I4 Sport FWD,119500,120000,119750,"AED 119,500 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2026/,2026-06-12T10:14:57Z,0,119750
+nissan-altima,2026,2.5L I4 SV FWD,120500,129500,125000,"AED 120,500 - 129,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2026/,2026-06-12T10:14:57Z,0,125000
+nissan-altima,2026,2.5L I4 SL FWD,136000,137000,136500,"AED 136,000 - 137,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2026/,2026-06-12T10:14:57Z,0,136500
+nissan-altima,2026,2.0TC I4 SL FWD,146500,147000,146750,"AED 146,500 - 147,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima/2026/,2026-06-12T10:14:57Z,0,146750
+nissan-altima-coupe,2010,2.5L coupe,85000,100000,92500,"AED 85,000 - 100,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima-coupe/2010/,2026-06-12T10:15:18Z,16,6868
+nissan-altima-coupe,2010,3.5L coupe,104000,119000,111500,"AED 104,000 - 119,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima-coupe/2010/,2026-06-12T10:15:18Z,16,8279
+nissan-altima-coupe,2011,2.5L coupe,85000,100000,92500,"AED 85,000 - 100,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima-coupe/2011/,2026-06-12T10:15:20Z,15,8080
+nissan-altima-coupe,2011,3.5L coupe,104000,119000,111500,"AED 104,000 - 119,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima-coupe/2011/,2026-06-12T10:15:20Z,15,9740
+nissan-altima-coupe,2012,2.5L coupe,85000,100000,92500,"AED 85,000 - 100,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima-coupe/2012/,2026-06-12T10:15:22Z,14,9506
+nissan-altima-coupe,2012,3.5L coupe,104000,119000,111500,"AED 104,000 - 119,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-altima-coupe/2012/,2026-06-12T10:15:22Z,14,11459
+nissan-gt-r,2011,GT-R Black Edition,435000,455000,445000,"AED 435,000 - 455,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2011/,2026-06-12T10:17:21Z,15,55100
+nissan-gt-r,2011,GT-R Track Pack,504000,520000,512000,"AED 504,000 - 520,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2011/,2026-06-12T10:17:21Z,15,63396
+nissan-gt-r,2011,GT-R VVIP,750000,800000,775000,"AED 750,000 - 800,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2011/,2026-06-12T10:17:21Z,15,95960
+nissan-gt-r,2012,GT-R Black Edition,435000,455000,445000,"AED 435,000 - 455,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2012/,2026-06-12T10:17:23Z,14,63333
+nissan-gt-r,2012,GT-R Track Pack,504000,520000,512000,"AED 504,000 - 520,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2012/,2026-06-12T10:17:23Z,14,72868
+nissan-gt-r,2012,GT-R VVIP,750000,800000,775000,"AED 750,000 - 800,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2012/,2026-06-12T10:17:23Z,14,110299
+nissan-gt-r,2013,GT-R Black Edition,435000,455000,445000,"AED 435,000 - 455,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2013/,2026-06-12T10:17:25Z,13,72796
+nissan-gt-r,2013,GT-R Track Pack,504000,520000,512000,"AED 504,000 - 520,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2013/,2026-06-12T10:17:25Z,13,83757
+nissan-gt-r,2013,GT-R VVIP,750000,800000,775000,"AED 750,000 - 800,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2013/,2026-06-12T10:17:25Z,13,126780
+nissan-gt-r,2014,GT-R Black Edition,435000,455000,445000,"AED 435,000 - 455,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2014/,2026-06-12T10:17:27Z,12,83674
+nissan-gt-r,2014,GT-R Track Pack,504000,520000,512000,"AED 504,000 - 520,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2014/,2026-06-12T10:17:27Z,12,96272
+nissan-gt-r,2014,GT-R VVIP,750000,800000,775000,"AED 750,000 - 800,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2014/,2026-06-12T10:17:27Z,12,145725
+nissan-gt-r,2015,GT-R Black Edition,435000,455000,445000,"AED 435,000 - 455,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2015/,2026-06-12T10:17:29Z,11,96177
+nissan-gt-r,2015,GT-R Track Pack,504000,520000,512000,"AED 504,000 - 520,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2015/,2026-06-12T10:17:29Z,11,110658
+nissan-gt-r,2015,GT-R VVIP,750000,800000,775000,"AED 750,000 - 800,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2015/,2026-06-12T10:17:29Z,11,167499
+nissan-gt-r,2016,GT-R Black Edition,450000,465000,457500,"AED 450,000 - 465,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2016/,2026-06-12T10:17:31Z,10,113654
+nissan-gt-r,2016,GT-R Track Pack,504000,520000,512000,"AED 504,000 - 520,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2016/,2026-06-12T10:17:31Z,10,127193
+nissan-gt-r,2016,GT-R VVIP,750000,800000,775000,"AED 750,000 - 800,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2016/,2026-06-12T10:17:31Z,10,192528
+nissan-gt-r,2017,GT-R Premium,485000,490000,487500,"AED 485,000 - 490,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2017/,2026-06-12T10:17:33Z,9,139203
+nissan-gt-r,2017,Black,495000,500000,497500,"AED 495,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2017/,2026-06-12T10:17:33Z,9,142058
+nissan-gt-r,2018,GT-R Premium,485000,490000,487500,"AED 485,000 - 490,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2018/,2026-06-12T10:17:34Z,8,160003
+nissan-gt-r,2018,Black,495000,500000,497500,"AED 495,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2018/,2026-06-12T10:17:34Z,8,163285
+nissan-gt-r,2019,GT-R Premium,485000,490000,487500,"AED 485,000 - 490,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2019/,2026-06-12T10:17:36Z,7,183912
+nissan-gt-r,2019,Black,495000,500000,497500,"AED 495,000 - 500,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2019/,2026-06-12T10:17:36Z,7,187684
+nissan-gt-r,2020,GT-R Premium,498685,499000,498842,"AED 498,685 - 499,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2020/,2026-06-12T10:17:38Z,6,216311
+nissan-gt-r,2020,GT-R 50th Anniversary,509145,510000,509572,"AED 509,145 - 510,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2020/,2026-06-12T10:17:38Z,6,220964
+nissan-gt-r,2020,GT-R Black Edition,553101,555000,554050,"AED 553,101 - 555,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2020/,2026-06-12T10:17:38Z,6,240251
+nissan-gt-r,2020,GT-R 50th Anniversary Track,592450,593000,592725,"AED 592,450 - 593,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2020/,2026-06-12T10:17:38Z,6,257021
+nissan-gt-r,2020,GT-R 50th Anniversary Nismo,787809,788000,787904,"AED 787,809 - 788,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2020/,2026-06-12T10:17:38Z,6,341656
+nissan-gt-r,2021,GT-R Premium,498685,499000,498842,"AED 498,685 - 499,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2021/,2026-06-12T10:17:40Z,5,248633
+nissan-gt-r,2021,GT-R 50th Anniversary,509145,510000,509572,"AED 509,145 - 510,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2021/,2026-06-12T10:17:40Z,5,253981
+nissan-gt-r,2021,GT-R Black Edition,553101,555000,554050,"AED 553,101 - 555,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2021/,2026-06-12T10:17:40Z,5,276150
+nissan-gt-r,2021,GT-R 50th Anniversary Track,592450,593000,592725,"AED 592,450 - 593,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2021/,2026-06-12T10:17:40Z,5,295427
+nissan-gt-r,2021,GT-R 50th Anniversary Nismo,787809,788000,787904,"AED 787,809 - 788,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2021/,2026-06-12T10:17:40Z,5,392708
+nissan-gt-r,2022,GT-R Premium,498685,499000,498842,"AED 498,685 - 499,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2022/,2026-06-12T10:17:42Z,4,285785
+nissan-gt-r,2022,GT-R 50th Anniversary,509145,510000,509572,"AED 509,145 - 510,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2022/,2026-06-12T10:17:42Z,4,291933
+nissan-gt-r,2022,GT-R Black Edition,553101,555000,554050,"AED 553,101 - 555,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2022/,2026-06-12T10:17:42Z,4,317414
+nissan-gt-r,2022,GT-R 50th Anniversary Track,592450,593000,592725,"AED 592,450 - 593,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2022/,2026-06-12T10:17:42Z,4,339571
+nissan-gt-r,2022,GT-R 50th Anniversary Nismo,787809,788000,787904,"AED 787,809 - 788,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2022/,2026-06-12T10:17:42Z,4,451388
+nissan-gt-r,2023,GT-R Premium,498685,499000,498842,"AED 498,685 - 499,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2023/,2026-06-12T10:17:44Z,3,328489
+nissan-gt-r,2023,GT-R 50th Anniversary,509145,510000,509572,"AED 509,145 - 510,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2023/,2026-06-12T10:17:44Z,3,335555
+nissan-gt-r,2023,GT-R Black Edition,553101,555000,554050,"AED 553,101 - 555,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2023/,2026-06-12T10:17:44Z,3,364844
+nissan-gt-r,2023,GT-R 50th Anniversary Track,592450,593000,592725,"AED 592,450 - 593,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2023/,2026-06-12T10:17:44Z,3,390311
+nissan-gt-r,2023,GT-R 50th Anniversary Nismo,787809,788000,787904,"AED 787,809 - 788,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2023/,2026-06-12T10:17:44Z,3,518837
+nissan-gt-r,2024,GT-R Premium,498685,499000,498842,"AED 498,685 - 499,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2024/,2026-06-12T10:17:46Z,2,377574
+nissan-gt-r,2024,GT-R 50th Anniversary,509145,510000,509572,"AED 509,145 - 510,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2024/,2026-06-12T10:17:46Z,2,385695
+nissan-gt-r,2024,GT-R Black Edition,553101,555000,554050,"AED 553,101 - 555,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2024/,2026-06-12T10:17:46Z,2,419360
+nissan-gt-r,2024,GT-R 50th Anniversary Track,592450,593000,592725,"AED 592,450 - 593,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2024/,2026-06-12T10:17:46Z,2,448634
+nissan-gt-r,2024,GT-R 50th Anniversary Nismo,787809,788000,787904,"AED 787,809 - 788,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-gt-r/2024/,2026-06-12T10:17:46Z,2,596365
+nissan-juke,2015,1.6 Turbo,73000,82000,77500,"AED 73,000 - 82,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-juke/2015/,2026-06-12T10:18:15Z,11,14750
+nissan-kicks,2018,1.6 S,61950,62000,61975,"AED 61,950 - 62,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2018/,2026-06-12T10:18:56Z,8,18544
+nissan-kicks,2018,1.6 SV,70350,71000,70675,"AED 70,350 - 71,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2018/,2026-06-12T10:18:56Z,8,21147
+nissan-kicks,2018,1.6 SL,79275,80000,79638,"AED 79,275 - 80,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2018/,2026-06-12T10:18:56Z,8,23829
+nissan-kicks,2019,1.6 S,61950,62000,61975,"AED 61,950 - 62,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2019/,2026-06-12T10:18:58Z,7,21563
+nissan-kicks,2019,1.6 SV,70350,71000,70675,"AED 70,350 - 71,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2019/,2026-06-12T10:18:58Z,7,24590
+nissan-kicks,2019,1.6 SL,79275,80000,79638,"AED 79,275 - 80,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2019/,2026-06-12T10:18:58Z,7,27708
+nissan-kicks,2020,1.6 S,63500,64000,63750,"AED 63,500 - 64,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2020/,2026-06-12T10:19:00Z,6,25791
+nissan-kicks,2020,1.6 SV,73900,75400,74650,"AED 73,900 - 75,400",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2020/,2026-06-12T10:19:00Z,6,30201
+nissan-kicks,2020,1.6 SL,83000,84500,83750,"AED 83,000 - 84,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2020/,2026-06-12T10:19:00Z,6,33883
+nissan-kicks,2021,1.6 S,61900,62000,61950,"AED 61,900 - 62,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2021/,2026-06-12T10:19:02Z,5,29143
+nissan-kicks,2021,1.6 SV,69900,70000,69950,"AED 69,900 - 70,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2021/,2026-06-12T10:19:02Z,5,32906
+nissan-kicks,2021,1.6 SL,79500,80000,79750,"AED 79,500 - 80,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2021/,2026-06-12T10:19:02Z,5,37517
+nissan-kicks,2023,1.6 I4 S FWD,71000,72000,71500,"AED 71,000 - 72,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2023/,2026-06-12T10:19:05Z,3,45478
+nissan-kicks,2023,1.6 I4 SV FWD,76000,77000,76500,"AED 76,000 - 77,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2023/,2026-06-12T10:19:05Z,3,48658
+nissan-kicks,2023,1.6 I4 SL FWD,87000,90000,88500,"AED 87,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2023/,2026-06-12T10:19:05Z,3,56291
+nissan-kicks,2024,1.6 I4 S FWD,71000,72000,71500,"AED 71,000 - 72,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2024/,2026-06-12T10:19:07Z,2,52881
+nissan-kicks,2024,1.6 I4 SV FWD,76000,77000,76500,"AED 76,000 - 77,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2024/,2026-06-12T10:19:07Z,2,56579
+nissan-kicks,2024,1.6 I4 SL FWD,87000,90000,88500,"AED 87,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2024/,2026-06-12T10:19:07Z,2,65455
+nissan-kicks,2025,2.0 I4 S FWD,84900,85900,85400,"AED 84,900 - 85,900",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2025/,2026-06-12T10:19:09Z,1,73444
+nissan-kicks,2025,2.0 I4 SV FWD,91900,92900,92400,"AED 91,900 - 92,900",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2025/,2026-06-12T10:19:09Z,1,79464
+nissan-kicks,2025,2.0 I4 SV+ FWD,99900,100900,100400,"AED 99,900 - 100,900",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2025/,2026-06-12T10:19:09Z,1,86344
+nissan-kicks,2025,2.0 I4 SL FWD,114900,115900,115400,"AED 114,900 - 115,900",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2025/,2026-06-12T10:19:09Z,1,99244
+nissan-kicks,2026,2.0 I4 S FWD,79900,80900,80400,"AED 79,900 - 80,900",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2026/,2026-06-12T10:19:12Z,0,80400
+nissan-kicks,2026,2.0 I4 SV FWD,91900,92900,92400,"AED 91,900 - 92,900",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2026/,2026-06-12T10:19:12Z,0,92400
+nissan-kicks,2026,2.0 I4 SV+ FWD,99900,100900,100400,"AED 99,900 - 100,900",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2026/,2026-06-12T10:19:12Z,0,100400
+nissan-kicks,2026,2.0 I4 SL FWD,114900,115900,115400,"AED 114,900 - 115,900",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-kicks/2026/,2026-06-12T10:19:12Z,0,115400
+nissan-magnite,2025,1.0TC I3 S FWD,59900,60000,59950,"AED 59,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-magnite/2025/,2026-06-12T10:19:48Z,1,51557
+nissan-magnite,2025,1.0TC I3 SV FWD,63900,64000,63950,"AED 63,900 - 64,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-magnite/2025/,2026-06-12T10:19:48Z,1,54997
+nissan-magnite,2025,1.0TC I3 SL FWD,71900,72000,71950,"AED 71,900 - 72,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-magnite/2025/,2026-06-12T10:19:48Z,1,61877
+nissan-magnite,2026,1.0TC I3 S FWD,59900,60000,59950,"AED 59,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-magnite/2026/,2026-06-12T10:19:50Z,0,59950
+nissan-magnite,2026,1.0TC I3 SV FWD,63900,64000,63950,"AED 63,900 - 64,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-magnite/2026/,2026-06-12T10:19:50Z,0,63950
+nissan-magnite,2026,1.0TC I3 SL FWD,71900,72000,71950,"AED 71,900 - 72,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-magnite/2026/,2026-06-12T10:19:50Z,0,71950
+nissan-maxima,2018,S,119000,120000,119500,"AED 119,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2018/,2026-06-12T10:20:34Z,8,32563
+nissan-maxima,2018,SV,135500,136000,135750,"AED 135,500 - 136,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2018/,2026-06-12T10:20:34Z,8,36991
+nissan-maxima,2018,SL,155300,156000,155650,"AED 155,300 - 156,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2018/,2026-06-12T10:20:34Z,8,42413
+nissan-maxima,2018,Midnight Edition,159500,160000,159750,"AED 159,500 - 160,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2018/,2026-06-12T10:20:34Z,8,43530
+nissan-maxima,2019,S,119000,120000,119500,"AED 119,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2019/,2026-06-12T10:20:36Z,7,38309
+nissan-maxima,2019,SV,135500,136000,135750,"AED 135,500 - 136,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2019/,2026-06-12T10:20:36Z,7,43518
+nissan-maxima,2019,SL,155300,156000,155650,"AED 155,300 - 156,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2019/,2026-06-12T10:20:36Z,7,49898
+nissan-maxima,2019,Midnight Edition,159500,160000,159750,"AED 159,500 - 160,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2019/,2026-06-12T10:20:36Z,7,51212
+nissan-maxima,2020,S,119000,120000,119500,"AED 119,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2020/,2026-06-12T10:20:38Z,6,45069
+nissan-maxima,2020,SV,141500,142000,141750,"AED 141,500 - 142,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2020/,2026-06-12T10:20:38Z,6,53461
+nissan-maxima,2020,SR,160500,163000,161750,"AED 160,500 - 163,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2020/,2026-06-12T10:20:38Z,6,61004
+nissan-maxima,2021,S,119000,120000,119500,"AED 119,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2021/,2026-06-12T10:20:40Z,5,53023
+nissan-maxima,2021,SV,141500,142000,141750,"AED 141,500 - 142,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2021/,2026-06-12T10:20:40Z,5,62895
+nissan-maxima,2021,SR,160500,163000,161750,"AED 160,500 - 163,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2021/,2026-06-12T10:20:40Z,5,71769
+nissan-maxima,2022,S,119000,120000,119500,"AED 119,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2022/,2026-06-12T10:20:42Z,4,62380
+nissan-maxima,2022,SV,141500,142000,141750,"AED 141,500 - 142,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2022/,2026-06-12T10:20:42Z,4,73994
+nissan-maxima,2022,SR,160500,163000,161750,"AED 160,500 - 163,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2022/,2026-06-12T10:20:42Z,4,84435
+nissan-maxima,2023,3.5L V6 S FWD,129500,130000,129750,"AED 129,500 - 130,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2023/,2026-06-12T10:20:44Z,3,79683
+nissan-maxima,2023,3.5L V6 SV FWD,145500,146000,145750,"AED 145,500 - 146,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2023/,2026-06-12T10:20:44Z,3,89509
+nissan-maxima,2023,3.5L V6 SR FWD,163500,166000,164750,"AED 163,500 - 166,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-maxima/2023/,2026-06-12T10:20:44Z,3,101177
+nissan-navara,2011,4x4 Double Cab,74000,75500,74750,"AED 74,000 - 75,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2011/,2026-06-12T10:22:40Z,15,13016
+nissan-navara,2011,4x2 Double Cab,76000,77500,76750,"AED 76,000 - 77,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2011/,2026-06-12T10:22:40Z,15,13364
+nissan-navara,2012,4x4 Double Cab,74000,75500,74750,"AED 74,000 - 75,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2012/,2026-06-12T10:22:42Z,14,14624
+nissan-navara,2012,4x2 Double Cab,76000,77500,76750,"AED 76,000 - 77,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2012/,2026-06-12T10:22:42Z,14,15015
+nissan-navara,2013,4x4 Double Cab,74000,75500,74750,"AED 74,000 - 75,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2013/,2026-06-12T10:22:44Z,13,16432
+nissan-navara,2013,4x2 Double Cab,76000,77500,76750,"AED 76,000 - 77,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2013/,2026-06-12T10:22:44Z,13,16871
+nissan-navara,2014,4x4 Double Cab,74000,75500,74750,"AED 74,000 - 75,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2014/,2026-06-12T10:22:46Z,12,18463
+nissan-navara,2014,4x2 Double Cab,76000,77500,76750,"AED 76,000 - 77,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2014/,2026-06-12T10:22:46Z,12,18957
+nissan-navara,2015,4x4 Double Cab,74000,75500,74750,"AED 74,000 - 75,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2015/,2026-06-12T10:22:48Z,11,20744
+nissan-navara,2015,4x2 Double Cab,76000,77500,76750,"AED 76,000 - 77,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2015/,2026-06-12T10:22:48Z,11,21299
+nissan-navara,2016,4x4 Double Cab,74000,75500,74750,"AED 74,000 - 75,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2016/,2026-06-12T10:22:50Z,10,23308
+nissan-navara,2016,4x2 Double Cab,76000,77500,76750,"AED 76,000 - 77,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2016/,2026-06-12T10:22:50Z,10,23932
+nissan-navara,2020,2WD,76125,80000,78062,"AED 76,125 - 80,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2020/,2026-06-12T10:22:58Z,6,38795
+nissan-navara,2020,4WD,85000,92000,88500,"AED 85,000 - 92,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2020/,2026-06-12T10:22:58Z,6,43983
+nissan-navara,2021,2WD,76125,80000,78062,"AED 76,125 - 80,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2021/,2026-06-12T10:23:00Z,5,43590
+nissan-navara,2021,4WD,85000,92000,88500,"AED 85,000 - 92,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2021/,2026-06-12T10:23:00Z,5,49419
+nissan-navara,2022,2WD,76125,80000,78062,"AED 76,125 - 80,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2022/,2026-06-12T10:23:02Z,4,48978
+nissan-navara,2022,4WD,85000,92000,88500,"AED 85,000 - 92,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-navara/2022/,2026-06-12T10:23:02Z,4,55527
+nissan-pathfinder,2013,S 2WD,115000,117000,116000,"AED 115,000 - 117,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2013/,2026-06-12T10:23:39Z,13,14025
+nissan-pathfinder,2013,S AWD,125000,127000,126000,"AED 125,000 - 127,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2013/,2026-06-12T10:23:39Z,13,15234
+nissan-pathfinder,2013,SV AWD,148000,150000,149000,"AED 148,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2013/,2026-06-12T10:23:39Z,13,18015
+nissan-pathfinder,2013,SL AWD,169000,174000,171500,"AED 169,000 - 174,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2013/,2026-06-12T10:23:39Z,13,20735
+nissan-pathfinder,2014,S 2WD,115000,117000,116000,"AED 115,000 - 117,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2014/,2026-06-12T10:23:41Z,12,16500
+nissan-pathfinder,2014,S AWD,125000,127000,126000,"AED 125,000 - 127,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2014/,2026-06-12T10:23:41Z,12,17922
+nissan-pathfinder,2014,SV AWD,148000,150000,149000,"AED 148,000 - 150,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2014/,2026-06-12T10:23:41Z,12,21194
+nissan-pathfinder,2014,SL AWD,169000,174000,171500,"AED 169,000 - 174,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2014/,2026-06-12T10:23:41Z,12,24394
+nissan-pathfinder,2015,S 2WD,106000,106500,106250,"AED 106,000 - 106,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2015/,2026-06-12T10:23:43Z,11,17780
+nissan-pathfinder,2015,S AWD,114500,115000,114750,"AED 114,500 - 115,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2015/,2026-06-12T10:23:43Z,11,19203
+nissan-pathfinder,2015,SV AWD,137300,137500,137400,"AED 137,300 - 137,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2015/,2026-06-12T10:23:43Z,11,22993
+nissan-pathfinder,2015,SV AWD Hybrid,139800,140000,139900,"AED 139,800 - 140,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2015/,2026-06-12T10:23:43Z,11,23411
+nissan-pathfinder,2015,SL AWD,158800,159000,158900,"AED 158,800 - 159,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2015/,2026-06-12T10:23:43Z,11,26591
+nissan-pathfinder,2016,S 2WD,106000,106500,106250,"AED 106,000 - 106,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2016/,2026-06-12T10:23:46Z,10,20918
+nissan-pathfinder,2016,S AWD,114500,115000,114750,"AED 114,500 - 115,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2016/,2026-06-12T10:23:46Z,10,22591
+nissan-pathfinder,2016,SV AWD,137300,137500,137400,"AED 137,300 - 137,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2016/,2026-06-12T10:23:46Z,10,27051
+nissan-pathfinder,2016,SV AWD Hybrid,139800,140000,139900,"AED 139,800 - 140,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2016/,2026-06-12T10:23:46Z,10,27543
+nissan-pathfinder,2016,SL AWD,158800,159000,158900,"AED 158,800 - 159,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2016/,2026-06-12T10:23:46Z,10,31283
+nissan-pathfinder,2017,S 2WD,106000,106500,106250,"AED 106,000 - 106,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2017/,2026-06-12T10:23:48Z,9,24609
+nissan-pathfinder,2017,S AWD,114500,115000,114750,"AED 114,500 - 115,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2017/,2026-06-12T10:23:48Z,9,26578
+nissan-pathfinder,2017,SV AWD,137300,137500,137400,"AED 137,300 - 137,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2017/,2026-06-12T10:23:48Z,9,31824
+nissan-pathfinder,2017,SV AWD Hybrid,139800,140000,139900,"AED 139,800 - 140,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2017/,2026-06-12T10:23:48Z,9,32403
+nissan-pathfinder,2017,SL AWD,158800,159000,158900,"AED 158,800 - 159,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2017/,2026-06-12T10:23:48Z,9,36804
+nissan-pathfinder,2018,S 2WD,124950,125000,124975,"AED 124,950 - 125,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2018/,2026-06-12T10:23:49Z,8,34055
+nissan-pathfinder,2018,S 4WD,130725,131000,130862,"AED 130,725 - 131,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2018/,2026-06-12T10:23:49Z,8,35659
+nissan-pathfinder,2018,SV 4WD,156450,157000,156725,"AED 156,450 - 157,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2018/,2026-06-12T10:23:49Z,8,42706
+nissan-pathfinder,2018,SV 4WD Hybrid,166500,167000,166750,"AED 166,500 - 167,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2018/,2026-06-12T10:23:49Z,8,45438
+nissan-pathfinder,2018,SL 4WD,179550,180000,179775,"AED 179,550 - 180,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2018/,2026-06-12T10:23:49Z,8,48987
+nissan-pathfinder,2019,S 2WD,119000,120000,119500,"AED 119,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2019/,2026-06-12T10:23:51Z,7,38309
+nissan-pathfinder,2019,S 4WD,126000,127000,126500,"AED 126,000 - 127,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2019/,2026-06-12T10:23:51Z,7,40553
+nissan-pathfinder,2019,SV 4WD Hybrid,155000,156000,155500,"AED 155,000 - 156,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2019/,2026-06-12T10:23:51Z,7,49850
+nissan-pathfinder,2019,SV 4WD,155000,156000,155500,"AED 155,000 - 156,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2019/,2026-06-12T10:23:51Z,7,49850
+nissan-pathfinder,2019,SV Midnight Edition,160000,165000,162500,"AED 160,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2019/,2026-06-12T10:23:51Z,7,52094
+nissan-pathfinder,2019,SL 4WD,169000,170000,169500,"AED 169,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2019/,2026-06-12T10:23:51Z,7,54338
+nissan-pathfinder,2020,S 2WD,119000,120000,119500,"AED 119,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2020/,2026-06-12T10:23:53Z,6,45069
+nissan-pathfinder,2020,S 4WD,134500,135000,134750,"AED 134,500 - 135,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2020/,2026-06-12T10:23:53Z,6,50821
+nissan-pathfinder,2020,SV 4WD Hybrid,155000,156000,155500,"AED 155,000 - 156,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2020/,2026-06-12T10:23:53Z,6,58647
+nissan-pathfinder,2020,SV 4WD,159500,160000,159750,"AED 159,500 - 160,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2020/,2026-06-12T10:23:53Z,6,60250
+nissan-pathfinder,2020,SL 4WD,175900,176000,175950,"AED 175,900 - 176,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2020/,2026-06-12T10:23:53Z,6,66359
+nissan-pathfinder,2021,S 2WD,119000,120000,119500,"AED 119,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2021/,2026-06-12T10:23:55Z,5,53023
+nissan-pathfinder,2021,S 4WD,134500,135000,134750,"AED 134,500 - 135,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2021/,2026-06-12T10:23:55Z,5,59789
+nissan-pathfinder,2021,SV 4WD Hybrid,155000,156000,155500,"AED 155,000 - 156,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2021/,2026-06-12T10:23:55Z,5,68996
+nissan-pathfinder,2021,SV 4WD,159500,160000,159750,"AED 159,500 - 160,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2021/,2026-06-12T10:23:55Z,5,70882
+nissan-pathfinder,2021,SL 4WD,175900,176000,175950,"AED 175,900 - 176,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2021/,2026-06-12T10:23:55Z,5,78070
+nissan-pathfinder,2022,3.5L V6 S 2WD,158000,160000,159000,"AED 158,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2022/,2026-06-12T10:23:57Z,4,82999
+nissan-pathfinder,2022,3.5L V6 S 4WD,170500,171000,170750,"AED 170,500 - 171,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2022/,2026-06-12T10:23:57Z,4,89133
+nissan-pathfinder,2022,3.5L V6 SV 2WD,187500,188000,187750,"AED 187,500 - 188,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2022/,2026-06-12T10:23:57Z,4,98007
+nissan-pathfinder,2022,3.5L V6 SV 4WD,200000,201000,200500,"AED 200,000 - 201,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2022/,2026-06-12T10:23:57Z,4,104662
+nissan-pathfinder,2022,3.5L V6 SL 4WD,212500,214000,213250,"AED 212,500 - 214,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2022/,2026-06-12T10:23:57Z,4,111318
+nissan-pathfinder,2023,3.5L V6 S 2WD,158000,160000,159000,"AED 158,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2023/,2026-06-12T10:23:59Z,3,97646
+nissan-pathfinder,2023,3.5L V6 S 4WD,170500,171000,170750,"AED 170,500 - 171,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2023/,2026-06-12T10:23:59Z,3,104862
+nissan-pathfinder,2023,3.5L V6 SV 2WD,187500,188000,187750,"AED 187,500 - 188,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2023/,2026-06-12T10:23:59Z,3,115302
+nissan-pathfinder,2023,3.5L V6 SV 4WD,200000,201000,200500,"AED 200,000 - 201,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2023/,2026-06-12T10:23:59Z,3,123132
+nissan-pathfinder,2023,3.5L V6 SL 4WD,212500,214000,213250,"AED 212,500 - 214,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2023/,2026-06-12T10:23:59Z,3,130962
+nissan-pathfinder,2024,3.5L V6 S 2WD,158000,160000,159000,"AED 158,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2024/,2026-06-12T10:24:01Z,2,114877
+nissan-pathfinder,2024,3.5L V6 S 4WD,170500,171000,170750,"AED 170,500 - 171,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2024/,2026-06-12T10:24:01Z,2,123367
+nissan-pathfinder,2024,3.5L V6 SV 2WD,187500,188000,187750,"AED 187,500 - 188,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2024/,2026-06-12T10:24:01Z,2,135649
+nissan-pathfinder,2024,3.5L V6 SV 4WD,200000,201000,200500,"AED 200,000 - 201,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2024/,2026-06-12T10:24:01Z,2,144861
+nissan-pathfinder,2024,3.5L V6 SL 4WD,212500,214000,213250,"AED 212,500 - 214,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2024/,2026-06-12T10:24:01Z,2,154073
+nissan-pathfinder,2025,3.5L V6 S 2WD,158000,160000,159000,"AED 158,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2025/,2026-06-12T10:24:02Z,1,135150
+nissan-pathfinder,2025,3.5L V6 S 4WD,170500,171000,170750,"AED 170,500 - 171,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2025/,2026-06-12T10:24:02Z,1,145138
+nissan-pathfinder,2025,3.5L V6 SV 2WD,188000,189000,188500,"AED 188,000 - 189,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2025/,2026-06-12T10:24:02Z,1,160225
+nissan-pathfinder,2025,3.5L V6 SV 4WD,200500,201000,200750,"AED 200,500 - 201,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2025/,2026-06-12T10:24:02Z,1,170638
+nissan-pathfinder,2025,3.5L V6 SL 4WD,213000,214000,213500,"AED 213,000 - 214,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2025/,2026-06-12T10:24:02Z,1,181475
+nissan-pathfinder,2026,3.5L V6 S 2WD,158000,160000,159000,"AED 158,000 - 160,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2026/,2026-06-12T10:24:04Z,0,159000
+nissan-pathfinder,2026,3.5L V6 S 4WD,170500,171000,170750,"AED 170,500 - 171,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2026/,2026-06-12T10:24:04Z,0,170750
+nissan-pathfinder,2026,3.5L V6 SV 2WD,188000,189000,188500,"AED 188,000 - 189,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2026/,2026-06-12T10:24:04Z,0,188500
+nissan-pathfinder,2026,3.5L V6 SV 4WD,200500,201000,200750,"AED 200,500 - 201,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2026/,2026-06-12T10:24:04Z,0,200750
+nissan-pathfinder,2026,3.5L V6 SL 4WD,213000,214000,213500,"AED 213,000 - 214,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pathfinder/2026/,2026-06-12T10:24:04Z,0,213500
+nissan-patrol,2010,SE T1,185000,187000,186000,"AED 185,000 - 187,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2010/,2026-06-12T10:25:11Z,16,20036
+nissan-patrol,2010,SE T2,200000,201000,200500,"AED 200,000 - 201,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2010/,2026-06-12T10:25:11Z,16,21598
+nissan-patrol,2010,LE T1,218000,220000,219000,"AED 218,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2010/,2026-06-12T10:25:11Z,16,23591
+nissan-patrol,2010,SE Platinum,220000,221000,220500,"AED 220,000 - 221,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2010/,2026-06-12T10:25:11Z,16,23753
+nissan-patrol,2010,LE T2,235000,236000,235500,"AED 235,000 - 236,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2010/,2026-06-12T10:25:11Z,16,25369
+nissan-patrol,2010,LE Platinum,285000,286000,285500,"AED 285,000 - 286,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2010/,2026-06-12T10:25:11Z,16,30755
+nissan-patrol,2011,SE T1,185000,187000,186000,"AED 185,000 - 187,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2011/,2026-06-12T10:25:13Z,15,23030
+nissan-patrol,2011,SE T2,200000,201000,200500,"AED 200,000 - 201,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2011/,2026-06-12T10:25:13Z,15,24826
+nissan-patrol,2011,LE T1,218000,220000,219000,"AED 218,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2011/,2026-06-12T10:25:13Z,15,27116
+nissan-patrol,2011,SE Platinum,220000,221000,220500,"AED 220,000 - 221,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2011/,2026-06-12T10:25:13Z,15,27302
+nissan-patrol,2011,LE T2,235000,236000,235500,"AED 235,000 - 236,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2011/,2026-06-12T10:25:13Z,15,29159
+nissan-patrol,2011,LE Platinum,285000,286000,285500,"AED 285,000 - 286,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2011/,2026-06-12T10:25:13Z,15,35350
+nissan-patrol,2012,SE T1,199500,200000,199750,"AED 199,500 - 200,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2012/,2026-06-12T10:25:15Z,14,28429
+nissan-patrol,2012,SE T2,220000,221000,220500,"AED 220,000 - 221,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2012/,2026-06-12T10:25:15Z,14,31382
+nissan-patrol,2012,LE T1,237000,238000,237500,"AED 237,000 - 238,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2012/,2026-06-12T10:25:15Z,14,33801
+nissan-patrol,2012,SE Platinum,264000,265000,264500,"AED 264,000 - 265,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2012/,2026-06-12T10:25:15Z,14,37644
+nissan-patrol,2012,LE T2,270000,275000,272500,"AED 270,000 - 275,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2012/,2026-06-12T10:25:15Z,14,38783
+nissan-patrol,2012,LE Platinum,329000,330000,329500,"AED 329,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2012/,2026-06-12T10:25:15Z,14,46895
+nissan-patrol,2013,SE,199500,264000,231750,"AED 199,500 - 264,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2013/,2026-06-12T10:25:17Z,13,37911
+nissan-patrol,2013,LE,237000,330000,283500,"AED 237,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2013/,2026-06-12T10:25:17Z,13,46377
+nissan-patrol,2014,XE,183800,185000,184400,"AED 183,800 - 185,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2014/,2026-06-12T10:25:19Z,12,34673
+nissan-patrol,2014,SE T1,215800,266800,241300,"AED 215,800 - 266,800",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2014/,2026-06-12T10:25:19Z,12,45372
+nissan-patrol,2014,SE T2,230000,231000,230500,"AED 230,000 - 231,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2014/,2026-06-12T10:25:19Z,12,43341
+nissan-patrol,2014,LE T1,244800,245000,244900,"AED 244,800 - 245,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2014/,2026-06-12T10:25:19Z,12,46049
+nissan-patrol,2014,LE T2,260000,265000,262500,"AED 260,000 - 265,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2014/,2026-06-12T10:25:19Z,12,49358
+nissan-patrol,2014,SE Platinum,266000,267000,266500,"AED 266,000 - 267,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2014/,2026-06-12T10:25:19Z,12,50110
+nissan-patrol,2014,LE Platinum,329000,330000,329500,"AED 329,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2014/,2026-06-12T10:25:19Z,12,61956
+nissan-patrol,2014,VVIP Edition,350000,355000,352500,"AED 350,000 - 355,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2014/,2026-06-12T10:25:19Z,12,66281
+nissan-patrol,2015,XE,183800,185000,184400,"AED 183,800 - 185,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2015/,2026-06-12T10:25:20Z,11,39854
+nissan-patrol,2015,SE,215800,266800,241300,"AED 215,800 - 266,800",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2015/,2026-06-12T10:25:20Z,11,52152
+nissan-patrol,2015,LE,244800,329800,287300,"AED 244,800 - 329,800",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2015/,2026-06-12T10:25:20Z,11,62094
+nissan-patrol,2015,VVIP Edition,350000,355000,352500,"AED 350,000 - 355,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2015/,2026-06-12T10:25:20Z,11,76185
+nissan-patrol,2016,XE,179000,180000,179500,"AED 179,000 - 180,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2016/,2026-06-12T10:25:22Z,10,44592
+nissan-patrol,2016,SE,210000,220000,215000,"AED 210,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2016/,2026-06-12T10:25:22Z,10,53411
+nissan-patrol,2016,LE,225000,262000,243500,"AED 225,000 - 262,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2016/,2026-06-12T10:25:22Z,10,60491
+nissan-patrol,2016,LE Titanium,238000,238500,238250,"AED 238,000 - 238,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2016/,2026-06-12T10:25:22Z,10,59187
+nissan-patrol,2016,SE Platinum City,251000,251500,251250,"AED 251,000 - 251,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2016/,2026-06-12T10:25:22Z,10,62416
+nissan-patrol,2016,Desert Edition,255000,260000,257500,"AED 255,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2016/,2026-06-12T10:25:22Z,10,63969
+nissan-patrol,2016,LE Platinum City,315000,315500,315250,"AED 315,000 - 315,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2016/,2026-06-12T10:25:22Z,10,78315
+nissan-patrol,2017,XE,179000,180000,179500,"AED 179,000 - 180,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2017/,2026-06-12T10:25:24Z,9,51255
+nissan-patrol,2017,SE,210000,220000,215000,"AED 210,000 - 220,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2017/,2026-06-12T10:25:24Z,9,61392
+nissan-patrol,2017,LE,225000,262000,243500,"AED 225,000 - 262,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2017/,2026-06-12T10:25:24Z,9,69530
+nissan-patrol,2017,LE Titanium,238000,238500,238250,"AED 238,000 - 238,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2017/,2026-06-12T10:25:24Z,9,68031
+nissan-patrol,2017,SE Platinum City,251000,251500,251250,"AED 251,000 - 251,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2017/,2026-06-12T10:25:24Z,9,71743
+nissan-patrol,2017,Desert Edition,255000,260000,257500,"AED 255,000 - 260,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2017/,2026-06-12T10:25:24Z,9,73528
+nissan-patrol,2017,LE Platinum City,315000,315500,315250,"AED 315,000 - 315,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2017/,2026-06-12T10:25:24Z,9,90018
+nissan-patrol,2018,V6 XE,194250,195000,194625,"AED 194,250 - 195,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2018/,2026-06-12T10:25:26Z,8,63878
+nissan-patrol,2018,V6 SE,215250,226800,221025,"AED 215,250 - 226,800",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2018/,2026-06-12T10:25:26Z,8,72543
+nissan-patrol,2018,V6 SE Platinum,271950,272000,271975,"AED 271,950 - 272,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2018/,2026-06-12T10:25:26Z,8,89265
+nissan-patrol,2018,V8 LE Titanium,280350,281000,280675,"AED 280,350 - 281,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2018/,2026-06-12T10:25:26Z,8,92121
+nissan-patrol,2018,V8 LE Platinum,334950,335000,334975,"AED 334,950 - 335,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2018/,2026-06-12T10:25:26Z,8,109943
+nissan-patrol,2019,XE,195000,196000,195500,"AED 195,000 - 196,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2019/,2026-06-12T10:25:28Z,7,73753
+nissan-patrol,2019,SE T2,219500,220000,219750,"AED 219,500 - 220,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2019/,2026-06-12T10:25:28Z,7,82902
+nissan-patrol,2019,SE Platinum,265000,266000,265500,"AED 265,000 - 266,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2019/,2026-06-12T10:25:28Z,7,100161
+nissan-patrol,2019,LE T2,269000,270000,269500,"AED 269,000 - 270,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2019/,2026-06-12T10:25:28Z,7,101670
+nissan-patrol,2019,LE Titanium,289000,290000,289500,"AED 289,000 - 290,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2019/,2026-06-12T10:25:28Z,7,109215
+nissan-patrol,2019,LE Platinum,341000,342000,341500,"AED 341,000 - 342,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2019/,2026-06-12T10:25:28Z,7,128833
+nissan-patrol,2020,V6 XE,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2020/,2026-06-12T10:25:30Z,6,86704
+nissan-patrol,2020,V6 SE T2,222100,222500,222300,"AED 222,100 - 222,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2020/,2026-06-12T10:25:30Z,6,96395
+nissan-patrol,2020,V8 LE T1,234000,235000,234500,"AED 234,000 - 235,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2020/,2026-06-12T10:25:30Z,6,101685
+nissan-patrol,2020,V6 SE Titanium,240000,240500,240250,"AED 240,000 - 240,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2020/,2026-06-12T10:25:30Z,6,104179
+nissan-patrol,2020,V6 SE Platinum City,265200,266000,265600,"AED 265,200 - 266,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2020/,2026-06-12T10:25:30Z,6,115171
+nissan-patrol,2020,V8 LE T2,275000,276000,275500,"AED 275,000 - 276,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2020/,2026-06-12T10:25:30Z,6,119464
+nissan-patrol,2020,V8 LE Titanium,299000,300000,299500,"AED 299,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2020/,2026-06-12T10:25:30Z,6,129871
+nissan-patrol,2020,V8 LE Platinum City,329000,330000,329500,"AED 329,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2020/,2026-06-12T10:25:30Z,6,142880
+nissan-patrol,2021,2021 Patrol V6 XE,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2021/,2026-06-12T10:25:31Z,5,99659
+nissan-patrol,2021,V6 SE T2,222100,222500,222300,"AED 222,100 - 222,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2021/,2026-06-12T10:25:31Z,5,110799
+nissan-patrol,2021,2021 Patrol V8 LE T1,234000,235000,234500,"AED 234,000 - 235,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2021/,2026-06-12T10:25:31Z,5,116880
+nissan-patrol,2021,V6 SE Titanium,240000,240500,240250,"AED 240,000 - 240,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2021/,2026-06-12T10:25:31Z,5,119746
+nissan-patrol,2021,V6 SE Platinum City,265200,266000,265600,"AED 265,200 - 266,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2021/,2026-06-12T10:25:31Z,5,132381
+nissan-patrol,2021,V8 LE T2,275000,276000,275500,"AED 275,000 - 276,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2021/,2026-06-12T10:25:31Z,5,137315
+nissan-patrol,2021,V8 LE Titanium,299000,300000,299500,"AED 299,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2021/,2026-06-12T10:25:31Z,5,149277
+nissan-patrol,2021,V8 LE Platinum City,329000,330000,329500,"AED 329,000 - 330,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2021/,2026-06-12T10:25:31Z,5,164230
+nissan-patrol,2022,V6 XE,199900,200000,199950,"AED 199,900 - 200,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2022/,2026-06-12T10:25:34Z,4,114551
+nissan-patrol,2022,V6 SE T2,227500,227600,227550,"AED 227,500 - 227,600",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2022/,2026-06-12T10:25:34Z,4,130363
+nissan-patrol,2022,V8 LE T1,235000,236000,235500,"AED 235,000 - 236,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2022/,2026-06-12T10:25:34Z,4,134917
+nissan-patrol,2022,V6 SE Titanium,247500,247600,247550,"AED 247,500 - 247,600",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2022/,2026-06-12T10:25:34Z,4,141821
+nissan-patrol,2022,V8 LE T2,275000,276000,275500,"AED 275,000 - 276,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2022/,2026-06-12T10:25:34Z,4,157833
+nissan-patrol,2022,V6 SE Platinum City,275000,276000,275500,"AED 275,000 - 276,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2022/,2026-06-12T10:25:34Z,4,157833
+nissan-patrol,2022,V8 LE Titanium,303500,304000,303750,"AED 303,500 - 304,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2022/,2026-06-12T10:25:34Z,4,174018
+nissan-patrol,2022,V8 LE Platinum City,334500,335000,334750,"AED 334,500 - 335,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2022/,2026-06-12T10:25:34Z,4,191777
+nissan-patrol,2023,V6 XE,210000,211000,210500,"AED 210,000 - 211,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2023/,2026-06-12T10:25:35Z,3,138615
+nissan-patrol,2023,V6 SE T2,233500,233600,233550,"AED 233,500 - 233,600",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2023/,2026-06-12T10:25:35Z,3,153793
+nissan-patrol,2023,V8 LE T1,240500,241000,240750,"AED 240,500 - 241,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2023/,2026-06-12T10:25:35Z,3,158535
+nissan-patrol,2023,V6 SE Titanium,260500,261000,260750,"AED 260,500 - 261,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2023/,2026-06-12T10:25:35Z,3,171705
+nissan-patrol,2023,V6 SE Platinum City,286500,287000,286750,"AED 286,500 - 287,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2023/,2026-06-12T10:25:35Z,3,188826
+nissan-patrol,2023,V8 LE T2,290000,291000,290500,"AED 290,000 - 291,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2023/,2026-06-12T10:25:35Z,3,191295
+nissan-patrol,2023,V8 LE Titanium,318000,319000,318500,"AED 318,000 - 319,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2023/,2026-06-12T10:25:35Z,3,209733
+nissan-patrol,2023,V8 LE Platinum City,347000,348000,347500,"AED 347,000 - 348,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2023/,2026-06-12T10:25:35Z,3,228830
+nissan-patrol,2024,V6 XE,210000,211000,210500,"AED 210,000 - 211,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2024/,2026-06-12T10:25:37Z,2,159327
+nissan-patrol,2024,V6 SE T2,233500,233600,233550,"AED 233,500 - 233,600",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2024/,2026-06-12T10:25:37Z,2,176774
+nissan-patrol,2024,V8 LE T1,240500,241000,240750,"AED 240,500 - 241,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2024/,2026-06-12T10:25:37Z,2,182224
+nissan-patrol,2024,V6 SE Titanium,260500,261000,260750,"AED 260,500 - 261,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2024/,2026-06-12T10:25:37Z,2,197362
+nissan-patrol,2024,V6 SE Platinum City,286500,287000,286750,"AED 286,500 - 287,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2024/,2026-06-12T10:25:37Z,2,217041
+nissan-patrol,2024,V8 LE T2,290000,291000,290500,"AED 290,000 - 291,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2024/,2026-06-12T10:25:37Z,2,219879
+nissan-patrol,2024,V8 LE Titanium,318000,319000,318500,"AED 318,000 - 319,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2024/,2026-06-12T10:25:37Z,2,241073
+nissan-patrol,2024,V8 LE Platinum City,347000,348000,347500,"AED 347,000 - 348,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2024/,2026-06-12T10:25:37Z,2,263023
+nissan-patrol,2025,3.8 V6 XE 4WD,239900,240000,239950,"AED 239,900 - 240,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2025/,2026-06-12T10:25:39Z,1,208756
+nissan-patrol,2025,3.8 V6 SE T2 4WD,258900,260000,259450,"AED 258,900 - 260,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2025/,2026-06-12T10:25:39Z,1,225722
+nissan-patrol,2025,3.8 V6 SE Titanium 4WD,293900,294000,293950,"AED 293,900 - 294,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2025/,2026-06-12T10:25:39Z,1,255736
+nissan-patrol,2025,3.5TC V6 LE T1 4WD,297900,298000,297950,"AED 297,900 - 298,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2025/,2026-06-12T10:25:39Z,1,259216
+nissan-patrol,2025,3.5TC V6 LE T2 4WD,321900,322000,321950,"AED 321,900 - 322,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2025/,2026-06-12T10:25:39Z,1,280096
+nissan-patrol,2025,3.8 V6 SE Platinum City 4WD,322900,323000,322950,"AED 322,900 - 323,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2025/,2026-06-12T10:25:39Z,1,280966
+nissan-patrol,2025,3.5TC V6 LE Titanium 4WD,347900,348000,347950,"AED 347,900 - 348,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2025/,2026-06-12T10:25:39Z,1,302716
+nissan-patrol,2025,3.5TC V6 LE Titanium+ 4WD,359900,360000,359950,"AED 359,900 - 360,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2025/,2026-06-12T10:25:39Z,1,313156
+nissan-patrol,2025,3.5TC V6 LE Platinum City 4WD,388900,390000,389450,"AED 388,900 - 390,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2025/,2026-06-12T10:25:39Z,1,338822
+nissan-patrol,2026,3.8 V6 XE 4WD,239900,240000,239950,"AED 239,900 - 240,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2026/,2026-06-12T10:25:41Z,0,239950
+nissan-patrol,2026,3.8 V6 SE T2 4WD,258900,260000,259450,"AED 258,900 - 260,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2026/,2026-06-12T10:25:41Z,0,259450
+nissan-patrol,2026,3.8 V6 SE Titanium 4WD,293900,294000,293950,"AED 293,900 - 294,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2026/,2026-06-12T10:25:41Z,0,293950
+nissan-patrol,2026,3.5TC V6 LE T1 4WD,297900,298000,297950,"AED 297,900 - 298,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2026/,2026-06-12T10:25:41Z,0,297950
+nissan-patrol,2026,3.5TC V6 LE T2 4WD,321900,322000,321950,"AED 321,900 - 322,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2026/,2026-06-12T10:25:41Z,0,321950
+nissan-patrol,2026,3.8 V6 SE Platinum City 4WD,322900,323000,322950,"AED 322,900 - 323,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2026/,2026-06-12T10:25:41Z,0,322950
+nissan-patrol,2026,3.5TC V6 LE Titanium 4WD,347900,348000,347950,"AED 347,900 - 348,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2026/,2026-06-12T10:25:41Z,0,347950
+nissan-patrol,2026,3.5TC V6 LE Titanium+ 4WD,359900,360000,359950,"AED 359,900 - 360,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2026/,2026-06-12T10:25:41Z,0,359950
+nissan-patrol,2026,3.5TC V6 LE Platinum City 4WD,388900,390000,389450,"AED 388,900 - 390,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol/2026/,2026-06-12T10:25:41Z,0,389450
+nissan-patrol-nismo,2024,5.6L V8 Nismo 4WD,398500,399000,398750,"AED 398,500 - 399,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-nismo/2024/,2026-06-12T10:26:21Z,2,301814
+nissan-patrol-nismo,2025,3.5TC V6 NISMO 4WD,449900,450000,449950,"AED 449,900 - 450,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-nismo/2025/,2026-06-12T10:26:23Z,1,391456
+nissan-patrol-nismo,2026,3.5TC V6 NISMO 4WD,449900,450000,449950,"AED 449,900 - 450,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-nismo/2026/,2026-06-12T10:26:25Z,0,449950
+nissan-patrol-pickup,2020,SGL manual,145950,146000,145975,"AED 145,950 - 146,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-pickup/2020/,2026-06-12T10:26:56Z,6,72547
+nissan-patrol-pickup,2020,SGL auto,152250,153000,152625,"AED 152,250 - 153,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-pickup/2020/,2026-06-12T10:26:56Z,6,75852
+nissan-patrol-pickup,2021,SGL manual,145950,146000,145975,"AED 145,950 - 146,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-pickup/2021/,2026-06-12T10:26:58Z,5,81513
+nissan-patrol-pickup,2021,SGL auto,152250,153000,152625,"AED 152,250 - 153,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-pickup/2021/,2026-06-12T10:26:58Z,5,85227
+nissan-patrol-pickup,2022,SGL manual,145950,146000,145975,"AED 145,950 - 146,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-pickup/2022/,2026-06-12T10:27:00Z,4,91588
+nissan-patrol-pickup,2022,SGL auto,152250,153000,152625,"AED 152,250 - 153,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-pickup/2022/,2026-06-12T10:27:00Z,4,95760
+nissan-patrol-pickup,2023,4.8L I6 SGL 4WD manual,145950,146000,145975,"AED 145,950 - 146,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-pickup/2023/,2026-06-12T10:27:02Z,3,102908
+nissan-patrol-pickup,2023,4.8L I6 S 4WD auto,152250,153000,152625,"AED 152,250 - 153,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-pickup/2023/,2026-06-12T10:27:02Z,3,107596
+nissan-patrol-pickup,2024,4.8L I6 SGL 4WD manual,145950,146000,145975,"AED 145,950 - 146,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-pickup/2024/,2026-06-12T10:27:04Z,2,115627
+nissan-patrol-pickup,2024,4.8L I6 S 4WD auto,152250,153000,152625,"AED 152,250 - 153,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-pickup/2024/,2026-06-12T10:27:04Z,2,120894
+nissan-patrol-pro-4x,2025,3.5TC V6 PRO-4X 4WD,362900,370000,366450,"AED 362,900 - 370,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-pro-4x/2025/,2026-06-12T10:27:42Z,1,318812
+nissan-patrol-pro-4x,2026,3.5TC V6 PRO-4X 4WD,362900,370000,366450,"AED 362,900 - 370,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-pro-4x/2026/,2026-06-12T10:27:44Z,0,366450
+nissan-patrol-safari,2017,Safari Wagon 5D,171000,180000,175500,"AED 171,000 - 180,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2017/,2026-06-12T10:28:16Z,9,67992
+nissan-patrol-safari,2017,Super Safari 5D,190000,210000,200000,"AED 190,000 - 210,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2017/,2026-06-12T10:28:16Z,9,77484
+nissan-patrol-safari,2018,Hard Top 3dr manual,150675,151000,150838,"AED 150,675 - 151,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2018/,2026-06-12T10:28:18Z,8,64931
+nissan-patrol-safari,2018,Hard Top 3dr automatic,156450,157000,156725,"AED 156,450 - 157,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2018/,2026-06-12T10:28:18Z,8,67465
+nissan-patrol-safari,2018,Safari wagon manual,170100,171000,170550,"AED 170,100 - 171,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2018/,2026-06-12T10:28:18Z,8,73416
+nissan-patrol-safari,2018,Hard Top 3dr Super Safari auto,175350,183225,179288,"AED 175,350 - 183,225",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2018/,2026-06-12T10:28:18Z,8,77178
+nissan-patrol-safari,2018,Super Safari wagon,191625,199500,195562,"AED 191,625 - 199,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2018/,2026-06-12T10:28:18Z,8,84183
+nissan-patrol-safari,2019,GL 5D AT,145000,146000,145500,"AED 145,000 - 146,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2019/,2026-06-12T10:28:20Z,7,69592
+nissan-patrol-safari,2019,Safari 5D MT,164000,165000,164500,"AED 164,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2019/,2026-06-12T10:28:20Z,7,78680
+nissan-patrol-safari,2019,Safari 5D AT,169000,170000,169500,"AED 169,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2019/,2026-06-12T10:28:20Z,7,81071
+nissan-patrol-safari,2019,Falcon 5D MT,169000,170000,169500,"AED 169,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2019/,2026-06-12T10:28:20Z,7,81071
+nissan-patrol-safari,2019,Falcon 5D AT,174000,175000,174500,"AED 174,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2019/,2026-06-12T10:28:20Z,7,83463
+nissan-patrol-safari,2019,Super Safari 5D MT,184000,185000,184500,"AED 184,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2019/,2026-06-12T10:28:20Z,7,88246
+nissan-patrol-safari,2019,Super Safari 5D AT,189000,190000,189500,"AED 189,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2019/,2026-06-12T10:28:20Z,7,90637
+nissan-patrol-safari,2019,Gazelle 5D MT,224000,225000,224500,"AED 224,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2019/,2026-06-12T10:28:20Z,7,107378
+nissan-patrol-safari,2019,Gazelle 5D AT,229000,230000,229500,"AED 229,000 - 230,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2019/,2026-06-12T10:28:20Z,7,109769
+nissan-patrol-safari,2019,Gazelle X 5D MT,293000,294000,293500,"AED 293,000 - 294,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2019/,2026-06-12T10:28:20Z,7,140380
+nissan-patrol-safari,2019,Gazelle X 5D AT,298000,299000,298500,"AED 298,000 - 299,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2019/,2026-06-12T10:28:20Z,7,142772
+nissan-patrol-safari,2020,GL 5D AT,153000,156000,154500,"AED 153,000 - 156,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2020/,2026-06-12T10:28:21Z,6,82108
+nissan-patrol-safari,2020,Safari 5D MT,164000,165000,164500,"AED 164,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2020/,2026-06-12T10:28:21Z,6,87422
+nissan-patrol-safari,2020,Safari 5D AT,169000,170000,169500,"AED 169,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2020/,2026-06-12T10:28:21Z,6,90079
+nissan-patrol-safari,2020,Falcon 5D MT,169000,170000,169500,"AED 169,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2020/,2026-06-12T10:28:21Z,6,90079
+nissan-patrol-safari,2020,Falcon 5D AT,174000,175000,174500,"AED 174,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2020/,2026-06-12T10:28:21Z,6,92736
+nissan-patrol-safari,2020,Super Safari 5D MT,184000,185000,184500,"AED 184,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2020/,2026-06-12T10:28:21Z,6,98051
+nissan-patrol-safari,2020,Super Safari 5D AT,189000,190000,189500,"AED 189,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2020/,2026-06-12T10:28:21Z,6,100708
+nissan-patrol-safari,2020,Gazelle 5D MT,224000,225000,224500,"AED 224,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2020/,2026-06-12T10:28:21Z,6,119309
+nissan-patrol-safari,2020,Gazelle 5D AT,229000,230000,229500,"AED 229,000 - 230,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2020/,2026-06-12T10:28:21Z,6,121966
+nissan-patrol-safari,2020,Gazelle X 5D MT,293000,294000,293500,"AED 293,000 - 294,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2020/,2026-06-12T10:28:21Z,6,155978
+nissan-patrol-safari,2020,Gazelle X 5D AT,298000,299000,298500,"AED 298,000 - 299,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2020/,2026-06-12T10:28:21Z,6,158635
+nissan-patrol-safari,2021,GL 5D AT,153000,156000,154500,"AED 153,000 - 156,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2021/,2026-06-12T10:28:23Z,5,91231
+nissan-patrol-safari,2021,Safari 5D MT,164000,165000,164500,"AED 164,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2021/,2026-06-12T10:28:23Z,5,97136
+nissan-patrol-safari,2021,Safari 5D AT,169000,170000,169500,"AED 169,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2021/,2026-06-12T10:28:23Z,5,100088
+nissan-patrol-safari,2021,Falcon 5D MT,169000,170000,169500,"AED 169,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2021/,2026-06-12T10:28:23Z,5,100088
+nissan-patrol-safari,2021,Falcon 5D AT,174000,175000,174500,"AED 174,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2021/,2026-06-12T10:28:23Z,5,103041
+nissan-patrol-safari,2021,Super Safari 5D MT,184000,185000,184500,"AED 184,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2021/,2026-06-12T10:28:23Z,5,108945
+nissan-patrol-safari,2021,Super Safari 5D AT,189000,190000,189500,"AED 189,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2021/,2026-06-12T10:28:23Z,5,111898
+nissan-patrol-safari,2021,Gazelle 5D MT,224000,225000,224500,"AED 224,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2021/,2026-06-12T10:28:23Z,5,132565
+nissan-patrol-safari,2021,Gazelle 5D AT,229000,230000,229500,"AED 229,000 - 230,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2021/,2026-06-12T10:28:23Z,5,135517
+nissan-patrol-safari,2021,Gazelle X 5D MT,293000,294000,293500,"AED 293,000 - 294,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2021/,2026-06-12T10:28:23Z,5,173309
+nissan-patrol-safari,2021,Gazelle X 5D AT,298000,299000,298500,"AED 298,000 - 299,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2021/,2026-06-12T10:28:23Z,5,176261
+nissan-patrol-safari,2022,GL 5D AT,153000,156000,154500,"AED 153,000 - 156,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2022/,2026-06-12T10:28:25Z,4,101367
+nissan-patrol-safari,2022,Safari 5D MT,164000,165000,164500,"AED 164,000 - 165,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2022/,2026-06-12T10:28:25Z,4,107928
+nissan-patrol-safari,2022,Safari 5D AT,169000,170000,169500,"AED 169,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2022/,2026-06-12T10:28:25Z,4,111209
+nissan-patrol-safari,2022,Falcon 5D MT,169000,170000,169500,"AED 169,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2022/,2026-06-12T10:28:25Z,4,111209
+nissan-patrol-safari,2022,Falcon 5D AT,174000,175000,174500,"AED 174,000 - 175,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2022/,2026-06-12T10:28:25Z,4,114489
+nissan-patrol-safari,2022,Super Safari 5D MT,184000,185000,184500,"AED 184,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2022/,2026-06-12T10:28:25Z,4,121050
+nissan-patrol-safari,2022,Super Safari 5D AT,189000,190000,189500,"AED 189,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2022/,2026-06-12T10:28:25Z,4,124331
+nissan-patrol-safari,2022,Gazelle 5D MT,224000,225000,224500,"AED 224,000 - 225,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2022/,2026-06-12T10:28:25Z,4,147294
+nissan-patrol-safari,2022,Gazelle 5D AT,229000,230000,229500,"AED 229,000 - 230,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2022/,2026-06-12T10:28:25Z,4,150575
+nissan-patrol-safari,2022,Gazelle X 5D MT,293000,294000,293500,"AED 293,000 - 294,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2022/,2026-06-12T10:28:25Z,4,192565
+nissan-patrol-safari,2022,Gazelle X 5D AT,298000,299000,298500,"AED 298,000 - 299,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2022/,2026-06-12T10:28:25Z,4,195846
+nissan-patrol-safari,2023,4.8L I6 Safari 5D MT,162500,165000,163750,"AED 162,500 - 165,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2023/,2026-06-12T10:28:27Z,3,119374
+nissan-patrol-safari,2023,4.8L I6 Safari 5D AT,169000,170000,169500,"AED 169,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2023/,2026-06-12T10:28:27Z,3,123566
+nissan-patrol-safari,2023,4.8L I6 Super Safari 5D MT,184000,185000,184500,"AED 184,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2023/,2026-06-12T10:28:27Z,3,134501
+nissan-patrol-safari,2023,4.8L I6 Super Safari 5D AT,189000,190000,189500,"AED 189,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2023/,2026-06-12T10:28:27Z,3,138146
+nissan-patrol-safari,2024,4.8L I6 Safari 5D MT,162500,165000,163750,"AED 162,500 - 165,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2024/,2026-06-12T10:28:28Z,2,132638
+nissan-patrol-safari,2024,4.8L I6 Safari 5D AT,169000,170000,169500,"AED 169,000 - 170,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2024/,2026-06-12T10:28:28Z,2,137295
+nissan-patrol-safari,2024,4.8L I6 Super Safari 5D MT,184000,185000,184500,"AED 184,000 - 185,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2024/,2026-06-12T10:28:28Z,2,149445
+nissan-patrol-safari,2024,4.8L I6 Super Safari 5D AT,189000,190000,189500,"AED 189,000 - 190,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-patrol-safari/2024/,2026-06-12T10:28:28Z,2,153495
+nissan-pickup,2009,4x2 Single Cab,57000,58500,57750,"AED 57,000 - 58,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2009/,2026-06-12T10:28:53Z,17,6573
+nissan-pickup,2009,4x2 Double Cab,61000,62500,61750,"AED 61,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2009/,2026-06-12T10:28:53Z,17,7028
+nissan-pickup,2009,4x4 Single Cab,77000,78500,77750,"AED 77,000 - 78,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2009/,2026-06-12T10:28:53Z,17,8849
+nissan-pickup,2009,4x4 Double Cab,81000,82500,81750,"AED 81,000 - 82,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2009/,2026-06-12T10:28:53Z,17,9305
+nissan-pickup,2010,4x2 Single Cab,57000,58500,57750,"AED 57,000 - 58,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2010/,2026-06-12T10:28:55Z,16,7469
+nissan-pickup,2010,4x2 Double Cab,61000,62500,61750,"AED 61,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2010/,2026-06-12T10:28:55Z,16,7987
+nissan-pickup,2010,4x4 Single Cab,77000,78500,77750,"AED 77,000 - 78,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2010/,2026-06-12T10:28:55Z,16,10056
+nissan-pickup,2010,4x4 Double Cab,81000,82500,81750,"AED 81,000 - 82,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2010/,2026-06-12T10:28:55Z,16,10573
+nissan-pickup,2011,4x2 Single Cab,57000,58500,57750,"AED 57,000 - 58,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2011/,2026-06-12T10:28:57Z,15,8488
+nissan-pickup,2011,4x2 Double Cab,61000,62500,61750,"AED 61,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2011/,2026-06-12T10:28:57Z,15,9076
+nissan-pickup,2011,4x4 Single Cab,77000,78500,77750,"AED 77,000 - 78,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2011/,2026-06-12T10:28:57Z,15,11427
+nissan-pickup,2011,4x4 Double Cab,81000,82500,81750,"AED 81,000 - 82,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2011/,2026-06-12T10:28:57Z,15,12015
+nissan-pickup,2012,4x2 Single Cab,57000,58500,57750,"AED 57,000 - 58,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2012/,2026-06-12T10:28:59Z,14,9645
+nissan-pickup,2012,4x2 Double Cab,61000,62500,61750,"AED 61,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2012/,2026-06-12T10:28:59Z,14,10313
+nissan-pickup,2012,4x4 Single Cab,77000,78500,77750,"AED 77,000 - 78,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2012/,2026-06-12T10:28:59Z,14,12985
+nissan-pickup,2012,4x4 Double Cab,81000,82500,81750,"AED 81,000 - 82,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2012/,2026-06-12T10:28:59Z,14,13654
+nissan-pickup,2013,4x2 Single Cab,57000,58500,57750,"AED 57,000 - 58,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2013/,2026-06-12T10:29:01Z,13,10960
+nissan-pickup,2013,4x2 Double Cab,61000,62500,61750,"AED 61,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2013/,2026-06-12T10:29:01Z,13,11720
+nissan-pickup,2013,4x4 Single Cab,77000,78500,77750,"AED 77,000 - 78,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2013/,2026-06-12T10:29:01Z,13,14756
+nissan-pickup,2013,4x4 Double Cab,81000,82500,81750,"AED 81,000 - 82,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2013/,2026-06-12T10:29:01Z,13,15515
+nissan-pickup,2014,4x2 Single Cab,57000,58500,57750,"AED 57,000 - 58,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2014/,2026-06-12T10:29:03Z,12,12455
+nissan-pickup,2014,4x2 Double Cab,61000,62500,61750,"AED 61,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2014/,2026-06-12T10:29:03Z,12,13318
+nissan-pickup,2014,4x4 Single Cab,77000,78500,77750,"AED 77,000 - 78,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2014/,2026-06-12T10:29:03Z,12,16768
+nissan-pickup,2014,4x4 Double Cab,81000,82500,81750,"AED 81,000 - 82,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2014/,2026-06-12T10:29:03Z,12,17631
+nissan-pickup,2015,4x2 Single Cab,57000,58500,57750,"AED 57,000 - 58,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2015/,2026-06-12T10:29:05Z,11,14153
+nissan-pickup,2015,4x2 Double Cab,61000,62500,61750,"AED 61,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2015/,2026-06-12T10:29:05Z,11,15134
+nissan-pickup,2015,4x4 Single Cab,77000,78500,77750,"AED 77,000 - 78,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2015/,2026-06-12T10:29:05Z,11,19055
+nissan-pickup,2015,4x4 Double Cab,81000,82500,81750,"AED 81,000 - 82,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2015/,2026-06-12T10:29:05Z,11,20035
+nissan-pickup,2016,4x2 Single Cab,57000,58500,57750,"AED 57,000 - 58,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2016/,2026-06-12T10:29:07Z,10,16083
+nissan-pickup,2016,4x2 Double Cab,61000,62500,61750,"AED 61,000 - 62,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2016/,2026-06-12T10:29:07Z,10,17197
+nissan-pickup,2016,4x4 Single Cab,77000,78500,77750,"AED 77,000 - 78,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2016/,2026-06-12T10:29:07Z,10,21653
+nissan-pickup,2016,4x4 Double Cab,81000,82500,81750,"AED 81,000 - 82,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-pickup/2016/,2026-06-12T10:29:07Z,10,22767
+nissan-sentra,2013,1.6 S,56000,57000,56500,"AED 56,000 - 57,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2013/,2026-06-12T10:30:23Z,13,6831
+nissan-sentra,2013,1.8 S,60500,61000,60750,"AED 60,500 - 61,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2013/,2026-06-12T10:30:23Z,13,7345
+nissan-sentra,2013,1.6 SV/Sport,61000,66500,63750,"AED 61,000 - 66,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2013/,2026-06-12T10:30:23Z,13,7708
+nissan-sentra,2013,1.8 SV/Premium,69500,79000,74250,"AED 69,500 - 79,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2013/,2026-06-12T10:30:23Z,13,8977
+nissan-sentra,2014,1.6 S,56000,57000,56500,"AED 56,000 - 57,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2014/,2026-06-12T10:30:25Z,12,8037
+nissan-sentra,2014,1.8 S,60500,61000,60750,"AED 60,500 - 61,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2014/,2026-06-12T10:30:25Z,12,8641
+nissan-sentra,2014,1.6 SV/Sport,61000,66500,63750,"AED 61,000 - 66,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2014/,2026-06-12T10:30:25Z,12,9068
+nissan-sentra,2014,1.8 SV/Premium,69500,79000,74250,"AED 69,500 - 79,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2014/,2026-06-12T10:30:25Z,12,10561
+nissan-sentra,2015,1.6 S,54000,55000,54500,"AED 54,000 - 55,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2015/,2026-06-12T10:30:27Z,11,9120
+nissan-sentra,2015,1.8 S,60500,61000,60750,"AED 60,500 - 61,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2015/,2026-06-12T10:30:27Z,11,10166
+nissan-sentra,2015,1.6 SV/Sport,61000,66500,63750,"AED 61,000 - 66,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2015/,2026-06-12T10:30:27Z,11,10668
+nissan-sentra,2015,1.8 SV/Premium,69500,79000,74250,"AED 69,500 - 79,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2015/,2026-06-12T10:30:27Z,11,12425
+nissan-sentra,2016,1.6 S,54000,55000,54500,"AED 54,000 - 55,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2016/,2026-06-12T10:30:29Z,10,10730
+nissan-sentra,2016,1.8 S,60500,61000,60750,"AED 60,500 - 61,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2016/,2026-06-12T10:30:29Z,10,11960
+nissan-sentra,2016,1.6 SV/Sport,61000,66500,63750,"AED 61,000 - 66,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2016/,2026-06-12T10:30:29Z,10,12551
+nissan-sentra,2016,1.8 SV/Premium,69500,79000,74250,"AED 69,500 - 79,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2016/,2026-06-12T10:30:29Z,10,14618
+nissan-sentra,2017,S,50900,60000,55450,"AED 50,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2017/,2026-06-12T10:30:31Z,9,12843
+nissan-sentra,2017,1.6 SV,56500,57000,56750,"AED 56,500 - 57,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2017/,2026-06-12T10:30:31Z,9,13144
+nissan-sentra,2017,1.8 SV,58500,59000,58750,"AED 58,500 - 59,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2017/,2026-06-12T10:30:31Z,9,13607
+nissan-sentra,2017,1.8 SL,68750,69000,68875,"AED 68,750 - 69,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2017/,2026-06-12T10:30:31Z,9,15953
+nissan-sentra,2018,S,50900,60000,55450,"AED 50,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2018/,2026-06-12T10:30:32Z,8,15110
+nissan-sentra,2018,1.6 SV,56500,57000,56750,"AED 56,500 - 57,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2018/,2026-06-12T10:30:32Z,8,15464
+nissan-sentra,2018,1.8 SV,58500,59000,58750,"AED 58,500 - 59,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2018/,2026-06-12T10:30:32Z,8,16009
+nissan-sentra,2018,1.8 SL,68750,69000,68875,"AED 68,750 - 69,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2018/,2026-06-12T10:30:32Z,8,18768
+nissan-sentra,2019,S,50900,60000,55450,"AED 50,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2019/,2026-06-12T10:30:34Z,7,17776
+nissan-sentra,2019,1.6 SV,56500,57000,56750,"AED 56,500 - 57,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2019/,2026-06-12T10:30:34Z,7,18193
+nissan-sentra,2019,1.8 SV,58500,59000,58750,"AED 58,500 - 59,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2019/,2026-06-12T10:30:34Z,7,18834
+nissan-sentra,2019,1.8 SL,68750,69000,68875,"AED 68,750 - 69,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2019/,2026-06-12T10:30:34Z,7,22080
+nissan-sentra,2020,S,59900,60000,59950,"AED 59,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2020/,2026-06-12T10:30:36Z,6,22610
+nissan-sentra,2020,1.6 SV,63500,64000,63750,"AED 63,500 - 64,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2020/,2026-06-12T10:30:36Z,6,24043
+nissan-sentra,2020,1.8 S,66000,67000,66500,"AED 66,000 - 67,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2020/,2026-06-12T10:30:36Z,6,25080
+nissan-sentra,2021,S,59900,60000,59950,"AED 59,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2021/,2026-06-12T10:30:38Z,5,26600
+nissan-sentra,2021,1.6 SV,63500,64000,63750,"AED 63,500 - 64,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2021/,2026-06-12T10:30:38Z,5,28286
+nissan-sentra,2021,1.8 S,66000,67000,66500,"AED 66,000 - 67,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2021/,2026-06-12T10:30:38Z,5,29506
+nissan-sentra,2022,S,59900,60000,59950,"AED 59,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2022/,2026-06-12T10:30:40Z,4,31294
+nissan-sentra,2022,1.6 SV,63500,64000,63750,"AED 63,500 - 64,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2022/,2026-06-12T10:30:40Z,4,33278
+nissan-sentra,2022,1.8 S,66000,67000,66500,"AED 66,000 - 67,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sentra/2022/,2026-06-12T10:30:40Z,4,34713
+nissan-sunny,2014,S,42500,43000,42750,"AED 42,500 - 43,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2014/,2026-06-12T10:31:17Z,12,6997
+nissan-sunny,2014,SV,45500,49000,47250,"AED 45,500 - 49,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2014/,2026-06-12T10:31:17Z,12,7734
+nissan-sunny,2014,SL,52500,53000,52750,"AED 52,500 - 53,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2014/,2026-06-12T10:31:17Z,12,8634
+nissan-sunny,2015,S,45500,46000,45750,"AED 45,500 - 46,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2015/,2026-06-12T10:31:19Z,11,8707
+nissan-sunny,2015,SV,48400,49000,48700,"AED 48,400 - 49,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2015/,2026-06-12T10:31:19Z,11,9269
+nissan-sunny,2015,SL,51600,55000,53300,"AED 51,600 - 55,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2015/,2026-06-12T10:31:19Z,11,10144
+nissan-sunny,2016,S,43000,44000,43500,"AED 43,000 - 44,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2016/,2026-06-12T10:31:21Z,10,9627
+nissan-sunny,2016,SV,48400,49000,48700,"AED 48,400 - 49,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2016/,2026-06-12T10:31:21Z,10,10777
+nissan-sunny,2016,SL,51600,55000,53300,"AED 51,600 - 55,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2016/,2026-06-12T10:31:21Z,10,11795
+nissan-sunny,2017,S,43000,44000,43500,"AED 43,000 - 44,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2017/,2026-06-12T10:31:23Z,9,11194
+nissan-sunny,2017,SV,48400,49000,48700,"AED 48,400 - 49,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2017/,2026-06-12T10:31:23Z,9,12532
+nissan-sunny,2017,SL,51600,55000,53300,"AED 51,600 - 55,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2017/,2026-06-12T10:31:23Z,9,13716
+nissan-sunny,2018,S,43000,44000,43500,"AED 43,000 - 44,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2018/,2026-06-12T10:31:25Z,8,13016
+nissan-sunny,2018,SV,48400,49000,48700,"AED 48,400 - 49,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2018/,2026-06-12T10:31:25Z,8,14572
+nissan-sunny,2018,SL,51600,55000,53300,"AED 51,600 - 55,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2018/,2026-06-12T10:31:25Z,8,15948
+nissan-sunny,2019,S,43000,44000,43500,"AED 43,000 - 44,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2019/,2026-06-12T10:31:27Z,7,15135
+nissan-sunny,2019,SV,48400,49000,48700,"AED 48,400 - 49,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2019/,2026-06-12T10:31:27Z,7,16944
+nissan-sunny,2019,SL,51600,55000,53300,"AED 51,600 - 55,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2019/,2026-06-12T10:31:27Z,7,18545
+nissan-sunny,2020,1.6L S,57900,58000,57950,"AED 57,900 - 58,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2020/,2026-06-12T10:31:29Z,6,23445
+nissan-sunny,2020,1.6L SV,59900,60000,59950,"AED 59,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2020/,2026-06-12T10:31:29Z,6,24254
+nissan-sunny,2020,1.6L SL,67900,68000,67950,"AED 67,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2020/,2026-06-12T10:31:29Z,6,27490
+nissan-sunny,2021,1.6L S,57900,58000,57950,"AED 57,900 - 58,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2021/,2026-06-12T10:31:31Z,5,27261
+nissan-sunny,2021,1.6L SV,59900,60000,59950,"AED 59,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2021/,2026-06-12T10:31:31Z,5,28202
+nissan-sunny,2021,1.6L SL,67900,68000,67950,"AED 67,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2021/,2026-06-12T10:31:31Z,5,31966
+nissan-sunny,2022,1.6L S,57900,58000,57950,"AED 57,900 - 58,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2022/,2026-06-12T10:31:33Z,4,31699
+nissan-sunny,2022,1.6L SV,59900,60000,59950,"AED 59,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2022/,2026-06-12T10:31:33Z,4,32793
+nissan-sunny,2022,1.6L SL,67900,68000,67950,"AED 67,900 - 68,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2022/,2026-06-12T10:31:33Z,4,37169
+nissan-sunny,2023,1.6L I4 S FWD,61500,62000,61750,"AED 61,500 - 62,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2023/,2026-06-12T10:31:35Z,3,39276
+nissan-sunny,2023,1.6L I4 SV FWD,66500,67000,66750,"AED 66,500 - 67,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2023/,2026-06-12T10:31:35Z,3,42457
+nissan-sunny,2023,1.6L I4 SL FWD,76500,77000,76750,"AED 76,500 - 77,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2023/,2026-06-12T10:31:35Z,3,48817
+nissan-sunny,2025,1.6L S FWD,61500,62000,61750,"AED 61,500 - 62,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2025/,2026-06-12T10:31:38Z,1,53105
+nissan-sunny,2025,1.6L SV FWD,66500,67000,66750,"AED 66,500 - 67,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2025/,2026-06-12T10:31:38Z,1,57405
+nissan-sunny,2025,1.6L SL FWD,76500,77000,76750,"AED 76,500 - 77,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2025/,2026-06-12T10:31:38Z,1,66005
+nissan-sunny,2025,1.6 SL Plus FWD,81500,82000,81750,"AED 81,500 - 82,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-sunny/2025/,2026-06-12T10:31:38Z,1,70305
+nissan-tiida,2011,sedan,55750,66000,60875,"AED 55,750 - 66,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2011/,2026-06-12T10:32:40Z,15,7538
+nissan-tiida,2011,hatchback,55750,62500,59125,"AED 55,750 - 62,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2011/,2026-06-12T10:32:40Z,15,7321
+nissan-tiida,2012,sedan,55750,66000,60875,"AED 55,750 - 66,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2012/,2026-06-12T10:32:41Z,14,8664
+nissan-tiida,2012,hatchback,55750,62500,59125,"AED 55,750 - 62,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2012/,2026-06-12T10:32:41Z,14,8415
+nissan-tiida,2013,sedan,55750,66000,60875,"AED 55,750 - 66,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2013/,2026-06-12T10:32:43Z,13,9958
+nissan-tiida,2013,hatchback,55750,62500,59125,"AED 55,750 - 62,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2013/,2026-06-12T10:32:43Z,13,9672
+nissan-tiida,2014,1.6 S,53000,54000,53500,"AED 53,000 - 54,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2014/,2026-06-12T10:32:45Z,12,10060
+nissan-tiida,2014,1.6 SV,59000,60000,59500,"AED 59,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2014/,2026-06-12T10:32:45Z,12,11188
+nissan-tiida,2014,1.8 SV,64500,65000,64750,"AED 64,500 - 65,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2014/,2026-06-12T10:32:45Z,12,12175
+nissan-tiida,2014,1.8 SL,73000,74000,73500,"AED 73,000 - 74,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2014/,2026-06-12T10:32:45Z,12,13820
+nissan-tiida,2015,1.6 S,53000,54000,53500,"AED 53,000 - 54,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2015/,2026-06-12T10:32:47Z,11,11563
+nissan-tiida,2015,1.6 SV,59000,60000,59500,"AED 59,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2015/,2026-06-12T10:32:47Z,11,12860
+nissan-tiida,2015,1.8 SV,64500,65000,64750,"AED 64,500 - 65,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2015/,2026-06-12T10:32:47Z,11,13994
+nissan-tiida,2015,1.8 SL,73000,74000,73500,"AED 73,000 - 74,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2015/,2026-06-12T10:32:47Z,11,15885
+nissan-tiida,2016,1.6 S,54000,54500,54250,"AED 54,000 - 54,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2016/,2026-06-12T10:32:49Z,10,13477
+nissan-tiida,2016,1.6 SV,59000,60000,59500,"AED 59,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2016/,2026-06-12T10:32:49Z,10,14781
+nissan-tiida,2016,1.8 SV,64500,65000,64750,"AED 64,500 - 65,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2016/,2026-06-12T10:32:49Z,10,16085
+nissan-tiida,2016,1.8 SL,73000,74000,73500,"AED 73,000 - 74,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2016/,2026-06-12T10:32:49Z,10,18259
+nissan-tiida,2017,1.6 S,54000,54500,54250,"AED 54,000 - 54,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2017/,2026-06-12T10:32:50Z,9,15491
+nissan-tiida,2017,1.6 SV,59000,60000,59500,"AED 59,000 - 60,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2017/,2026-06-12T10:32:50Z,9,16990
+nissan-tiida,2017,1.8 SV,64500,65000,64750,"AED 64,500 - 65,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2017/,2026-06-12T10:32:50Z,9,18489
+nissan-tiida,2017,1.8 SL,73000,74000,73500,"AED 73,000 - 74,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-tiida/2017/,2026-06-12T10:32:50Z,9,20987
+nissan-urvan,2003,Panel Van,79000,86000,82500,"AED 79,000 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2003/,2026-06-12T10:33:12Z,23,5655
+nissan-urvan,2003,Micro Bus,88000,90000,89000,"AED 88,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2003/,2026-06-12T10:33:12Z,23,6100
+nissan-urvan,2004,Panel Van,79000,86000,82500,"AED 79,000 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2004/,2026-06-12T10:33:14Z,22,6354
+nissan-urvan,2004,Micro Bus,88000,90000,89000,"AED 88,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2004/,2026-06-12T10:33:14Z,22,6854
+nissan-urvan,2005,Panel Van,79000,86000,82500,"AED 79,000 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2005/,2026-06-12T10:33:16Z,21,7139
+nissan-urvan,2005,Micro Bus,88000,90000,89000,"AED 88,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2005/,2026-06-12T10:33:16Z,21,7702
+nissan-urvan,2006,Panel Van,79000,86000,82500,"AED 79,000 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2006/,2026-06-12T10:33:17Z,20,8021
+nissan-urvan,2006,Micro Bus,88000,90000,89000,"AED 88,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2006/,2026-06-12T10:33:17Z,20,8653
+nissan-urvan,2007,Panel Van,79000,86000,82500,"AED 79,000 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2007/,2026-06-12T10:33:19Z,19,9013
+nissan-urvan,2007,Micro Bus,88000,90000,89000,"AED 88,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2007/,2026-06-12T10:33:19Z,19,9723
+nissan-urvan,2008,Panel Van,79000,86000,82500,"AED 79,000 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2008/,2026-06-12T10:33:21Z,18,10127
+nissan-urvan,2008,Micro Bus,88000,90000,89000,"AED 88,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2008/,2026-06-12T10:33:21Z,18,10925
+nissan-urvan,2009,Panel Van,79000,86000,82500,"AED 79,000 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2009/,2026-06-12T10:33:23Z,17,11378
+nissan-urvan,2009,Micro Bus,88000,90000,89000,"AED 88,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2009/,2026-06-12T10:33:23Z,17,12275
+nissan-urvan,2010,Panel Van,79000,86000,82500,"AED 79,000 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2010/,2026-06-12T10:33:25Z,16,12785
+nissan-urvan,2010,Micro Bus,88000,90000,89000,"AED 88,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2010/,2026-06-12T10:33:25Z,16,13792
+nissan-urvan,2011,Panel Van,79000,86000,82500,"AED 79,000 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2011/,2026-06-12T10:33:27Z,15,14365
+nissan-urvan,2011,Micro Bus,88000,90000,89000,"AED 88,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2011/,2026-06-12T10:33:27Z,15,15497
+nissan-urvan,2012,Panel Van,79000,86000,82500,"AED 79,000 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2012/,2026-06-12T10:33:29Z,14,16140
+nissan-urvan,2012,Micro Bus,88000,90000,89000,"AED 88,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2012/,2026-06-12T10:33:29Z,14,17412
+nissan-urvan,2013,Panel Van,75500,86000,80750,"AED 75,500 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2013/,2026-06-12T10:33:31Z,13,17751
+nissan-urvan,2013,Micro Bus,88000,90000,89000,"AED 88,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2013/,2026-06-12T10:33:31Z,13,19564
+nissan-urvan,2014,Panel Van,75500,86000,80750,"AED 75,500 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2014/,2026-06-12T10:33:33Z,12,19944
+nissan-urvan,2014,Micro Bus,88000,90000,89000,"AED 88,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2014/,2026-06-12T10:33:33Z,12,21982
+nissan-urvan,2015,Panel Van,75500,86000,80750,"AED 75,500 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2015/,2026-06-12T10:33:35Z,11,22410
+nissan-urvan,2015,Micro Bus,88000,90000,89000,"AED 88,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2015/,2026-06-12T10:33:35Z,11,24699
+nissan-urvan,2016,Panel Van,74000,86000,80000,"AED 74,000 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2016/,2026-06-12T10:33:36Z,10,24945
+nissan-urvan,2016,Micro Bus,88000,90000,89000,"AED 88,000 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2016/,2026-06-12T10:33:36Z,10,27752
+nissan-urvan,2017,Panel Van manual,81500,83500,82500,"AED 81,500 - 83,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2017/,2026-06-12T10:33:38Z,9,28904
+nissan-urvan,2017,Panel Van auto,85500,87500,86500,"AED 85,500 - 87,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2017/,2026-06-12T10:33:38Z,9,30306
+nissan-urvan,2017,6 seater manual,85500,86000,85750,"AED 85,500 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2017/,2026-06-12T10:33:38Z,9,30043
+nissan-urvan,2017,6 seater auto,89500,90000,89750,"AED 89,500 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2017/,2026-06-12T10:33:38Z,9,31444
+nissan-urvan,2017,Panel van high roof manual,92000,92500,92250,"AED 92,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2017/,2026-06-12T10:33:38Z,9,32320
+nissan-urvan,2017,13 seater high roof manual,99000,99500,99250,"AED 99,000 - 99,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2017/,2026-06-12T10:33:38Z,9,34773
+nissan-urvan,2017,13 seater high roof auto,103500,104000,103750,"AED 103,500 - 104,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2017/,2026-06-12T10:33:38Z,9,36349
+nissan-urvan,2018,Panel Van manual,81500,83500,82500,"AED 81,500 - 83,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2018/,2026-06-12T10:33:40Z,8,32477
+nissan-urvan,2018,Panel Van auto,85500,87500,86500,"AED 85,500 - 87,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2018/,2026-06-12T10:33:40Z,8,34051
+nissan-urvan,2018,6 seater manual,85500,86000,85750,"AED 85,500 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2018/,2026-06-12T10:33:40Z,8,33756
+nissan-urvan,2018,6 seater auto,89500,90000,89750,"AED 89,500 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2018/,2026-06-12T10:33:40Z,8,35331
+nissan-urvan,2018,Panel van high roof manual,92000,92500,92250,"AED 92,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2018/,2026-06-12T10:33:40Z,8,36315
+nissan-urvan,2018,13 seater high roof manual,99000,99500,99250,"AED 99,000 - 99,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2018/,2026-06-12T10:33:40Z,8,39071
+nissan-urvan,2018,13 seater high roof auto,103500,104000,103750,"AED 103,500 - 104,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2018/,2026-06-12T10:33:40Z,8,40842
+nissan-urvan,2019,Panel Van manual,81500,83500,82500,"AED 81,500 - 83,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2019/,2026-06-12T10:33:42Z,7,36491
+nissan-urvan,2019,Panel Van auto,85500,87500,86500,"AED 85,500 - 87,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2019/,2026-06-12T10:33:42Z,7,38260
+nissan-urvan,2019,6 seater manual,85500,86000,85750,"AED 85,500 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2019/,2026-06-12T10:33:42Z,7,37928
+nissan-urvan,2019,6 seater auto,89500,90000,89750,"AED 89,500 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2019/,2026-06-12T10:33:42Z,7,39698
+nissan-urvan,2019,Panel van high roof manual,92000,92500,92250,"AED 92,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2019/,2026-06-12T10:33:42Z,7,40803
+nissan-urvan,2019,13 seater high roof manual,99000,99500,99250,"AED 99,000 - 99,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2019/,2026-06-12T10:33:42Z,7,43900
+nissan-urvan,2019,13 seater high roof auto,103500,104000,103750,"AED 103,500 - 104,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2019/,2026-06-12T10:33:42Z,7,45890
+nissan-urvan,2020,Panel Van manual,77175,80500,78838,"AED 77,175 - 80,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2020/,2026-06-12T10:33:44Z,6,39181
+nissan-urvan,2020,Panel Van auto,85500,87500,86500,"AED 85,500 - 87,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2020/,2026-06-12T10:33:44Z,6,42989
+nissan-urvan,2020,6 seater manual,85500,86000,85750,"AED 85,500 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2020/,2026-06-12T10:33:44Z,6,42616
+nissan-urvan,2020,6 seater auto,89500,90000,89750,"AED 89,500 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2020/,2026-06-12T10:33:44Z,6,44604
+nissan-urvan,2020,Panel van high roof manual,92000,92500,92250,"AED 92,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2020/,2026-06-12T10:33:44Z,6,45847
+nissan-urvan,2020,13 seater high roof manual,99000,99500,99250,"AED 99,000 - 99,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2020/,2026-06-12T10:33:44Z,6,49325
+nissan-urvan,2020,13 seater high roof auto,103500,104000,103750,"AED 103,500 - 104,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2020/,2026-06-12T10:33:44Z,6,51562
+nissan-urvan,2021,Panel Van manual,77175,80500,78838,"AED 77,175 - 80,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2021/,2026-06-12T10:33:46Z,5,44024
+nissan-urvan,2021,Panel Van auto,85500,87500,86500,"AED 85,500 - 87,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2021/,2026-06-12T10:33:46Z,5,48302
+nissan-urvan,2021,6 seater manual,85500,86000,85750,"AED 85,500 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2021/,2026-06-12T10:33:46Z,5,47883
+nissan-urvan,2021,6 seater auto,89500,90000,89750,"AED 89,500 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2021/,2026-06-12T10:33:46Z,5,50117
+nissan-urvan,2021,Panel van high roof manual,92000,92500,92250,"AED 92,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2021/,2026-06-12T10:33:46Z,5,51513
+nissan-urvan,2021,13 seater high roof manual,99000,99500,99250,"AED 99,000 - 99,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2021/,2026-06-12T10:33:46Z,5,55422
+nissan-urvan,2021,13 seater high roof auto,103500,104000,103750,"AED 103,500 - 104,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2021/,2026-06-12T10:33:46Z,5,57935
+nissan-urvan,2022,Panel Van manual,77175,80500,78838,"AED 77,175 - 80,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2022/,2026-06-12T10:33:48Z,4,49465
+nissan-urvan,2022,Panel Van auto,85500,87500,86500,"AED 85,500 - 87,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2022/,2026-06-12T10:33:48Z,4,54272
+nissan-urvan,2022,6 seater manual,85500,86000,85750,"AED 85,500 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2022/,2026-06-12T10:33:48Z,4,53801
+nissan-urvan,2022,6 seater auto,89500,90000,89750,"AED 89,500 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2022/,2026-06-12T10:33:48Z,4,56311
+nissan-urvan,2022,Panel van high roof manual,92000,92500,92250,"AED 92,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2022/,2026-06-12T10:33:48Z,4,57880
+nissan-urvan,2022,13 seater high roof manual,99000,99500,99250,"AED 99,000 - 99,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2022/,2026-06-12T10:33:48Z,4,62272
+nissan-urvan,2022,13 seater high roof auto,103500,104000,103750,"AED 103,500 - 104,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2022/,2026-06-12T10:33:48Z,4,65095
+nissan-urvan,2023,Panel Van manual,77175,80500,78838,"AED 77,175 - 80,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2023/,2026-06-12T10:33:50Z,3,55578
+nissan-urvan,2023,Panel Van auto,85500,87500,86500,"AED 85,500 - 87,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2023/,2026-06-12T10:33:50Z,3,60980
+nissan-urvan,2023,6 seater manual,85500,86000,85750,"AED 85,500 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2023/,2026-06-12T10:33:50Z,3,60451
+nissan-urvan,2023,6 seater auto,89500,90000,89750,"AED 89,500 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2023/,2026-06-12T10:33:50Z,3,63271
+nissan-urvan,2023,Panel van high roof manual,92000,92500,92250,"AED 92,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2023/,2026-06-12T10:33:50Z,3,65033
+nissan-urvan,2023,13 seater high roof manual,99000,99500,99250,"AED 99,000 - 99,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2023/,2026-06-12T10:33:50Z,3,69968
+nissan-urvan,2023,13 seater high roof auto,103500,104000,103750,"AED 103,500 - 104,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2023/,2026-06-12T10:33:50Z,3,73141
+nissan-urvan,2024,Panel Van manual,77175,80500,78838,"AED 77,175 - 80,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2024/,2026-06-12T10:33:51Z,2,62448
+nissan-urvan,2024,Panel Van auto,85500,87500,86500,"AED 85,500 - 87,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2024/,2026-06-12T10:33:51Z,2,68517
+nissan-urvan,2024,6 seater manual,85500,86000,85750,"AED 85,500 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2024/,2026-06-12T10:33:51Z,2,67923
+nissan-urvan,2024,6 seater auto,89500,90000,89750,"AED 89,500 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2024/,2026-06-12T10:33:51Z,2,71091
+nissan-urvan,2024,Panel van high roof manual,92000,92500,92250,"AED 92,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2024/,2026-06-12T10:33:51Z,2,73071
+nissan-urvan,2024,13 seater high roof manual,99000,99500,99250,"AED 99,000 - 99,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2024/,2026-06-12T10:33:51Z,2,78616
+nissan-urvan,2024,13 seater high roof auto,103500,104000,103750,"AED 103,500 - 104,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2024/,2026-06-12T10:33:51Z,2,82180
+nissan-urvan,2025,Panel Van manual,77175,80500,78838,"AED 77,175 - 80,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2025/,2026-06-12T10:33:53Z,1,70166
+nissan-urvan,2025,Panel Van auto,85500,87500,86500,"AED 85,500 - 87,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2025/,2026-06-12T10:33:53Z,1,76985
+nissan-urvan,2025,6 seater manual,85500,86000,85750,"AED 85,500 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2025/,2026-06-12T10:33:53Z,1,76318
+nissan-urvan,2025,6 seater auto,89500,90000,89750,"AED 89,500 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2025/,2026-06-12T10:33:53Z,1,79878
+nissan-urvan,2025,Panel van high roof manual,92000,92500,92250,"AED 92,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2025/,2026-06-12T10:33:53Z,1,82102
+nissan-urvan,2025,13 seater high roof manual,99000,99500,99250,"AED 99,000 - 99,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2025/,2026-06-12T10:33:53Z,1,88332
+nissan-urvan,2025,13 seater high roof auto,103500,104000,103750,"AED 103,500 - 104,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2025/,2026-06-12T10:33:53Z,1,92338
+nissan-urvan,2026,Panel Van manual,77175,80500,78838,"AED 77,175 - 80,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2026/,2026-06-12T10:33:55Z,0,78838
+nissan-urvan,2026,Panel Van auto,85500,87500,86500,"AED 85,500 - 87,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2026/,2026-06-12T10:33:55Z,0,86500
+nissan-urvan,2026,6 seater manual,85500,86000,85750,"AED 85,500 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2026/,2026-06-12T10:33:55Z,0,85750
+nissan-urvan,2026,6 seater auto,89500,90000,89750,"AED 89,500 - 90,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2026/,2026-06-12T10:33:55Z,0,89750
+nissan-urvan,2026,Panel van high roof manual,92000,92500,92250,"AED 92,000 - 92,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2026/,2026-06-12T10:33:55Z,0,92250
+nissan-urvan,2026,13 seater high roof manual,99000,99500,99250,"AED 99,000 - 99,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2026/,2026-06-12T10:33:55Z,0,99250
+nissan-urvan,2026,13 seater high roof auto,103500,104000,103750,"AED 103,500 - 104,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-urvan/2026/,2026-06-12T10:33:55Z,0,103750
+nissan-x-trail,2017,2WD S,84000,86000,85000,"AED 84,000 - 86,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2017/,2026-06-12T10:34:33Z,9,24271
+nissan-x-trail,2017,4WD S,95000,101500,98250,"AED 95,000 - 101,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2017/,2026-06-12T10:34:33Z,9,28055
+nissan-x-trail,2017,4WD SV,109250,110000,109625,"AED 109,250 - 110,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2017/,2026-06-12T10:34:33Z,9,31303
+nissan-x-trail,2017,4WD SL,120250,125250,122750,"AED 120,250 - 125,250",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2017/,2026-06-12T10:34:33Z,9,35051
+nissan-x-trail,2020,S 2WD,89900,91900,90900,"AED 89,900 - 91,900",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2020/,2026-06-12T10:34:39Z,6,39417
+nissan-x-trail,2020,S 4WD,105900,106000,105950,"AED 105,900 - 106,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2020/,2026-06-12T10:34:39Z,6,45943
+nissan-x-trail,2020,SV 4WD,119900,120000,119950,"AED 119,900 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2020/,2026-06-12T10:34:39Z,6,52013
+nissan-x-trail,2020,SL 4WD,134900,135000,134950,"AED 134,900 - 135,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2020/,2026-06-12T10:34:39Z,6,58518
+nissan-x-trail,2021,S 2WD,89900,91900,90900,"AED 89,900 - 91,900",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2021/,2026-06-12T10:34:41Z,5,45306
+nissan-x-trail,2021,S 4WD,105900,106000,105950,"AED 105,900 - 106,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2021/,2026-06-12T10:34:41Z,5,52808
+nissan-x-trail,2021,SV 4WD,119900,120000,119950,"AED 119,900 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2021/,2026-06-12T10:34:41Z,5,59786
+nissan-x-trail,2021,SL 4WD,134900,135000,134950,"AED 134,900 - 135,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2021/,2026-06-12T10:34:41Z,5,67262
+nissan-x-trail,2022,S 2WD 5 seater,90000,91000,90500,"AED 90,000 - 91,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2022/,2026-06-12T10:34:43Z,4,51847
+nissan-x-trail,2022,S 2WD 7 seater,91000,92000,91500,"AED 91,000 - 92,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2022/,2026-06-12T10:34:43Z,4,52420
+nissan-x-trail,2022,S 4WD 5 seater,100500,101000,100750,"AED 100,500 - 101,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2022/,2026-06-12T10:34:43Z,4,57719
+nissan-x-trail,2022,SV 4WD 7 seater,119000,120000,119500,"AED 119,000 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2022/,2026-06-12T10:34:43Z,4,68461
+nissan-x-trail,2022,SL 4WD 7 seater,136000,137000,136500,"AED 136,000 - 137,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2022/,2026-06-12T10:34:43Z,4,78201
+nissan-x-trail,2023,2.5L I4 S 2WD 5 seater,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2023/,2026-06-12T10:34:45Z,3,65817
+nissan-x-trail,2023,2.5L I4 S 4WD 7 seater,108500,109000,108750,"AED 108,500 - 109,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2023/,2026-06-12T10:34:45Z,3,71612
+nissan-x-trail,2023,2.5L I4 SV1 4WD 7 seater,124000,125000,124500,"AED 124,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2023/,2026-06-12T10:34:45Z,3,81984
+nissan-x-trail,2023,2.5L I4 SV3 4WD 7 seater,133000,134000,133500,"AED 133,000 - 134,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2023/,2026-06-12T10:34:45Z,3,87910
+nissan-x-trail,2023,2.5L I4 SL 4WD 7 seater,148000,149000,148500,"AED 148,000 - 149,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2023/,2026-06-12T10:34:45Z,3,97788
+nissan-x-trail,2024,2.5L I4 S 2WD 5 seater,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2024/,2026-06-12T10:34:47Z,2,75652
+nissan-x-trail,2024,2.5L I4 S 4WD 7 seater,108500,109000,108750,"AED 108,500 - 109,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2024/,2026-06-12T10:34:47Z,2,82313
+nissan-x-trail,2024,2.5L I4 SV1 4WD 7 seater,124000,125000,124500,"AED 124,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2024/,2026-06-12T10:34:47Z,2,94234
+nissan-x-trail,2024,2.5L I4 SV3 4WD 7 seater,133000,134000,133500,"AED 133,000 - 134,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2024/,2026-06-12T10:34:47Z,2,101046
+nissan-x-trail,2024,2.5L I4 N-Trek 4WD 7 seater,139900,140000,139950,"AED 139,900 - 140,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2024/,2026-06-12T10:34:47Z,2,105928
+nissan-x-trail,2024,2.5L I4 SL 4WD 7 seater,148000,149000,148500,"AED 148,000 - 149,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2024/,2026-06-12T10:34:47Z,2,112400
+nissan-x-trail,2025,2.5L I4 S 2WD,101900,119000,110450,"AED 101,900 - 119,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2025/,2026-06-12T10:34:49Z,1,96092
+nissan-x-trail,2025,2.5L I4 S 4WD,110500,120500,115500,"AED 110,500 - 120,500",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2025/,2026-06-12T10:34:49Z,1,100485
+nissan-x-trail,2025,2.5L I4 SV 4WD,126000,127000,126500,"AED 126,000 - 127,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2025/,2026-06-12T10:34:49Z,1,110055
+nissan-x-trail,2025,2.5L I4 SV+ OPT 4WD,136000,137000,136500,"AED 136,000 - 137,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2025/,2026-06-12T10:34:49Z,1,118755
+nissan-x-trail,2025,2.5L I4 N-Trek 4WD,145900,146000,145950,"AED 145,900 - 146,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2025/,2026-06-12T10:34:49Z,1,126976
+nissan-x-trail,2025,2.5L I4 SL 4WD,153000,154000,153500,"AED 153,000 - 154,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2025/,2026-06-12T10:34:49Z,1,133545
+nissan-x-trail,2026,S 2WD,101900,102000,101950,"AED 101,900 - 102,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2026/,2026-06-12T10:34:51Z,0,101950
+nissan-x-trail,2026,SV 4WD,126000,127000,126500,"AED 126,000 - 127,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2026/,2026-06-12T10:34:51Z,0,126500
+nissan-x-trail,2026,SV+ 4WD,136000,137000,136500,"AED 136,000 - 137,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2026/,2026-06-12T10:34:51Z,0,136500
+nissan-x-trail,2026,N-Trek 4WD,145900,146000,145950,"AED 145,900 - 146,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2026/,2026-06-12T10:34:51Z,0,145950
+nissan-x-trail,2026,SL 4WD,153000,154000,153500,"AED 153,000 - 154,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-x-trail/2026/,2026-06-12T10:34:51Z,0,153500
+nissan-xterra,2021,X-Terra SE 2WD,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2021/,2026-06-12T10:35:32Z,5,55813
+nissan-xterra,2021,X-Terra Titanium 2WD,108800,109000,108900,"AED 108,800 - 109,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2021/,2026-06-12T10:35:32Z,5,60810
+nissan-xterra,2021,X-Terra Titanium 4WD,119800,120000,119900,"AED 119,800 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2021/,2026-06-12T10:35:32Z,5,66953
+nissan-xterra,2021,X-Terra Platinum 4WD,133800,134000,133900,"AED 133,800 - 134,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2021/,2026-06-12T10:35:32Z,5,74771
+nissan-xterra,2022,X-Terra SE 2WD,99900,100000,99950,"AED 99,900 - 100,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2022/,2026-06-12T10:35:34Z,4,62711
+nissan-xterra,2022,X-Terra Titanium 2WD,108800,109000,108900,"AED 108,800 - 109,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2022/,2026-06-12T10:35:34Z,4,68326
+nissan-xterra,2022,X-Terra Titanium 4WD,119800,120000,119900,"AED 119,800 - 120,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2022/,2026-06-12T10:35:34Z,4,75228
+nissan-xterra,2022,X-Terra Platinum 4WD,133800,134000,133900,"AED 133,800 - 134,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2022/,2026-06-12T10:35:34Z,4,84012
+nissan-xterra,2023,2.5L I4 SE 2WD,104000,105000,104500,"AED 104,000 - 105,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2023/,2026-06-12T10:35:36Z,3,73669
+nissan-xterra,2023,2.5L I4 Titanium 2WD,113500,114000,113750,"AED 113,500 - 114,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2023/,2026-06-12T10:35:36Z,3,80190
+nissan-xterra,2023,2.5L I4 Titanium 4WD,123000,124000,123500,"AED 123,000 - 124,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2023/,2026-06-12T10:35:36Z,3,87064
+nissan-xterra,2023,2.5L I4 Platinum 4WD,143000,144000,143500,"AED 143,000 - 144,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2023/,2026-06-12T10:35:36Z,3,101163
+nissan-xterra,2024,2.5L I4 SE 2WD,104000,105000,104500,"AED 104,000 - 105,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2024/,2026-06-12T10:35:38Z,2,82774
+nissan-xterra,2024,2.5L I4 Titanium 2WD,113500,114000,113750,"AED 113,500 - 114,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2024/,2026-06-12T10:35:38Z,2,90101
+nissan-xterra,2024,2.5L I4 Titanium 4WD,123000,124000,123500,"AED 123,000 - 124,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2024/,2026-06-12T10:35:38Z,2,97824
+nissan-xterra,2024,2.5L I4 Platinum 4WD,143000,144000,143500,"AED 143,000 - 144,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2024/,2026-06-12T10:35:38Z,2,113666
+nissan-xterra,2025,2.5L I4 SE 2WD,104000,105000,104500,"AED 104,000 - 105,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2025/,2026-06-12T10:35:40Z,1,93005
+nissan-xterra,2025,2.5L I4 Titanium 2WD,113500,114000,113750,"AED 113,500 - 114,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2025/,2026-06-12T10:35:40Z,1,101238
+nissan-xterra,2025,2.5L I4 SE 4WD,114500,115000,114750,"AED 114,500 - 115,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2025/,2026-06-12T10:35:40Z,1,102128
+nissan-xterra,2025,2.5L I4 Titanium 4WD,123000,124000,123500,"AED 123,000 - 124,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2025/,2026-06-12T10:35:40Z,1,109915
+nissan-xterra,2025,2.5L I4 Platinum 4WD,143000,144000,143500,"AED 143,000 - 144,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2025/,2026-06-12T10:35:40Z,1,127715
+nissan-xterra,2026,2.5L I4 SE 2WD,104000,105000,104500,"AED 104,000 - 105,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2026/,2026-06-12T10:35:42Z,0,104500
+nissan-xterra,2026,2.5L I4 Titanium 2WD,113500,114000,113750,"AED 113,500 - 114,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2026/,2026-06-12T10:35:42Z,0,113750
+nissan-xterra,2026,2.5L I4 Platinum 4WD,143000,144000,143500,"AED 143,000 - 144,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-xterra/2026/,2026-06-12T10:35:42Z,0,143500
+nissan-z,2023,3.0T I6 manual RWD,205000,207000,206000,"AED 205,000 - 207,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-z/2023/,2026-06-12T10:36:20Z,3,126510
+nissan-z,2023,3.0T I6 auto RWD,205000,206000,205500,"AED 205,000 - 206,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-z/2023/,2026-06-12T10:36:20Z,3,126203
+nissan-z,2024,3.0T I6 manual RWD,205000,207000,206000,"AED 205,000 - 207,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-z/2024/,2026-06-12T10:36:22Z,2,148835
+nissan-z,2024,3.0T I6 auto RWD,205000,206000,205500,"AED 205,000 - 206,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-z/2024/,2026-06-12T10:36:22Z,2,148474
+nissan-z,2025,3.0T I6 manual RWD,215900,216000,215950,"AED 215,900 - 216,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-z/2025/,2026-06-12T10:36:24Z,1,183558
+nissan-z,2025,3.0T I6 auto RWD,221900,222000,221950,"AED 221,900 - 222,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-z/2025/,2026-06-12T10:36:24Z,1,188658
+nissan-z,2026,manual,215900,216000,215950,"AED 215,900 - 216,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-z/2026/,2026-06-12T10:36:26Z,0,215950
+nissan-z,2026,auto,221900,222000,221950,"AED 221,900 - 222,000",AED,https://www.drivearabia.com/carprices/uae/nissan/nissan-z/2026/,2026-06-12T10:36:26Z,0,221950

@@ -1,0 +1,6 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+rox-01,2025,1.5TC+E I4 01 4WD,250000,300000,275000,"AED 250,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/rox/rox-01/2025/,2026-06-16T10:45:10Z
+rox-01,2026,1.5TC+E I4 01 4WD,250000,300000,275000,"AED 250,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/rox/rox-01/2026/,2026-06-16T10:45:12Z
+rox-adamas,2026,Couch,280000,300000,290000,"AED 280,000 - 300,000",AED,https://www.drivearabia.com/carprices/uae/rox/rox-adamas/2026/,2026-06-16T10:45:19Z
+rox-adamas,2026,First Class,290000,310000,300000,"AED 290,000 - 310,000",AED,https://www.drivearabia.com/carprices/uae/rox/rox-adamas/2026/,2026-06-16T10:45:19Z
+rox-adamas,2026,Royal Edition,330000,350000,340000,"AED 330,000 - 350,000",AED,https://www.drivearabia.com/carprices/uae/rox/rox-adamas/2026/,2026-06-16T10:45:19Z
