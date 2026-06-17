@@ -59,31 +59,33 @@ def train_model(
         The trained CatBoost model.
     """
     logger.info(f"Training CatBoost {target_type} model for '{target_name}' on {task_type}...")
-    early_stopping = 100 if use_early_stopping else None
+    early_stopping = 50 if use_early_stopping else None
     
     try:
         if target_type == "classification":
             # CatBoostClassifier for categorical targets
             model = CatBoostClassifier(
-                iterations=1200,
+                iterations=800,
                 learning_rate=0.05,
-                depth=7,
+                depth=6,
                 random_seed=42,
                 verbose=100,
                 early_stopping_rounds=early_stopping,
                 max_ctr_complexity=1,
+                thread_count=4,
                 task_type=task_type
             )
         else:
             # CatBoostRegressor for numeric targets (year, weight)
             model = CatBoostRegressor(
-                iterations=1200,
+                iterations=800,
                 learning_rate=0.05,
-                depth=7,
+                depth=6,
                 random_seed=42,
                 verbose=100,
                 early_stopping_rounds=early_stopping,
                 max_ctr_complexity=1,
+                thread_count=4,
                 task_type=task_type
             )
             
@@ -109,24 +111,26 @@ def train_model(
             logger.warning(f"Failed to train on GPU for '{target_name}' due to error: {e}. Falling back to CPU...")
             if target_type == "classification":
                 model = CatBoostClassifier(
-                    iterations=1200,
+                    iterations=800,
                     learning_rate=0.05,
-                    depth=7,
+                    depth=6,
                     random_seed=42,
                     verbose=100,
                     early_stopping_rounds=early_stopping,
                     max_ctr_complexity=1,
+                    thread_count=4,
                     task_type="CPU"
                 )
             else:
                 model = CatBoostRegressor(
-                    iterations=1200,
+                    iterations=800,
                     learning_rate=0.05,
-                    depth=7,
+                    depth=6,
                     random_seed=42,
                     verbose=100,
                     early_stopping_rounds=early_stopping,
                     max_ctr_complexity=1,
+                    thread_count=4,
                     task_type="CPU"
                 )
             if use_early_stopping:
