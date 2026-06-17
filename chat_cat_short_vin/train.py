@@ -38,7 +38,8 @@ def train_model(
     target_name: str,
     target_type: str,
     cat_features: list,
-    task_type: str = "GPU"
+    task_type: str = "GPU",
+    use_early_stopping: bool = True
 ) -> Any:
     """
     Trains a CatBoost model based on the target type (Classifier or Regressor).
@@ -52,11 +53,13 @@ def train_model(
         target_type: Either 'classification' or 'regression'.
         cat_features: List of categorical feature names.
         task_type: Device to train on ('CPU' or 'GPU').
+        use_early_stopping: Whether to use early stopping on the validation set.
         
     Returns:
         The trained CatBoost model.
     """
     logger.info(f"Training CatBoost {target_type} model for '{target_name}' on {task_type}...")
+    early_stopping = 100 if use_early_stopping else None
     
     try:
         if target_type == "classification":
@@ -67,7 +70,7 @@ def train_model(
                 depth=7,
                 random_seed=42,
                 verbose=100,
-                early_stopping_rounds=100,
+                early_stopping_rounds=early_stopping,
                 max_ctr_complexity=1,
                 task_type=task_type
             )
@@ -79,19 +82,27 @@ def train_model(
                 depth=7,
                 random_seed=42,
                 verbose=100,
-                early_stopping_rounds=100,
+                early_stopping_rounds=early_stopping,
                 max_ctr_complexity=1,
                 task_type=task_type
             )
             
-        # Fit model with categorical features specified and proper validation set
-        model.fit(
-            X_train,
-            y_train,
-            cat_features=cat_features,
-            eval_set=(X_val, y_val),
-            verbose=100
-        )
+        # Fit model
+        if use_early_stopping:
+            model.fit(
+                X_train,
+                y_train,
+                cat_features=cat_features,
+                eval_set=(X_val, y_val),
+                verbose=100
+            )
+        else:
+            model.fit(
+                X_train,
+                y_train,
+                cat_features=cat_features,
+                verbose=100
+            )
         return model
     except Exception as e:
         if task_type == "GPU":
@@ -103,7 +114,7 @@ def train_model(
                     depth=7,
                     random_seed=42,
                     verbose=100,
-                    early_stopping_rounds=100,
+                    early_stopping_rounds=early_stopping,
                     max_ctr_complexity=1,
                     task_type="CPU"
                 )
@@ -114,17 +125,25 @@ def train_model(
                     depth=7,
                     random_seed=42,
                     verbose=100,
-                    early_stopping_rounds=100,
+                    early_stopping_rounds=early_stopping,
                     max_ctr_complexity=1,
                     task_type="CPU"
                 )
-            model.fit(
-                X_train,
-                y_train,
-                cat_features=cat_features,
-                eval_set=(X_val, y_val),
-                verbose=100
-            )
+            if use_early_stopping:
+                model.fit(
+                    X_train,
+                    y_train,
+                    cat_features=cat_features,
+                    eval_set=(X_val, y_val),
+                    verbose=100
+                )
+            else:
+                model.fit(
+                    X_train,
+                    y_train,
+                    cat_features=cat_features,
+                    verbose=100
+                )
             return model
         else:
             raise e
@@ -205,13 +224,33 @@ def main():
             X_train, y_train, test_size=0.15, random_state=42
         )
         
+        # Class alignment for classification targets
+        use_early_stopping = True
+        if target_type == "classification":
+            train_classes = set(y_train_fit)
+            val_classes = set(y_val)
+            missing_in_train = val_classes - train_classes
+            if missing_in_train:
+                # Find indices in validation set that have these missing classes
+                val_indices_to_move = y_val[y_val.isin(missing_in_train)].index
+                X_train_fit = pd.concat([X_train_fit, X_val.loc[val_indices_to_move]])
+                y_train_fit = pd.concat([y_train_fit, y_val.loc[val_indices_to_move]])
+                X_val = X_val.drop(val_indices_to_move)
+                y_val = y_val.drop(val_indices_to_move)
+            
+            if len(y_val) == 0:
+                X_val = X_train_fit
+                y_val = y_train_fit
+                use_early_stopping = False
+        
         # 5. Train Model
         try:
             model = train_model(
                 X_train_fit, y_train_fit,
                 X_val, y_val,
                 target_key, target_type,
-                cat_features, task_type=args.device
+                cat_features, task_type=args.device,
+                use_early_stopping=use_early_stopping
             )
         except Exception as e:
             logger.error(f"Failed to train model for '{target_key}': {e}")
