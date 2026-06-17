@@ -35,7 +35,8 @@ def train_model(
     y_train: pd.Series,
     target_name: str,
     target_type: str,
-    cat_features: list
+    cat_features: list,
+    task_type: str = "GPU"
 ) -> Any:
     """
     Trains a CatBoost model based on the target type (Classifier or Regressor).
@@ -46,43 +47,80 @@ def train_model(
         target_name: Name of the target variable.
         target_type: Either 'classification' or 'regression'.
         cat_features: List of categorical feature names.
+        task_type: Device to train on ('CPU' or 'GPU').
         
     Returns:
         The trained CatBoost model.
     """
-    logger.info(f"Training CatBoost {target_type} model for '{target_name}'...")
+    logger.info(f"Training CatBoost {target_type} model for '{target_name}' on {task_type}...")
     
-    if target_type == "classification":
-        # CatBoostClassifier for categorical targets
-        model = CatBoostClassifier(
-            iterations=600,
-            learning_rate=0.08,
-            depth=6,
-            random_seed=42,
-            verbose=100,
-            early_stopping_rounds=50
+    try:
+        if target_type == "classification":
+            # CatBoostClassifier for categorical targets
+            model = CatBoostClassifier(
+                iterations=600,
+                learning_rate=0.08,
+                depth=6,
+                random_seed=42,
+                verbose=100,
+                early_stopping_rounds=50,
+                task_type=task_type
+            )
+        else:
+            # CatBoostRegressor for numeric targets (year, weight)
+            model = CatBoostRegressor(
+                iterations=600,
+                learning_rate=0.08,
+                depth=6,
+                random_seed=42,
+                verbose=100,
+                early_stopping_rounds=50,
+                task_type=task_type
+            )
+            
+        # Fit model with categorical features specified
+        model.fit(
+            X_train,
+            y_train,
+            cat_features=cat_features,
+            eval_set=(X_train, y_train),  # CatBoost uses this for early stopping
+            verbose=100
         )
-    else:
-        # CatBoostRegressor for numeric targets (year, weight)
-        model = CatBoostRegressor(
-            iterations=600,
-            learning_rate=0.08,
-            depth=6,
-            random_seed=42,
-            verbose=100,
-            early_stopping_rounds=50
-        )
-        
-    # Fit model with categorical features specified
-    model.fit(
-        X_train,
-        y_train,
-        cat_features=cat_features,
-        eval_set=(X_train, y_train),  # CatBoost uses this for early stopping
-        verbose=100
-    )
-    
-    return model
+        return model
+    except Exception as e:
+        if task_type == "GPU":
+            logger.warning(f"Failed to train on GPU for '{target_name}' due to error: {e}. Falling back to CPU...")
+            if target_type == "classification":
+                model = CatBoostClassifier(
+                    iterations=600,
+                    learning_rate=0.08,
+                    depth=6,
+                    random_seed=42,
+                    verbose=100,
+                    early_stopping_rounds=50,
+                    task_type="CPU"
+                )
+            else:
+                model = CatBoostRegressor(
+                    iterations=600,
+                    learning_rate=0.08,
+                    depth=6,
+                    random_seed=42,
+                    verbose=100,
+                    early_stopping_rounds=50,
+                    task_type="CPU"
+                )
+            model.fit(
+                X_train,
+                y_train,
+                cat_features=cat_features,
+                eval_set=(X_train, y_train),
+                verbose=100
+            )
+            return model
+        else:
+            raise e
+
 
 def main():
     parser = argparse.ArgumentParser(description="Japanese Import 10-Character Short Chassis Model Training Pipeline")
@@ -97,6 +135,13 @@ def main():
         type=str,
         default="chat_cat_short_vin/models",
         help="Directory to save the trained models."
+    )
+    parser.add_argument(
+        "--device",
+        type=str,
+        default="GPU",
+        choices=["CPU", "GPU"],
+        help="Device to train on ('CPU' or 'GPU'). Defaults to GPU and falls back to CPU if unavailable."
     )
     
     args = parser.parse_args()
@@ -147,7 +192,7 @@ def main():
         
         # 5. Train Model
         try:
-            model = train_model(X_train, y_train, target_key, target_type, cat_features)
+            model = train_model(X_train, y_train, target_key, target_type, cat_features, task_type=args.device)
         except Exception as e:
             logger.error(f"Failed to train model for '{target_key}': {e}")
             continue
