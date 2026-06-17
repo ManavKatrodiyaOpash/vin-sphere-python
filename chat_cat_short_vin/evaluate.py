@@ -1,61 +1,75 @@
 import logging
 from typing import Dict, Any, Union
 import numpy as np
-from sklearn.metrics import accuracy_score, precision_recall_fscore_support, confusion_matrix
+from sklearn.metrics import accuracy_score, classification_report, mean_absolute_error, root_mean_squared_error
 
-# Set up logging
+# Configure logging
 logger = logging.getLogger(__name__)
 
-def evaluate_predictions(
-    y_true: Union[np.ndarray, list], 
-    y_pred: Union[np.ndarray, list], 
-    target_name: str
-) -> Dict[str, Any]:
-    """Computes evaluation metrics (Accuracy, Precision, Recall, F1-Score) and prints a summary."""
-    logger.info(f"Evaluating predictions for target '{target_name}'...")
+def evaluate_classification(y_true: Union[np.ndarray, list], y_pred: Union[np.ndarray, list], target_name: str) -> float:
+    """
+    Evaluates a classification model using Accuracy and Classification Report.
     
-    # Calculate accuracy
+    Args:
+        y_true: Ground truth target values.
+        y_pred: Predicted target values.
+        target_name: Name of the target variable.
+        
+    Returns:
+        The accuracy score.
+    """
+    logger.info(f"Evaluating classification for target: {target_name}")
     accuracy = accuracy_score(y_true, y_pred)
+    report = classification_report(y_true, y_pred, zero_division=0)
     
-    # Calculate Precision, Recall, and F1 (Weighted average is most robust for imbalanced classes)
-    precision_w, recall_w, f1_w, _ = precision_recall_fscore_support(
-        y_true, y_pred, average="weighted", zero_division=0
-    )
+    print("\n" + "=" * 65)
+    print(f" Classification Evaluation for Target: {target_name.upper()}")
+    print("=" * 65)
+    print(f"Accuracy: {accuracy:.4f}")
+    print("\nClassification Report:")
+    print(report)
+    print("=" * 65 + "\n")
     
-    # Calculate Macro average metrics
-    precision_m, recall_m, f1_m, _ = precision_recall_fscore_support(
-        y_true, y_pred, average="macro", zero_division=0
-    )
+    return accuracy
+
+def evaluate_regression(y_true: Union[np.ndarray, list], y_pred: Union[np.ndarray, list], target_name: str) -> Dict[str, float]:
+    """
+    Evaluates a regression model using Mean Absolute Error and Root Mean Squared Error.
+    If the target is 'year', also computes classification metrics after rounding predictions.
     
-    # Generate Confusion Matrix
-    cm = confusion_matrix(y_true, y_pred)
+    Args:
+        y_true: Ground truth target values.
+        y_pred: Predicted target values.
+        target_name: Name of the target variable.
+        
+    Returns:
+        A dictionary containing regression metrics (and optionally accuracy).
+    """
+    logger.info(f"Evaluating regression for target: {target_name}")
+    mae = mean_absolute_error(y_true, y_pred)
+    rmse = root_mean_squared_error(y_true, y_pred)
     
-    metrics = {
-        "accuracy": accuracy,
-        "precision_weighted": precision_w,
-        "recall_weighted": recall_w,
-        "f1_weighted": f1_w,
-        "precision_macro": precision_m,
-        "recall_macro": recall_m,
-        "f1_macro": f1_m,
-        "confusion_matrix": cm
-    }
+    print("\n" + "=" * 65)
+    print(f" Regression Evaluation for Target: {target_name.upper()}")
+    print("=" * 65)
+    print(f"Mean Absolute Error (MAE): {mae:.4f}")
+    print(f"Root Mean Squared Error (RMSE): {rmse:.4f}")
     
-    # Formatted terminal printing
-    print("\n" + "=" * 50)
-    print(f" Evaluation Metrics for Target: {target_name.upper()}")
-    print("=" * 50)
-    print(f"  Accuracy:          {accuracy:.4f}")
-    print(f"  Weighted Precision: {precision_w:.4f}")
-    print(f"  Weighted Recall:    {recall_w:.4f}")
-    print(f"  Weighted F1-Score:  {f1_w:.4f}")
-    print("-" * 50)
-    print(f"  Macro Precision:    {precision_m:.4f}")
-    print(f"  Macro Recall:       {recall_m:.4f}")
-    print(f"  Macro F1-Score:     {f1_m:.4f}")
-    print("=" * 50)
+    metrics = {"mae": mae, "rmse": rmse}
     
-    # Display confusion matrix shape
-    logger.info(f"Confusion Matrix generated with shape: {cm.shape}")
-    
+    if target_name.lower() in ["year"]:
+        # Round predicted floats to the nearest integer year for classification reporting
+        y_pred_rounded = np.round(y_pred).astype(int)
+        y_true_int = np.round(y_true).astype(int)
+        accuracy = accuracy_score(y_true_int, y_pred_rounded)
+        print(f"Rounded Year Accuracy: {accuracy:.4f}")
+        try:
+            report = classification_report(y_true_int, y_pred_rounded, zero_division=0)
+            print("\nClassification Report (Rounded Year):")
+            print(report)
+        except Exception as e:
+            logger.warning(f"Could not print classification report for rounded year: {e}")
+        metrics["accuracy"] = accuracy
+        
+    print("=" * 65 + "\n")
     return metrics
