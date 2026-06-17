@@ -89,6 +89,7 @@ def train_model(
                 early_stopping_rounds=early_stopping,
                 max_ctr_complexity=1,
                 thread_count=4,
+                boosting_type="Plain",
                 task_type=task_type
             )
         else:
@@ -102,6 +103,7 @@ def train_model(
                 early_stopping_rounds=early_stopping,
                 max_ctr_complexity=1,
                 thread_count=4,
+                boosting_type="Plain",
                 task_type=task_type
             )
             
@@ -135,6 +137,7 @@ def train_model(
                     early_stopping_rounds=early_stopping,
                     max_ctr_complexity=1,
                     thread_count=4,
+                    boosting_type="Plain",
                     task_type="CPU"
                 )
             else:
@@ -147,6 +150,7 @@ def train_model(
                     early_stopping_rounds=early_stopping,
                     max_ctr_complexity=1,
                     thread_count=4,
+                    boosting_type="Plain",
                     task_type="CPU"
                 )
             if use_early_stopping:
