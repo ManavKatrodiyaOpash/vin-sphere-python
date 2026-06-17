@@ -1,0 +1,74 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+jaguar-e-pace,2022,E-Pace S 200PS,177450,180000,178725,"AED 177,450 - 180,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-e-pace/2022/,2026-06-17T05:22:06Z
+jaguar-e-pace,2022,E-Pace S Plus 200PS,195300,199000,197150,"AED 195,300 - 199,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-e-pace/2022/,2026-06-17T05:22:06Z
+jaguar-e-pace,2023,E-Pace S 200PS,177450,180000,178725,"AED 177,450 - 180,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-e-pace/2023/,2026-06-17T05:22:08Z
+jaguar-e-pace,2023,E-Pace S Plus 200PS,195300,199000,197150,"AED 195,300 - 199,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-e-pace/2023/,2026-06-17T05:22:08Z
+jaguar-e-pace,2024,2.0TC I4 R-Dynamic SE P200 4WD,240200,245000,242600,"AED 240,200 - 245,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-e-pace/2024/,2026-06-17T05:22:10Z
+jaguar-f-pace,2022,2.0 25t F-Pace Pure,186800,187000,186900,"AED 186,800 - 187,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2022/,2026-06-17T05:22:14Z
+jaguar-f-pace,2022,2.0 25t F-Pace Prestige,204500,205000,204750,"AED 204,500 - 205,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2022/,2026-06-17T05:22:14Z
+jaguar-f-pace,2022,2.0 25t F-Pace R-Sport,215800,216000,215900,"AED 215,800 - 216,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2022/,2026-06-17T05:22:14Z
+jaguar-f-pace,2022,2.0 25t F-Pace Portfolio,238600,240000,239300,"AED 238,600 - 240,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2022/,2026-06-17T05:22:14Z
+jaguar-f-pace,2022,3.0 35t F-Pace Pure,241700,242000,241850,"AED 241,700 - 242,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2022/,2026-06-17T05:22:14Z
+jaguar-f-pace,2022,3.0 35t F-Pace Prestige,255400,256000,255700,"AED 255,400 - 256,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2022/,2026-06-17T05:22:14Z
+jaguar-f-pace,2022,3.0 35t F-Pace R-Sport,266800,267000,266900,"AED 266,800 - 267,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2022/,2026-06-17T05:22:14Z
+jaguar-f-pace,2022,3.0 35t F-Pace Portfolio,289500,295000,292250,"AED 289,500 - 295,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2022/,2026-06-17T05:22:14Z
+jaguar-f-pace,2022,3.0 F-Pace S,300600,301000,300800,"AED 300,600 - 301,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2022/,2026-06-17T05:22:14Z
+jaguar-f-pace,2022,First Edition,322500,369000,345750,"AED 322,500 - 369,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2022/,2026-06-17T05:22:14Z
+jaguar-f-pace,2023,2.0 25t F-Pace Pure,186800,187000,186900,"AED 186,800 - 187,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2023/,2026-06-17T05:22:16Z
+jaguar-f-pace,2023,2.0 25t F-Pace Prestige,204500,205000,204750,"AED 204,500 - 205,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2023/,2026-06-17T05:22:16Z
+jaguar-f-pace,2023,2.0 25t F-Pace R-Sport,215800,216000,215900,"AED 215,800 - 216,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2023/,2026-06-17T05:22:16Z
+jaguar-f-pace,2023,2.0 25t F-Pace Portfolio,238600,240000,239300,"AED 238,600 - 240,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2023/,2026-06-17T05:22:16Z
+jaguar-f-pace,2023,3.0 35t F-Pace Pure,241700,242000,241850,"AED 241,700 - 242,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2023/,2026-06-17T05:22:16Z
+jaguar-f-pace,2023,3.0 35t F-Pace Prestige,255400,256000,255700,"AED 255,400 - 256,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2023/,2026-06-17T05:22:16Z
+jaguar-f-pace,2023,3.0 35t F-Pace R-Sport,266800,267000,266900,"AED 266,800 - 267,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2023/,2026-06-17T05:22:16Z
+jaguar-f-pace,2023,3.0 35t F-Pace Portfolio,289500,295000,292250,"AED 289,500 - 295,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2023/,2026-06-17T05:22:16Z
+jaguar-f-pace,2023,3.0 F-Pace S,300600,301000,300800,"AED 300,600 - 301,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2023/,2026-06-17T05:22:16Z
+jaguar-f-pace,2023,First Edition,322500,369000,345750,"AED 322,500 - 369,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2023/,2026-06-17T05:22:16Z
+jaguar-f-pace,2024,2.0TC I4 R-Dyname S 4WD,256620,265000,260810,"AED 256,620 - 265,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2024/,2026-06-17T05:22:17Z
+jaguar-f-pace,2024,2.0TC I4 R-Dynamic SE 4WD,278355,285000,281678,"AED 278,355 - 285,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2024/,2026-06-17T05:22:17Z
+jaguar-f-pace,2024,2.0TC I4 R-Dynamic HSE 4WD,317100,320000,318550,"AED 317,100 - 320,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2024/,2026-06-17T05:22:17Z
+jaguar-f-pace,2024,3.0TC V6 400 Sport 4WD,360780,365000,362890,"AED 360,780 - 365,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2024/,2026-06-17T05:22:17Z
+jaguar-f-pace,2024,5.0SC V8 SVR 575 Edition 4WD,448455,450000,449228,"AED 448,455 - 450,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2024/,2026-06-17T05:22:17Z
+jaguar-f-pace,2025,2.0TC I4 R-Dyname S 4WD,256620,265000,260810,"AED 256,620 - 265,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2025/,2026-06-17T05:22:19Z
+jaguar-f-pace,2025,2.0TC I4 R-Dynamic SE 4WD,278355,285000,281678,"AED 278,355 - 285,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2025/,2026-06-17T05:22:19Z
+jaguar-f-pace,2025,2.0TC I4 R-Dynamic HSE 4WD,317100,320000,318550,"AED 317,100 - 320,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2025/,2026-06-17T05:22:19Z
+jaguar-f-pace,2025,3.0TC V6 400 Sport 4WD,360780,365000,362890,"AED 360,780 - 365,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2025/,2026-06-17T05:22:19Z
+jaguar-f-pace,2025,5.0SC V8 SVR 575 Edition 4WD,448455,450000,449228,"AED 448,455 - 450,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-pace/2025/,2026-06-17T05:22:19Z
+jaguar-f-type,2022,F-Type 2.0T R-Dynamic,310905,315000,312952,"AED 310,905 - 315,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-type/2022/,2026-06-17T05:22:22Z
+jaguar-f-type,2022,F-Type 2.0T First Edition,362040,362100,362070,"AED 362,040 - 362,100",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-type/2022/,2026-06-17T05:22:22Z
+jaguar-f-type,2022,F-Type 3.0T R-Dynamic,397740,398000,397870,"AED 397,740 - 398,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-type/2022/,2026-06-17T05:22:22Z
+jaguar-f-type,2022,F-Type 3.0T First Edition,440475,441000,440738,"AED 440,475 - 441,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-type/2022/,2026-06-17T05:22:22Z
+jaguar-f-type,2022,F-Type 5.0,586845,588000,587422,"AED 586,845 - 588,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-type/2022/,2026-06-17T05:22:22Z
+jaguar-f-type,2023,F-Type 2.0T R-Dynamic,310905,315000,312952,"AED 310,905 - 315,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-type/2023/,2026-06-17T05:22:24Z
+jaguar-f-type,2023,F-Type 2.0T First Edition,362040,362100,362070,"AED 362,040 - 362,100",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-type/2023/,2026-06-17T05:22:24Z
+jaguar-f-type,2023,F-Type 3.0T R-Dynamic,397740,398000,397870,"AED 397,740 - 398,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-type/2023/,2026-06-17T05:22:24Z
+jaguar-f-type,2023,F-Type 3.0T First Edition,440475,441000,440738,"AED 440,475 - 441,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-type/2023/,2026-06-17T05:22:24Z
+jaguar-f-type,2023,F-Type 5.0,586845,588000,587422,"AED 586,845 - 588,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-type/2023/,2026-06-17T05:22:24Z
+jaguar-f-type-coupe,2022,2.0T R-Dynamic,282135,283000,282568,"AED 282,135 - 283,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-type-coupe/2022/,2026-06-17T05:22:29Z
+jaguar-f-type-coupe,2022,2.0T First Edition,330120,331000,330560,"AED 330,120 - 331,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-type-coupe/2022/,2026-06-17T05:22:29Z
+jaguar-f-type-coupe,2022,3.0T R-Dynamic,304000,362565,333282,"AED 362,565 - 304,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-type-coupe/2022/,2026-06-17T05:22:29Z
+jaguar-f-type-coupe,2022,3.0T First Edition,409935,410000,409968,"AED 409,935 - 410,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-type-coupe/2022/,2026-06-17T05:22:29Z
+jaguar-f-type-coupe,2022,5.0 F-Type R,553875,554000,553938,"AED 553,875 - 554,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-f-type-coupe/2022/,2026-06-17T05:22:29Z
+jaguar-i-pace,2022,S,328230,330000,329115,"AED 328,230 - 330,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-i-pace/2022/,2026-06-17T05:22:47Z
+jaguar-i-pace,2022,SE,356370,360000,358185,"AED 356,370 - 360,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-i-pace/2022/,2026-06-17T05:22:47Z
+jaguar-i-pace,2022,HSE,400260,401000,400630,"AED 400,260 - 401,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-i-pace/2022/,2026-06-17T05:22:47Z
+jaguar-i-pace,2023,S,328230,330000,329115,"AED 328,230 - 330,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-i-pace/2023/,2026-06-17T05:22:49Z
+jaguar-i-pace,2023,SE,356370,360000,358185,"AED 356,370 - 360,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-i-pace/2023/,2026-06-17T05:22:49Z
+jaguar-i-pace,2023,HSE,400260,401000,400630,"AED 400,260 - 401,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-i-pace/2023/,2026-06-17T05:22:49Z
+jaguar-i-pace,2024,R-Dynamic S 4WD,368760,370000,369380,"AED 368,760 - 370,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-i-pace/2024/,2026-06-17T05:22:51Z
+jaguar-i-pace,2024,R-Dynamic SE 4WD,393855,400000,396928,"AED 393,855 - 400,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-i-pace/2024/,2026-06-17T05:22:51Z
+jaguar-i-pace,2024,R-Dynamic HSE 4WD,450660,452000,451330,"AED 450,660 - 452,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-i-pace/2024/,2026-06-17T05:22:51Z
+jaguar-xe,2022,3.0SC,234000,235000,234500,"AED 234,000 - 235,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-xe/2022/,2026-06-17T05:23:06Z
+jaguar-xe,2023,3.0SC,234000,235000,234500,"AED 234,000 - 235,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-xe/2023/,2026-06-17T05:23:08Z
+jaguar-xf,2022,2.0T P250 R-Dynamic S,242760,243000,242880,"AED 242,760 - 243,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-xf/2022/,2026-06-17T05:23:13Z
+jaguar-xf,2022,2.0T P250 R-Dynamic SE,261030,261500,261265,"AED 261,030 - 261,500",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-xf/2022/,2026-06-17T05:23:13Z
+jaguar-xf,2022,2.0T P250 HSE,271320,272000,271660,"AED 271,320 - 272,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-xf/2022/,2026-06-17T05:23:13Z
+jaguar-xf,2022,2.0T P250 R-Dynamic HSE,279060,279500,279280,"AED 279,060 - 279,500",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-xf/2022/,2026-06-17T05:23:13Z
+jaguar-xf,2022,2.0T P300 HSE,294420,295000,294710,"AED 294,420 - 295,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-xf/2022/,2026-06-17T05:23:13Z
+jaguar-xf,2022,2.0T P300 R-Dynamic SE,308595,309000,308798,"AED 308,595 - 309,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-xf/2022/,2026-06-17T05:23:13Z
+jaguar-xf,2023,2.0T P250 R-Dynamic S,242760,243000,242880,"AED 242,760 - 243,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-xf/2023/,2026-06-17T05:23:15Z
+jaguar-xf,2023,2.0T P250 R-Dynamic SE,261030,261500,261265,"AED 261,030 - 261,500",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-xf/2023/,2026-06-17T05:23:15Z
+jaguar-xf,2023,2.0T P250 HSE,271320,272000,271660,"AED 271,320 - 272,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-xf/2023/,2026-06-17T05:23:15Z
+jaguar-xf,2023,2.0T P250 R-Dynamic HSE,279060,279500,279280,"AED 279,060 - 279,500",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-xf/2023/,2026-06-17T05:23:15Z
+jaguar-xf,2023,2.0T P300 HSE,294420,295000,294710,"AED 294,420 - 295,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-xf/2023/,2026-06-17T05:23:15Z
+jaguar-xf,2023,2.0T P300 R-Dynamic SE,308595,309000,308798,"AED 308,595 - 309,000",AED,https://www.drivearabia.com/carprices/uae/jaguar/jaguar-xf/2023/,2026-06-17T05:23:15Z
