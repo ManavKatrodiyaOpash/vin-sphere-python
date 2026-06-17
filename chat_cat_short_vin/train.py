@@ -58,15 +58,31 @@ def train_model(
     Returns:
         The trained CatBoost model.
     """
-    logger.info(f"Training CatBoost {target_type} model for '{target_name}' on {task_type}...")
+    # Determine iterations and learning rate dynamically based on target cardinality to speed up CPU training
+    if target_type == "classification":
+        num_classes = len(y_train.unique())
+        if num_classes > 50:
+            iterations = 150
+            learning_rate = 0.15
+        elif num_classes > 20:
+            iterations = 250
+            learning_rate = 0.10
+        else:
+            iterations = 500
+            learning_rate = 0.08
+    else:
+        iterations = 800
+        learning_rate = 0.05
+
+    logger.info(f"Training CatBoost {target_type} model for '{target_name}' ({len(y_train.unique()) if target_type == 'classification' else 1} classes) on {task_type} with iterations={iterations}, lr={learning_rate}...")
     early_stopping = 50 if use_early_stopping else None
     
     try:
         if target_type == "classification":
             # CatBoostClassifier for categorical targets
             model = CatBoostClassifier(
-                iterations=800,
-                learning_rate=0.05,
+                iterations=iterations,
+                learning_rate=learning_rate,
                 depth=6,
                 random_seed=42,
                 verbose=100,
@@ -78,8 +94,8 @@ def train_model(
         else:
             # CatBoostRegressor for numeric targets (year, weight)
             model = CatBoostRegressor(
-                iterations=800,
-                learning_rate=0.05,
+                iterations=iterations,
+                learning_rate=learning_rate,
                 depth=6,
                 random_seed=42,
                 verbose=100,
@@ -111,8 +127,8 @@ def train_model(
             logger.warning(f"Failed to train on GPU for '{target_name}' due to error: {e}. Falling back to CPU...")
             if target_type == "classification":
                 model = CatBoostClassifier(
-                    iterations=800,
-                    learning_rate=0.05,
+                    iterations=iterations,
+                    learning_rate=learning_rate,
                     depth=6,
                     random_seed=42,
                     verbose=100,
@@ -123,8 +139,8 @@ def train_model(
                 )
             else:
                 model = CatBoostRegressor(
-                    iterations=800,
-                    learning_rate=0.05,
+                    iterations=iterations,
+                    learning_rate=learning_rate,
                     depth=6,
                     random_seed=42,
                     verbose=100,
