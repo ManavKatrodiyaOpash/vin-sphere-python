@@ -34,7 +34,7 @@ def get_model(target: str, model_dir: str = "chat_cat_short_vin/models") -> Any:
     model_key = f"{safe_name}_model"
     
     if model_key not in _MODEL_CACHE:
-        model_filename = f"{safe_name}_model.joblib"
+        model_filename = f"{safe_name}_model.pkl"
         model_path = os.path.join(model_dir, model_filename)
         try:
             _MODEL_CACHE[model_key] = load_model(model_path)
@@ -43,7 +43,7 @@ def get_model(target: str, model_dir: str = "chat_cat_short_vin/models") -> Any:
             raise FileNotFoundError(f"Model file for {target} is missing or corrupt.")
             
     return _MODEL_CACHE[model_key]
-
+ 
 def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin/models") -> Dict[str, Any]:
     """
     Normalizes the input chassis number, extracts features, and uses the trained
@@ -65,8 +65,9 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin/mo
     df_input = pd.DataFrame({"chassisNumber": [normalized]})
     X_features = extract_features(df_input["chassisNumber"])
     
-    # Ensure categorical features are string type
-    cat_features = [col for col in X_features.columns if col != "serial_number"]
+    # Ensure categorical features are string type (excluding numeric features)
+    numeric_features = ["serial_number", "first_digit_idx", "last_letter_idx", "num_letters", "num_digits"]
+    cat_features = [col for col in X_features.columns if col not in numeric_features]
     for col in cat_features:
         X_features[col] = X_features[col].astype(str)
         

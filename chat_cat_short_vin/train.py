@@ -33,10 +33,13 @@ TARGET_CONFIGS = {
 def train_model(
     X_train: pd.DataFrame,
     y_train: pd.Series,
+    X_val: pd.DataFrame,
+    y_val: pd.Series,
     target_name: str,
     target_type: str,
     cat_features: list,
-    task_type: str = "GPU"
+    task_type: str = "GPU",
+    use_early_stopping: bool = True
 ) -> Any:
     """
     Trains a CatBoost model based on the target type (Classifier or Regressor).
@@ -44,79 +47,103 @@ def train_model(
     Args:
         X_train: Training feature DataFrame.
         y_train: Training target Series.
+        X_val: Validation feature DataFrame for early stopping.
+        y_val: Validation target Series for early stopping.
         target_name: Name of the target variable.
         target_type: Either 'classification' or 'regression'.
         cat_features: List of categorical feature names.
         task_type: Device to train on ('CPU' or 'GPU').
+        use_early_stopping: Whether to use early stopping on the validation set.
         
     Returns:
         The trained CatBoost model.
     """
     logger.info(f"Training CatBoost {target_type} model for '{target_name}' on {task_type}...")
+    early_stopping = 100 if use_early_stopping else None
     
     try:
         if target_type == "classification":
             # CatBoostClassifier for categorical targets
             model = CatBoostClassifier(
-                iterations=600,
-                learning_rate=0.08,
-                depth=6,
+                iterations=1200,
+                learning_rate=0.05,
+                depth=7,
                 random_seed=42,
                 verbose=100,
-                early_stopping_rounds=50,
+                early_stopping_rounds=early_stopping,
+                max_ctr_complexity=1,
                 task_type=task_type
             )
         else:
             # CatBoostRegressor for numeric targets (year, weight)
             model = CatBoostRegressor(
-                iterations=600,
-                learning_rate=0.08,
-                depth=6,
+                iterations=1200,
+                learning_rate=0.05,
+                depth=7,
                 random_seed=42,
                 verbose=100,
-                early_stopping_rounds=50,
+                early_stopping_rounds=early_stopping,
+                max_ctr_complexity=1,
                 task_type=task_type
             )
             
-        # Fit model with categorical features specified
-        model.fit(
-            X_train,
-            y_train,
-            cat_features=cat_features,
-            eval_set=(X_train, y_train),  # CatBoost uses this for early stopping
-            verbose=100
-        )
+        # Fit model
+        if use_early_stopping:
+            model.fit(
+                X_train,
+                y_train,
+                cat_features=cat_features,
+                eval_set=(X_val, y_val),
+                verbose=100
+            )
+        else:
+            model.fit(
+                X_train,
+                y_train,
+                cat_features=cat_features,
+                verbose=100
+            )
         return model
     except Exception as e:
         if task_type == "GPU":
             logger.warning(f"Failed to train on GPU for '{target_name}' due to error: {e}. Falling back to CPU...")
             if target_type == "classification":
                 model = CatBoostClassifier(
-                    iterations=600,
-                    learning_rate=0.08,
-                    depth=6,
+                    iterations=1200,
+                    learning_rate=0.05,
+                    depth=7,
                     random_seed=42,
                     verbose=100,
-                    early_stopping_rounds=50,
+                    early_stopping_rounds=early_stopping,
+                    max_ctr_complexity=1,
                     task_type="CPU"
                 )
             else:
                 model = CatBoostRegressor(
-                    iterations=600,
-                    learning_rate=0.08,
-                    depth=6,
+                    iterations=1200,
+                    learning_rate=0.05,
+                    depth=7,
                     random_seed=42,
                     verbose=100,
-                    early_stopping_rounds=50,
+                    early_stopping_rounds=early_stopping,
+                    max_ctr_complexity=1,
                     task_type="CPU"
                 )
-            model.fit(
-                X_train,
-                y_train,
-                cat_features=cat_features,
-                eval_set=(X_train, y_train),
-                verbose=100
-            )
+            if use_early_stopping:
+                model.fit(
+                    X_train,
+                    y_train,
+                    cat_features=cat_features,
+                    eval_set=(X_val, y_val),
+                    verbose=100
+                )
+            else:
+                model.fit(
+                    X_train,
+                    y_train,
+                    cat_features=cat_features,
+                    verbose=100
+                )
             return model
         else:
             raise e
@@ -162,8 +189,10 @@ def main():
     # We do this once to avoid redundant computations
     X_all = extract_features(df["chassisNumber"])
     
-    # Standardize types of features for CatBoost
-    cat_features = [col for col in X_all.columns if col != "serial_number"]
+    # Standardize types of features for CatBoost (excluding numeric features)
+    numeric_features = ["serial_number", "first_digit_idx", "last_letter_idx", "num_letters", "num_digits"]
+    cat_features = [col for col in X_all.columns if col not in numeric_features]
+    
     for col in cat_features:
         X_all[col] = X_all[col].astype(str)
         
@@ -190,9 +219,39 @@ def main():
             X_target, y_target, test_size=0.2, random_state=42
         )
         
+        # Split train into train_fit and val for early stopping (proper validation split)
+        X_train_fit, X_val, y_train_fit, y_val = train_test_split(
+            X_train, y_train, test_size=0.15, random_state=42
+        )
+        
+        # Class alignment for classification targets
+        use_early_stopping = True
+        if target_type == "classification":
+            train_classes = set(y_train_fit)
+            val_classes = set(y_val)
+            missing_in_train = val_classes - train_classes
+            if missing_in_train:
+                # Find indices in validation set that have these missing classes
+                val_indices_to_move = y_val[y_val.isin(missing_in_train)].index
+                X_train_fit = pd.concat([X_train_fit, X_val.loc[val_indices_to_move]])
+                y_train_fit = pd.concat([y_train_fit, y_val.loc[val_indices_to_move]])
+                X_val = X_val.drop(val_indices_to_move)
+                y_val = y_val.drop(val_indices_to_move)
+            
+            if len(y_val) == 0:
+                X_val = X_train_fit
+                y_val = y_train_fit
+                use_early_stopping = False
+        
         # 5. Train Model
         try:
-            model = train_model(X_train, y_train, target_key, target_type, cat_features, task_type=args.device)
+            model = train_model(
+                X_train_fit, y_train_fit,
+                X_val, y_val,
+                target_key, target_type,
+                cat_features, task_type=args.device,
+                use_early_stopping=use_early_stopping
+            )
         except Exception as e:
             logger.error(f"Failed to train model for '{target_key}': {e}")
             continue
@@ -210,10 +269,10 @@ def main():
         else:
             evaluate_regression(y_test, y_pred, target_key)
             
-        # 7. Save model using joblib
+        # 7. Save model using pickle
         # Normalize target name for filename
         safe_target_name = target_key.replace(" ", "_")
-        model_filename = f"{safe_target_name}_model.joblib"
+        model_filename = f"{safe_target_name}_model.pkl"
         model_path = os.path.join(args.model_dir, model_filename)
         
         try:
