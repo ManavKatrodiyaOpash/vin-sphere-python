@@ -8,5 +8,4 @@ __pycache__
 .idea
 catboost_info
 .venv
-models
 catboost_info
