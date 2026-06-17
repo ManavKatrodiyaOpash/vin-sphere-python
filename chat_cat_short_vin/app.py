@@ -74,10 +74,10 @@ if st.button("Decode", use_container_width=True):
                     ("Trim", "trim"),
                     ("Body Type", "body_type"),
                     ("Model Year", "year"),
-                    ("Exterior Color", "color"),
                     ("Weight (KG)", "weight"),
                     ("Regional Specs", "regional specs"),
                     ("Origin", "origin"),
+                    ("Color", "color"),
                 ]:
                     val = result.get(key)
                     conf = conf_dict.get(key, 0.0)
