@@ -1,0 +1,50 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+bentley-bentayga,2022,4.0TC V8 Bentayga,850000,1800000,1325000,"AED 850,000 - 1,800,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-bentayga/2022/,2026-06-17T05:20:57Z
+bentley-bentayga,2022,6.0TC W12 Bentayga Speed,955000,2000000,1477500,"AED 955,000 - 2,000,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-bentayga/2022/,2026-06-17T05:20:57Z
+bentley-bentayga,2023,4.0TC V8 Bentayga,850000,1800000,1325000,"AED 850,000 - 1,800,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-bentayga/2023/,2026-06-17T05:20:59Z
+bentley-bentayga,2023,6.0TC W12 Bentayga Speed,955000,2000000,1477500,"AED 955,000 - 2,000,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-bentayga/2023/,2026-06-17T05:20:59Z
+bentley-bentayga,2024,4.0TC V8 Bentayga,850000,1800000,1325000,"AED 850,000 - 1,800,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-bentayga/2024/,2026-06-17T05:21:01Z
+bentley-bentayga,2024,6.0TC W12 Bentayga Speed,955000,2000000,1477500,"AED 955,000 - 2,000,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-bentayga/2024/,2026-06-17T05:21:01Z
+bentley-bentayga,2025,4.0TC V8 Bentayga 4WD,850000,1800000,1325000,"AED 850,000 - 1,800,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-bentayga/2025/,2026-06-17T05:21:03Z
+bentley-bentayga,2025,6.0TC W12 Bentayga Speed 4WD,955000,2000000,1477500,"AED 955,000 - 2,000,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-bentayga/2025/,2026-06-17T05:21:03Z
+bentley-bentayga,2026,4.0TC V8 Bentayga 4WD,850000,1800000,1325000,"AED 850,000 - 1,800,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-bentayga/2026/,2026-06-17T05:21:05Z
+bentley-bentayga,2026,6.0TC W12 Bentayga Speed 4WD,955000,2000000,1477500,"AED 955,000 - 2,000,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-bentayga/2026/,2026-06-17T05:21:05Z
+bentley-continental-gt,2022,4.0TC V8 Continental GT S,800000,1000000,900000,"AED 800,000 - 1,000,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gt/2022/,2026-06-17T05:21:26Z
+bentley-continental-gt,2022,6.0TC W12 Continental GT Speed,900000,1100000,1000000,"AED 900,000 - 1,100,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gt/2022/,2026-06-17T05:21:26Z
+bentley-continental-gt,2023,4.0TC V8 Continental GT S,800000,1000000,900000,"AED 800,000 - 1,000,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gt/2023/,2026-06-17T05:21:28Z
+bentley-continental-gt,2023,6.0TC W12 Continental GT Speed,900000,1100000,1000000,"AED 900,000 - 1,100,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gt/2023/,2026-06-17T05:21:28Z
+bentley-continental-gt,2024,4.0TC V8 Continental GT S,800000,1000000,900000,"AED 800,000 - 1,000,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gt/2024/,2026-06-17T05:21:30Z
+bentley-continental-gt,2024,6.0TC W12 Continental GT Speed,900000,1100000,1000000,"AED 900,000 - 1,100,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gt/2024/,2026-06-17T05:21:30Z
+bentley-continental-gt,2025,4.0TC V8 Continental GT S,800000,1000000,900000,"AED 800,000 - 1,000,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gt/2025/,2026-06-17T05:21:32Z
+bentley-continental-gt,2025,6.0TC W12 Continental GT Speed,900000,1100000,1000000,"AED 900,000 - 1,100,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gt/2025/,2026-06-17T05:21:32Z
+bentley-continental-gt,2026,4.0TC V8 Continental GT S,800000,1000000,900000,"AED 800,000 - 1,000,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gt/2026/,2026-06-17T05:21:34Z
+bentley-continental-gt,2026,6.0TC W12 Continental GT Speed,900000,1100000,1000000,"AED 900,000 - 1,100,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gt/2026/,2026-06-17T05:21:34Z
+bentley-continental-gtc,2022,6.0TC W12 GT,900000,1100000,1000000,"AED 900,000 - 1,100,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gtc/2022/,2026-06-17T05:21:36Z
+bentley-continental-gtc,2023,4.0TC V8 Continental GT S,800000,1000000,900000,"AED 800,000 - 1,000,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gtc/2023/,2026-06-17T05:21:38Z
+bentley-continental-gtc,2023,6.0TC W12 GT,900000,1100000,1000000,"AED 900,000 - 1,100,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gtc/2023/,2026-06-17T05:21:38Z
+bentley-continental-gtc,2024,4.0TC V8 Continental GT S,800000,1000000,900000,"AED 800,000 - 1,000,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gtc/2024/,2026-06-17T05:21:40Z
+bentley-continental-gtc,2024,6.0TC W12 GT,900000,1100000,1000000,"AED 900,000 - 1,100,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gtc/2024/,2026-06-17T05:21:40Z
+bentley-continental-gtc,2025,4.0TC V8 Continental GT S,800000,1000000,900000,"AED 800,000 - 1,000,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gtc/2025/,2026-06-17T05:21:42Z
+bentley-continental-gtc,2025,6.0TC W12 GT,900000,1100000,1000000,"AED 900,000 - 1,100,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gtc/2025/,2026-06-17T05:21:42Z
+bentley-continental-gtc,2026,4.0TC V8 Continental GT S,800000,1000000,900000,"AED 800,000 - 1,000,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gtc/2026/,2026-06-17T05:21:44Z
+bentley-continental-gtc,2026,6.0TC W12 GT,900000,1100000,1000000,"AED 900,000 - 1,100,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-continental-gtc/2026/,2026-06-17T05:21:44Z
+bentley-flying-spur,2022,4.0TC V8 Flying Spur,850000,950000,900000,"AED 850,000 - 950,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2022/,2026-06-17T05:21:46Z
+bentley-flying-spur,2022,4.0TC V8 Flying Spur Azure,1000000,1100000,1050000,"AED 1,000,000 - 1,100,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2022/,2026-06-17T05:21:46Z
+bentley-flying-spur,2022,6.0TC W12 Flying Spur Speed,1069000,1200000,1134500,"AED 1,069,000 - 1,200,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2022/,2026-06-17T05:21:46Z
+bentley-flying-spur,2022,6.0TC W12 Flying Spur Mulliner,1300000,1400000,1350000,"AED 1,300,000 - 1,400,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2022/,2026-06-17T05:21:46Z
+bentley-flying-spur,2023,4.0TC V8 Flying Spur,850000,950000,900000,"AED 850,000 - 950,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2023/,2026-06-17T05:21:47Z
+bentley-flying-spur,2023,4.0TC V8 Flying Spur Azure,1000000,1100000,1050000,"AED 1,000,000 - 1,100,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2023/,2026-06-17T05:21:47Z
+bentley-flying-spur,2023,6.0TC W12 Flying Spur Speed,1069000,1200000,1134500,"AED 1,069,000 - 1,200,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2023/,2026-06-17T05:21:47Z
+bentley-flying-spur,2023,6.0TC W12 Flying Spur Mulliner,1300000,1400000,1350000,"AED 1,300,000 - 1,400,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2023/,2026-06-17T05:21:47Z
+bentley-flying-spur,2024,4.0TC V8 Flying Spur,850000,950000,900000,"AED 850,000 - 950,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2024/,2026-06-17T05:21:49Z
+bentley-flying-spur,2024,4.0TC V8 Flying Spur Azure,1000000,1100000,1050000,"AED 1,000,000 - 1,100,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2024/,2026-06-17T05:21:49Z
+bentley-flying-spur,2024,6.0TC W12 Flying Spur Speed,1069000,1200000,1134500,"AED 1,069,000 - 1,200,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2024/,2026-06-17T05:21:49Z
+bentley-flying-spur,2024,6.0TC W12 Flying Spur Mulliner,1300000,1400000,1350000,"AED 1,300,000 - 1,400,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2024/,2026-06-17T05:21:49Z
+bentley-flying-spur,2025,4.0TC V8 Flying Spur,850000,950000,900000,"AED 850,000 - 950,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2025/,2026-06-17T05:21:51Z
+bentley-flying-spur,2025,4.0TC V8 Flying Spur Azure,1000000,1100000,1050000,"AED 1,000,000 - 1,100,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2025/,2026-06-17T05:21:51Z
+bentley-flying-spur,2025,6.0TC W12 Flying Spur Speed,1069000,1200000,1134500,"AED 1,069,000 - 1,200,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2025/,2026-06-17T05:21:51Z
+bentley-flying-spur,2025,6.0TC W12 Flying Spur Mulliner,1300000,1400000,1350000,"AED 1,300,000 - 1,400,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2025/,2026-06-17T05:21:51Z
+bentley-flying-spur,2026,4.0TC V8 Flying Spur,850000,950000,900000,"AED 850,000 - 950,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2026/,2026-06-17T05:21:53Z
+bentley-flying-spur,2026,4.0TC V8 Flying Spur Azure,1000000,1100000,1050000,"AED 1,000,000 - 1,100,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2026/,2026-06-17T05:21:53Z
+bentley-flying-spur,2026,6.0TC W12 Flying Spur Speed,1069000,1200000,1134500,"AED 1,069,000 - 1,200,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2026/,2026-06-17T05:21:53Z
+bentley-flying-spur,2026,6.0TC W12 Flying Spur Mulliner,1300000,1400000,1350000,"AED 1,300,000 - 1,400,000",AED,https://www.drivearabia.com/carprices/uae/bentley/bentley-flying-spur/2026/,2026-06-17T05:21:53Z

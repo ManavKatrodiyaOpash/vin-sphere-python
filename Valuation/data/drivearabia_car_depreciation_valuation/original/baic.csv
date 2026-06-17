@@ -1,0 +1,55 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+baic-bj30,2025,1.5T I4 LV2 FWD,97800,98000,97900,"AED 97,800 - 98,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj30/2025/,2026-06-17T05:24:15Z
+baic-bj30,2025,1.5T I4 LV3 FWD,107100,108000,107550,"AED 107,100 - 108,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj30/2025/,2026-06-17T05:24:15Z
+baic-bj30,2025,1.5T I4 LV5 4WD,119700,120000,119850,"AED 119,700 - 120,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj30/2025/,2026-06-17T05:24:15Z
+baic-bj30,2026,1.5T I4 LV2 FWD,97800,98000,97900,"AED 97,800 - 98,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj30/2026/,2026-06-17T05:24:17Z
+baic-bj30,2026,1.5T I4 LV3 FWD,116900,117000,116950,"AED 116,900 - 117,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj30/2026/,2026-06-17T05:24:17Z
+baic-bj30,2026,1.5T I4 LV5 4WD,125900,126000,125950,"AED 125,900 - 126,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj30/2026/,2026-06-17T05:24:17Z
+baic-bj40,2022,2.3TC I4 Premium,118000,121000,119500,"AED 118,000 - 121,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj40/2022/,2026-06-17T05:24:19Z
+baic-bj40,2022,2.3TC I4 Flagship,135000,138000,136500,"AED 135,000 - 138,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj40/2022/,2026-06-17T05:24:19Z
+baic-bj40,2022,2.3TC I4 Champion,145000,148000,146500,"AED 145,000 - 148,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj40/2022/,2026-06-17T05:24:19Z
+baic-bj40,2023,2.3TC I4 Premium,118000,121000,119500,"AED 118,000 - 121,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj40/2023/,2026-06-17T05:24:21Z
+baic-bj40,2023,2.3TC I4 Flagship,135000,138000,136500,"AED 135,000 - 138,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj40/2023/,2026-06-17T05:24:21Z
+baic-bj40,2023,2.3TC I4 Champion,145000,148000,146500,"AED 145,000 - 148,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj40/2023/,2026-06-17T05:24:21Z
+baic-bj40,2024,2.3TC I4 Premium 4WD,118000,121000,119500,"AED 118,000 - 121,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj40/2024/,2026-06-17T05:24:23Z
+baic-bj40,2024,2.3TC I4 Flagship 4WD,135000,138000,136500,"AED 135,000 - 138,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj40/2024/,2026-06-17T05:24:23Z
+baic-bj40,2024,2.3TC I4 Champion 4WD,145000,148000,146500,"AED 145,000 - 148,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj40/2024/,2026-06-17T05:24:23Z
+baic-bj40,2025,2.3TC I4 Premium 4WD,118000,121000,119500,"AED 118,000 - 121,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj40/2025/,2026-06-17T05:24:25Z
+baic-bj40,2025,2.3TC I4 Flagship 4WD,135000,138000,136500,"AED 135,000 - 138,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj40/2025/,2026-06-17T05:24:25Z
+baic-bj40,2025,2.3TC I4 Champion 4WD,145000,148000,146500,"AED 145,000 - 148,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj40/2025/,2026-06-17T05:24:25Z
+baic-bj40,2026,2.0TC I4 BJ40 C LUX 4WD,119000,126000,122500,"AED 119,000 - 126,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj40/2026/,2026-06-17T05:24:26Z
+baic-bj40,2026,2.0TC I4 BJ40 C HON 4WD,129000,136000,132500,"AED 129,000 - 136,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj40/2026/,2026-06-17T05:24:26Z
+baic-bj60,2024,2.3TC I4 LUX 4WD,164850,165000,164925,"AED 164,850 - 165,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj60/2024/,2026-06-17T05:24:30Z
+baic-bj60,2024,2.3TC I4 EXC 4WD,172200,175000,173600,"AED 172,200 - 175,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj60/2024/,2026-06-17T05:24:30Z
+baic-bj60,2024,2.3TC I4 HON 4WD,177450,178000,177725,"AED 177,450 - 178,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj60/2024/,2026-06-17T05:24:30Z
+baic-bj60,2025,2.0TC I4 HON 4WD,177450,178000,177725,"AED 177,450 - 178,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj60/2025/,2026-06-17T05:24:32Z
+baic-bj60,2026,2.0TC I4 Flagship 4WD,169000,178000,173500,"AED 169,000 - 178,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj60/2026/,2026-06-17T05:24:34Z
+baic-bj80,2024,3.0TC V6 Zomol 4WD,268500,275000,271750,"AED 268,500 - 275,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj80/2024/,2026-06-17T05:24:38Z
+baic-bj80,2025,3.0TC V6 Zomol 4WD,268500,275000,271750,"AED 268,500 - 275,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-bj80/2025/,2026-06-17T05:24:40Z
+baic-u5-plus,2024,1.5TC I4 Luxury FWD,49500,52000,50750,"AED 49,500 - 52,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-u5-plus/2024/,2026-06-17T05:24:52Z
+baic-u5-plus,2024,1.5TC I4 Honor FWD,56000,59000,57500,"AED 56,000 - 59,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-u5-plus/2024/,2026-06-17T05:24:52Z
+baic-u5-plus,2025,1.5TC I4 Luxury FWD,49500,52000,50750,"AED 49,500 - 52,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-u5-plus/2025/,2026-06-17T05:24:53Z
+baic-u5-plus,2025,1.5TC I4 Honor FWD,56000,59000,57500,"AED 56,000 - 59,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-u5-plus/2025/,2026-06-17T05:24:53Z
+baic-u5-plus,2026,1.5TC I4 Luxury FWD,49500,52000,50750,"AED 49,500 - 52,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-u5-plus/2026/,2026-06-17T05:24:55Z
+baic-u5-plus,2026,1.5TC I4 Honor FWD,56000,59000,57500,"AED 56,000 - 59,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-u5-plus/2026/,2026-06-17T05:24:55Z
+baic-x35,2022,1.5 I4 Luxury,52000,56000,54000,"AED 52,000 - 56,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x35/2022/,2026-06-17T05:24:57Z
+baic-x35,2022,1.5 I4 Elite,62000,65000,63500,"AED 62,000 - 65,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x35/2022/,2026-06-17T05:24:57Z
+baic-x35,2023,1.5 I4 Luxury,52000,56000,54000,"AED 52,000 - 56,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x35/2023/,2026-06-17T05:24:59Z
+baic-x35,2023,1.5 I4 Elite,62000,65000,63500,"AED 62,000 - 65,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x35/2023/,2026-06-17T05:24:59Z
+baic-x35,2024,1.5 I4 Luxury,52000,56000,54000,"AED 52,000 - 56,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x35/2024/,2026-06-17T05:25:00Z
+baic-x35,2024,1.5 I4 Elite,62000,65000,63500,"AED 62,000 - 65,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x35/2024/,2026-06-17T05:25:00Z
+baic-x35,2025,1.5 I4 Luxury FWD,52000,56000,54000,"AED 52,000 - 56,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x35/2025/,2026-06-17T05:25:02Z
+baic-x35,2025,1.5 I4 Elite FWD,62000,65000,63500,"AED 62,000 - 65,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x35/2025/,2026-06-17T05:25:02Z
+baic-x35,2026,1.5 I4 Luxury FWD,49500,52000,50750,"AED 49,500 - 52,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x35/2026/,2026-06-17T05:25:04Z
+baic-x35,2026,1.5 I4 Elite FWD,56900,60000,58450,"AED 56,900 - 60,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x35/2026/,2026-06-17T05:25:04Z
+baic-x55,2024,1.5TC I4 LUX FWD,91350,92000,91675,"AED 91,350 - 92,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x55/2024/,2026-06-17T05:25:08Z
+baic-x55,2024,1.5TC I4 HON FWD,104500,105000,104750,"AED 104,500 - 105,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x55/2024/,2026-06-17T05:25:08Z
+baic-x55,2025,1.5TC I4 LUX FWD,91350,92000,91675,"AED 91,350 - 92,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x55/2025/,2026-06-17T05:25:10Z
+baic-x55,2025,1.5TC I4 HON FWD,101850,102000,101925,"AED 101,850 - 102,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x55/2025/,2026-06-17T05:25:10Z
+baic-x55,2026,1.5TC I4 LUX FWD,,,86100,"AED 86,100",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x55/2026/,2026-06-17T05:25:12Z
+baic-x55,2026,1.5TC I4 HON FWD,,,100000,"AED 100,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x55/2026/,2026-06-17T05:25:12Z
+baic-x7,2022,1.5TC I4 Premium,115750,117000,116375,"AED 115,750 - 117,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x7/2022/,2026-06-17T05:25:14Z
+baic-x7,2023,1.5TC I4 Premium,115750,117000,116375,"AED 115,750 - 117,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x7/2023/,2026-06-17T05:25:15Z
+baic-x7,2024,1.5TC I4 Honor FWD,124950,125000,124975,"AED 124,950 - 125,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x7/2024/,2026-06-17T05:25:17Z
+baic-x7,2026,1.5TC I4 Honor FWD,105000,111000,108000,"AED 105,000 - 111,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x7/2026/,2026-06-17T05:25:20Z
+baic-x7,2026,1.5TC I4 Honor Premium FWD,109000,115000,112000,"AED 109,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/baic/baic-x7/2026/,2026-06-17T05:25:20Z
