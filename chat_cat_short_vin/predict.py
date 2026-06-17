@@ -76,6 +76,10 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin/mo
     
     # 3. Perform prediction for each target
     for target in TARGETS:
+        if target == "color":
+            predictions["color"] = "UNKNOWN"
+            confidences["color"] = 0.0
+            continue
         try:
             model = get_model(target, model_dir)
             pred = model.predict(X_features)
