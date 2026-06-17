@@ -2,126 +2,149 @@ import os
 import json
 import logging
 import argparse
-import pandas as pd
 import numpy as np
-from typing import Dict, Any, Tuple
+import pandas as pd
+from typing import Dict, Any
 
-from feature_engineering import extract_vin_features
-from model_utils import load_fallback_model
+from feature_engineering import normalize_chassis, extract_features
+from model_utils import load_model
 
 # Configure logging
-logging.basicConfig(level=logging.WARNING, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
-# Lazy loader for fallback model to speed up batch predictions
-_fallback_model = None
+# Global cache to store loaded models to speed up batch predictions
+_MODEL_CACHE: Dict[str, Any] = {}
 
-def get_resources(model_dir: str = "models") -> dict:
-    """Loads the fallback lookup model into memory, caching it for subsequent requests."""
-    global _fallback_model
-    if _fallback_model is None:
-        _fallback_model = load_fallback_model(model_dir)
-    return _fallback_model
+# Target JSON keys mapped to expected safe target names used in filenames
+TARGETS = ["make", "model", "trim", "body_type", "year", "color", "weight", "regional_specs", "origin"]
 
-def decode_vin(vin: str, model_dir: str = "models") -> Dict[str, Any]:
-    """Extracts features, runs inference, and returns predicted vehicle attributes with confidence scores."""
-    vin_clean = vin.upper().strip()
-    if len(vin_clean) != 17:
-        raise ValueError(f"Invalid VIN length: {len(vin_clean)}. Expected exactly 17 characters.")
+def get_model(target: str, model_dir: str = "chat_cat_short_vin/models") -> Any:
+    """
+    Loads and caches the model for a given target.
     
-    # 1. Load fallback model
-    fallback_model = get_resources(model_dir)
+    Args:
+        target: The target attribute name.
+        model_dir: Directory containing model files.
+        
+    Returns:
+        The loaded model object.
+    """
+    global _MODEL_CACHE
+    safe_name = target.replace(" ", "_")
+    model_key = f"{safe_name}_model"
     
-    # 2. Extract features (create a single-row DataFrame)
-    df_temp = pd.DataFrame({"VIN": [vin_clean]})
-    X_features = extract_vin_features(df_temp, "VIN")
-    row = X_features.iloc[0]
+    if model_key not in _MODEL_CACHE:
+        model_filename = f"{safe_name}_model.joblib"
+        model_path = os.path.join(model_dir, model_filename)
+        try:
+            _MODEL_CACHE[model_key] = load_model(model_path)
+        except Exception as e:
+            logger.error(f"Failed to load model for {target} from {model_path}: {e}")
+            raise FileNotFoundError(f"Model file for {target} is missing or corrupt.")
+            
+    return _MODEL_CACHE[model_key]
+
+def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin/models") -> Dict[str, Any]:
+    """
+    Normalizes the input chassis number, extracts features, and uses the trained
+    CatBoost models to predict vehicle attributes.
     
-    predictions = {}
-    confidences = []
-    individual_confidences = {}
+    Args:
+        chassis_number: 10-character raw short chassis number.
+        model_dir: Directory where the models are saved.
+        
+    Returns:
+        A dictionary containing the predictions in the specified format.
+    """
+    # 1. Normalize chassis number
+    normalized = normalize_chassis(chassis_number)
+    if not normalized:
+        raise ValueError("Invalid chassis number provided.")
+        
+    # 2. Extract features (returns a 1-row DataFrame)
+    df_input = pd.DataFrame({"chassisNumber": [normalized]})
+    X_features = extract_features(df_input["chassisNumber"])
+    
+    # Ensure categorical features are string type
+    cat_features = [col for col in X_features.columns if col != "serial_number"]
+    for col in cat_features:
+        X_features[col] = X_features[col].astype(str)
+        
+    predictions: Dict[str, Any] = {}
     
     # 3. Perform prediction for each target
-    targets = ["MAKE", "MODEL", "TRIM", "BODY_TYPE", "YEAR", "CYLINDERS", "ORIGIN", "NO_OF_PASSENGERS", "WEIGHT", "REGIONAL_SPEC", "COLOR"]
-    
-    # Target hierarchies for backoff lookups
-    BACKOFF_HIERARCHY = {
-        "MAKE": [["WMI"]],
-        "MODEL": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
-        "TRIM": [["WMI", "VDS", "YEAR_CODE", "PLANT_CODE"], ["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
-        "BODY_TYPE": [["WMI", "VDS"], ["WMI"]],
-        "YEAR": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "YEAR_CODE"], ["YEAR_CODE"]],
-        "CYLINDERS": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
-        "ORIGIN": [["WMI", "VDS"], ["WMI"]],
-        "NO_OF_PASSENGERS": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
-        "WEIGHT": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
-        "REGIONAL_SPEC": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]],
-        "COLOR": [["WMI", "VDS", "YEAR_CODE"], ["WMI", "VDS"], ["WMI"]]
-    }
-    
-    for target in targets:
-        target_model = fallback_model[target]
-        feature_levels = BACKOFF_HIERARCHY[target]
-        
-        label = None
-        confidence = 0.0
-        
-        # Check hierarchy levels in order
-        for level_idx, features in enumerate(feature_levels):
-            key = tuple(row[f] for f in features)
-            if len(key) == 1:
-                key = key[0]
-                
-            lookup_dict = target_model[level_idx]
-            if key in lookup_dict:
-                label, confidence = lookup_dict[key]
-                break
-                
-        if label is None:
-            # Fall back to default
-            label, confidence = target_model["_default"]
+    for target in TARGETS:
+        try:
+            model = get_model(target, model_dir)
+            pred = model.predict(X_features)
             
-        # Boost confidence to be 98% and above (scale to [0.98, 1.0])
-        boosted_confidence = 0.98 + 0.02 * confidence
-        predictions[target.lower()] = label
-        individual_confidences[target.lower()] = round(boosted_confidence, 4)
-        confidences.append(boosted_confidence)
-        
-    # Calculate average confidence across all predictions
-    avg_confidence = float(np.mean(confidences))
-    
-    # Format output matching specification
+            # Extract scalar from numpy array returned by CatBoost
+            if isinstance(pred, np.ndarray):
+                if len(pred.shape) > 1 and pred.shape[1] == 1:
+                    val = pred[0][0]
+                else:
+                    val = pred[0]
+            else:
+                val = pred
+                
+            # Process regression outputs (cast to standard Python types)
+            if target == "year":
+                predictions["year"] = int(np.round(float(val)))
+            elif target == "weight":
+                predictions["weight"] = float(np.round(float(val), 2))
+            else:
+                # Replace underscores/hyphens if needed, or leave as string
+                predictions[target] = str(val)
+                
+        except Exception as e:
+            logger.warning(f"Error predicting target '{target}': {e}. Setting to default.")
+            if target == "year":
+                predictions["year"] = 0
+            elif target == "weight":
+                predictions["weight"] = 0.0
+            else:
+                predictions[target] = "UNKNOWN"
+                
+    # Map 'regional_specs' internal target to the user's requested key 'regional specs'
     output = {
-        "vin": vin_clean,
-        "year": predictions["year"],
-        "make": predictions["make"],
-        "model": predictions["model"],
-        "trim": predictions["trim"],
-        "body_type": predictions["body_type"],
-        "regional_spec": predictions["regional_spec"],
-        "cylinders": predictions["cylinders"],
-        "origin": predictions["origin"],
-        "no_of_passengers": predictions["no_of_passengers"],
-        "weight": predictions["weight"],
-        "color": predictions["color"],
-        "confidence": round(avg_confidence, 4),
-        "attribute_confidences": individual_confidences
+        "make": predictions.get("make", "UNKNOWN"),
+        "model": predictions.get("model", "UNKNOWN"),
+        "trim": predictions.get("trim", "UNKNOWN"),
+        "body_type": predictions.get("body_type", "UNKNOWN"),
+        "year": predictions.get("year", 0),
+        "color": predictions.get("color", "UNKNOWN"),
+        "weight": predictions.get("weight", 0.0),
+        "regional specs": predictions.get("regional_specs", "UNKNOWN"),
+        "origin": predictions.get("origin", "UNKNOWN")
     }
     
     return output
 
 def main():
-    parser = argparse.ArgumentParser(description="UAE VIN Intelligence System - Inference CLI")
-    parser.add_argument("--vin", type=str, required=True, help="17-character vehicle VIN string")
-    parser.add_argument("--model_dir", type=str, default="models", help="Directory where models are stored")
+    parser = argparse.ArgumentParser(description="Japanese Import 10-Character Short Chassis Model Inference Tool")
+    parser.add_argument(
+        "--chassis",
+        type=str,
+        required=True,
+        help="10-character short chassis number string to decode."
+    )
+    parser.add_argument(
+        "--model_dir",
+        type=str,
+        default="chat_cat_short_vin/models",
+        help="Directory where models are saved."
+    )
     
     args = parser.parse_args()
     
     try:
-        result = decode_vin(args.vin, args.model_dir)
-        print(json.dumps(result, indent=2))
+        result = predict_vehicle(args.chassis, args.model_dir)
+        print(json.dumps(result, indent=4))
     except Exception as e:
-        print(json.dumps({"error": str(e)}, indent=2))
+        logger.error(f"Inference failed: {e}")
+        print(json.dumps({"error": str(e)}, indent=4))
 
 if __name__ == "__main__":
+    # Ensure warnings or info level prints to console when running as CLI
+    logging.basicConfig(level=logging.WARNING)
     main()
