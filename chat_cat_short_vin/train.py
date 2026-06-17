@@ -62,20 +62,20 @@ def train_model(
     if target_type == "classification":
         num_classes = len(y_train.unique())
         if num_classes > 50:
-            iterations = 150
+            iterations = 30
             learning_rate = 0.15
         elif num_classes > 20:
-            iterations = 250
+            iterations = 40
             learning_rate = 0.10
         else:
-            iterations = 500
+            iterations = 50
             learning_rate = 0.08
     else:
-        iterations = 800
+        iterations = 60
         learning_rate = 0.05
 
     logger.info(f"Training CatBoost {target_type} model for '{target_name}' ({len(y_train.unique()) if target_type == 'classification' else 1} classes) on {task_type} with iterations={iterations}, lr={learning_rate}...")
-    early_stopping = 50 if use_early_stopping else None
+    early_stopping = 15 if use_early_stopping else None
     
     try:
         if target_type == "classification":

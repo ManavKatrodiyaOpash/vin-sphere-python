@@ -72,6 +72,7 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin/mo
         X_features[col] = X_features[col].astype(str)
         
     predictions: Dict[str, Any] = {}
+    confidences: Dict[str, float] = {}
     
     # 3. Perform prediction for each target
     for target in TARGETS:
@@ -91,20 +92,32 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin/mo
             # Process regression outputs (cast to standard Python types)
             if target == "year":
                 predictions["year"] = int(np.round(float(val)))
+                confidences["year"] = 1.0
             elif target == "weight":
                 predictions["weight"] = float(np.round(float(val), 2))
+                confidences["weight"] = 1.0
             else:
                 # Replace underscores/hyphens if needed, or leave as string
                 predictions[target] = str(val)
+                # Compute probability for classification targets
+                try:
+                    probs = model.predict_proba(X_features)
+                    conf = float(np.max(probs))
+                    confidences[target] = conf
+                except Exception:
+                    confidences[target] = 1.0
                 
         except Exception as e:
             logger.warning(f"Error predicting target '{target}': {e}. Setting to default.")
             if target == "year":
                 predictions["year"] = 0
+                confidences["year"] = 0.0
             elif target == "weight":
                 predictions["weight"] = 0.0
+                confidences["weight"] = 0.0
             else:
                 predictions[target] = "UNKNOWN"
+                confidences[target] = 0.0
                 
     # Map 'regional_specs' internal target to the user's requested key 'regional specs'
     output = {
@@ -116,7 +129,18 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin/mo
         "color": predictions.get("color", "UNKNOWN"),
         "weight": predictions.get("weight", 0.0),
         "regional specs": predictions.get("regional_specs", "UNKNOWN"),
-        "origin": predictions.get("origin", "UNKNOWN")
+        "origin": predictions.get("origin", "UNKNOWN"),
+        "attribute_confidences": {
+            "make": confidences.get("make", 0.0),
+            "model": confidences.get("model", 0.0),
+            "trim": confidences.get("trim", 0.0),
+            "body_type": confidences.get("body_type", 0.0),
+            "year": confidences.get("year", 0.0),
+            "color": confidences.get("color", 0.0),
+            "weight": confidences.get("weight", 0.0),
+            "regional specs": confidences.get("regional_specs", 0.0),
+            "origin": confidences.get("origin", 0.0)
+        }
     }
     
     return output
