@@ -21,7 +21,7 @@ if str(chat_cat_short_vin_path) not in sys.path:
 
 from chat_cat_short_vin.predict import predict_vehicle as predict_10, explain_prediction as explain_10
 from chat_cat_short_vin_11.predict import predict_vehicle as predict_11, explain_prediction as explain_11
-
+from chat_cat_short_vin_12.predict import predict_vehicle as predict_12, explain_prediction as explain_12
 # Set up page configurations
 st.set_page_config(
     page_title="Short Chassis Decoder",
@@ -61,7 +61,7 @@ st.set_page_config(
 st.title("Short VIN Decoder (ML Model)")
 # User input form
 chassis_input = st.text_input(
-    "Enter a 10 or 11 Character Short Chassis Number:",
+    "Enter a 10, 11, 12 Character Short Chassis Number:",
     placeholder="Enter your vin here."
 ).strip().upper()
 
@@ -77,8 +77,11 @@ if length > 0:
     elif length == 11:
         st.info("Detected: 11-Character Chassis Model")
         model_to_use = 11
+    elif length == 12:
+        st.info("Detected: 12-Character Chassis Model")
+        model_to_use = 12
     else:
-        st.error(f"Invalid length: {length} characters. Must be 10 or 11.")
+        st.error(f"Invalid length: {length} characters. Must be 10,11 or 12.")
 
 if st.button("Decode Chassis", use_container_width=True):
     if length == 0:
@@ -96,10 +99,15 @@ if st.button("Decode Chassis", use_container_width=True):
             if not os.path.exists(model_dir) or not os.listdir(model_dir):
                 st.warning("10-Character models are currently training or not found in models directory.")
                 st.stop()
-        else:
+        elif model_to_use == 11:
             model_dir = project_root / "chat_cat_short_vin_11" / "models"
             if not os.path.exists(model_dir) or not os.listdir(model_dir):
                 st.warning("11-Character models are currently training or not found in models directory.")
+                st.stop()
+        else:
+            model_dir = project_root / "chat_cat_short_vin_12" / "models"
+            if not os.path.exists(model_dir) or not os.listdir(model_dir):
+                st.warning("12-Character models are currently training or not found in models directory.")
                 st.stop()
 
 # Persistent rendering block
@@ -111,10 +119,14 @@ if "last_decoded_chassis" in st.session_state:
         model_dir = str(project_root / "chat_cat_short_vin" / "models")
         predict_fn = predict_10
         explain_fn = explain_10
-    else:
+    elif model_to_use == 11:
         model_dir = str(project_root / "chat_cat_short_vin_11" / "models")
         predict_fn = predict_11
         explain_fn = explain_11
+    else:
+        model_dir = str(project_root / "chat_cat_short_vin_12" / "models")
+        predict_fn = predict_12
+        explain_fn = explain_12
         
     with st.spinner("Decoding vehicle attributes and calculating confidence scores..."):
         try:
