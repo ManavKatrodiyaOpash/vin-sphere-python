@@ -27,6 +27,41 @@ def decode_any_vin(vin_str):
     length = len(vin_str)
     if length == 17:
         return decode_vin(vin_str, model_dir=MODEL_DIR)
+    elif length == 9:
+        from chat_cat_short_vin_09.predict import predict_vehicle as predict_09
+        import numpy as np
+        model_dir_09 = str(project_root / "chat_cat_short_vin_09" / "models")
+        res_09 = predict_09(vin_str, model_dir=model_dir_09)
+        
+        attr_conf = res_09.get("confidence_scores", {})
+        mapped_res = {
+            "make": res_09.get("make"),
+            "model": res_09.get("model"),
+            "trim": res_09.get("trim"),
+            "body_type": res_09.get("body_type"),
+            "year": res_09.get("year"),
+            "cylinders": res_09.get("cylinders", "UNKNOWN"),
+            "origin": res_09.get("origin"),
+            "no_of_passengers": res_09.get("no_of_passengers", "UNKNOWN"),
+            "weight": res_09.get("weight"),
+            "color": res_09.get("color", "UNKNOWN"),
+            "regional_spec": res_09.get("regional_spec", "UNKNOWN"),
+            "attribute_confidences": {
+                "make": attr_conf.get("make", 0.0),
+                "model": attr_conf.get("model", 0.0),
+                "trim": attr_conf.get("trim", 0.0),
+                "body_type": attr_conf.get("body_type", 0.0),
+                "year": attr_conf.get("year", 0.0),
+                "cylinders": attr_conf.get("cylinders", 0.0),
+                "origin": attr_conf.get("origin", 0.0),
+                "no_of_passengers": attr_conf.get("no_of_passengers", 0.0),
+                "weight": attr_conf.get("weight", 0.0),
+                "regional_spec": attr_conf.get("regional_spec", 0.0),
+                "color": attr_conf.get("color", 0.0)
+            },
+            "confidence": sum(attr_conf.values()) / len(attr_conf) if attr_conf else 0.0
+        }
+        return mapped_res
     elif length == 11:
         from chat_cat_short_vin_11.predict import predict_vehicle as predict_11
         import numpy as np
@@ -59,11 +94,46 @@ def decode_any_vin(vin_str):
                 "regional_spec": attr_conf.get("regional_spec", res_11.get("regional_specs_confidence", 0.0)),
                 "color": attr_conf.get("color", res_11.get("color_confidence", 0.0))
             },
-            "confidence": res_11.get("confidence", float(avg_conf))
+            "confidence": res_11.get("confidence", float(np.mean(list(attr_conf.values()))) if attr_conf else 0.0)
+        }
+        return mapped_res
+    elif length == 12:
+        from chat_cat_short_vin_12.predict import predict_vehicle as predict_12
+        import numpy as np
+        model_dir_12 = str(project_root / "chat_cat_short_vin_12" / "models")
+        res_12 = predict_12(vin_str, model_dir=model_dir_12)
+        
+        attr_conf = res_12.get("attribute_confidences", {})
+        mapped_res = {
+            "make": res_12.get("make"),
+            "model": res_12.get("model"),
+            "trim": res_12.get("trim"),
+            "body_type": res_12.get("body_type"),
+            "year": res_12.get("year"),
+            "cylinders": res_12.get("cylinders", "UNKNOWN"),
+            "origin": res_12.get("origin"),
+            "no_of_passengers": res_12.get("no_of_passengers", "UNKNOWN"),
+            "weight": res_12.get("weight"),
+            "color": res_12.get("color", "UNKNOWN"),
+            "regional_spec": res_12.get("regional_spec", res_12.get("regional_specs", "UNKNOWN")),
+            "attribute_confidences": {
+                "make": attr_conf.get("make", 0.0),
+                "model": attr_conf.get("model", 0.0),
+                "trim": attr_conf.get("trim", 0.0),
+                "body_type": attr_conf.get("body_type", 0.0),
+                "year": attr_conf.get("year", 0.0),
+                "cylinders": attr_conf.get("cylinders", 0.0),
+                "origin": attr_conf.get("origin", 0.0),
+                "no_of_passengers": attr_conf.get("no_of_passengers", 0.0),
+                "weight": attr_conf.get("weight", 0.0),
+                "regional_spec": attr_conf.get("regional_spec", 0.0),
+                "color": attr_conf.get("color", 0.0)
+            },
+            "confidence": res_12.get("confidence", float(np.mean(list(attr_conf.values()))) if attr_conf else 0.0)
         }
         return mapped_res
     else:
-        raise ValueError(f"Invalid VIN/Chassis length: {length}. Must be 11 or 17 characters.")
+        raise ValueError(f"Invalid VIN/Chassis length: {length}. Must be 9, 11, 12, or 17 characters.")
 
 # Define fallback model and lookup paths
 MODEL_DIR = str(project_root / "chat_cat" / "models")
@@ -76,8 +146,8 @@ st.title("VIN Decoder (ML Model)")
 
 # User VIN input panel
 vin_input = st.text_input(
-    "Enter a 17-character vehicle VIN or 11-character chassis number to decode:",
-    placeholder="e.g. JTFHX02POF0099797 or EL500004138",
+    "Enter a 17-character vehicle VIN, 12-character chassis number, 11-character chassis number, or 9-character chassis number to decode:",
+    placeholder="e.g. JTFHX02POF0099797, EE1004019201, EL500004138, or 4B0189130",
     max_chars=17,
 ).strip().upper()
 
@@ -372,8 +442,8 @@ def get_depreciated_values_by_file(result: dict) -> dict:
 
 # Verification safety check
 if st.button("Decode", use_container_width=True):
-    if len(vin_input) not in [11, 17]:
-        st.error("Invalid input: Input must be exactly 17 characters for a standard VIN or 11 characters for a short chassis.")
+    if len(vin_input) not in [9, 11, 12, 17]:
+        st.error("Invalid input: Input must be 17 characters for a standard VIN, or 12, 11, or 9 characters for a short chassis.")
     else:
         with st.spinner("Decoding..."):
             try:
