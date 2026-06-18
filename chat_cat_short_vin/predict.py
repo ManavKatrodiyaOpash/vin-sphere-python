@@ -72,29 +72,88 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin/mo
         decoder = VINDecoder(model_dir=model_dir)
         res = decoder.predict(chassis_number)
         
-    # Map predictions to output format for backward compatibility
+    # 1. Fetch cylinders and noOfPassengers from nearest neighbor in train_df
+    cylinders_val = "UNKNOWN"
+    passengers_val = "UNKNOWN"
+    cylinders_conf = 0.0
+    passengers_conf = 0.0
+    
+    sim_engine = decoder.similarity_engines.get("make")
+    if sim_engine and hasattr(sim_engine, "train_df") and sim_engine.train_df is not None:
+        neighbors = sim_engine.find_nearest_neighbors(chassis_number, top_n=1)
+        if neighbors:
+            nb_chassis = neighbors[0][0]
+            match_row = sim_engine.train_df[sim_engine.train_df["chassisNumber"] == nb_chassis]
+            if not match_row.empty:
+                if "cylinders" in match_row.columns:
+                    c_val = match_row["cylinders"].iloc[0]
+                    if pd.notna(c_val) and str(c_val).strip() != "":
+                        try:
+                            cylinders_val = str(int(float(c_val)))
+                        except ValueError:
+                            cylinders_val = str(c_val)
+                        cylinders_conf = 0.95
+                if "noOfPassengers" in match_row.columns:
+                    p_val = match_row["noOfPassengers"].iloc[0]
+                    if pd.notna(p_val) and str(p_val).strip() != "":
+                        try:
+                            passengers_val = str(int(float(p_val)))
+                        except ValueError:
+                            passengers_val = str(p_val)
+                        passengers_conf = 0.95
+
+    # Helper function to format all predicted attributes as clean strings
+    def to_str_val(val) -> str:
+        if val is None or pd.isna(val):
+            return "UNKNOWN"
+        val_str = str(val).strip()
+        if val_str.upper() in ["NAN", "NONE", "UNKNOWN", "0", "0.0", ""]:
+            return "UNKNOWN"
+        try:
+            float_val = float(val_str)
+            if float_val.is_integer():
+                return str(int(float_val))
+            return str(round(float_val, 2))
+        except ValueError:
+            pass
+        return val_str
+
+    res_conf = res.get("confidence", {})
+    
+    # Construct exact requested output dictionary schema
     output = {
-        "make": res.get("make", "UNKNOWN"),
-        "model": res.get("model", "UNKNOWN"),
-        "trim": res.get("trim", "UNKNOWN"),
-        "body_type": res.get("body_type", "UNKNOWN"),
-        "year": res.get("year", 0),
-        "color": res.get("color", "UNKNOWN"),
-        "weight": res.get("weight", 0.0),
-        "regional specs": res.get("regional_specs", "UNKNOWN"),
-        "origin": res.get("origin", "UNKNOWN"),
+        "vin": str(chassis_number).upper().strip(),
+        "year": to_str_val(res.get("year")),
+        "make": to_str_val(res.get("make")),
+        "model": to_str_val(res.get("model")),
+        "trim": to_str_val(res.get("trim")),
+        "body_type": to_str_val(res.get("body_type")),
+        "regional_spec": to_str_val(res.get("regional_specs")),
+        "cylinders": to_str_val(cylinders_val),
+        "origin": to_str_val(res.get("origin")),
+        "no_of_passengers": to_str_val(passengers_val),
+        "weight": to_str_val(res.get("weight")),
+        "color": to_str_val(res.get("color")),
+        "confidence": 0.0,
         "attribute_confidences": {
-            "make": res.get("confidence", {}).get("make", 0.0),
-            "model": res.get("confidence", {}).get("model", 0.0),
-            "year": res.get("confidence", {}).get("year", 0.0),
-            "trim": 1.0,
-            "body_type": 1.0,
-            "color": 1.0,
-            "weight": 1.0,
-            "regional specs": 1.0,
-            "origin": 1.0
+            "make": round(float(res_conf.get("make", 0.0)), 4),
+            "model": round(float(res_conf.get("model", 0.0)), 4),
+            "trim": round(float(res_conf.get("trim", 0.0)), 4),
+            "body_type": round(float(res_conf.get("body_type", 0.0)), 4),
+            "year": round(float(res_conf.get("year", 0.0)), 4),
+            "cylinders": round(float(cylinders_conf), 4),
+            "origin": round(float(res_conf.get("origin", 0.0)), 4),
+            "no_of_passengers": round(float(passengers_conf), 4),
+            "weight": round(float(res_conf.get("weight", 0.0)), 4),
+            "regional_spec": round(float(res_conf.get("regional_specs", 0.0)), 4),
+            "color": round(float(res_conf.get("color", 0.0)), 4)
         }
     }
+    
+    # Overall confidence is the average of all attribute confidences
+    confs = list(output["attribute_confidences"].values())
+    output["confidence"] = round(float(np.mean(confs)), 4)
+    
     return output
 
 def explain_prediction(chassis_number: str, target: str = "make", model_dir: str = "chat_cat_short_vin/models") -> Dict[str, Any]:

@@ -128,22 +128,18 @@ if "last_decoded_chassis" in st.session_state:
                 ("Model Year", "year"),
                 ("Trim", "trim"),
                 ("Body Type", "body_type"),
+                ("Cylinders", "cylinders"),
                 ("Country of Origin", "origin"),
-                ("Regional Specs", "regional_specs"),
+                ("No of Passengers", "no_of_passengers"),
+                ("Regional Specs", "regional_spec"),
                 ("Color", "color"),
                 ("Weight (KG)", "weight")
             ]
             
+            conf_dict = result.get("attribute_confidences", {})
             for label, key in display_attrs:
-                # Key normalization between formats
-                if model_to_use == 10:
-                    lookup_key = "regional specs" if key == "regional_specs" else key
-                    val = result.get(lookup_key, "UNKNOWN")
-                    conf_dict = result.get("attribute_confidences", {})
-                    conf = conf_dict.get(lookup_key, 0.0)
-                else:
-                    val = result.get(key, "UNKNOWN")
-                    conf = result.get(f"{key}_confidence", 0.0)
+                val = result.get(key, "UNKNOWN")
+                conf = conf_dict.get(key, 0.0)
                     
                 # Format confidence as plain percentage string
                 conf_str = f"{conf * 100:.2f}%"

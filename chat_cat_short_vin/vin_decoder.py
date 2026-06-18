@@ -265,9 +265,15 @@ class VINDecoder:
             "color": predictions["color"],
             "weight": predictions["weight"],
             "confidence": {
-                "make": round(confidences["make"], 4),
-                "model": round(confidences["model"], 4),
-                "year": round(confidences["year"], 4)
+                "make": round(confidences.get("make", 0.0), 4),
+                "model": round(confidences.get("model", 0.0), 4),
+                "year": round(confidences.get("year", 0.0), 4),
+                "trim": round(confidences.get("trim", 0.0), 4),
+                "body_type": round(confidences.get("body_type", 0.0), 4),
+                "origin": round(confidences.get("origin", 0.0), 4),
+                "regional_specs": round(confidences.get("regional_specs", 0.0), 4),
+                "color": round(confidences.get("color", 0.0), 4),
+                "weight": round(confidences.get("weight", 0.0), 4)
             }
         }
         return output
