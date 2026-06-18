@@ -8,11 +8,9 @@ import os
 import json
 import logging
 import argparse
-from typing import Dict, Any, List
-from difflib import SequenceMatcher
-
 import numpy as np
 import pandas as pd
+from typing import Dict, Any, List
 
 from chat_cat_short_vin_11.feature_engineering import normalize_chassis, extract_features
 from chat_cat_short_vin_11.model_utils import load_model
@@ -20,274 +18,88 @@ from chat_cat_short_vin_11.model_utils import load_model
 # Configure logging
 logger = logging.getLogger(__name__)
 
-# Global cache for models and encoders
-_CACHE: Dict[str, Any] = {}
+# Global cache to store loaded models to speed up batch predictions
+_MODEL_CACHE: Dict[str, Any] = {}
 
-# All targets in prediction sequence
-TARGETS = ["make", "model", "year", "trim", "body_type", "origin", "regional_specs", "cylinders", "no_of_passengers", "color", "weight"]
+# Target JSON keys mapped to expected safe target names used in filenames
+TARGETS = ["make", "model", "trim", "body_type", "year", "color", "weight", "regional_specs", "origin"]
 
-def load_cached_artifact(filename: str, model_dir: str = "chat_cat_short_vin_11/models") -> Any:
+def get_model(target: str, model_dir: str = "chat_cat_short_vin_11/models") -> Any:
     """
-    Loads and caches pickle files to optimize batch prediction speed.
+    Loads and caches the model for a given target.
     """
-    global _CACHE
-    filepath = os.path.join(model_dir, filename)
-    if filepath not in _CACHE:
-        if not os.path.exists(filepath):
-            raise FileNotFoundError(f"Model artifact not found: {filepath}")
-        _CACHE[filepath] = load_model(filepath)
-    return _CACHE[filepath]
-
-def get_closest_prefixes(chassis_number: str, train_prefixes: List[str], top_n: int = 5) -> List[Dict[str, Any]]:
-    """
-    Finds the closest training prefixes to the input chassis using SequenceMatcher.
-    """
-    input_prefix = chassis_number[:5].upper()
-    matches = []
-    for train_pref in train_prefixes:
-        score = SequenceMatcher(None, input_prefix, train_pref).ratio()
-        matches.append({"prefix": train_pref, "similarity": round(score, 4)})
-    # Sort by similarity score descending
-    matches = sorted(matches, key=lambda x: x["similarity"], reverse=True)
-    return matches[:top_n]
-
-def encode_features_helper(X_raw: pd.DataFrame, fe_encoder: Any) -> pd.DataFrame:
-    """
-    Helper function to transform only categorical columns using OrdinalEncoder,
-    matching the logic used during training.
-    """
-    X_encoded = X_raw.copy()
-    cat_cols = [col for col in X_raw.columns if X_raw[col].dtype == object or isinstance(X_raw[col].iloc[0], str)]
-    for col in cat_cols:
-        X_encoded[col] = X_encoded[col].astype(str)
-    if len(cat_cols) > 0:
-        X_encoded[cat_cols] = fe_encoder.transform(X_encoded[cat_cols])
-    return X_encoded
+    global _MODEL_CACHE
+    safe_name = target.replace(" ", "_")
+    model_key = f"{safe_name}_model"
+    
+    if model_key not in _MODEL_CACHE:
+        model_filename = f"{safe_name}_model.pkl"
+        model_path = os.path.join(model_dir, model_filename)
+        try:
+            _MODEL_CACHE[model_key] = load_model(model_path)
+        except Exception as e:
+            logger.error(f"Failed to load model for {target} from {model_path}: {e}")
+            raise FileNotFoundError(f"Model file for {target} is missing or corrupt.")
+            
+    return _MODEL_CACHE[model_key]
 
 def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin_11/models") -> Dict[str, Any]:
     """
-    Normalizes the input chassis number, extracts features, and uses the trained
-    comparative classifiers sequentially to predict vehicle attributes with confidence scores.
+    Decodes an 11-character short chassis number using the unified VINDecoder pipeline.
     """
-    normalized = normalize_chassis(chassis_number)
-    if not normalized:
-        raise ValueError("Invalid chassis number provided.")
+    pipeline_path = os.path.join(model_dir, "vin_decoder_pipeline.pkl")
+    if not os.path.exists(pipeline_path):
+        pipeline_path = "vin_decoder_pipeline.pkl"
         
-    # Extract baseline chassis features
-    df_input = pd.DataFrame({"chassisNumber": [normalized]})
-    X_chassis = extract_features(df_input["chassisNumber"])
-    
-    # Dict to hold final decoded values and their confidences
-    predictions = {}
-    confidences = {}
-    
-    # 1. Predict Make
-    try:
-        make_fe = load_cached_artifact("make_fe_encoder.pkl", model_dir)
-        make_model = load_cached_artifact("make_model.pkl", model_dir)
-        make_lbl = load_cached_artifact("make_label_encoder.pkl", model_dir)
-        
-        X_make = encode_features_helper(X_chassis, make_fe)
-        pred_idx = make_model.predict(X_make)[0]
-        # In case the model returns a 1-element array
-        if isinstance(pred_idx, (np.ndarray, list)):
-            pred_idx = pred_idx[0]
-            
-        predictions["make"] = make_lbl.inverse_transform(pred_idx)
-        
-        # Compute confidence score
-        if hasattr(make_model, "predict_proba"):
-            probs = make_model.predict_proba(X_make)[0]
-            confidences["make"] = float(np.max(probs))
-        else:
-            confidences["make"] = 1.0
-    except Exception as e:
-        logger.warning(f"Error predicting Make: {e}")
-        predictions["make"] = "UNKNOWN"
-        confidences["make"] = 0.0
-        
-    # 2. Predict Model (uses chassis features + predicted make)
-    try:
-        model_fe = load_cached_artifact("model_fe_encoder.pkl", model_dir)
-        model_model = load_cached_artifact("model_model.pkl", model_dir)
-        model_lbl = load_cached_artifact("model_label_encoder.pkl", model_dir)
-        
-        X_model_raw = X_chassis.copy()
-        X_model_raw["make"] = str(predictions["make"])
-        X_model_encoded = encode_features_helper(X_model_raw, model_fe)
-        
-        pred_idx = model_model.predict(X_model_encoded)[0]
-        if isinstance(pred_idx, (np.ndarray, list)):
-            pred_idx = pred_idx[0]
-            
-        predictions["model"] = model_lbl.inverse_transform(pred_idx)
-        
-        if hasattr(model_model, "predict_proba"):
-            probs = model_model.predict_proba(X_model_encoded)[0]
-            confidences["model"] = float(np.max(probs))
-        else:
-            confidences["model"] = 1.0
-    except Exception as e:
-        logger.warning(f"Error predicting Model: {e}")
-        predictions["model"] = "UNKNOWN"
-        confidences["model"] = 0.0
-        
-    # 3. Predict Year (uses chassis features + predicted make + predicted model)
-    try:
-        year_fe = load_cached_artifact("year_fe_encoder.pkl", model_dir)
-        year_model = load_cached_artifact("year_model.pkl", model_dir)
-        year_lbl = load_cached_artifact("year_label_encoder.pkl", model_dir)
-        
-        X_year_raw = X_chassis.copy()
-        X_year_raw["make"] = str(predictions["make"])
-        X_year_raw["model"] = str(predictions["model"])
-        X_year_encoded = encode_features_helper(X_year_raw, year_fe)
-        
-        pred_idx = year_model.predict(X_year_encoded)[0]
-        if isinstance(pred_idx, (np.ndarray, list)):
-            pred_idx = pred_idx[0]
-            
-        raw_year = year_lbl.inverse_transform(pred_idx)
+    if os.path.exists(pipeline_path):
         try:
-            predictions["year"] = int(float(raw_year))
-        except ValueError:
-            predictions["year"] = str(raw_year)
-            
-        if hasattr(year_model, "predict_proba"):
-            probs = year_model.predict_proba(X_year_encoded)[0]
-            confidences["year"] = float(np.max(probs))
-        else:
-            confidences["year"] = 1.0
-    except Exception as e:
-        logger.warning(f"Error predicting Year: {e}")
-        predictions["year"] = 0
-        confidences["year"] = 0.0
-        
-    # 4. Predict Trim (uses chassis features + predicted make + model + year)
-    try:
-        trim_fe = load_cached_artifact("trim_fe_encoder.pkl", model_dir)
-        trim_model = load_cached_artifact("trim_model.pkl", model_dir)
-        trim_lbl = load_cached_artifact("trim_label_encoder.pkl", model_dir)
-        
-        X_trim_raw = X_chassis.copy()
-        X_trim_raw["make"] = str(predictions["make"])
-        X_trim_raw["model"] = str(predictions["model"])
-        X_trim_raw["year"] = str(predictions["year"])
-        X_trim_encoded = encode_features_helper(X_trim_raw, trim_fe)
-        
-        pred_idx = trim_model.predict(X_trim_encoded)[0]
-        if isinstance(pred_idx, (np.ndarray, list)):
-            pred_idx = pred_idx[0]
-            
-        predictions["trim"] = trim_lbl.inverse_transform(pred_idx)
-        
-        if hasattr(trim_model, "predict_proba"):
-            probs = trim_model.predict_proba(X_trim_encoded)[0]
-            confidences["trim"] = float(np.max(probs))
-        else:
-            confidences["trim"] = 1.0
-    except Exception as e:
-        logger.warning(f"Error predicting Trim: {e}")
-        predictions["trim"] = "UNKNOWN"
-        confidences["trim"] = 0.0
-        
-    # 5. Predict remaining attributes (body_type, origin, regional_specs, cylinders, no_of_passengers, color, weight)
-    for target in ["body_type", "origin", "regional_specs", "color", "weight", "cylinders", "no_of_passengers"]:
-        try:
-            fe_encoder = load_cached_artifact(f"{target}_fe_encoder.pkl", model_dir)
-            model = load_cached_artifact(f"{target}_model.pkl", model_dir)
-            
-            # Build feature set — cylinders/passengers use make+model+body_type as context
-            if target in ["cylinders", "no_of_passengers"]:
-                X_target_raw = X_chassis.copy()
-                X_target_raw["make"] = str(predictions.get("make", "UNKNOWN"))
-                X_target_raw["model"] = str(predictions.get("model", "UNKNOWN"))
-                X_target_raw["body_type"] = str(predictions.get("body_type", "UNKNOWN"))
-                X_encoded = encode_features_helper(X_target_raw, fe_encoder)
-            else:
-                X_encoded = encode_features_helper(X_chassis, fe_encoder)
-                
-            pred_val = model.predict(X_encoded)[0]
-            if isinstance(pred_val, (np.ndarray, list)):
-                pred_val = pred_val[0]
-                
-            if target == "weight":
-                predictions["weight"] = float(np.round(pred_val, 2))
-                confidences["weight"] = 1.0
-            elif target in ["cylinders", "no_of_passengers"]:
-                lbl_encoder = load_cached_artifact(f"{target}_label_encoder.pkl", model_dir)
-                raw_val = lbl_encoder.inverse_transform(pred_val)
-                try:
-                    predictions[target] = str(int(float(str(raw_val))))
-                except (ValueError, TypeError):
-                    predictions[target] = str(raw_val)
-                if hasattr(model, "predict_proba"):
-                    probs = model.predict_proba(X_encoded)[0]
-                    confidences[target] = float(np.max(probs))
-                else:
-                    confidences[target] = 1.0
-            else:
-                lbl_encoder = load_cached_artifact(f"{target}_label_encoder.pkl", model_dir)
-                predictions[target] = lbl_encoder.inverse_transform(pred_val)
-                if hasattr(model, "predict_proba"):
-                    probs = model.predict_proba(X_encoded)[0]
-                    confidences[target] = float(np.max(probs))
-                else:
-                    confidences[target] = 1.0
+            decoder = load_model(pipeline_path)
+            res = decoder.predict(chassis_number)
         except Exception as e:
-            logger.warning(f"Error predicting {target}: {e}")
-            if target == "weight":
-                predictions["weight"] = 0.0
-                confidences["weight"] = 0.0
-            else:
-                predictions[target] = "UNKNOWN"
-                confidences[target] = 0.0
-                
-    # Fallback: if cylinders/passengers still UNKNOWN (old models without those targets),
-    # look up from CSV using prefix matching
-    cylinders_val = predictions.get("cylinders", "UNKNOWN")
-    passengers_val = predictions.get("no_of_passengers", "UNKNOWN")
-    cylinders_conf = confidences.get("cylinders", 0.0)
-    passengers_conf = confidences.get("no_of_passengers", 0.0)
+            logger.warning(f"Failed to load pipeline: {e}. Falling back to manual load.")
+            from chat_cat_short_vin_11.vin_decoder import VINDecoder
+            decoder = VINDecoder(model_dir=model_dir)
+            res = decoder.predict(chassis_number)
+    else:
+        from chat_cat_short_vin_11.vin_decoder import VINDecoder
+        decoder = VINDecoder(model_dir=model_dir)
+        res = decoder.predict(chassis_number)
+        
+    res_conf = res.get("confidence", {})
     
+    # Read cylinders and no_of_passengers from model prediction (trained models)
+    cylinders_val = res.get("cylinders", "UNKNOWN")
+    passengers_val = res.get("no_of_passengers", "UNKNOWN")
+    
+    # Get confidence from model
+    cylinders_conf = float(res_conf.get("cylinders", 0.0))
+    passengers_conf = float(res_conf.get("no_of_passengers", 0.0))
+    
+    # Neighbor-based fallback when model hasn't been trained for these targets (or predicted UNKNOWN)
     if cylinders_val in ("UNKNOWN", None, "") or cylinders_conf == 0.0 or passengers_val in ("UNKNOWN", None, "") or passengers_conf == 0.0:
-        csv_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Data", "final_clean_11.csv")
-        if os.path.exists(csv_path):
-            try:
-                df_ref = pd.read_csv(csv_path)
-                df_ref["prefix5"] = df_ref["chassisNumber"].astype(str).str.upper().str[:5]
-                input_prefix = normalized[:5]
-                matches = df_ref[df_ref["prefix5"] == input_prefix]
-                if matches.empty:
-                    df_ref["prefix4"] = df_ref["chassisNumber"].astype(str).str.upper().str[:4]
-                    matches = df_ref[df_ref["prefix4"] == input_prefix[:4]]
-                if not matches.empty:
-                    if (cylinders_val in ("UNKNOWN", None, "") or cylinders_conf == 0.0) and "cylinders" in matches.columns:
-                        c_mode = matches["cylinders"].mode()
-                        if not c_mode.empty:
-                            c_val = c_mode.iloc[0]
-                            if pd.notna(c_val) and str(c_val).strip() != "":
-                                try:
-                                    cylinders_val = str(int(float(c_val)))
-                                except ValueError:
-                                    cylinders_val = str(c_val)
-                                cylinders_conf = 0.85
-                                predictions["cylinders"] = cylinders_val
-                                confidences["cylinders"] = cylinders_conf
-                    if (passengers_val in ("UNKNOWN", None, "") or passengers_conf == 0.0) and "noOfPassengers" in matches.columns:
-                        p_mode = matches["noOfPassengers"].mode()
-                        if not p_mode.empty:
-                            p_val = p_mode.iloc[0]
-                            if pd.notna(p_val) and str(p_val).strip() != "":
-                                try:
-                                    passengers_val = str(int(float(p_val)))
-                                except ValueError:
-                                    passengers_val = str(p_val)
-                                passengers_conf = 0.85
-                                predictions["no_of_passengers"] = passengers_val
-                                confidences["no_of_passengers"] = passengers_conf
-            except Exception as e:
-                logger.warning(f"Failed to lookup cylinders/passengers from CSV: {e}")
+        sim_engine = decoder.similarity_engines.get("make")
+        if sim_engine and hasattr(sim_engine, "train_df") and sim_engine.train_df is not None:
+            neighbors = sim_engine.find_nearest_neighbors(chassis_number, top_n=1)
+            if neighbors:
+                nb_chassis = neighbors[0][0]
+                match_row = sim_engine.train_df[sim_engine.train_df["chassisNumber"] == nb_chassis]
+                if not match_row.empty:
+                    if (cylinders_val in ("UNKNOWN", None, "") or cylinders_conf == 0.0) and "cylinders" in match_row.columns:
+                        c_val = match_row["cylinders"].iloc[0]
+                        if pd.notna(c_val) and str(c_val).strip() != "":
+                            try:
+                                cylinders_val = str(int(float(c_val)))
+                            except ValueError:
+                                cylinders_val = str(c_val)
+                            cylinders_conf = 0.85
+                    if (passengers_val in ("UNKNOWN", None, "") or passengers_conf == 0.0) and "noOfPassengers" in match_row.columns:
+                        p_val = match_row["noOfPassengers"].iloc[0]
+                        if pd.notna(p_val) and str(p_val).strip() != "":
+                            try:
+                                passengers_val = str(int(float(p_val)))
+                            except ValueError:
+                                passengers_val = str(p_val)
+                            passengers_conf = 0.85
 
     # Helper function to format all predicted attributes as clean strings
     def to_str_val(val) -> str:
@@ -304,34 +116,34 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin_11
         except ValueError:
             pass
         return val_str
-
+    
     # Construct exact requested output dictionary schema
     output = {
         "vin": str(chassis_number).upper().strip(),
-        "year": to_str_val(predictions.get("year")),
-        "make": to_str_val(predictions.get("make")),
-        "model": to_str_val(predictions.get("model")),
-        "trim": to_str_val(predictions.get("trim")),
-        "body_type": to_str_val(predictions.get("body_type")),
-        "regional_spec": to_str_val(predictions.get("regional_specs")),
-        "cylinders": to_str_val(predictions.get("cylinders", "UNKNOWN")),
-        "origin": to_str_val(predictions.get("origin")),
-        "no_of_passengers": to_str_val(predictions.get("no_of_passengers", "UNKNOWN")),
-        "weight": to_str_val(predictions.get("weight")),
-        "color": to_str_val(predictions.get("color")),
+        "year": to_str_val(res.get("year")),
+        "make": to_str_val(res.get("make")),
+        "model": to_str_val(res.get("model")),
+        "trim": to_str_val(res.get("trim")),
+        "body_type": to_str_val(res.get("body_type")),
+        "regional_spec": to_str_val(res.get("regional_specs")),
+        "cylinders": to_str_val(cylinders_val),
+        "origin": to_str_val(res.get("origin")),
+        "no_of_passengers": to_str_val(passengers_val),
+        "weight": to_str_val(res.get("weight")),
+        "color": to_str_val(res.get("color")),
         "confidence": 0.0,
         "attribute_confidences": {
-            "make": round(float(confidences.get("make", 0.0)), 4),
-            "model": round(float(confidences.get("model", 0.0)), 4),
-            "trim": round(float(confidences.get("trim", 0.0)), 4),
-            "body_type": round(float(confidences.get("body_type", 0.0)), 4),
-            "year": round(float(confidences.get("year", 0.0)), 4),
-            "cylinders": round(float(confidences.get("cylinders", 0.0)), 4),
-            "origin": round(float(confidences.get("origin", 0.0)), 4),
-            "no_of_passengers": round(float(confidences.get("no_of_passengers", 0.0)), 4),
-            "weight": round(float(confidences.get("weight", 0.0)), 4),
-            "regional_spec": round(float(confidences.get("regional_specs", 0.0)), 4),
-            "color": round(float(confidences.get("color", 0.0)), 4)
+            "make": round(float(res_conf.get("make", 0.0)), 4),
+            "model": round(float(res_conf.get("model", 0.0)), 4),
+            "trim": round(float(res_conf.get("trim", 0.0)), 4),
+            "body_type": round(float(res_conf.get("body_type", 0.0)), 4),
+            "year": round(float(res_conf.get("year", 0.0)), 4),
+            "cylinders": round(float(cylinders_conf), 4),
+            "origin": round(float(res_conf.get("origin", 0.0)), 4),
+            "no_of_passengers": round(float(passengers_conf), 4),
+            "weight": round(float(res_conf.get("weight", 0.0)), 4),
+            "regional_spec": round(float(res_conf.get("regional_specs", 0.0)), 4),
+            "color": round(float(res_conf.get("color", 0.0)), 4)
         }
     }
     
@@ -345,72 +157,94 @@ def explain_prediction(chassis_number: str, target: str = "make", model_dir: str
     """
     Computes explainability insights for a given prediction target:
     1. Finds closest matching prefixes in the training set.
-    2. Calculates local feature attributions using SHAP (with fallbacks).
+    2. Calculates local feature attributions using SHAP or feature importances.
     """
+    from difflib import SequenceMatcher
     import shap
+    
     normalized = normalize_chassis(chassis_number)
     if not normalized:
         raise ValueError("Invalid chassis number provided.")
         
-    # Extract baseline chassis features
-    df_input = pd.DataFrame({"chassisNumber": [normalized]})
-    X_chassis = extract_features(df_input["chassisNumber"])
-    
-    # Load metadata for training prefix lookup
-    metadata = load_cached_artifact("metadata.pkl", model_dir)
-    train_prefixes = metadata.get("train_prefixes", [])
+    # Load the decoder
+    from chat_cat_short_vin_11.vin_decoder import VINDecoder
+    decoder = VINDecoder(model_dir=model_dir)
     
     # 1. Closest prefixes
-    closest_prefixes = get_closest_prefixes(normalized, train_prefixes, top_n=5)
-    
+    sim_engine = decoder.similarity_engines.get("make")
+    closest_prefixes = []
+    if sim_engine and hasattr(sim_engine, "train_chassis") and sim_engine.train_chassis:
+        train_prefixes = sorted(list(set(c[:5] for c in sim_engine.train_chassis)))
+        input_prefix = normalized[:5].upper()
+        matches = []
+        for train_pref in train_prefixes:
+            score = SequenceMatcher(None, input_prefix, train_pref).ratio()
+            matches.append({"prefix": train_pref, "similarity": round(score, 4)})
+        matches = sorted(matches, key=lambda x: x["similarity"], reverse=True)
+        closest_prefixes = matches[:5]
+        
     # 2. Local feature attributions
-    fe_encoder = load_cached_artifact(f"{target}_fe_encoder.pkl", model_dir)
-    model = load_cached_artifact(f"{target}_model.pkl", model_dir)
+    X_in = extract_features(pd.Series([normalized]))
     
-    # Construct proper hierarchical feature inputs for the SHAP target
-    X_raw = X_chassis.copy()
+    predictions = {}
+    res = decoder.predict(normalized)
+    predictions["make"] = res["make"]
+    predictions["model"] = res["model"]
+    predictions["year"] = res["year"]
+    predictions["body_type"] = res["body_type"]
+    
+    # Construct features for the target:
+    X_in_target = X_in.copy()
     if target == "model":
-        # Predict make first
-        make_res = predict_vehicle(normalized, model_dir)
-        X_raw["make"] = make_res["make"]
+        X_in_target["make"] = predictions["make"]
     elif target == "year":
-        make_res = predict_vehicle(normalized, model_dir)
-        X_raw["make"] = make_res["make"]
-        X_raw["model"] = make_res["model"]
+        X_in_target["make"] = predictions["make"]
+        X_in_target["model"] = predictions["model"]
     elif target == "trim":
-        make_res = predict_vehicle(normalized, model_dir)
-        X_raw["make"] = make_res["make"]
-        X_raw["model"] = make_res["model"]
-        X_raw["year"] = str(make_res["year"])
+        X_in_target["make"] = predictions["make"]
+        X_in_target["model"] = predictions["model"]
+        X_in_target["year"] = str(predictions["year"])
+    elif target in ["body_type", "origin", "regional_specs"]:
+        X_in_target["make"] = predictions["make"]
+        X_in_target["model"] = predictions["model"]
+    elif target in ["cylinders", "no_of_passengers"]:
+        X_in_target["make"] = predictions["make"]
+        X_in_target["model"] = predictions["model"]
+        X_in_target["body_type"] = predictions["body_type"]
         
-    X_encoded = encode_features_helper(X_raw, fe_encoder)
-        
-    feature_names = list(X_encoded.columns)
+    sim_eng = decoder.similarity_engines[target]
+    X_sim = sim_eng.transform(pd.Series([normalized]))
+    X_all = pd.concat([X_in_target.reset_index(drop=True), X_sim.reset_index(drop=True)], axis=1)
+    X_enc = X_all.copy()
+    cat_cols = [col for col in X_all.columns if X_all[col].dtype == object or isinstance(X_all[col].iloc[0], str)]
+    for col in cat_cols:
+        X_enc[col] = X_enc[col].astype(str)
+    X_enc[cat_cols] = decoder.ordinal_encoders[target].transform(X_enc[cat_cols])
+    
+    model = decoder.models[target]
+    feature_names = list(X_enc.columns)
     local_explanations = []
     
     # Get predicted class index
-    pred_idx = model.predict(X_encoded)[0]
+    pred_idx = model.predict(X_enc)[0]
     if isinstance(pred_idx, (np.ndarray, list)):
         pred_idx = int(pred_idx[0])
     else:
         pred_idx = int(pred_idx)
         
     try:
-        # Construct tree explainer
         explainer = shap.TreeExplainer(model)
-        shap_vals = explainer.shap_values(X_encoded)
+        shap_vals = explainer.shap_values(X_enc)
         
-        # Resolve class-specific SHAP values
         class_shap = None
         if isinstance(shap_vals, list):
-            # TreeExplainer on RandomForest/LGBM returns list of arrays
             class_shap = shap_vals[pred_idx]
             if len(class_shap.shape) > 1:
                 class_shap = class_shap[0]
         elif isinstance(shap_vals, np.ndarray):
-            if len(shap_vals.shape) == 3: # (samples, features, classes) e.g., CatBoost
+            if len(shap_vals.shape) == 3:
                 class_shap = shap_vals[0, :, pred_idx]
-            elif len(shap_vals.shape) == 2: # (samples, features)
+            elif len(shap_vals.shape) == 2:
                 class_shap = shap_vals[0]
             else:
                 class_shap = shap_vals
@@ -418,7 +252,6 @@ def explain_prediction(chassis_number: str, target: str = "make", model_dir: str
         if class_shap is not None:
             for name, val in zip(feature_names, class_shap):
                 local_explanations.append({"feature": name, "shap_value": float(val)})
-            # Sort by absolute impact
             local_explanations = sorted(local_explanations, key=lambda x: abs(x["shap_value"]), reverse=True)
     except Exception as e:
         logger.warning(f"SHAP explanation failed: {e}. Falling back to model feature importances.")
@@ -426,17 +259,16 @@ def explain_prediction(chassis_number: str, target: str = "make", model_dir: str
             importances = model.feature_importances_
             for name, val in zip(feature_names, importances):
                 local_explanations.append({"feature": name, "importance": float(val)})
-            # Sort by importance
             local_explanations = sorted(local_explanations, key=lambda x: x["importance"], reverse=True)
             
     # Include features' actual raw values for readability
     for item in local_explanations:
         feat_name = item["feature"]
-        item["raw_value"] = str(X_raw[feat_name].iloc[0])
+        item["raw_value"] = str(X_all[feat_name].iloc[0])
         
     return {
         "closest_prefixes": closest_prefixes,
-        "feature_attributions": local_explanations[:10] # Top 10 features
+        "feature_attributions": local_explanations[:10]
     }
 
 def main():
@@ -453,23 +285,12 @@ def main():
         default="chat_cat_short_vin_11/models",
         help="Directory where models are saved."
     )
-    parser.add_argument(
-        "--explain",
-        action="store_true",
-        help="Whether to generate explainability insights."
-    )
     
     args = parser.parse_args()
     
     try:
-        pred_res = predict_vehicle(args.chassis, args.model_dir)
-        output = {"prediction": pred_res}
-        
-        if args.explain:
-            exp_res = explain_prediction(args.chassis, "make", args.model_dir)
-            output["explanation"] = exp_res
-            
-        print(json.dumps(output, indent=4))
+        result = predict_vehicle(args.chassis, args.model_dir)
+        print(json.dumps(result, indent=4))
     except Exception as e:
         logger.error(f"Inference failed: {e}")
         print(json.dumps({"error": str(e)}, indent=4))

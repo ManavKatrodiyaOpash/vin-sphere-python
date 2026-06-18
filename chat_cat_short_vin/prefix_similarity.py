@@ -205,13 +205,22 @@ class PrefixSimilarityEngine:
                 
             # 2. Similarity search features (Top 3 neighbors)
             neighbors = self.find_nearest_neighbors(chassis_clean, top_n=3)
-            for n_idx, (nb_chassis, dist, nb_attrs) in enumerate(neighbors):
-                row_feat[f"sim_score_{n_idx+1}"] = float(dist)
-                row_feat[f"sim_chassis_{n_idx+1}"] = nb_chassis
-                for target in self.targets:
-                    row_feat[f"sim_{target}_{n_idx+1}"] = nb_attrs[target]
-                row_feat[f"sim_year_{n_idx+1}"] = str(nb_attrs['year'])
-                row_feat[f"sim_weight_{n_idx+1}"] = float(nb_attrs['weight'])
+            for n_idx in range(3):
+                if n_idx < len(neighbors):
+                    nb_chassis, dist, nb_attrs = neighbors[n_idx]
+                    row_feat[f"sim_score_{n_idx+1}"] = float(dist)
+                    row_feat[f"sim_chassis_{n_idx+1}"] = nb_chassis
+                    for target in self.targets:
+                        row_feat[f"sim_{target}_{n_idx+1}"] = nb_attrs[target]
+                    row_feat[f"sim_year_{n_idx+1}"] = str(nb_attrs['year'])
+                    row_feat[f"sim_weight_{n_idx+1}"] = float(nb_attrs['weight'])
+                else:
+                    row_feat[f"sim_score_{n_idx+1}"] = 999.0
+                    row_feat[f"sim_chassis_{n_idx+1}"] = "UNKNOWN"
+                    for target in self.targets:
+                        row_feat[f"sim_{target}_{n_idx+1}"] = "UNKNOWN"
+                    row_feat[f"sim_year_{n_idx+1}"] = "UNKNOWN"
+                    row_feat[f"sim_weight_{n_idx+1}"] = 0.0
                 
             output_features.append(row_feat)
             
