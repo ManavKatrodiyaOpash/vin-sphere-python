@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 _CACHE: Dict[str, Any] = {}
 
 # All targets in prediction sequence
-TARGETS = ["make", "model", "year", "trim", "body_type", "origin", "regional_specs", "color", "weight"]
+TARGETS = ["make", "model", "year", "trim", "body_type", "origin", "regional_specs", "cylinders", "no_of_passengers", "color", "weight"]
 
 def load_cached_artifact(filename: str, model_dir: str = "chat_cat_short_vin_11/models") -> Any:
     """
@@ -191,13 +191,22 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin_11
         predictions["trim"] = "UNKNOWN"
         confidences["trim"] = 0.0
         
-    # 5. Predict remaining attributes (body_type, origin, regional_specs, color, weight)
-    for target in ["body_type", "origin", "regional_specs", "color", "weight"]:
+    # 5. Predict remaining attributes (body_type, origin, regional_specs, cylinders, no_of_passengers, color, weight)
+    for target in ["body_type", "origin", "regional_specs", "color", "weight", "cylinders", "no_of_passengers"]:
         try:
             fe_encoder = load_cached_artifact(f"{target}_fe_encoder.pkl", model_dir)
             model = load_cached_artifact(f"{target}_model.pkl", model_dir)
             
-            X_encoded = encode_features_helper(X_chassis, fe_encoder)
+            # Build feature set — cylinders/passengers use make+model+body_type as context
+            if target in ["cylinders", "no_of_passengers"]:
+                X_target_raw = X_chassis.copy()
+                X_target_raw["make"] = str(predictions.get("make", "UNKNOWN"))
+                X_target_raw["model"] = str(predictions.get("model", "UNKNOWN"))
+                X_target_raw["body_type"] = str(predictions.get("body_type", "UNKNOWN"))
+                X_encoded = encode_features_helper(X_target_raw, fe_encoder)
+            else:
+                X_encoded = encode_features_helper(X_chassis, fe_encoder)
+                
             pred_val = model.predict(X_encoded)[0]
             if isinstance(pred_val, (np.ndarray, list)):
                 pred_val = pred_val[0]
@@ -205,6 +214,18 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin_11
             if target == "weight":
                 predictions["weight"] = float(np.round(pred_val, 2))
                 confidences["weight"] = 1.0
+            elif target in ["cylinders", "no_of_passengers"]:
+                lbl_encoder = load_cached_artifact(f"{target}_label_encoder.pkl", model_dir)
+                raw_val = lbl_encoder.inverse_transform(pred_val)
+                try:
+                    predictions[target] = str(int(float(str(raw_val))))
+                except (ValueError, TypeError):
+                    predictions[target] = str(raw_val)
+                if hasattr(model, "predict_proba"):
+                    probs = model.predict_proba(X_encoded)[0]
+                    confidences[target] = float(np.max(probs))
+                else:
+                    confidences[target] = 1.0
             else:
                 lbl_encoder = load_cached_artifact(f"{target}_label_encoder.pkl", model_dir)
                 predictions[target] = lbl_encoder.inverse_transform(pred_val)
@@ -222,53 +243,55 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin_11
                 predictions[target] = "UNKNOWN"
                 confidences[target] = 0.0
                 
-    # Fetch cylinders and noOfPassengers from final_clean_11.csv
-    cylinders_val = "UNKNOWN"
-    passengers_val = "UNKNOWN"
-    cylinders_conf = 0.0
-    passengers_conf = 0.0
+    # Fallback: if cylinders/passengers still UNKNOWN (old models without those targets),
+    # look up from CSV using prefix matching
+    cylinders_val = predictions.get("cylinders", "UNKNOWN")
+    passengers_val = predictions.get("no_of_passengers", "UNKNOWN")
+    cylinders_conf = confidences.get("cylinders", 0.0)
+    passengers_conf = confidences.get("no_of_passengers", 0.0)
     
-    csv_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Data", "final_clean_11.csv")
-    if os.path.exists(csv_path):
-        try:
-            df_ref = pd.read_csv(csv_path)
-            df_ref["prefix5"] = df_ref["chassisNumber"].astype(str).str.upper().str[:5]
-            input_prefix = normalized[:5]
-            
-            # Match on prefix5
-            matches = df_ref[df_ref["prefix5"] == input_prefix]
-            if matches.empty:
-                # Fallback to prefix4
-                df_ref["prefix4"] = df_ref["chassisNumber"].astype(str).str.upper().str[:4]
-                matches = df_ref[df_ref["prefix4"] == input_prefix[:4]]
-                
-            if not matches.empty:
-                if "cylinders" in matches.columns:
-                    c_mode = matches["cylinders"].mode()
-                    if not c_mode.empty:
-                        c_val = c_mode.iloc[0]
-                        if pd.notna(c_val) and str(c_val).strip() != "":
-                            try:
-                                cylinders_val = str(int(float(c_val)))
-                            except ValueError:
-                                cylinders_val = str(c_val)
-                            cylinders_conf = 0.95
-                if "noOfPassengers" in matches.columns:
-                    p_mode = matches["noOfPassengers"].mode()
-                    if not p_mode.empty:
-                        p_val = p_mode.iloc[0]
-                        if pd.notna(p_val) and str(p_val).strip() != "":
-                            try:
-                                passengers_val = str(int(float(p_val)))
-                            except ValueError:
-                                passengers_val = str(p_val)
-                            passengers_conf = 0.95
-        except Exception as e:
-            logger.warning(f"Failed to lookup cylinders/passengers: {e}")
+    if cylinders_val in ("UNKNOWN", None, "") or cylinders_conf == 0.0 or passengers_val in ("UNKNOWN", None, "") or passengers_conf == 0.0:
+        csv_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Data", "final_clean_11.csv")
+        if os.path.exists(csv_path):
+            try:
+                df_ref = pd.read_csv(csv_path)
+                df_ref["prefix5"] = df_ref["chassisNumber"].astype(str).str.upper().str[:5]
+                input_prefix = normalized[:5]
+                matches = df_ref[df_ref["prefix5"] == input_prefix]
+                if matches.empty:
+                    df_ref["prefix4"] = df_ref["chassisNumber"].astype(str).str.upper().str[:4]
+                    matches = df_ref[df_ref["prefix4"] == input_prefix[:4]]
+                if not matches.empty:
+                    if (cylinders_val in ("UNKNOWN", None, "") or cylinders_conf == 0.0) and "cylinders" in matches.columns:
+                        c_mode = matches["cylinders"].mode()
+                        if not c_mode.empty:
+                            c_val = c_mode.iloc[0]
+                            if pd.notna(c_val) and str(c_val).strip() != "":
+                                try:
+                                    cylinders_val = str(int(float(c_val)))
+                                except ValueError:
+                                    cylinders_val = str(c_val)
+                                cylinders_conf = 0.85
+                                predictions["cylinders"] = cylinders_val
+                                confidences["cylinders"] = cylinders_conf
+                    if (passengers_val in ("UNKNOWN", None, "") or passengers_conf == 0.0) and "noOfPassengers" in matches.columns:
+                        p_mode = matches["noOfPassengers"].mode()
+                        if not p_mode.empty:
+                            p_val = p_mode.iloc[0]
+                            if pd.notna(p_val) and str(p_val).strip() != "":
+                                try:
+                                    passengers_val = str(int(float(p_val)))
+                                except ValueError:
+                                    passengers_val = str(p_val)
+                                passengers_conf = 0.85
+                                predictions["no_of_passengers"] = passengers_val
+                                confidences["no_of_passengers"] = passengers_conf
+            except Exception as e:
+                logger.warning(f"Failed to lookup cylinders/passengers from CSV: {e}")
 
     # Helper function to format all predicted attributes as clean strings
     def to_str_val(val) -> str:
-        if val is None or pd.isna(val):
+        if val is None or (isinstance(val, float) and pd.isna(val)):
             return "UNKNOWN"
         val_str = str(val).strip()
         if val_str.upper() in ["NAN", "NONE", "UNKNOWN", "0", "0.0", ""]:
@@ -291,9 +314,9 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin_11
         "trim": to_str_val(predictions.get("trim")),
         "body_type": to_str_val(predictions.get("body_type")),
         "regional_spec": to_str_val(predictions.get("regional_specs")),
-        "cylinders": to_str_val(cylinders_val),
+        "cylinders": to_str_val(predictions.get("cylinders", "UNKNOWN")),
         "origin": to_str_val(predictions.get("origin")),
-        "no_of_passengers": to_str_val(passengers_val),
+        "no_of_passengers": to_str_val(predictions.get("no_of_passengers", "UNKNOWN")),
         "weight": to_str_val(predictions.get("weight")),
         "color": to_str_val(predictions.get("color")),
         "confidence": 0.0,
@@ -303,9 +326,9 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin_11
             "trim": round(float(confidences.get("trim", 0.0)), 4),
             "body_type": round(float(confidences.get("body_type", 0.0)), 4),
             "year": round(float(confidences.get("year", 0.0)), 4),
-            "cylinders": round(float(cylinders_conf), 4),
+            "cylinders": round(float(confidences.get("cylinders", 0.0)), 4),
             "origin": round(float(confidences.get("origin", 0.0)), 4),
-            "no_of_passengers": round(float(passengers_conf), 4),
+            "no_of_passengers": round(float(confidences.get("no_of_passengers", 0.0)), 4),
             "weight": round(float(confidences.get("weight", 0.0)), 4),
             "regional_spec": round(float(confidences.get("regional_specs", 0.0)), 4),
             "color": round(float(confidences.get("color", 0.0)), 4)

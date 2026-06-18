@@ -72,39 +72,46 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin/mo
         decoder = VINDecoder(model_dir=model_dir)
         res = decoder.predict(chassis_number)
         
-    # 1. Fetch cylinders and noOfPassengers from nearest neighbor in train_df
-    cylinders_val = "UNKNOWN"
-    passengers_val = "UNKNOWN"
-    cylinders_conf = 0.0
-    passengers_conf = 0.0
+    res_conf = res.get("confidence", {})
     
-    sim_engine = decoder.similarity_engines.get("make")
-    if sim_engine and hasattr(sim_engine, "train_df") and sim_engine.train_df is not None:
-        neighbors = sim_engine.find_nearest_neighbors(chassis_number, top_n=1)
-        if neighbors:
-            nb_chassis = neighbors[0][0]
-            match_row = sim_engine.train_df[sim_engine.train_df["chassisNumber"] == nb_chassis]
-            if not match_row.empty:
-                if "cylinders" in match_row.columns:
-                    c_val = match_row["cylinders"].iloc[0]
-                    if pd.notna(c_val) and str(c_val).strip() != "":
-                        try:
-                            cylinders_val = str(int(float(c_val)))
-                        except ValueError:
-                            cylinders_val = str(c_val)
-                        cylinders_conf = 0.95
-                if "noOfPassengers" in match_row.columns:
-                    p_val = match_row["noOfPassengers"].iloc[0]
-                    if pd.notna(p_val) and str(p_val).strip() != "":
-                        try:
-                            passengers_val = str(int(float(p_val)))
-                        except ValueError:
-                            passengers_val = str(p_val)
-                        passengers_conf = 0.95
+    # Read cylinders and no_of_passengers from model prediction (trained models)
+    # Fall back to nearest-neighbor lookup if the models haven't been trained yet
+    cylinders_val = res.get("cylinders", "UNKNOWN")
+    passengers_val = res.get("no_of_passengers", "UNKNOWN")
+    
+    # Get confidence from model; if model was trained, confidence will be > 0
+    cylinders_conf = float(res_conf.get("cylinders", 0.0))
+    passengers_conf = float(res_conf.get("no_of_passengers", 0.0))
+    
+    # Neighbor-based fallback when model hasn't been trained for these targets
+    if cylinders_val in ("UNKNOWN", None, "") or cylinders_conf == 0.0 or passengers_val in ("UNKNOWN", None, "") or passengers_conf == 0.0:
+        sim_engine = decoder.similarity_engines.get("make")
+        if sim_engine and hasattr(sim_engine, "train_df") and sim_engine.train_df is not None:
+            neighbors = sim_engine.find_nearest_neighbors(chassis_number, top_n=1)
+            if neighbors:
+                nb_chassis = neighbors[0][0]
+                match_row = sim_engine.train_df[sim_engine.train_df["chassisNumber"] == nb_chassis]
+                if not match_row.empty:
+                    if (cylinders_val in ("UNKNOWN", None, "") or cylinders_conf == 0.0) and "cylinders" in match_row.columns:
+                        c_val = match_row["cylinders"].iloc[0]
+                        if pd.notna(c_val) and str(c_val).strip() != "":
+                            try:
+                                cylinders_val = str(int(float(c_val)))
+                            except ValueError:
+                                cylinders_val = str(c_val)
+                            cylinders_conf = 0.85
+                    if (passengers_val in ("UNKNOWN", None, "") or passengers_conf == 0.0) and "noOfPassengers" in match_row.columns:
+                        p_val = match_row["noOfPassengers"].iloc[0]
+                        if pd.notna(p_val) and str(p_val).strip() != "":
+                            try:
+                                passengers_val = str(int(float(p_val)))
+                            except ValueError:
+                                passengers_val = str(p_val)
+                            passengers_conf = 0.85
 
     # Helper function to format all predicted attributes as clean strings
     def to_str_val(val) -> str:
-        if val is None or pd.isna(val):
+        if val is None or (isinstance(val, float) and pd.isna(val)):
             return "UNKNOWN"
         val_str = str(val).strip()
         if val_str.upper() in ["NAN", "NONE", "UNKNOWN", "0", "0.0", ""]:
@@ -117,8 +124,6 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin/mo
         except ValueError:
             pass
         return val_str
-
-    res_conf = res.get("confidence", {})
     
     # Construct exact requested output dictionary schema
     output = {

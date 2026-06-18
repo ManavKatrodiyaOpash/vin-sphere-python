@@ -33,35 +33,21 @@ def decode_any_vin(vin_str):
         model_dir_11 = str(project_root / "chat_cat_short_vin_11" / "models")
         res_11 = predict_11(vin_str, model_dir=model_dir_11)
         
-        # Calculate overall confidence
-        conf_keys = ["make_confidence", "model_confidence", "year_confidence", "trim_confidence", 
-                     "body_type_confidence", "origin_confidence", "regional_specs_confidence"]
-        avg_conf = np.mean([res_11.get(k, 0.0) for k in conf_keys])
-        
+        # res_11 already returns the standardized schema from predict_vehicle
         mapped_res = {
             "make": res_11.get("make"),
             "model": res_11.get("model"),
             "trim": res_11.get("trim"),
             "body_type": res_11.get("body_type"),
             "year": res_11.get("year"),
-            "cylinders": "UNKNOWN",
+            "cylinders": res_11.get("cylinders", "UNKNOWN"),
             "origin": res_11.get("origin"),
-            "no_of_passengers": "UNKNOWN",
+            "no_of_passengers": res_11.get("no_of_passengers", "UNKNOWN"),
             "weight": res_11.get("weight"),
-            "regional_spec": res_11.get("regional_specs"),
-            "attribute_confidences": {
-                "make": res_11.get("make_confidence", 0.0),
-                "model": res_11.get("model_confidence", 0.0),
-                "trim": res_11.get("trim_confidence", 0.0),
-                "body_type": res_11.get("body_type_confidence", 0.0),
-                "year": res_11.get("year_confidence", 0.0),
-                "cylinders": 0.0,
-                "origin": res_11.get("origin_confidence", 0.0),
-                "no_of_passengers": 0.0,
-                "weight": res_11.get("weight_confidence", 0.0),
-                "regional_spec": res_11.get("regional_specs_confidence", 0.0)
-            },
-            "confidence": float(avg_conf)
+            "color": res_11.get("color", "UNKNOWN"),
+            "regional_spec": res_11.get("regional_spec", res_11.get("regional_specs", "UNKNOWN")),
+            "attribute_confidences": res_11.get("attribute_confidences", {}),
+            "confidence": res_11.get("confidence", 0.0)
         }
         return mapped_res
     else:
