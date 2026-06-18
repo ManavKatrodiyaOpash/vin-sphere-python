@@ -9,8 +9,8 @@ import numpy as np
 import pandas as pd
 import shap
 
-from feature_engineering import normalize_chassis, extract_features
-from model_utils import load_model
+from chat_cat_short_vin_11.feature_engineering import normalize_chassis, extract_features
+from chat_cat_short_vin_11.model_utils import load_model
 
 # Configure logging
 logger = logging.getLogger(__name__)

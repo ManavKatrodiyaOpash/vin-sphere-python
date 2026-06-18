@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from typing import Dict, Any
 
-from feature_engineering import normalize_chassis, extract_features
+from chat_cat_short_vin.feature_engineering import normalize_chassis, extract_features
 
 class VINDecoder:
     def __init__(self, model_dir="chat_cat_short_vin/models"):
