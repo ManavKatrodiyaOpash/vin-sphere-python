@@ -86,21 +86,24 @@ if st.button("Decode Chassis", use_container_width=True):
                 
                 table_rows = []
                 # Map attributes to friendly display labels
+                attr_conf = result.get("attribute_confidences", {})
                 display_attrs = [
-                    ("Make", "make", "make_confidence"),
-                    ("Model", "model", "model_confidence"),
-                    ("Model Year", "year", "year_confidence"),
-                    ("Trim", "trim", "trim_confidence"),
-                    ("Body Type", "body_type", "body_type_confidence"),
-                    ("Country of Origin", "origin", "origin_confidence"),
-                    ("Regional Specs", "regional_specs", "regional_specs_confidence"),
-                    ("Color", "color", "color_confidence"),
-                    ("Weight (KG)", "weight", "weight_confidence")
+                    ("Make", "make"),
+                    ("Model", "model"),
+                    ("Model Year", "year"),
+                    ("Trim", "trim"),
+                    ("Body Type", "body_type"),
+                    ("Cylinders", "cylinders"),
+                    ("No. of Passengers", "no_of_passengers"),
+                    ("Country of Origin", "origin"),
+                    ("Regional Specs", "regional_spec"),
+                    ("Color", "color"),
+                    ("Weight (KG)", "weight"),
                 ]
                 
-                for label, val_key, conf_key in display_attrs:
+                for label, val_key in display_attrs:
                     val = result.get(val_key, "UNKNOWN")
-                    conf = result.get(conf_key, 0.0)
+                    conf = attr_conf.get(val_key, result.get(f"{val_key}_confidence", 0.0))
                     
                     # Highlight colors depending on confidence score
                     if conf >= 0.85:
