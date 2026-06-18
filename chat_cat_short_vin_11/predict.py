@@ -222,27 +222,100 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin_11
                 predictions[target] = "UNKNOWN"
                 confidences[target] = 0.0
                 
-    # Build complete final output
+    # Fetch cylinders and noOfPassengers from final_clean_11.csv
+    cylinders_val = "UNKNOWN"
+    passengers_val = "UNKNOWN"
+    cylinders_conf = 0.0
+    passengers_conf = 0.0
+    
+    csv_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Data", "final_clean_11.csv")
+    if os.path.exists(csv_path):
+        try:
+            df_ref = pd.read_csv(csv_path)
+            df_ref["prefix5"] = df_ref["chassisNumber"].astype(str).str.upper().str[:5]
+            input_prefix = normalized[:5]
+            
+            # Match on prefix5
+            matches = df_ref[df_ref["prefix5"] == input_prefix]
+            if matches.empty:
+                # Fallback to prefix4
+                df_ref["prefix4"] = df_ref["chassisNumber"].astype(str).str.upper().str[:4]
+                matches = df_ref[df_ref["prefix4"] == input_prefix[:4]]
+                
+            if not matches.empty:
+                if "cylinders" in matches.columns:
+                    c_mode = matches["cylinders"].mode()
+                    if not c_mode.empty:
+                        c_val = c_mode.iloc[0]
+                        if pd.notna(c_val) and str(c_val).strip() != "":
+                            try:
+                                cylinders_val = str(int(float(c_val)))
+                            except ValueError:
+                                cylinders_val = str(c_val)
+                            cylinders_conf = 0.95
+                if "noOfPassengers" in matches.columns:
+                    p_mode = matches["noOfPassengers"].mode()
+                    if not p_mode.empty:
+                        p_val = p_mode.iloc[0]
+                        if pd.notna(p_val) and str(p_val).strip() != "":
+                            try:
+                                passengers_val = str(int(float(p_val)))
+                            except ValueError:
+                                passengers_val = str(p_val)
+                            passengers_conf = 0.95
+        except Exception as e:
+            logger.warning(f"Failed to lookup cylinders/passengers: {e}")
+
+    # Helper function to format all predicted attributes as clean strings
+    def to_str_val(val) -> str:
+        if val is None or pd.isna(val):
+            return "UNKNOWN"
+        val_str = str(val).strip()
+        if val_str.upper() in ["NAN", "NONE", "UNKNOWN", "0", "0.0", ""]:
+            return "UNKNOWN"
+        try:
+            float_val = float(val_str)
+            if float_val.is_integer():
+                return str(int(float_val))
+            return str(round(float_val, 2))
+        except ValueError:
+            pass
+        return val_str
+
+    # Construct exact requested output dictionary schema
     output = {
-        "make": predictions["make"],
-        "make_confidence": round(confidences["make"], 4),
-        "model": predictions["model"],
-        "model_confidence": round(confidences["model"], 4),
-        "year": predictions["year"],
-        "year_confidence": round(confidences["year"], 4),
-        "trim": predictions["trim"],
-        "trim_confidence": round(confidences["trim"], 4),
-        "body_type": predictions["body_type"],
-        "body_type_confidence": round(confidences["body_type"], 4),
-        "origin": predictions["origin"],
-        "origin_confidence": round(confidences["origin"], 4),
-        "regional_specs": predictions["regional_specs"],
-        "regional_specs_confidence": round(confidences["regional_specs"], 4),
-        "color": predictions["color"],
-        "color_confidence": round(confidences["color"], 4),
-        "weight": predictions["weight"],
-        "weight_confidence": round(confidences["weight"], 4)
+        "vin": str(chassis_number).upper().strip(),
+        "year": to_str_val(predictions.get("year")),
+        "make": to_str_val(predictions.get("make")),
+        "model": to_str_val(predictions.get("model")),
+        "trim": to_str_val(predictions.get("trim")),
+        "body_type": to_str_val(predictions.get("body_type")),
+        "regional_spec": to_str_val(predictions.get("regional_specs")),
+        "cylinders": to_str_val(cylinders_val),
+        "origin": to_str_val(predictions.get("origin")),
+        "no_of_passengers": to_str_val(passengers_val),
+        "weight": to_str_val(predictions.get("weight")),
+        "color": to_str_val(predictions.get("color")),
+        "confidence": 0.0,
+        "attribute_confidences": {
+            "make": round(float(confidences.get("make", 0.0)), 4),
+            "model": round(float(confidences.get("model", 0.0)), 4),
+            "trim": round(float(confidences.get("trim", 0.0)), 4),
+            "body_type": round(float(confidences.get("body_type", 0.0)), 4),
+            "year": round(float(confidences.get("year", 0.0)), 4),
+            "cylinders": round(float(cylinders_conf), 4),
+            "origin": round(float(confidences.get("origin", 0.0)), 4),
+            "no_of_passengers": round(float(passengers_conf), 4),
+            "weight": round(float(confidences.get("weight", 0.0)), 4),
+            "regional_spec": round(float(confidences.get("regional_specs", 0.0)), 4),
+            "color": round(float(confidences.get("color", 0.0)), 4)
+        }
     }
+    
+    # Overall confidence is the average of all attribute confidences
+    confs = list(output["attribute_confidences"].values())
+    output["confidence"] = round(float(np.mean(confs)), 4)
+    
     return output
 
 def explain_prediction(chassis_number: str, target: str = "make", model_dir: str = "chat_cat_short_vin_11/models") -> Dict[str, Any]:
