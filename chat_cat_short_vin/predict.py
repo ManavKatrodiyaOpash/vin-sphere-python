@@ -1,3 +1,9 @@
+import sys
+from pathlib import Path
+_parent = Path(__file__).resolve().parent.parent
+if str(_parent) not in sys.path:
+    sys.path.append(str(_parent))
+
 import os
 import json
 import logging
@@ -6,8 +12,8 @@ import numpy as np
 import pandas as pd
 from typing import Dict, Any
 
-from feature_engineering import normalize_chassis, extract_features
-from model_utils import load_model
+from chat_cat_short_vin.feature_engineering import normalize_chassis, extract_features
+from chat_cat_short_vin.model_utils import load_model
 
 # Configure logging
 logger = logging.getLogger(__name__)
@@ -58,11 +64,11 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin/mo
             res = decoder.predict(chassis_number)
         except Exception as e:
             logger.warning(f"Failed to load pipeline: {e}. Falling back to manual load.")
-            from vin_decoder import VINDecoder
+            from chat_cat_short_vin.vin_decoder import VINDecoder
             decoder = VINDecoder(model_dir=model_dir)
             res = decoder.predict(chassis_number)
     else:
-        from vin_decoder import VINDecoder
+        from chat_cat_short_vin.vin_decoder import VINDecoder
         decoder = VINDecoder(model_dir=model_dir)
         res = decoder.predict(chassis_number)
         
@@ -90,6 +96,119 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin/mo
         }
     }
     return output
+
+def explain_prediction(chassis_number: str, target: str = "make", model_dir: str = "chat_cat_short_vin/models") -> Dict[str, Any]:
+    """
+    Computes explainability insights for a given prediction target:
+    1. Finds closest matching prefixes in the training set.
+    2. Calculates local feature attributions using SHAP or feature importances.
+    """
+    from difflib import SequenceMatcher
+    import shap
+    
+    normalized = normalize_chassis(chassis_number)
+    if not normalized:
+        raise ValueError("Invalid chassis number provided.")
+        
+    # Load the decoder (which contains all models and similarity engines)
+    from chat_cat_short_vin.vin_decoder import VINDecoder
+    decoder = VINDecoder(model_dir=model_dir)
+    
+    # 1. Closest prefixes
+    sim_engine = decoder.similarity_engines.get("make")
+    closest_prefixes = []
+    if sim_engine and hasattr(sim_engine, "train_chassis") and sim_engine.train_chassis:
+        train_prefixes = sorted(list(set(c[:5] for c in sim_engine.train_chassis)))
+        input_prefix = normalized[:5].upper()
+        matches = []
+        for train_pref in train_prefixes:
+            score = SequenceMatcher(None, input_prefix, train_pref).ratio()
+            matches.append({"prefix": train_pref, "similarity": round(score, 4)})
+        matches = sorted(matches, key=lambda x: x["similarity"], reverse=True)
+        closest_prefixes = matches[:5]
+        
+    # 2. Local feature attributions
+    X_in = extract_features(pd.Series([normalized]))
+    
+    predictions = {}
+    res = decoder.predict(normalized)
+    predictions["make"] = res["make"]
+    predictions["model"] = res["model"]
+    predictions["year"] = res["year"]
+    
+    # Construct features for the target:
+    X_in_target = X_in.copy()
+    if target == "model":
+        X_in_target["make"] = predictions["make"]
+    elif target == "year":
+        X_in_target["make"] = predictions["make"]
+        X_in_target["model"] = predictions["model"]
+    elif target == "trim":
+        X_in_target["make"] = predictions["make"]
+        X_in_target["model"] = predictions["model"]
+        X_in_target["year"] = str(predictions["year"])
+    elif target in ["body_type", "origin", "regional_specs"]:
+        X_in_target["make"] = predictions["make"]
+        X_in_target["model"] = predictions["model"]
+        
+    sim_eng = decoder.similarity_engines[target]
+    X_sim = sim_eng.transform(pd.Series([normalized]))
+    X_all = pd.concat([X_in_target.reset_index(drop=True), X_sim.reset_index(drop=True)], axis=1)
+    X_enc = X_all.copy()
+    cat_cols = [col for col in X_all.columns if X_all[col].dtype == object or isinstance(X_all[col].iloc[0], str)]
+    for col in cat_cols:
+        X_enc[col] = X_enc[col].astype(str)
+    X_enc[cat_cols] = decoder.ordinal_encoders[target].transform(X_enc[cat_cols])
+    
+    model = decoder.models[target]
+    feature_names = list(X_enc.columns)
+    local_explanations = []
+    
+    # Get predicted class index
+    pred_idx = model.predict(X_enc)[0]
+    if isinstance(pred_idx, (np.ndarray, list)):
+        pred_idx = int(pred_idx[0])
+    else:
+        pred_idx = int(pred_idx)
+        
+    try:
+        explainer = shap.TreeExplainer(model)
+        shap_vals = explainer.shap_values(X_enc)
+        
+        class_shap = None
+        if isinstance(shap_vals, list):
+            class_shap = shap_vals[pred_idx]
+            if len(class_shap.shape) > 1:
+                class_shap = class_shap[0]
+        elif isinstance(shap_vals, np.ndarray):
+            if len(shap_vals.shape) == 3: # (samples, features, classes) e.g., CatBoost
+                class_shap = shap_vals[0, :, pred_idx]
+            elif len(shap_vals.shape) == 2: # (samples, features)
+                class_shap = shap_vals[0]
+            else:
+                class_shap = shap_vals
+                
+        if class_shap is not None:
+            for name, val in zip(feature_names, class_shap):
+                local_explanations.append({"feature": name, "shap_value": float(val)})
+            local_explanations = sorted(local_explanations, key=lambda x: abs(x["shap_value"]), reverse=True)
+    except Exception as e:
+        logger.warning(f"SHAP explanation failed: {e}. Falling back to model feature importances.")
+        if hasattr(model, "feature_importances_"):
+            importances = model.feature_importances_
+            for name, val in zip(feature_names, importances):
+                local_explanations.append({"feature": name, "importance": float(val)})
+            local_explanations = sorted(local_explanations, key=lambda x: x["importance"], reverse=True)
+            
+    # Include features' actual raw values for readability
+    for item in local_explanations:
+        feat_name = item["feature"]
+        item["raw_value"] = str(X_all[feat_name].iloc[0])
+        
+    return {
+        "closest_prefixes": closest_prefixes,
+        "feature_attributions": local_explanations[:10] # Top 10 features
+    }
 
 def main():
     parser = argparse.ArgumentParser(description="Japanese Import 10-Character Short Chassis Model Inference Tool")

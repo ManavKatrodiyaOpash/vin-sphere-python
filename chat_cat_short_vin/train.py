@@ -1,3 +1,9 @@
+import sys
+from pathlib import Path
+_parent = Path(__file__).resolve().parent.parent
+if str(_parent) not in sys.path:
+    sys.path.append(str(_parent))
+
 import os
 import argparse
 import logging
@@ -19,9 +25,9 @@ from sklearn.ensemble import (
     ExtraTreesClassifier, ExtraTreesRegressor
 )
 
-from feature_engineering import load_and_preprocess_data, extract_features
-from model_utils import RobustLabelEncoder, save_model, load_model
-from prefix_similarity import PrefixSimilarityEngine
+from chat_cat_short_vin.feature_engineering import load_and_preprocess_data, extract_features
+from chat_cat_short_vin.model_utils import RobustLabelEncoder, save_model, load_model
+from chat_cat_short_vin.prefix_similarity import PrefixSimilarityEngine
 
 # Configure logging
 logging.basicConfig(
@@ -618,7 +624,7 @@ def main():
     logger.info(f" - Regional Specs Accuracy: {accuracy_score(true_regional_specs, pred_regional_specs):.4f}")
 
     # Instantiate and save the unified pipeline
-    from vin_decoder import VINDecoder
+    from chat_cat_short_vin.vin_decoder import VINDecoder
     decoder_pipeline = VINDecoder(model_dir=args.model_dir)
     save_model(decoder_pipeline, os.path.join(args.model_dir, "vin_decoder_pipeline.pkl"))
     save_model(decoder_pipeline, "vin_decoder_pipeline.pkl")

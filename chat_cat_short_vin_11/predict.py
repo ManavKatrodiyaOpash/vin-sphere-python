@@ -1,3 +1,9 @@
+import sys
+from pathlib import Path
+_parent = Path(__file__).resolve().parent.parent
+if str(_parent) not in sys.path:
+    sys.path.append(str(_parent))
+
 import os
 import json
 import logging
@@ -9,8 +15,8 @@ import numpy as np
 import pandas as pd
 import shap
 
-from feature_engineering import normalize_chassis, extract_features
-from model_utils import load_model
+from chat_cat_short_vin_11.feature_engineering import normalize_chassis, extract_features
+from chat_cat_short_vin_11.model_utils import load_model
 
 # Configure logging
 logger = logging.getLogger(__name__)
