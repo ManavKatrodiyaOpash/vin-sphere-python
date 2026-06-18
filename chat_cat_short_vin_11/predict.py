@@ -46,6 +46,19 @@ def get_closest_prefixes(chassis_number: str, train_prefixes: List[str], top_n: 
     matches = sorted(matches, key=lambda x: x["similarity"], reverse=True)
     return matches[:top_n]
 
+def encode_features_helper(X_raw: pd.DataFrame, fe_encoder: Any) -> pd.DataFrame:
+    """
+    Helper function to transform only categorical columns using OrdinalEncoder,
+    matching the logic used during training.
+    """
+    X_encoded = X_raw.copy()
+    cat_cols = [col for col in X_raw.columns if X_raw[col].dtype == object or isinstance(X_raw[col].iloc[0], str)]
+    for col in cat_cols:
+        X_encoded[col] = X_encoded[col].astype(str)
+    if len(cat_cols) > 0:
+        X_encoded[cat_cols] = fe_encoder.transform(X_encoded[cat_cols])
+    return X_encoded
+
 def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin_11/models") -> Dict[str, Any]:
     """
     Normalizes the input chassis number, extracts features, and uses the trained
@@ -69,7 +82,7 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin_11
         make_model = load_cached_artifact("make_model.pkl", model_dir)
         make_lbl = load_cached_artifact("make_label_encoder.pkl", model_dir)
         
-        X_make = make_fe.transform(X_chassis)
+        X_make = encode_features_helper(X_chassis, make_fe)
         pred_idx = make_model.predict(X_make)[0]
         # In case the model returns a 1-element array
         if isinstance(pred_idx, (np.ndarray, list)):
@@ -96,7 +109,7 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin_11
         
         X_model_raw = X_chassis.copy()
         X_model_raw["make"] = str(predictions["make"])
-        X_model_encoded = model_fe.transform(X_model_raw)
+        X_model_encoded = encode_features_helper(X_model_raw, model_fe)
         
         pred_idx = model_model.predict(X_model_encoded)[0]
         if isinstance(pred_idx, (np.ndarray, list)):
@@ -123,7 +136,7 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin_11
         X_year_raw = X_chassis.copy()
         X_year_raw["make"] = str(predictions["make"])
         X_year_raw["model"] = str(predictions["model"])
-        X_year_encoded = year_fe.transform(X_year_raw)
+        X_year_encoded = encode_features_helper(X_year_raw, year_fe)
         
         pred_idx = year_model.predict(X_year_encoded)[0]
         if isinstance(pred_idx, (np.ndarray, list)):
@@ -155,7 +168,7 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin_11
         X_trim_raw["make"] = str(predictions["make"])
         X_trim_raw["model"] = str(predictions["model"])
         X_trim_raw["year"] = str(predictions["year"])
-        X_trim_encoded = trim_fe.transform(X_trim_raw)
+        X_trim_encoded = encode_features_helper(X_trim_raw, trim_fe)
         
         pred_idx = trim_model.predict(X_trim_encoded)[0]
         if isinstance(pred_idx, (np.ndarray, list)):
@@ -179,7 +192,7 @@ def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin_11
             fe_encoder = load_cached_artifact(f"{target}_fe_encoder.pkl", model_dir)
             model = load_cached_artifact(f"{target}_model.pkl", model_dir)
             
-            X_encoded = fe_encoder.transform(X_chassis)
+            X_encoded = encode_features_helper(X_chassis, fe_encoder)
             pred_val = model.predict(X_encoded)[0]
             if isinstance(pred_val, (np.ndarray, list)):
                 pred_val = pred_val[0]
@@ -268,10 +281,7 @@ def explain_prediction(chassis_number: str, target: str = "make", model_dir: str
         X_raw["model"] = make_res["model"]
         X_raw["year"] = str(make_res["year"])
         
-    X_encoded = X_raw.copy()
-    cat_cols = [col for col in X_raw.columns if X_raw[col].dtype == object or isinstance(X_raw[col].iloc[0], str)]
-    if len(cat_cols) > 0:
-        X_encoded[cat_cols] = fe_encoder.transform(X_raw[cat_cols])
+    X_encoded = encode_features_helper(X_raw, fe_encoder)
         
     feature_names = list(X_encoded.columns)
     local_explanations = []

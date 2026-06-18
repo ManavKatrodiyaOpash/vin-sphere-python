@@ -46,107 +46,49 @@ def get_model(target: str, model_dir: str = "chat_cat_short_vin/models") -> Any:
  
 def predict_vehicle(chassis_number: str, model_dir: str = "chat_cat_short_vin/models") -> Dict[str, Any]:
     """
-    Normalizes the input chassis number, extracts features, and uses the trained
-    CatBoost models to predict vehicle attributes.
-    
-    Args:
-        chassis_number: 10-character raw short chassis number.
-        model_dir: Directory where the models are saved.
-        
-    Returns:
-        A dictionary containing the predictions in the specified format.
+    Decodes a 10-character short chassis number using the unified VINDecoder pipeline.
     """
-    # 1. Normalize chassis number
-    normalized = normalize_chassis(chassis_number)
-    if not normalized:
-        raise ValueError("Invalid chassis number provided.")
+    pipeline_path = os.path.join(model_dir, "vin_decoder_pipeline.pkl")
+    if not os.path.exists(pipeline_path):
+        pipeline_path = "vin_decoder_pipeline.pkl"
         
-    # 2. Extract features (returns a 1-row DataFrame)
-    df_input = pd.DataFrame({"chassisNumber": [normalized]})
-    X_features = extract_features(df_input["chassisNumber"])
-    
-    # Ensure categorical features are string type (excluding numeric features)
-    numeric_features = ["serial_number", "first_digit_idx", "last_letter_idx", "num_letters", "num_digits"]
-    cat_features = [col for col in X_features.columns if col not in numeric_features]
-    for col in cat_features:
-        X_features[col] = X_features[col].astype(str)
-        
-    predictions: Dict[str, Any] = {}
-    confidences: Dict[str, float] = {}
-    
-    # 3. Perform prediction for each target
-    for target in TARGETS:
-        if target == "color":
-            predictions["color"] = "UNKNOWN"
-            confidences["color"] = 0.0
-            continue
+    if os.path.exists(pipeline_path):
         try:
-            model = get_model(target, model_dir)
-            pred = model.predict(X_features)
-            
-            # Extract scalar from numpy array returned by CatBoost
-            if isinstance(pred, np.ndarray):
-                if len(pred.shape) > 1 and pred.shape[1] == 1:
-                    val = pred[0][0]
-                else:
-                    val = pred[0]
-            else:
-                val = pred
-                
-            # Process regression outputs (cast to standard Python types)
-            if target == "year":
-                predictions["year"] = int(np.round(float(val)))
-                confidences["year"] = 1.0
-            elif target == "weight":
-                predictions["weight"] = float(np.round(float(val), 2))
-                confidences["weight"] = 1.0
-            else:
-                # Replace underscores/hyphens if needed, or leave as string
-                predictions[target] = str(val)
-                # Compute probability for classification targets
-                try:
-                    probs = model.predict_proba(X_features)
-                    conf = float(np.max(probs))
-                    confidences[target] = conf
-                except Exception:
-                    confidences[target] = 1.0
-                
+            decoder = load_model(pipeline_path)
+            res = decoder.predict(chassis_number)
         except Exception as e:
-            logger.warning(f"Error predicting target '{target}': {e}. Setting to default.")
-            if target == "year":
-                predictions["year"] = 0
-                confidences["year"] = 0.0
-            elif target == "weight":
-                predictions["weight"] = 0.0
-                confidences["weight"] = 0.0
-            else:
-                predictions[target] = "UNKNOWN"
-                confidences[target] = 0.0
-                
-    # Map 'regional_specs' internal target to the user's requested key 'regional specs'
+            logger.warning(f"Failed to load pipeline: {e}. Falling back to manual load.")
+            from vin_decoder import VINDecoder
+            decoder = VINDecoder(model_dir=model_dir)
+            res = decoder.predict(chassis_number)
+    else:
+        from vin_decoder import VINDecoder
+        decoder = VINDecoder(model_dir=model_dir)
+        res = decoder.predict(chassis_number)
+        
+    # Map predictions to output format for backward compatibility
     output = {
-        "make": predictions.get("make", "UNKNOWN"),
-        "model": predictions.get("model", "UNKNOWN"),
-        "trim": predictions.get("trim", "UNKNOWN"),
-        "body_type": predictions.get("body_type", "UNKNOWN"),
-        "year": predictions.get("year", 0),
-        "color": predictions.get("color", "UNKNOWN"),
-        "weight": predictions.get("weight", 0.0),
-        "regional specs": predictions.get("regional_specs", "UNKNOWN"),
-        "origin": predictions.get("origin", "UNKNOWN"),
+        "make": res.get("make", "UNKNOWN"),
+        "model": res.get("model", "UNKNOWN"),
+        "trim": res.get("trim", "UNKNOWN"),
+        "body_type": res.get("body_type", "UNKNOWN"),
+        "year": res.get("year", 0),
+        "color": res.get("color", "UNKNOWN"),
+        "weight": res.get("weight", 0.0),
+        "regional specs": res.get("regional_specs", "UNKNOWN"),
+        "origin": res.get("origin", "UNKNOWN"),
         "attribute_confidences": {
-            "make": confidences.get("make", 0.0),
-            "model": confidences.get("model", 0.0),
-            "trim": confidences.get("trim", 0.0),
-            "body_type": confidences.get("body_type", 0.0),
-            "year": confidences.get("year", 0.0),
-            "color": confidences.get("color", 0.0),
-            "weight": confidences.get("weight", 0.0),
-            "regional specs": confidences.get("regional_specs", 0.0),
-            "origin": confidences.get("origin", 0.0)
+            "make": res.get("confidence", {}).get("make", 0.0),
+            "model": res.get("confidence", {}).get("model", 0.0),
+            "year": res.get("confidence", {}).get("year", 0.0),
+            "trim": 1.0,
+            "body_type": 1.0,
+            "color": 1.0,
+            "weight": 1.0,
+            "regional specs": 1.0,
+            "origin": 1.0
         }
     }
-    
     return output
 
 def main():
