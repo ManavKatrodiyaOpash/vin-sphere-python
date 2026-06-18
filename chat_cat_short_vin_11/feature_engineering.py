@@ -1,7 +1,6 @@
 import re
 import logging
 import pandas as pd
-from typing import Tuple
 
 # Configure logging
 logger = logging.getLogger(__name__)
@@ -10,12 +9,6 @@ def normalize_chassis(chassis: str) -> str:
     """
     Normalizes a chassis number by converting it to uppercase and
     removing all spaces and hyphens.
-    
-    Args:
-        chassis: The raw chassis number string.
-        
-    Returns:
-        The normalized uppercase string.
     """
     if not isinstance(chassis, str):
         logger.warning(f"Expected string for chassis normalization, got {type(chassis)}")
@@ -28,99 +21,76 @@ def extract_features(chassis_series: pd.Series) -> pd.DataFrame:
     """
     Extracts features from a pandas Series of chassis numbers.
     Features extracted:
-    - pos_0 to pos_10: Individual character positions.
-    - prefix_2 to prefix_6: Substring prefixes of lengths 2, 3, 4, 5, and 6.
-    - serial_number: The last contiguous numeric sequence converted to an integer.
-    - letters_only: All alphabetical characters extracted in order.
-    - letter_prefix: First contiguous block of alphabetical characters.
-    - first_digit_idx: Zero-indexed position of the first numeric digit.
-    - last_letter_idx: Zero-indexed position of the last alphabetical character.
-    - num_letters: Total count of letters in the chassis string.
-    - num_digits: Total count of digits in the chassis string.
-    
-    Args:
-        chassis_series: Pandas Series containing the chassis numbers.
-        
-    Returns:
-        A pandas DataFrame with engineered features.
+    - char_1 to char_11: Character positions.
+    - prefix_2 to prefix_8: Substring prefixes of lengths 2 to 8.
+    - suffix_2 to suffix_4: Substring suffixes of lengths 2 to 4.
+    - digit_count: Total digit count.
+    - letter_count: Total letter count.
+    - first_digit_idx: index of first digit (-1 if none).
+    - last_digit_idx: index of last digit (-1 if none).
+    - first_letter_idx: index of first letter (-1 if none).
+    - last_letter_idx: index of last letter (-1 if none).
+    - digit position patterns: char_1_is_digit to char_11_is_digit.
+    - letter position patterns: char_1_is_letter to char_11_is_letter.
+    - chassis_pattern: String representation mapping letters to L and digits to D (e.g. LLDDDDDDDDD).
     """
     logger.info("Extracting features from 11-character chassis numbers...")
     normalized_series = chassis_series.astype(str).apply(normalize_chassis)
     
     features = {}
     
-    # 1. Character positions pos_0 to pos_10 (11 positions)
+    # 1. Character features
     for i in range(11):
-        features[f"pos_{i}"] = normalized_series.apply(
+        features[f"char_{i+1}"] = normalized_series.apply(
             lambda x: x[i] if len(x) > i else "?"
         )
         
-    # 2. Prefixes of length 2, 3, 4, 5, and 6
-    features["prefix_2"] = normalized_series.apply(
-        lambda x: x[:2] if len(x) >= 2 else x.ljust(2, "?")
-    )
-    features["prefix_3"] = normalized_series.apply(
-        lambda x: x[:3] if len(x) >= 3 else x.ljust(3, "?")
-    )
-    features["prefix_4"] = normalized_series.apply(
-        lambda x: x[:4] if len(x) >= 4 else x.ljust(4, "?")
-    )
-    features["prefix_5"] = normalized_series.apply(
-        lambda x: x[:5] if len(x) >= 5 else x.ljust(5, "?")
-    )
-    features["prefix_6"] = normalized_series.apply(
-        lambda x: x[:6] if len(x) >= 6 else x.ljust(6, "?")
-    )
-    
-    # 3. Numeric serial section as an integer feature
-    def extract_serial_int(val: str) -> int:
-        match = re.search(r"(\d+)\D*$", val)
-        if match:
-            try:
-                return int(match.group(1))
-            except ValueError:
-                return 0
-        return 0
+    # 2. Prefix features
+    for i in range(2, 9):
+        features[f"prefix_{i}"] = normalized_series.apply(
+            lambda x: x[:i] if len(x) >= i else x.ljust(i, "?")
+        )
         
-    features["serial_number"] = normalized_series.apply(extract_serial_int)
-    
-    # 4. Letters only sequence
-    features["letters_only"] = normalized_series.apply(
-        lambda x: "".join(re.findall(r"[A-Z]", x))
+    # 3. Suffix features
+    for i in range(2, 5):
+        features[f"suffix_{i}"] = normalized_series.apply(
+            lambda x: x[-i:] if len(x) >= i else x.rjust(i, "?")
+        )
+        
+    # 4. Numeric features (digit/letter counts and indices)
+    features["digit_count"] = normalized_series.apply(
+        lambda x: sum(1 for char in x if char.isdigit())
     )
-    
-    # 5. Letter prefix
-    def get_letter_prefix(val: str) -> str:
-        match = re.match(r"^[A-Z]+", val)
-        if match:
-            return match.group(0)
-        match_any = re.search(r"[A-Z]+", val)
-        return match_any.group(0) if match_any else "?"
-    features["letter_prefix"] = normalized_series.apply(get_letter_prefix)
-    
-    # 6. Index of first digit
-    def get_first_digit_idx(val: str) -> int:
-        for idx, char in enumerate(val):
-            if char.isdigit():
-                return idx
-        return -1
-    features["first_digit_idx"] = normalized_series.apply(get_first_digit_idx)
-    
-    # 7. Index of last letter
-    def get_last_letter_idx(val: str) -> int:
-        last_idx = -1
-        for idx, char in enumerate(val):
-            if char.isalpha():
-                last_idx = idx
-        return last_idx
-    features["last_letter_idx"] = normalized_series.apply(get_last_letter_idx)
-    
-    # 8. Number of letters and digits
-    features["num_letters"] = normalized_series.apply(
+    features["letter_count"] = normalized_series.apply(
         lambda x: sum(1 for char in x if char.isalpha())
     )
-    features["num_digits"] = normalized_series.apply(
-        lambda x: sum(1 for char in x if char.isdigit())
+    
+    # Helper index logic
+    features["first_digit_idx"] = normalized_series.apply(
+        lambda x: next((idx for idx, c in enumerate(x) if c.isdigit()), -1)
+    )
+    features["last_digit_idx"] = normalized_series.apply(
+        lambda x: next((idx for idx in range(len(x)-1, -1, -1) if x[idx].isdigit()), -1)
+    )
+    features["first_letter_idx"] = normalized_series.apply(
+        lambda x: next((idx for idx, c in enumerate(x) if c.isalpha()), -1)
+    )
+    features["last_letter_idx"] = normalized_series.apply(
+        lambda x: next((idx for idx in range(len(x)-1, -1, -1) if x[idx].isalpha()), -1)
+    )
+    
+    # 5. Position patterns
+    for i in range(11):
+        features[f"char_{i+1}_is_digit"] = normalized_series.apply(
+            lambda x: 1 if len(x) > i and x[i].isdigit() else 0
+        )
+        features[f"char_{i+1}_is_letter"] = normalized_series.apply(
+            lambda x: 1 if len(x) > i and x[i].isalpha() else 0
+        )
+        
+    # 6. Pattern layouts
+    features["chassis_pattern"] = normalized_series.apply(
+        lambda x: "".join("L" if c.isalpha() else "D" if c.isdigit() else "?" for c in x)
     )
     
     df_features = pd.DataFrame(features)
@@ -129,13 +99,7 @@ def extract_features(chassis_series: pd.Series) -> pd.DataFrame:
 
 def load_and_preprocess_data(data_path: str) -> pd.DataFrame:
     """
-    Loads the short chassis dataset from a CSV file and normalizes columns.
-    
-    Args:
-        data_path: The filesystem path to the CSV file.
-        
-    Returns:
-        A loaded and preprocessed pandas DataFrame.
+    Loads the short chassis dataset from a CSV file.
     """
     if not data_path:
         raise ValueError("Data path must be provided.")
@@ -148,7 +112,6 @@ def load_and_preprocess_data(data_path: str) -> pd.DataFrame:
         raise
         
     # Standardize column naming if necessary (case variations)
-    # The expected input column is 'chassisNumber'
     rename_dict = {}
     for col in df.columns:
         if col.lower() == "chassisnumber":
