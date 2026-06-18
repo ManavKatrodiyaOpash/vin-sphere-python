@@ -1,0 +1,9 @@
+model_slug,year,trim_name,price_min_aed,price_max_aed,price_avg_aed,price_raw,currency,url,scraped_at
+abarth-595-competizione,2022,1.4T I4 coupe,110000,115000,112500,"AED 110,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/abarth/abarth-595-competizione/2022/,2026-06-16T10:01:13Z
+abarth-595-competizione,2022,1.4T I4 cabriolet,120000,125000,122500,"AED 120,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/abarth/abarth-595-competizione/2022/,2026-06-16T10:01:13Z
+abarth-595-competizione,2023,1.4T I4 coupe,110000,115000,112500,"AED 110,000 - 115,000",AED,https://www.drivearabia.com/carprices/uae/abarth/abarth-595-competizione/2023/,2026-06-16T10:01:15Z
+abarth-595-competizione,2023,1.4T I4 cabriolet,120000,125000,122500,"AED 120,000 - 125,000",AED,https://www.drivearabia.com/carprices/uae/abarth/abarth-595-competizione/2023/,2026-06-16T10:01:15Z
+abarth-695,2022,1.4T I4 695 70th Anniversario,126900,139900,133400,"AED 126,900 - 139,900",AED,https://www.drivearabia.com/carprices/uae/abarth/abarth-695/2022/,2026-06-16T10:01:28Z
+abarth-695,2023,1.4T I4 695 70th Anniversario,126900,139900,133400,"AED 126,900 - 139,900",AED,https://www.drivearabia.com/carprices/uae/abarth/abarth-695/2023/,2026-06-16T10:01:29Z
+abarth-695,2024,1.4T I4 695 70th Anniversario,126900,139900,133400,"AED 126,900 - 139,900",AED,https://www.drivearabia.com/carprices/uae/abarth/abarth-695/2024/,2026-06-16T10:01:32Z
+abarth-695,2025,1.4T I4 695 70th Anniversario,126900,139900,133400,"AED 126,900 - 139,900",AED,https://www.drivearabia.com/carprices/uae/abarth/abarth-695/2025/,2026-06-16T10:01:34Z
