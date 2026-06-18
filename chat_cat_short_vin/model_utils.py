@@ -56,7 +56,9 @@ def save_model(model: Any, filepath: str) -> None:
     Saves a trained model or encoder to disk using joblib.
     """
     try:
-        os.makedirs(os.path.dirname(filepath), exist_ok=True)
+        dirname = os.path.dirname(filepath)
+        if dirname:
+            os.makedirs(dirname, exist_ok=True)
         logger.info(f"Saving using joblib to {filepath}...")
         joblib.dump(model, filepath)
         logger.info("Saved successfully.")
