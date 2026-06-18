@@ -129,11 +129,11 @@ if "last_decoded_chassis" in st.session_state:
                 ("Trim", "trim"),
                 ("Body Type", "body_type"),
                 ("Cylinders", "cylinders"),
-                ("Country of Origin", "origin"),
+                ("Origin", "origin"),
                 ("No of Passengers", "no_of_passengers"),
                 ("Regional Specs", "regional_spec"),
                 ("Color", "color"),
-                ("Weight (KG)", "weight")
+                ("Weight", "weight")
             ]
             
             conf_dict = result.get("attribute_confidences", {})
