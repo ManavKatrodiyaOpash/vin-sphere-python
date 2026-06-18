@@ -26,50 +26,70 @@ def normalize_chassis(chassis: str) -> str:
 
 def extract_features(chassis_series: pd.Series) -> pd.DataFrame:
     """
-    Extracts features from a pandas Series of chassis numbers.
-    Features extracted:
-    - pos_0 to pos_9: Individual character positions.
-    - prefix_2 to prefix_5: Substring prefixes of lengths 2, 3, 4, and 5.
-    - serial_number: The last contiguous numeric sequence converted to an integer.
-    - letters_only: All alphabetical characters extracted in order.
-    - letter_prefix: First contiguous block of alphabetical characters.
-    - first_digit_idx: Zero-indexed position of the first numeric digit.
-    - last_letter_idx: Zero-indexed position of the last alphabetical character.
-    - num_letters: Total count of letters in the chassis string.
-    - num_digits: Total count of digits in the chassis string.
-    
-    Args:
-        chassis_series: Pandas Series containing the chassis numbers.
-        
-    Returns:
-        A pandas DataFrame with engineered features.
+    Extracts features from a pandas Series of 10-character short chassis numbers.
     """
-    logger.info("Extracting features from chassis numbers...")
+    logger.info("Extracting features from 10-character chassis numbers...")
     normalized_series = chassis_series.astype(str).apply(normalize_chassis)
     
     features = {}
     
-    # 1. Character positions pos_0 to pos_9
+    # 1. Character features: char_1 to char_10
     for i in range(10):
-        features[f"pos_{i}"] = normalized_series.apply(
+        features[f"char_{i+1}"] = normalized_series.apply(
             lambda x: x[i] if len(x) > i else "?"
         )
         
-    # 2. Prefixes of length 2, 3, 4, and 5
-    features["prefix_2"] = normalized_series.apply(
-        lambda x: x[:2] if len(x) >= 2 else x.ljust(2, "?")
+    # 2. Prefix features: prefix_2 to prefix_7
+    for i in range(2, 8):
+        features[f"prefix_{i}"] = normalized_series.apply(
+            lambda x: x[:i] if len(x) >= i else x.ljust(i, "?")
+        )
+        
+    # 3. Suffix features: suffix_2 to suffix_4
+    for i in range(2, 5):
+        features[f"suffix_{i}"] = normalized_series.apply(
+            lambda x: x[-i:] if len(x) >= i else x.rjust(i, "?")
+        )
+        
+    # 4. Pattern layout & length
+    features["pattern"] = normalized_series.apply(
+        lambda x: "".join("L" if c.isalpha() else "D" if c.isdigit() else "?" for c in x)
     )
-    features["prefix_3"] = normalized_series.apply(
-        lambda x: x[:3] if len(x) >= 3 else x.ljust(3, "?")
+    features["pattern_length"] = normalized_series.apply(len)
+    
+    # 5. Count features
+    features["digit_count"] = normalized_series.apply(
+        lambda x: sum(1 for char in x if char.isdigit())
     )
-    features["prefix_4"] = normalized_series.apply(
-        lambda x: x[:4] if len(x) >= 4 else x.ljust(4, "?")
+    features["letter_count"] = normalized_series.apply(
+        lambda x: sum(1 for char in x if char.isalpha())
     )
-    features["prefix_5"] = normalized_series.apply(
-        lambda x: x[:5] if len(x) >= 5 else x.ljust(5, "?")
+    # Maintain original count columns for backward compatibility
+    features["num_letters"] = features["letter_count"]
+    features["num_digits"] = features["digit_count"]
+    
+    # 6. ASCII Features: ascii_char_1 to ascii_char_10
+    for i in range(10):
+        features[f"ascii_char_{i+1}"] = normalized_series.apply(
+            lambda x: ord(x[i]) if len(x) > i else 0
+        )
+        
+    # 7. N-Gram Features
+    features["bigram_1"] = normalized_series.apply(lambda x: x[0:2] if len(x) >= 2 else "??")
+    features["bigram_2"] = normalized_series.apply(lambda x: x[1:3] if len(x) >= 3 else "??")
+    features["bigram_3"] = normalized_series.apply(lambda x: x[2:4] if len(x) >= 4 else "??")
+    features["trigram_1"] = normalized_series.apply(lambda x: x[0:3] if len(x) >= 3 else "???")
+    features["trigram_2"] = normalized_series.apply(lambda x: x[1:4] if len(x) >= 4 else "???")
+    
+    # 8. Position Features
+    features["letter_positions"] = normalized_series.apply(
+        lambda x: ",".join(str(idx) for idx, char in enumerate(x) if char.isalpha())
+    )
+    features["digit_positions"] = normalized_series.apply(
+        lambda x: ",".join(str(idx) for idx, char in enumerate(x) if char.isdigit())
     )
     
-    # 3. Numeric serial section as an integer feature
+    # 9. Numeric serial section as an integer feature
     def extract_serial_int(val: str) -> int:
         match = re.search(r"(\d+)\D*$", val)
         if match:
@@ -78,15 +98,14 @@ def extract_features(chassis_series: pd.Series) -> pd.DataFrame:
             except ValueError:
                 return 0
         return 0
-        
     features["serial_number"] = normalized_series.apply(extract_serial_int)
     
-    # 4. Letters only sequence
+    # Letters only sequence
     features["letters_only"] = normalized_series.apply(
         lambda x: "".join(re.findall(r"[A-Z]", x))
     )
     
-    # 5. Letter prefix
+    # Letter prefix
     def get_letter_prefix(val: str) -> str:
         match = re.match(r"^[A-Z]+", val)
         if match:
@@ -95,7 +114,7 @@ def extract_features(chassis_series: pd.Series) -> pd.DataFrame:
         return match_any.group(0) if match_any else "?"
     features["letter_prefix"] = normalized_series.apply(get_letter_prefix)
     
-    # 6. Index of first digit
+    # Index of first digit
     def get_first_digit_idx(val: str) -> int:
         for idx, char in enumerate(val):
             if char.isdigit():
@@ -103,7 +122,7 @@ def extract_features(chassis_series: pd.Series) -> pd.DataFrame:
         return -1
     features["first_digit_idx"] = normalized_series.apply(get_first_digit_idx)
     
-    # 7. Index of last letter
+    # Index of last letter
     def get_last_letter_idx(val: str) -> int:
         last_idx = -1
         for idx, char in enumerate(val):
@@ -111,14 +130,6 @@ def extract_features(chassis_series: pd.Series) -> pd.DataFrame:
                 last_idx = idx
         return last_idx
     features["last_letter_idx"] = normalized_series.apply(get_last_letter_idx)
-    
-    # 8. Number of letters and digits
-    features["num_letters"] = normalized_series.apply(
-        lambda x: sum(1 for char in x if char.isalpha())
-    )
-    features["num_digits"] = normalized_series.apply(
-        lambda x: sum(1 for char in x if char.isdigit())
-    )
     
     df_features = pd.DataFrame(features)
     logger.info(f"Feature extraction complete. Shape: {df_features.shape}")

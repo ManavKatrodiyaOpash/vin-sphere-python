@@ -23,6 +23,50 @@ if str(chat_cat_path) not in sys.path:
 
 from chat_cat.predict import decode_vin
 
+def decode_any_vin(vin_str):
+    length = len(vin_str)
+    if length == 17:
+        return decode_vin(vin_str, model_dir=MODEL_DIR)
+    elif length == 11:
+        from chat_cat_short_vin_11.predict import predict_vehicle as predict_11
+        import numpy as np
+        model_dir_11 = str(project_root / "chat_cat_short_vin_11" / "models")
+        res_11 = predict_11(vin_str, model_dir=model_dir_11)
+        
+        # Calculate overall confidence
+        conf_keys = ["make_confidence", "model_confidence", "year_confidence", "trim_confidence", 
+                     "body_type_confidence", "origin_confidence", "regional_specs_confidence"]
+        avg_conf = np.mean([res_11.get(k, 0.0) for k in conf_keys])
+        
+        mapped_res = {
+            "make": res_11.get("make"),
+            "model": res_11.get("model"),
+            "trim": res_11.get("trim"),
+            "body_type": res_11.get("body_type"),
+            "year": res_11.get("year"),
+            "cylinders": "UNKNOWN",
+            "origin": res_11.get("origin"),
+            "no_of_passengers": "UNKNOWN",
+            "weight": res_11.get("weight"),
+            "regional_spec": res_11.get("regional_specs"),
+            "attribute_confidences": {
+                "make": res_11.get("make_confidence", 0.0),
+                "model": res_11.get("model_confidence", 0.0),
+                "trim": res_11.get("trim_confidence", 0.0),
+                "body_type": res_11.get("body_type_confidence", 0.0),
+                "year": res_11.get("year_confidence", 0.0),
+                "cylinders": 0.0,
+                "origin": res_11.get("origin_confidence", 0.0),
+                "no_of_passengers": 0.0,
+                "weight": res_11.get("weight_confidence", 0.0),
+                "regional_spec": res_11.get("regional_specs_confidence", 0.0)
+            },
+            "confidence": float(avg_conf)
+        }
+        return mapped_res
+    else:
+        raise ValueError(f"Invalid VIN/Chassis length: {length}. Must be 11 or 17 characters.")
+
 # Define fallback model and lookup paths
 MODEL_DIR = str(project_root / "chat_cat" / "models")
 LOOKUP_DATA_PATH = project_root / "lookup_data.csv"
@@ -56,8 +100,8 @@ st.title("VIN Decoder (ML Model)")
 
 # User VIN input panel
 vin_input = st.text_input(
-    "Enter a 17-character vehicle VIN to decode:",
-    placeholder="e.g. JTFHX02POF0099797",
+    "Enter a 17-character vehicle VIN or 11-character chassis number to decode:",
+    placeholder="e.g. JTFHX02POF0099797 or EL500004138",
     max_chars=17,
 ).strip().upper()
 
@@ -340,13 +384,13 @@ def get_depreciated_values_by_file(result: dict) -> dict:
 
 # Verification safety check
 if st.button("Decode", use_container_width=True):
-    if len(vin_input) != 17:
-        st.error("Invalid input: A standard vehicle VIN must be exactly 17 characters.")
+    if len(vin_input) not in [11, 17]:
+        st.error("Invalid input: Input must be exactly 17 characters for a standard VIN or 11 characters for a short chassis.")
     else:
         with st.spinner("Decoding..."):
             try:
                 # Perform prediction using fallback model
-                result = decode_vin(vin_input, model_dir=MODEL_DIR)
+                result = decode_any_vin(vin_input)
 
                 # Format prediction results into a table
                 conf_dict = result.get("attribute_confidences", {})
