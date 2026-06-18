@@ -13,7 +13,6 @@ from difflib import SequenceMatcher
 
 import numpy as np
 import pandas as pd
-import shap
 
 from chat_cat_short_vin_11.feature_engineering import normalize_chassis, extract_features
 from chat_cat_short_vin_11.model_utils import load_model
@@ -252,6 +251,7 @@ def explain_prediction(chassis_number: str, target: str = "make", model_dir: str
     1. Finds closest matching prefixes in the training set.
     2. Calculates local feature attributions using SHAP (with fallbacks).
     """
+    import shap
     normalized = normalize_chassis(chassis_number)
     if not normalized:
         raise ValueError("Invalid chassis number provided.")
