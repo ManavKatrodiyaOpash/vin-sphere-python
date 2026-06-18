@@ -45,6 +45,8 @@ COLUMN_MAPPING = {
     "year": "year",
     "origin": "origin",
     "regional_specs": "regionalSpec",
+    "cylinders": "cylinders",
+    "no_of_passengers": "noOfPassengers",
     "color": "color",
     "weight": "weightInKg"
 }
@@ -58,12 +60,14 @@ TARGET_CONFIGS = {
     "body_type": "classification",
     "origin": "classification",
     "regional_specs": "classification",
+    "cylinders": "classification",      # Number of cylinders (e.g., 4, 6, 8)
+    "no_of_passengers": "classification",  # Number of passengers (e.g., 5, 7, 8)
     "color": "classification",
     "weight": "regression"              # Weight remains regression
 }
 
 # The hierarchical order of targets
-HIERARCHICAL_ORDER = ["make", "model", "year", "trim", "body_type", "origin", "regional_specs", "color", "weight"]
+HIERARCHICAL_ORDER = ["make", "model", "year", "trim", "body_type", "origin", "regional_specs", "cylinders", "no_of_passengers", "color", "weight"]
 
 def instantiate_candidate_model(algo_name: str, target_type: str, num_classes: int = 2) -> Any:
     """
@@ -282,6 +286,14 @@ def main():
         elif target_name == "regional_specs":
             X_features_raw["make"] = target_df["make"]
             X_features_raw["model"] = target_df["model"]
+        elif target_name == "cylinders":
+            X_features_raw["make"] = target_df["make"]
+            X_features_raw["model"] = target_df["model"]
+            X_features_raw["body_type"] = target_df["bodyType"]
+        elif target_name == "no_of_passengers":
+            X_features_raw["make"] = target_df["make"]
+            X_features_raw["model"] = target_df["model"]
+            X_features_raw["body_type"] = target_df["bodyType"]
             
         # Train/Test disjoint splits
         tr_mask = target_df["prefix5"].isin(train_prefixes)
@@ -476,6 +488,8 @@ def main():
     pred_body_types = []
     pred_origins = []
     pred_regional_specs = []
+    pred_cylinders = []
+    pred_passengers = []
     
     # Decode one-by-one simulating deployment flow
     for idx, row in hier_test_df.iterrows():
@@ -605,6 +619,46 @@ def main():
         rs_val = target_encoders["regional_specs"].inverse_transform(rs_pred_idx)
         pred_regional_specs.append(rs_val)
         
+        # 8. Cylinders
+        if "cylinders" in best_estimators:
+            X_in_cyl = X_in.copy()
+            X_in_cyl["make"] = make_val
+            X_in_cyl["model"] = model_val
+            X_in_cyl["body_type"] = bt_val
+            sim_eng_cyl = similarity_engines["cylinders"]
+            X_sim_cyl = sim_eng_cyl.transform(pd.Series([chassis]))
+            X_all_cyl = pd.concat([X_in_cyl.reset_index(drop=True), X_sim_cyl.reset_index(drop=True)], axis=1)
+            X_enc_cyl = X_all_cyl.copy()
+            cat_cols_cyl = [col for col in X_all_cyl.columns if X_all_cyl[col].dtype == object or isinstance(X_all_cyl[col].iloc[0], str)]
+            for col in cat_cols_cyl:
+                X_enc_cyl[col] = X_enc_cyl[col].astype(str)
+            X_enc_cyl[cat_cols_cyl] = ordinal_encoders["cylinders"].transform(X_enc_cyl[cat_cols_cyl])
+            cyl_pred_idx = best_estimators["cylinders"].predict(X_enc_cyl)[0]
+            if isinstance(cyl_pred_idx, (np.ndarray, list)):
+                cyl_pred_idx = cyl_pred_idx[0]
+            cyl_val = target_encoders["cylinders"].inverse_transform(cyl_pred_idx)
+            pred_cylinders.append(cyl_val)
+        
+        # 9. No of Passengers
+        if "no_of_passengers" in best_estimators:
+            X_in_pax = X_in.copy()
+            X_in_pax["make"] = make_val
+            X_in_pax["model"] = model_val
+            X_in_pax["body_type"] = bt_val
+            sim_eng_pax = similarity_engines["no_of_passengers"]
+            X_sim_pax = sim_eng_pax.transform(pd.Series([chassis]))
+            X_all_pax = pd.concat([X_in_pax.reset_index(drop=True), X_sim_pax.reset_index(drop=True)], axis=1)
+            X_enc_pax = X_all_pax.copy()
+            cat_cols_pax = [col for col in X_all_pax.columns if X_all_pax[col].dtype == object or isinstance(X_all_pax[col].iloc[0], str)]
+            for col in cat_cols_pax:
+                X_enc_pax[col] = X_enc_pax[col].astype(str)
+            X_enc_pax[cat_cols_pax] = ordinal_encoders["no_of_passengers"].transform(X_enc_pax[cat_cols_pax])
+            pax_pred_idx = best_estimators["no_of_passengers"].predict(X_enc_pax)[0]
+            if isinstance(pax_pred_idx, (np.ndarray, list)):
+                pax_pred_idx = pax_pred_idx[0]
+            pax_val = target_encoders["no_of_passengers"].inverse_transform(pax_pred_idx)
+            pred_passengers.append(pax_val)
+        
     # Evaluate final predicted sequence metrics
     true_makes = [str(x).upper().strip() if pd.notna(x) else "UNKNOWN" for x in hier_test_df["make"]]
     true_models = [str(x).upper().strip() if pd.notna(x) else "UNKNOWN" for x in hier_test_df["model"]]
@@ -613,6 +667,8 @@ def main():
     true_body_types = [str(x).upper().strip() if pd.notna(x) else "UNKNOWN" for x in hier_test_df["bodyType"]]
     true_origins = [str(x).upper().strip() if pd.notna(x) else "UNKNOWN" for x in hier_test_df["origin"]]
     true_regional_specs = [str(x).upper().strip() if pd.notna(x) else "UNKNOWN" for x in hier_test_df["regionalSpec"]]
+    true_cylinders = [str(int(float(x))) if pd.notna(x) and str(x).strip() not in ["", "nan"] else "UNKNOWN" for x in hier_test_df["cylinders"]]
+    true_passengers = [str(int(float(x))) if pd.notna(x) and str(x).strip() not in ["", "nan"] else "UNKNOWN" for x in hier_test_df["noOfPassengers"]]
     
     logger.info("Hierarchical Evaluation metrics on Unseen Prefix Holdout:")
     logger.info(f" - Make Accuracy: {accuracy_score(true_makes, pred_makes):.4f}")
@@ -622,6 +678,10 @@ def main():
     logger.info(f" - Body Type Accuracy: {accuracy_score(true_body_types, pred_body_types):.4f}")
     logger.info(f" - Origin Accuracy: {accuracy_score(true_origins, pred_origins):.4f}")
     logger.info(f" - Regional Specs Accuracy: {accuracy_score(true_regional_specs, pred_regional_specs):.4f}")
+    if pred_cylinders:
+        logger.info(f" - Cylinders Accuracy: {accuracy_score(true_cylinders, pred_cylinders):.4f}")
+    if pred_passengers:
+        logger.info(f" - No of Passengers Accuracy: {accuracy_score(true_passengers, pred_passengers):.4f}")
 
     # Instantiate and save the unified pipeline
     from chat_cat_short_vin.vin_decoder import VINDecoder

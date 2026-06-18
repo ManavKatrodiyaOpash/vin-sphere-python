@@ -1,3 +1,12 @@
+import sys
+from pathlib import Path
+_parent = Path(__file__).resolve().parent.parent
+if str(_parent) not in sys.path:
+    sys.path.append(str(_parent))
+_self = Path(__file__).resolve().parent
+if str(_self) not in sys.path:
+    sys.path.insert(0, str(_self))
+
 import os
 import argparse
 import logging
@@ -15,8 +24,8 @@ from lightgbm import LGBMClassifier, LGBMRegressor
 from xgboost import XGBClassifier, XGBRegressor
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 
-from feature_engineering import load_and_preprocess_data, extract_features
-from model_utils import RobustLabelEncoder, save_model, load_model
+from chat_cat_short_vin_11.feature_engineering import load_and_preprocess_data, extract_features
+from chat_cat_short_vin_11.model_utils import RobustLabelEncoder, save_model, load_model
 
 # Configure logging
 logging.basicConfig(
@@ -34,6 +43,8 @@ COLUMN_MAPPING = {
     "body_type": "bodyType",
     "origin": "origin",
     "regional_specs": "regionalSpec",
+    "cylinders": "cylinders",
+    "no_of_passengers": "noOfPassengers",
     "color": "color",
     "weight": "weightInKg"
 }
@@ -47,12 +58,14 @@ TARGET_CONFIGS = {
     "body_type": "classification",
     "origin": "classification",
     "regional_specs": "classification",
+    "cylinders": "classification",      # Number of cylinders (e.g., 4, 6, 8)
+    "no_of_passengers": "classification",  # Number of passengers (e.g., 5, 7, 8)
     "color": "classification",
     "weight": "regression"              # Weight as regression
 }
 
 # The order in which hierarchical targets depend on each other
-HIERARCHICAL_ORDER = ["make", "model", "year", "trim", "body_type", "origin", "regional_specs", "color", "weight"]
+HIERARCHICAL_ORDER = ["make", "model", "year", "trim", "body_type", "origin", "regional_specs", "cylinders", "no_of_passengers", "color", "weight"]
 
 def instantiate_candidate_model(algo_name: str, target_type: str, num_classes: int = 2) -> Any:
     """
@@ -233,6 +246,14 @@ def main():
             X_features_raw["make"] = target_df["make"]
             X_features_raw["model"] = target_df["model"]
             X_features_raw["year"] = target_df["year"].astype(str)
+        elif target_name == "cylinders":
+            X_features_raw["make"] = target_df["make"]
+            X_features_raw["model"] = target_df["model"]
+            X_features_raw["body_type"] = target_df["bodyType"]
+        elif target_name == "no_of_passengers":
+            X_features_raw["make"] = target_df["make"]
+            X_features_raw["model"] = target_df["model"]
+            X_features_raw["body_type"] = target_df["bodyType"]
             
         # Train/Test prefix split masks
         tr_mask = target_df["prefix5"].isin(train_prefixes)

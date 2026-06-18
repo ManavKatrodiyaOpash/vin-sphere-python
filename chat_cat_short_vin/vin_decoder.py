@@ -34,7 +34,7 @@ class VINDecoder:
             self.target_encoders = encoders_map.get("target_encoders", {})
             self.similarity_engines = encoders_map.get("similarity_engines", {})
             
-            targets = ["make", "model", "trim", "body_type", "year", "origin", "regional_specs", "color", "weight"]
+            targets = ["make", "model", "trim", "body_type", "year", "origin", "regional_specs", "cylinders", "no_of_passengers", "color", "weight"]
             for t in targets:
                 safe_name = t.replace(" ", "_")
                 model_path = os.path.join(model_dir, f"{safe_name}_model.pkl")
@@ -221,12 +221,18 @@ class VINDecoder:
         else:
             confidences["regional_specs"] = 1.0
             
-        # Color & Weight
-        for target in ["color", "weight"]:
+        # Color, Weight, Cylinders & No_of_Passengers
+        for target in ["color", "weight", "cylinders", "no_of_passengers"]:
             if target in self.models:
                 sim_eng = self.similarity_engines[target]
                 X_sim = sim_eng.transform(pd.Series([normalized]))
-                X_all = pd.concat([X_in.reset_index(drop=True), X_sim.reset_index(drop=True)], axis=1)
+                # Build features with make/model/body_type context for cylinders/passengers
+                X_base = X_in.copy()
+                if target in ["cylinders", "no_of_passengers"]:
+                    X_base["make"] = predictions["make"]
+                    X_base["model"] = predictions["model"]
+                    X_base["body_type"] = predictions["body_type"]
+                X_all = pd.concat([X_base.reset_index(drop=True), X_sim.reset_index(drop=True)], axis=1)
                 X_enc = X_all.copy()
                 cat_cols = [col for col in X_all.columns if X_all[col].dtype == object or isinstance(X_all[col].iloc[0], str)]
                 for col in cat_cols:
@@ -240,19 +246,45 @@ class VINDecoder:
                 if target == "weight":
                     predictions["weight"] = float(np.round(pred_val, 2))
                     confidences["weight"] = 1.0
-                else:
+                elif target == "color":
                     predictions["color"] = str(self.target_encoders["color"].inverse_transform(pred_val))
                     if hasattr(self.models["color"], "predict_proba"):
                         confidences["color"] = float(np.max(self.models["color"].predict_proba(X_enc)[0]))
                     else:
                         confidences["color"] = 1.0
+                elif target == "cylinders":
+                    cyl_val = self.target_encoders["cylinders"].inverse_transform(pred_val)
+                    try:
+                        predictions["cylinders"] = str(int(float(str(cyl_val))))
+                    except (ValueError, TypeError):
+                        predictions["cylinders"] = str(cyl_val)
+                    if hasattr(self.models["cylinders"], "predict_proba"):
+                        confidences["cylinders"] = float(np.max(self.models["cylinders"].predict_proba(X_enc)[0]))
+                    else:
+                        confidences["cylinders"] = 1.0
+                elif target == "no_of_passengers":
+                    pax_val = self.target_encoders["no_of_passengers"].inverse_transform(pred_val)
+                    try:
+                        predictions["no_of_passengers"] = str(int(float(str(pax_val))))
+                    except (ValueError, TypeError):
+                        predictions["no_of_passengers"] = str(pax_val)
+                    if hasattr(self.models["no_of_passengers"], "predict_proba"):
+                        confidences["no_of_passengers"] = float(np.max(self.models["no_of_passengers"].predict_proba(X_enc)[0]))
+                    else:
+                        confidences["no_of_passengers"] = 1.0
             else:
                 if target == "weight":
                     predictions["weight"] = 0.0
                     confidences["weight"] = 0.0
-                else:
+                elif target == "color":
                     predictions["color"] = "UNKNOWN"
                     confidences["color"] = 0.0
+                elif target == "cylinders":
+                    predictions["cylinders"] = "UNKNOWN"
+                    confidences["cylinders"] = 0.0
+                elif target == "no_of_passengers":
+                    predictions["no_of_passengers"] = "UNKNOWN"
+                    confidences["no_of_passengers"] = 0.0
 
         output = {
             "make": predictions["make"],
@@ -262,6 +294,8 @@ class VINDecoder:
             "body_type": predictions["body_type"],
             "origin": predictions["origin"],
             "regional_specs": predictions["regional_specs"],
+            "cylinders": predictions.get("cylinders", "UNKNOWN"),
+            "no_of_passengers": predictions.get("no_of_passengers", "UNKNOWN"),
             "color": predictions["color"],
             "weight": predictions["weight"],
             "confidence": {
@@ -272,6 +306,8 @@ class VINDecoder:
                 "body_type": round(confidences.get("body_type", 0.0), 4),
                 "origin": round(confidences.get("origin", 0.0), 4),
                 "regional_specs": round(confidences.get("regional_specs", 0.0), 4),
+                "cylinders": round(confidences.get("cylinders", 0.0), 4),
+                "no_of_passengers": round(confidences.get("no_of_passengers", 0.0), 4),
                 "color": round(confidences.get("color", 0.0), 4),
                 "weight": round(confidences.get("weight", 0.0), 4)
             }
