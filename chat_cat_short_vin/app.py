@@ -13,8 +13,11 @@ import matplotlib.pyplot as plt
 
 # Resolve project path and append to sys.path for imports
 project_root = Path(__file__).resolve().parent.parent
+chat_cat_short_vin_path = project_root / "chat_cat_short_vin"
 if str(project_root) not in sys.path:
     sys.path.append(str(project_root))
+if str(chat_cat_short_vin_path) not in sys.path:
+    sys.path.append(str(chat_cat_short_vin_path))
 
 from chat_cat_short_vin.predict import predict_vehicle as predict_10, explain_prediction as explain_10
 from chat_cat_short_vin_11.predict import predict_vehicle as predict_11, explain_prediction as explain_11
