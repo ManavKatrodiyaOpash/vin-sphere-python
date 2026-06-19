@@ -1,5 +1,6 @@
 import os
 import json
+from pathlib import Path
 
 
 # =====================================================
@@ -52,11 +53,9 @@ def load_rules(filename):
 # =====================================================
 
 def load_brand_patterns(brand):
-    try:
-        path = f"../vds_jsons_all_brands/{brand}_vds_patterns.json"
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        path = f"vds_jsons_all_brands/{brand}_vds_patterns.json"
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
+    base_dir = Path(__file__).resolve().parent.parent
+
+    path = base_dir / "vds_jsons_all_brands" / f"{brand}_vds_patterns.json"
+
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
